@@ -53,7 +53,7 @@ talishar-cn/
 │   │   ├── t2-equipment.json       ← 装备（439张）
 │   │   ├── t3-*.json               ← 按职业/属性分批
 │   │   └── t4-remaining.json       ← 特殊格式卡
-│   ├── glossary.zh-CN.json         ← 简体中文术语表（385条：83 个英雄基础名 + 100 个异能关键词释义）
+│   ├── glossary.zh-CN.json         ← 简体中文术语表（302条，含 100 个异能关键词释义）
 │   └── talishar-card-aliases.json  ← 印刷ID → 卡牌Slug别名表
 ├── dist/data/                      ← 构建产物（发布到数据仓库）
 │   ├── manifest.json
