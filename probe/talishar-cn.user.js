@@ -30,7 +30,7 @@
         return String(stored).trim().replace(/\/+$/, '');
       }
     } catch (_) { /* localStorage may be unavailable */ }
-    return LOCAL_DATA_BASE_URL;
+    return PRODUCTION_DATA_BASE_URL;
   }
 
   // --- Core helpers -------------------------------------------------------
