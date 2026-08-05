@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.8
+// @version      0.7.9
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
@@ -801,7 +801,9 @@
     // when debug mode is on (menu item 调试模式).
     var debugState = {
       anchorUrls: [], anchorHints: [], anchorKey: null,
+      anchorTag: '', anchorClass: '', anchorData: {},
       previewUrl: null, previewKey: null,
+      previewStatus: 'searching', // 'searching' | 'none' | 'found'
     };
     var keywordsData = null;
     // Preload the tiny keyword library once; a very first hover that happens
@@ -819,6 +821,7 @@
     // It appears a beat after the pointerover, so we poll for it briefly.
     var currentPreviewImg = null;
     var previewSearchTimer = null;
+    var previewResolveDone = false;
 
     // --- Panel creation -----------------------------------------------------
 
@@ -932,13 +935,25 @@
       if (typeof setTimeout !== 'function') return;
       previewSearchTimer = setTimeout(function () {
         previewSearchTimer = null;
-        if (currentPreviewImg || !currentAnchor) return;
-        var img = findCardPreviewImage(doc, root);
+        if (!currentAnchor) return;
+        // Use a preview already located by ensurePreviewAnchor (during a
+        // reposition) so resolveCardFromPreview still fires exactly once.
+        var img = currentPreviewImg || findCardPreviewImage(doc, root);
         if (img) {
+          var firstResolve = !previewResolveDone;
           currentPreviewImg = img;
+          previewResolveDone = true;
+          if (isDebugEnabled()) {
+            debugState.previewStatus = 'found';
+            renderDebugPanel();
+          }
+          if (firstResolve) resolveCardFromPreview(img);
           repositionPanel();
-          resolveCardFromPreview(img);
         } else {
+          if (isDebugEnabled()) {
+            debugState.previewStatus = 'searching';
+            renderDebugPanel();
+          }
           schedulePreviewSearch(); // preview not up yet — retry shortly
         }
       }, 300);
@@ -969,6 +984,39 @@
       if (remoteLoader) {
         remoteLoader.loadCardForElement(img).then(apply).catch(function () { /* keep anchor card */ });
       }
+    }
+
+    // Renders (or live-updates) the debug trace section at the bottom of the
+    // tooltip panel, so resolution diagnostics are visible without DevTools.
+    function renderDebugPanel() {
+      if (!isDebugEnabled()) return;
+      var dbg = (typeof panel.querySelector === 'function')
+        ? panel.querySelector('.fab-cn-debug')
+        : null;
+      if (!dbg) {
+        dbg = doc.createElement('div');
+        dbg.className = 'fab-cn-debug';
+        dbg.style.cssText = [
+          'margin-top:6px;padding-top:4px;',
+          'border-top:1px dashed rgba(255,255,255,.25);',
+          'font-size:10px;line-height:1.4;',
+          'color:rgba(255,255,255,.6);white-space:pre-wrap;',
+        ].join('');
+        panel.appendChild(dbg);
+      }
+      var dataKeys = Object.keys(debugState.anchorData || {});
+      dbg.textContent = [
+        '元素: ' + (debugState.anchorTag || '(无)') + (debugState.anchorClass ? ' .' + debugState.anchorClass : ''),
+        '图: ' + (debugState.anchorUrls.join(', ') || '(无)'),
+        'alt: ' + (debugState.anchorHints.join(', ') || '(无)'),
+        'data: ' + (dataKeys.length
+          ? dataKeys.map(function (k) { return k + '=' + debugState.anchorData[k].join(','); }).join('; ')
+          : '(无)'),
+        '命中: ' + (debugState.anchorKey || '(无)'),
+        '预览: ' + (debugState.previewStatus === 'found'
+          ? (debugState.previewUrl || '(有图)') + ' → ' + (debugState.previewKey || '(未解析)')
+          : debugState.previewStatus),
+      ].join('\n');
     }
 
     function clearPreviewAnchor() {
@@ -1064,24 +1112,7 @@
       panel.style.display = 'block';
       panel.style.visibility = 'hidden';
       renderCardPanel(doc, panel, card, keywordsData);
-      if (isDebugEnabled()) {
-        var dbg = doc.createElement('div');
-        dbg.className = 'fab-cn-debug';
-        dbg.style.cssText = [
-          'margin-top:6px;padding-top:4px;',
-          'border-top:1px dashed rgba(255,255,255,.25);',
-          'font-size:10px;line-height:1.4;',
-          'color:rgba(255,255,255,.6);white-space:pre-wrap;',
-        ].join('');
-        dbg.textContent = [
-          '图: ' + (debugState.anchorUrls.join(', ') || '(无)'),
-          'alt: ' + (debugState.anchorHints.join(', ') || '(无)'),
-          '命中: ' + (debugState.anchorKey || '(无)'),
-          '预览图: ' + (debugState.previewUrl || '(未找到)'),
-          '预览命中: ' + (debugState.previewKey || '(无)'),
-        ].join('\n');
-        panel.appendChild(dbg);
-      }
+      renderDebugPanel();
       if (settings.panelMode === 'fixed') {
         panel.insertBefore(dragHandle, panel.firstChild);
       }
@@ -1547,13 +1578,18 @@
       // A new hover targets a (possibly new) full-card preview — drop any
       // cached reference so we re-locate it.
       currentPreviewImg = null;
+      previewResolveDone = false;
       if (isDebugEnabled()) {
         var hoverCand = collectCandidates(anchor);
         debugState.anchorUrls = hoverCand.imageUrls;
         debugState.anchorHints = hoverCand.textHints;
+        debugState.anchorTag = String(anchor && anchor.tagName || '').toLowerCase();
+        debugState.anchorClass = String(anchor && anchor.className || '');
+        debugState.anchorData = hoverCand.attributes;
         debugState.anchorKey = null;
         debugState.previewUrl = null;
         debugState.previewKey = null;
+        debugState.previewStatus = 'searching';
       }
       if (cardData) {
         var match = lookupCard(anchor, cardData);
