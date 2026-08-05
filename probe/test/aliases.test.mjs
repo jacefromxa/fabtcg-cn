@@ -119,19 +119,24 @@ test('normalizeStem strips color, cropped, and printing-variant suffixes', () =>
   assert.equal(normalizeStem('evo_beta_base_chest_equip'), 'evo_beta_base_chest');
 });
 
-test('card-square URL resolves by its own slug, before any (possibly wrong) alt', () => {
-  // images.talishar.net card squares append an "_equip" type marker. The image
-  // slug must win over a wrong alt so hovering an Arcbane Grasp square can never
-  // surface another card's translation.
+test('transform cards resolve by card name, not the transformed image', () => {
+  // Adaptive Alpha Mold transforms into other equipment; Talishar shows the
+  // transformed art (arcbane_grasp_blue_equip) while the card identity stays
+  // the original name. The name must win so the tooltip shows the card's 本体.
   const keys = keysFor(
     fakeElement('https://images.talishar.net/public/cardsquares/english/arcbane_grasp_blue_equip.webp', 'Adaptive Alpha Mold'),
     {},
   );
-  assert.equal(keys[0], 'arcbane_grasp', 'image slug should be the first candidate: ' + JSON.stringify(keys));
-  const imageRank = keys.indexOf('arcbane_grasp');
-  const altRank = keys.indexOf('adaptive_alpha_mold');
-  assert.ok(imageRank >= 0 && imageRank < altRank,
-    'image slug must outrank a wrong alt (image at ' + imageRank + ', alt at ' + altRank + '): ' + JSON.stringify(keys));
+  assert.equal(keys[0], 'adaptive_alpha_mold', 'card name should win over the transformed image: ' + JSON.stringify(keys));
+});
+
+test('card-square URL with no name resolves by its stripped image slug', () => {
+  const keys = keysFor(
+    fakeElement('https://images.talishar.net/public/cardsquares/english/arcbane_grasp_blue_equip.webp', null),
+    {},
+  );
+  assert.ok(keys.includes('arcbane_grasp'),
+    'stripped image slug should resolve when no name is present: ' + JSON.stringify(keys));
 });
 
 test('resolveCardKeys resolves a printing id with a -T variant suffix', () => {

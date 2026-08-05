@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.3
+// @version      0.7.4
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
@@ -290,10 +290,14 @@
 
   // Build an ordered list of candidate database keys for a hovered element.
   // Priority:
-  //   1. Image-stem aliases (FaBrary printing ids + Talishar transliterated
-  //      stems), cross-checked against alt/title text
-  //   2. alt/title card-name text -> slug
-  //   3. image filename tokens (Talishar slug-style names)
+  //   1. alt/title card-name text -> slug. The card name is the card's
+  //      identity; for transform cards (e.g. Adaptive Alpha Mold) the image
+  //      shows the current transformed form while the card itself stays the
+  //      original, so the name must win.
+  //   2. Image-stem aliases (FaBrary printing ids + Talishar transliterated
+  //      stems / slug stems), cross-checked against alt/title text. Used when
+  //      the name is missing or fails to resolve.
+  //   3. image filename tokens (Talishar slug-style names), last resort.
   function resolveCardKeys(candidate, aliases) {
     const keys = [];
     const push = (key) => {
@@ -304,10 +308,13 @@
       .map(slugifyCardName)
       .find((slug) => slug && slug.length > 1);
 
-    // 1. Image-stem aliases. Ambiguous ids keep an array of candidates; the
-    // alt name picks the right one. Also, Talishar names pitched / variant
-    // images with suffixes ("ice_quake_red", "MPW010-T"), so the normalized
-    // base is a direct candidate key too.
+    // 1. Card-name text (alt / title) as slug — the card's identity.
+    if (altSlug) push(altSlug);
+
+    // 2. Image-stem aliases. Ambiguous ids keep an array of candidates; the
+    // alt name picks the right one. Also, Talishar names pitched / variant /
+    // card-square images with suffixes ("ice_quake_red", "MPW010-T",
+    // "arcbane_grasp_blue_equip"), so the normalized base is a candidate too.
     for (const url of candidate.imageUrls) {
       const stem = extractPrintingId(url);
       if (!stem) continue;
@@ -325,9 +332,6 @@
         for (const target of (matched.length ? matched : targets)) push(target.slug);
       }
     }
-
-    // 2. Card-name text (alt / title) as slug.
-    if (altSlug) push(altSlug);
 
     // 3. Image filename tokens (Talishar slug-style names).
     for (const url of candidate.imageUrls) {
@@ -1112,6 +1116,18 @@
       }
     }
 
+    // Visible debug toggle (menu item). When on, every hover logs its image
+    // URL / alt / candidate keys / matched card to the browser console, so a
+    // mis-resolved card can be diagnosed from the page directly.
+    function toggleDebugMode() {
+      var on = isDebugEnabled();
+      try {
+        if (on) root.localStorage.removeItem('fab-cn-debug');
+        else root.localStorage.setItem('fab-cn-debug', '1');
+      } catch (_) { /* localStorage unavailable */ }
+      showModeToast(on ? '调试模式已关闭' : '调试模式已开启 — 悬停卡牌，按 F12 查看控制台');
+    }
+
     // Initialize mode from saved settings
     if (settings.panelMode === 'fixed' && settings.panelPosition) {
       panel.style.left = settings.panelPosition.left + 'px';
@@ -1458,6 +1474,7 @@
       if (typeof GM_registerMenuCommand === 'function') {
         GM_registerMenuCommand('切换固定/跟随模式', togglePanelMode);
         GM_registerMenuCommand('设置样式…', openSettingsDialog);
+        GM_registerMenuCommand('调试模式', toggleDebugMode);
       }
     } catch (_) { /* GM menu not available */ }
 

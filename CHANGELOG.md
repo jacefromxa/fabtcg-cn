@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.7.4（2026-08-05）
+
+### 新增
+
+- **可见的调试开关**：插件菜单新增「调试模式」，点一下开启（浮窗提示），再悬停卡牌按 F12 看控制台即可看到解析轨迹（图片 URL / alt / 候选 keys / 命中卡），不再需要手敲 localStorage
+
+### 修复
+
+- **变身卡显示本体（修正 v0.7.2 的方向）**：「自适应阿尔法模组」等卡有变身机制，会变成其他装备牌——Talishar 界面盖着的是变身后的图（如 `arcbane_grasp_blue_equip`），但卡牌本体仍是原名。解析改为**卡名（alt）优先**：alt 是卡牌本体身份，图像只是当前外观。`_equip` 剥除保留，仅在卡名缺失时兜底到图像 slug。此前的"Evo Beta / Arcbane Grasp 悬停显示 Adaptive"实为变身卡正确显示本体，而非抓错
+
 ## v0.7.3（2026-08-05）
 
 ### 新增
@@ -10,7 +20,8 @@
 
 ### 修复
 
-- **Talishar card-square 装备图交叉识别**：`images.talishar.net` 的卡片方块图在 slug 后追加类型标记（如 `arcbane_grasp_blue_equip`），`normalizeStem` 之前未剥掉 `_equip`，导致图像自身无法解析、只能依赖 alt 文案；alt 有误时（如悬停 Arcbane Grasp 却显示「自适应α模组」）交叉到其他卡。现已剥掉 `_equip` 后缀，图像 slug 优先于 alt 解析，Evo Beta Base Chest / Arcbane Grasp 两例均修复
+- **Talishar card-square 装备图识别**：`images.talishar.net` 的卡片方块图在 slug 后追加类型标记（如 `arcbane_grasp_blue_equip`），`normalizeStem` 之前未剥掉 `_equip`，导致图像自身无法解析、只能依赖 alt。现已剥掉 `_equip` 后缀，使图像可作为卡名缺失时的兜底信号
+  - **注（v0.7.4 修正）**：解析改为卡名优先；本条目最初的"图像优先于 alt"理解不成立，见 v0.7.4 修复说明
 
 ## v0.7.1（2026-08-05）
 
