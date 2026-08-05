@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.7
+// @version      0.7.8
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
@@ -797,6 +797,12 @@
     var currentAnchor = null;
     var currentCard = null;
     var currentCardKey = null;
+    // Debug-only resolution trace, shown at the bottom of the tooltip panel
+    // when debug mode is on (menu item 调试模式).
+    var debugState = {
+      anchorUrls: [], anchorHints: [], anchorKey: null,
+      previewUrl: null, previewKey: null,
+    };
     var keywordsData = null;
     // Preload the tiny keyword library once; a very first hover that happens
     // before it arrives gets re-rendered as soon as it loads.
@@ -945,8 +951,13 @@
     // it and follow it — the tooltip shows the same card the native UI previews.
     function resolveCardFromPreview(img) {
       var serial = hoverSerial;
+      if (isDebugEnabled()) {
+        var pcand = collectCandidates(img);
+        debugState.previewUrl = pcand.imageUrls[0] || '';
+      }
       var apply = function (match) {
         if (serial !== hoverSerial) return; // a new hover started meanwhile
+        if (isDebugEnabled()) debugState.previewKey = match ? match.key : null;
         if (!match || !currentAnchor) return;
         if (currentCardKey && match.key === currentCardKey) return; // same card — keep it
         presentCard(currentAnchor, match.card, match.key);
@@ -1053,6 +1064,24 @@
       panel.style.display = 'block';
       panel.style.visibility = 'hidden';
       renderCardPanel(doc, panel, card, keywordsData);
+      if (isDebugEnabled()) {
+        var dbg = doc.createElement('div');
+        dbg.className = 'fab-cn-debug';
+        dbg.style.cssText = [
+          'margin-top:6px;padding-top:4px;',
+          'border-top:1px dashed rgba(255,255,255,.25);',
+          'font-size:10px;line-height:1.4;',
+          'color:rgba(255,255,255,.6);white-space:pre-wrap;',
+        ].join('');
+        dbg.textContent = [
+          '图: ' + (debugState.anchorUrls.join(', ') || '(无)'),
+          'alt: ' + (debugState.anchorHints.join(', ') || '(无)'),
+          '命中: ' + (debugState.anchorKey || '(无)'),
+          '预览图: ' + (debugState.previewUrl || '(未找到)'),
+          '预览命中: ' + (debugState.previewKey || '(无)'),
+        ].join('\n');
+        panel.appendChild(dbg);
+      }
       if (settings.panelMode === 'fixed') {
         panel.insertBefore(dragHandle, panel.firstChild);
       }
@@ -1518,6 +1547,14 @@
       // A new hover targets a (possibly new) full-card preview — drop any
       // cached reference so we re-locate it.
       currentPreviewImg = null;
+      if (isDebugEnabled()) {
+        var hoverCand = collectCandidates(anchor);
+        debugState.anchorUrls = hoverCand.imageUrls;
+        debugState.anchorHints = hoverCand.textHints;
+        debugState.anchorKey = null;
+        debugState.previewUrl = null;
+        debugState.previewKey = null;
+      }
       if (cardData) {
         var match = lookupCard(anchor, cardData);
         if (match) {
@@ -1536,6 +1573,7 @@
       remoteLoader.loadCardForElement(anchor)
         .then(function (match) {
           if (serial !== hoverSerial) return;
+          if (isDebugEnabled()) debugState.anchorKey = match ? match.key : null;
           if (match) showCard(anchor, match.card, match.key);
           else hidePanel();
         })
