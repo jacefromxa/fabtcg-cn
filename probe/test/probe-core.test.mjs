@@ -199,7 +199,7 @@ test('pointerover displays Chinese card data when the exact image stem is known'
   assert.deepEqual(panel.children.map((child) => child.textContent), [
     '泰坦之拳',
     '',
-    '每回合一次行动：攻击。',
+    '· 每回合一次行动：攻击。',
   ]);
   assert.equal(panel.children.length, 3);
 
@@ -262,7 +262,7 @@ test('renderCardPanel only renders the three requested card fields', () => {
   assert.deepEqual(panel.children.map((child) => child.textContent), [
     '泰坦之拳',
     '守护者武器·锤（单手）',
-    '每回合一次行动：攻击。',
+    '· 每回合一次行动：攻击。',
   ]);
   assert.equal(panel.children.length, 3);
   assert.equal(panel.children[0].style.color, 'var(--fab-cn-name-color)');
@@ -294,10 +294,20 @@ test('renderCardPanel appends a keyword section (name：desc, numbered fallback)
   assert.equal(kwBlock.style.fontSize, 'var(--fab-cn-keyword-size)');
   assert.deepEqual(kwBlock.children.map((c) => c.textContent), [
     '关键词',
-    '粉碎：当此牌造成 4 点或更多伤害时，[效果]。',
-    '再动：获得 1 点行动点。',
-    '秘法屏障：若你将受到秘法伤害，你可以支付 N 点资源以防止其中 N 点。',
+    '· 粉碎：当此牌造成 4 点或更多伤害时，[效果]。',
+    '· 再动：获得 1 点行动点。',
+    '· 秘法屏障：若你将受到秘法伤害，你可以支付 N 点资源以防止其中 N 点。',
   ]);
+});
+
+test('renderCardPanel prefixes every non-empty text line, keeping blank lines blank', () => {
+  const fakeDocument = createFakeDocument();
+  const panel = fakeDocument.createElement('div');
+  renderCardPanel(fakeDocument, panel, {
+    name_zh: 'X',
+    text_zh: '第一行异能。\n\n第二行异能。',
+  });
+  assert.equal(panel.children[2].textContent, '· 第一行异能。\n\n· 第二行异能。');
 });
 
 test('renderCardPanel skips keywords that do not resolve in the library', () => {
@@ -309,7 +319,7 @@ test('renderCardPanel skips keywords that do not resolve in the library', () => 
   }, { 'crush': { name_zh: '粉碎', desc_zh: '说明' } });
   const kwBlock = panel.children[3];
   assert.equal(kwBlock.children.length, 2); // label + one resolved line
-  assert.equal(kwBlock.children[1].textContent, '粉碎：说明');
+  assert.equal(kwBlock.children[1].textContent, '· 粉碎：说明');
 });
 
 test('renderCardPanel renders no keyword section when the card has none', () => {

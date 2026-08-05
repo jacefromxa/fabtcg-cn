@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.9
+// @version      0.7.10
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
@@ -623,6 +623,15 @@
     if (Array.isArray(panel.children)) panel.children.length = 0;
   }
 
+  // Prefix each non-empty line with a "· " marker so the card text / ability
+  // line breaks are visually obvious in the tooltip. Blank lines (paragraph
+  // breaks) stay blank.
+  function prefixLines(text) {
+    return String(text || '').split('\n').map(function (line) {
+      return line.trim() === '' ? line : '· ' + line;
+    }).join('\n');
+  }
+
   function renderCardPanel(doc, panel, card, keywordsData) {
     clearPanel(panel);
     const name = doc.createElement('div');
@@ -644,7 +653,7 @@
 
     const text = doc.createElement('div');
     text.className = 'fab-cn-card-text';
-    text.textContent = card.text_zh || '';
+    text.textContent = prefixLines(card.text_zh);
     text.style.fontSize = 'var(--fab-cn-text-size)';
     text.style.fontWeight = '400';
     text.style.lineHeight = '1.5';
@@ -677,7 +686,7 @@
         block.appendChild(label);
         for (const entry of resolved) {
           const line = doc.createElement('div');
-          line.textContent = entry.name_zh + '：' + entry.desc_zh;
+          line.textContent = '· ' + entry.name_zh + '：' + entry.desc_zh;
           block.appendChild(line);
         }
         panel.appendChild(block);
@@ -1302,14 +1311,14 @@
         'margin-top:2px;',
       ].join('');
       var previewText = doc.createElement('div');
-      previewText.textContent = '每回合一次行动：攻击。';
+      previewText.textContent = '· 每回合一次行动：攻击。\n· 再动';
       previewText.style.cssText = [
         'color:var(--fab-cn-text-color);',
         'font-size:var(--fab-cn-text-size);',
         'line-height:1.5;margin-top:4px;white-space:pre-wrap;',
       ].join('');
       var previewKeyword = doc.createElement('div');
-      previewKeyword.textContent = '关键词\n再动：获得 1 点行动点。';
+      previewKeyword.textContent = '关键词\n· 再动：获得 1 点行动点。';
       previewKeyword.style.cssText = [
         'color:var(--fab-cn-keyword-color);',
         'font-size:var(--fab-cn-keyword-size);',
