@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.4
+// @version      0.7.5
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
@@ -289,15 +289,17 @@
   }
 
   // Build an ordered list of candidate database keys for a hovered element.
+  // The image identifies the card the pointer is over, so it wins ("point at
+  // a card, see that card"). On Talishar a transformed card (e.g. Adaptive
+  // Alpha Mold) overlays its original with the transformed art: hovering the
+  // overlay resolves to the transformed card via its image, hovering the
+  // underlying original resolves to the original via its own image.
   // Priority:
-  //   1. alt/title card-name text -> slug. The card name is the card's
-  //      identity; for transform cards (e.g. Adaptive Alpha Mold) the image
-  //      shows the current transformed form while the card itself stays the
-  //      original, so the name must win.
-  //   2. Image-stem aliases (FaBrary printing ids + Talishar transliterated
-  //      stems / slug stems), cross-checked against alt/title text. Used when
-  //      the name is missing or fails to resolve.
-  //   3. image filename tokens (Talishar slug-style names), last resort.
+  //   1. Image-stem aliases (FaBrary printing ids + Talishar transliterated
+  //      stems / slug stems), cross-checked against alt/title text
+  //   2. alt/title card-name text -> slug (secondary; resolves when the image
+  //      has a variant or printing-id form the alias table cannot cover)
+  //   3. image filename tokens (Talishar slug-style names), last resort
   function resolveCardKeys(candidate, aliases) {
     const keys = [];
     const push = (key) => {
@@ -308,10 +310,7 @@
       .map(slugifyCardName)
       .find((slug) => slug && slug.length > 1);
 
-    // 1. Card-name text (alt / title) as slug — the card's identity.
-    if (altSlug) push(altSlug);
-
-    // 2. Image-stem aliases. Ambiguous ids keep an array of candidates; the
+    // 1. Image-stem aliases. Ambiguous ids keep an array of candidates; the
     // alt name picks the right one. Also, Talishar names pitched / variant /
     // card-square images with suffixes ("ice_quake_red", "MPW010-T",
     // "arcbane_grasp_blue_equip"), so the normalized base is a candidate too.
@@ -332,6 +331,9 @@
         for (const target of (matched.length ? matched : targets)) push(target.slug);
       }
     }
+
+    // 2. Card-name text (alt / title) as slug.
+    if (altSlug) push(altSlug);
 
     // 3. Image filename tokens (Talishar slug-style names).
     for (const url of candidate.imageUrls) {
