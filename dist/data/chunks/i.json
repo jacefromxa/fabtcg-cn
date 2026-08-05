@@ -1,0 +1,1848 @@
+{
+  "schema_version": 1,
+  "version": "cba139ba12cc",
+  "cards": {
+    "ice_bolt": {
+      "id": "ice_bolt",
+      "name_zh": "寒冰之箭",
+      "name_en": "Ice Bolt",
+      "type_zh": "冰 法师 行动",
+      "text_zh": "对任意目标造成5点秘法伤害。",
+      "text_en": "Deal 5 arcane damage to any target.",
+      "source": "https://cards.fabtcg.com/card/ice_bolt/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ice_eternal": {
+      "id": "ice_eternal",
+      "name_zh": "永恒之冰",
+      "name_en": "Ice Eternal",
+      "type_zh": "元素 法师 行动",
+      "text_zh": "艾斯兰德专精\n冰融合\n在目标英雄的控制下创造X个霜咬衍生物。然后，若永恒之冰已融合，对该英雄造成与其控制的霜咬数量相等的秘法伤害。",
+      "text_en": "Iyslander Specialization\nIce Fusion\nCreate X Frostbite tokens under target hero's control. Then, if Ice Eternal was fused, deal arcane damage to that hero equal to the number of Frostbites they control.",
+      "source": "https://cards.fabtcg.com/card/ice_eternal/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "XX",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ice_quake": {
+      "id": "ice_quake",
+      "name_zh": "冰震",
+      "name_en": "Ice Quake",
+      "type_zh": "冰 行动",
+      "text_zh": "你本回合的下一次攻击获得+3力量。\n本回合每当攻击命中英雄时，在其控制下创造一个霜咬衍生物。\n再动",
+      "text_en": "Your next attack this turn gains +3{p}.\nWhenever an attack hits a hero this turn, create a Frostbite token under their control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ice_quake/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "ice_storm": {
+      "id": "ice_storm",
+      "name_zh": "冰风暴",
+      "name_en": "Ice Storm",
+      "type_zh": "元素 游侠 行动",
+      "text_zh": "冰与闪电融合\n你本回合的下一次箭矢攻击获得+3力量。\n若冰风暴已融合，你本回合的下一次箭矢攻击获得“若此牌命中英雄，对其造成1点伤害”和“每当此攻击对英雄造成伤害时，在其控制下创造等量的霜咬衍生物。”\n再动",
+      "text_en": "Ice and Lightning Fusion\nYour next arrow attack this turn gains +3{p}.\nIf Ice Storm was fused, your next arrow attack this turn gains \"If this hits a hero, deal 1 damage to them\" and \"Whenever this attack deals damage to a hero, create that many Frostbite tokens under their control.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/ice_storm/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "icebind": {
+      "id": "icebind",
+      "name_zh": "冰缚",
+      "name_en": "Icebind",
+      "type_zh": "元素 法师 行动",
+      "text_zh": "冰融合\n对任意目标造成3点秘法伤害。若冰缚已融合并对英雄造成伤害，冻结其军械库中的一张牌，直到你的下一个回合开始。",
+      "text_en": "Ice Fusion\nDeal 3 arcane damage to any target. If Icebind was fused and deals damage to a hero, freeze a card in their arsenal until the start of your next turn.",
+      "source": "https://cards.fabtcg.com/card/icebind/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "icy_encounter": {
+      "id": "icy_encounter",
+      "name_zh": "冰冷遭遇",
+      "name_en": "Icy Encounter",
+      "type_zh": "冰 行动·攻击",
+      "text_zh": "若冰冷遭遇命中英雄，在其控制下创造一个霜咬衍生物。",
+      "text_en": "If Icy Encounter hits a hero, create a Frostbite token under their control.",
+      "source": "https://cards.fabtcg.com/card/icy_encounter/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "ignite": {
+      "id": "ignite",
+      "name_zh": "点燃",
+      "name_en": "Ignite",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，本战斗链中你使用或启动的下一张龙裔牌使用或启动费用减少1点资源。\n再动",
+      "text_en": "When this attacks, the next Draconic card you play or activate this combat chain costs {r} less to play or activate.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ignite/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "illuminate": {
+      "id": "illuminate",
+      "name_zh": "照亮",
+      "name_en": "Illuminate",
+      "type_zh": "光 行动·攻击",
+      "text_zh": "若照亮命中，将其置入你的英雄的灵魂。",
+      "text_en": "If Illuminate hits, put it into your hero's soul.",
+      "source": "https://cards.fabtcg.com/card/illuminate/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "immobilizing_shot": {
+      "id": "immobilizing_shot",
+      "name_zh": "定身箭",
+      "name_en": "Immobilizing Shot",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "若定身箭带有一个瞄准指示物，它获得“当此牌命中英雄时，该英雄在其下一个行动阶段期间不能使用超过1张攻击行动牌和1张“非攻击”行动牌。”",
+      "text_en": "If Immobilizing Shot has an aim counter, it has \"When this hits a hero, they can't play more than 1 attack action card and 1 'non-attack' action card during their next action phase.\"",
+      "source": "https://cards.fabtcg.com/card/immobilizing_shot/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "impenetrable_belief": {
+      "id": "impenetrable_belief",
+      "name_zh": "不可动摇的信念",
+      "name_en": "Impenetrable Belief",
+      "type_zh": "光 行动·攻击",
+      "text_zh": "若本回合有3张或更多牌被置入一位对手英雄的放逐区，防御时不可动摇的信念获得+2防御。",
+      "text_en": "If 3 or more cards have been put into an opposing hero's banished zone this turn, Impenetrable Belief gains +2{d} while defending.",
+      "source": "https://cards.fabtcg.com/card/impenetrable_belief/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "imperial_edict": {
+      "id": "imperial_edict",
+      "name_zh": "帝国敕令",
+      "name_en": "Imperial Edict",
+      "type_zh": "通用 行动·物品",
+      "text_zh": "传奇\n行动——摧毁帝国敕令：说出一张牌名。直到你的下一个回合开始，被说出的牌不能被使用。若你为皇族，改为每位对手展示其手牌，然后你说出一张牌名。再动",
+      "text_en": "Legendary\nAction - Destroy Imperial Edict: Name a card. The named card can't be played until the start of your next turn. If you are Royal, instead each opponent reveals their hand, then name a card. Go again",
+      "source": "https://cards.fabtcg.com/card/imperial_edict/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "imperial_intent": {
+      "id": "imperial_intent",
+      "name_zh": "帝国意图",
+      "name_en": "Imperial Intent",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n目标匕首攻击获得+2力量。",
+      "text_en": "This costs {r} less to play for each Draconic chain link you control.\nTarget dagger attack gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/imperial_intent/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "imperial_ledger": {
+      "id": "imperial_ledger",
+      "name_zh": "帝国账本",
+      "name_en": "Imperial Ledger",
+      "type_zh": "通用 行动·物品",
+      "text_zh": "传奇\n行动——将帝国账本洗入其拥有者的牌库：创造一个铜币衍生物。若你为皇族，改为创造一个金币衍生物。",
+      "text_en": "Legendary\nAction - Shuffle Imperial Ledger into its owner's deck: Create a Copper token. If you are Royal, instead create a Gold token.",
+      "source": "https://cards.fabtcg.com/card/imperial_ledger/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "imperial_seal_of_command": {
+      "id": "imperial_seal_of_command",
+      "name_zh": "帝国军令印",
+      "name_en": "Imperial Seal of Command",
+      "type_zh": "通用 行动·物品",
+      "text_zh": "传奇\n行动——摧毁此牌：本回合防御反应牌不能被使用。若你为皇族，本回合你下一次命中英雄时，摧毁其军械库中的所有牌。再动",
+      "text_en": "Legendary\nAction - Destroy this: Defense reaction cards can't be played this turn. If you are Royal, the next time you hit a hero this turn, destroy all cards in their arsenal. Go again",
+      "source": "https://cards.fabtcg.com/card/imperial_seal_of_command/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "imperial_warhorn": {
+      "id": "imperial_warhorn",
+      "name_zh": "帝国战号角",
+      "name_en": "Imperial Warhorn",
+      "type_zh": "通用 行动·物品",
+      "text_zh": "传奇\n行动——支付1点资源，摧毁帝国战号角：选择任意数量的英雄。每位英雄选择一个其控制的盟友、光环、物品或地标永久物。摧毁每个以此方式选择的永久物。若你为皇族，改为由你选择这些永久物。",
+      "text_en": "Legendary\nAction - {r}, destroy Imperial Warhorn: Choose any number of heroes. Each of them chooses an ally, aura, item, or landmark permanent they control. Destroy each permanent chosen this way. If you are Royal, instead you choose the permanents.",
+      "source": "https://cards.fabtcg.com/card/imperial_warhorn/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "imposing_visage": {
+      "id": "imposing_visage",
+      "name_zh": "威严面容",
+      "name_en": "Imposing Visage",
+      "type_zh": "守护者行动",
+      "text_zh": "从你的牌库中搜寻一张费用为X或更低的光环牌，将其置入竞技场，然后洗牌。\n再动",
+      "text_en": "Search your deck for an aura card with cost X or less, put it into the arena, then shuffle your deck.\nGo again",
+      "source": "https://cards.fabtcg.com/card/imposing-visage/",
+      "status": "deck-translation-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "X3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "impulsive_desire": {
+      "id": "impulsive_desire",
+      "name_zh": "冲动欲望",
+      "name_en": "Impulsive Desire",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌命中英雄时，放逐其牌库顶的一张牌。\n每当此牌放逐一张反应或瞬间牌时，获得1点生命。",
+      "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck.\nWhenever this banishes a reaction or instant card, gain 1{h}.",
+      "source": "https://cards.fabtcg.com/card/impulsive_desire/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "in_the_palm_of_your_hand": {
+      "id": "in_the_palm_of_your_hand",
+      "name_zh": "尽在掌中",
+      "name_en": "In the Palm of Your Hand",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌进入或离开竞技场时，抽一张牌。",
+      "text_en": "Suspense\nWhen this enters or leaves the arena, draw a card.",
+      "source": "https://cards.fabtcg.com/card/in_the_palm_of_your_hand/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "in_the_swing": {
+      "id": "in_the_swing",
+      "name_zh": "挥击之中",
+      "name_en": "In the Swing",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "仅当本回合你用武器攻击过两次或更多时才能使用此牌。\n目标武器攻击获得+3力量。",
+      "text_en": "Play this only if you've attacked 2 or more times with weapons this turn.\nTarget weapon attack gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/in_the_swing/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "incision": {
+      "id": "incision",
+      "name_zh": "切痕",
+      "name_en": "Incision",
+      "type_zh": "刺客·战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+3力量。",
+      "text_en": "Target dagger attack gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/incision/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "increase_the_tension": {
+      "id": "increase_the_tension",
+      "name_zh": "加剧紧张",
+      "name_en": "Increase the Tension",
+      "type_zh": "游侠 行动",
+      "text_zh": "你本回合的下一次箭矢攻击获得+3力量，以及“此链环中防御反应不能从手牌使用。”\n再动",
+      "text_en": "Your next arrow attack this turn gains +3{p} and \"Defense reactions can't be played from hand this chain link.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/increase_the_tension/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "indefensibly_honed": {
+      "id": "indefensibly_honed",
+      "name_zh": "无可防御的磨砺",
+      "name_en": "Indefensibly Honed",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有3个或更多+1力量指示物，本回合你用它进行的下一次攻击获得“当此牌被1张或更多牌防御时，对防御英雄造成1点伤害。”再动",
+      "text_en": "Sharpen target sword you control.\nIf it has 3 or more +1{p} counters, your next attack with it this turn gets \"When this is defended by 1 or more cards, deal 1 damage to the defending hero.\" Go again",
+      "source": "https://cards.fabtcg.com/card/indefensibly_honed/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "index": {
+      "id": "index",
+      "name_zh": "索引",
+      "name_en": "Index",
+      "type_zh": "法师 行动",
+      "text_zh": "查看你牌库顶的5张牌。将其中一张牌置于你的牌库顶，将其余牌以任意顺序置于你的牌库底。",
+      "text_en": "Look at the top 5 cards of your deck. Put 1 card from among them on top of your deck, and the rest on the bottom of your deck in any order.",
+      "source": "https://cards.fabtcg.com/card/index/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "induce_panic": {
+      "id": "induce_panic",
+      "name_zh": "引发恐慌",
+      "name_en": "Induce Panic",
+      "type_zh": "混沌 阻挡",
+      "text_zh": "当此牌防御时，选择一种颜色。每位英雄展示其手牌中的一张随机牌。若其为所选颜色，该英雄弃掉它。",
+      "text_en": "When this defends, choose a color. Each hero reveals a random card from their hand. If it's the chosen color, they discard it.",
+      "source": "https://cards.fabtcg.com/card/induce_panic/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "induction_chamber": {
+      "id": "induction_chamber",
+      "name_zh": "感应室",
+      "name_en": "Induction Chamber",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "行动——支付1点资源：若感应室上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动\n每回合一次攻击反应——从感应室上移除一个蒸汽指示物：目标机械师手枪攻击获得再动。",
+      "text_en": "Action - {r}: If there are no steam counters on Induction Chamber, put a steam counter on it. Go again\nOnce per Turn Attack Reaction - Remove a steam counter from Induction Chamber: Target Mechanologist pistol attack gains go again.",
+      "source": "https://cards.fabtcg.com/card/induction_chamber/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "inertia": {
+      "id": "inertia",
+      "name_zh": "惰性",
+      "name_en": "Inertia",
+      "type_zh": "通用 衍生物·光环",
+      "text_zh": "在你的结束阶段开始时，摧毁惰性，然后将你手牌和军械库中的所有牌置于你的牌库底。",
+      "text_en": "At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.",
+      "source": "https://cards.fabtcg.com/card/inertia/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "inertia_trap": {
+      "id": "inertia_trap",
+      "name_zh": "惰性陷阱",
+      "name_en": "Inertia Trap",
+      "type_zh": "刺客·游侠 防御反应·陷阱",
+      "text_zh": "当此牌防御力量大于其基础的攻击时，在攻击英雄的控制下创造一个惰性衍生物。",
+      "text_en": "When this defends an attack with {p} greater than its base, create an Inertia token under the attacking hero's control.",
+      "source": "https://cards.fabtcg.com/card/inertia_trap/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "infect": {
+      "id": "infect",
+      "name_zh": "感染",
+      "name_en": "Infect",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌命中英雄时，在其控制下创造一个血腐疫病衍生物。",
+      "text_en": "Stealth\nWhen this hits a hero, create a Bloodrot Pox token under their control.",
+      "source": "https://cards.fabtcg.com/card/infect/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "infecting_shot": {
+      "id": "infecting_shot",
+      "name_zh": "感染箭",
+      "name_en": "Infecting Shot",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "若感染箭带有一个瞄准指示物，它获得+1力量。\n当此牌命中英雄时，在其控制下创造一个血腐疫病衍生物。",
+      "text_en": "If Infecting Shot has an aim counter, it has +1{p}.\nWhen this hits a hero, create a Bloodrot Pox token under their control.",
+      "source": "https://cards.fabtcg.com/card/infecting_shot/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "infectious_host": {
+      "id": "infectious_host",
+      "name_zh": "传染宿主",
+      "name_en": "Infectious Host",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，若你控制一个虚弱衍生物，在该英雄的控制下创造一个虚弱衍生物，然后对惰性和血腐疫病各重复一次。",
+      "text_en": "When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.",
+      "source": "https://cards.fabtcg.com/card/infectious_host/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "infiltrate": {
+      "id": "infiltrate",
+      "name_zh": "渗透",
+      "name_en": "Infiltrate",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌命中英雄时，放逐其牌库顶的一张牌。直到你的下一个回合结束你可以使用它。",
+      "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck. You may play it until the end of your next turn.",
+      "source": "https://cards.fabtcg.com/card/infiltrate/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "inflame": {
+      "id": "inflame",
+      "name_zh": "煽风点火",
+      "name_en": "Inflame",
+      "type_zh": "龙裔 行动·攻击",
+      "text_zh": "当你用煽风点火攻击时，若本回合你使用过另一张红色牌，你可以将你坟场中的一张凤凰烈焰移回你的手牌。\n再动",
+      "text_en": "When you attack with Inflame, if you've played another red card this turn, you may return a Phoenix Flame from your graveyard to your hand.\nGo again",
+      "source": "https://cards.fabtcg.com/card/inflame/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "infuse_alloy": {
+      "id": "infuse_alloy",
+      "name_zh": "注入合金",
+      "name_en": "Infuse Alloy",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+2防御。",
+      "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/infuse_alloy/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "infuse_titanium": {
+      "id": "infuse_titanium",
+      "name_zh": "注入钛",
+      "name_en": "Infuse Titanium",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+2防御。",
+      "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/infuse_titanium/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "ink_lined_cloak": {
+      "id": "ink_lined_cloak",
+      "name_zh": "墨线斗篷",
+      "name_en": "Ink-lined Cloak",
+      "type_zh": "法师 装备·胸部",
+      "text_zh": "瞬间——摧毁此牌：获得1点资源。仅当你控制一个名称中含有印记的光环永久物时才能启动此异能。",
+      "text_en": "Instant - Destroy this: Gain {r}. Activate this only if you control an aura permanent with Sigil in its name.",
+      "source": "https://cards.fabtcg.com/card/ink_lined_cloak/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "inner_chi": {
+      "id": "inner_chi",
+      "name_zh": "内息",
+      "name_en": "Inner Chi",
+      "type_zh": "秘法 资源·Chi",
+      "text_zh": "",
+      "text_en": "",
+      "source": "https://cards.fabtcg.com/card/inner_chi/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "insidious_chill": {
+      "id": "insidious_chill",
+      "name_zh": "阴险寒意",
+      "name_en": "Insidious Chill",
+      "type_zh": "冰 行动·光环",
+      "text_zh": "阴险寒意进入竞技场时带有3个霜指示物。当其上的霜指示物用完时，摧毁它。\n每当你冰融合时，从阴险寒意上移除一个霜指示物。若如此做，目标英雄弃一张牌，除非其支付2点资源。",
+      "text_en": "Insidious Chill enters the arena with 3 frost counters on it. When it has no frost counters on it, destroy it.\nWhenever you Ice Fuse, remove a frost counter from Insidious Chill. If you do, target hero discards a card unless they pay {r}{r}.",
+      "source": "https://cards.fabtcg.com/card/insidious_chill/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "inspire_lightning": {
+      "id": "inspire_lightning",
+      "name_zh": "鼓舞闪电",
+      "name_en": "Inspire Lightning",
+      "type_zh": "元素 符文剑士 行动",
+      "text_zh": "闪电融合\n若鼓舞闪电已融合，对目标英雄造成3点秘法伤害。",
+      "text_en": "Lightning Fusion\nIf Inspire Lightning was fused, deal 3 arcane damage to target hero.",
+      "source": "https://cards.fabtcg.com/card/inspire_lightning/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "instill_fear": {
+      "id": "instill_fear",
+      "name_zh": "灌输恐惧",
+      "name_en": "Instill Fear",
+      "type_zh": "憎恶 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，威吓该英雄。",
+      "text_en": "When this attacks a hero, intimidate them.",
+      "source": "https://cards.fabtcg.com/card/instill_fear/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "insult_to_injury": {
+      "id": "insult_to_injury",
+      "name_zh": "雪上加霜",
+      "name_en": "Insult to Injury",
+      "type_zh": "憎恶 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，若你的生命高于该英雄，此牌获得再动。",
+      "text_en": "When this attacks a hero, if you have more {h} than them, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/insult_to_injury/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "intellect_penalty": {
+      "id": "intellect_penalty",
+      "name_zh": "智力惩罚",
+      "name_en": "Intellect Penalty",
+      "type_zh": "",
+      "text_zh": "你的英雄获得-1智力。\n若你将创造一个带有X个指示物的智力惩罚，改为在此牌上增加X个回合指示物。\n若你将在回合结束时抽牌至英雄智力值，改为抽等量的牌，从此牌上移除一个回合指示物。若此牌上没有回合指示物，将其移出游戏。",
+      "text_en": "Your hero has -1{i}.\nIf you would create an Intellect Penalty with X counters on it, instead add X turn counters onto this.\nIf you would draw up to your hero's intellect as an end-of-turn procedure, instead draw that many cards, remove a turn counter from this, and remove it from the game if it has no turn counters on it.",
+      "source": "https://cards.fabtcg.com/card/intellect_penalty/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "interlude": {
+      "id": "interlude",
+      "name_zh": "间奏",
+      "name_en": "Interlude",
+      "type_zh": "Bard 瞬间",
+      "text_zh": "选择一位英雄。本回合该英雄下一次将受到伤害时，防止其中3点伤害。若你以此方式防止另一位英雄的伤害，创造一个铜币衍生物。",
+      "text_en": "Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.",
+      "source": "https://cards.fabtcg.com/card/interlude/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "intimate_inducement": {
+      "id": "intimate_inducement",
+      "name_zh": "私密诱惑",
+      "name_en": "Intimate Inducement",
+      "type_zh": "秘法 刺客 攻击反应",
+      "text_zh": "目标刺客或秘法攻击行动牌获得+1力量。\n查看防御英雄牌库顶的4张牌并选择一张牌。若其为蓝色，它具有0点基础防御。将所选牌作为防御牌放入当前链环，并将其余牌以任意顺序置于牌库顶。",
+      "text_en": "Target Assassin or Mystic attack action card gets +1{p}.\nLook at the top 4 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",
+      "source": "https://cards.fabtcg.com/card/intimate_inducement/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "into_the_muck": {
+      "id": "into_the_muck",
+      "name_zh": "投入泥沼",
+      "name_en": "Into the Muck",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "仅当此链环中你已下注时才能使用此牌。\n放逐当前链环上的一张非装备防御牌。",
+      "text_en": "Play this only if you've wagered this chain link.\nBanish a non-equipment defending card on the active chain link.",
+      "source": "https://cards.fabtcg.com/card/into_the_muck/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "intoxicating_shot": {
+      "id": "intoxicating_shot",
+      "name_zh": "迷醉箭",
+      "name_en": "Intoxicating Shot",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "瑞普泰德专精\n当此牌命中英雄时，该英雄创造一个勇气和加速衍生物。",
+      "text_en": "Riptide Specialization\nWhen this hits a hero, they create a Courage and Quicken token.",
+      "source": "https://cards.fabtcg.com/card/intoxicating_shot/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "invert_existence": {
+      "id": "invert_existence",
+      "name_zh": "颠倒存在",
+      "name_en": "Invert Existence",
+      "type_zh": "暗影 符文剑士 瞬间",
+      "text_zh": "你可以从你的放逐区使用颠倒存在。\n放逐一位对手英雄坟场中的至多2张牌。若以此方式放逐的是一张攻击行动牌和一张“非攻击”行动牌，对该英雄造成2点秘法伤害。\n血债",
+      "text_en": "You may play Invert Existence from your banished zone.\nBanish up to 2 cards in an opposing hero's graveyard. If an attack action card and a 'non-attack' action card are banished this way, deal 2 arcane damage to that hero.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/invert_existence/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "inverters_nightcowl": {
+      "id": "inverters_nightcowl",
+      "name_zh": "逆变者夜兜",
+      "name_en": "Inverter's Nightcowl",
+      "type_zh": "刺客 装备·胸部",
+      "text_zh": "行动——摧毁此牌：直到回合结束，每当你使用具有隐匿的攻击行动牌时，获得1点资源。再动\n战痕",
+      "text_en": "Action - Destroy this: Until end of turn, whenever you play an attack action card with stealth, gain {r}. Go again\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/inverters_nightcowl/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "invigorate": {
+      "id": "invigorate",
+      "name_zh": "鼓舞",
+      "name_en": "Invigorate",
+      "type_zh": "元素 行动",
+      "text_zh": "本回合你融合的下一次攻击获得+4力量。\n再动",
+      "text_en": "The next attack you fuse this turn gains +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/invigorate/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "invigorating_light": {
+      "id": "invigorating_light",
+      "name_zh": "振奋之光",
+      "name_en": "Invigorating Light",
+      "type_zh": "光 行动·攻击",
+      "text_zh": "当你使用振奋之光时，若你的英雄的灵魂中没有牌，当战斗链关闭时将其置入你的英雄的灵魂。",
+      "text_en": "When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes.",
+      "source": "https://cards.fabtcg.com/card/invigorating_light/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "invoke_azvolai": {
+      "id": "invoke_azvolai",
+      "name_zh": "召唤阿兹沃莱",
+      "name_en": "Invoke Azvolai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为阿兹沃莱。再动",
+      "text_en": "Transform target ash you control into Azvolai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_azvolai/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_cromai": {
+      "id": "invoke_cromai",
+      "name_zh": "召唤克罗迈",
+      "name_en": "Invoke Cromai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为克罗迈。再动",
+      "text_en": "Transform target ash you control into Cromai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_cromai/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_dominia": {
+      "id": "invoke_dominia",
+      "name_zh": "召唤多米尼亚",
+      "name_en": "Invoke Dominia",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "传奇\n将你控制的目标灰烬转化为多米尼亚。再动",
+      "text_en": "Legendary\nTransform target ash you control into Dominia. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_dominia/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_dracona_optimai": {
+      "id": "invoke_dracona_optimai",
+      "name_zh": "召唤德拉科娜·奥普提迈",
+      "name_en": "Invoke Dracona Optimai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "传奇\n将你控制的目标灰烬转化为德拉科娜·奥普提迈。再动",
+      "text_en": "Legendary\nTransform target ash you control into Dracona Optimai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_dracona_optimai/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_kyloria": {
+      "id": "invoke_kyloria",
+      "name_zh": "召唤凯洛里亚",
+      "name_en": "Invoke Kyloria",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为凯洛里亚。再动",
+      "text_en": "Transform target ash you control into Kyloria. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_kyloria/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_miragai": {
+      "id": "invoke_miragai",
+      "name_zh": "召唤米拉盖",
+      "name_en": "Invoke Miragai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为米拉盖。再动",
+      "text_en": "Transform target ash you control into Miragai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_miragai/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_nekria": {
+      "id": "invoke_nekria",
+      "name_zh": "召唤内克里亚",
+      "name_en": "Invoke Nekria",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为内克里亚。再动",
+      "text_en": "Transform target ash you control into Nekria. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_nekria/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_ouvia": {
+      "id": "invoke_ouvia",
+      "name_zh": "召唤欧维亚",
+      "name_en": "Invoke Ouvia",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为欧维亚。再动",
+      "text_en": "Transform target ash you control into Ouvia. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_ouvia/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_suraya": {
+      "id": "invoke_suraya",
+      "name_zh": "召唤苏拉娅",
+      "name_en": "Invoke Suraya",
+      "type_zh": "光 幻术师 行动·Invocation",
+      "text_zh": "传奇\n将你控制的目标幻质护盾转化为苏拉娅，秘法先驱。\n再动",
+      "text_en": "Legendary\nTransform target Spectral Shield you control into Suraya, Arcane Herald.\nGo again",
+      "source": "https://cards.fabtcg.com/card/invoke_suraya/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_themai": {
+      "id": "invoke_themai",
+      "name_zh": "召唤泰迈",
+      "name_en": "Invoke Themai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为泰迈。再动",
+      "text_en": "Transform target ash you control into Themai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_themai/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_tomeltai": {
+      "id": "invoke_tomeltai",
+      "name_zh": "召唤托梅尔泰",
+      "name_en": "Invoke Tomeltai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "传奇\n将你控制的目标灰烬转化为托梅尔泰。再动",
+      "text_en": "Legendary\nTransform target ash you control into Tomeltai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_tomeltai/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "5",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_vynserakai": {
+      "id": "invoke_vynserakai",
+      "name_zh": "召唤文塞拉凯",
+      "name_en": "Invoke Vynserakai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为文塞拉凯。再动",
+      "text_en": "Transform target ash you control into Vynserakai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_vynserakai/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_yendurai": {
+      "id": "invoke_yendurai",
+      "name_zh": "召唤延杜莱",
+      "name_en": "Invoke Yendurai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为延杜莱。再动",
+      "text_en": "Transform target ash you control into Yendurai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_yendurai/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ion_charged": {
+      "id": "ion_charged",
+      "name_zh": "离子充能",
+      "name_en": "Ion Charged",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "直到回合结束，闪电和元素攻击在具有再动期间获得+1力量。",
+      "text_en": "Until end of turn, Lightning and Elemental attacks get +1{p} while they have go again.",
+      "source": "https://cards.fabtcg.com/card/ion_charged/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "ira_crimson_haze": {
+      "id": "ira_crimson_haze",
+      "name_zh": "伊拉·绯红朦胧",
+      "name_en": "Ira, Crimson Haze",
+      "type_zh": "",
+      "text_zh": "你每回合的第二次攻击获得+1力量。",
+      "text_en": "Your second attack each turn gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/ira_crimson_haze/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "ira_scarlet_revenger": {
+      "id": "ira_scarlet_revenger",
+      "name_zh": "伊拉·猩红复仇者",
+      "name_en": "Ira, Scarlet Revenger",
+      "type_zh": "忍者 英雄",
+      "text_zh": "你每回合的第二次攻击获得+1力量。",
+      "text_en": "Your second attack each turn gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/ira_scarlet_revenger/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "ire_of_the_crowd": {
+      "id": "ire_of_the_crowd",
+      "name_zh": "观众的愤怒",
+      "name_en": "Ire of the Crowd",
+      "type_zh": "",
+      "text_zh": "在你的结束阶段开始时，若本回合你没有命中英雄，失去2点生命。",
+      "text_en": "At the beginning of your end phase, if you didn't hit a hero this turn, lose 2{h}.",
+      "source": "https://cards.fabtcg.com/card/ire_of_the_crowd/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "iris_of_reality": {
+      "id": "iris_of_reality",
+      "name_zh": "现实之虹",
+      "name_en": "Iris of Reality",
+      "type_zh": "幻术师 武器·Orb （双手）",
+      "text_zh": "在你的行动阶段期间，你控制的幻术师光环为武器，具有4点力量，以及每回合一次行动——支付3点资源：攻击。再动",
+      "text_en": "During your action phase, Illusionist auras you control are weapons with 4{p} and Once per Turn Action - {r}{r}{r}: Attack. Go again",
+      "source": "https://cards.fabtcg.com/card/iris_of_reality/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "iris_of_the_blossom": {
+      "id": "iris_of_the_blossom",
+      "name_zh": "花之虹膜",
+      "name_en": "Iris of the Blossom",
+      "type_zh": "忍者 装备·头部",
+      "text_zh": "瞬间——横置此牌，弃一张牌：从你的牌库中搜寻一张旋转雾之花，放逐它，然后洗牌。本回合你可以使用它。仅当本回合你命中过时才能启动此异能。\n刃碎",
+      "text_en": "Instant - {t}, discard a card: Search your deck for a Whirling Mist Blossom, banish it, then shuffle. You may play it this turn. Activate this only if you've hit this turn.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/iris_of_the_blossom/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "ironfist_revelation": {
+      "id": "ironfist_revelation",
+      "name_zh": "铁拳启示",
+      "name_en": "Ironfist Revelation",
+      "type_zh": "守护者 装备·手臂",
+      "text_zh": "当此牌防御时，你可以将你军械库中的一张牌面朝下的具有粉碎的牌翻为正面朝上。若如此做，在其上放置一个+1力量指示物。\n淬炼",
+      "text_en": "When this defends, you may turn a face-down card with crush in your arsenal face-up. If you do, put a +1{p} counter on it.\nTemper",
+      "source": "https://cards.fabtcg.com/card/ironfist_revelation/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "ironhide_gauntlet": {
+      "id": "ironhide_gauntlet",
+      "name_zh": "铁皮护手",
+      "name_en": "Ironhide Gauntlet",
+      "type_zh": "通用 装备·手臂",
+      "text_zh": "当你用铁皮护手防御时，你可以支付1点资源。若如此做，它获得+2防御，以及“当战斗链关闭时，摧毁铁皮护手。”",
+      "text_en": "When you defend with Ironhide Gauntlet, you may pay {r}. If you do, it gains +2{d} and \"When the combat chain closes, destroy Ironhide Gauntlet.\"",
+      "source": "https://cards.fabtcg.com/card/ironhide_gauntlet/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "ironhide_helm": {
+      "id": "ironhide_helm",
+      "name_zh": "铁皮头盔",
+      "name_en": "Ironhide Helm",
+      "type_zh": "通用 装备·头部",
+      "text_zh": "当你用铁皮头盔防御时，你可以支付1点资源。若如此做，它获得+2防御，以及“当战斗链关闭时，摧毁铁皮头盔。”",
+      "text_en": "When you defend with Ironhide Helm, you may pay {r}. If you do, it gains +2{d} and \"When the combat chain closes, destroy Ironhide Helm.\"",
+      "source": "https://cards.fabtcg.com/card/ironhide_helm/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "ironhide_legs": {
+      "id": "ironhide_legs",
+      "name_zh": "铁皮腿甲",
+      "name_en": "Ironhide Legs",
+      "type_zh": "通用 装备·腿部",
+      "text_zh": "当你用铁皮腿甲防御时，你可以支付1点资源。若如此做，它获得+2防御，以及“当战斗链关闭时，摧毁铁皮腿甲。”",
+      "text_en": "When you defend with Ironhide Legs, you may pay {r}. If you do, it gains +2{d} and \"When the combat chain closes, destroy Ironhide Legs.\"",
+      "source": "https://cards.fabtcg.com/card/ironhide_legs/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "ironhide_plate": {
+      "id": "ironhide_plate",
+      "name_zh": "铁皮胸甲",
+      "name_en": "Ironhide Plate",
+      "type_zh": "通用 装备·胸部",
+      "text_zh": "当你用铁皮胸甲防御时，你可以支付1点资源。若如此做，它获得+2防御，并在战斗链关闭时摧毁它。",
+      "text_en": "When you defend with Ironhide Plate, you may pay {r}. If you do, it gains +2{d} and destroy it when the combat chain closes.",
+      "source": "https://cards.fabtcg.com/card/ironhide_plate/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "ironrot_gauntlet": {
+      "id": "ironrot_gauntlet",
+      "name_zh": "铁锈护手",
+      "name_en": "Ironrot Gauntlet",
+      "type_zh": "通用 装备·手臂",
+      "text_zh": "刃碎",
+      "text_en": "Blade Break",
+      "source": "https://cards.fabtcg.com/card/ironrot_gauntlet/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "ironrot_helm": {
+      "id": "ironrot_helm",
+      "name_zh": "铁锈头盔",
+      "name_en": "Ironrot Helm",
+      "type_zh": "通用 装备·头部",
+      "text_zh": "刃碎",
+      "text_en": "Blade Break",
+      "source": "https://cards.fabtcg.com/card/ironrot_helm/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "ironrot_legs": {
+      "id": "ironrot_legs",
+      "name_zh": "铁锈腿甲",
+      "name_en": "Ironrot Legs",
+      "type_zh": "通用 装备·腿部",
+      "text_zh": "刃碎",
+      "text_en": "Blade Break",
+      "source": "https://cards.fabtcg.com/card/ironrot_legs/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "ironrot_plate": {
+      "id": "ironrot_plate",
+      "name_zh": "铁锈胸甲",
+      "name_en": "Ironrot Plate",
+      "type_zh": "通用 装备·胸部",
+      "text_zh": "刃碎",
+      "text_en": "Blade Break",
+      "source": "https://cards.fabtcg.com/card/ironrot_plate/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "ironsong_determination": {
+      "id": "ironsong_determination",
+      "name_zh": "铁歌决心",
+      "name_en": "Ironsong Determination",
+      "type_zh": "战士 行动",
+      "text_zh": "目标武器的攻击直到回合结束获得+1力量和支配。\n再动",
+      "text_en": "Target weapon's attacks get +1{p} and dominate until end of turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ironsong_determination/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ironsong_pride": {
+      "id": "ironsong_pride",
+      "name_zh": "铁歌骄傲",
+      "name_en": "Ironsong Pride",
+      "type_zh": "战士 瞬间·光环",
+      "text_zh": "当此牌进入竞技场时，在你控制的目标剑上放置一个+1力量指示物。\n当此牌离开竞技场时，从你控制的剑上移除所有+1力量指示物。\n在你的结束阶段开始时，若本回合没有剑命中过，摧毁此牌。",
+      "text_en": "When this enters the arena, put a +1{p} counter on target sword you control.\nWhen this leaves the arena, remove all +1{p} counters from swords you control.\nAt the beginning of your end phase, if a sword has not hit this turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/ironsong_pride/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "ironsong_response": {
+      "id": "ironsong_response",
+      "name_zh": "铁歌回应",
+      "name_en": "Ironsong Response",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "重演——若防御英雄在此链环中用手牌中的牌防御过，目标武器攻击获得+3力量。",
+      "text_en": "Reprise - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/ironsong_response/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ironsong_versus": {
+      "id": "ironsong_versus",
+      "name_zh": "铁歌对战",
+      "name_en": "Ironsong Versus",
+      "type_zh": "战士 装备·手臂",
+      "text_zh": "每回合一次行动——支付1点资源：你本回合的下一次剑攻击获得“当此牌命中英雄时，创造一个勇气衍生物。”再动\n淬炼",
+      "text_en": "Once per Turn Action - {r}: Your next sword attack this turn gets \"When this hits a hero, create a Courage token.\"  Go again\nTemper",
+      "source": "https://cards.fabtcg.com/card/ironsong_versus/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "isenhowl_weathervane": {
+      "id": "isenhowl_weathervane",
+      "name_zh": "伊森嚎风信标",
+      "name_en": "Isenhowl Weathervane",
+      "type_zh": "冰 行动",
+      "text_zh": "本回合你下一次冰融合时，在目标英雄的控制下创造4个霜咬衍生物。\n再动",
+      "text_en": "The next time you Ice fuse this turn, create 4 Frostbite tokens under target hero's control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/isenhowl_weathervane/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "isolate": {
+      "id": "isolate",
+      "name_zh": "孤立",
+      "name_en": "Isolate",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n支配",
+      "text_en": "Stealth\nDominate",
+      "source": "https://cards.fabtcg.com/card/isolate/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "iyslander": {
+      "id": "iyslander",
+      "name_zh": "艾斯兰德",
+      "name_en": "Iyslander",
+      "type_zh": "",
+      "text_zh": "冰精华\n若现在不是你的回合，你可以将你军械库中的蓝色\"非攻击\"行动牌当作瞬间使用。\n每当你在此牌对手的回合期间使用冰牌时，在其控制下创造一个霜咬衍生物。",
+      "text_en": "Essence of Ice\nIf it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.\nWhenever you play an Ice card during an opponents turn, create a Frostbite token under their control.",
+      "source": "https://cards.fabtcg.com/card/iyslander/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "iyslander_stormbind": {
+      "id": "iyslander_stormbind",
+      "name_zh": "艾斯兰德·风暴束缚",
+      "name_en": "Iyslander, Stormbind",
+      "type_zh": "元素 法师 英雄",
+      "text_zh": "冰精华\n若现在不是你的回合，你可以将你军械库中的蓝色“非攻击”行动牌当作瞬间使用。\n每当你在此牌对手的回合期间使用冰牌时，在其控制下创造一个霜咬衍生物。",
+      "text_en": "Essence of Ice\nIf it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.\nWhenever you play an Ice card during an opponents turn, create a Frostbite token under their control.",
+      "source": "https://cards.fabtcg.com/card/iyslander_stormbind/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    }
+  }
+}

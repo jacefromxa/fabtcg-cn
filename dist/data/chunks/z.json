@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "version": "cba139ba12cc",
+  "cards": {
+    "zap": {
+      "id": "zap",
+      "name_zh": "电击",
+      "name_en": "Zap",
+      "type_zh": "法师 行动",
+      "text_zh": "对目标英雄造成3点秘法伤害。",
+      "text_en": "Deal 3 arcane damage to target hero.",
+      "source": "https://cards.fabtcg.com/card/zap/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "zap_clappers": {
+      "id": "zap_clappers",
+      "name_zh": "电击拍手器",
+      "name_en": "Zap Clappers",
+      "type_zh": "闪电 符文剑士 装备·手臂",
+      "text_zh": "当此牌防御时，你可以展示你手牌中的一张瞬间牌。若如此做，对攻击英雄造成1点秘法伤害。\n刃碎",
+      "text_en": "When this defends, you may reveal an instant card from your hand. If you do, deal 1 arcane damage to the attacking hero.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/zap_clappers/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "zealous_belting": {
+      "id": "zealous_belting",
+      "name_zh": "狂热皮带",
+      "name_en": "Zealous Belting",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当你资源区中有一张力量大于狂热皮带基础力量的牌时，狂热皮带获得再动。",
+      "text_en": "While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has go again.",
+      "source": "https://cards.fabtcg.com/card/zealous_belting/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "zen": {
+      "id": "zen",
+      "name_zh": "禅",
+      "name_en": "Zen",
+      "type_zh": "",
+      "text_zh": "每回合一次瞬间——支付3点资源：在你的手牌中创造一张卧虎。从你的牌库中搜寻一张具有连击的牌，放逐它，然后洗牌。本回合你可以使用它。",
+      "text_en": "Once per Turn Instant - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with combo, banish it, then shuffle. You may play it this turn.",
+      "source": "https://cards.fabtcg.com/card/zen/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "zen_state": {
+      "id": "zen_state",
+      "name_zh": "禅定",
+      "name_en": "Zen State",
+      "type_zh": "忍者 衍生物·光环",
+      "text_zh": "此牌进入竞技场时带有一个平衡指示物。在你的行动阶段开始时，除非你从此牌上移除一个平衡指示物，否则摧毁它。\n若你将受到伤害，防止其中1点伤害。",
+      "text_en": "This enters the arena with a balance counter. At the beginning of your action phase, destroy this unless you remove a balance counter from it.\nIf you would be dealt damage, prevent 1 of that damage.",
+      "source": "https://cards.fabtcg.com/card/zen_state/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "zen_tamer_of_purpose": {
+      "id": "zen_tamer_of_purpose",
+      "name_zh": "禅·目标驯服者",
+      "name_en": "Zen, Tamer of Purpose",
+      "type_zh": "秘法 忍者 英雄",
+      "text_zh": "每回合一次瞬间——支付3点资源：在你的手牌中创造一张卧虎。从你的牌库中搜寻一张具有连击的牌，放逐它，然后洗牌。本回合你可以使用它。",
+      "text_en": "Once per Turn Instant - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with combo, banish it, then shuffle. You may play it this turn.",
+      "source": "https://cards.fabtcg.com/card/zen_tamer_of_purpose/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "zenith_blade": {
+      "id": "zenith_blade",
+      "name_zh": "天顶之刃",
+      "name_en": "Zenith Blade",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "哈拉专精\n每回合一次行动——支付1点资源：攻击\n若此牌本回合被磨砺过，本回合它的第一次攻击获得再动。",
+      "text_en": "Hala Specialization\nOnce per Turn Action - {r}: Attack\nIf this has been sharpened this turn, its first attack this turn gets go again.",
+      "source": "https://cards.fabtcg.com/card/zenith_blade/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "zephyr_needle": {
+      "id": "zephyr_needle",
+      "name_zh": "微风针",
+      "name_en": "Zephyr Needle",
+      "type_zh": "",
+      "text_zh": "每回合一次行动——支付1点资源：攻击。再动\n当此牌被一张防御大于此武器攻击力量的牌防御时，当战斗链关闭时摧毁此牌。",
+      "text_en": "Once per Turn Action - {r}: Attack. Go again\nWhen this is defended by a card with {d} greater than this weapon attack's {p}, destroy this when the combat chain closes.",
+      "source": "https://cards.fabtcg.com/card/zephyr_needle/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "2",
+          "defense": ""
+        }
+      }
+    },
+    "zero_to_fifty": {
+      "id": "zero_to_fifty",
+      "name_zh": "从零到五十",
+      "name_en": "Zero to Fifty",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/zero_to_fifty/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "zero_to_sixty": {
+      "id": "zero_to_sixty",
+      "name_zh": "从零到六十",
+      "name_en": "Zero to Sixty",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/zero_to_sixty/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "zipper_hit": {
+      "id": "zipper_hit",
+      "name_zh": "拉链式命中",
+      "name_en": "Zipper Hit",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/zipper_hit/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "zoom_in": {
+      "id": "zoom_in",
+      "name_zh": "拉近镜头",
+      "name_en": "Zoom In",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "当你用拉近镜头攻击时，占卜X，X为本战斗链中你推进的次数。\n推进",
+      "text_en": "When you attack with Zoom in, opt X, where X is the number of times you have boosted this combat chain.\nBoost",
+      "source": "https://cards.fabtcg.com/card/zoom_in/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "zyggy": {
+      "id": "zyggy",
+      "name_zh": "齐吉",
+      "name_en": "Zyggy",
+      "type_zh": "",
+      "text_zh": "瞬间——支付2点资源，横置此牌，摧毁你控制的一个闪电流转，放逐你控制的另一个没有全息指示物的闪电光环永久物：将被放逐的光环带有一个全息指示物地移回竞技场。",
+      "text_en": "Instant - {r}{r}, {t}, destroy a Lightning Flow you control, banish another Lightning aura permanent you control with no holo counters: Return the banished aura to the arena with a holo counter.",
+      "source": "https://cards.fabtcg.com/card/zyggy/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "zyggy_starlight": {
+      "id": "zyggy_starlight",
+      "name_zh": "齐吉·星光",
+      "name_en": "Zyggy Starlight",
+      "type_zh": "闪电 幻术师 英雄",
+      "text_zh": "瞬间——支付2点资源，横置此牌，摧毁你控制的一个闪电流转，放逐你控制的另一个没有全息指示物的闪电光环永久物：将被放逐的光环带有一个全息指示物地移回竞技场。",
+      "text_en": "Instant - {r}{r}, {t}, destroy a Lightning Flow you control, banish another Lightning aura permanent you control with no holo counters: Return the banished aura to the arena with a holo counter.",
+      "source": "https://cards.fabtcg.com/card/zyggy_starlight/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    }
+  }
+}

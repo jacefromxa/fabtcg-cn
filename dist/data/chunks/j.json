@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "version": "cba139ba12cc",
+  "cards": {
+    "jack_be_nimble": {
+      "id": "jack_be_nimble",
+      "name_zh": "杰克真轻灵",
+      "name_en": "Jack Be Nimble",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以放逐你坟场中的一张轻灵之道。若如此做，此牌获得+1力量和再动。\n当此牌命中英雄时，偷取其控制的一个物品直到此行动阶段结束。",
+      "text_en": "When this attacks, you may banish a Nimblism from your graveyard. If you do, this gets +1{p} and go again.\nWhen this hits a hero, steal an item they control until the end of this action phase.",
+      "source": "https://cards.fabtcg.com/card/jack_be_nimble/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "jack_be_quick": {
+      "id": "jack_be_quick",
+      "name_zh": "杰克真利索",
+      "name_en": "Jack Be Quick",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以放逐你坟场中的一张轻灵之道。若如此做，此牌获得+1力量和再动。\n当此牌命中英雄时，重置其控制的一个盟友，然后偷取它直到此行动阶段结束。",
+      "text_en": "When this attacks, you may banish a Nimblism from your graveyard. If you do, this gets +1{p} and go again.\nWhen this hits a hero, {u} an ally they control, then steal it until the end of this action phase.",
+      "source": "https://cards.fabtcg.com/card/jack_be_quick/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "jack_o_lantern": {
+      "id": "jack_o_lantern",
+      "name_zh": "杰克南瓜灯",
+      "name_en": "Jack-o'-lantern",
+      "type_zh": "暗影 符文剑士 行动",
+      "text_zh": "放逐你牌库顶的一张牌。若其为红色，创造一个符文吟唱衍生物。",
+      "text_en": "Banish the top card of your deck. If it's red, create a Runechant token.",
+      "source": "https://cards.fabtcg.com/card/jack_o_lantern/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "jagged_edge": {
+      "id": "jagged_edge",
+      "name_zh": "锯齿利刃",
+      "name_en": "Jagged Edge",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量，以及“此牌将造成的伤害不能被防止。”",
+      "text_en": "Target weapon attack gets +3{p} and \"Damage this would deal can't be prevented.\"",
+      "source": "https://cards.fabtcg.com/card/jagged_edge/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "jarl_vetrei_i": {
+      "id": "jarl_vetrei_i",
+      "name_zh": "贾尔·维特雷一世",
+      "name_en": "Jarl Vetreiði",
+      "type_zh": "元素 守护者 英雄",
+      "text_zh": "每当你使用一张冰牌时，在对手的一个暴露的头部、胸部、手臂或腿部区域创造一个霜咬衍生物。\n大地与冰精华",
+      "text_en": "Whenever you play an Ice card, create a Frostbite token in an opponent's exposed head, chest, arms, or legs zone.\nEssence of Earth and Ice",
+      "source": "https://cards.fabtcg.com/card/jarl_vetrei_i/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "jarl_vetreii": {
+      "id": "jarl_vetreii",
+      "name_zh": "贾尔·维特雷一世",
+      "name_en": "Jarl Vetreiði",
+      "type_zh": "",
+      "text_zh": "每当你使用一张冰牌时，在对手的一个暴露的头部、胸部、手臂或腿部区域创造一个霜咬衍生物。\n大地与冰精华",
+      "text_en": "Whenever you play an Ice card, create a Frostbite token in an opponent's exposed head, chest, arms, or legs zone.\nEssence of Earth and Ice",
+      "source": "https://cards.fabtcg.com/card/jarl_vetreii/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "jaws_of_victory": {
+      "id": "jaws_of_victory",
+      "name_zh": "胜利之颚",
+      "name_en": "Jaws of Victory",
+      "type_zh": "崇敬 蛮将 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，若你的生命低于该英雄，观众为你欢呼。\n若本回合你被欢呼过，此牌获得再动。",
+      "text_en": "When this attacks a hero, if you have less {h} than them, the crowd cheers you.\nIf you've been cheered this turn, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/jaws_of_victory/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "jinglewood_smash_hit": {
+      "id": "jinglewood_smash_hit",
+      "name_zh": "叮铃木热门单曲",
+      "name_en": "Jinglewood, Smash Hit",
+      "type_zh": "Bard 武器·Fiddle （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：目标对手英雄选择并创造一个力量、加速或活力衍生物。你创造一个铜币衍生物。再动\n行动——费用0：攻击。当此牌命中时，摧毁它。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. Go again\nAction - 0: Attack. When this hits, destroy it.",
+      "source": "https://cards.fabtcg.com/card/jinglewood_smash_hit/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "jittery_bones": {
+      "id": "jittery_bones",
+      "name_zh": "颤抖骸骨",
+      "name_en": "Jittery Bones",
+      "type_zh": "海盗 Necromancer 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一张牌或摧毁你牌库顶的一张牌。若该牌具有水葬，此牌获得再动。",
+      "text_en": "When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/jittery_bones/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "jive": {
+      "id": "jive",
+      "name_zh": "摇摆舞",
+      "name_en": "Jive",
+      "type_zh": "战士 行动",
+      "text_zh": "创造一个剑舞衍生物。",
+      "text_en": "Create a Blade Dance token.",
+      "source": "https://cards.fabtcg.com/card/jive/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "jolly_bludger": {
+      "id": "jolly_bludger",
+      "name_zh": "欢快凶棍",
+      "name_en": "Jolly Bludger",
+      "type_zh": "海盗 机械师 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以横置你控制的一个齿轮。若如此做，此牌获得压制。\n当此牌对英雄造成伤害时，偷取其控制的等量物品。\n每回合三次瞬间——横置你控制的一个齿轮：此牌获得+1力量。",
+      "text_en": "When this attacks, you may {t} a cog you control. If you do, this gets overpower.\nWhen this deals damage to a hero, steal that many items they control.\nThrice per Turn Instant - {t} a cog you control: This gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/jolly_bludger/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "jubeel_spellbane": {
+      "id": "jubeel_spellbane",
+      "name_zh": "朱贝尔咒缚",
+      "name_en": "Jubeel, Spellbane",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n每当此牌命中英雄且你没有控制法殁神盾时，创造一个法殁神盾衍生物。",
+      "text_en": "Once per Turn Action - {r}: Attack\nWhenever this hits a hero and you don't control a Spellbane Aegis, create a Spellbane Aegis token.",
+      "source": "https://cards.fabtcg.com/card/jubeel_spellbane/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "judge_jury_executioner": {
+      "id": "judge_jury_executioner",
+      "name_zh": "法官·陪审团·行刑者",
+      "name_en": "Judge, Jury, Executioner",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "传奇阿泽利亚专精\n若此牌带有一个瞄准指示物，它获得“当此牌命中英雄时，该英雄弃掉手牌中除1张外的所有牌。”",
+      "text_en": "Legendary Azalea Specialization\nIf this has an aim counter, it gets \"When this hits a hero, they discard all but 1 card from their hand.\"",
+      "source": "https://cards.fabtcg.com/card/judge_jury_executioner/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "jump_start": {
+      "id": "jump_start",
+      "name_zh": "跨接启动",
+      "name_en": "Jump Start",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若你控制一张超频驱动器，此牌的使用费用减少1点资源。\n推进",
+      "text_en": "If you control a Hyper Driver, this costs {r} less to play.\nBoost",
+      "source": "https://cards.fabtcg.com/card/jump_start/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "junkyard_dogg": {
+      "id": "junkyard_dogg",
+      "name_zh": "废品场狗",
+      "name_en": "Junkyard Dogg",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "废铁\n当此牌攻击时，若它废掉过一张牌，此牌获得+1力量。",
+      "text_en": "Scrap\nWhen this attacks, if it scrapped a card, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/junkyard_dogg/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "just_a_nick": {
+      "id": "just_a_nick",
+      "name_zh": "只是小伤",
+      "name_en": "Just a Nick",
+      "type_zh": "刺客 攻击反应",
+      "text_zh": "选择其一或全部；\n- 目标基础力量为1或更低的攻击行动牌获得+5力量。\n- 目标具有隐匿的攻击获得“当此牌命中英雄时，放逐其牌库顶的一张牌。”",
+      "text_en": "Choose 1 or both;\n- Target attack action card with 1 or less base {p} gets +5{p}.\n- Target attack with stealth gets \"When this hits a hero, banish the top card of their deck.\"",
+      "source": "https://cards.fabtcg.com/card/just_a_nick/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    }
+  }
+}

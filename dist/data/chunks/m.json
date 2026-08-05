@@ -1,0 +1,2448 @@
+{
+  "schema_version": 1,
+  "version": "cba139ba12cc",
+  "cards": {
+    "machinations_of_dominion": {
+      "id": "machinations_of_dominion",
+      "name_zh": "支配的阴谋",
+      "name_en": "Machinations of Dominion",
+      "type_zh": "符文剑士 行动",
+      "text_zh": "本回合你使用的下一张符文剑士攻击行动牌获得压制，以及“若本回合你使用过或创造过一个光环，此牌获得再动。”\n再动",
+      "text_en": "The next Runeblade attack action card you play this turn gets overpower and \"If you've played or created an aura this turn, this gets go again.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/machinations_of_dominion/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "macho_grande": {
+      "id": "macho_grande",
+      "name_zh": "伟大猛男",
+      "name_en": "Macho Grande",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "支配",
+      "text_en": "Dominate",
+      "source": "https://cards.fabtcg.com/card/macho_grande/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "7",
+          "power": "10",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "7",
+          "power": "9",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "7",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "madcap_charger": {
+      "id": "madcap_charger",
+      "name_zh": "莽撞冲锋者",
+      "name_en": "Madcap Charger",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "作为使用莽撞冲锋者的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞冲锋者具有再动。",
+      "text_en": "As an additional cost to play Madcap Charger, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Charger has go again.",
+      "source": "https://cards.fabtcg.com/card/madcap_charger/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "madcap_muscle": {
+      "id": "madcap_muscle",
+      "name_zh": "莽撞肌肉",
+      "name_en": "Madcap Muscle",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "作为使用莽撞肌肉的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞肌肉获得+3力量。",
+      "text_en": "As an additional cost to play Madcap Muscle, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.",
+      "source": "https://cards.fabtcg.com/card/madcap_muscle/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "mage_hunter_arrow": {
+      "id": "mage_hunter_arrow",
+      "name_zh": "法师猎手箭",
+      "name_en": "Mage Hunter Arrow",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "瞬间——摧毁此牌：本回合接下来你将受到秘法伤害时，防止其中3点伤害。仅当此牌在你军械库中正面朝上时才能启动此异能。\n当此牌命中符文剑士或法师英雄时，你可以摧毁其控制的一个光环。",
+      "text_en": "Instant - Destroy this: The next time you would be dealt arcane damage this turn, prevent 3 of that damage. Activate this only while this is face-up in your arsenal.\nWhen this hits a Runeblade or Wizard hero, you may destroy an aura they control.",
+      "source": "https://cards.fabtcg.com/card/mage_hunter_arrow/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "mage_master_boots": {
+      "id": "mage_master_boots",
+      "name_zh": "法师大师之靴",
+      "name_en": "Mage Master Boots",
+      "type_zh": "通用 装备·腿部",
+      "text_zh": "行动——支付1点资源，摧毁此牌：你本回合使用的下一张非攻击行动牌获得再动。再动",
+      "text_en": "Action - {r}, destroy this: The next non-attack action card you play this turn gets go again. Go again",
+      "source": "https://cards.fabtcg.com/card/mage_master_boots/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "magmatic_carapace": {
+      "id": "magmatic_carapace",
+      "name_zh": "岩浆甲壳",
+      "name_en": "Magmatic Carapace",
+      "type_zh": "守护者 装备·胸部",
+      "text_zh": "每当你使用光环时，你可以横置此牌并支付1点资源。若如此做，创造一个地震涌动衍生物。\n守御",
+      "text_en": "Whenever you play an aura, you may {t} this and pay {r}. If you do, create a Seismic Surge token.\nGuardwell",
+      "source": "https://cards.fabtcg.com/card/magmatic_carapace/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "magrar": {
+      "id": "magrar",
+      "name_zh": "马格拉尔",
+      "name_en": "Magrar",
+      "type_zh": "",
+      "text_zh": "杰尼斯专精\n行动——摧毁此牌：创造一个禅定和一个惰性衍生物。",
+      "text_en": "Genis Specialization\nAction - Destroy this: Create a Zen State and an Inertia token.",
+      "source": "https://cards.fabtcg.com/card/magrar/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "malefic_incantation": {
+      "id": "malefic_incantation",
+      "name_zh": "恶意咒文",
+      "name_en": "Malefic Incantation",
+      "type_zh": "符文剑士 行动·光环",
+      "text_zh": "再动\n此牌进入竞技场时带有3个诗节指示物。当其用完时，摧毁它。\n每回合一次，当你使用攻击行动牌时，从此牌上移除一个诗节指示物。若如此做，创造一个符文吟唱衍生物。",
+      "text_en": "Go again\nThis enters the arena with 3 verse counters. When it has none, destroy it.\nOnce per turn, when you play an attack action card, remove a verse counter from this. If you do, create a Runechant token.",
+      "source": "https://cards.fabtcg.com/card/malefic_incantation/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "malign": {
+      "id": "malign",
+      "name_zh": "恶意",
+      "name_en": "Malign",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n恶意将造成的伤害不能被防止。",
+      "text_en": "Stealth\nDamage that would be dealt by Malign can't be prevented.",
+      "source": "https://cards.fabtcg.com/card/malign/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "man_overboard": {
+      "id": "man_overboard",
+      "name_zh": "落水者",
+      "name_en": "Man Overboard",
+      "type_zh": "海盗 Necromancer 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一个盟友。若如此做，此牌获得+1力量和再动。",
+      "text_en": "When this attacks, you may discard an ally. If you do, this gets +1{p} and go again.",
+      "source": "https://cards.fabtcg.com/card/man_overboard/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "mandible_claw": {
+      "id": "mandible_claw",
+      "name_zh": "下颚之爪",
+      "name_en": "Mandible Claw",
+      "type_zh": "蛮将 武器·爪 （单手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n若本回合你弃置过一张力量为6或更高的牌，此牌的攻击获得再动。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nIf you have discarded a card with 6 or more {p} this turn, this card's attacks go again.",
+      "source": "https://cards.fabtcg.com/card/mandible_claw/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "mangle": {
+      "id": "mangle",
+      "name_zh": "绞碎",
+      "name_en": "Mangle",
+      "type_zh": "守护者行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，摧毁该英雄控制的一个带有-1防御指示物的装备。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, destroy target equipment they control with a -1{d} counter.",
+      "source": "https://cards.fabtcg.com/card/mangle/",
+      "status": "deck-translation-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "manifest_muscle": {
+      "id": "manifest_muscle",
+      "name_zh": "具现肌肉",
+      "name_en": "Manifest Muscle",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你创造过一张牌，此牌获得+1力量。",
+      "text_en": "If you've created a card this turn, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/manifest_muscle/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "manifestation_of_miragai": {
+      "id": "manifestation_of_miragai",
+      "name_zh": "米拉盖的显化",
+      "name_en": "Manifestation of Miragai",
+      "type_zh": "秘法 幻术师 瞬间·光环",
+      "text_zh": "此牌进入竞技场时带有两个+1力量指示物。若你为使用此牌资源过一张气，改为此牌进入竞技场时带有四个+1力量指示物。\n结界X，X为此牌上的+1力量指示物数量。",
+      "text_en": "This enters the arena with two +1{p} counters. If a Chi was pitched to play this, instead this enters the arena with four +1{p} counters.\nWard X, where X is the number of +1{p} counters on this.",
+      "source": "https://cards.fabtcg.com/card/manifestation_of_miragai/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "march_of_loyalty": {
+      "id": "march_of_loyalty",
+      "name_zh": "忠诚进军",
+      "name_en": "March of Loyalty",
+      "type_zh": "龙裔 行动·攻击",
+      "text_zh": "若本回合你创造过效忠衍生物，此牌获得再动。",
+      "text_en": "If you've created a Fealty token this turn, this gets go again",
+      "source": "https://cards.fabtcg.com/card/march_of_loyalty/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "mark_of_lightning": {
+      "id": "mark_of_lightning",
+      "name_zh": "闪电印记",
+      "name_en": "Mark of Lightning",
+      "type_zh": "闪电 装备·手臂",
+      "text_zh": "每当你控制的闪电或元素攻击被一张来自手牌的牌防御时，你可以摧毁闪电印记。若如此做，该攻击对防御英雄造成1点伤害。",
+      "text_en": "Whenever a Lightning or Elemental attack you control is defended by a card from hand, you may destroy Mark of Lightning. If you do, the attack deals 1 damage to the defending hero.",
+      "source": "https://cards.fabtcg.com/card/mark_of_lightning/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "mark_of_the_beast": {
+      "id": "mark_of_the_beast",
+      "name_zh": "野兽印记",
+      "name_en": "Mark of the Beast",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "若野兽印记将从任何区域置入你的坟场，改为放逐它。\n血债",
+      "text_en": "If Mark of the Beast would be put into your graveyard from anywhere, instead banish it.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/mark_of_the_beast/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "mark_of_the_black_widow": {
+      "id": "mark_of_the_black_widow",
+      "name_zh": "黑寡妇之印记",
+      "name_en": "Mark of the Black Widow",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌命中被标记的英雄时，该英雄放逐其手牌中的一张牌。",
+      "text_en": "Stealth\nWhen this hits a marked hero, they banish a card from their hand.",
+      "source": "https://cards.fabtcg.com/card/mark_of_the_black_widow/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "mark_of_the_funnel_web": {
+      "id": "mark_of_the_funnel_web",
+      "name_zh": "漏斗网之印记",
+      "name_en": "Mark of the Funnel Web",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌命中被标记的英雄时，放逐其军械库中的一张牌。",
+      "text_en": "Stealth\nWhen this hits a marked hero, banish a card in their arsenal.",
+      "source": "https://cards.fabtcg.com/card/mark_of_the_funnel_web/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "mark_of_the_huntsman": {
+      "id": "mark_of_the_huntsman",
+      "name_zh": "猎蛛之印记",
+      "name_en": "Mark of the Huntsman",
+      "type_zh": "刺客 武器·匕首 （单手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击。再动\n当此牌命中英雄时，你可以选择摧毁此牌并标记该英雄。\n若此牌正在攻击被标记的英雄，此牌获得+1力量。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack. Go again\nWhen this hits a hero, you may choose to destroy this and mark them.\nIf this is attacking a marked hero, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/mark_of_the_huntsman/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "mark_the_prey": {
+      "id": "mark_the_prey",
+      "name_zh": "标记猎物",
+      "name_en": "Mark the Prey",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌命中英雄时，标记该英雄。",
+      "text_en": "Stealth\nWhen this hits a hero, mark them.",
+      "source": "https://cards.fabtcg.com/card/mark_the_prey/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "mark_with_magma": {
+      "id": "mark_with_magma",
+      "name_zh": "岩浆标记",
+      "name_en": "Mark with Magma",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制2个或更多龙裔链环，此牌获得再动，以及“当此牌命中英雄时，标记该英雄。”",
+      "text_en": "If you control 2 or more Draconic chain links, this gets go again and \"When this hits a hero, mark them.\"",
+      "source": "https://cards.fabtcg.com/card/mark_with_magma/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "marked": {
+      "id": "marked",
+      "name_zh": "被标记",
+      "name_en": "Marked",
+      "type_zh": "",
+      "text_zh": "你处于被标记状态，直到一位对手命中你。",
+      "text_en": "You are marked until an opponent hits you",
+      "source": "https://cards.fabtcg.com/card/marked/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "marlynn": {
+      "id": "marlynn",
+      "name_zh": "玛琳",
+      "name_en": "Marlynn",
+      "type_zh": "",
+      "text_zh": "行动——横置此牌，摧毁你控制的一个金币：在你的手牌中创造一张金翅鱼叉。再动\n每当你在此行动阶段期间抽牌时，你可以将你手牌中的一张箭矢正面朝上放入你的军械库。",
+      "text_en": "Action - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. Go again\nWhenever you draw a card during your action phase, you may put an arrow from your hand face-up into your arsenal.",
+      "source": "https://cards.fabtcg.com/card/marlynn/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "marlynn_treasure_hunter": {
+      "id": "marlynn_treasure_hunter",
+      "name_zh": "玛琳·寻宝猎人",
+      "name_en": "Marlynn, Treasure Hunter",
+      "type_zh": "海盗 游侠 英雄",
+      "text_zh": "行动——横置此牌，摧毁你控制的一个金币：在你的手牌中创造一张金翅鱼叉。再动\n每当你在此行动阶段期间抽牌时，你可以将你手牌中的一张箭矢正面朝上放入你的军械库。",
+      "text_en": "Action - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. Go again\nWhenever you draw a card during your action phase, you may put an arrow from your hand face-up into your arsenal.",
+      "source": "https://cards.fabtcg.com/card/marlynn_treasure_hunter/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mask_of_deceit": {
+      "id": "mask_of_deceit",
+      "name_zh": "欺骗面具",
+      "name_en": "Mask of Deceit",
+      "type_zh": "刺客 装备·头部",
+      "text_zh": "阿拉克尼专精\n当此牌防御时，成为一名随机的混沌特工。若攻击英雄已被标记，改为你选择混沌特工。\n刃碎",
+      "text_en": "Arakni Specialization\nWhen this defends, become a random Agent of Chaos. If the attacking hero is marked, instead choose the Agent of Chaos.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/mask_of_deceit/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mask_of_malicious_manifestations": {
+      "id": "mask_of_malicious_manifestations",
+      "name_zh": "恶意化身面具",
+      "name_en": "Mask of Malicious Manifestations",
+      "type_zh": "刺客·游侠 装备·头部",
+      "text_zh": "行动——支付1点资源，将你手牌或军械库中的一张牌置于你的牌库底，摧毁恶意化身面具：从你的牌库顶展示牌，直到你展示一张攻击行动牌。将其置入你的手牌，然后洗牌。再动\n刃碎",
+      "text_en": "Action - {r}, put a card from your hand or arsenal on the bottom of your deck, destroy Mask of Malicious Manifestations: Reveal cards from the top of your deck until you reveal an attack action card. Put it into your hand, then shuffle. Go again\nBlade break",
+      "source": "https://cards.fabtcg.com/card/mask_of_malicious_manifestations/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "mask_of_many_faces": {
+      "id": "mask_of_many_faces",
+      "name_zh": "千面面具",
+      "name_en": "Mask of Many Faces",
+      "type_zh": "忍者 装备·头部",
+      "text_zh": "瞬间——支付1点资源，摧毁千面面具：说出一张牌名。本回合你使用的下一张攻击行动牌获得该名称。\n刃碎",
+      "text_en": "Instant - {r}, destroy Mask of Many Faces: Name a card. The next attack action card you play this turn gains that name.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/mask_of_many_faces/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "mask_of_momentum": {
+      "id": "mask_of_momentum",
+      "name_zh": "动量面具",
+      "name_en": "Mask of Momentum",
+      "type_zh": "忍者 装备·头部",
+      "text_zh": "每回合一次效果——当你控制的攻击行动牌是连续第三个或更高链环命中时，抽一张牌。\n刃碎",
+      "text_en": "Once per Turn Effect - When an attack action card you control is the third or higher chain link in a row to hit, draw a card.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/mask_of_momentum/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mask_of_perdition": {
+      "id": "mask_of_perdition",
+      "name_zh": "毁灭面具",
+      "name_en": "Mask of Perdition",
+      "type_zh": "刺客 装备·头部",
+      "text_zh": "当毁灭面具在你坟场中时，在你的回合开始时，你可以摧毁你控制的2个银币。若如此做，装备毁灭面具。\n攻击反应——摧毁毁灭面具：目标刺客攻击行动牌获得“当此牌命中英雄时，放逐其牌库顶的一张牌。”\n战痕",
+      "text_en": "While Mask of Perdition is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Mask of Perdition.\nAttack Reaction - Destroy Mask of Perdition: Target Assassin attack action card gains \"When this hits a hero, banish the top card of their deck.\"\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/mask_of_perdition/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "mask_of_recurring_nightmares": {
+      "id": "mask_of_recurring_nightmares",
+      "name_zh": "反复噩梦面具",
+      "name_en": "Mask of Recurring Nightmares",
+      "type_zh": "秘法 刺客 装备·头部",
+      "text_zh": "每回合一次攻击反应——支付3点资源：目标防御英雄放逐其手牌中的一张牌。\n刃碎",
+      "text_en": "Once per Turn Attack Reaction - {c}{c}{c}: Target defending hero banishes a card from their hand.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/mask_of_recurring_nightmares/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mask_of_shifting_perspectives": {
+      "id": "mask_of_shifting_perspectives",
+      "name_zh": "变幻视角面具",
+      "name_en": "Mask of Shifting Perspectives",
+      "type_zh": "刺客·忍者 装备·头部",
+      "text_zh": "攻击反应——摧毁变幻视角面具：本回合每当匕首命中时，你可以将手牌中的一张牌置于你的牌库底。若如此做，抽一张牌。",
+      "text_en": "Attack Reaction - Destroy Mask of Shifting Perspectives: Whenever a dagger hits this turn, you may put a card from your hand on the bottom of your deck. If you do, draw a card.",
+      "source": "https://cards.fabtcg.com/card/mask_of_shifting_perspectives/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "mask_of_the_pouncing_lynx": {
+      "id": "mask_of_the_pouncing_lynx",
+      "name_zh": "猛扑山猫面具",
+      "name_en": "Mask of the Pouncing Lynx",
+      "type_zh": "忍者 装备·头部",
+      "text_zh": "当你控制的攻击行动牌命中时，你可以摧毁猛扑山猫面具。若如此做，从你的牌库中搜寻一张力量为2或更低的攻击行动牌，放逐它，然后洗牌。本回合你可以使用它。\n刃碎",
+      "text_en": "When an attack action card you control hits, you may destroy Mask of the Pouncing Lynx. If you do, search your deck for an attack action card with 2 or less {p}, banish it, then shuffle. You may play it this turn.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/mask_of_the_pouncing_lynx/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mask_of_the_swarming_claw": {
+      "id": "mask_of_the_swarming_claw",
+      "name_zh": "蜂拥之爪面具",
+      "name_en": "Mask of the Swarming Claw",
+      "type_zh": "忍者 装备·头部",
+      "text_zh": "秘法屏障1\n法力虚空X，X为你控制的链环数量。",
+      "text_en": "Arcane Barrier 1\nSpellvoid X, where X is the number of chain links you control.",
+      "source": "https://cards.fabtcg.com/card/mask_of_the_swarming_claw/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "mask_of_three_tails": {
+      "id": "mask_of_three_tails",
+      "name_zh": "三尾面具",
+      "name_en": "Mask of Three Tails",
+      "type_zh": "忍者 装备·头部",
+      "text_zh": "瞬间——摧毁此牌：抽一张牌。仅当本战斗链中你命中三次或更多时才能启动此异能。",
+      "text_en": "Instant - Destroy this: Draw a card. Activate this ability only if you've hit 3 or more times this combat chain.",
+      "source": "https://cards.fabtcg.com/card/mask_of_three_tails/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "mask_of_wizened_whiskers": {
+      "id": "mask_of_wizened_whiskers",
+      "name_zh": "老成胡须面具",
+      "name_en": "Mask of Wizened Whiskers",
+      "type_zh": "忍者 装备·头部",
+      "text_zh": "当此牌防御时，将你坟场中一张具有连击的牌置于你的牌库底。\n刃碎",
+      "text_en": "When this defends, put a card with combo from your graveyard on the bottom of your deck.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/mask_of_wizened_whiskers/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "massacre": {
+      "id": "massacre",
+      "name_zh": "大屠杀",
+      "name_en": "Massacre",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当你用大屠杀攻击时，若本回合你弃置过一张力量为6或更高的牌，大屠杀获得+2力量和威吓。\n若大屠杀被弃置以支付蛮将攻击行动牌的费用，威吓。",
+      "text_en": "When you attack with Massacre, if you have discarded a card with 6 or more {p} this turn, Massacre gains +2{p} and intimidate.\nIf Massacre is discarded to pay the cost of a Brute attack action card, intimidate.",
+      "source": "https://cards.fabtcg.com/card/massacre/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "master_cog": {
+      "id": "master_cog",
+      "name_zh": "大师齿轮",
+      "name_en": "Master Cog",
+      "type_zh": "机械师 资源·宝石",
+      "text_zh": "传奇\n当此牌被资源时，你可以在你控制的一个具有上弦的物品上放置一个蒸汽指示物。",
+      "text_en": "Legendary\nWhen this is pitched, you may put a steam counter on an item you control with crank.",
+      "source": "https://cards.fabtcg.com/card/master_cog/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "maul": {
+      "id": "maul",
+      "name_zh": "撕裂",
+      "name_en": "Maul",
+      "type_zh": "忍者 攻击反应",
+      "text_zh": "选择其一或全部；\n- 目标基础力量为1或更低的攻击行动牌获得+3力量。\n- 目标卧虎获得“当此牌命中时，在你的放逐区中创造2张卧虎。本回合你可以使用它们。”",
+      "text_en": "Choose 1 or both;\n- Target attack action card with 1 or less base {p} gets +3{p}.\n- Target Crouching Tiger gets \"When this hits, create 2 Crouching Tigers in your banished zone. You may play them this turn.\"",
+      "source": "https://cards.fabtcg.com/card/maul/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "mauling_qi": {
+      "id": "mauling_qi",
+      "name_zh": "狂暴之气",
+      "name_en": "Mauling Qi",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——当此牌命中时，若卧虎是本战斗链的最后一次攻击，对每位对手英雄造成1点伤害。",
+      "text_en": "Combo - When this hits, if Crouching Tiger was the last attack this combat chain, deal 1 damage to each opposing hero.",
+      "source": "https://cards.fabtcg.com/card/mauling_qi/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "mauvrion_skies": {
+      "id": "mauvrion_skies",
+      "name_zh": "莫夫里翁之天",
+      "name_en": "Mauvrion Skies",
+      "type_zh": "符文剑士 行动",
+      "text_zh": "本回合你使用的下一张符文剑士攻击行动牌获得再动，以及“若此牌命中，创造3个符文吟唱衍生物。”\n再动",
+      "text_en": "The next runeblade attack action card you play this turn gains go again and \"If this hits, create 3 Runechant tokens.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/mauvrion_skies/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "maximum_velocity": {
+      "id": "maximum_velocity",
+      "name_zh": "最大速度",
+      "name_en": "Maximum Velocity",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "仅当本回合你推进过三次或更多时才能使用此牌。",
+      "text_en": "Play this only if you've boosted 3 or more times this turn.",
+      "source": "https://cards.fabtcg.com/card/maximum_velocity/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "10",
+          "defense": "3"
+        }
+      }
+    },
+    "maxx_nitro": {
+      "id": "maxx_nitro",
+      "name_zh": "马克斯·硝基",
+      "name_en": "Maxx Nitro",
+      "type_zh": "",
+      "text_zh": "每回合一次行动——支付2点资源：创造一个带有2个蒸汽指示物的超频驱动器衍生物。仅当本回合你推进过时才能启动此异能。\n你控制的超频驱动器获得上弦。",
+      "text_en": "Once per Turn Action - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've boosted this turn.\nHyper Drivers you control get crank.",
+      "source": "https://cards.fabtcg.com/card/maxx_nitro/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "maxx_the_hype_nitro": {
+      "id": "maxx_the_hype_nitro",
+      "name_zh": "马克斯·狂热硝基",
+      "name_en": "Maxx 'The Hype' Nitro",
+      "type_zh": "机械师 英雄",
+      "text_zh": "每回合一次行动——支付2点资源：创造一个带有2个蒸汽指示物的超频驱动器衍生物。仅当本回合你推进过时才能启动此异能。\n你控制的超频驱动器获得上弦。",
+      "text_en": "Once per Turn Action - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've boosted this turn.\nHyper Drivers you control get crank.",
+      "source": "https://cards.fabtcg.com/card/maxx_the_hype_nitro/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mbrio_base_cortex": {
+      "id": "mbrio_base_cortex",
+      "name_zh": "姆布里奥基础皮层",
+      "name_en": "mBrio Base Cortex",
+      "type_zh": "机械师 装备·基础 胸部",
+      "text_zh": "若你控制一张超频驱动器，此牌获得+2防御。\n守御",
+      "text_en": "If you control a Hyper Driver, this gets +2{d}.\nGuardwell",
+      "source": "https://cards.fabtcg.com/card/mbrio_base_cortex/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "mbrio_base_digits": {
+      "id": "mbrio_base_digits",
+      "name_zh": "姆布里奥基础指节",
+      "name_en": "mBrio Base Digits",
+      "type_zh": "机械师 装备·基础 手臂",
+      "text_zh": "瞬间——横置此牌和你控制的一个齿轮：此牌直到回合结束获得+1防御。\n淬炼",
+      "text_en": "Instant - {t} this and a cog you control: This gets +1{d} until end of turn.\nTemper",
+      "source": "https://cards.fabtcg.com/card/mbrio_base_digits/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "mbrio_base_vizier": {
+      "id": "mbrio_base_vizier",
+      "name_zh": "姆布里奥基础维齐尔",
+      "name_en": "mBrio Base Vizier",
+      "type_zh": "机械师 装备·基础 头部",
+      "text_zh": "若你将受到秘法伤害，你可以从你控制的一张超频驱动器上移除一个蒸汽指示物以防止其中1点伤害。\n秘法屏障1",
+      "text_en": "If you would be dealt arcane damage, you may remove a steam counter from a Hyper Driver you control to prevent 1 of that damage.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/mbrio_base_vizier/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "mbrio_base_walkers": {
+      "id": "mbrio_base_walkers",
+      "name_zh": "姆布里奥基础足甲",
+      "name_en": "mBrio Base Walkers",
+      "type_zh": "机械师 装备·基础 腿部",
+      "text_zh": "镇压1",
+      "text_en": "Quell 1",
+      "source": "https://cards.fabtcg.com/card/mbrio_base_walkers/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "meat_and_greet": {
+      "id": "meat_and_greet",
+      "name_zh": "肉食社交",
+      "name_en": "Meat and Greet",
+      "type_zh": "符文剑士 行动·攻击",
+      "text_zh": "当此牌命中时，创造一个符文吟唱衍生物。\n若本回合你对对手英雄造成过秘法伤害，此牌获得再动。",
+      "text_en": "When this hits, create a Runechant token.\nIf you've dealt arcane damage to an opposing hero this turn, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/meat_and_greet/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "mechanical_strength": {
+      "id": "mechanical_strength",
+      "name_zh": "机械力量",
+      "name_en": "Mechanical Strength",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "进化升级——此牌获得+X力量，X为你已装备的进化装备数量。",
+      "text_en": "Evo Upgrade - This gets +X{p}, where X is the number of Evos you have equipped.",
+      "source": "https://cards.fabtcg.com/card/mechanical_strength/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "medkit": {
+      "id": "medkit",
+      "name_zh": "医疗包",
+      "name_en": "Medkit",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "行动——将此牌置于其拥有者的牌库底：获得2点生命。",
+      "text_en": "Action - Put this on the bottom of its owner's deck: Gain 2{h}",
+      "source": "https://cards.fabtcg.com/card/medkit/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "meet_madness": {
+      "id": "meet_madness",
+      "name_zh": "迎向疯狂",
+      "name_en": "Meet Madness",
+      "type_zh": "混沌 刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌命中英雄时，随机选择其一；\n- 该英雄选择其手牌中的一张牌。放逐它。\n- 该英雄选择其军械库中的一张牌。放逐它。\n- 放逐其牌库顶的一张牌。",
+      "text_en": "Stealth\nWhen this hits a hero, choose 1 at random;\n- They choose a card in their hand. Banish it.\n- They choose a card in their arsenal. Banish it.\n- Banish the top card of their deck.",
+      "source": "https://cards.fabtcg.com/card/meet_madness/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "meganetic_lockwave": {
+      "id": "meganetic_lockwave",
+      "name_zh": "磁力锁定波",
+      "name_en": "Meganetic Lockwave",
+      "type_zh": "机械师 行动",
+      "text_zh": "目标英雄选择其控制的X件装备，然后你从其中选择1件。该英雄本回合若能够，必须用那件装备防御你的攻击。\n再动",
+      "text_en": "Target hero chooses X equipment they control, then you choose 1 from among them. That hero must defend your attacks this turn with that equipment if able. \nGo again",
+      "source": "https://cards.fabtcg.com/card/meganetic_lockwave/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "XXX",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "meganetic_protocol": {
+      "id": "meganetic_protocol",
+      "name_zh": "磁力协议",
+      "name_en": "Meganetic Protocol",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "进化升级——防御英雄若能够，必须用其控制的带有-1防御指示物的X件装备防御此牌，X为你已装备的进化装备数量。",
+      "text_en": "Evo Upgrade - The defending hero must defend this with X equipment they control with -1{d} counters if able, where X is the number of Evos you have equipped.",
+      "source": "https://cards.fabtcg.com/card/meganetic_protocol/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "meganetic_shockwave": {
+      "id": "meganetic_shockwave",
+      "name_zh": "磁力冲击波",
+      "name_en": "Meganetic Shockwave",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "防御英雄必须用其控制的X件装备防御磁力冲击波，X为本战斗链中你推进的次数。",
+      "text_en": "The defending hero must defend Meganetic Shockwave with X equipment they control, where X is the number of times you have boosted this combat chain.",
+      "source": "https://cards.fabtcg.com/card/meganetic_shockwave/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "melody_sing_along": {
+      "id": "melody_sing_along",
+      "name_zh": "旋律·跟唱",
+      "name_en": "Melody, Sing-along",
+      "type_zh": "",
+      "text_zh": "每当你使用歌曲时，创造与游戏中其他英雄数量相等的铜币衍生物。",
+      "text_en": "Whenever you play a song, create Copper tokens equal to the number of other heroes in the game.",
+      "source": "https://cards.fabtcg.com/card/melody_sing_along/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "melting_point": {
+      "id": "melting_point",
+      "name_zh": "熔点",
+      "name_en": "Melting Point",
+      "type_zh": "游侠 行动",
+      "text_zh": "你本回合的下一次箭矢攻击获得+4力量。\n若其带有一个瞄准指示物，它获得“当此牌命中英雄时，摧毁其控制的一件基础力量为1的单手武器。”\n再动",
+      "text_en": "Your next arrow attack this turn gains +4{p}.\nIf it has an aim counter, it gains \"When this hits a hero, destroy a 1H weapon they control with 1 base {p}.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/melting_point/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "memorial_ground": {
+      "id": "memorial_ground",
+      "name_zh": "纪念之地",
+      "name_en": "Memorial Ground",
+      "type_zh": "通用 瞬间",
+      "text_zh": "将你坟场中费用为2或更低的目标攻击行动牌置于牌库顶。",
+      "text_en": "Put target attack action card with cost 2 or less from your graveyard on top of your deck.",
+      "source": "https://cards.fabtcg.com/card/memorial_ground/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mental_block": {
+      "id": "mental_block",
+      "name_zh": "心理阻滞",
+      "name_en": "Mental Block",
+      "type_zh": "法师 阻挡",
+      "text_zh": "瞬间——弃掉此牌：防止本回合接下来将对你造成的2点伤害。你第一次以此方式防止伤害时，创造一个沉思衍生物。",
+      "text_en": "Instant - Discard this: Prevent the next 2 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Ponder token.",
+      "source": "https://cards.fabtcg.com/card/mental_block/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "merciful_retribution": {
+      "id": "merciful_retribution",
+      "name_zh": "仁慈的报复",
+      "name_en": "Merciful Retribution",
+      "type_zh": "光 幻术师 瞬间·光环",
+      "text_zh": "每当你控制的攻击行动牌被摧毁时，对目标英雄造成1点秘法伤害。若其为非衍生物光牌，将其置入你的灵魂。\n幻尊",
+      "text_en": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your soul.\nSpectra",
+      "source": "https://cards.fabtcg.com/card/merciful_retribution/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "merciless_battleaxe": {
+      "id": "merciless_battleaxe",
+      "name_zh": "无情战斧",
+      "name_en": "Merciless Battleaxe",
+      "type_zh": "战士 武器·斧 （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n当此牌攻击时，若攻击的力量大于其基础的两倍，该攻击获得压制。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Atttack\nWhen this attacks, if the attack's {p} is greater than twice its base, the attack gets overpower.",
+      "source": "https://cards.fabtcg.com/card/merciless_battleaxe/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "mercurial_skies": {
+      "id": "mercurial_skies",
+      "name_zh": "水银之天",
+      "name_en": "Mercurial Skies",
+      "type_zh": "闪电 符文剑士 行动",
+      "text_zh": "本回合你使用的下一张符文剑士或闪电攻击行动牌获得再动，以及“此牌第一次对英雄造成伤害时，你可以摧毁你控制的一个闪电流转。若如此做，对其造成3点秘法伤害。”\n再动",
+      "text_en": "The next Runeblade or Lightning attack action card you play this turn gets go again and \"The first time this deals damage to a hero, you may destroy a Lightning Flow you control. If you do, deal 3 arcane damage to them.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/mercurial_skies/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "meridian_pathway": {
+      "id": "meridian_pathway",
+      "name_zh": "子午线通道",
+      "name_en": "Meridian Pathway",
+      "type_zh": "秘法 幻术师 装备·腿部",
+      "text_zh": "瞬间——支付3点资源：本回合你可以将光环当作瞬间使用。\n每当你资源一张气时，你可以让此牌直到回合结束获得结界3。",
+      "text_en": "Instant - {c}{c}{c}: You may play auras this turn as though they were instants.\nWhenever you pitch a Chi, you may have this get ward 3 until end of turn.",
+      "source": "https://cards.fabtcg.com/card/meridian_pathway/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "metacarpus_node": {
+      "id": "metacarpus_node",
+      "name_zh": "掌骨节点",
+      "name_en": "Metacarpus Node",
+      "type_zh": "法师 装备·手臂",
+      "text_zh": "每当你使用一张具有造成秘法伤害效果的牌时，你可以支付1点资源。若如此做，改为它造成等量加1的秘法伤害，并在结束阶段开始时摧毁掌骨节点。\n秘法屏障1",
+      "text_en": "Whenever you play a card with an effect that deals arcane damage, you may pay {r}. If you do, instead it deals that much arcane damage plus 1, and destroy Metacarpus Node at the beginning of the end phase.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/metacarpus_node/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "meteoric_impact": {
+      "id": "meteoric_impact",
+      "name_zh": "陨石冲击",
+      "name_en": "Meteoric Impact",
+      "type_zh": "闪电 法师 行动",
+      "text_zh": "对任意目标造成3点秘法伤害。\n星落——若本回合有一张瞬间牌被置入你的坟场，改为造成5点秘法伤害。",
+      "text_en": "Deal 3 arcane damage to any target.\nStarfall - If an instant card has been put into your graveyard this turn, instead deal 5 arcane damage.",
+      "source": "https://cards.fabtcg.com/card/meteoric_impact/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "meteoric_rise": {
+      "id": "meteoric_rise",
+      "name_zh": "流星升腾",
+      "name_en": "Meteoric Rise",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "每回合两次瞬间——支付1点资源：此牌获得+1力量。\n当此牌命中时，创造一个闪电流转衍生物。",
+      "text_en": "Twice per Turn Instant - {r}: This gets +1{p}.\nWhen this hits, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/meteoric_rise/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "metex": {
+      "id": "metex",
+      "name_zh": "金属织机",
+      "name_en": "MetEx",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，你可以将你手牌中一张费用为0或1的物品放入竞技场。",
+      "text_en": "Boost\nWhen this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+      "source": "https://cards.fabtcg.com/card/metex/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "metis_archangel_of_tenacity": {
+      "id": "metis_archangel_of_tenacity",
+      "name_zh": "坚韧大天使·墨提斯",
+      "name_en": "Metis, Archangel of Tenacity",
+      "type_zh": "光·Angel Ally",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n当墨提斯攻击时，你可以放逐你的英雄的灵魂中的一张牌。若如此做，本回合你的攻击获得支配。\n结界4",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen Metis attacks, you may banish a card from your hero's soul. If you do, your attacks this turn get dominate.\nWard 4",
+      "source": "https://cards.fabtcg.com/card/metis_archangel_of_tenacity/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "mhz_script": {
+      "id": "mhz_script",
+      "name_zh": "兆赫脚本",
+      "name_en": "MHz Script",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n你的机械师攻击行动牌获得再动。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nYour Mechanologist attack action cards get go again.",
+      "source": "https://cards.fabtcg.com/card/mhz_script/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "micro_processor": {
+      "id": "micro_processor",
+      "name_zh": "微处理器",
+      "name_en": "Micro-processor",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "数据娃娃专精\n每回合一次行动——费用0：占卜1\n每回合一次行动——费用0：抽一张牌，然后将你手牌中的一张牌置于你的牌库顶。\n每回合一次行动——费用0：放逐你牌库顶的一张牌。\n每回合你第一次启动微处理器时，获得1个行动点。",
+      "text_en": "Data Doll Specialization\nOnce Per Turn Action - 0: Opt 1\nOnce Per Turn Action - 0: Draw a card then put a card from your hand on top of your deck.\nOnce Per Turn Action - 0: Banish the top card of your deck.\nThe first time you activate Micro-processor each turn, gain 1 action point.",
+      "source": "https://cards.fabtcg.com/card/micro_processor/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "midas_touch": {
+      "id": "midas_touch",
+      "name_zh": "迈达斯之手",
+      "name_en": "Midas Touch",
+      "type_zh": "通用 行动",
+      "text_zh": "摧毁目标盟友。其操控者创造与其费用等量的金币衍生物。\n再动",
+      "text_en": "Destroy target ally. Its controller creates Gold tokens equal to its cost.\nGo again",
+      "source": "https://cards.fabtcg.com/card/midas_touch/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "might": {
+      "id": "might",
+      "name_zh": "力量",
+      "name_en": "Might",
+      "type_zh": "通用 衍生物·光环",
+      "text_zh": "在你的回合开始时，摧毁此牌，然后你本回合的下一次攻击获得+1力量。",
+      "text_en": "At the start of your turn, destroy this, then your next attack this turn gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/might/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mighty_windup": {
+      "id": "mighty_windup",
+      "name_zh": "强力蓄势",
+      "name_en": "Mighty Windup",
+      "type_zh": "蛮将·守护者 行动·攻击",
+      "text_zh": "瞬间——弃掉此牌：创造一个力量衍生物。",
+      "text_en": "Instant - Discard this: Create a Might token.",
+      "source": "https://cards.fabtcg.com/card/mighty_windup/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "mightybone_knuckles": {
+      "id": "mightybone_knuckles",
+      "name_zh": "强骨指节",
+      "name_en": "Mightybone Knuckles",
+      "type_zh": "憎恶 装备·手臂",
+      "text_zh": "行动——支付3点资源，摧毁此牌：创造3个力量衍生物。仅当你的生命高于其他每位英雄时才能启动此异能。再动\n刃碎",
+      "text_en": "Action - {r}{r}{r}, destroy this: Create 3 Might tokens. Activate this only if you have more {h} than each other hero. Go again\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/mightybone_knuckles/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "millers_grindstone": {
+      "id": "millers_grindstone",
+      "name_zh": "磨坊主磨石",
+      "name_en": "Miller's Grindstone",
+      "type_zh": "守护者 武器·锤 （单手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n当此牌命中英雄时，与该英雄交锋。若你获胜，摧毁其牌库顶的一张牌。若该英雄获胜，在此牌上放置一个-1力量指示物。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nWhen this hits a hero, clash with them. If you win, destroy the top card of their deck. If they win, put a -1{p} counter on this.",
+      "source": "https://cards.fabtcg.com/card/millers_grindstone/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "mind_meets_might": {
+      "id": "mind_meets_might",
+      "name_zh": "心智与力量相遇",
+      "name_en": "Mind Meets Might",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "当此牌命中英雄时，该英雄展示其手牌并弃掉所有力量为6或更高的牌，然后抽等量的牌。\n幻景",
+      "text_en": "When this hits a hero, they reveal their hand and discard all cards with 6 or more {p}, then they draw that many cards.\nMirage",
+      "source": "https://cards.fabtcg.com/card/mind_meets_might/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "mind_warp": {
+      "id": "mind_warp",
+      "name_zh": "思维扭曲",
+      "name_en": "Mind Warp",
+      "type_zh": "法师 行动",
+      "text_zh": "对目标英雄造成2点秘法伤害。\n激涌——若此牌对英雄造成超过2点伤害，该英雄将其手牌洗入其牌库，然后抽数量减1的牌。",
+      "text_en": "Deal 2 arcane damage to target hero.\nSurge - If this deals more than 2 damage to a hero, they shuffle their hand into their deck, then they draw that many cards minus 1.",
+      "source": "https://cards.fabtcg.com/card/mind_warp/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "minds_desire": {
+      "id": "minds_desire",
+      "name_zh": "心智欲望",
+      "name_en": "Mind's Desire",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌命中英雄时，放逐其牌库顶的一张牌。\n每当此牌放逐一张非攻击行动牌时，获得1点生命。",
+      "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck.\nWhenever this banishes a non-attack action card, gain 1{h}.",
+      "source": "https://cards.fabtcg.com/card/minds_desire/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "mindstate_of_tiger": {
+      "id": "mindstate_of_tiger",
+      "name_zh": "虎之心境",
+      "name_en": "Mindstate of Tiger",
+      "type_zh": "忍者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁虎之心境，然后在你的手牌中创造一张卧虎。",
+      "text_en": "At the start of your turn, destroy Mindstate of Tiger then create a Crouching Tiger in your hand.",
+      "source": "https://cards.fabtcg.com/card/mindstate_of_tiger/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "minerva_themis": {
+      "id": "minerva_themis",
+      "name_zh": "米涅娃·忒弥斯",
+      "name_en": "Minerva Themis",
+      "type_zh": "",
+      "text_zh": "当米涅娃牌面朝下在军械库中时，在你的回合开始时，你可以将她翻为正面朝上。\n当米涅娃正面朝上在军械库中时，你控制的单手武器获得+1力量。每当你控制的武器命中时，在米涅娃上放置一个课业指示物。然后若其上有3个或更多课业指示物，放逐她，从你的牌库中搜寻一张专精牌，将其正面朝上放入军械库，然后洗牌。",
+      "text_en": "While Minerva is face down in arsenal, at the start of your turn, you may turn her face up.\nWhile Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever a weapon you control hits, put a lesson counter on Minerva. Then if there are 3 or more lesson counters on her, banish her, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
+      "source": "https://cards.fabtcg.com/card/minerva_themis/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    },
+    "mini_forcefield": {
+      "id": "mini_forcefield",
+      "name_zh": "迷你力场",
+      "name_en": "Mini Forcefield",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有4个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n结界X，X为此牌上的蒸汽指示物数量。",
+      "text_en": "Crank\nThis enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.\nWard X, where X is the number of steam counters on this.",
+      "source": "https://cards.fabtcg.com/card/mini_forcefield/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mini_meataxe": {
+      "id": "mini_meataxe",
+      "name_zh": "迷你肉斧",
+      "name_en": "Mini Meataxe",
+      "type_zh": "蛮将 武器·斧 （单手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n当此牌攻击时，抽一张牌，然后随机弃一张牌。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen this attacks, draw a card then discard a random card.",
+      "source": "https://cards.fabtcg.com/card/mini_meataxe/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "minnowism": {
+      "id": "minnowism",
+      "name_zh": "杂鱼之道",
+      "name_en": "Minnowism",
+      "type_zh": "通用 行动",
+      "text_zh": "你本回合使用的下一张基础力量为3或更低的攻击行动牌获得+3力量。\n再动",
+      "text_en": "The next attack action card with 3 or less base {p} you play this turn gains +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/minnowism/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "miragai": {
+      "id": "miragai",
+      "name_zh": "米拉盖",
+      "name_en": "Miragai",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "你每回合的第一次龙攻击失去且不能获得虚击。",
+      "text_en": "Your first dragon attack each turn loses and can't gain phantasm.",
+      "source": "https://cards.fabtcg.com/card/miragai/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "miraging_metamorph": {
+      "id": "miraging_metamorph",
+      "name_zh": "幻景变形者",
+      "name_en": "Miraging Metamorph",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "虚击\n当幻景变形者被摧毁时，创造一个你控制的光环的复制品衍生物。",
+      "text_en": "Phantasm\nWhen Miraging Metamorph is destroyed, create a token that's a copy of an aura you control.",
+      "source": "https://cards.fabtcg.com/card/miraging_metamorph/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "mischievous_meeps": {
+      "id": "mischievous_meeps",
+      "name_zh": "淘气米普",
+      "name_en": "Mischievous Meeps",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌命中英雄时，获得其控制的一张费用为2或更低的物品的控制权。否则，抽一张牌。\n再动",
+      "text_en": "When this hits a hero, gain control of an item with cost 2 or less they control. Otherwise, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/mischievous_meeps/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "misfire_dampener": {
+      "id": "misfire_dampener",
+      "name_zh": "误射阻尼器",
+      "name_en": "Misfire Dampener",
+      "type_zh": "机械师 装备·手臂",
+      "text_zh": "瞬间——摧毁此牌：防止本回合接下来将对你造成的1点秘法伤害。若本回合你推进过，改为防止接下来的2点。\n刃碎",
+      "text_en": "Instant - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've boosted this turn, instead prevent the next 2.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/misfire_dampener/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "mist_hunter": {
+      "id": "mist_hunter",
+      "name_zh": "迷雾猎手",
+      "name_en": "Mist Hunter",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "契约——你受契约束缚以放逐对手的蓝色牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中秘法英雄时，搜寻其牌库中任意数量的内息并放逐它们。然后洗牌。",
+      "text_en": "Contract - You are contracted to banish opponents' blue cards. Whenever you complete this contract, create a Silver token.\nWhen this hits a Mystic hero, search their deck for any number of Inner Chi and banish them. Then shuffle.",
+      "source": "https://cards.fabtcg.com/card/mist_hunter/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "mistborn_protector": {
+      "id": "mistborn_protector",
+      "name_zh": "雾生守护者",
+      "name_en": "Mistborn Protector",
+      "type_zh": "秘法 防御反应",
+      "text_zh": "当此牌防御时，若本回合你创造过一张牌，此牌获得+1防御。",
+      "text_en": "While this is defending, if you've created a card this turn, this gets +1{d}.",
+      "source": "https://cards.fabtcg.com/card/mistborn_protector/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mistcloak_gully": {
+      "id": "mistcloak_gully",
+      "name_zh": "雾披风峡谷",
+      "name_en": "Mistcloak Gully",
+      "type_zh": "秘法 瞬间·地标",
+      "text_zh": "传奇\n每回合第一次以你为目标的攻击获得-1力量。\n在每个结束阶段开始时，除非本回合你资源过、使用过或用一张蓝色牌防御过，否则摧毁此牌。若本回合你资源过、使用过且用蓝色牌防御过，超越。",
+      "text_en": "Legendary\nThe first attack that targets you each turn gets -1{p}.\nAt the beginning of each end phase, destroy this unless you've pitched, played, or defended with a blue card this turn. If you've pitched, played, and defended with a blue card this turn, transcend.",
+      "source": "https://cards.fabtcg.com/card/mistcloak_gully/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mocking_blow": {
+      "id": "mocking_blow",
+      "name_zh": "嘲讽打击",
+      "name_en": "Mocking Blow",
+      "type_zh": "憎恶 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，若你的生命高于该英雄，观众为你喝倒彩。\n若本回合你被喝倒彩过，此牌获得+4力量。",
+      "text_en": "When this attacks a hero, if you have more {h} than them, the crowd boos you.\nIf you've been booed this turn, this gets +4{p}.",
+      "source": "https://cards.fabtcg.com/card/mocking_blow/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "moment_maker": {
+      "id": "moment_maker",
+      "name_zh": "制造时刻",
+      "name_en": "Moment Maker",
+      "type_zh": "崇敬 守护者 武器·锤 斧 （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n若你控制3个或更多悬念光环，此牌获得+2力量，以及“当此牌命中英雄时，观众为你欢呼。”",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf you control 3 or more auras of suspense, this gets +2{p} and \"When this hits a hero, the crowd cheers you.\"",
+      "source": "https://cards.fabtcg.com/card/moment_maker/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "money_or_your_life": {
+      "id": "money_or_your_life",
+      "name_zh": "要钱还是要命",
+      "name_en": "Money or Your Life?",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌命中英雄时，除非该英雄将其控制的一个金币衍生物给你，否则对其造成2点伤害。若你为盗贼，重复此过程一次。",
+      "text_en": "When this hits a hero, deal 2 damage to them unless they give you a Gold token they control. If you are a Thief, repeat this process once.",
+      "source": "https://cards.fabtcg.com/card/money_or_your_life/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "money_where_ya_mouth_is": {
+      "id": "money_where_ya_mouth_is",
+      "name_zh": "说到做到",
+      "name_en": "Money Where Ya Mouth Is",
+      "type_zh": "通用 行动",
+      "text_zh": "你本回合的下一次攻击获得+3力量，以及“当此牌攻击英雄时，你可以与该英雄下注。胜者创造一个金币衍生物。”\n再动",
+      "text_en": "Your next attack this turn gets +3{p} and \"When this attacks a hero, you may wager with them. The winner creates a Gold token.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/money_where_ya_mouth_is/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "monkey_powder": {
+      "id": "monkey_powder",
+      "name_zh": "猴火药",
+      "name_en": "Monkey Powder",
+      "type_zh": "游侠 行动",
+      "text_zh": "你本回合的下一次箭矢攻击获得+1力量和压制。\n抽一张牌。\n再动",
+      "text_en": "Your next arrow attack this turn gets +1{p} and overpower.\nDraw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/monkey_powder/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "monolith_of_galcia": {
+      "id": "monolith_of_galcia",
+      "name_zh": "加尔西亚巨石",
+      "name_en": "Monolith of Galcia",
+      "type_zh": "冰 守护者 行动",
+      "text_zh": "选择1个或更多；\n摧毁目标被冻结的盟友。\n摧毁目标被冻结的光环。\n摧毁目标被冻结的装备。\n摧毁目标被冻结的物品。",
+      "text_en": "Choose 1 or more;\n\nDestroy target frozen ally.\nDestroy target frozen aura.\nDestroy target frozen equipment.\nDestroy target frozen item.",
+      "source": "https://cards.fabtcg.com/card/monolith_of_galcia/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "monstrous_veil": {
+      "id": "monstrous_veil",
+      "name_zh": "骇人面纱",
+      "name_en": "Monstrous Veil",
+      "type_zh": "蛮将 装备·头部",
+      "text_zh": "里纳尔专精\n行动——摧毁此牌：抽一张牌，然后随机弃一张牌。再动\n战痕",
+      "text_en": "Rhinar Specialization\nAction - Destroy this: Draw a card then discard a random card. Go again\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/monstrous_veil/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "moon_chakra": {
+      "id": "moon_chakra",
+      "name_zh": "月脉轮",
+      "name_en": "Moon Chakra",
+      "type_zh": "秘法 幻术师 瞬间",
+      "text_zh": "本回合接下来你将受到伤害时，防止其中3点伤害。若本回合你超越过，改为防止5点。",
+      "text_en": "The next time you would be dealt damage this turn, prevent 3 of that damage. If you've transcended this turn, instead prevent 5.",
+      "source": "https://cards.fabtcg.com/card/moon_chakra/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "moon_wish": {
+      "id": "moon_wish",
+      "name_zh": "月光祈愿",
+      "name_en": "Moon Wish",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "你可以将手牌中的一张牌置于你的牌库顶，而非支付月光祈愿的费用。\n若月光祈愿命中，从你的牌库中搜寻一张名为阳光之吻的牌，展示它，将其置入你的手牌，然后洗牌。",
+      "text_en": "You may put a card from your hand on top of your deck rather than pay Moon Wish's {r} cost.\nIf Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it into your hand, then shuffle your deck.",
+      "source": "https://cards.fabtcg.com/card/moon_wish/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "moonshot": {
+      "id": "moonshot",
+      "name_zh": "登月一击",
+      "name_en": "Moonshot",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "仅当本回合你推进过时才能使用此牌。作为使用此牌的额外费用，摧毁你控制的X张超频驱动器。\n当此牌攻击时，每有一张以此方式摧毁的超频驱动器，它获得+3力量。\n若此牌的力量为10或更高，它获得压制。",
+      "text_en": "Play this only if you've boosted this turn. As an additional cost to play this, destroy X Hyper Drivers you control.\nWhen this attacks, it gets +3{p} for each Hyper Driver destroyed this way.\nIf this has 10 or more {p}, it gets overpower.",
+      "source": "https://cards.fabtcg.com/card/moonshot/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "XX",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "moray_le_fay": {
+      "id": "moray_le_fay",
+      "name_zh": "海鳗·勒菲",
+      "name_en": "Moray le Fay",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——横置此牌：攻击\n瞬间——支付1点资源，横置此牌：在目标盟友上放置一个+1力量指示物。\n水葬",
+      "text_en": "Action - {t}: Attack\nInstant - {r}, {t}: Put a +1{p} counter on target ally.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/moray_le_fay/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "0",
+          "defense": null
+        }
+      }
+    },
+    "mordred_tide": {
+      "id": "mordred_tide",
+      "name_zh": "莫德雷德之潮",
+      "name_en": "Mordred Tide",
+      "type_zh": "符文剑士 行动",
+      "text_zh": "直到回合结束，若你将创造一个或更多符文吟唱衍生物，改为创造等量加1个。\n再动",
+      "text_en": "Until end of turn, if you would create one or more Runechant tokens, instead create that many plus 1.\nGo again",
+      "source": "https://cards.fabtcg.com/card/mordred_tide/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "morlock_hill": {
+      "id": "morlock_hill",
+      "name_zh": "莫洛克山丘",
+      "name_en": "Morlock Hill",
+      "type_zh": "战士 瞬间",
+      "text_zh": "本回合接下来你将受到致命伤害时，你可以从你的手牌或军械库中放逐米涅娃·忒弥斯以防止该伤害。",
+      "text_en": "The next time you would be dealt lethal damage this turn, you may banish Minerva Themis from your hand or arsenal to prevent that damage.",
+      "source": "https://cards.fabtcg.com/card/morlock_hill/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mounting_anger": {
+      "id": "mounting_anger",
+      "name_zh": "攀升的怒火",
+      "name_en": "Mounting Anger",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当攀升的怒火命中时，你可以放逐你手牌中一张费用小于你控制的龙裔链环数量的攻击行动牌。若如此做，它获得+1力量，且本回合你可以使用它。\n再动",
+      "text_en": "When Mounting Anger hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it gains +1{p} and you may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/mounting_anger/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "mournful_casket": {
+      "id": "mournful_casket",
+      "name_zh": "哀悼棺椁",
+      "name_en": "Mournful Casket",
+      "type_zh": "Necromancer 装备·胸部",
+      "text_zh": "若本回合有一个盟友被置入你的坟场，此牌获得+1防御。\n淬炼",
+      "text_en": "If an ally has been put into your graveyard this turn, this gets +1{d}.\nTemper",
+      "source": "https://cards.fabtcg.com/card/mournful_casket/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "mugenshi_release": {
+      "id": "mugenshi_release",
+      "name_zh": "无限之师：解放",
+      "name_en": "Mugenshi: RELEASE",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "卡兹专精\n连击——若汹涌阵风波是本战斗链的最后一次攻击，无限之师：解放获得+1力量、再动，以及“若此牌命中，从你的牌库中搜寻任意数量的名为风之领主的牌，展示它们，将其置入你的手牌，然后洗牌。”",
+      "text_en": "Katsu Specialization\nCombo - If Whelming Gustwave was the last attack this combat chain, Mugenshi: RELEASE gains +1{p}, go again, and \"If this hits, search your deck for any number of cards named Lord of Wind, reveal them, put them into your hand, then shuffle your deck.\"",
+      "source": "https://cards.fabtcg.com/card/mugenshi_release/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "mulch": {
+      "id": "mulch",
+      "name_zh": "覆盖物",
+      "name_en": "Mulch",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "大地融合\n若覆盖物已融合，它获得“若此牌命中英雄，将其军械库中的一张牌置于其牌库底。”",
+      "text_en": "Earth Fusion\nIf Mulch was fused, it gains \"If this hits a hero, put a card from their arsenal on the bottom of their deck.\"",
+      "source": "https://cards.fabtcg.com/card/mulch/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "murderous_rabble": {
+      "id": "murderous_rabble",
+      "name_zh": "凶残乌合之众",
+      "name_en": "Murderous Rabble",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，展示你牌库顶的一张牌。此牌获得+X力量，X为以此方式展示的牌的资源数值。\n再动",
+      "text_en": "When this attacks, reveal the top card of your deck. This gets +X{p}, where X is the pitch value of the card revealed this way.\nGo again",
+      "source": "https://cards.fabtcg.com/card/murderous_rabble/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "0",
+          "defense": "3"
+        }
+      }
+    },
+    "murkmire_grapnel": {
+      "id": "murkmire_grapnel",
+      "name_zh": "暗沼抓钩",
+      "name_en": "Murkmire Grapnel",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "若暗沼抓钩带有一个瞄准指示物，它获得+1力量。\n暗沼抓钩将造成的伤害不能被防止。",
+      "text_en": "If Murkmire Grapnel has an aim counter, it has +1{p}.\nDamage that would be dealt by Murkmire Grapnel can't be prevented.",
+      "source": "https://cards.fabtcg.com/card/murkmire_grapnel/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "murky_water": {
+      "id": "murky_water",
+      "name_zh": "浑水",
+      "name_en": "Murky Water",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "瑞普泰德专精\n若此牌带有一个瞄准指示物，它获得+1力量和支配。\n当此牌命中时，你可以将你坟场中的3张费用为0或更高的陷阱牌面朝下放逐。若如此做，随机选择其中一张并将其放入你的军械库。",
+      "text_en": "Riptide Specialization\nIf this has an aim counter, it gets +1{p} and dominate.\nWhen this hits, you may banish 3 traps with cost 0 or more from your graveyard face-down. If you do, choose one at random and put it into your arsenal.",
+      "source": "https://cards.fabtcg.com/card/murky_water/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "muscle_mutt": {
+      "id": "muscle_mutt",
+      "name_zh": "肌肉犬",
+      "name_en": "Muscle Mutt",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "",
+      "text_en": "",
+      "source": "https://cards.fabtcg.com/card/muscle_mutt/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "mutated_mass": {
+      "id": "mutated_mass",
+      "name_zh": "突变团块",
+      "name_en": "Mutated Mass",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "你可以从你的放逐区使用突变团块。\n突变团块的力量和防御等于你资源区中具有不同费用的牌数量的两倍。\n血债",
+      "text_en": "You may play Mutated Mass from your banished zone.\nMutated Mass's {p} and {d} is equal to twice the number of cards in your pitch zone with different costs.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/mutated_mass/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "*",
+          "defense": "*"
+        }
+      }
+    },
+    "mutiny_on_the_battalion_barque": {
+      "id": "mutiny_on_the_battalion_barque",
+      "name_zh": "营队帆船哗变",
+      "name_en": "Mutiny on the Battalion Barque",
+      "type_zh": "海盗 行动",
+      "text_zh": "为每位控制比你更多金币的英雄，偷取其控制的一个金币衍生物。\n若你以此方式获得1个或更多金币衍生物的控制权，你本回合的下一次攻击获得+2力量。\n再动",
+      "text_en": "For each hero that controls more Gold than you, steal a Gold token they control.\nIf you gain control of 1 or more Gold tokens this way, your next attack this turn gets +2{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/mutiny_on_the_battalion_barque/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mutiny_on_the_nimbus_sovereign": {
+      "id": "mutiny_on_the_nimbus_sovereign",
+      "name_zh": "云虹君王哗变",
+      "name_en": "Mutiny on the Nimbus Sovereign",
+      "type_zh": "海盗 行动",
+      "text_zh": "为每位控制比你更多金币的英雄，偷取其控制的一个金币衍生物。\n若你以此方式获得1个或更多金币衍生物的控制权，你本回合的下一次攻击获得压制。\n再动",
+      "text_en": "For each hero that controls more Gold than you, steal a Gold token they control.\nIf you gain control of 1 or more Gold tokens this way, your next attack this turn gets overpower.\nGo again",
+      "source": "https://cards.fabtcg.com/card/mutiny_on_the_nimbus_sovereign/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mutiny_on_the_swiftwater": {
+      "id": "mutiny_on_the_swiftwater",
+      "name_zh": "急流号哗变",
+      "name_en": "Mutiny on the Swiftwater",
+      "type_zh": "海盗 行动",
+      "text_zh": "为每位控制比你更多金币的英雄，偷取其控制的一个金币衍生物。\n若你以此方式获得1个或更多金币衍生物的控制权，你本回合的下一次攻击获得再动。\n再动",
+      "text_en": "For each hero that controls more Gold than you, steal a Gold token they control.\nIf you gain control of 1 or more Gold tokens this way, your next attack this turn gets go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/mutiny_on_the_swiftwater/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "myrkhellir_helm": {
+      "id": "myrkhellir_helm",
+      "name_zh": "暗穴头盔",
+      "name_en": "Myrkhellir Helm",
+      "type_zh": "通用 装备·头部",
+      "text_zh": "若你控制一个金币，此牌获得+1防御。\n行动——支付2点资源，摧毁此牌：本回合你下一次将从金币衍生物抽一张牌时，改为抽两张牌。再动\n淬炼",
+      "text_en": "If you control a Gold, this gets +1{d}.\nAction - {r}{r}, destroy this: The next time you would draw a card from a Gold token this turn, instead draw 2 cards. Go again\nTemper",
+      "source": "https://cards.fabtcg.com/card/myrkhellir_helm/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    }
+  }
+}

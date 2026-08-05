@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "version": "cba139ba12cc",
+  "cards": {
+    "qi_unleashed": {
+      "id": "qi_unleashed",
+      "name_zh": "气之释放",
+      "name_en": "Qi Unleashed",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若卧虎是本战斗链的最后一次攻击，此牌获得+4力量。",
+      "text_en": "Combo - If Crouching Tiger was the last attack this combat chain, this gets +4{p}.",
+      "source": "https://cards.fabtcg.com/card/qi_unleashed/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "quantum_processor": {
+      "id": "quantum_processor",
+      "name_zh": "量子处理器",
+      "name_en": "Quantum Processor",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n每回合一次瞬间——费用0：将你手牌中一张费用为0或1的机械师物品放入竞技场。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nOnce per Turn Instant - 0: Put a Mechanologist item with cost 0 or 1 from your hand into the arena.",
+      "source": "https://cards.fabtcg.com/card/quantum_processor/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "quartermasters_boots": {
+      "id": "quartermasters_boots",
+      "name_zh": "军需官之靴",
+      "name_en": "Quartermaster's Boots",
+      "type_zh": "通用 装备·腿部",
+      "text_zh": "行动——支付2点资源，摧毁此牌：你本回合使用的下一张非攻击行动牌获得再动。再动\n刃碎",
+      "text_en": "Action - {r}{r}, destroy this: The next non-attack action card you play this turn gets go again. Go again\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/quartermasters_boots/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "quelling_robe": {
+      "id": "quelling_robe",
+      "name_zh": "镇压长袍",
+      "name_en": "Quelling Robe",
+      "type_zh": "通用 装备·胸部",
+      "text_zh": "镇压1",
+      "text_en": "Quell 1",
+      "source": "https://cards.fabtcg.com/card/quelling_robe/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "quelling_sleeves": {
+      "id": "quelling_sleeves",
+      "name_zh": "镇压护袖",
+      "name_en": "Quelling Sleeves",
+      "type_zh": "通用 装备·手臂",
+      "text_zh": "镇压1",
+      "text_en": "Quell 1",
+      "source": "https://cards.fabtcg.com/card/quelling_sleeves/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "quelling_slippers": {
+      "id": "quelling_slippers",
+      "name_zh": "镇压轻履",
+      "name_en": "Quelling Slippers",
+      "type_zh": "通用 装备·腿部",
+      "text_zh": "镇压1",
+      "text_en": "Quell 1",
+      "source": "https://cards.fabtcg.com/card/quelling_slippers/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "quick_clicks": {
+      "id": "quick_clicks",
+      "name_zh": "快速点击",
+      "name_en": "Quick Clicks",
+      "type_zh": "通用 装备·腿部",
+      "text_zh": "行动——摧毁此牌：你本回合的下一次攻击获得再动。仅当本回合你使用过一张轻灵之道时才能启动此异能。再动",
+      "text_en": "Action - Destroy this: Your next attack this turn gets go again. Activate this only if you've played a Nimblism this turn. Go again",
+      "source": "https://cards.fabtcg.com/card/quick_clicks/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "quick_succession": {
+      "id": "quick_succession",
+      "name_zh": "快速接替",
+      "name_en": "Quick Succession",
+      "type_zh": "闪电 符文剑士 行动",
+      "text_zh": "本回合你使用的下一张符文剑士或闪电攻击行动牌获得再动。\n本回合你的接下来3次攻击在具有再动期间获得+1力量。\n再动",
+      "text_en": "The next Runeblade or Lightning attack action card you play this turn gets go again.\nYour next 3 attacks this turn get +1{p} while they have go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/quick_succession/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "quickdodge_flexors": {
+      "id": "quickdodge_flexors",
+      "name_zh": "快速闪避屈肌",
+      "name_en": "Quickdodge Flexors",
+      "type_zh": "通用 装备·腿部",
+      "text_zh": "防御反应——支付1点资源：将此牌作为防御牌加入当前链环。此链环中它有2点基础防御。\n在结束阶段开始时，若此牌本回合进行过防御，摧毁它。",
+      "text_en": "Defense Reaction - {r}: Add this to the active chain link as a defending card. It has 2 base {d} this chain link.\nAt the beginning of the end phase, if this defendend this turn, destroy it.",
+      "source": "https://cards.fabtcg.com/card/quickdodge_flexors/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "quicken": {
+      "id": "quicken",
+      "name_zh": "加速",
+      "name_en": "Quicken",
+      "type_zh": "通用 衍生物·光环",
+      "text_zh": "当你使用攻击行动牌或启动武器攻击时，摧毁此牌，该攻击获得再动。",
+      "text_en": "When you play an attack action card or activate a weapon attack, destroy this and the attack gains go again.",
+      "source": "https://cards.fabtcg.com/card/quicken/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "quickening_sand": {
+      "id": "quickening_sand",
+      "name_zh": "流沙",
+      "name_en": "Quickening Sand",
+      "type_zh": "游侠 行动·陷阱",
+      "text_zh": "在目标英雄的控制下创造一个加速衍生物。\n再动\n当此牌防御具有再动的攻击时，横置目标英雄或盟友。",
+      "text_en": "Create a Quicken token under target hero's control.\nGo again\nWhen this defends an attack with go again, {t} target hero or ally.",
+      "source": "https://cards.fabtcg.com/card/quickening_sand/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "quickfire": {
+      "id": "quickfire",
+      "name_zh": "速射",
+      "name_en": "Quickfire",
+      "type_zh": "机械师 行动",
+      "text_zh": "每当你控制一张超频驱动器，此牌的使用费用减少1点资源。\n本回合你推进的下一次攻击获得+4力量。\n再动",
+      "text_en": "This costs {r} less to play for each Hyper Driver you control.\nThe next attack you boost this turn gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/quickfire/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "quicksilver_dagger": {
+      "id": "quicksilver_dagger",
+      "name_zh": "水银匕首",
+      "name_en": "Quicksilver Dagger",
+      "type_zh": "战士 武器·匕首 （单手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n若本回合你控制的另一把武器获得过再动，此牌的攻击获得再动。",
+      "text_en": "Once per Turn Action - {r}: Attack\nIf another weapon you control has gained go again this turn, this card's attacks get go again.",
+      "source": "https://cards.fabtcg.com/card/quicksilver_dagger/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "quicksilver_dance": {
+      "id": "quicksilver_dance",
+      "name_zh": "水银之舞",
+      "name_en": "Quicksilver Dance",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "从目标攻击中的武器上移除一个+1力量指示物。若如此做，创造一个剑舞衍生物并抽一张牌。",
+      "text_en": "Remove a +1{p} counter from target attacking weapon. If you do, create a Blade Dance token and draw a card.",
+      "source": "https://cards.fabtcg.com/card/quicksilver_dance/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "quickstep": {
+      "id": "quickstep",
+      "name_zh": "快步",
+      "name_en": "Quickstep",
+      "type_zh": "Bard 装备·腿部",
+      "text_zh": "行动——摧毁此牌：每位英雄创造一个加速衍生物。再动",
+      "text_en": "Action - Destroy this: Each hero creates a Quicken token.  Go again",
+      "source": "https://cards.fabtcg.com/card/quickstep/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "quiver_of_abyssal_depths": {
+      "id": "quiver_of_abyssal_depths",
+      "name_zh": "深渊之底箭袋",
+      "name_en": "Quiver of Abyssal Depths",
+      "type_zh": "游侠 装备·Quiver",
+      "text_zh": "瞬间——支付3点资源，摧毁深渊之底箭袋：将你坟场中至多3张不同名称的箭矢洗入你的牌库。",
+      "text_en": "Instant - {r}{r}{r}, destroy Quiver of Abyssal Depths: Shuffle up to 3 arrows with different names from your graveyard into your deck.",
+      "source": "https://cards.fabtcg.com/card/quiver_of_abyssal_depths/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "quiver_of_rustling_leaves": {
+      "id": "quiver_of_rustling_leaves",
+      "name_zh": "沙沙叶响箭袋",
+      "name_en": "Quiver of Rustling Leaves",
+      "type_zh": "游侠 装备·Quiver",
+      "text_zh": "瞬间——支付3点资源：展示你牌库顶的一张牌。若其为箭矢，将其正面朝上放入你的军械库并摧毁沙沙叶响箭袋。",
+      "text_en": "Instant - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.",
+      "source": "https://cards.fabtcg.com/card/quiver_of_rustling_leaves/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    }
+  }
+}

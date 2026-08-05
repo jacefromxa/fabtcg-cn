@@ -1,0 +1,3360 @@
+{
+  "schema_version": 1,
+  "version": "cba139ba12cc",
+  "cards": {
+    "dabble_in_darkness": {
+      "id": "dabble_in_darkness",
+      "name_zh": "涉足黑暗",
+      "name_en": "Dabble in Darkness",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "当此牌攻击时，放逐你牌库顶的一张牌。此牌获得-X力量，X为以此方式放逐的牌的资源数值。\n血债",
+      "text_en": "When this attacks, banish the top card of your deck. This gets -X{p}, where X is the pitch value of the card banished this way.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/dabble_in_darkness/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "daily_grind": {
+      "id": "daily_grind",
+      "name_zh": "日常苦工",
+      "name_en": "Daily Grind",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "你控制的攻击行动牌获得“当此牌防御时，与攻击英雄交锋。胜者摧毁另一位英雄牌库顶的一张牌。”\n在你的回合开始时，摧毁此牌。",
+      "text_en": "Attack action cards you control get \"When this defends, clash with the attacking hero. The winner destroys the top card of the other hero's deck.\"\nAt the start of your turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/daily_grind/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dampen": {
+      "id": "dampen",
+      "name_zh": "阻尼",
+      "name_en": "Dampen",
+      "type_zh": "法师 行动",
+      "text_zh": "对任意目标造成4点秘法伤害。\n防止本回合接下来将对你的英雄造成的X点秘法伤害，X为阻尼造成的伤害。",
+      "text_en": "Deal 4 arcane damage to any target.\nPrevent the next X arcane damage that would be dealt to your hero this turn, where X is the damage dealt by Dampen.",
+      "source": "https://cards.fabtcg.com/card/dampen/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dance_of_darkness": {
+      "id": "dance_of_darkness",
+      "name_zh": "黑暗之舞",
+      "name_en": "Dance of Darkness",
+      "type_zh": "暗影 装备·腿部",
+      "text_zh": "若你的英雄将受到伤害，你可以放逐此牌以防止其中2点伤害。\n血债",
+      "text_en": "If your hero would be dealt damage, you may banish this to prevent 2 of that damage.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/dance_of_darkness/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "danger_digits": {
+      "id": "danger_digits",
+      "name_zh": "危险指节",
+      "name_en": "Danger Digits",
+      "type_zh": "刺客·忍者 装备·手臂",
+      "text_zh": "攻击反应——摧毁此牌：你控制的、不在当前链环上的目标匕首对防御英雄造成1点伤害。若以此方式造成伤害，该匕首视为命中。摧毁该匕首。",
+      "text_en": "Attack Reaction - Destroy this: Target dagger you control that isn't on the active chain link deals 1 damage to the defending hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.",
+      "source": "https://cards.fabtcg.com/card/danger_digits/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "darling_of_the_crowd": {
+      "id": "darling_of_the_crowd",
+      "name_zh": "观众宠儿",
+      "name_en": "Darling of the Crowd",
+      "type_zh": "崇敬 阻挡",
+      "text_zh": "当此牌防御时，若本回合你被欢呼过，它获得+1防御。",
+      "text_en": "While this is defending, if you've been cheered this turn, it gets +1{d}.",
+      "source": "https://cards.fabtcg.com/card/darling_of_the_crowd/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dash": {
+      "id": "dash",
+      "name_zh": "达什",
+      "name_en": "Dash",
+      "type_zh": "",
+      "text_zh": "你可以以竞技场中一张费用为2或更低的机械师物品开始游戏。",
+      "text_en": "You may start the game with a Mechanologist item with cost 2 or less in the arena.",
+      "source": "https://cards.fabtcg.com/card/dash/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "dash_database": {
+      "id": "dash_database",
+      "name_zh": "达什·数据库",
+      "name_en": "Dash, Database",
+      "type_zh": "",
+      "text_zh": "你随时可以查看你牌库顶的一张牌。\n每回合一次，你可以将你牌库顶的一张费用为0或1的机械师物品当作瞬间使用。它的使用费用额外增加1点资源。",
+      "text_en": "You may look at the top card of your deck at any time.\nOnce per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",
+      "source": "https://cards.fabtcg.com/card/dash_database/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "dash_i_o": {
+      "id": "dash_i_o",
+      "name_zh": "达什·I/O",
+      "name_en": "Dash I/O",
+      "type_zh": "机械师 英雄",
+      "text_zh": "你随时可以查看你牌库顶的一张牌。\n每回合一次，你可以将你牌库顶的一张费用为0或1的机械师物品当作瞬间使用。它的使用费用额外增加1点资源。",
+      "text_en": "You may look at the top card of your deck at any time.\nOnce per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",
+      "source": "https://cards.fabtcg.com/card/dash_i_o/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dash_inventor_extraordinaire": {
+      "id": "dash_inventor_extraordinaire",
+      "name_zh": "达什·杰出发明家",
+      "name_en": "Dash, Inventor Extraordinaire",
+      "type_zh": "机械师 英雄",
+      "text_zh": "你可以以竞技场中一张费用为2或更低的机械师物品开始游戏。",
+      "text_en": "You may start the game with a Mechanologist item with cost 2 or less in the arena.",
+      "source": "https://cards.fabtcg.com/card/dash_inventor_extraordinaire/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dashing_flashfoot": {
+      "id": "dashing_flashfoot",
+      "name_zh": "矫健闪电足",
+      "name_en": "Dashing Flashfoot",
+      "type_zh": "闪电 符文剑士 行动·攻击",
+      "text_zh": "速击——若此牌具有再动，它获得+1力量，以及“当此牌攻击英雄时，对其造成1点秘法伤害。”\n此牌第一次对英雄造成伤害时，创造一个闪电化身衍生物。",
+      "text_en": "Quickstrike - If this has go again, it gets +1{p} and \"When this attacks a hero, deal 1 arcane damage to them.\"\nThe first time this deals damage to a hero, create an Embodiment of Lightning token.",
+      "source": "https://cards.fabtcg.com/card/dashing_flashfoot/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "data_doll_mkii": {
+      "id": "data_doll_mkii",
+      "name_zh": "数据娃娃MKII",
+      "name_en": "Data Doll MKII",
+      "type_zh": "",
+      "text_zh": "每当一张费用为2或更低的机械师物品从你的牌库被置入你的放逐区时，将其放入竞技场。",
+      "text_en": "Whenever a Mechanologist item with cost 2 or less is put into your banished zone from your deck, put it into the arena.",
+      "source": "https://cards.fabtcg.com/card/data_doll_mkii/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "data_link": {
+      "id": "data_link",
+      "name_zh": "数据链路",
+      "name_en": "Data Link",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，占卜1。",
+      "text_en": "Boost\nWhen this hits, opt 1.",
+      "source": "https://cards.fabtcg.com/card/data_link/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "dauntless": {
+      "id": "dauntless",
+      "name_zh": "无所畏惧",
+      "name_en": "Dauntless",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量。\n本回合防御英雄使用的下一张防御反应牌费用额外增加1点资源。\n再动",
+      "text_en": "Your next weapon attack this turn gains +3{p}.\nThe next defense reaction card the defending hero plays this turn costs an additional {r} to play.\nGo again",
+      "source": "https://cards.fabtcg.com/card/dauntless/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dawnblade": {
+      "id": "dawnblade",
+      "name_zh": "黎明之刃",
+      "name_en": "Dawnblade",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n每回合第二次此牌命中时，在其上放置一个+1力量指示物。\n在你的结束阶段开始时，若本回合此牌没有命中过，从其上移除所有+1力量指示物。",
+      "text_en": "Once per Turn Action - {r}: Attack\nThe second time this hits each turn, put a +1{p} counter on it.\nAt the beginning of your end phase, if this hasn't hit this turn, remove all +1{p} counters from it.",
+      "source": "https://cards.fabtcg.com/card/dawnblade/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "dawnblade_resplendent": {
+      "id": "dawnblade_resplendent",
+      "name_zh": "辉煌黎明之刃",
+      "name_en": "Dawnblade, Resplendent",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n每回合你第二次用此牌攻击时，它直到回合结束获得+1力量。",
+      "text_en": "Once per Turn Action - {r}: Attack\nThe second time you attack with this each turn, it gets +1{p} until end of turn.",
+      "source": "https://cards.fabtcg.com/card/dawnblade_resplendent/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "dazzling_crescendo": {
+      "id": "dazzling_crescendo",
+      "name_zh": "炫目渐强",
+      "name_en": "Dazzling Crescendo",
+      "type_zh": "元素 游侠 行动·箭矢 攻击",
+      "text_zh": "闪电融合\n若炫目渐强已融合，它获得再动。",
+      "text_en": "Lightning Fusion\nIf Dazzling Crescendo was fused, it gains go again.",
+      "source": "https://cards.fabtcg.com/card/dazzling_crescendo/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "dead_eye": {
+      "id": "dead_eye",
+      "name_zh": "鹰眼",
+      "name_en": "Dead Eye",
+      "type_zh": "游侠 行动",
+      "text_zh": "你本回合的下一次箭矢攻击获得+3力量。\n若其带有一个瞄准指示物，它获得“当此牌命中英雄时，查看其手牌并选择一张牌。该英雄弃掉它。”\n再动",
+      "text_en": "Your next arrow attack this turn gains +3{p}.\nIf it has an aim counter, it gains \"When this hits a hero, look at their hand and choose a card. They discard it.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/dead_eye/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dead_threads": {
+      "id": "dead_threads",
+      "name_zh": "亡者线缕",
+      "name_en": "Dead Threads",
+      "type_zh": "Necromancer 装备·胸部",
+      "text_zh": "瞬间——横置此牌：获得1点资源。仅当本回合有一个盟友被置入你的坟场时才能启动此异能。\n刃碎",
+      "text_en": "Instant - {t}: Gain {r}. Activate this only if an ally has been put into your graveyard this turn.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/dead_threads/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "deadly_display": {
+      "id": "deadly_display",
+      "name_zh": "致命展示",
+      "name_en": "Deadly Display",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+2力量。若该武器本回合被磨砺过，该攻击获得“当此牌命中英雄时，创造一个连击衍生物。”",
+      "text_en": "Target weapon attack gets +2{p}. If the weapon has been sharpened this turn, the attack gets \"When this hits a hero, create a Flurry token.\"",
+      "source": "https://cards.fabtcg.com/card/deadly_display/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "deadly_duo": {
+      "id": "deadly_duo",
+      "name_zh": "致命双人组",
+      "name_en": "Deadly Duo",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中时，本战斗链中你使用的下一张基础力量为2或更低的攻击行动牌获得+2力量。\n再动",
+      "text_en": "When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/deadly_duo/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "deadwood_dirge": {
+      "id": "deadwood_dirge",
+      "name_zh": "枯木挽歌",
+      "name_en": "Deadwood Dirge",
+      "type_zh": "符文剑士 行动",
+      "text_zh": "摧毁你控制的一个光环。若如此做，创造3个符文吟唱衍生物。\n再动",
+      "text_en": "Destroy an aura you control. If you do, create 3 Runechant tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/deadwood_dirge/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "deadwood_rumbler": {
+      "id": "deadwood_rumbler",
+      "name_zh": "枯木轰隆者",
+      "name_en": "Deadwood Rumbler",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，从某个坟场中放逐一张牌。\n血债",
+      "text_en": "Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/deadwood_rumbler/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "8",
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "7",
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "dealers_grip": {
+      "id": "dealers_grip",
+      "name_zh": "庄家握持",
+      "name_en": "Dealer's Grip",
+      "type_zh": "战士 装备·手臂",
+      "text_zh": "攻击反应——支付2点资源，摧毁此牌：目标已下注的攻击获得+1力量。\n战痕",
+      "text_en": "Attack Reaction - {r}{r}, destroy this: Target attack that has wagered gets +1{p}.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/dealers_grip/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "death_dealer": {
+      "id": "death_dealer",
+      "name_zh": "死亡商人",
+      "name_en": "Death Dealer",
+      "type_zh": "游侠 武器·弓 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：若你军械库中没有牌，你可以将你手牌中的一张箭矢牌正面朝上放入你的军械库。若如此做，抽一张牌。再动",
+      "text_en": "Once per Turn Action - {r}: If you have no cards in your arsenal, you may put an arrow card from your hand face up into your arsenal. If you do, draw a card. Go again",
+      "source": "https://cards.fabtcg.com/card/death_dealer/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "death_touch": {
+      "id": "death_touch",
+      "name_zh": "死亡之触",
+      "name_en": "Death Touch",
+      "type_zh": "刺客·游侠 行动·攻击",
+      "text_zh": "死亡之触不能从手牌使用。\n当此牌命中英雄时，在其控制下创造一个虚弱、惰性或血腐疫病衍生物。",
+      "text_en": "Death Touch can't be played from hand.\nWhen this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.",
+      "source": "https://cards.fabtcg.com/card/death_touch/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "deathly_delight": {
+      "id": "deathly_delight",
+      "name_zh": "死亡愉悦",
+      "name_en": "Deathly Delight",
+      "type_zh": "暗影 符文剑士 行动·攻击",
+      "text_zh": "符文之门\n当战斗链关闭时，获得与本回合失去过生命的英雄数量相等的生命。\n血债",
+      "text_en": "Rune Gate\nWhen the combat chain closes, gain {h} equal to the number of heroes who have lost {h} this turn.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/deathly_delight/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "deathly_duet": {
+      "id": "deathly_duet",
+      "name_zh": "死亡二重奏",
+      "name_en": "Deathly Duet",
+      "type_zh": "符文剑士 行动·攻击",
+      "text_zh": "当死亡二重奏攻击时，若你为使用此牌资源过一张攻击行动牌，它获得+2力量。若你为使用此牌资源过一张“非攻击”行动牌，创造2个符文吟唱衍生物。",
+      "text_en": "When Deathly Duet attacks, if an attack action card was pitched to play it, it gains +2{p}. If a 'non-attack' action card was pitched to play it, create 2 Runechant tokens.",
+      "source": "https://cards.fabtcg.com/card/deathly_duet/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "deathly_wail": {
+      "id": "deathly_wail",
+      "name_zh": "死亡哀嚎",
+      "name_en": "Deathly Wail",
+      "type_zh": "暗影 符文剑士 行动·攻击",
+      "text_zh": "符文之门\n当战斗链关闭时，创造与本回合失去过生命的英雄数量相等的符文吟唱衍生物。\n血债",
+      "text_en": "Rune Gate\nWhen the combat chain closes, create Runechant tokens equal to the number of heroes who have lost {h} this turn.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/deathly_wail/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "deathmatch_arena": {
+      "id": "deathmatch_arena",
+      "name_zh": "生死竞技场",
+      "name_en": "Deathmatch Arena",
+      "type_zh": "通用 行动·地标",
+      "text_zh": "传奇\n再动\n英雄可以攻击任意对手英雄。\n当一位英雄对另一位英雄造成致命伤害时，该英雄创造与开局时英雄数量等量的金币衍生物。",
+      "text_en": "Legendary\nGo again\nHeroes can attack any opposing hero.\nWhen a hero deals lethal damage to another hero, they create Gold tokens equal to the number of heroes who started this game.",
+      "source": "https://cards.fabtcg.com/card/deathmatch_arena/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "debilitate": {
+      "id": "debilitate",
+      "name_zh": "削弱",
+      "name_en": "Debilitate",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄在其下一个回合期间的第一次攻击获得-2力量。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, their first attack during their next turn gets -2{p}.",
+      "source": "https://cards.fabtcg.com/card/debilitate/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "decimator_great_axe": {
+      "id": "decimator_great_axe",
+      "name_zh": "屠灭巨斧",
+      "name_en": "Decimator Great Axe",
+      "type_zh": "战士 武器·斧 （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n每回合第一次此牌被非装备牌防御时，目标防御牌的基础防御减半（向上取整），直到回合结束。",
+      "text_en": "Once per Turn Action - {r}{r}{r}:  Attack\nThe first time this is defended by a non-equipment card each turn, halve the base {d} of target defending card, rounded up, until end of turn.",
+      "source": "https://cards.fabtcg.com/card/decimator_great_axe/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "deep_blue": {
+      "id": "deep_blue",
+      "name_zh": "深蓝",
+      "name_en": "Deep Blue",
+      "type_zh": "通用 装备·胸部",
+      "text_zh": "行动——将你手牌中的一张牌置于牌库底，摧毁此牌：获得3点资源。再动",
+      "text_en": "Action - Put a card from your hand on the bottom of your deck, destroy this: Gain {r}{r}{r}. Go again",
+      "source": "https://cards.fabtcg.com/card/deep_blue/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "deep_blue_sea": {
+      "id": "deep_blue_sea",
+      "name_zh": "深蓝之海",
+      "name_en": "Deep Blue Sea",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "本回合你每资源过一张蓝色牌，此牌获得+1力量。",
+      "text_en": "This gets +1{p} for each blue card you've pitched this turn.",
+      "source": "https://cards.fabtcg.com/card/deep_blue_sea/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "deep_recesses_of_existence": {
+      "id": "deep_recesses_of_existence",
+      "name_zh": "存在的深处",
+      "name_en": "Deep Recesses of Existence",
+      "type_zh": "暗影 符文剑士 行动·攻击",
+      "text_zh": "符文之门\n当战斗链关闭时，你可以牌面朝下放逐此牌。若如此做，为本回合失去过生命的每位英雄，从他们的坟场中放逐一张牌。\n血债",
+      "text_en": "Rune Gate\nWhen the combat chain closes, you may banish this face-down. If you do, for each hero who has lost {h} this turn, banish a card from their graveyard.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/deep_recesses_of_existence/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "deep_rooted_evil": {
+      "id": "deep_rooted_evil",
+      "name_zh": "深植的邪恶",
+      "name_en": "Deep Rooted Evil",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，你可以从你的放逐区使用深植的邪恶。\n血债",
+      "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, you may play Deep Rooted Evil from your banished zone.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/deep_rooted_evil/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "defang_the_dragon": {
+      "id": "defang_the_dragon",
+      "name_zh": "拔掉龙牙",
+      "name_en": "Defang the Dragon",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n契约——你受契约束缚以命中一位名为方格的被标记英雄。每当你完成此契约时，抽一张牌。",
+      "text_en": "Stealth\nContract - You are contracted to hit a marked hero named Fang. Whenever you complete this contract, draw a card.",
+      "source": "https://cards.fabtcg.com/card/defang_the_dragon/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "defender_of_daybreak": {
+      "id": "defender_of_daybreak",
+      "name_zh": "破晓守卫者",
+      "name_en": "Defender of Daybreak",
+      "type_zh": "光 行动·攻击",
+      "text_zh": "当此牌防御暗影攻击时，本战斗链中非装备光牌获得+1防御。",
+      "text_en": "When this defends a Shadow attack, non-equipment Light cards get +1{d} this combat chain.",
+      "source": "https://cards.fabtcg.com/card/defender_of_daybreak/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "demolition_crew": {
+      "id": "demolition_crew",
+      "name_zh": "拆迁队",
+      "name_en": "Demolition Crew",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "作为使用拆迁队的额外费用，展示你手牌中一张费用为2或更高的牌。\n支配",
+      "text_en": "As an additional cost to play Demolition Crew, reveal a card in your hand with cost 2 or greater.\nDominate",
+      "source": "https://cards.fabtcg.com/card/demolition_crew/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "demolition_protocol": {
+      "id": "demolition_protocol",
+      "name_zh": "拆除协议",
+      "name_en": "Demolition Protocol",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "进化升级——当此牌攻击英雄时，从其控制的至多X件装备、物品和/或武器上移除所有蒸汽指示物，X为你已装备的进化装备数量。",
+      "text_en": "Evo Upgrade - When this attacks a hero, remove all steam counters from up to X equipment, items, and/or weapons they control, where X is the number of Evos you have equipped.",
+      "source": "https://cards.fabtcg.com/card/demolition_protocol/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "demonstrate_devotion": {
+      "id": "demonstrate_devotion",
+      "name_zh": "彰显虔诚",
+      "name_en": "Demonstrate Devotion",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制2个或更多龙裔链环，此牌获得再动，以及“当此牌攻击英雄时，创造一个效忠衍生物。”",
+      "text_en": "If you control 2 or more Draconic chain links, this gets go again and \"When this attacks a hero, create a Fealty token.\"",
+      "source": "https://cards.fabtcg.com/card/demonstrate_devotion/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "den_of_the_spider": {
+      "id": "den_of_the_spider",
+      "name_zh": "蜘蛛巢穴",
+      "name_en": "Den of the Spider",
+      "type_zh": "刺客·战士 行动 防御反应·陷阱",
+      "text_zh": "当此牌防御力量大于其基础的攻击时，标记攻击英雄。",
+      "text_en": "When this defends an attack with {p} greater than its base, mark the attacking hero.",
+      "source": "https://cards.fabtcg.com/card/den_of_the_spider/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dense_blue_mist": {
+      "id": "dense_blue_mist",
+      "name_zh": "浓蓝迷雾",
+      "name_en": "Dense Blue Mist",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "本回合以你为目标的攻击获得-1力量。\n若你为使用此牌资源过一张气，本回合攻击命中你时效果不触发。",
+      "text_en": "Attacks that target you this turn get -1{p}.\nIf a Chi was pitched to play this, effects don't trigger if an attack hits you this turn.",
+      "source": "https://cards.fabtcg.com/card/dense_blue_mist/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "deny_redemption": {
+      "id": "deny_redemption",
+      "name_zh": "拒绝救赎",
+      "name_en": "Deny Redemption",
+      "type_zh": "符文剑士 行动·攻击",
+      "text_zh": "当此牌攻击生命比你高的英雄时，对其造成1点秘法伤害。该伤害不能被防止。\n瞬间——弃掉此牌：本回合英雄不能获得生命。",
+      "text_en": "When this attacks a hero with more {h} than you, deal 1 arcane damage to them. This damage can't be prevented.\nInstant - Discard this: Heroes can't gain {h} this turn.",
+      "source": "https://cards.fabtcg.com/card/deny_redemption/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "depths_of_despair": {
+      "id": "depths_of_despair",
+      "name_zh": "绝望深处",
+      "name_en": "Depths of Despair",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "当此牌防御时，当战斗链关闭时放逐它。\n血债",
+      "text_en": "When this defends, banish it when the combat chain closes.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/depths_of_despair/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "descend_into_madness": {
+      "id": "descend_into_madness",
+      "name_zh": "坠入疯狂",
+      "name_en": "Descend into Madness",
+      "type_zh": "混沌 攻击反应",
+      "text_zh": "随机放逐防御英雄手牌中的一张牌，然后该英雄抽一张牌。",
+      "text_en": "Banish a random card from the defending hero's hand, then they draw a card.",
+      "source": "https://cards.fabtcg.com/card/descend_into_madness/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "descendent_gustwave": {
+      "id": "descendent_gustwave",
+      "name_zh": "后继阵风波",
+      "name_en": "Descendent Gustwave",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若激涌打击是本战斗链的最后一次攻击，此牌的使用费用减少1点资源并获得+2力量。\n再动",
+      "text_en": "Combo - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/descendent_gustwave/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "desires_of_flesh": {
+      "id": "desires_of_flesh",
+      "name_zh": "肉欲",
+      "name_en": "Desires of Flesh",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌命中英雄时，放逐其牌库顶的一张牌。\n每当此牌放逐一张攻击行动牌时，获得1点生命。",
+      "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck.\nWhenever this banishes an attack action card, gain 1{h}.",
+      "source": "https://cards.fabtcg.com/card/desires_of_flesh/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "destructive_aethertide": {
+      "id": "destructive_aethertide",
+      "name_zh": "毁灭以太潮",
+      "name_en": "Destructive Aethertide",
+      "type_zh": "法师 行动",
+      "text_zh": "对任意目标造成1点秘法伤害。\n激涌——若此牌对英雄造成超过1点伤害，摧毁其军械库中的一张牌。",
+      "text_en": "Deal 1 arcane damage to any target.\nSurge - If this deals more than 1 damage to a hero, destroy a card in their arsenal.",
+      "source": "https://cards.fabtcg.com/card/destructive_aethertide/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "destructive_deliberation": {
+      "id": "destructive_deliberation",
+      "name_zh": "破坏性思量",
+      "name_en": "Destructive Deliberation",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌命中英雄时，创造一个沉思衍生物。",
+      "text_en": "When this hits a hero, create a Ponder token.",
+      "source": "https://cards.fabtcg.com/card/destructive_deliberation/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "destructive_fleetfoot": {
+      "id": "destructive_fleetfoot",
+      "name_zh": "破坏性闪电足",
+      "name_en": "Destructive Fleetfoot",
+      "type_zh": "闪电 符文剑士 行动·攻击",
+      "text_zh": "速击——若此牌具有再动，它获得+1力量。\n当此牌命中英雄时，摧毁其控制的一个光环衍生物。",
+      "text_en": "Quickstrike - If this has go again, it gets +1{p}.\nWhen this hits a hero, destroy an aura token they control.",
+      "source": "https://cards.fabtcg.com/card/destructive_fleetfoot/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "destructive_tendencies": {
+      "id": "destructive_tendencies",
+      "name_zh": "破坏倾向",
+      "name_en": "Destructive Tendencies",
+      "type_zh": "通用 瞬间",
+      "text_zh": "选择其一或全部；\n从目标物品衍生物上移除所有指示物。\n从目标光环衍生物上移除所有指示物。",
+      "text_en": "Choose 1 or both;\n\nRemove all counters from target item token.\nRemove all counters from target aura token.",
+      "source": "https://cards.fabtcg.com/card/destructive_tendencies/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "devotion_never_dies": {
+      "id": "devotion_never_dies",
+      "name_zh": "虔诚永存",
+      "name_en": "Devotion Never Dies",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中时，若一张龙裔攻击是本战斗链的最后一次攻击，放逐此牌。若如此做，本回合你可以使用它。\n再动",
+      "text_en": "When this hits, if a Draconic attack was the last attack this combat chain, banish this. If you do, you may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/devotion_never_dies/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "diabolic_offering": {
+      "id": "diabolic_offering",
+      "name_zh": "恶魔献祭",
+      "name_en": "Diabolic Offering",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，恶魔献祭的力量和防御为6。否则，它们为0。\n血债",
+      "text_en": "If a card with 6 ore more {p} has been put into your banished zone this turn, Daibolic Offering's {p} and {d} are 6, otherwise they are 0.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/diabolic_offering/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "*",
+          "defense": "*"
+        }
+      }
+    },
+    "diabolic_ultimatum": {
+      "id": "diabolic_ultimatum",
+      "name_zh": "恶魔最后通牒",
+      "name_en": "Diabolic Ultimatum",
+      "type_zh": "符文剑士 行动",
+      "text_zh": "若你为使用恶魔最后通牒资源过一张攻击行动牌，每位英雄选择并摧毁其控制的一个盟友。\n若你为使用恶魔最后通牒资源过一张“非攻击”行动牌，每位英雄选择并摧毁其控制的一个光环。",
+      "text_en": "If an attack action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an ally they control.\nIf a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an aura they control.",
+      "source": "https://cards.fabtcg.com/card/diabolic_ultimatum/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "diadem_of_dreamstate": {
+      "id": "diadem_of_dreamstate",
+      "name_zh": "梦境头饰",
+      "name_en": "Diadem of Dreamstate",
+      "type_zh": "幻术师 装备·头部",
+      "text_zh": "每回合一次，当此牌或你控制的具有结界的非衍生物永久物被摧毁时，你可以支付1点资源。若如此做，创造一个沉思衍生物。\n结界2",
+      "text_en": "Once per turn, when this or a non-token permanent you control with ward is destroyed, you may pay {r}. If you do, create a Ponder token.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/diadem_of_dreamstate/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "diamond": {
+      "id": "diamond",
+      "name_zh": "钻石",
+      "name_en": "Diamond",
+      "type_zh": "通用 衍生物·物品",
+      "text_zh": "行动——摧毁钻石：抽一张牌。再动",
+      "text_en": "Action - Destroy Diamond: Draw a card. Go again",
+      "source": "https://cards.fabtcg.com/card/diamond/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "diamond_amulet": {
+      "id": "diamond_amulet",
+      "name_zh": "钻石护符",
+      "name_en": "Diamond Amulet",
+      "type_zh": "通用 行动·物品",
+      "text_zh": "瞬间——摧毁此牌：获得1个行动点。\n水葬传说",
+      "text_en": "Instant - Destroy this: gain 1 action point.\nLegend of the Watery Grave",
+      "source": "https://cards.fabtcg.com/card/diamond_amulet/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "diamond_hands": {
+      "id": "diamond_hands",
+      "name_zh": "钻石之手",
+      "name_en": "Diamond Hands",
+      "type_zh": "",
+      "text_zh": "鲁迪专精\n在你的结束阶段开始时，若你手牌中有4张或更多牌，创造一个钻石衍生物。\n刃碎",
+      "text_en": "Ruu'di Specialization\nAt the beginning of your end phase, if you have 4 or more cards in hand, create a Diamond token.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/diamond_hands/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "1"
+        }
+      }
+    },
+    "dice_up": {
+      "id": "dice_up",
+      "name_zh": "切碎",
+      "name_en": "Dice Up",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得“当此牌命中英雄时，你可以从此武器上移除一个+1力量指示物。若如此做，摧毁其控制的一个光环。”",
+      "text_en": "Target weapon attack gets \"When this hits a hero, you may remove a +1{p} counter from this weapon. If you do, destroy an aura they control.\"",
+      "source": "https://cards.fabtcg.com/card/dice_up/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "diced": {
+      "id": "diced",
+      "name_zh": "切丁",
+      "name_en": "Diced",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+1力量。\n你本回合的下一次匕首攻击获得+3力量。",
+      "text_en": "Target dagger attack gets +1{p}.\nYour next dagger attack this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/diced/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "didnt_see_that_coming": {
+      "id": "didnt_see_that_coming",
+      "name_zh": "没想到吧",
+      "name_en": "Didn't See That Coming",
+      "type_zh": "",
+      "text_zh": "每位生命高于你的英雄弃一张牌。",
+      "text_en": "Each hero who has more {h} than you discards a card.",
+      "source": "https://cards.fabtcg.com/card/didnt_see_that_coming/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "dig_in": {
+      "id": "dig_in",
+      "name_zh": "深挖坚守",
+      "name_en": "Dig In",
+      "type_zh": "崇敬 行动·攻击",
+      "text_zh": "当此牌防御时，你可以支付至多3点资源。创造等量的坚韧衍生物。",
+      "text_en": "When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.",
+      "source": "https://cards.fabtcg.com/card/dig_in/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "dig_up_dinner": {
+      "id": "dig_up_dinner",
+      "name_zh": "挖出晚餐",
+      "name_en": "Dig Up Dinner",
+      "type_zh": "蛮将 行动",
+      "text_zh": "选择你坟场中的3张随机牌。将以此方式选择的所有力量为6或更高的攻击行动牌洗入你的牌库，然后获得等量生命。放逐此牌。\n再动",
+      "text_en": "Choose 3 random cards in your graveyard. Shuffle all attack action cards with 6 or more {p} chosen this way into your deck, then gain that much {h}. Banish this.\nGo again",
+      "source": "https://cards.fabtcg.com/card/dig_up_dinner/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dimenxxional_crossroads": {
+      "id": "dimenxxional_crossroads",
+      "name_zh": "维度十字路口",
+      "name_en": "Dimenxxional Crossroads",
+      "type_zh": "暗影 符文剑士 行动·光环",
+      "text_zh": "再动\n每当你从放逐区使用攻击行动牌或“非攻击”行动牌时，若本回合你尚未使用过另一张该类型的牌，对目标英雄造成1点秘法伤害。\n若你在你的回合期间失去生命，摧毁维度十字路口。",
+      "text_en": "Go again\nWhenever you play an attack action card or a 'non-attack' action card from the banished zone, if you haven't played another card of that type this turn, deal 1 arcane damage to target hero.\nIf you lose {h} during your turn, destroy Dimenxxional Crossroads.",
+      "source": "https://cards.fabtcg.com/card/dimenxxional_crossroads/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dimenxxional_gateway": {
+      "id": "dimenxxional_gateway",
+      "name_zh": "维度门户",
+      "name_en": "Dimenxxional Gateway",
+      "type_zh": "暗影 符文剑士 行动",
+      "text_zh": "占卜3\n展示你牌库顶的一张牌。若其为符文剑士牌，对每位对手英雄造成1点秘法伤害。若其为暗影牌，你可以放逐它。\n再动",
+      "text_en": "Opt 3\nReveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage to each opposing hero. If it's a Shadow card, you may banish it.\nGo again",
+      "source": "https://cards.fabtcg.com/card/dimenxxional_gateway/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "dimenxxional_vortex": {
+      "id": "dimenxxional_vortex",
+      "name_zh": "维度漩涡",
+      "name_en": "Dimenxxional Vortex",
+      "type_zh": "暗影 行动",
+      "text_zh": "你可以从你的放逐区使用此牌。若如此做，它的使用费用减少2点资源。\n每位英雄放逐其军械库中的一张牌。\n血债",
+      "text_en": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.\nEach hero banishes a card from their arsenal.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/dimenxxional_vortex/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "disable": {
+      "id": "disable",
+      "name_zh": "瘫痪",
+      "name_en": "Disable",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，将其军械库中的一张牌置于其牌库底。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of their deck.",
+      "source": "https://cards.fabtcg.com/card/disable/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "5",
+          "power": "9",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "5",
+          "power": "8",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "5",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "disarm": {
+      "id": "disarm",
+      "name_zh": "解除武装",
+      "name_en": "Disarm",
+      "type_zh": "崇敬 行动·攻击",
+      "text_zh": "当此牌攻击时，若本回合你被欢呼过，创造一个坚韧衍生物。\n当此牌防御时，若其防御为6或更高，攻击英雄将手牌中的一张牌置于其牌库底。",
+      "text_en": "When this attacks, if you've been cheered this turn, create a Toughness token.\nWhen this defends, if it has 6 or more {d}, the attacking hero puts a card from their hand on the bottom of their deck.",
+      "source": "https://cards.fabtcg.com/card/disarm/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "disdainful_delight": {
+      "id": "disdainful_delight",
+      "name_zh": "轻蔑的愉悦",
+      "name_en": "Disdainful Delight",
+      "type_zh": "憎恶 阻挡",
+      "text_zh": "当此牌防御时，若本回合你被喝倒彩过，此牌获得+1防御。",
+      "text_en": "While this is defending, if you've been booed this turn, this gets +1{d}.",
+      "source": "https://cards.fabtcg.com/card/disdainful_delight/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "disembody": {
+      "id": "disembody",
+      "name_zh": "脱离躯壳",
+      "name_en": "Disembody",
+      "type_zh": "崇敬 行动·攻击",
+      "text_zh": "当此牌攻击时，若本回合你被欢呼过，创造一个坚韧衍生物。\n当此牌防御时，若其防御为6或更高，攻击英雄将其控制的一个光环置于其牌库底。",
+      "text_en": "When this attacks, if you've been cheered this turn, create a Toughness token.\nWhen this defends, if it has 6 or more {d}, the attacking hero puts an aura they control on the bottom of their deck.",
+      "source": "https://cards.fabtcg.com/card/disembody/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "disenchantment_of_the_old_ones": {
+      "id": "disenchantment_of_the_old_ones",
+      "name_zh": "古神祛魅",
+      "name_en": "Disenchantment of the Old Ones",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对守护者英雄造成4点或更多伤害时，摧毁其控制的所有光环。\n重掷2",
+      "text_en": "Crush - When this deals 4 or more damage to a Guardian hero, destroy all auras they control.\nHeave 2",
+      "source": "https://cards.fabtcg.com/card/disenchantment_of_the_old_ones/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "10",
+          "defense": "3"
+        }
+      }
+    },
+    "dishonor": {
+      "id": "dishonor",
+      "name_zh": "耻辱",
+      "name_en": "Dishonor",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若先祖纽带是本战斗链的最后一次攻击，此牌获得+2力量。\n当此牌命中英雄时，若你控制激涌打击、后继阵风波和先祖纽带，该英雄在剩余游戏中失去所有异能。",
+      "text_en": "Combo - If Bonds of Ancestry was the last attack this combat chain, this has +2{p}.\nWhen this hits a hero, if you control Surging Strike, Descendent Gustwave, and Bonds of Ancestry, that hero loses all abilities for the rest of the game.",
+      "source": "https://cards.fabtcg.com/card/dishonor/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "disperse": {
+      "id": "disperse",
+      "name_zh": "驱散",
+      "name_en": "Disperse",
+      "type_zh": "崇敬 行动·攻击",
+      "text_zh": "当此牌攻击时，若本回合你被欢呼过，创造一个坚韧衍生物。\n当此牌防御时，若其防御为6或更高，攻击英雄将其军械库中的一张牌置于其牌库底。",
+      "text_en": "When this attacks, if you've been cheered this turn, create a Toughness token.\nWhen this defends, if it has 6 or more {d}, the attacking hero puts a card from their arsenal on the bottom of their deck.",
+      "source": "https://cards.fabtcg.com/card/disperse/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "display_loyalty": {
+      "id": "display_loyalty",
+      "name_zh": "展示忠诚",
+      "name_en": "Display Loyalty",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制2个或更多龙裔链环，此牌获得再动，以及“当此牌攻击英雄时，创造一个效忠衍生物。”",
+      "text_en": "If you control 2 or more Draconic chain links, this gets go again and \"When this attacks a hero, create a Fealty token.\"",
+      "source": "https://cards.fabtcg.com/card/display_loyalty/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "display_of_artistry": {
+      "id": "display_of_artistry",
+      "name_zh": "技艺展示",
+      "name_en": "Display of Artistry",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量。若该武器本回合被磨砺过，该攻击获得“当防御此牌时，反应牌获得-1防御。”",
+      "text_en": "Target weapon attack gets +3{p}. If the weapon has been sharpened this turn, the attack gets \"Reaction cards get -1{d} while defending this.\"",
+      "source": "https://cards.fabtcg.com/card/display_of_artistry/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "display_of_craftsmanship": {
+      "id": "display_of_craftsmanship",
+      "name_zh": "工艺展示",
+      "name_en": "Display of Craftsmanship",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+4力量。若该武器本回合被磨砺过，在其上放置一个+1力量指示物。",
+      "text_en": "Target weapon attack gets +4{p}. If the weapon has been sharpened this turn, put a +1{p} counter on it.",
+      "source": "https://cards.fabtcg.com/card/display_of_craftsmanship/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dissipation_shield": {
+      "id": "dissipation_shield",
+      "name_zh": "消散护盾",
+      "name_en": "Dissipation Shield",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "消散护盾进入竞技场时带有4个蒸汽指示物。\n在你的行动阶段开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n瞬间——摧毁消散护盾：本回合你的英雄下一次将受到伤害时，防止X点伤害，X为消散护盾上的蒸汽指示物数量。",
+      "text_en": "Dissipation Shield enters the arena with 4 steam counters on it.\nAt the beginning of your action phase, destroy Dissipation Shield unless you remove a steam counter from it.\nInstant - Destroy Dissipation Shield: The next time your hero would be dealt damage this turn, prevent X damage, where X is the number of steam counters on Dissipation Shield.",
+      "source": "https://cards.fabtcg.com/card/dissipation_shield/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dissolution_sphere": {
+      "id": "dissolution_sphere",
+      "name_zh": "溶解球体",
+      "name_en": "Dissolution Sphere",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "溶解球体进入竞技场时带有一个蒸汽指示物。\n在你的行动阶段开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n每当你的英雄将受到恰好1点伤害时，防止它。",
+      "text_en": "Dissolution Sphere enters the arena with a steam counter on it.\nAt the beginning of your action phase, destroy Dissolution Sphere unless you remove a steam counter from it.\nWhenever your hero would be dealt exactly 1 damage, prevent it.",
+      "source": "https://cards.fabtcg.com/card/dissolution_sphere/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dissolve_reality": {
+      "id": "dissolve_reality",
+      "name_zh": "溶解现实",
+      "name_en": "Dissolve Reality",
+      "type_zh": "幻术师 行动",
+      "text_zh": "每位英雄将其军械库中的所有牌置于其牌库底并创造一个沉思衍生物。\n再动",
+      "text_en": "Each hero puts all cards in their arsenal on the bottom of their deck and creates a Ponder token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/dissolve_reality/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dissolving_shield": {
+      "id": "dissolving_shield",
+      "name_zh": "溶解护盾",
+      "name_en": "Dissolving Shield",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有3个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n瞬间——从此牌上移除一个蒸汽指示物：防止本回合接下来将对你造成的1点伤害。若此牌没有蒸汽指示物，摧毁它。",
+      "text_en": "Crank\nThis enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.\nInstant - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.",
+      "source": "https://cards.fabtcg.com/card/dissolving_shield/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "distant_rumbling": {
+      "id": "distant_rumbling",
+      "name_zh": "远方轰鸣",
+      "name_en": "Distant Rumbling",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "当此牌进入竞技场时，抽一张牌，然后将你手牌中的一张牌放入你的牌库的从上往下第五张的位置。\n在你的回合开始时，摧毁此牌，然后创造3个地震涌动衍生物。",
+      "text_en": "When this enters the arena, draw a card, then put a card from your hand into your deck fifth from the top.\nAt the start of your turn, destroy this, then create 3 Seismic Surge tokens.",
+      "source": "https://cards.fabtcg.com/card/distant_rumbling/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "disturb_the_peace": {
+      "id": "disturb_the_peace",
+      "name_zh": "扰乱和平",
+      "name_en": "Disturb the Peace",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "此牌不能被守护者光环防御。\n当此牌命中守护者英雄时，摧毁其控制的一个光环。",
+      "text_en": "This can't be defended by Guardian auras.\nWhen this hits a Guardian hero, destroy an aura they control.",
+      "source": "https://cards.fabtcg.com/card/disturb_the_peace/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "dive_through_data": {
+      "id": "dive_through_data",
+      "name_zh": "潜入数据",
+      "name_en": "Dive Through Data",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，占卜1。",
+      "text_en": "Boost\nWhen this hits, opt 1.",
+      "source": "https://cards.fabtcg.com/card/dive_through_data/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "divvy_up": {
+      "id": "divvy_up",
+      "name_zh": "瓜分",
+      "name_en": "Divvy Up",
+      "type_zh": "海盗 行动",
+      "text_zh": "从宝藏之岛上移除一半的金币指示物（向上取整）。若你为盗贼，改为移除全部。\n创造与此方式移除的金币指示物数量相等的金币衍生物。",
+      "text_en": "Remove half the gold counters from Treasure Island, rounded up. If you are a Thief, instead remove all of them.\nCreate Gold tokens equal to the number of gold counters removed this way.",
+      "source": "https://cards.fabtcg.com/card/divvy_up/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dodge": {
+      "id": "dodge",
+      "name_zh": "闪避",
+      "name_en": "Dodge",
+      "type_zh": "通用 防御反应",
+      "text_zh": "",
+      "text_en": "",
+      "source": "https://cards.fabtcg.com/card/dodge/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "dominate_the_competition": {
+      "id": "dominate_the_competition",
+      "name_zh": "统治比赛",
+      "name_en": "Dominate the Competition",
+      "type_zh": "",
+      "text_zh": "你本回合的下一次攻击获得支配。",
+      "text_en": "Your next attack this turn gets dominate.",
+      "source": "https://cards.fabtcg.com/card/dominate_the_competition/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "dominia": {
+      "id": "dominia",
+      "name_zh": "多米尼亚",
+      "name_en": "Dominia",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "每当多米尼亚攻击英雄时，展示你牌库顶的一张牌。若其为红色牌，查看该英雄的手牌并从其中放逐一张牌。",
+      "text_en": "Whenever Dominia attacks a hero, reveal the top card of your deck. If it's a red card, look at their hand and banish a card from it.",
+      "source": "https://cards.fabtcg.com/card/dominia/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "donkey": {
+      "id": "donkey",
+      "name_zh": "驴",
+      "name_en": "Donkey",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得+1力量，并与防御英雄下注。胜者摧毁自己军械库中的一张牌。",
+      "text_en": "Target sword attack gets +1{p} and wagers with the defending hero. The winner destroys a card in their own arsenal.",
+      "source": "https://cards.fabtcg.com/card/donkey/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "doomsaying": {
+      "id": "doomsaying",
+      "name_zh": "末日预言",
+      "name_en": "Doomsaying",
+      "type_zh": "符文剑士 行动·光环",
+      "text_zh": "再动\n在你的结束阶段开始时，在此牌上放置一个末日指示物，然后每位英雄摧毁其控制的X个光环，X为此牌上的末日指示物数量。",
+      "text_en": "Go again\nAt the beginning of your end phase, put a doom counter on this, then each hero destroys X auras they control, where X is the number of doom counters on this.",
+      "source": "https://cards.fabtcg.com/card/doomsaying/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "doomsday": {
+      "id": "doomsday",
+      "name_zh": "末日",
+      "name_en": "Doomsday",
+      "type_zh": "暗影 瞬间",
+      "text_zh": "传奇莱维娅专精\n仅当你放逐区中有6张或更多具有血债的牌时才能使用末日。\n创造一个灵魂收割者·布拉兹莫菲特衍生物。",
+      "text_en": "Legendary Levia Specialization\nPlay Doomsday only if there are 6 or more cards with blood debt in your banished zone.\nCreate a Blasmophet, the Soul Harvester token.",
+      "source": "https://cards.fabtcg.com/card/doomsday/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dorinthea": {
+      "id": "dorinthea",
+      "name_zh": "多琳希雅",
+      "name_en": "Dorinthea",
+      "type_zh": "",
+      "text_zh": "每回合一次效果——当你控制的武器命中时，本回合你可以用该武器额外攻击一次。",
+      "text_en": "Once per turn Effect - When a weapon you control hits, you may attack an additional time with that weapon this turn.",
+      "source": "https://cards.fabtcg.com/card/dorinthea/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "dorinthea_ironsong": {
+      "id": "dorinthea_ironsong",
+      "name_zh": "多琳茜娅·铁歌",
+      "name_en": "Dorinthea Ironsong",
+      "type_zh": "战士 英雄",
+      "text_zh": "每回合一次效果——当你控制的武器命中时，本回合你可以用该武器额外攻击一次。",
+      "text_en": "Once per turn Effect - When a weapon you control hits, you may attack an additional time with that weapon this turn.",
+      "source": "https://cards.fabtcg.com/card/dorinthea_ironsong/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dorinthea_quicksilver_prodigy": {
+      "id": "dorinthea_quicksilver_prodigy",
+      "name_zh": "多琳希雅·水银神童",
+      "name_en": "Dorinthea, Quicksilver Prodigy",
+      "type_zh": "",
+      "text_zh": "每回合你的辉煌黎明之刃的攻击第一次获得再动时，本回合你可以用它额外攻击一次。",
+      "text_en": "The first time your Dawnblade, Resplendent's attack gets go again each turn, you may attack an additional time with it this turn.",
+      "source": "https://cards.fabtcg.com/card/dorinthea_quicksilver_prodigy/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "double_cross_strap": {
+      "id": "double_cross_strap",
+      "name_zh": "双重背叛绑带",
+      "name_en": "Double Cross Strap",
+      "type_zh": "忍者 装备·胸部",
+      "text_zh": "瞬间——摧毁此牌：获得1点资源。仅当本战斗链中你命中两次或更多时才能启动此异能。\n秘法屏障1",
+      "text_en": "Instant - Destroy this: Gain {r}. Activate this only if you've hit 2 or more times this combat chain.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/double_cross_strap/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "double_down": {
+      "id": "double_down",
+      "name_zh": "加倍下注",
+      "name_en": "Double Down",
+      "type_zh": "守护者·战士 行动",
+      "text_zh": "你可以摧毁你控制的一个金币，而非支付加倍下注的费用。\n本回合下一次下注的攻击获得+3力量和压制。\n若本回合一位英雄将因下注创造1个或更多衍生物，改为其创造数量加1的每种这些衍生物。\n再动",
+      "text_en": "You may destroy a Gold you control rather than pay Double Down's {r} cost.\nThe next attack that wagers this turn gets +3{p} and overpower.\nIf a hero would create 1 or more tokens from a wager this turn, instead they create that many plus 1 of each of those tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/double_down/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "double_strike": {
+      "id": "double_strike",
+      "name_zh": "双重打击",
+      "name_en": "Double Strike",
+      "type_zh": "Nina 行动·攻击",
+      "text_zh": "当双重打击的链环结算时，放逐它。本战斗链中你可以使用它。若如此做，它失去此异能。\n再动",
+      "text_en": "When Double Strike's chain link resolves, banish it. You may play it this combat chain. If you do, it loses this ability.\nGo again",
+      "source": "https://cards.fabtcg.com/card/double_strike/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "double_trouble": {
+      "id": "double_trouble",
+      "name_zh": "双重麻烦",
+      "name_en": "Double Trouble",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n若此链环中你使用或启动过2张或更多攻击反应，此牌获得+2力量，以及“当此牌命中英雄时，放逐其牌库顶的2张牌。”",
+      "text_en": "Stealth\nIf you've played or activated 2 or more attack reactions this chain link, this gets +2{p} and \"When this hits a hero, banish the top 2 cards of their deck.\"",
+      "source": "https://cards.fabtcg.com/card/double_trouble/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "doubling_season": {
+      "id": "doubling_season",
+      "name_zh": "翻倍之季",
+      "name_en": "Doubling Season",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "当此牌在任意区域正面朝上时，若它将获得力量，改为它获得等量加1的力量。",
+      "text_en": "While this is face-up in any zone, if it would gain {p}, instead it gains that much plus 1.",
+      "source": "https://cards.fabtcg.com/card/doubling_season/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "0",
+          "defense": "3"
+        }
+      }
+    },
+    "douse_in_runeblood": {
+      "id": "douse_in_runeblood",
+      "name_zh": "浸于符文之血",
+      "name_en": "Douse in Runeblood",
+      "type_zh": "符文剑士 行动·攻击",
+      "text_zh": "当此牌攻击时，创造与你本回合使用过的非攻击行动牌数量相等的符文吟唱衍生物。若以此方式创造了3个或更多符文吟唱，此牌获得再动。",
+      "text_en": "When this attacks, create Runechant tokens equal to the number of non-attack action cards you've played this turn. If 3 or more Runechants are created this way, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/douse_in_runeblood/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "down_and_dirty": {
+      "id": "down_and_dirty",
+      "name_zh": "下三滥",
+      "name_en": "Down and Dirty",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当下三滥在你的军械库中时，你可以用它防御。",
+      "text_en": "While Down and Dirty is in your arsenal, you may defend with it.",
+      "source": "https://cards.fabtcg.com/card/down_and_dirty/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "down_but_not_out": {
+      "id": "down_but_not_out",
+      "name_zh": "倒下而不出局",
+      "name_en": "Down But Not Out",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，若你的生命较低且控制的装备和衍生物较少，此牌获得+3力量、压制，以及“当此牌命中时，创造敏捷、力量、活力衍生物各一个。”",
+      "text_en": "When this attacks a hero, if you have less {h} and control fewer equipment and tokens than them, this gets +3{p}, overpower, and \"When this hits, create an Agility, Might, and Vigor token.\"",
+      "source": "https://cards.fabtcg.com/card/down_but_not_out/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "downswing": {
+      "id": "downswing",
+      "name_zh": "下劈",
+      "name_en": "Downswing",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得+1力量，并与防御英雄下注。胜者失去1点生命。",
+      "text_en": "Target sword attack gets +1{p} and wagers with the defending hero. The winner loses 1{h}.",
+      "source": "https://cards.fabtcg.com/card/downswing/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "draco_fire": {
+      "id": "draco_fire",
+      "name_zh": "德拉科之火",
+      "name_en": "Draco Fire",
+      "type_zh": "龙裔 瞬间",
+      "text_zh": "你本回合的下一次龙裔攻击获得+2力量，且使用或启动费用减少1点资源。\n当此牌在你坟场中时，在你的回合开始时，你可以放逐你坟场中的2张名为德拉科之火的牌。若如此做，获得1点资源。",
+      "text_en": "Your next Draconic attack this turn gets +2{p} and costs {r} less to play or activate.\nWhile this is in your graveyard, at the start of your turn, you may banish 2 cards named Draco Fire from your graveyard. If you do, gain {r}.",
+      "source": "https://cards.fabtcg.com/card/draco_fire/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dracona_optimai": {
+      "id": "dracona_optimai",
+      "name_zh": "德拉科娜·奥普提迈",
+      "name_en": "Dracona Optimai",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "每当德拉科娜·奥普提迈攻击英雄时，展示你牌库顶的3张牌。他对该英雄或其控制的一个盟友造成与此方式展示的红色牌数量两倍相等的秘法伤害。",
+      "text_en": "Whenever Dracona Optimai attacks a hero, reveal the top 3 cards of your deck. He deals arcane damage equal to twice the number of red cards revealed this way to them or an ally they control.",
+      "source": "https://cards.fabtcg.com/card/dracona_optimai/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "drag_down": {
+      "id": "drag_down",
+      "name_zh": "拖下水",
+      "name_en": "Drag Down",
+      "type_zh": "通用 防御反应",
+      "text_zh": "当此牌防御攻击时，它获得-3力量。",
+      "text_en": "When this defends an attack, it gets -3{p}.",
+      "source": "https://cards.fabtcg.com/card/drag_down/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "dragon_power": {
+      "id": "dragon_power",
+      "name_zh": "龙之力",
+      "name_en": "Dragon Power",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，若其为龙裔，它获得+3力量。",
+      "text_en": "When this attacks, if it is Draconic, it gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/dragon_power/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "dragons_of_legend": {
+      "id": "dragons_of_legend",
+      "name_zh": "传说之龙",
+      "name_en": "Dragons of Legend",
+      "type_zh": "",
+      "text_zh": "德拉科娜·奥普提迈 - 1资源, 6费用, 3防御\n托梅尔泰 - 1资源, 5费用, 3防御\n多米尼亚 - 1资源, 4费用, 3防御\n阿兹沃莱 - 1资源, 0费用, 3防御\n克罗迈 - 1资源, 0费用, 3防御\n凯洛里亚 - 1资源, 1费用, 3防御\n米拉盖 - 1资源, 1费用, 3防御\n内克里亚 - 1资源, 3费用, 3防御\n欧维亚 - 1资源, 2费用, 3防御\n泰迈 - 1资源, 2费用, 3防御\n文塞拉凯 - 1资源, 3费用, 3防御\n延杜莱 - 1资源, 1费用, 3防御\n你可以将此牌放入你的牌库以替代你拥有的一张召龙。勾选此牌所召唤龙名旁边的方框。当此牌被使用或置入你的坟场时，将其替换为被召龙的牌。",
+      "text_en": "Dracona Optimai - 1 pitch, 6 cost, 3 block\nTomeltai - 1 pitch, 5 cost, 3 block\nDominia - 1 pitch, 4 cost, 3 block\nAzvolai - 1 pitch, 0 cost, 3 block\nCromai - 1 pitch, 0 cost, 3 block\nKyloria - 1 pitch, 1 cost, 3 block\nMiragai - 1 pitch, 1 cost, 3 block\nNekria - 1 pitch, 3 cost, 3 block\nOuvia - 1 pitch, 2 cost, 3 block\nThemai - 1 pitch, 2 cost, 3 block\nVynserakai - 1 pitch, 3 cost, 3 block\nYendurai - 1 pitch, 1 cost, 3 block\nYou may put this in your deck in place of an invocation you own. Mark the box next to the dragon's name this invokes. When this card is played or put into your graveyard, swap it for the invocation card.",
+      "source": "https://cards.fabtcg.com/card/dragons_of_legend/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "dragonscaler_flight_path": {
+      "id": "dragonscaler_flight_path",
+      "name_zh": "龙鳞者飞行路径",
+      "name_en": "Dragonscaler Flight Path",
+      "type_zh": "龙裔 装备·腿部",
+      "text_zh": "瞬间——支付3点资源，摧毁此牌：目标龙裔攻击获得再动。若其为武器或盟友攻击，本回合你可以用它额外攻击一次。每当你控制一个龙裔链环，此异能费用减少1点资源。\n战痕",
+      "text_en": "Instant - {r}{r}{r}, destroy this: Target Draconic attack gets go again. If it's a weapon or ally attack, you may attack with it an additional time this turn. This ability costs {r} less to activate for each Draconic chain link you control.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/dragonscaler_flight_path/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "dramatic_pause": {
+      "id": "dramatic_pause",
+      "name_zh": "戏剧性停顿",
+      "name_en": "Dramatic Pause",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌进入竞技场时，此链环中目标防御行动牌获得+3防御。",
+      "text_en": "Suspense\nWhen this enters the arena, target defending action card gets +3{d} this chain link.",
+      "source": "https://cards.fabtcg.com/card/dramatic_pause/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "draw_a_crowd": {
+      "id": "draw_a_crowd",
+      "name_zh": "吸引人群",
+      "name_en": "Draw a Crowd",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n当此牌进入竞技场时，每位英雄抽一张牌。\n在你的行动阶段开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌获得+3力量。",
+      "text_en": "Go again\nWhen this enters the arena, each hero draws a card.\nAt the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/draw_a_crowd/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "draw_back_the_hammer": {
+      "id": "draw_back_the_hammer",
+      "name_zh": "收锤",
+      "name_en": "Draw Back the Hammer",
+      "type_zh": "机械师 行动",
+      "text_zh": "你本回合的下一次机械师攻击获得+4力量。\n你可以重置你控制的一把枪。\n再动",
+      "text_en": "Your next Mechanologist attack this turn gets +4{p}.\nYou may {u} a gun you control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/draw_back_the_hammer/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "draw_swords": {
+      "id": "draw_swords",
+      "name_zh": "拔剑",
+      "name_en": "Draw Swords",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次战士攻击获得+3力量。\n抽一张牌。\n再动",
+      "text_en": "Your next Warrior attack this turn gets +3{p}.\nDraw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/draw_swords/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "drawing_dead": {
+      "id": "drawing_dead",
+      "name_zh": "摸到死牌",
+      "name_en": "Drawing Dead",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得+1力量，并与防御英雄下注。胜者弃一张牌。",
+      "text_en": "Target sword attack gets +1{p} and wagers with the defending hero. The winner discards a card.",
+      "source": "https://cards.fabtcg.com/card/drawing_dead/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "drawn_to_the_blade": {
+      "id": "drawn_to_the_blade",
+      "name_zh": "被刃吸引",
+      "name_en": "Drawn to the Blade",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有2个或更多+1力量指示物，本回合它下一次命中时，抽一张牌。\n再动",
+      "text_en": "Sharpen target sword you control.\nIf it has 2 or more +1{p} counters, the next time it hits this turn, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/drawn_to_the_blade/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "drawn_to_the_dark_dimension": {
+      "id": "drawn_to_the_dark_dimension",
+      "name_zh": "被黑暗维度吸引",
+      "name_en": "Drawn to the Dark Dimension",
+      "type_zh": "符文剑士 行动·攻击",
+      "text_zh": "每当你控制一个符文吟唱，此牌的使用费用减少1点资源。\n当此牌攻击时，抽一张牌。",
+      "text_en": "This costs {r} less to play for each Runechant you control.\nWhen this attacks, draw a card.",
+      "source": "https://cards.fabtcg.com/card/drawn_to_the_dark_dimension/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "dread_screamer": {
+      "id": "dread_screamer",
+      "name_zh": "恐惧尖叫者",
+      "name_en": "Dread Screamer",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用恐惧尖叫者的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，恐惧尖叫者获得再动。\n血债",
+      "text_en": "As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard\nIf a card with 6 or more {p} is banished this way, Dread Screamer gains go again.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/dread_screamer/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "dread_scythe": {
+      "id": "dread_scythe",
+      "name_zh": "恐惧镰刀",
+      "name_en": "Dread Scythe",
+      "type_zh": "符文剑士 武器·Scythe （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n每当你用恐惧镰刀攻击时，对防御英雄造成1点秘法伤害。\n被恐惧镰刀造成伤害的英雄在其下一个行动阶段期间不能获得生命。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nWhenever you attack with Dread Scythe, deal 1 arcane damage to the defending hero.\nA hero dealt damage by Dread Scythe can't gain {h} during their next action phase.",
+      "source": "https://cards.fabtcg.com/card/dread_scythe/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "dread_triptych": {
+      "id": "dread_triptych",
+      "name_zh": "恐惧三联画",
+      "name_en": "Dread Triptych",
+      "type_zh": "符文剑士 行动·攻击",
+      "text_zh": "当你用恐惧三联画攻击时，若本回合你使用过一张“非攻击”行动牌，创造一个符文吟唱衍生物。\n当你用恐惧三联画攻击时，若本回合你造成过秘法伤害，创造一个符文吟唱衍生物。\n若恐惧三联画命中，创造一个符文吟唱衍生物。",
+      "text_en": "When you attack with Dread Triptych, if you've played a 'non-attack' action card this turn, create a Runechant token.\nWhen you attack with Dread Triptych, if you've dealt arcane damage this turn, create a Runechant token.\nIf Dread Triptych hits, create a Runechant token.",
+      "source": "https://cards.fabtcg.com/card/dread_triptych/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "dreadbore": {
+      "id": "dreadbore",
+      "name_zh": "恐惧钻孔",
+      "name_en": "Dreadbore",
+      "type_zh": "游侠 武器·弓 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：你可以将你手牌中的一张箭矢牌正面朝上放入你控制的一个空军械库区域。若如此做，它直到回合结束获得+1力量。再动\n你控制的箭矢获得“此链环中防御反应不能从手牌使用。”",
+      "text_en": "Once per Turn Action - {r}: You may put an arrow card from your hand face up into an empty arsenal zone you control. If you do, it gains +1{p} until end of turn. Go again\nArrows you control have \"Defense reactions can't be played from hand this chain link.\"",
+      "source": "https://cards.fabtcg.com/card/dreadbore/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dream_weavers": {
+      "id": "dream_weavers",
+      "name_zh": "织梦者",
+      "name_en": "Dream Weavers",
+      "type_zh": "幻术师 装备·手臂",
+      "text_zh": "行动——摧毁织梦者：本回合你使用的下一张幻术师攻击行动牌失去且不能获得虚击。再动\n法力虚空1",
+      "text_en": "Action - Destroy Dream Weavers: The next Illusionist attack action card you play this turn loses and can't gain phantasm. Go again\nSpellvoid 1",
+      "source": "https://cards.fabtcg.com/card/dream_weavers/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "driftwood_quiver": {
+      "id": "driftwood_quiver",
+      "name_zh": "浮木箭袋",
+      "name_en": "Driftwood Quiver",
+      "type_zh": "游侠 装备·Quiver",
+      "text_zh": "瑞普泰德专精\n瞬间——摧毁浮木箭袋：将你军械库中的一张牌置于你的牌库底。",
+      "text_en": "Riptide Specialization\nInstant - Destroy Driftwood Quiver: Put a card from your arsenal on the bottom of your deck.",
+      "source": "https://cards.fabtcg.com/card/driftwood_quiver/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "drill_shot": {
+      "id": "drill_shot",
+      "name_zh": "钻头箭",
+      "name_en": "Drill Shot",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "若钻头箭带有一个瞄准指示物，它具有穿透1。\n当此牌命中英雄时，在其控制的一件装备上放置一个-1防御指示物。",
+      "text_en": "If Drill Shot has an aim counter, it has piercing 1.\nWhen this hits a hero, put a -1{d} counter on an equipment they control.",
+      "source": "https://cards.fabtcg.com/card/drill_shot/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "drink_em_under_the_table": {
+      "id": "drink_em_under_the_table",
+      "name_zh": "灌醉他们",
+      "name_en": "Drink 'Em Under the Table",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "贝特西专精\n当此牌攻击英雄时，你可以与该英雄下注。胜者抽一张牌，另一位英雄弃一张牌。",
+      "text_en": "Betsy Specialization\nWhen this attacks a hero, you may wager with them. The winner draws a card, and the other hero discards a card.",
+      "source": "https://cards.fabtcg.com/card/drink_em_under_the_table/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "drinking_buddy": {
+      "id": "drinking_buddy",
+      "name_zh": "酒友",
+      "name_en": "Drinking Buddy",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌攻击时，每位英雄可以从其牌库中搜寻一张名称中含有药剂或酿造的物品牌并放入竞技场。以此方式搜寻的英雄洗牌。若两位或更多英雄以此方式将牌放入竞技场，此牌获得再动。",
+      "text_en": "When this attacks, each hero may search their deck for an item with Potion or Brew in its name and put it into the arena. Each hero that does, shuffles their deck. If two or more heroes put a card into the arena this way, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/drinking_buddy/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "drive_brake": {
+      "id": "drive_brake",
+      "name_zh": "驱动制动",
+      "name_en": "Drive Brake",
+      "type_zh": "机械师 装备·腿部",
+      "text_zh": "每当你因推进放逐一张超频驱动器时，从你此牌上移除一个-1防御指示物。\n战痕",
+      "text_en": "Whenever you banish a Hyper Driver from boosting, remove a -1{d} counter from this.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/drive_brake/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "driving_blade": {
+      "id": "driving_blade",
+      "name_zh": "驱动之刃",
+      "name_en": "Driving Blade",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量和再动。\n再动",
+      "text_en": "Your next weapon attack this turn gains +3{p} and go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/driving_blade/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dromai": {
+      "id": "dromai",
+      "name_zh": "德罗迈",
+      "name_en": "Dromai",
+      "type_zh": "",
+      "text_zh": "每当你资源一张红色牌时，创造一个灰烬衍生物。\n若本回合你使用过一张红色牌，你控制的龙在攻击时具有再动。",
+      "text_en": "Whenever you pitch a red card, create an Ash Token.\nIf you've played a red card this turn, dragons you control have go again while attacking.",
+      "source": "https://cards.fabtcg.com/card/dromai/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "dromai_ash_artist": {
+      "id": "dromai_ash_artist",
+      "name_zh": "德罗迈·灰烬艺术家",
+      "name_en": "Dromai, Ash Artist",
+      "type_zh": "龙裔 幻术师 英雄",
+      "text_zh": "每当你资源一张红色牌时，创造一个灰烬衍生物。\n若本回合你使用过一张红色牌，你控制的龙在攻击时具有再动。",
+      "text_en": "Whenever you pitch a red card, create an Ash Token.\nIf you've played a red card this turn, dragons you control have go again while attacking.",
+      "source": "https://cards.fabtcg.com/card/dromai_ash_artist/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "drone_of_brutality": {
+      "id": "drone_of_brutality",
+      "name_zh": "暴行嗡鸣",
+      "name_en": "Drone of Brutality",
+      "type_zh": "",
+      "text_zh": "若暴行嗡鸣将从任何区域置入你的坟场，改为将其置于你的牌库底。",
+      "text_en": "If Drone of Brutality would be put into your graveyard from anywhere, instead put it on the bottom of your deck.",
+      "source": "https://cards.fabtcg.com/card/drone_of_brutality/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "drop_of_dragon_blood": {
+      "id": "drop_of_dragon_blood",
+      "name_zh": "龙血之滴",
+      "name_en": "Drop of Dragon Blood",
+      "type_zh": "龙裔 瞬间",
+      "text_zh": "传奇\n每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n获得1点资源。抽一张牌。",
+      "text_en": "Legendary\nThis costs {r} less to play for each Draconic chain link you control.\nGain {r}. Draw a card.",
+      "source": "https://cards.fabtcg.com/card/drop_of_dragon_blood/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "drop_the_anchor": {
+      "id": "drop_the_anchor",
+      "name_zh": "抛锚",
+      "name_en": "Drop the Anchor",
+      "type_zh": "游侠 行动",
+      "text_zh": "你本回合的下一次箭矢攻击获得+3力量，以及“当此牌命中英雄时，横置该英雄及其控制的所有盟友。”\n再动",
+      "text_en": "Your next arrow attack this turn gets +3{p} and \"When this hits a hero, {t} them and all allies they control.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/drop_the_anchor/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "droplet": {
+      "id": "droplet",
+      "name_zh": "水滴",
+      "name_en": "Droplet",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你使用过另一张蓝色牌，此牌获得+2力量。",
+      "text_en": "If you've played another blue card this turn, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/droplet/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "drowning_dire": {
+      "id": "drowning_dire",
+      "name_zh": "淹没的恐惧",
+      "name_en": "Drowning Dire",
+      "type_zh": "符文剑士 行动·攻击",
+      "text_zh": "若本回合你使用过或创造过一个光环，淹没的恐惧获得支配。\n当淹没的恐惧命中时，你可以将你坟场中的一张“非攻击”行动牌置于你的牌库底。",
+      "text_en": "If you have played or created an aura this turn, Drowning Dire gains dominate.\nWhen Drowning Dire hits, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.",
+      "source": "https://cards.fabtcg.com/card/drowning_dire/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "dry_powder_shot": {
+      "id": "dry_powder_shot",
+      "name_zh": "干火药射击",
+      "name_en": "Dry Powder Shot",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "当此牌被正面朝上放入你的军械库时，本回合它获得+2力量。",
+      "text_en": "When this is put face-up into your arsenal, it gets +2{p} this turn.",
+      "source": "https://cards.fabtcg.com/card/dry_powder_shot/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "dual_threat": {
+      "id": "dual_threat",
+      "name_zh": "双重威胁",
+      "name_en": "Dual Threat",
+      "type_zh": "通用 行动",
+      "text_zh": "若你本回合用武器攻击过，你本回合使用的下一张攻击行动牌获得+3力量。\n若你本回合用攻击行动牌攻击过，你本回合的下一次武器攻击获得+3力量。\n再动",
+      "text_en": "If you've attacked with a weapon this turn, the next attack action card you play this turn gets +3{p}.\nIf you've attacked with an attack action card this turn, your next weapon attack this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/dual_threat/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "duelist_gauntlets": {
+      "id": "duelist_gauntlets",
+      "name_zh": "决斗者护手",
+      "name_en": "Duelist Gauntlets",
+      "type_zh": "战士 装备·手臂",
+      "text_zh": "攻击反应——支付1点资源，摧毁此牌：目标剑攻击获得“当防御此牌时，反应牌获得-1防御。”\n战痕",
+      "text_en": "Attack Reaction - {r}, destroy this: Target sword attack gets \"Reaction cards get -1{d} while defending this.\"\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/duelist_gauntlets/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "dumpster_dive": {
+      "id": "dumpster_dive",
+      "name_zh": "翻垃圾桶",
+      "name_en": "Dumpster Dive",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n若一个物品或装备因推进此牌被放逐，此牌获得+1力量。",
+      "text_en": "Boost\nIf an item or equipment was banished from boosting this, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/dumpster_dive/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "dunebreaker_cenipai": {
+      "id": "dunebreaker_cenipai",
+      "name_zh": "破沙之蜃",
+      "name_en": "Dunebreaker Cenipai",
+      "type_zh": "龙裔 幻术师 行动·攻击",
+      "text_zh": "虚击\n当破沙之蜃被摧毁时，创造一个灰烬衍生物。\n再动",
+      "text_en": "Phantasm\nWhen Dunebreaker Cenipai is destroyed, create an Ash token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/dunebreaker_cenipai/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "durendal": {
+      "id": "durendal",
+      "name_zh": "杜伦达尔",
+      "name_en": "Durendal",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n若此牌上有+1力量指示物，当防御此牌时，反应牌获得-1防御。",
+      "text_en": "Once per Turn Action - {r}: Attack\nIf this has a +1{p} counter, reaction cards get -1{d} while defending it.",
+      "source": "https://cards.fabtcg.com/card/durendal/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "dusk_path_pilgrimage": {
+      "id": "dusk_path_pilgrimage",
+      "name_zh": "黄昏之路朝圣",
+      "name_en": "Dusk Path Pilgrimage",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量，以及“若此牌命中，本回合你可以用此武器额外攻击一次。”\n再动",
+      "text_en": "Your next weapon attack this turn gains +3{p} and \"If this hits, you may attack an additional time with this weapon this turn.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/dusk_path_pilgrimage/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "duskblade": {
+      "id": "duskblade",
+      "name_zh": "暮刃",
+      "name_en": "Duskblade",
+      "type_zh": "",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n每当你用暮刃攻击时，若本回合你使用过一张攻击行动牌和一张\"非攻击\"行动牌，在暮刃上放置一个+1力量指示物。\n在你的结束阶段开始时，若本回合你尚未使用攻击行动牌和\"非攻击\"行动牌，从暮刃上移除所有+1力量指示物。",
+      "text_en": "Once per Turn Action - {r}: Attack\nWhenever you attack with Duskblade, if you've played an attack action card and a 'non-attack' action card this turn, put a +1{p} counter on Duskblade.\nAt the beginning of your end phase, if you haven't played an attack action card and a 'non-attack' action card this turn, remove all +1{p} counters from Duskblade.",
+      "source": "https://cards.fabtcg.com/card/duskblade/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "2",
+          "defense": ""
+        }
+      }
+    },
+    "dust_from_stillwater_shrine": {
+      "id": "dust_from_stillwater_shrine",
+      "name_zh": "静水祠之尘",
+      "name_en": "Dust from Stillwater Shrine",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于米拉盖以外的某个永久物之下时，该永久物具有虚击。",
+      "text_en": "Material - While this is under a permanent other than Miragai, that permanent has phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_stillwater_shrine/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_the_chrome_caverns": {
+      "id": "dust_from_the_chrome_caverns",
+      "name_zh": "铬色洞穴之尘",
+      "name_en": "Dust from the Chrome Caverns",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于克罗迈以外的某个永久物之下时，该永久物具有虚击。",
+      "text_en": "Material - While this is under a permanent other than Cromai, that permanent has phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_the_chrome_caverns/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_the_fertile_fields": {
+      "id": "dust_from_the_fertile_fields",
+      "name_zh": "沃野之尘",
+      "name_en": "Dust from the Fertile Fields",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于欧维亚以外的某个永久物之下时，该永久物获得虚击。",
+      "text_en": "Material - While this is under a permanent other than Ouvia, that permanent gets phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_the_fertile_fields/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_the_golden_plains": {
+      "id": "dust_from_the_golden_plains",
+      "name_zh": "金色平原之尘",
+      "name_en": "Dust from the Golden Plains",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于泰迈以外的某个永久物之下时，该永久物具有虚击。",
+      "text_en": "Material - While this is under a permanent other than Themai, that permanent has phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_the_golden_plains/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_the_red_desert": {
+      "id": "dust_from_the_red_desert",
+      "name_zh": "红色沙漠之尘",
+      "name_en": "Dust from the Red Desert",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于文塞拉凯以外的某个永久物之下时，该永久物具有虚击。",
+      "text_en": "Material - While this is under a permanent other than Vynserakai, that permanent has phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_the_red_desert/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_the_shadow_crypts": {
+      "id": "dust_from_the_shadow_crypts",
+      "name_zh": "暗影墓穴之尘",
+      "name_en": "Dust from the Shadow Crypts",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于内克里亚以外的某个永久物之下时，该永久物具有虚击。",
+      "text_en": "Material - While this is under a permanent other than Nekria, that permanent has phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_the_shadow_crypts/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_runner_outlaw": {
+      "id": "dust_runner_outlaw",
+      "name_zh": "尘行亡命徒",
+      "name_en": "Dust Runner Outlaw",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "再动",
+      "text_en": "Go again",
+      "source": "https://cards.fabtcg.com/card/dust_runner_outlaw/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "dustup": {
+      "id": "dustup",
+      "name_zh": "尘土飞扬",
+      "name_en": "Dustup",
+      "type_zh": "龙裔 幻术师 行动·攻击",
+      "text_zh": "当尘土飞扬命中时，创造一个灰烬衍生物，然后将你控制的至多1个灰烬转化为以太灰翼。",
+      "text_en": "When Dustup hits, create an Ash token, then transform up to 1 ash you control into an Aether Ashwing.",
+      "source": "https://cards.fabtcg.com/card/dustup/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "duty_bound_blitz": {
+      "id": "duty_bound_blitz",
+      "name_zh": "职责所系突袭",
+      "name_en": "Duty Bound Blitz",
+      "type_zh": "光 行动·攻击",
+      "text_zh": "仅当本回合有一张黄色牌被置入你的灵魂时才能使用此牌。\n再动",
+      "text_en": "Play this only if a yellow card has been put into your soul this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/duty_bound_blitz/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "dyadic_carapace": {
+      "id": "dyadic_carapace",
+      "name_zh": "二元甲壳",
+      "name_en": "Dyadic Carapace",
+      "type_zh": "符文剑士 装备·胸部",
+      "text_zh": "秘法屏障2\n淬炼",
+      "text_en": "Arcane Barrier 2\nTemper",
+      "source": "https://cards.fabtcg.com/card/dyadic_carapace/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "dyed_silk_sleeves": {
+      "id": "dyed_silk_sleeves",
+      "name_zh": "染绸护袖",
+      "name_en": "Dyed Silk Sleeves",
+      "type_zh": "忍者 装备·手臂",
+      "text_zh": "攻击反应——支付1点资源，横置此牌，摧毁你控制的、不在当前链环上的一把匕首：当前链环上的目标忍者攻击行动牌获得+1力量。当链环结算时，若攻击没有命中，摧毁此牌。\n刃碎",
+      "text_en": "Attack Reaction - {r}, {t}, destroy a dagger you control that's not on the active chain link: Target Ninja attack action card on the active chain link gets +1{p}. When the chain link resolves, if the attack didn't hit, destroy this.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/dyed_silk_sleeves/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "dynastic_dedication": {
+      "id": "dynastic_dedication",
+      "name_zh": "王朝奉献",
+      "name_en": "Dynastic Dedication",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n目标匕首攻击获得+3力量。",
+      "text_en": "This costs {r} less to play for each Draconic chain link you control.\nTarget dagger attack gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/dynastic_dedication/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "dynastic_diadem": {
+      "id": "dynastic_diadem",
+      "name_zh": "王朝头饰",
+      "name_en": "Dynastic Diadem",
+      "type_zh": "龙裔 装备·头部",
+      "text_zh": "你控制的效忠衍生物不能被对手的效果摧毁。\n若你控制3个或更多效忠衍生物，此牌获得+1防御。\n淬炼",
+      "text_en": "Fealty tokens you control can't be destroyed by opponents' effects.\nIf you control 3 or more Fealty tokens, this gets +1{d}.\nTemper",
+      "source": "https://cards.fabtcg.com/card/dynastic_diadem/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    }
+  }
+}

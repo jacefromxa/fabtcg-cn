@@ -1,0 +1,642 @@
+{
+  "schema_version": 1,
+  "version": "cba139ba12cc",
+  "cards": {
+    "under_loop": {
+      "id": "under_loop",
+      "name_zh": "地下循环",
+      "name_en": "Under Loop",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，将其置于其拥有者的牌库底。",
+      "text_en": "Boost\nWhen this hits, put it on the bottom of its owner's deck.",
+      "source": "https://cards.fabtcg.com/card/under_loop/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "under_the_trap_door": {
+      "id": "under_the_trap_door",
+      "name_zh": "陷阱门之下",
+      "name_en": "Under the Trap-Door",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n瞬间——弃掉此牌：放逐你坟场中的目标陷阱。若如此做，本回合你可以使用它，且若本回合它将置入坟场，改为放逐它。",
+      "text_en": "Stealth\nInstant - Discard this: Banish target trap from your graveyard. If you do, you may play it this turn and if it would be put into the graveyard this turn, instead banish it.",
+      "source": "https://cards.fabtcg.com/card/under_the_trap_door/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "undercover_acquisition": {
+      "id": "undercover_acquisition",
+      "name_zh": "卧底夺取",
+      "name_en": "Undercover Acquisition",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌命中英雄时，偷取其控制的一个物品。",
+      "text_en": "Stealth\nWhen this hits a hero, steal an item they control.",
+      "source": "https://cards.fabtcg.com/card/undercover_acquisition/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "undertow_stilettos": {
+      "id": "undertow_stilettos",
+      "name_zh": "暗流细高跟鞋",
+      "name_en": "Undertow Stilettos",
+      "type_zh": "秘法 刺客 装备·腿部",
+      "text_zh": "攻击反应——支付1点资源，摧毁此牌：在你的手牌中创造一张滑行。\n战痕",
+      "text_en": "Attack Reaction - {r}, destroy this: Create a Slither in your hand.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/undertow_stilettos/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "unexpected_backhand": {
+      "id": "unexpected_backhand",
+      "name_zh": "出其不意的反手",
+      "name_en": "Unexpected Backhand",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当你展示此牌并赢得交锋时，对另一位英雄造成1点伤害。",
+      "text_en": "When you win a clash revealing this, deal 1 damage to the other hero.",
+      "source": "https://cards.fabtcg.com/card/unexpected_backhand/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "unflinching_foothold": {
+      "id": "unflinching_foothold",
+      "name_zh": "坚定立足点",
+      "name_en": "Unflinching Foothold",
+      "type_zh": "通用 装备·腿部",
+      "text_zh": "瞬间——摧毁此牌：目标攻击失去且不能获得支配。\n战痕",
+      "text_en": "Instant - Destroy this: Target attack loses and can't gain dominate.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/unflinching_foothold/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "unforgetting_unforgiving": {
+      "id": "unforgetting_unforgiving",
+      "name_zh": "铭记且绝不宽恕",
+      "name_en": "Unforgetting Unforgiving",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "贾尔专精\n当此牌防御时，若攻击英雄控制一件带有-1防御指示物的装备，你可以从你的牌库中搜寻一张绞碎，放逐它，然后洗牌。在你的下一个行动阶段期间你可以使用它。",
+      "text_en": "Jarl Specialization\nWhen this defends, if the attacking hero controls an equipment with a -1{d} counter, you may search your deck for a Mangle, banish it, then shuffle. You may play it during your next action phase.",
+      "source": "https://cards.fabtcg.com/card/unforgetting_unforgiving/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "unhallowed_rites": {
+      "id": "unhallowed_rites",
+      "name_zh": "亵渎仪式",
+      "name_en": "Unhallowed Rites",
+      "type_zh": "暗影 符文剑士 行动·攻击",
+      "text_zh": "若本回合你使用过一张“非攻击”行动牌，你可以从你的放逐区使用亵渎仪式。\n你可以将你坟场中一张具有血债的“非攻击”行动牌置于你的牌库底。\n血债",
+      "text_en": "If you have played a 'non-attack' action card this turn, you may play Unhallowed Rites from your banished zone.\nYou may put a 'non-attack' action card with blood debt from your graveyard on the bottom of your deck.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/unhallowed_rites/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "unicycle": {
+      "id": "unicycle",
+      "name_zh": "独轮车",
+      "name_en": "Unicycle",
+      "type_zh": "机械师 装备·腿部",
+      "text_zh": "瞬间——摧毁此牌：重置你控制的一个齿轮。\n战痕",
+      "text_en": "Instant - Destroy this: {u} a cog you control.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/unicycle/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "unified_decree": {
+      "id": "unified_decree",
+      "name_zh": "统一法令",
+      "name_en": "Unified Decree",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量。\n重演——若防御英雄在此链环中用手牌中的牌防御过，查看你牌库顶的一张牌。若其为攻击反应牌，你可以放逐它。若如此做，本战斗链中你可以使用它。",
+      "text_en": "Target weapon attack gains +3{p}.\nReprise - If the defending hero has defended with a card from their hand this chain link, look at the top card of your deck. If it's an attack reaction card, you may banish it. If you do, you may play it this combat chain.",
+      "source": "https://cards.fabtcg.com/card/unified_decree/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "united_we_stand": {
+      "id": "united_we_stand",
+      "name_zh": "团结则立",
+      "name_en": "United We Stand",
+      "type_zh": "光 行动·攻击",
+      "text_zh": "团结——当此牌与一张来自手牌的牌一起防御时，若博尔廷在你的队伍中，在其控制下创造一个勇气衍生物。然后对布拉沃和地震涌动、布里亚和大地化身、多琳希雅和勇气、莱克西和闪电化身、奥德希姆和法殁神盾、棱镜和幻质护盾、希亚娜和雄辩各重复一次。",
+      "text_en": "Unity - When this defends together with a card from hand, if Boltyn is in your party, create a Courage token under his control. Then repeat for Bravo and Seismic Surge, Briar and Embodiment of Earth, Dorinthea and Courage, Lexi and Embodiment of Lightning, Oldhim and Spellbane Aegis, Prism and Spectral Shield, and Shiyana and Eloquence.",
+      "source": "https://cards.fabtcg.com/card/united_we_stand/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "unmake_the_underlings": {
+      "id": "unmake_the_underlings",
+      "name_zh": "瓦解下属",
+      "name_en": "Unmake the Underlings",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n当此牌攻击英雄时，将其坟场中的一个盟友翻为牌面朝下。\n当此牌命中盟友时，摧毁该盟友。",
+      "text_en": "Stealth\nWhen this attacks a hero, turn an ally in their graveyard face-down.\nWhen this hits an ally, destroy that ally.",
+      "source": "https://cards.fabtcg.com/card/unmake_the_underlings/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "unmovable": {
+      "id": "unmovable",
+      "name_zh": "不可动摇",
+      "name_en": "Unmovable",
+      "type_zh": "通用 防御反应",
+      "text_zh": "若此牌是从军械库使用的，它获得+1防御。",
+      "text_en": "If this was played from arsenal, it gets +1{d}.",
+      "source": "https://cards.fabtcg.com/card/unmovable/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "7"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "6"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
+    "unravel_aggression": {
+      "id": "unravel_aggression",
+      "name_zh": "解开侵略",
+      "name_en": "Unravel Aggression",
+      "type_zh": "秘法 防御反应",
+      "text_zh": "若你为使用此牌资源过一张气，抽一张牌。",
+      "text_en": "If a Chi was pitched to play this, draw a card.",
+      "source": "https://cards.fabtcg.com/card/unravel_aggression/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
+    "unsheathed": {
+      "id": "unsheathed",
+      "name_zh": "出鞘",
+      "name_en": "Unsheathed",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+3力量，以及“当此牌攻击时，若其力量大于其基础的两倍，它获得再动。”\n再动",
+      "text_en": "Your next sword attack this turn gets +3{p} and \"When this attacks, if its {p} is greater than twice its base, it gets go again.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/unsheathed/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "untamed": {
+      "id": "untamed",
+      "name_zh": "不羁",
+      "name_en": "Untamed",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，本战斗链中你使用的下一张卧虎获得+1力量。\n再动",
+      "text_en": "When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/untamed/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "unwavering_resolve": {
+      "id": "unwavering_resolve",
+      "name_zh": "坚定决心",
+      "name_en": "Unwavering Resolve",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "若你的牌库中没有牌，此牌获得+4力量。\n若此牌被3张或更多牌防御，它获得再动。",
+      "text_en": "If you have no cards in your deck, this gets +4{p}.\nIf this is defended by 3 or more cards, it gets go again.",
+      "source": "https://cards.fabtcg.com/card/unwavering_resolve/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "unwinding_finality": {
+      "id": "unwinding_finality",
+      "name_zh": "松解的终局",
+      "name_en": "Unwinding Finality",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "当此牌命中时，抽一张牌。\n每当此牌碎片化时，你可以将你坟场中的一张闪电瞬间牌置于你的牌库顶。\n碎片",
+      "text_en": "When this hits, draw a card.\nWhenever this fragments, you may put a Lightning instant card from your graveyard on top of your deck.\nFragment",
+      "source": "https://cards.fabtcg.com/card/unwinding_finality/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "unworldly_bellow": {
+      "id": "unworldly_bellow",
+      "name_zh": "超凡怒吼",
+      "name_en": "Unworldly Bellow",
+      "type_zh": "暗影 蛮将 行动",
+      "text_zh": "作为使用超凡怒吼的额外费用，随机放逐你坟场中的3张牌。\n本回合你使用的下一张蛮将或暗影攻击行动牌获得+4力量。\n再动",
+      "text_en": "As an additional cost to play Unworldly Bellow, banish 3 random cards from your graveyard.\nThe next Brute or Shadow attack action card you play this turn gains +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/unworldly_bellow/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "unyielding_grip": {
+      "id": "unyielding_grip",
+      "name_zh": "死不松手",
+      "name_en": "Unyielding Grip",
+      "type_zh": "通用 装备·手臂",
+      "text_zh": "若你手牌中没有牌，此牌获得+3防御。\n刃碎",
+      "text_en": "If you have no cards in your hand, this gets +3{d}.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/unyielding_grip/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "up_on_a_pedestal": {
+      "id": "up_on_a_pedestal",
+      "name_zh": "高高在上",
+      "name_en": "Up on a Pedestal",
+      "type_zh": "崇敬 守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌进入或离开竞技场时，你可以将你坟场中的一张崇敬或守护者攻击行动牌置于你的牌库顶。",
+      "text_en": "Suspense\nWhen this enters or leaves the arena, you may put a Revered or Guardian attack action card from your graveyard on top of your deck.",
+      "source": "https://cards.fabtcg.com/card/up_on_a_pedestal/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "up_sticks_and_run": {
+      "id": "up_sticks_and_run",
+      "name_zh": "卷铺盖走人",
+      "name_en": "Up Sticks and Run",
+      "type_zh": "刺客·忍者 行动",
+      "text_zh": "你可以从你的坟场中回收一把匕首。\n你本回合的下一次匕首攻击获得+4力量。\n再动",
+      "text_en": "You may retrieve a dagger from your graveyard.\nYour next dagger attack this turn gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/up_sticks_and_run/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "up_the_ante": {
+      "id": "up_the_ante",
+      "name_zh": "提高赌注",
+      "name_en": "Up the Ante",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "奥林匹亚专精\n选择X+1个；\n- 目标攻击与防御英雄以一个敏捷衍生物下注。\n- 目标攻击与防御英雄以一个金币衍生物下注。\n- 目标攻击与防御英雄以一个活力衍生物下注。\n- 目标攻击获得+Y力量，Y为其已下注的次数。",
+      "text_en": "Olympia Specialization\nChoose X+1;\n- Target attack wagers an Agility token with the defending hero.\n- Target attack wagers a Gold token with the defending hero.\n- Target attack wagers a Vigor token with the defending hero.\n- Target attack gets +Y{p}, where Y is the number of times it has wagered.",
+      "source": "https://cards.fabtcg.com/card/up_the_ante/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "X",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "uphold_tradition": {
+      "id": "uphold_tradition",
+      "name_zh": "恪守传统",
+      "name_en": "Uphold Tradition",
+      "type_zh": "秘法 幻术师 装备·手臂",
+      "text_zh": "翳装\n瞬间——支付1点资源，将此牌翻为正面朝上：在你控制的具有结界的一个光环上放置一个+1力量指示物。\n结界1",
+      "text_en": "Cloaked\nInstant - {r}, turn this face-up: Put a +1{p} counter on an aura you control with ward.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/uphold_tradition/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "uplifting_performance": {
+      "id": "uplifting_performance",
+      "name_zh": "振奋演出",
+      "name_en": "Uplifting Performance",
+      "type_zh": "崇敬 守护者 行动·攻击",
+      "text_zh": "若你控制一个自信或坚韧衍生物，此牌获得+1力量。\n当此牌命中英雄时，创造一个自信和一个坚韧衍生物。",
+      "text_en": "If you control a Confidence or Toughness token, this gets +1{p}.\nWhen this hits a hero, create a Confidence and a Toughness token.",
+      "source": "https://cards.fabtcg.com/card/uplifting_performance/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "uprising": {
+      "id": "uprising",
+      "name_zh": "起义",
+      "name_en": "Uprising",
+      "type_zh": "龙裔 行动",
+      "text_zh": "本回合你的接下来4次龙裔攻击获得+1力量。\n再动",
+      "text_en": "Your next 4 Draconic attacks this turn gain +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/uprising/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "urgent_delivery": {
+      "id": "urgent_delivery",
+      "name_zh": "紧急投递",
+      "name_en": "Urgent Delivery",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "当此牌命中时，你可以将你手牌中一张费用小于或等于本战斗链中你推进次数的机械师物品放入竞技场。",
+      "text_en": "When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you've boosted this combat chain.",
+      "source": "https://cards.fabtcg.com/card/urgent_delivery/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "ursur_the_soul_reaper": {
+      "id": "ursur_the_soul_reaper",
+      "name_zh": "灵魂收割者·乌苏尔",
+      "name_en": "Ursur, the Soul Reaper",
+      "type_zh": "暗影 衍生物·Demon Ally",
+      "text_zh": "每回合一次行动——费用0：攻击\n当乌苏尔攻击灵魂中有1张或更多牌的英雄时，该攻击具有再动。",
+      "text_en": "Once per Turn Action - 0: Attack\nWhile Ursur is attacking a hero with 1 or more cards in their soul, the attack has go again.",
+      "source": "https://cards.fabtcg.com/card/ursur_the_soul_reaper/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "uzuri": {
+      "id": "uzuri",
+      "name_zh": "乌祖里",
+      "name_en": "Uzuri",
+      "type_zh": "",
+      "text_zh": "每回合一次攻击反应——牌面朝下放逐你手牌中的一张牌：将以此方式放逐的牌翻为正面朝上。若其为费用为2或更低的攻击行动牌，将当前链环上目标具有隐匿的攻击牌置于其拥有者的牌库底，然后将被放逐的牌作为攻击牌放入当前链环。",
+      "text_en": "Once per Turn Attack Reaction - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with stealth from the active chain link on the bottom of its owner's deck, then put the banished card onto the active chain link as the attacking card.",
+      "source": "https://cards.fabtcg.com/card/uzuri/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "uzuri_switchblade": {
+      "id": "uzuri_switchblade",
+      "name_zh": "乌祖里·弹簧刀",
+      "name_en": "Uzuri, Switchblade",
+      "type_zh": "刺客 英雄",
+      "text_zh": "每回合一次攻击反应——牌面朝下放逐你手牌中的一张牌：将以此方式放逐的牌翻为正面朝上。若其为费用为2或更低的攻击行动牌，将当前链环上目标具有隐匿的攻击牌置于其拥有者的牌库底，然后将被放逐的牌作为攻击牌放入当前链环。",
+      "text_en": "Once per Turn Attack Reaction - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with stealth from the active chain link on the bottom of its owner's deck, then put the banished card onto the active chain link as the attacking card.",
+      "source": "https://cards.fabtcg.com/card/uzuri_switchblade/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    }
+  }
+}

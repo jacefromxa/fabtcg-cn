@@ -1,0 +1,3174 @@
+{
+  "schema_version": 1,
+  "version": "cba139ba12cc",
+  "cards": {
+    "earth_form": {
+      "id": "earth_form",
+      "name_zh": "大地形态",
+      "name_en": "Earth Form",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "当此牌命中时，创造一个大地化身衍生物。",
+      "text_en": "When this hits, create an Embodiment of Earth token.",
+      "source": "https://cards.fabtcg.com/card/earth_form/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "earthlore_bounty": {
+      "id": "earthlore_bounty",
+      "name_zh": "大地学识奖赏",
+      "name_en": "Earthlore Bounty",
+      "type_zh": "守护者 装备·胸部",
+      "text_zh": "每当你因行动牌效果抽1张或更多牌时，创造等量的地震涌动衍生物。\n淬炼",
+      "text_en": "Whenever you draw 1 or more cards from an action card effect, create that many Seismic Surge tokens.\nTemper",
+      "source": "https://cards.fabtcg.com/card/earthlore_bounty/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "earthlore_empowerment": {
+      "id": "earthlore_empowerment",
+      "name_zh": "大地学识赋能",
+      "name_en": "Earthlore Empowerment",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌费用减少1点资源并获得+5力量。",
+      "text_en": "At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +5{p}.",
+      "source": "https://cards.fabtcg.com/card/earthlore_empowerment/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "earthlore_surge": {
+      "id": "earthlore_surge",
+      "name_zh": "大地学识奔涌",
+      "name_en": "Earthlore Surge",
+      "type_zh": "大地 行动",
+      "text_zh": "本回合你使用的下一张攻击行动牌获得+5力量。\n再动",
+      "text_en": "The next attack action card you play this turn gains +5{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/earthlore_surge/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "earths_embrace": {
+      "id": "earths_embrace",
+      "name_zh": "大地怀抱",
+      "name_en": "Earth's Embrace",
+      "type_zh": "大地 行动·光环",
+      "text_zh": "再动\n在你的结束阶段开始时，创造一个大地化身衍生物。然后，若本回合你尚未放逐过一张大地牌，摧毁此牌。",
+      "text_en": "Go again\nAt the beginning of your end phase, create an Embodiment of Earth token. Then, if you haven't banished an Earth card this turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/earths_embrace/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "ebbing_arcstride": {
+      "id": "ebbing_arcstride",
+      "name_zh": "退潮弧形步",
+      "name_en": "Ebbing Arcstride",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "每当此牌碎片化时，它获得再动。\n碎片",
+      "text_en": "Whenever this fragments, it gets go again.\nFragment",
+      "source": "https://cards.fabtcg.com/card/ebbing_arcstride/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "ebon_fold": {
+      "id": "ebon_fold",
+      "name_zh": "乌檀折扇",
+      "name_en": "Ebon Fold",
+      "type_zh": "暗影 装备·头部",
+      "text_zh": "瞬间——支付1点资源，摧毁乌檀折扇：放逐你手牌中的一张牌。若其为暗影牌，抽一张牌。\n法力虚空2",
+      "text_en": "Instant - {r}, destroy Ebon Fold: Banish a card from your hand. If it's a Shadow card, draw a card.\nSpellvoid 2",
+      "source": "https://cards.fabtcg.com/card/ebon_fold/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "echo_casque": {
+      "id": "echo_casque",
+      "name_zh": "回响头盔",
+      "name_en": "Echo Casque",
+      "type_zh": "蛮将 装备·头部",
+      "text_zh": "每当你捶胸时，你可以支付1点资源并摧毁此牌。若如此做，抽一张牌。\n战痕",
+      "text_en": "Whenever you beat chest, you may {r} and destroy this. If you do, draw a card.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/echo_casque/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "echoflash": {
+      "id": "echoflash",
+      "name_zh": "回响闪光",
+      "name_en": "Echoflash",
+      "type_zh": "闪电 法师 瞬间",
+      "text_zh": "对目标英雄造成1点秘法伤害。\n当此牌从任何区域被置入你的坟场时，你的英雄对目标英雄造成1点秘法伤害。",
+      "text_en": "Deal 1 arcane damage to target hero.\nWhen this is put into your graveyard from anywhere, your hero deals 1 arcane damage to target hero.",
+      "source": "https://cards.fabtcg.com/card/echoflash/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "eclectic_magnetism": {
+      "id": "eclectic_magnetism",
+      "name_zh": "折中磁力",
+      "name_en": "Eclectic Magnetism",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，本链环中你可以将一张非攻击行动牌当作瞬间使用。",
+      "text_en": "When this attacks, you may play a non-attack action card this chain link as though it were an instant.",
+      "source": "https://cards.fabtcg.com/card/eclectic_magnetism/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "eclipse": {
+      "id": "eclipse",
+      "name_zh": "日蚀",
+      "name_en": "Eclipse",
+      "type_zh": "暗影 瞬间",
+      "text_zh": "传奇查恩专精\n仅当本回合你使用过6张或更多具有血债的牌时才能使用日蚀。若你使用过，你可以从你的放逐区使用日蚀。\n创造一个灵魂收割者·乌苏尔衍生物。",
+      "text_en": "Legendary Chane Specialization\nPlay Eclipse only if you have played 6 or more cards with blood debt this turn. If you have, you may play Eclipse from your banished zone.\nCreate an Ursur, the Soul Reaper token.",
+      "source": "https://cards.fabtcg.com/card/eclipse/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "eclipse_existence": {
+      "id": "eclipse_existence",
+      "name_zh": "蚀灭存在",
+      "name_en": "Eclipse Existence",
+      "type_zh": "暗影 瞬间",
+      "text_zh": "直到回合结束，每当攻击命中光英雄时，你可以放逐其灵魂中的一张牌。若该英雄如此做，其失去1点生命。\n若你的生命高于一位对手光英雄，你可以放逐你坟场中的一张行动牌。",
+      "text_en": "Until end of turn, whenever an attack hits a Light hero, you may banish a card from their soul. If they do, they lose 1{h}.\nIf you have more {h} than an opposing Light hero, you may banish an action card from your graveyard.",
+      "source": "https://cards.fabtcg.com/card/eclipse_existence/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "edge_ahead": {
+      "id": "edge_ahead",
+      "name_zh": "抢先一步",
+      "name_en": "Edge Ahead",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次战士攻击获得+3力量，以及“当此牌攻击英雄时，你可以与该英雄以一个敏捷衍生物下注。”\n再动",
+      "text_en": "Your next Warrior attack this turn gets +3{p} and \"When this attacks a hero, you may wager an Agility token with them.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/edge_ahead/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "edge_laden_plate": {
+      "id": "edge_laden_plate",
+      "name_zh": "锋刃满载胸甲",
+      "name_en": "Edge Laden Plate",
+      "type_zh": "战士 装备·胸部",
+      "text_zh": "瞬间——摧毁此牌：获得1点资源。仅当本回合你磨砺过一把剑时才能启动此异能。\n战痕",
+      "text_en": "Instant - Destroy this: Gain {r}. Activate this only if you've sharpened a sword this turn.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/edge_laden_plate/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "edge_of_autumn": {
+      "id": "edge_of_autumn",
+      "name_zh": "秋之刃",
+      "name_en": "Edge of Autumn",
+      "type_zh": "忍者 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击。再动",
+      "text_en": "Once per Turn Action - {r}: Attack. Go again",
+      "source": "https://cards.fabtcg.com/card/edge_of_autumn/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "edge_of_their_seats": {
+      "id": "edge_of_their_seats",
+      "name_zh": "屏息以待",
+      "name_en": "Edge of Their Seats",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌离开竞技场时，你本回合的下一次攻击获得+5力量。",
+      "text_en": "Suspense\nWhen this leaves the arena, your next attack this turn gets +5{p}.",
+      "source": "https://cards.fabtcg.com/card/edge_of_their_seats/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "edict_of_steel": {
+      "id": "edict_of_steel",
+      "name_zh": "钢铁敕令",
+      "name_en": "Edict of Steel",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有1个或更多+1力量指示物，创造一个连击衍生物。\n再动",
+      "text_en": "Sharpen target sword you control.\nIf it has 1 or more +1{p} counters, create a Flurry token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/edict_of_steel/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "eirinas_prayer": {
+      "id": "eirinas_prayer",
+      "name_zh": "艾丽娜的祈祷",
+      "name_en": "Eirina's Prayer",
+      "type_zh": "通用 瞬间",
+      "text_zh": "展示你牌库顶的一张牌。防止本回合接下来将对你的英雄造成的X点秘法伤害，X为6减去以此方式展示的牌的资源数值。",
+      "text_en": "Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 6 minus the pitch value of the card revealed this way.",
+      "source": "https://cards.fabtcg.com/card/eirinas_prayer/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "electrify": {
+      "id": "electrify",
+      "name_zh": "通电",
+      "name_en": "Electrify",
+      "type_zh": "闪电 行动",
+      "text_zh": "本回合攻击行动牌下一次命中英雄时，对其造成3点伤害。\n若通电是从军械库使用的，抽一张牌。\n再动",
+      "text_en": "The next time an attack action card hits a hero this turn, it deals 3 damage to them.\nIf Electrify is played from arsenal, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/electrify/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "electrolyze": {
+      "id": "electrolyze",
+      "name_zh": "电解",
+      "name_en": "Electrolyze",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "再动",
+      "text_en": "Go again",
+      "source": "https://cards.fabtcg.com/card/electrolyze/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "0"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "0"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "0"
+        }
+      }
+    },
+    "electromagnetic_somersault": {
+      "id": "electromagnetic_somersault",
+      "name_zh": "电磁空翻",
+      "name_en": "Electromagnetic Somersault",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "选择当前链环上至多2张费用为2或更高的攻击行动牌。当链环结算时，将它们移回其拥有者的手牌。",
+      "text_en": "Choose up to 2 attack action cards with cost 2 or more on the active chain link. Return them to their owner's hand when the chain link resolves.",
+      "source": "https://cards.fabtcg.com/card/electromagnetic_somersault/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "electrostatic_discharge": {
+      "id": "electrostatic_discharge",
+      "name_zh": "静电释放",
+      "name_en": "Electrostatic Discharge",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "本回合你使用的下一张费用为1或更低的攻击行动牌获得+3力量。",
+      "text_en": "The next attack action card you play this turn with cost 1 or less gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/electrostatic_discharge/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "electryn_joltstep": {
+      "id": "electryn_joltstep",
+      "name_zh": "艾雷克特里恩·电击步",
+      "name_en": "Electryn Joltstep",
+      "type_zh": "闪电 符文剑士 行动",
+      "text_zh": "你本回合的下一次符文剑士或闪电攻击获得+3力量。\n创造一个闪电流转衍生物。\n再动",
+      "text_en": "Your next Runeblade or Lightning attack this turn gets +3{p}.\nCreate a Lightning Flow token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/electryn_joltstep/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "electryn_mindmeld": {
+      "id": "electryn_mindmeld",
+      "name_zh": "艾雷克特里恩·心灵融合",
+      "name_en": "Electryn Mindmeld",
+      "type_zh": "闪电 符文剑士 行动·攻击",
+      "text_zh": "速击——若此牌具有再动，它获得+1力量，以及“当此牌攻击英雄时，对其造成1点秘法伤害。”\n此牌第一次对英雄造成伤害时，你可以将你坟场中的一张瞬间牌置于你的牌库底。",
+      "text_en": "Quickstrike - If this has go again, it gets +1{p} and \"When this attacks a hero, deal 1 arcane damage to them.\"\nThe first time this deals damage to a hero, you may put an instant card from your graveyard on the bottom of your deck.",
+      "source": "https://cards.fabtcg.com/card/electryn_mindmeld/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "elemental_strike": {
+      "id": "elemental_strike",
+      "name_zh": "元素打击",
+      "name_en": "Elemental Strike",
+      "type_zh": "元素 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，放逐你手牌中的一张牌。若其为大地牌，此牌获得+2力量。闪电牌，此牌获得再动。冰牌，此牌获得支配。",
+      "text_en": "As an additional cost to play this, banish a card from your hand. If it's Earth, this gets +2{p}. Lightning, this gets go again. Ice, this gets dominate.",
+      "source": "https://cards.fabtcg.com/card/elemental_strike/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "elliptical_conflux": {
+      "id": "elliptical_conflux",
+      "name_zh": "椭圆汇流",
+      "name_en": "Elliptical Conflux",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌离开竞技场时，创造一个闪电化身衍生物。\n结界2",
+      "text_en": "When this leaves the arena, create an Embodiment of Lightning token.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/elliptical_conflux/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "eloquence": {
+      "id": "eloquence",
+      "name_zh": "雄辩",
+      "name_en": "Eloquence",
+      "type_zh": "通用 衍生物·光环",
+      "text_zh": "当你使用非攻击行动牌时，摧毁此牌，该牌获得再动。",
+      "text_en": "When you play a non-attack action card, destroy this and the card gets go again.",
+      "source": "https://cards.fabtcg.com/card/eloquence/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "eloquent_eulogy": {
+      "id": "eloquent_eulogy",
+      "name_zh": "雄辩悼词",
+      "name_en": "Eloquent Eulogy",
+      "type_zh": "暗影 符文剑士 行动·攻击",
+      "text_zh": "符文之门\n当战斗链关闭时，若本回合有英雄失去过生命，创造一个雄辩衍生物。\n血债",
+      "text_en": "Rune Gate\nWhen the combat chain closes, if a hero has lost {h} this turn, create an Eloquence token.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/eloquent_eulogy/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "embalm": {
+      "id": "embalm",
+      "name_zh": "防腐处理",
+      "name_en": "Embalm",
+      "type_zh": "暗影 行动",
+      "text_zh": "你可以从你的放逐区使用此牌。若如此做，它获得再动。\n将你坟场中一张具有血债的攻击行动牌置于你的牌库底。\n血债",
+      "text_en": "You may play this from your banished zone. If you do, it gets go again.\nPut an attack action card with blood debt from your graveyard on the bottom of your deck.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/embalm/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "embermaw_cenipai": {
+      "id": "embermaw_cenipai",
+      "name_zh": "烬口之蜃",
+      "name_en": "Embermaw Cenipai",
+      "type_zh": "龙裔 幻术师 行动·攻击",
+      "text_zh": "虚击\n当烬口之蜃被摧毁时，创造一个灰烬衍生物。",
+      "text_en": "Phantasm\nWhen Embermaw Cenipai is destroyed, create an Ash token.",
+      "source": "https://cards.fabtcg.com/card/embermaw_cenipai/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "embodiment_of_earth": {
+      "id": "embodiment_of_earth",
+      "name_zh": "大地化身",
+      "name_en": "Embodiment of Earth",
+      "type_zh": "元素 衍生物·光环",
+      "text_zh": "防御时你控制的“非攻击”行动牌获得+1防御。\n在你的行动阶段开始时，摧毁大地化身。",
+      "text_en": "'Non-attack' action cards you control have +1{d} while defending.\nAt the beginning of your action phase, destroy Embodiment of Earth.",
+      "source": "https://cards.fabtcg.com/card/embodiment_of_earth/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "embodiment_of_lightning": {
+      "id": "embodiment_of_lightning",
+      "name_zh": "闪电化身",
+      "name_en": "Embodiment of Lightning",
+      "type_zh": "元素 衍生物·光环",
+      "text_zh": "当你使用攻击行动牌时，摧毁此牌，然后该攻击获得再动。",
+      "text_en": "When you play an attack action card, destroy this, then the attack gets go again.",
+      "source": "https://cards.fabtcg.com/card/embodiment_of_lightning/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "embody_greatness": {
+      "id": "embody_greatness",
+      "name_zh": "化身伟业",
+      "name_en": "Embody Greatness",
+      "type_zh": "",
+      "text_zh": "希亚娜专精\n说出一位在世传奇英雄的名字。直到你的下一个回合开始，你成为该英雄，但你的基础生命不变。",
+      "text_en": "Shiyana Specialization\nName a living legend hero. Become that hero until the start of your next turn, except your base {h} doesn't change.",
+      "source": "https://cards.fabtcg.com/card/embody_greatness/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "embolden": {
+      "id": "embolden",
+      "name_zh": "壮胆",
+      "name_en": "Embolden",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n当此牌进入竞技场时，若你控制另一个非衍生物光环，抽一张牌。\n在你的行动阶段开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌获得+5力量。",
+      "text_en": "Go again\nWhen this enters the arena, if you control another non-token aura, draw a card.\nAt the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn gets +5{p}.",
+      "source": "https://cards.fabtcg.com/card/embolden/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "emboldened_blade": {
+      "id": "emboldened_blade",
+      "name_zh": "鼓舞之刃",
+      "name_en": "Emboldened Blade",
+      "type_zh": "战士 行动",
+      "text_zh": "将任意军械库中的一张牌面朝下的牌翻为正面朝上。若其为防御反应，摧毁它，你本回合的下一次武器攻击获得+1力量。\n再动",
+      "text_en": "Turn a face-down card in any arsenal face-up. If it's a defense reaction, destroy it and your next weapon attack this turn gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/emboldened_blade/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "emboldened_by_the_crowd": {
+      "id": "emboldened_by_the_crowd",
+      "name_zh": "被观众鼓舞",
+      "name_en": "Emboldened by the Crowd",
+      "type_zh": "崇敬 防御反应",
+      "text_zh": "若本回合你被欢呼过，此牌的使用费用减少3点资源。",
+      "text_en": "If you've been cheered this turn, this costs {r}{r}{r} less to play.",
+      "source": "https://cards.fabtcg.com/card/emboldened_by_the_crowd/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "6"
+        }
+      }
+    },
+    "embrace_adversity": {
+      "id": "embrace_adversity",
+      "name_zh": "拥抱逆境",
+      "name_en": "Embrace Adversity",
+      "type_zh": "通用 装备·手臂",
+      "text_zh": "仅当攻击的操控者本回合摧毁过一个力量衍生物时，此牌才能防御该攻击。\n刃碎",
+      "text_en": "This may only defend an attack if the attack's controller has destroyed a Might token this turn.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/embrace_adversity/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "embraforged_gauntlet": {
+      "id": "embraforged_gauntlet",
+      "name_zh": "灰烬锻造护手",
+      "name_en": "Embraforged Gauntlet",
+      "type_zh": "暗影 装备·手臂",
+      "text_zh": "若此牌将从任何区域置入你的坟场，改为放逐它。\n淬炼\n血债",
+      "text_en": "If this would be put into your graveyard from anywhere, instead banish it.\nTemper\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/embraforged_gauntlet/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "emerging_avalanche": {
+      "id": "emerging_avalanche",
+      "name_zh": "骤起的雪崩",
+      "name_en": "Emerging Avalanche",
+      "type_zh": "元素 守护者 行动·光环",
+      "text_zh": "冰融合\n再动\n当骤起的雪崩进入竞技场时，若它已融合，在目标英雄的控制下创造一个霜咬衍生物。\n在你的行动阶段开始时，摧毁骤起的雪崩，然后你本回合使用的下一张攻击行动牌获得+3力量。",
+      "text_en": "Ice Fusion\nGo again\nWhen Emerging Avalanche enters the arena, if it was fused, create a Frostbite token under target hero control.\nAt the beginning of your action phase, destroy Emerging Avalanche then the next attack action card you play this turn gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/emerging_avalanche/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "emerging_dominance": {
+      "id": "emerging_dominance",
+      "name_zh": "骤起的支配",
+      "name_en": "Emerging Dominance",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "在你的行动阶段开始时，摧毁骤起的支配，然后你本回合使用的下一张守护者攻击行动牌获得+3力量和支配。",
+      "text_en": "At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +3{p} and dominate.",
+      "source": "https://cards.fabtcg.com/card/emerging_dominance/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "emerging_power": {
+      "id": "emerging_power",
+      "name_zh": "骤起的力量",
+      "name_en": "Emerging Power",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n在你的行动阶段开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌获得+3力量。",
+      "text_en": "Go again\nAt the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/emerging_power/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "emeritus_scolding": {
+      "id": "emeritus_scolding",
+      "name_zh": "荣誉教授训斥",
+      "name_en": "Emeritus Scolding",
+      "type_zh": "法师 行动",
+      "text_zh": "对目标英雄造成4点秘法伤害。若荣誉教授训斥是在对手的回合期间使用的，改为对其造成6点秘法伤害。",
+      "text_en": "Deal 4 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 6 arcane damage to them.",
+      "source": "https://cards.fabtcg.com/card/emeritus_scolding/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "emissary_of_moon": {
+      "id": "emissary_of_moon",
+      "name_zh": "月之使节",
+      "name_en": "Emissary of Moon",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将手牌中的一张牌置于牌库底。若如此做，抽一张牌。",
+      "text_en": "When this attacks, you may put a card from your hand on the bottom of your deck. If you do, draw a card.",
+      "source": "https://cards.fabtcg.com/card/emissary_of_moon/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "emissary_of_tides": {
+      "id": "emissary_of_tides",
+      "name_zh": "潮之使节",
+      "name_en": "Emissary of Tides",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将手牌中的一张牌置于牌库底。若如此做，此牌获得+2力量。",
+      "text_en": "When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/emissary_of_tides/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "emissary_of_wind": {
+      "id": "emissary_of_wind",
+      "name_zh": "风之使节",
+      "name_en": "Emissary of Wind",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将手牌中的一张牌置于牌库底。若如此做，此牌获得再动。",
+      "text_en": "When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/emissary_of_wind/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "emperor_dracai_of_aesir": {
+      "id": "emperor_dracai_of_aesir",
+      "name_zh": "亚瑟德拉凯皇帝",
+      "name_en": "Emperor, Dracai of Aesir",
+      "type_zh": "",
+      "text_zh": "你的牌库中只能有红色牌。\n行动——支付3点资源：从你的牌库中搜寻指挥与征服，用它攻击，然后洗牌。",
+      "text_en": "You may only have red cards in your deck.\nAction - {r}{r}{r}: Search your deck for Command and Conquer, attack with it, then shuffle.",
+      "source": "https://cards.fabtcg.com/card/emperor_dracai_of_aesir/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "empowering_ruckus": {
+      "id": "empowering_ruckus",
+      "name_zh": "赋能骚动",
+      "name_en": "Empowering Ruckus",
+      "type_zh": "崇敬 行动·攻击",
+      "text_zh": "若本回合你被欢呼过，此牌获得+1力量。",
+      "text_en": "If you've been cheered this turn, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/empowering_ruckus/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "empyrean_rapture": {
+      "id": "empyrean_rapture",
+      "name_zh": "至高狂喜",
+      "name_en": "Empyrean Rapture",
+      "type_zh": "光 幻术师 装备·胸部",
+      "text_zh": "若本回合有名称中含有先驱者的牌被置入你的英雄的灵魂，本回合你启动的第一个英雄异能费用减少2点资源。\n每回合一次瞬间——支付1点资源：此牌直到回合结束获得结界1。",
+      "text_en": "If a card with Herald in its name has been put into your hero's soul during your turn, the first hero ability you activate that turn costs {r}{r} less to activate.\nOnce per Turn Instant - {r}: This gets ward 1 until end of turn.",
+      "source": "https://cards.fabtcg.com/card/empyrean_rapture/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "en_garde": {
+      "id": "en_garde",
+      "name_zh": "摆出架势",
+      "name_en": "En Garde",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量。\n再动",
+      "text_en": "Your next weapon attack this turn gains +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/en_garde/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "enact_vengeance": {
+      "id": "enact_vengeance",
+      "name_zh": "执行复仇",
+      "name_en": "Enact Vengeance",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若秋之刃或一张名称中含有复仇的牌是本战斗链的最后一次攻击，此牌获得“当此牌命中英雄时，摧毁其军械库中的所有牌。”",
+      "text_en": "Combo - If Edge of Autumn or a card with Vengeance in its name was the last attack this combat chain, this gets \"When this hits a hero, destroy all cards in their arsenal.\"",
+      "source": "https://cards.fabtcg.com/card/enact_vengeance/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "encase": {
+      "id": "encase",
+      "name_zh": "冰封",
+      "name_en": "Encase",
+      "type_zh": "元素 法师 行动",
+      "text_zh": "冰融合\n对任意目标造成3点秘法伤害。若冰封已融合并对英雄造成伤害，冻结该英雄及其控制的所有装备，直到你的下一个回合开始。",
+      "text_en": "Ice Fusion\nDeal 3 arcane damage to any target. If Encase was fused and deals damage to a hero, freeze that hero and all equipment they control until the start of your next turn.",
+      "source": "https://cards.fabtcg.com/card/encase/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "enchanted_quiver": {
+      "id": "enchanted_quiver",
+      "name_zh": "附魔箭袋",
+      "name_en": "Enchanted Quiver",
+      "type_zh": "游侠 装备·Quiver",
+      "text_zh": "瞬间——摧毁此牌：防止本回合接下来将对你造成的1点秘法伤害。若你军械库中有一张正面朝上的箭矢，改为防止接下来的2点。",
+      "text_en": "Instant - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If there is a face-up arrow in your arsenal, instead prevent the next 2.",
+      "source": "https://cards.fabtcg.com/card/enchanted_quiver/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "enchanting_melody": {
+      "id": "enchanting_melody",
+      "name_zh": "迷人旋律",
+      "name_en": "Enchanting Melody",
+      "type_zh": "通用 行动·光环",
+      "text_zh": "再动\n若你的英雄将受到伤害，改为摧毁迷人旋律并防止该来源将造成的4点伤害。\n在你的结束阶段开始时，摧毁迷人旋律，除非本回合你使用过一张“非攻击”行动牌。",
+      "text_en": "Go again\nIf your hero would be dealt damage, instead destroy Enchanting Melody and prevent 4 damage that source would deal.\nAt the beginning of your end phase, destroy Enchanting Melody unless you have played a 'non-attack' action card this turn.",
+      "source": "https://cards.fabtcg.com/card/enchanting_melody/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "enclosed_firemind": {
+      "id": "enclosed_firemind",
+      "name_zh": "封闭火灵",
+      "name_en": "Enclosed Firemind",
+      "type_zh": "守护者 装备·头部",
+      "text_zh": "秘法屏障1",
+      "text_en": "Arcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/enclosed_firemind/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "encore": {
+      "id": "encore",
+      "name_zh": "安可",
+      "name_en": "Encore",
+      "type_zh": "Bard 行动",
+      "text_zh": "将你坟场中的一张吟游诗人攻击行动牌移回你的手牌。\n再动",
+      "text_en": "Return a Bard attack action card from your graveyard to your hand.\nGo again",
+      "source": "https://cards.fabtcg.com/card/encore/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "endear_devotion": {
+      "id": "endear_devotion",
+      "name_zh": "彰显虔诚",
+      "name_en": "Endear Devotion",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+3力量。若你控制两个或更多龙裔链环，创造一个效忠衍生物。",
+      "text_en": "Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, create a Fealty token.",
+      "source": "https://cards.fabtcg.com/card/endear_devotion/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "endless_arrow": {
+      "id": "endless_arrow",
+      "name_zh": "无尽箭矢",
+      "name_en": "Endless Arrow",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "当此牌命中时，将其置入其拥有者的手牌。",
+      "text_en": "When this hits, put it into its owner's hand.",
+      "source": "https://cards.fabtcg.com/card/endless_arrow/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "endless_maw": {
+      "id": "endless_maw",
+      "name_zh": "无尽巨口",
+      "name_en": "Endless Maw",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用无尽巨口的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，无尽巨口获得+3力量。\n血债",
+      "text_en": "As an additional cost to play Endless Maw, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/endless_maw/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "endless_winter": {
+      "id": "endless_winter",
+      "name_zh": "无尽寒冬",
+      "name_en": "Endless Winter",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "奥德希姆专精\n冰融合\n若无尽寒冬已融合，每当防御英雄向此链环加入防御牌时，在其控制下创造一个霜咬衍生物。\n若无尽寒冬命中英雄，直到其下一个回合结束，每当其启动异能时，在其控制下创造一个霜咬衍生物。",
+      "text_en": "Oldhim Specialization\nIce Fusion\nIf Endless Winter was fused, whenever the defending hero adds a defending card to this chain link, create a Frostbite token under their control.\nIf Endless Winter hits a hero, until the end of their next turn, whenever they activate an ability, create a Frostbite token under their control.",
+      "source": "https://cards.fabtcg.com/card/endless_winter/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "energetic_impact": {
+      "id": "energetic_impact",
+      "name_zh": "强力冲击",
+      "name_en": "Energetic Impact",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌与一张力量为6或更高的牌一起防御时，创造一个活力衍生物。",
+      "text_en": "When this defends together with a card with 6 or more {p}, create a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/energetic_impact/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "energy_of_the_audience": {
+      "id": "energy_of_the_audience",
+      "name_zh": "观众的能量",
+      "name_en": "Energy of the Audience",
+      "type_zh": "崇敬 守护者 行动·攻击",
+      "text_zh": "若你的生命低于其他每位英雄，每当你控制一个悬念光环，此牌获得+1力量。",
+      "text_en": "If you have less {h} than each other hero, this gets +1{p} for each aura of suspense you control.",
+      "source": "https://cards.fabtcg.com/card/energy_of_the_audience/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "energy_potion": {
+      "id": "energy_potion",
+      "name_zh": "能量药水",
+      "name_en": "Energy Potion",
+      "type_zh": "通用 行动·物品",
+      "text_zh": "瞬间——摧毁此牌：获得2点资源。",
+      "text_en": "Instant - Destroy this: Gain {r}{r}",
+      "source": "https://cards.fabtcg.com/card/energy_potion/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "enflame_the_firebrand": {
+      "id": "enflame_the_firebrand",
+      "name_zh": "点燃火种",
+      "name_en": "Enflame the Firebrand",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，若你控制2个或更多龙裔链环，此牌获得再动；控制3个或更多，本战斗链中你的攻击视为龙裔；控制4个或更多，此牌获得+2力量。",
+      "text_en": "When this attacks, if you control 2 or more Draconic chain links, this gets go again, 3 or more, your attacks are Draconic this combat chain, 4 or more, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/enflame_the_firebrand/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "engage_steel": {
+      "id": "engage_steel",
+      "name_zh": "接刃",
+      "name_en": "Engage Steel",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+3力量，以及“若此牌被战士牌防御，此牌获得+1力量。”\n再动",
+      "text_en": "Your next sword attack this turn gets +3{p} and \"If this is defended by a Warrior card, this gets +1{p}.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/engage_steel/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "engaged_swiftblade": {
+      "id": "engaged_swiftblade",
+      "name_zh": "缠斗快剑",
+      "name_en": "Engaged Swiftblade",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次战士攻击获得+3力量，以及“若此牌被攻击行动牌防御，此牌获得再动。”\n再动",
+      "text_en": "Your next Warrior attack this turn gets +3{p} and \"If this is defended by an attack action card, this gets Go again.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/engaged_swiftblade/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "engulfing_flamewave": {
+      "id": "engulfing_flamewave",
+      "name_zh": "吞噬火焰浪",
+      "name_en": "Engulfing Flamewave",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当吞噬火焰浪命中时，展示你牌库顶的一张牌。若其为费用小于你控制的龙裔链环数量的攻击行动牌，放逐它。本回合你可以使用它。\n再动",
+      "text_en": "When Engulfing Flamewave hits, reveal the top card of your deck. If it's an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/engulfing_flamewave/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "engulfing_light": {
+      "id": "engulfing_light",
+      "name_zh": "吞没之光",
+      "name_en": "Engulfing Light",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用吞没之光的额外费用，你可以为你的英雄的灵魂充能。\n若本回合你充能过，吞没之光获得“若此牌命中，将其置入你的英雄的灵魂。”",
+      "text_en": "As an additional cost to play Engulfing Light, you may charge your hero's soul.\nIf you've charged this turn, Engulfing Light gains \"If this hits, put it into your hero's soul.\"",
+      "source": "https://cards.fabtcg.com/card/engulfing_light/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "engulfing_shadows": {
+      "id": "engulfing_shadows",
+      "name_zh": "吞噬暗影",
+      "name_en": "Engulfing Shadows",
+      "type_zh": "暗影 防御反应",
+      "text_zh": "若此牌将从任何区域置入你的坟场，改为放逐它。\n血债",
+      "text_en": "If this would be put into your graveyard from anywhere, instead banish it.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/engulfing_shadows/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "enigma": {
+      "id": "enigma",
+      "name_zh": "谜团",
+      "name_en": "Enigma",
+      "type_zh": "",
+      "text_zh": "你每回合的第一次幻质护盾攻击启动费用减少1点资源。\n每回合一次瞬间——支付3点资源：创造一个带有一个+1力量指示物的幻质护盾衍生物。",
+      "text_en": "Your first Spectral Shield attack each turn costs {r} less to activate.\nOnce per Turn Instant - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",
+      "source": "https://cards.fabtcg.com/card/enigma/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "enigma_chimera": {
+      "id": "enigma_chimera",
+      "name_zh": "谜团奇美拉",
+      "name_en": "Enigma Chimera",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "虚击",
+      "text_en": "Phantasm",
+      "source": "https://cards.fabtcg.com/card/enigma_chimera/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "enigma_ledger_of_ancestry": {
+      "id": "enigma_ledger_of_ancestry",
+      "name_zh": "祖先谜团账簿",
+      "name_en": "Enigma, Ledger of Ancestry",
+      "type_zh": "秘法 幻术师 英雄",
+      "text_zh": "你每回合的第一次幻质护盾攻击启动费用减少1点资源。\n每回合一次瞬间——支付3点资源：创造一个带有一个+1力量指示物的幻质护盾衍生物。",
+      "text_en": "Your first Spectral Shield attack each turn costs {r} less to activate.\nOnce per Turn Instant - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",
+      "source": "https://cards.fabtcg.com/card/enigma_ledger_of_ancestry/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "enigma_new_moon": {
+      "id": "enigma_new_moon",
+      "name_zh": "谜团·新月",
+      "name_en": "Enigma, New Moon",
+      "type_zh": "",
+      "text_zh": "你拥有的装备获得翳装。\n瞬间——支付3点资源：将目标你已装备的牌面朝下的装备翻为正面朝上。若其具有结界，创造3个幻质护盾衍生物。",
+      "text_en": "Equipment you own gets cloaked\nInstant - {c}{c}{c}: Turn target face-down equipment you have equipped face-up. If it has ward, create 3 Spectral Shield tokens.",
+      "source": "https://cards.fabtcg.com/card/enigma_new_moon/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "enion_surge": {
+      "id": "enion_surge",
+      "name_zh": "伊尼翁激涌",
+      "name_en": "Enion Surge",
+      "type_zh": "闪电 法师 行动",
+      "text_zh": "对任意目标造成3点秘法伤害。\n若此牌造成伤害，你可以横置你的英雄。若如此做，创造一个闪电流转衍生物。",
+      "text_en": "Deal 3 arcane damage to any target.\nIf this deals damage, you may {t} your hero. If you do, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/enion_surge/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "enlightened_strike": {
+      "id": "enlightened_strike",
+      "name_zh": "开悟打击",
+      "name_en": "Enlightened Strike",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "作为使用开悟打击的额外费用，将你手牌中的一张牌置于牌库底。\n选择其一；\n- 当你用开悟打击攻击时，抽一张牌。\n- 开悟打击获得+2力量。\n- 开悟打击获得再动。",
+      "text_en": "As an additional cost to play Enlightened Strike, put a card from your hand on the bottom of your deck.\nChoose 1;\n- When you attack with Enlightened Strike, draw a card.\n- Enlightened Strike gains +2{p}.\n- Enlightened Strike gains go again.",
+      "source": "https://cards.fabtcg.com/card/enlightened_strike/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "entangle": {
+      "id": "entangle",
+      "name_zh": "缠绕",
+      "name_en": "Entangle",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "大地融合\n若缠绕已融合，它获得“若此牌命中英雄，该英雄在其下一个回合期间的第一次攻击获得-2力量。”",
+      "text_en": "Earth Fusion\nIf Entangle was fused, it gains \"If this hits a hero, their first attack during their next turn has -2{p}.\"",
+      "source": "https://cards.fabtcg.com/card/entangle/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "entangling_shot": {
+      "id": "entangling_shot",
+      "name_zh": "缠绕箭",
+      "name_en": "Entangling Shot",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "text_zh": "当此牌被正面朝上放入你的军械库时，你可以横置目标英雄。",
+      "text_en": "When this is put face-up into your arsenal, you may {t} target hero.",
+      "source": "https://cards.fabtcg.com/card/entangling_shot/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "entwine_earth": {
+      "id": "entwine_earth",
+      "name_zh": "交织大地",
+      "name_en": "Entwine Earth",
+      "type_zh": "元素 行动·攻击",
+      "text_zh": "大地融合\n若交织大地已融合，它获得+2力量。",
+      "text_en": "Earth Fusion\nIf Entwine Earth was fused, it gains +2{p}.",
+      "source": "https://cards.fabtcg.com/card/entwine_earth/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "entwine_ice": {
+      "id": "entwine_ice",
+      "name_zh": "交织冰",
+      "name_en": "Entwine Ice",
+      "type_zh": "元素 行动·攻击",
+      "text_zh": "冰融合\n若交织冰已融合，它获得支配。",
+      "text_en": "Ice Fusion\nIf Entwine Ice was fused, it gains dominate.",
+      "source": "https://cards.fabtcg.com/card/entwine_ice/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "entwine_lightning": {
+      "id": "entwine_lightning",
+      "name_zh": "交织闪电",
+      "name_en": "Entwine Lightning",
+      "type_zh": "元素 行动·攻击",
+      "text_zh": "闪电融合\n若交织闪电已融合，它获得再动。",
+      "text_en": "Lightning Fusion\nIf Entwine Lightning was fused, it gains go again.",
+      "source": "https://cards.fabtcg.com/card/entwine_lightning/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "envelop_in_darkness": {
+      "id": "envelop_in_darkness",
+      "name_zh": "笼罩于黑暗",
+      "name_en": "Envelop in Darkness",
+      "type_zh": "暗影 符文剑士 行动",
+      "text_zh": "创造一个符文吟唱衍生物。\n本回合你符文之门的下一次攻击行动牌获得+3力量。\n再动",
+      "text_en": "Create a Runechant token.\nThe next attack action card you rune gate this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/envelop_in_darkness/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "eradicate": {
+      "id": "eradicate",
+      "name_zh": "根除",
+      "name_en": "Eradicate",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "契约——你受契约束缚以放逐对手的黄色牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的X张牌，X为根除造成的伤害。",
+      "text_en": "Contract - You are contracted to banish opponents' yellow cards. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top X cards of their deck, where X is the damage dealt by Eradicate.",
+      "source": "https://cards.fabtcg.com/card/eradicate/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "erase_face": {
+      "id": "erase_face",
+      "name_zh": "抹除面容",
+      "name_en": "Erase Face",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当此牌命中英雄时，该英雄拥有的牌失去所有职业和才能类别，直到其下一个回合结束。",
+      "text_en": "When this hits a hero, cards they own lose all class and talent types until the end of their next turn.",
+      "source": "https://cards.fabtcg.com/card/erase_face/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "erode_authority": {
+      "id": "erode_authority",
+      "name_zh": "侵蚀权威",
+      "name_en": "Erode Authority",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "支配\n碎片",
+      "text_en": "Dominate\nFragment",
+      "source": "https://cards.fabtcg.com/card/erode_authority/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "escalate_bloodshed": {
+      "id": "escalate_bloodshed",
+      "name_zh": "升级流血",
+      "name_en": "Escalate Bloodshed",
+      "type_zh": "战士 瞬间·光环",
+      "text_zh": "每当行动阶段期间一位英雄抽牌时，该英雄失去1点生命。\n在每位英雄的行动阶段开始时，该英雄抽一张牌。\n在每位英雄的结束阶段开始时，若本回合没有武器攻击过，摧毁此牌。",
+      "text_en": "Whenever a hero draws a card during an action phase, they lose 1{h}.\nAt the beginning of each hero's action phase, they draw a card.\nAt the beginning of each hero's end phase, if a weapon did not attack this turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/escalate_bloodshed/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "escalate_order": {
+      "id": "escalate_order",
+      "name_zh": "升级秩序",
+      "name_en": "Escalate Order",
+      "type_zh": "崇敬 行动·攻击",
+      "text_zh": "当此牌攻击时，若你控制一个坚韧衍生物，再创造3个。",
+      "text_en": "When this attacks, if you control a Toughness token, create 3 more.",
+      "source": "https://cards.fabtcg.com/card/escalate_order/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "escalate_violence": {
+      "id": "escalate_violence",
+      "name_zh": "升级暴力",
+      "name_en": "Escalate Violence",
+      "type_zh": "憎恶 行动·攻击",
+      "text_zh": "当此牌攻击时，若你控制一个力量衍生物，再创造3个。",
+      "text_en": "When this attacks, if you control a Might token, create 3 more.",
+      "source": "https://cards.fabtcg.com/card/escalate_violence/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "essence_of_ancestry_body": {
+      "id": "essence_of_ancestry_body",
+      "name_zh": "先祖之躯精华",
+      "name_en": "Essence of Ancestry: Body",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌离开竞技场时，若你没有控制幻术师光环，本回合你下一次将受到红色来源造成的伤害时，防止它。\n结界2",
+      "text_en": "When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a red source this turn, prevent it.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/essence_of_ancestry_body/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "essence_of_ancestry_mind": {
+      "id": "essence_of_ancestry_mind",
+      "name_zh": "先祖之心精华",
+      "name_en": "Essence of Ancestry: Mind",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌离开竞技场时，若你没有控制幻术师光环，本回合你下一次将受到蓝色来源造成的伤害时，防止它。\n结界2",
+      "text_en": "When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a blue source this turn, prevent it.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/essence_of_ancestry_mind/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "essence_of_ancestry_soul": {
+      "id": "essence_of_ancestry_soul",
+      "name_zh": "先祖之魂精华",
+      "name_en": "Essence of Ancestry: Soul",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌离开竞技场时，若你没有控制幻术师光环，本回合你下一次将受到黄色来源造成的伤害时，防止它。\n结界2",
+      "text_en": "When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a yellow source this turn, prevent it.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/essence_of_ancestry_soul/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "etchings_of_arcana": {
+      "id": "etchings_of_arcana",
+      "name_zh": "秘法蚀刻",
+      "name_en": "Etchings of Arcana",
+      "type_zh": "法师 行动",
+      "text_zh": "对目标英雄造成3点秘法伤害。\n激涌——若此牌造成超过3点伤害，你可以将你坟场中一张名称中含有印记的光环牌移回你的手牌。",
+      "text_en": "Deal 3 arcane damage to target hero.\nSurge - If this deals more than 3 damage, you may return an aura with Sigil in its name from your graveyard to your hand.",
+      "source": "https://cards.fabtcg.com/card/etchings_of_arcana/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "eternal_inferno": {
+      "id": "eternal_inferno",
+      "name_zh": "永恒地狱火",
+      "name_en": "Eternal Inferno",
+      "type_zh": "法师 行动",
+      "text_zh": "对任意目标造成4点秘法伤害。\n激涌——若此牌造成超过4点伤害，放逐它。本回合你可以使用它。",
+      "text_en": "Deal 4 arcane damage to any target.\nSurge - If this deals more than 4 damage, banish it. You may play it this turn.",
+      "source": "https://cards.fabtcg.com/card/eternal_inferno/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "evasive_leap": {
+      "id": "evasive_leap",
+      "name_zh": "闪跃",
+      "name_en": "Evasive Leap",
+      "type_zh": "通用 防御反应",
+      "text_zh": "",
+      "text_en": "",
+      "source": "https://cards.fabtcg.com/card/evasive_leap/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "evasive_nageboshi": {
+      "id": "evasive_nageboshi",
+      "name_zh": "闪避投石",
+      "name_en": "Evasive Nageboshi",
+      "type_zh": "忍者 瞬间·Shuriken 物品",
+      "text_zh": "传奇\n行动——支付1点资源，横置此牌，当战斗链关闭时摧毁此牌：攻击。再动\n此牌不能被装备或反应牌防御。",
+      "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nThis can't be defended by equipment or reaction cards.",
+      "source": "https://cards.fabtcg.com/card/evasive_nageboshi/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "even_bigger_than_that": {
+      "id": "even_bigger_than_that",
+      "name_zh": "比那还大",
+      "name_en": "Even Bigger Than That!",
+      "type_zh": "通用 瞬间",
+      "text_zh": "仅当本回合你造成过伤害时才能使用比那还大。\n占卜3，然后展示你牌库顶的一张牌。若其力量大于你本回合已造成的伤害总量，创造一个加速衍生物并抽一张牌。",
+      "text_en": "Play Even Bigger Than That! only if you've dealt {p} this turn.\nOpt 3, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card.",
+      "source": "https://cards.fabtcg.com/card/even_bigger_than_that/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "everbloom_life": {
+      "id": "everbloom_life",
+      "name_zh": "常青 // 生命",
+      "name_en": "Everbloom // Life",
+      "type_zh": "大地行动 // 瞬间",
+      "text_zh": "融合\n选择坟场中一张费用小于你本回合获得生命总量的行动牌，将它置于其拥有者的牌库底。\n再动\n//\n获得1点生命。",
+      "text_en": "Meld\nChoose an action card in a graveyard with cost less than the total {h} you've gained this turn. Put it on the bottom of its owner's deck.\nGo again\n//\nGain 1{h}",
+      "source": "https://cards.fabtcg.com/card/everbloom-life/",
+      "status": "deck-translation-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "evergreen": {
+      "id": "evergreen",
+      "name_zh": "常青",
+      "name_en": "Evergreen",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "若常青是从军械库使用的，当战斗链关闭时将其置于其拥有者的牌库底。",
+      "text_en": "If Evergreen is played from arsenal, put it on the bottom of its owner's deck when the combat chain closes.",
+      "source": "https://cards.fabtcg.com/card/evergreen/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "evo_atom_breaker": {
+      "id": "evo_atom_breaker",
+      "name_zh": "进化原子破坏者",
+      "name_en": "Evo Atom Breaker",
+      "type_zh": "机械师 瞬间 装备·Evo 胸部",
+      "text_zh": "若你装备了一件基础胸部装备，将其和你控制的X张超频驱动器转化为此牌，然后装备此牌。若如此做，本回合接下来你将受到伤害时，防止其中两倍X的伤害。\n每当你推进时，你可以摧毁此牌之下的一张牌。若如此做，获得2点资源。",
+      "text_en": "If you have a base chest equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost, you may destroy a card under this. If you do, gain {r}{r}.",
+      "source": "https://cards.fabtcg.com/card/evo_atom_breaker/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_battery_pack": {
+      "id": "evo_battery_pack",
+      "name_zh": "进化电池组",
+      "name_en": "Evo Battery Pack",
+      "type_zh": "机械师 行动 装备·Evo 胸部",
+      "text_zh": "若你装备了一件基础胸部装备，将其转化为此牌，然后装备此牌。\n每回合一次瞬间——摧毁此牌之下的一张牌：在你控制的一个具有上弦的物品上放置一个蒸汽指示物。\n刃碎",
+      "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Put a steam counter on an item you control with crank.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/evo_battery_pack/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_beta_base_arms": {
+      "id": "evo_beta_base_arms",
+      "name_zh": "进化贝塔基础护手",
+      "name_en": "Evo Beta Base Arms",
+      "type_zh": "机械师 行动 装备·Evo Base 手臂",
+      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n你使用进化手臂牌时费用减少1点资源。\n战痕",
+      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nEvo arms cost you {r} less to play.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_beta_base_arms/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "evo_beta_base_chest": {
+      "id": "evo_beta_base_chest",
+      "name_zh": "进化贝塔基础胸甲",
+      "name_en": "Evo Beta Base Chest",
+      "type_zh": "机械师 行动 装备·Evo Base 胸部",
+      "text_zh": "若你装备了一件基础胸部装备，将其转化为此牌，然后装备此牌。\n你使用进化胸部牌时费用减少1点资源。\n战痕",
+      "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nEvo chests cost you {r} less to play.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_beta_base_chest/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "evo_beta_base_head": {
+      "id": "evo_beta_base_head",
+      "name_zh": "进化贝塔基础头盔",
+      "name_en": "Evo Beta Base Head",
+      "type_zh": "机械师 行动 装备·Evo Base 头部",
+      "text_zh": "若你装备了一件基础头部装备，将其转化为此牌，然后装备此牌。\n你使用进化头部牌时费用减少1点资源。\n战痕",
+      "text_en": "If you have a base head equipped, transform it into this, then equip this.\nEvo heads cost you {r} less to play.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_beta_base_head/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "evo_beta_base_legs": {
+      "id": "evo_beta_base_legs",
+      "name_zh": "进化贝塔基础腿甲",
+      "name_en": "Evo Beta Base Legs",
+      "type_zh": "机械师 行动 装备·Evo Base 腿部",
+      "text_zh": "若你装备了一件基础腿部装备，将其转化为此牌，然后装备此牌。\n你使用进化腿部牌时费用减少1点资源。\n战痕",
+      "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nEvo legs cost you {r} less to play.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_beta_base_legs/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "evo_buzz_hive": {
+      "id": "evo_buzz_hive",
+      "name_zh": "进化蜂巢",
+      "name_en": "Evo Buzz Hive",
+      "type_zh": "机械师 瞬间 装备·Evo 胸部",
+      "text_zh": "若你装备了一件基础胸部装备，将其转化为此牌，然后装备此牌。\n当此牌被装备时，获得1点资源。",
+      "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nWhen this is equipped, gain {r}.",
+      "source": "https://cards.fabtcg.com/card/evo_buzz_hive/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_charging_rods": {
+      "id": "evo_charging_rods",
+      "name_zh": "进化充能棒",
+      "name_en": "Evo Charging Rods",
+      "type_zh": "机械师 行动 装备·Evo 腿部",
+      "text_zh": "若你装备了一件基础腿部装备，将其转化为此牌，然后装备此牌。\n每回合一次瞬间——摧毁此牌之下的一张牌：创造一个加速衍生物。\n刃碎",
+      "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Create a Quicken token.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/evo_charging_rods/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_circuit_breaker": {
+      "id": "evo_circuit_breaker",
+      "name_zh": "进化断路器",
+      "name_en": "Evo Circuit Breaker",
+      "type_zh": "机械师 瞬间 装备·Evo 头部",
+      "text_zh": "若你装备了一件基础头部装备，将其和你控制的X张超频驱动器转化为此牌，然后装备此牌。若如此做，本回合接下来你将受到伤害时，防止其中两倍X的伤害。\n每当你推进时，你可以摧毁此牌之下的一张牌。若如此做，将你放逐区中的2张攻击行动牌洗入你的牌库。",
+      "text_en": "If you have a base head equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost, you may destroy a card under this. If you do, shuffle 2 attack action cards from your banished zone into your deck.",
+      "source": "https://cards.fabtcg.com/card/evo_circuit_breaker/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_cogspitter": {
+      "id": "evo_cogspitter",
+      "name_zh": "进化齿轮喷射器",
+      "name_en": "Evo Cogspitter",
+      "type_zh": "机械师 行动 装备·Evo 手臂",
+      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n每回合一次瞬间——摧毁此牌之下的一张牌：将你手牌中一张费用为0或1的物品放入竞技场。\n刃碎",
+      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Put an item with cost 0 or 1 from your hand into the arena.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/evo_cogspitter/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_command_center": {
+      "id": "evo_command_center",
+      "name_zh": "进化指挥中心",
+      "name_en": "Evo Command Center",
+      "type_zh": "机械师 行动 装备·Evo 头部",
+      "text_zh": "若你装备了一件基础头部装备，将其转化为此牌，然后装备此牌。\n每回合一次瞬间——摧毁此牌之下的一张牌：你本回合的下一次武器攻击获得“当此牌命中时，抽一张牌。”\n刃碎",
+      "text_en": "If you have a base head equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Your next weapon attack this turn gets \"When this hits, draw a card.\"\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/evo_command_center/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "evo_data_mine": {
+      "id": "evo_data_mine",
+      "name_zh": "进化数据矿",
+      "name_en": "Evo Data Mine",
+      "type_zh": "机械师 行动 装备·Evo 头部",
+      "text_zh": "若你装备了一件基础头部装备，将其转化为此牌，然后装备此牌。\n每回合一次瞬间——摧毁此牌之下的一张牌：抽一张牌，然后将你手牌中的一张牌置于你的牌库顶。\n刃碎",
+      "text_en": "If you have a base head equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Draw a card, then put a card from your hand on top of your deck.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/evo_data_mine/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_energy_matrix": {
+      "id": "evo_energy_matrix",
+      "name_zh": "进化能量矩阵",
+      "name_en": "Evo Energy Matrix",
+      "type_zh": "机械师 行动 装备·Evo 胸部",
+      "text_zh": "若你装备了一件基础胸部装备，将其转化为此牌，然后装备此牌。\n每有一位对手英雄，你的泰克洛爆能枪启动费用减少1点资源。\n战痕",
+      "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nYour Teklo Blaster costs {r} less to activate for each opposing hero.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_energy_matrix/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_engine_room": {
+      "id": "evo_engine_room",
+      "name_zh": "进化引擎室",
+      "name_en": "Evo Engine Room",
+      "type_zh": "机械师 行动 装备·Evo 胸部",
+      "text_zh": "若你装备了一件基础胸部装备，将其转化为此牌，然后装备此牌。\n每回合一次瞬间——摧毁此牌之下的一张牌：你本回合的下一次武器攻击启动费用减少1点资源。\n刃碎",
+      "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Your next weapon attack this turn costs {r} less to activate.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/evo_engine_room/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "evo_face_breaker": {
+      "id": "evo_face_breaker",
+      "name_zh": "进化破面者",
+      "name_en": "Evo Face Breaker",
+      "type_zh": "机械师 瞬间 装备·Evo 手臂",
+      "text_zh": "若你装备了一件基础手臂装备，将其和你控制的X张超频驱动器转化为此牌，然后装备此牌。若如此做，本回合接下来你将受到伤害时，防止其中两倍X的伤害。\n每当你推进一张攻击行动牌时，你可以摧毁此牌之下的一张牌。若如此做，该攻击获得+2力量。",
+      "text_en": "If you have a base arms equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost an attack action card, you may destroy a card under this. If you do, the attack gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/evo_face_breaker/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_heartdrive": {
+      "id": "evo_heartdrive",
+      "name_zh": "进化心脏驱动器",
+      "name_en": "Evo Heartdrive",
+      "type_zh": "机械师 瞬间 装备·Evo 胸部",
+      "text_zh": "若你装备了一件基础胸部装备，将其转化为此牌，然后装备此牌。\n当此牌被装备时，本回合你使用的下一张攻击行动牌费用减少1点资源。\n秘法屏障1",
+      "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nWhen this is equipped, the next attack action card you play this turn costs {r} less to play.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/evo_heartdrive/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_mach_breaker": {
+      "id": "evo_mach_breaker",
+      "name_zh": "进化马赫破坏者",
+      "name_en": "Evo Mach Breaker",
+      "type_zh": "机械师 瞬间 装备·Evo 腿部",
+      "text_zh": "若你装备了一件基础腿部装备，将其和你控制的X张超频驱动器转化为此牌，然后装备此牌。若如此做，本回合接下来你将受到伤害时，防止其中两倍X的伤害。\n每当你推进时，你可以摧毁此牌之下的一张牌。若如此做，创造一个加速衍生物。",
+      "text_en": "If you have a base legs equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost, you may destroy a card under this. If you do, create a Quicken token.",
+      "source": "https://cards.fabtcg.com/card/evo_mach_breaker/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_magneto": {
+      "id": "evo_magneto",
+      "name_zh": "进化磁力爪",
+      "name_en": "Evo Magneto",
+      "type_zh": "机械师 行动 装备·Evo 手臂",
+      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n当此牌防御时，你可以摧毁其下的一张牌。若如此做，获得攻击英雄控制的费用为0或1的目标物品的控制权。\n淬炼",
+      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nWhen this defends, you may destroy a card under it. If you do, gain control of target item with cost 0 or 1 controlled by the attacking hero.\nTemper",
+      "source": "https://cards.fabtcg.com/card/evo_magneto/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_rapid_fire": {
+      "id": "evo_rapid_fire",
+      "name_zh": "进化速射",
+      "name_en": "Evo Rapid Fire",
+      "type_zh": "机械师 行动 装备·Evo 腿部",
+      "text_zh": "若你装备了一件基础腿部装备，将其转化为此牌，然后装备此牌。\n你的泰克洛爆能枪攻击获得再动。\n战痕",
+      "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nYour Teklo Blaster attacks get go again.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_rapid_fire/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_recall": {
+      "id": "evo_recall",
+      "name_zh": "进化召回",
+      "name_en": "Evo Recall",
+      "type_zh": "机械师 瞬间 装备·Evo 头部",
+      "text_zh": "若你装备了一件基础头部装备，将其转化为此牌，然后装备此牌。\n当此牌被装备时，将你放逐区中的至多1张机械师行动牌置于你的牌库顶。\n秘法屏障1",
+      "text_en": "If you have a base head equipped, transform it into this, then equip this.\nWhen this is equipped, put up to 1 Mechanologist action card from your banished zone on top of your deck.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/evo_recall/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_scatter_shot": {
+      "id": "evo_scatter_shot",
+      "name_zh": "进化散射",
+      "name_en": "Evo Scatter Shot",
+      "type_zh": "机械师 行动 装备·Evo 手臂",
+      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n每有一位对手英雄，你的泰克洛爆能枪获得+1力量。\n战痕",
+      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nYour Teklo Blaster gets +1{p} for each opposing hero.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_scatter_shot/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_sentry_base_arms": {
+      "id": "evo_sentry_base_arms",
+      "name_zh": "进化哨卫基础护手",
+      "name_en": "Evo Sentry Base Arms",
+      "type_zh": "机械师 行动 装备·Evo Base 手臂",
+      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n战痕",
+      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_sentry_base_arms/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_sentry_base_chest": {
+      "id": "evo_sentry_base_chest",
+      "name_zh": "进化哨卫基础胸甲",
+      "name_en": "Evo Sentry Base Chest",
+      "type_zh": "机械师 行动 装备·Evo Base 胸部",
+      "text_zh": "若你装备了一件基础胸部装备，将其转化为此牌，然后装备此牌。\n战痕",
+      "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_sentry_base_chest/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_sentry_base_head": {
+      "id": "evo_sentry_base_head",
+      "name_zh": "进化哨卫基础头盔",
+      "name_en": "Evo Sentry Base Head",
+      "type_zh": "机械师 行动 装备·Evo Base 头部",
+      "text_zh": "若你装备了一件基础头部装备，将其转化为此牌，然后装备此牌。\n战痕",
+      "text_en": "If you have a base head equipped, transform it into this, then equip this.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_sentry_base_head/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_sentry_base_legs": {
+      "id": "evo_sentry_base_legs",
+      "name_zh": "进化哨卫基础腿甲",
+      "name_en": "Evo Sentry Base Legs",
+      "type_zh": "机械师 行动 装备·Evo Base 腿部",
+      "text_zh": "若你装备了一件基础腿部装备，将其转化为此牌，然后装备此牌。\n战痕",
+      "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_sentry_base_legs/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_shortcircuit": {
+      "id": "evo_shortcircuit",
+      "name_zh": "进化短路",
+      "name_en": "Evo Shortcircuit",
+      "type_zh": "机械师 瞬间 装备·Evo 手臂",
+      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n当此牌被装备时，对任意目标造成1点伤害。\n秘法屏障1",
+      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nWhen this is equipped, deal 1 damage to any target.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/evo_shortcircuit/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_smoothbore": {
+      "id": "evo_smoothbore",
+      "name_zh": "进化滑膛",
+      "name_en": "Evo Smoothbore",
+      "type_zh": "机械师 行动 装备·Evo 手臂",
+      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n每回合一次瞬间——摧毁此牌之下的一张牌：你本回合的下一次武器攻击获得+1力量。\n刃碎",
+      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Your next weapon attack this turn gets +1{p}.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/evo_smoothbore/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "evo_speedslip": {
+      "id": "evo_speedslip",
+      "name_zh": "进化速滑",
+      "name_en": "Evo Speedslip",
+      "type_zh": "机械师 瞬间 装备·Evo 腿部",
+      "text_zh": "若你装备了一件基础腿部装备，将其转化为此牌，然后装备此牌。\n当此牌被装备时，本回合你使用的下一张攻击行动牌获得推进。\n秘法屏障1",
+      "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nWhen this is equipped, the next attack action card you play this turn gets boost.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/evo_speedslip/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_steel_soul_controller": {
+      "id": "evo_steel_soul_controller",
+      "name_zh": "进化钢魂控制器",
+      "name_en": "Evo Steel Soul Controller",
+      "type_zh": "机械师 行动 装备·Evo Base 手臂",
+      "text_zh": "若你装备了基础手臂装备，将其转化为此牌，然后装备此牌。\n当此牌从一张不同名称的进化牌转化而来或转化而去时，你可以将你坟场中一张力量为6的攻击行动牌放入你牌库的从上往下第五张的位置。若那张进化牌是英雄，改为此效果触发两次。\n淬炼",
+      "text_en": "If you have base arms equipped, transform it into this, then equip this.\nWhen this transforms from or into an Evo with a different name, you may put an attack action card with 6{p} from your graveyard into your deck fifth from the top. If that Evo is a hero, instead this triggers twice.\nTemper",
+      "source": "https://cards.fabtcg.com/card/evo_steel_soul_controller/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "evo_steel_soul_memory": {
+      "id": "evo_steel_soul_memory",
+      "name_zh": "进化钢魂记忆",
+      "name_en": "Evo Steel Soul Memory",
+      "type_zh": "机械师 行动 装备·Evo Base 头部",
+      "text_zh": "若你装备了一件基础头部装备，将其转化为此牌，然后装备此牌。\n当此牌从一张不同名称的进化牌转化而来或转化而去时，你的英雄直到回合结束获得+1智力。若那张进化牌是英雄，改为此效果触发两次。\n淬炼",
+      "text_en": "If you have a base head equipped, transform it into this, then equip this.\nWhen this transforms from or into an Evo with a different name, your hero gets +1{i} until end of turn. If that Evo is a hero, instead this triggers twice.\nTemper",
+      "source": "https://cards.fabtcg.com/card/evo_steel_soul_memory/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "evo_steel_soul_processor": {
+      "id": "evo_steel_soul_processor",
+      "name_zh": "进化钢魂处理器",
+      "name_en": "Evo Steel Soul Processor",
+      "type_zh": "机械师 行动 装备·Evo Base 胸部",
+      "text_zh": "若你装备了一件基础胸部装备，将其转化为此牌，然后装备此牌。\n当此牌从一张不同名称的进化牌转化而来或转化而去时，获得3点资源。若那张进化牌是英雄，改为此效果触发两次。\n淬炼",
+      "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nWhen this transforms from or into an Evo with a different name, gain {r}{r}{r}. If that Evo is a hero, instead this triggers twice.\nTemper",
+      "source": "https://cards.fabtcg.com/card/evo_steel_soul_processor/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "evo_steel_soul_tower": {
+      "id": "evo_steel_soul_tower",
+      "name_zh": "进化钢魂塔",
+      "name_en": "Evo Steel Soul Tower",
+      "type_zh": "机械师 行动 装备·Evo Base 腿部",
+      "text_zh": "若你装备了一件基础腿部装备，将其转化为此牌，然后装备此牌。\n当此牌从一张不同名称的进化牌转化而来或转化而去时，获得1个行动点。若那张进化牌是英雄，改为此效果触发两次。\n淬炼",
+      "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nWhen this transforms from or into an Evo with a different name, gain 1 action point. If that Evo is a hero, instead this triggers twice.\nTemper",
+      "source": "https://cards.fabtcg.com/card/evo_steel_soul_tower/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "evo_tekloscope": {
+      "id": "evo_tekloscope",
+      "name_zh": "进化泰克洛望远镜",
+      "name_en": "Evo Tekloscope",
+      "type_zh": "机械师 行动 装备·Evo 头部",
+      "text_zh": "若你装备了一件基础头部装备，将其转化为此牌，然后装备此牌。\n你的泰克洛爆能枪攻击可以以任意对手英雄为目标。\n战痕",
+      "text_en": "If you have a base head equipped, transform it into this, then equip this.\nYour Teklo Blaster attacks can target any opposing hero.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/evo_tekloscope/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "evo_thruster": {
+      "id": "evo_thruster",
+      "name_zh": "进化推进器",
+      "name_en": "Evo Thruster",
+      "type_zh": "机械师 行动 装备·Evo 腿部",
+      "text_zh": "若你装备了一件基础腿部装备，将其转化为此牌，然后装备此牌。\n每回合一次瞬间——摧毁此牌之下的一张牌：本回合你可以用目标武器额外攻击一次。\n刃碎",
+      "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: You may attack an additional time with target weapon this turn.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/evo_thruster/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "evo_whizz_bang": {
+      "id": "evo_whizz_bang",
+      "name_zh": "进化嗖砰",
+      "name_en": "Evo Whizz Bang",
+      "type_zh": "机械师 瞬间 装备·Evo 手臂",
+      "text_zh": "若你装备了一件基础头部装备，将其转化为此牌，然后装备此牌。\n当此牌被装备时，至多1个目标攻击获得+1力量。",
+      "text_en": "If you have a base head equipped, transform it into this, then equip this.\nWhen this is equipped, up to 1 target attack gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/evo_whizz_bang/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_zip_line": {
+      "id": "evo_zip_line",
+      "name_zh": "进化滑索",
+      "name_en": "Evo Zip Line",
+      "type_zh": "机械师 瞬间 装备·Evo 腿部",
+      "text_zh": "若你装备了一件基础腿部装备，将其转化为此牌，然后装备此牌。\n当此牌被装备时，至多1个目标攻击获得再动。",
+      "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nWhen this is equipped, up to 1 target attack gets go again.",
+      "source": "https://cards.fabtcg.com/card/evo_zip_line/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_zoom_call": {
+      "id": "evo_zoom_call",
+      "name_zh": "进化变焦召唤",
+      "name_en": "Evo Zoom Call",
+      "type_zh": "机械师 瞬间 装备·Evo 头部",
+      "text_zh": "若你装备了一件基础头部装备，将其转化为此牌，然后装备此牌。\n当此牌被装备时，你可以放逐你手牌中的一张牌。若如此做，抽一张牌。",
+      "text_en": "If you have a base head equipped, transform it into this, then equip this.\nWhen this is equipped, you may banish a card from you hand. If you do, draw a card.",
+      "source": "https://cards.fabtcg.com/card/evo_zoom_call/",
+      "status": "machine-draft",
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "excessive_bloodloss": {
+      "id": "excessive_bloodloss",
+      "name_zh": "过量失血",
+      "name_en": "Excessive Bloodloss",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "契约——你受契约束缚以放逐对手的红色牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的一张牌。若其为红色，重复此过程一次。",
+      "text_en": "Contract - You are contracted to banish opponents' red cards. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck. If it's red, repeat this process once.",
+      "source": "https://cards.fabtcg.com/card/excessive_bloodloss/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "expedite": {
+      "id": "expedite",
+      "name_zh": "加急",
+      "name_en": "Expedite",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，你可以将你手牌中一张费用为0或1的物品放入竞技场。",
+      "text_en": "Boost\nWhen this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+      "source": "https://cards.fabtcg.com/card/expedite/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "expedition_to_azuro_keys": {
+      "id": "expedition_to_azuro_keys",
+      "name_zh": "远征阿祖罗群岛",
+      "name_en": "Expedition to Azuro Keys",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将一个金币指示物放在宝藏之岛上。",
+      "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
+      "source": "https://cards.fabtcg.com/card/expedition_to_azuro_keys/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "expedition_to_blackwater_strait": {
+      "id": "expedition_to_blackwater_strait",
+      "name_zh": "远征黑水海峡",
+      "name_en": "Expedition to Blackwater Strait",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将一个金币指示物放在宝藏之岛上。",
+      "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
+      "source": "https://cards.fabtcg.com/card/expedition_to_blackwater_strait/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "expedition_to_dreadfall_reach": {
+      "id": "expedition_to_dreadfall_reach",
+      "name_zh": "远征恐惧落礁",
+      "name_en": "Expedition to Dreadfall Reach",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将一个金币指示物放在宝藏之岛上。",
+      "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
+      "source": "https://cards.fabtcg.com/card/expedition_to_dreadfall_reach/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "expedition_to_horizons_mantle": {
+      "id": "expedition_to_horizons_mantle",
+      "name_zh": "远征地平线之覆",
+      "name_en": "Expedition to Horizon's Mantle",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将一个金币指示物放在宝藏之岛上。",
+      "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
+      "source": "https://cards.fabtcg.com/card/expedition_to_horizons_mantle/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        }
+      }
+    },
+    "expendable_limbs": {
+      "id": "expendable_limbs",
+      "name_zh": "可弃的肢体",
+      "name_en": "Expendable Limbs",
+      "type_zh": "暗影 蛮将 防御反应",
+      "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，在你的下一个行动阶段期间你可以从你的放逐区使用它。",
+      "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, you may play it from your banished zone during your next action phase.",
+      "source": "https://cards.fabtcg.com/card/expendable_limbs/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "exploding_aether": {
+      "id": "exploding_aether",
+      "name_zh": "爆炸以太",
+      "name_en": "Exploding Aether",
+      "type_zh": "法师 行动",
+      "text_zh": "增幅3\n再动",
+      "text_en": "Amp 3\nGo again",
+      "source": "https://cards.fabtcg.com/card/exploding_aether/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "explosive_growth": {
+      "id": "explosive_growth",
+      "name_zh": "爆炸性成长",
+      "name_en": "Explosive Growth",
+      "type_zh": "元素 符文剑士 行动·攻击",
+      "text_zh": "大地融合\n若爆炸性成长已融合，每当它造成伤害时，本战斗链中的攻击获得+1力量。\n当你用爆炸性成长攻击时，对目标英雄造成1点秘法伤害。",
+      "text_en": "Earth Fusion\nIf Explosive Growth was fused, whenever it deals damage, attacks gain +1{p} this combat chain.\nWhen you attack with Explosive Growth, deal 1 arcane damage to target hero.",
+      "source": "https://cards.fabtcg.com/card/explosive_growth/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "exposed": {
+      "id": "exposed",
+      "name_zh": "暴露",
+      "name_en": "Exposed",
+      "type_zh": "通用 攻击反应",
+      "text_zh": "若你已被标记，你不能使用此牌。\n目标攻击获得+1力量。\n标记防御英雄。",
+      "text_en": "If you are marked, you can't play this.\nTarget attack gets +1{p}.\nMark the defending hero.",
+      "source": "https://cards.fabtcg.com/card/exposed/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "exposed_to_the_elements": {
+      "id": "exposed_to_the_elements",
+      "name_zh": "暴露于元素",
+      "name_en": "Exposed to the Elements",
+      "type_zh": "元素 瞬间",
+      "text_zh": "大地和/或冰融合\n若暴露于元素以一张大地牌融合，在目标装备上放置一个-1防御指示物。\n若暴露于元素以一张冰牌融合，摧毁目标英雄控制的防御为0的一件装备，除非其支付2点资源。",
+      "text_en": "Earth and/or Ice Fusion\nIf Exposed to the Elements was fused with an Earth card, put a -1{d} counter on target equipment.\nIf Exposed to the Elements was fused with an Ice card, destroy an equipment with 0{d} controlled by target hero unless they pay {r}{r}.",
+      "source": "https://cards.fabtcg.com/card/exposed_to_the_elements/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "express_lightning": {
+      "id": "express_lightning",
+      "name_zh": "迅疾闪电",
+      "name_en": "Express Lightning",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用迅疾闪电的额外费用，你可以为你的英雄的灵魂充能。",
+      "text_en": "As an additional cost to play Express Lightning, you may charge your hero's soul.",
+      "source": "https://cards.fabtcg.com/card/express_lightning/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "extinguish_the_flames": {
+      "id": "extinguish_the_flames",
+      "name_zh": "熄灭烈焰",
+      "name_en": "Extinguish the Flames",
+      "type_zh": "刺客 行动·攻击",
+      "text_zh": "隐匿\n契约——你受契约束缚以命中一位名为辛德拉的被标记英雄。每当你完成此契约时，抽一张牌。",
+      "text_en": "Stealth\nContract - You are contracted to hit a marked hero named Cindra. Whenever you complete this contract, draw a card.",
+      "source": "https://cards.fabtcg.com/card/extinguish_the_flames/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "exude_confidence": {
+      "id": "exude_confidence",
+      "name_zh": "散发自信",
+      "name_en": "Exude Confidence",
+      "type_zh": "通用 行动·攻击",
+      "text_zh": "当散发自信没有被力量等于或高于它的牌防御时，本战斗链中防御英雄不能使用或启动瞬间和防御反应。\n瞬间——支付3点资源：散发自信获得+2力量。仅当散发自信正在攻击时才能启动此异能。",
+      "text_en": "While Exude Confidence isn't defended by a card with equal or greater {p}, the defending hero can't play or activate instants or defense reactions this combat chain.\nInstant - {r}{r}{r}: Exude Confidence gains +2{p}. Activate this ability only while Exude Confidence is attacking.",
+      "source": "https://cards.fabtcg.com/card/exude_confidence/",
+      "status": "machine-draft",
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "eye_of_ophidia": {
+      "id": "eye_of_ophidia",
+      "name_zh": "蛇神之眼",
+      "name_en": "Eye of Ophidia",
+      "type_zh": "通用 资源·宝石",
+      "text_zh": "传奇\n当你将蛇神之眼资源时，占卜2。",
+      "text_en": "Legendary\nWhen you pitch Eye of Ophidia, opt 2.",
+      "source": "https://cards.fabtcg.com/card/eye_of_ophidia/",
+      "status": "machine-draft",
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "ez_sqeez_bookie_syndicate": {
+      "id": "ez_sqeez_bookie_syndicate",
+      "name_zh": "艾兹·斯奎兹·赌徒集团",
+      "name_en": "Ez Sqeez Bookie Syndicate",
+      "type_zh": "",
+      "text_zh": "直到回合结束，每当你攻击英雄时，与该英雄下注。胜者创造2个金币衍生物。",
+      "text_en": "Until end of turn, whenever you attack a hero, wager with them. The winner creates 2 Gold tokens.",
+      "source": "https://cards.fabtcg.com/card/ez_sqeez_bookie_syndicate/",
+      "status": "machine-draft",
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    }
+  }
+}
