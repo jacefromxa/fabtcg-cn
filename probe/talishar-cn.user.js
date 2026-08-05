@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.0
+// @version      0.7.1
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
@@ -73,6 +73,16 @@
 
   function isLocalDataUrl(url) {
     return /^(https?:\/\/)?(127\.0\.0\.1|localhost)(:\d+)?(\/|$)/.test(String(url));
+  }
+
+  // Opt-in resolution debugging: set localStorage 'fab-cn-debug' to '1' to log
+  // each hover's image URL / alt hints, candidate keys and final match.
+  function isDebugEnabled() {
+    try {
+      return root.localStorage && root.localStorage.getItem('fab-cn-debug') === '1';
+    } catch (_) {
+      return false;
+    }
   }
 
   function resolveDataBaseUrl() {
@@ -476,15 +486,31 @@
     async function loadCardForElement(element) {
       var candidate = collectCandidates(element);
 
+      if (isDebugEnabled()) {
+        console.log('[Talishar CN][debug] hover:',
+          'img=', candidate.imageUrls,
+          'alt/title=', candidate.textHints,
+          'data=', candidate.attributes);
+      }
+
       // Fast pass: image tokens + alt text (covers most Talishar cards).
-      var match = await findInIndex(resolveCardKeys(candidate, null));
-      if (match) return match;
+      var fastKeys = resolveCardKeys(candidate, null);
+      var match = await findInIndex(fastKeys);
+      if (match) {
+        if (isDebugEnabled()) console.log('[Talishar CN][debug] fast keys:', fastKeys, '-> match:', match.key, match.card && match.card.name_zh);
+        return match;
+      }
 
       // Fallback pass: fetch the alias table once and retry. This resolves
       // FaBrary printing ids and Talishar transliterated stems (special chars,
       // meld cards, ...) that the fast path cannot.
       var aliases = await loadAliases();
-      return findInIndex(resolveCardKeys(candidate, aliases));
+      var aliasKeys = resolveCardKeys(candidate, aliases);
+      match = await findInIndex(aliasKeys);
+      if (isDebugEnabled()) {
+        console.log('[Talishar CN][debug] alias keys:', aliasKeys, '-> match:', match ? match.key : null, match && match.card && match.card.name_zh);
+      }
+      return match;
     }
 
     return {
