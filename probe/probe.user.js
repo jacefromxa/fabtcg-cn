@@ -13,7 +13,7 @@
   'use strict';
 
   const root = window;
-  const PRODUCTION_DATA_BASE_URL = 'https://raw.githubusercontent.com/jacefromxa/CCDeep/main/talishar-cn/dist/data';
+  const PRODUCTION_DATA_BASE_URL = 'https://raw.githubusercontent.com/jacefromxa/talishar-cn-data/main';
   const LOCAL_DATA_BASE_URL = 'http://127.0.0.1:4173/data';
   const CACHE_PREFIX = 'fab-cn-card-data-v1';
 
