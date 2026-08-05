@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.3（2026-08-05）
+
+### 新增
+
+- **自动更新入口**：用户脚本头新增 `@updateURL` / `@downloadURL`（指向源码仓库 raw 地址），安装一次后 Violentmonkey/Tampermonkey 会自动检测新版本并提示更新，无需手动重新粘贴
+
 ## v0.7.2（2026-08-05）
 
 ### 修复
