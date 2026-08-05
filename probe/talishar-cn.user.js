@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.5
+// @version      0.7.7
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
@@ -796,6 +796,7 @@
     var hoverSerial = 0;
     var currentAnchor = null;
     var currentCard = null;
+    var currentCardKey = null;
     var keywordsData = null;
     // Preload the tiny keyword library once; a very first hover that happens
     // before it arrives gets re-rendered as soon as it loads.
@@ -930,10 +931,33 @@
         if (img) {
           currentPreviewImg = img;
           repositionPanel();
+          resolveCardFromPreview(img);
         } else {
           schedulePreviewSearch(); // preview not up yet — retry shortly
         }
       }, 300);
+    }
+
+    // The native full-card preview knows which card the pointer is actually
+    // over. For a transform stack (e.g. Adaptive Alpha Mold covered by an Evo
+    // card) the hovered thumbnail resolves to the base card while the preview
+    // is the transformed card, so when the preview appears we re-resolve from
+    // it and follow it — the tooltip shows the same card the native UI previews.
+    function resolveCardFromPreview(img) {
+      var serial = hoverSerial;
+      var apply = function (match) {
+        if (serial !== hoverSerial) return; // a new hover started meanwhile
+        if (!match || !currentAnchor) return;
+        if (currentCardKey && match.key === currentCardKey) return; // same card — keep it
+        presentCard(currentAnchor, match.card, match.key);
+      };
+      if (cardData) {
+        apply(lookupCard(img, cardData));
+        return;
+      }
+      if (remoteLoader) {
+        remoteLoader.loadCardForElement(img).then(apply).catch(function () { /* keep anchor card */ });
+      }
     }
 
     function clearPreviewAnchor() {
@@ -1022,9 +1046,10 @@
       if (settings.panelMode === 'follow') startFollowing();
     };
 
-    var presentCard = function (anchor, card) {
+    var presentCard = function (anchor, card, key) {
       currentAnchor = anchor;
       currentCard = card;
+      currentCardKey = key || (card && card.id) || null;
       panel.style.display = 'block';
       panel.style.visibility = 'hidden';
       renderCardPanel(doc, panel, card, keywordsData);
@@ -1036,7 +1061,7 @@
       if (settings.panelMode === 'follow') startFollowing();
     };
 
-    var showCard = function (anchor, card) { presentCard(anchor, card); };
+    var showCard = function (anchor, card, key) { presentCard(anchor, card, key); };
 
     var hidePanel = function () {
       currentAnchor = null;
@@ -1496,7 +1521,7 @@
       if (cardData) {
         var match = lookupCard(anchor, cardData);
         if (match) {
-          showCard(anchor, match.card);
+          showCard(anchor, match.card, match.key);
           schedulePreviewSearch();
         } else if (settings.panelMode !== 'fixed') hidePanel();
         return;
@@ -1511,7 +1536,7 @@
       remoteLoader.loadCardForElement(anchor)
         .then(function (match) {
           if (serial !== hoverSerial) return;
-          if (match) showCard(anchor, match.card);
+          if (match) showCard(anchor, match.card, match.key);
           else hidePanel();
         })
         .catch(function (error) {
