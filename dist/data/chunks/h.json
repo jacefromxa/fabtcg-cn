@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "haboob": {
       "id": "haboob",
@@ -79,7 +79,7 @@
     },
     "hala": {
       "id": "hala",
-      "name_zh": "哈拉",
+      "name_zh": "哈菈",
       "name_en": "Hala",
       "type_zh": "",
       "text_zh": "行动——支付3点资源，横置此牌：磨砺你控制的目标剑。再动",
@@ -98,7 +98,7 @@
     },
     "hala_bladesaint_of_the_vow": {
       "id": "hala_bladesaint_of_the_vow",
-      "name_zh": "哈拉·誓约刀圣",
+      "name_zh": "哈菈·誓锋剑圣",
       "name_en": "Hala, Bladesaint of the Vow",
       "type_zh": "",
       "text_zh": "行动——支付3点资源，横置此牌：磨砺你控制的目标剑。再动",

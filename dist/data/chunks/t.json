@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "t_bone": {
       "id": "t_bone",
@@ -71,7 +71,7 @@
     },
     "taipanis_dracai_of_judgement": {
       "id": "taipanis_dracai_of_judgement",
-      "name_zh": "审判德拉凯·泰帕尼斯",
+      "name_zh": "审判之龙·泰帕尼斯",
       "name_en": "Taipanis, Dracai of Judgement",
       "type_zh": "",
       "text_zh": "每回合第一次另一位英雄成为将造成致命伤害的来源的目标时，你可以弃一张红色牌。若如此做，为那个来源选择新的目标。",
@@ -1237,7 +1237,7 @@
     },
     "teklovossen_esteemed_magnate": {
       "id": "teklovossen_esteemed_magnate",
-      "name_zh": "泰克洛沃森·尊贵大亨",
+      "name_zh": "泰克洛沃森·赫威巨擘",
       "name_en": "Teklovossen, Esteemed Magnate",
       "type_zh": "",
       "text_zh": "你可以从你的放逐区使用进化牌。\n每回合一次瞬间——支付3点资源：本回合你可以将你的下一张进化牌当作瞬间使用。当你如此做时，抽一张牌。",
@@ -1616,7 +1616,7 @@
     },
     "terra": {
       "id": "terra",
-      "name_zh": "特拉",
+      "name_zh": "泰拉",
       "name_en": "Terra",
       "type_zh": "",
       "text_zh": "在每个结束阶段开始时，若你资源区中有一张大地牌，你可以支付1点资源。若如此做，创造一个力量衍生物。\n大地精华",
@@ -1901,7 +1901,7 @@
     },
     "the_librarian_magister_of_history": {
       "id": "the_librarian_magister_of_history",
-      "name_zh": "历史首席学者·图书管理员",
+      "name_zh": "首席史学官·图书管理员",
       "name_en": "The Librarian, Magister of History",
       "type_zh": "",
       "text_zh": "你的牌库中可以包含任意职业或才能的名称为典籍的牌。\n行动——横置此牌，展示你物品栏中的一张名称为典籍的牌：将其置入你的手牌。另一位目标英雄直到其下一个回合结束获得+1智力。再动",
@@ -2040,7 +2040,7 @@
     },
     "theryon_magister_of_justice": {
       "id": "theryon_magister_of_justice",
-      "name_zh": "正义首席学者·塞里昂",
+      "name_zh": "正义大裁官·塞瑞翁",
       "name_en": "Theryon, Magister of Justice",
       "type_zh": "",
       "text_zh": "每回合第一次另一位英雄摧毁一张其不控制的牌时，你可以支付2点资源。若如此做，该英雄摧毁其控制的一个非英雄永久物。",
@@ -4508,7 +4508,7 @@
     },
     "tuffnut": {
       "id": "tuffnut",
-      "name_zh": "硬汉",
+      "name_zh": "塔夫纳特",
       "name_en": "Tuffnut",
       "type_zh": "",
       "text_zh": "瞬间——横置此牌：资源你牌库顶的一张牌。若其力量为6或更高，观众为你欢呼。\n每当观众为你欢呼时，创造一个坚韧衍生物。",
@@ -4527,7 +4527,7 @@
     },
     "tuffnut_bumbling_hulkster": {
       "id": "tuffnut_bumbling_hulkster",
-      "name_zh": "硬汉笨拙猛将",
+      "name_zh": "塔夫纳特·笨拙猛将",
       "name_en": "Tuffnut, Bumbling Hulkster",
       "type_zh": "",
       "text_zh": "瞬间——横置此牌：资源你牌库顶的一张牌。若其力量为6或更高，观众为你欢呼。\n每当观众为你欢呼时，创造一个坚韧衍生物。",

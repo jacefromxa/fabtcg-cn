@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "under_loop": {
       "id": "under_loop",
@@ -677,7 +677,7 @@
     },
     "uzuri": {
       "id": "uzuri",
-      "name_zh": "乌祖里",
+      "name_zh": "乌祖瑞",
       "name_en": "Uzuri",
       "type_zh": "",
       "text_zh": "每回合一次攻击反应——牌面朝下放逐你手牌中的一张牌：将以此方式放逐的牌翻为正面朝上。若其为费用为2或更低的攻击行动牌，将当前链环上目标具有隐匿的攻击牌置于其拥有者的牌库底，然后将被放逐的牌作为攻击牌放入当前链环。",
@@ -696,7 +696,7 @@
     },
     "uzuri_switchblade": {
       "id": "uzuri_switchblade",
-      "name_zh": "乌祖里·弹簧刀",
+      "name_zh": "跳刀乌祖瑞",
       "name_en": "Uzuri, Switchblade",
       "type_zh": "",
       "text_zh": "每回合一次攻击反应——牌面朝下放逐你手牌中的一张牌：将以此方式放逐的牌翻为正面朝上。若其为费用为2或更低的攻击行动牌，将当前链环上目标具有隐匿的攻击牌置于其拥有者的牌库底，然后将被放逐的牌作为攻击牌放入当前链环。",

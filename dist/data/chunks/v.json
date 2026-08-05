@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "v_for_valor": {
       "id": "v_for_valor",
@@ -75,7 +75,7 @@
     },
     "valda_brightaxe": {
       "id": "valda_brightaxe",
-      "name_zh": "瓦尔达·明斧",
+      "name_zh": "瓦尔达·澄斧",
       "name_en": "Valda Brightaxe",
       "type_zh": "",
       "text_zh": "每当行动阶段期间对手抽牌时，每有一张以此方式抽的牌，创造一个地震涌动衍生物。\n在你的回合开始时，若你控制3个或更多地震涌动衍生物，本回合你拥有的具有粉碎的牌获得支配。",
@@ -94,7 +94,7 @@
     },
     "valda_seismic_impact": {
       "id": "valda_seismic_impact",
-      "name_zh": "瓦尔达·地震冲击",
+      "name_zh": "瓦尔妲·震波",
       "name_en": "Valda, Seismic Impact",
       "type_zh": "",
       "text_zh": "每当行动阶段期间对手抽1张或更多牌时，创造等量的地震涌动衍生物。\n在你的回合开始时，若你控制3个或更多地震涌动衍生物，本回合你拥有的具有粉碎的牌获得支配。",
@@ -503,7 +503,7 @@
     },
     "verdance_thorn_of_the_rose": {
       "id": "verdance_thorn_of_the_rose",
-      "name_zh": "沃丹斯·玫瑰之棘",
+      "name_zh": "沃丹斯·玫瑰棘锋",
       "name_en": "Verdance, Thorn of the Rose",
       "type_zh": "",
       "text_zh": "若你的放逐区有8张或更多大地牌，沃丹斯获得“每当你在你的回合期间获得生命时，你可以对任意对手目标造成1点秘法伤害。”\n大地精华",
@@ -680,7 +680,7 @@
     },
     "victor_goldmane_high_and_mighty": {
       "id": "victor_goldmane_high_and_mighty",
-      "name_zh": "维克托·金鬃·趾高气昂",
+      "name_zh": "金鬃维克托·不可一世",
       "name_en": "Victor Goldmane, High and Mighty",
       "type_zh": "",
       "text_zh": "每回合第一次你因自己控制的效果创造金币衍生物时，抽一张牌。\n每回合第一次你将未能赢得交锋时，你可以改为摧毁你控制的一个金币。若如此做，将展示的牌中的一张置于其拥有者的牌库底，然后再次交锋。",
@@ -701,7 +701,7 @@
     },
     "victor_goldmane_match_fixer": {
       "id": "victor_goldmane_match_fixer",
-      "name_zh": "维克托·金鬃·比赛操纵者",
+      "name_zh": "金鬃维克托·只手遮天",
       "name_en": "Victor Goldmane, Match Fixer",
       "type_zh": "",
       "text_zh": "瞬间——横置此牌：选择一位对手。本回合该英雄为其下一次交锋展示的第一张牌获得+1力量。当其赢得那次交锋时，你创造一个金币衍生物。\n每当你攻击时，你可以摧毁你控制的3个金币。若如此做，该攻击获得+3力量和支配。",

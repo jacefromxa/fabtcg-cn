@@ -14,7 +14,7 @@
     "status": "machine-draft"
   },
   "arakni_5l_p3d_7hru_7h3_cr4x": {
-    "name_zh": "阿拉克尼·5L_P3D_7HRU_7H3_CR4X",
+    "name_zh": "阿拉克尼·滑脱裂界",
     "name_en": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
     "type_zh": "",
     "type_en": "Chaos Assassin Hero",
@@ -28,7 +28,7 @@
     "status": "machine-draft"
   },
   "arakni_huntsman": {
-    "name_zh": "阿拉克尼·猎蛛",
+    "name_zh": "阿拉克尼·猎命狂蛛",
     "name_en": "Arakni, Huntsman",
     "type_zh": "",
     "type_en": "Assassin Hero",
@@ -42,7 +42,7 @@
     "status": "machine-draft"
   },
   "arakni_marionette": {
-    "name_zh": "阿拉克尼·提线木偶",
+    "name_zh": "阿拉克尼·索命傀儡",
     "name_en": "Arakni, Marionette",
     "type_zh": "",
     "type_en": "Chaos Assassin Hero",
@@ -56,7 +56,7 @@
     "status": "machine-draft"
   },
   "arakni_solitary_confinement": {
-    "name_zh": "阿拉克尼·隔离禁闭",
+    "name_zh": "阿拉克尼·孤禁疯魔",
     "name_en": "Arakni, Solitary Confinement",
     "type_zh": "",
     "type_en": "Assassin Hero - Young",
@@ -70,7 +70,7 @@
     "status": "machine-draft"
   },
   "arakni_web_of_deceit": {
-    "name_zh": "阿拉克尼·欺骗之网",
+    "name_zh": "阿拉克尼·欺诈天罗",
     "name_en": "Arakni, Web of Deceit",
     "type_zh": "",
     "type_en": "Chaos Assassin Hero - Young",
@@ -112,7 +112,7 @@
     "status": "machine-draft"
   },
   "aurora_legacy_of_tempest": {
-    "name_zh": "奥罗拉·风暴传承",
+    "name_zh": "奥罗拉·风暴后裔",
     "name_en": "Aurora, Legacy of Tempest",
     "type_zh": "",
     "type_en": "Lightning Runeblade Hero",
@@ -210,7 +210,7 @@
     "status": "machine-draft"
   },
   "betsy_skin_in_the_game": {
-    "name_zh": "贝特西·投入其中",
+    "name_zh": "贝特西·以身入局",
     "name_en": "Betsy, Skin in the Game",
     "type_zh": "",
     "type_en": "Guardian Hero",
@@ -280,7 +280,7 @@
     "status": "machine-draft"
   },
   "bravo_flattering_showman": {
-    "name_zh": "布拉沃·奉承表演家",
+    "name_zh": "布拉沃·捧场名角",
     "name_en": "Bravo, Flattering Showman",
     "type_zh": "",
     "type_en": "Guardian Hero - Young",
@@ -294,7 +294,7 @@
     "status": "machine-draft"
   },
   "bravo_showstopper": {
-    "name_zh": "布拉沃·压轴明星",
+    "name_zh": "布拉沃·压轴大角",
     "name_en": "Bravo, Showstopper",
     "type_zh": "",
     "type_en": "Guardian Hero",
@@ -308,7 +308,7 @@
     "status": "machine-draft"
   },
   "bravo_star_of_the_show": {
-    "name_zh": "布拉沃·全场之星",
+    "name_zh": "布拉沃·镇场巨星",
     "name_en": "Bravo, Star of the Show",
     "type_zh": "",
     "type_en": "Elemental Guardian Hero",
@@ -336,7 +336,7 @@
     "status": "machine-draft"
   },
   "briar": {
-    "name_zh": "布里亚",
+    "name_zh": "布莱尔",
     "name_en": "Briar",
     "type_zh": "",
     "type_en": "Elemental Runeblade Hero - Young",
@@ -350,7 +350,7 @@
     "status": "machine-draft"
   },
   "briar_warden_of_thorns": {
-    "name_zh": "荆棘守望者·布里亚",
+    "name_zh": "荆棘守望者·布莱尔",
     "name_en": "Briar, Warden of Thorns",
     "type_zh": "",
     "type_en": "Elemental Runeblade Hero",
@@ -420,7 +420,7 @@
     "status": "machine-draft"
   },
   "cindra_dracai_of_retribution": {
-    "name_zh": "辛德拉·天罚之德拉凯",
+    "name_zh": "辛德拉·天罚之龙",
     "name_en": "Cindra, Dracai of Retribution",
     "type_zh": "",
     "type_en": "Royal Draconic Ninja Hero",
@@ -574,7 +574,7 @@
     "status": "machine-draft"
   },
   "emperor_dracai_of_aesir": {
-    "name_zh": "亚瑟德拉凯皇帝",
+    "name_zh": "阿萨龙皇",
     "name_en": "Emperor, Dracai of Aesir",
     "type_zh": "",
     "type_en": "Royal Draconic Warrior Wizard Hero - Young",
@@ -588,7 +588,7 @@
     "status": "machine-draft"
   },
   "enigma": {
-    "name_zh": "谜团",
+    "name_zh": "伊妮格玛",
     "name_en": "Enigma",
     "type_zh": "",
     "type_en": "Mystic Illusionist Hero - Young",
@@ -602,7 +602,7 @@
     "status": "machine-draft"
   },
   "enigma_ledger_of_ancestry": {
-    "name_zh": "祖先谜团账簿",
+    "name_zh": "伊妮格玛·先祖遗录",
     "name_en": "Enigma, Ledger of Ancestry",
     "type_zh": "",
     "type_en": "Mystic Illusionist Hero",
@@ -616,7 +616,7 @@
     "status": "machine-draft"
   },
   "enigma_new_moon": {
-    "name_zh": "谜团·新月",
+    "name_zh": "伊妮格玛·新月",
     "name_en": "Enigma, New Moon",
     "type_zh": "",
     "type_en": "Mystic Illusionist Hero - Young",
@@ -644,7 +644,7 @@
     "status": "machine-draft"
   },
   "fai_rising_rebellion": {
-    "name_zh": "法伊·崛起之叛",
+    "name_zh": "法伊·崛行叛焰",
     "name_en": "Fai, Rising Rebellion",
     "type_zh": "",
     "type_en": "Draconic Ninja Hero",
@@ -658,7 +658,7 @@
     "status": "machine-draft"
   },
   "fang": {
-    "name_zh": "方格",
+    "name_zh": "方",
     "name_en": "Fang",
     "type_zh": "",
     "type_en": "Royal Draconic Warrior Hero - Young",
@@ -672,7 +672,7 @@
     "status": "machine-draft"
   },
   "fang_dracai_of_blades": {
-    "name_zh": "方格·刃之德拉凯",
+    "name_zh": "方·锋刃之龙",
     "name_en": "Fang, Dracai of Blades",
     "type_zh": "",
     "type_en": "Royal Draconic Warrior Hero",
@@ -686,7 +686,7 @@
     "status": "machine-draft"
   },
   "fightmaster_kox": {
-    "name_zh": "斗技大师科克斯",
+    "name_zh": "斗技大师寇克斯",
     "name_en": "Fightmaster Kox",
     "type_zh": "",
     "type_en": "Guardian Hero - Pit-Fighter",
@@ -714,7 +714,7 @@
     "status": "machine-draft"
   },
   "florian_rotwood_harbinger": {
-    "name_zh": "弗洛里安·腐木预兆",
+    "name_zh": "弗洛里安·腐林引兆",
     "name_en": "Florian, Rotwood Harbinger",
     "type_zh": "",
     "type_en": "Elemental Runeblade Hero",
@@ -728,7 +728,7 @@
     "status": "machine-draft"
   },
   "frankie_make_ends_meat": {
-    "name_zh": "弗兰基·凑合度日",
+    "name_zh": "弗兰基·混口肉吃",
     "name_en": "Frankie, Make Ends Meat",
     "type_zh": "",
     "type_en": "Necromancer Hero - Young",
@@ -742,7 +742,7 @@
     "status": "machine-draft"
   },
   "genis_wotchuneed": {
-    "name_zh": "杰尼斯·你需要的东西",
+    "name_zh": "詹尼斯·有求必应",
     "name_en": "Genis Wotchuneed",
     "type_zh": "",
     "type_en": "Merchant Hero - Young",
@@ -756,7 +756,7 @@
     "status": "machine-draft"
   },
   "gravy_bones": {
-    "name_zh": "肉汁骸骨",
+    "name_zh": "格雷维·伯恩斯",
     "name_en": "Gravy Bones",
     "type_zh": "",
     "type_en": "Pirate Necromancer Hero - Young",
@@ -770,7 +770,7 @@
     "status": "machine-draft"
   },
   "gravy_bones_shipwrecked_looter": {
-    "name_zh": "肉汁骸骨·沉船掠夺者",
+    "name_zh": "格雷维·伯恩斯，掠船劫客",
     "name_en": "Gravy Bones, Shipwrecked Looter",
     "type_zh": "",
     "type_en": "Pirate Necromancer Hero",
@@ -784,7 +784,7 @@
     "status": "machine-draft"
   },
   "groundbreaker_crix": {
-    "name_zh": "破地者克里克斯",
+    "name_zh": "撼地奎珂丝",
     "name_en": "Groundbreaker Crix",
     "type_zh": "",
     "type_en": "Guardian Hero - Pit-Fighter",
@@ -798,7 +798,7 @@
     "status": "machine-draft"
   },
   "hala": {
-    "name_zh": "哈拉",
+    "name_zh": "哈菈",
     "name_en": "Hala",
     "type_zh": "",
     "type_en": "Warrior Hero - Young",
@@ -812,7 +812,7 @@
     "status": "machine-draft"
   },
   "hala_bladesaint_of_the_vow": {
-    "name_zh": "哈拉·誓约刀圣",
+    "name_zh": "哈菈·誓锋剑圣",
     "name_en": "Hala, Bladesaint of the Vow",
     "type_zh": "",
     "type_en": "Warrior Hero",
@@ -826,7 +826,7 @@
     "status": "machine-draft"
   },
   "ira_crimson_haze": {
-    "name_zh": "伊拉·绯红朦胧",
+    "name_zh": "伊拉·血雾迷踪",
     "name_en": "Ira, Crimson Haze",
     "type_zh": "",
     "type_en": "Ninja Hero - Young",
@@ -840,7 +840,7 @@
     "status": "machine-draft"
   },
   "ira_scarlet_revenger": {
-    "name_zh": "伊拉·猩红复仇者",
+    "name_zh": "伊拉·猩红仇敌",
     "name_en": "Ira, Scarlet Revenger",
     "type_zh": "",
     "type_en": "Ninja Hero",
@@ -868,7 +868,7 @@
     "status": "machine-draft"
   },
   "iyslander_stormbind": {
-    "name_zh": "艾斯兰德·风暴束缚",
+    "name_zh": "艾斯兰德·风暴统御",
     "name_en": "Iyslander, Stormbind",
     "type_zh": "",
     "type_en": "Elemental Wizard Hero",
@@ -882,7 +882,7 @@
     "status": "machine-draft"
   },
   "jarl_vetrei_i": {
-    "name_zh": "贾尔·维特雷一世",
+    "name_zh": "贾尔·维崔迪",
     "name_en": "Jarl Vetreiði",
     "type_zh": "",
     "type_en": "Elemental Guardian Hero",
@@ -910,7 +910,7 @@
     "status": "machine-draft"
   },
   "kano_dracai_of_aether": {
-    "name_zh": "卡诺·以太德拉凯",
+    "name_zh": "卡诺·以太之龙",
     "name_en": "Kano, Dracai of Aether",
     "type_zh": "",
     "type_en": "Wizard Hero",
@@ -938,7 +938,7 @@
     "status": "machine-draft"
   },
   "kassai_cintari_sellsword": {
-    "name_zh": "卡赛·辛塔里雇佣兵",
+    "name_zh": "卡赛·辛塔里佣剑",
     "name_en": "Kassai, Cintari Sellsword",
     "type_zh": "",
     "type_en": "Warrior Hero - Young",
@@ -980,7 +980,7 @@
     "status": "machine-draft"
   },
   "katsu_the_wanderer": {
-    "name_zh": "卡兹·流浪者",
+    "name_zh": "浪行客卡兹",
     "name_en": "Katsu, the Wanderer",
     "type_zh": "",
     "type_en": "Ninja Hero",
@@ -1008,7 +1008,7 @@
     "status": "machine-draft"
   },
   "kayo": {
-    "name_zh": "卡约",
+    "name_zh": "凯曜",
     "name_en": "Kayo",
     "type_zh": "",
     "type_en": "Brute Hero - Young",
@@ -1022,7 +1022,7 @@
     "status": "machine-draft"
   },
   "kayo_armed_and_dangerous": {
-    "name_zh": "卡约·武装且危险",
+    "name_zh": "凯曜·危险人物",
     "name_en": "Kayo, Armed and Dangerous",
     "type_zh": "",
     "type_en": "Brute Hero",
@@ -1036,7 +1036,7 @@
     "status": "machine-draft"
   },
   "kayo_berserker_runt": {
-    "name_zh": "卡约·狂战士小个子",
+    "name_zh": "凯曜·狂战小子",
     "name_en": "Kayo, Berserker Runt",
     "type_zh": "",
     "type_en": "Brute Hero - Young",
@@ -1050,7 +1050,7 @@
     "status": "machine-draft"
   },
   "kayo_strong_arm": {
-    "name_zh": "卡约·铁腕",
+    "name_zh": "铁腕凯曜",
     "name_en": "Kayo, Strong-arm",
     "type_zh": "",
     "type_en": "Reviled Brute Hero - Young",
@@ -1064,7 +1064,7 @@
     "status": "machine-draft"
   },
   "kayo_underhanded_cheat": {
-    "name_zh": "卡约·卑鄙作弊者",
+    "name_zh": "凯曜·偏锋狂徒",
     "name_en": "Kayo, Underhanded Cheat",
     "type_zh": "",
     "type_en": "Reviled Brute Hero",
@@ -1092,7 +1092,7 @@
     "status": "machine-draft"
   },
   "levia_shadowborn_abomination": {
-    "name_zh": "莱维娅·暗影所生之孽物",
+    "name_zh": "莱维娅·影裔孽物",
     "name_en": "Levia, Shadowborn Abomination",
     "type_zh": "",
     "type_en": "Shadow Brute Hero",
@@ -1106,7 +1106,7 @@
     "status": "machine-draft"
   },
   "lexi": {
-    "name_zh": "莱克西",
+    "name_zh": "蕾茜",
     "name_en": "Lexi",
     "type_zh": "",
     "type_en": "Elemental Ranger Hero - Young",
@@ -1120,7 +1120,7 @@
     "status": "machine-draft"
   },
   "lexi_livewire": {
-    "name_zh": "莱克西·活线",
+    "name_zh": "电掣蕾茜",
     "name_en": "Lexi, Livewire",
     "type_zh": "",
     "type_en": "Elemental Ranger Hero",
@@ -1134,7 +1134,7 @@
     "status": "machine-draft"
   },
   "lyath_goldmane": {
-    "name_zh": "莱雅斯·金鬃",
+    "name_zh": "金鬃莱亚斯",
     "name_en": "Lyath Goldmane",
     "type_zh": "",
     "type_en": "Reviled Guardian Hero - Young",
@@ -1148,7 +1148,7 @@
     "status": "machine-draft"
   },
   "lyath_goldmane_vile_savant": {
-    "name_zh": "莱雅斯·金鬃·卑鄙学者",
+    "name_zh": "金鬃莱亚斯·邪智奇才",
     "name_en": "Lyath Goldmane, Vile Savant",
     "type_zh": "",
     "type_en": "Reviled Guardian Hero",
@@ -1190,7 +1190,7 @@
     "status": "machine-draft"
   },
   "maxx_nitro": {
-    "name_zh": "马克斯·硝基",
+    "name_zh": "马克斯·奈绰",
     "name_en": "Maxx Nitro",
     "type_zh": "",
     "type_en": "Mechanologist Hero - Young",
@@ -1204,7 +1204,7 @@
     "status": "machine-draft"
   },
   "maxx_the_hype_nitro": {
-    "name_zh": "马克斯·狂热硝基",
+    "name_zh": "马克斯「炸场」奈绰",
     "name_en": "Maxx 'The Hype' Nitro",
     "type_zh": "",
     "type_en": "Mechanologist Hero",
@@ -1218,7 +1218,7 @@
     "status": "machine-draft"
   },
   "melody_sing_along": {
-    "name_zh": "旋律·跟唱",
+    "name_zh": "随唱玫乐蒂",
     "name_en": "Melody, Sing-along",
     "type_zh": "",
     "type_en": "Bard Hero - Young",
@@ -1232,7 +1232,7 @@
     "status": "machine-draft"
   },
   "nuu": {
-    "name_zh": "努乌",
+    "name_zh": "奴乌",
     "name_en": "Nuu",
     "type_zh": "",
     "type_en": "Mystic Assassin Hero - Young",
@@ -1246,7 +1246,7 @@
     "status": "machine-draft"
   },
   "nuu_alluring_desire": {
-    "name_zh": "努乌·诱人的欲望",
+    "name_zh": "奴乌·钩魂夺魄",
     "name_en": "Nuu, Alluring Desire",
     "type_zh": "",
     "type_en": "Mystic Assassin Hero",
@@ -1302,7 +1302,7 @@
     "status": "machine-draft"
   },
   "olympia_prized_fighter": {
-    "name_zh": "奥林匹亚·受宠斗士",
+    "name_zh": "奥林匹亚·王牌斗士",
     "name_en": "Olympia, Prized Fighter",
     "type_zh": "",
     "type_en": "Warrior Hero",
@@ -1316,7 +1316,7 @@
     "status": "machine-draft"
   },
   "oscilio": {
-    "name_zh": "奥斯西利奥",
+    "name_zh": "奥斯西琉",
     "name_en": "Oscilio",
     "type_zh": "",
     "type_en": "Elemental Wizard Hero - Young",
@@ -1330,7 +1330,7 @@
     "status": "machine-draft"
   },
   "oscilio_constella_intelligence": {
-    "name_zh": "奥斯西利奥·星象智识",
+    "name_zh": "奥斯西琉·星穹结智",
     "name_en": "Oscilio, Constella Intelligence",
     "type_zh": "",
     "type_en": "Elemental Wizard Hero",
@@ -1344,7 +1344,7 @@
     "status": "machine-draft"
   },
   "oscilio_forked_continuum": {
-    "name_zh": "奥斯西利奥·分叉连续体",
+    "name_zh": "奥斯西琉·异宙歧途",
     "name_en": "Oscilio, Forked Continuum",
     "type_zh": "",
     "type_en": "Lightning Wizard Hero",
@@ -1358,7 +1358,7 @@
     "status": "machine-draft"
   },
   "oscilio_scion_of_the_third_age": {
-    "name_zh": "奥斯西利奥·第三世代后裔",
+    "name_zh": "奥斯西琉·第三世代后裔",
     "name_en": "Oscilio, Scion of the Third Age",
     "type_zh": "",
     "type_en": "Lightning Wizard Hero - Young",
@@ -1372,7 +1372,7 @@
     "status": "machine-draft"
   },
   "pleiades": {
-    "name_zh": "昴宿",
+    "name_zh": "普莱迪丝",
     "name_en": "Pleiades",
     "type_zh": "",
     "type_en": "Revered Guardian Hero - Young",
@@ -1386,7 +1386,7 @@
     "status": "machine-draft"
   },
   "pleiades_superstar": {
-    "name_zh": "昴宿巨星",
+    "name_zh": "普莱迪丝·昴宿星曜",
     "name_en": "Pleiades, Superstar",
     "type_zh": "",
     "type_en": "Revered Guardian Hero",
@@ -1400,11 +1400,11 @@
     "status": "machine-draft"
   },
   "prism": {
-    "name_zh": "棱镜",
+    "name_zh": "普莉兹姆",
     "name_en": "Prism",
     "type_zh": "",
     "type_en": "Light Illusionist Hero - Young",
-    "text_zh": "每回合一次瞬间——支付2点资源，放逐棱镜灵魂中的一张牌：创造一个幻质护盾衍生物。",
+    "text_zh": "每回合一次瞬间——支付2点资源，放逐普莉兹姆灵魂中的一张牌：创造一个幻质护盾衍生物。",
     "text_en": "Once per Turn Instant - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token.",
     "pitch": null,
     "cost": "",
@@ -1414,11 +1414,11 @@
     "status": "machine-draft"
   },
   "prism_advent_of_thrones": {
-    "name_zh": "棱镜·王座降临",
+    "name_zh": "普莉兹姆·列王驾临",
     "name_en": "Prism, Advent of Thrones",
     "type_zh": "",
     "type_en": "Light Illusionist Hero - Young",
-    "text_zh": "每当行动阶段期间一张名称中含有先驱者的牌被置入棱镜的灵魂时，你可以从你的牌库中搜寻一张幻象，将其放入竞技场，然后洗牌。\n每回合一次瞬间——支付2点资源，放逐棱镜灵魂中的一张牌：唤醒你控制的目标幻象。",
+    "text_zh": "每当行动阶段期间一张名称中含有先驱者的牌被置入普莉兹姆的灵魂时，你可以从你的牌库中搜寻一张幻象，将其放入竞技场，然后洗牌。\n每回合一次瞬间——支付2点资源，放逐普莉兹姆灵魂中的一张牌：唤醒你控制的目标幻象。",
     "text_en": "Whenever a card with Herald in its name is put into Prism's soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.\nOnce per Turn Instant - {r}{r}, banish a card from Prism's soul: Awaken target figment you control.",
     "pitch": null,
     "cost": "",
@@ -1428,11 +1428,11 @@
     "status": "machine-draft"
   },
   "prism_awakener_of_sol": {
-    "name_zh": "棱镜·太阳唤醒者",
+    "name_zh": "普莉兹姆·唤日使徒",
     "name_en": "Prism, Awakener of Sol",
     "type_zh": "",
     "type_en": "Light Illusionist Hero",
-    "text_zh": "每当行动阶段期间一张名称中含有先驱者的牌被置入棱镜的灵魂时，你可以从你的牌库中搜寻一张幻象，将其放入竞技场，然后洗牌。\n每回合一次瞬间——支付2点资源，放逐棱镜灵魂中的一张牌：唤醒你控制的目标幻象。",
+    "text_zh": "每当行动阶段期间一张名称中含有先驱者的牌被置入普莉兹姆的灵魂时，你可以从你的牌库中搜寻一张幻象，将其放入竞技场，然后洗牌。\n每回合一次瞬间——支付2点资源，放逐普莉兹姆 灵魂中的一张牌：唤醒你控制的目标幻象。",
     "text_en": "Whenever a card with Herald in its name is put into Prism's soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.\nOnce per Turn Instant - {r}{r}, banish a card from Prism's soul: Awaken target figment you control.",
     "pitch": null,
     "cost": null,
@@ -1442,11 +1442,11 @@
     "status": "machine-draft"
   },
   "prism_sculptor_of_arc_light": {
-    "name_zh": "棱镜·弧光雕刻家",
+    "name_zh": "普莉兹姆·弧光雕客",
     "name_en": "Prism, Sculptor of Arc Light",
     "type_zh": "",
     "type_en": "Light Illusionist Hero",
-    "text_zh": "每回合一次瞬间——支付2点资源，放逐棱镜灵魂中的一张牌：创造一个幻质护盾衍生物。",
+    "text_zh": "每回合一次瞬间——支付2点资源，放逐普莉兹姆 灵魂中的一张牌：创造一个幻质护盾衍生物。",
     "text_en": "Once per Turn Instant - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token.",
     "pitch": null,
     "cost": null,
@@ -1470,7 +1470,7 @@
     "status": "machine-draft"
   },
   "puffin": {
-    "name_zh": "海雀",
+    "name_zh": "帕芬",
     "name_en": "Puffin",
     "type_zh": "",
     "type_en": "Pirate Mechanologist Hero - Young",
@@ -1484,7 +1484,7 @@
     "status": "machine-draft"
   },
   "puffin_hightail": {
-    "name_zh": "海雀·快步",
+    "name_zh": "疾驱帕芬",
     "name_en": "Puffin, Hightail",
     "type_zh": "",
     "type_en": "Pirate Mechanologist Hero",
@@ -1498,7 +1498,7 @@
     "status": "machine-draft"
   },
   "reya_the_unyielding": {
-    "name_zh": "不屈的蕾雅",
+    "name_zh": "不屈蕾雅",
     "name_en": "Reya, the Unyielding",
     "type_zh": "",
     "type_en": "Guardian Hero - Pit-Fighter",
@@ -1512,7 +1512,7 @@
     "status": "machine-draft"
   },
   "rhinar": {
-    "name_zh": "里纳尔",
+    "name_zh": "雷纳",
     "name_en": "Rhinar",
     "type_zh": "",
     "type_en": "Brute Hero - Young",
@@ -1526,7 +1526,7 @@
     "status": "machine-draft"
   },
   "rhinar_reckless_rampage": {
-    "name_zh": "里纳尔·鲁莽狂暴",
+    "name_zh": "雷纳·无羁狂怒",
     "name_en": "Rhinar, Reckless Rampage",
     "type_zh": "",
     "type_en": "Brute Hero",
@@ -1554,7 +1554,7 @@
     "status": "machine-draft"
   },
   "riptide_lurker_of_the_deep": {
-    "name_zh": "瑞普泰德·深海潜伏者",
+    "name_zh": "瑞普泰德·深潜伏客",
     "name_en": "Riptide, Lurker of the Deep",
     "type_zh": "",
     "type_en": "Ranger Hero",
@@ -1638,7 +1638,7 @@
     "status": "machine-draft"
   },
   "taipanis_dracai_of_judgement": {
-    "name_zh": "审判德拉凯·泰帕尼斯",
+    "name_zh": "审判之龙·泰帕尼斯",
     "name_en": "Taipanis, Dracai of Judgement",
     "type_zh": "",
     "type_en": "Draconic Adjudicator Hero",
@@ -1680,7 +1680,7 @@
     "status": "machine-draft"
   },
   "teklovossen_esteemed_magnate": {
-    "name_zh": "泰克洛沃森·尊贵大亨",
+    "name_zh": "泰克洛沃森·赫威巨擘",
     "name_en": "Teklovossen, Esteemed Magnate",
     "type_zh": "",
     "type_en": "Mechanologist Hero",
@@ -1694,7 +1694,7 @@
     "status": "machine-draft"
   },
   "terra": {
-    "name_zh": "特拉",
+    "name_zh": "泰拉",
     "name_en": "Terra",
     "type_zh": "",
     "type_en": "Elemental Guardian Hero - Young",
@@ -1708,7 +1708,7 @@
     "status": "machine-draft"
   },
   "the_librarian_magister_of_history": {
-    "name_zh": "历史首席学者·图书管理员",
+    "name_zh": "首席史学官·图书管理员",
     "name_en": "The Librarian, Magister of History",
     "type_zh": "",
     "type_en": "Light Adjudicator Hero",
@@ -1722,7 +1722,7 @@
     "status": "machine-draft"
   },
   "theryon_magister_of_justice": {
-    "name_zh": "正义首席学者·塞里昂",
+    "name_zh": "正义大裁官·塞瑞翁",
     "name_en": "Theryon, Magister of Justice",
     "type_zh": "",
     "type_en": "Light Adjudicator Hero",
@@ -1736,7 +1736,7 @@
     "status": "machine-draft"
   },
   "tuffnut": {
-    "name_zh": "硬汉",
+    "name_zh": "塔夫纳特",
     "name_en": "Tuffnut",
     "type_zh": "",
     "type_en": "Revered Brute Hero - Young",
@@ -1750,7 +1750,7 @@
     "status": "machine-draft"
   },
   "tuffnut_bumbling_hulkster": {
-    "name_zh": "硬汉笨拙猛将",
+    "name_zh": "塔夫纳特·笨拙猛将",
     "name_en": "Tuffnut, Bumbling Hulkster",
     "type_zh": "",
     "type_en": "Revered Brute Hero",
@@ -1764,7 +1764,7 @@
     "status": "machine-draft"
   },
   "uzuri": {
-    "name_zh": "乌祖里",
+    "name_zh": "乌祖瑞",
     "name_en": "Uzuri",
     "type_zh": "",
     "type_en": "Assassin Hero - Young",
@@ -1778,7 +1778,7 @@
     "status": "machine-draft"
   },
   "uzuri_switchblade": {
-    "name_zh": "乌祖里·弹簧刀",
+    "name_zh": "跳刀乌祖瑞",
     "name_en": "Uzuri, Switchblade",
     "type_zh": "",
     "type_en": "Assassin Hero",
@@ -1792,7 +1792,7 @@
     "status": "machine-draft"
   },
   "valda_brightaxe": {
-    "name_zh": "瓦尔达·明斧",
+    "name_zh": "瓦尔达·澄斧",
     "name_en": "Valda Brightaxe",
     "type_zh": "",
     "type_en": "Guardian Hero - Young",
@@ -1806,7 +1806,7 @@
     "status": "machine-draft"
   },
   "valda_seismic_impact": {
-    "name_zh": "瓦尔达·地震冲击",
+    "name_zh": "瓦尔妲·震波",
     "name_en": "Valda, Seismic Impact",
     "type_zh": "",
     "type_en": "Guardian Hero",
@@ -1834,7 +1834,7 @@
     "status": "machine-draft"
   },
   "verdance_thorn_of_the_rose": {
-    "name_zh": "沃丹斯·玫瑰之棘",
+    "name_zh": "沃丹斯·玫瑰棘锋",
     "name_en": "Verdance, Thorn of the Rose",
     "type_zh": "",
     "type_en": "Elemental Wizard Hero",
@@ -1862,7 +1862,7 @@
     "status": "machine-draft"
   },
   "victor_goldmane_high_and_mighty": {
-    "name_zh": "维克托·金鬃·趾高气昂",
+    "name_zh": "金鬃维克托·不可一世",
     "name_en": "Victor Goldmane, High and Mighty",
     "type_zh": "",
     "type_en": "Guardian Hero",
@@ -1876,7 +1876,7 @@
     "status": "machine-draft"
   },
   "victor_goldmane_match_fixer": {
-    "name_zh": "维克托·金鬃·比赛操纵者",
+    "name_zh": "金鬃维克托·只手遮天",
     "name_en": "Victor Goldmane, Match Fixer",
     "type_zh": "",
     "type_en": "Guardian Hero - Pit-Fighter",
@@ -1988,7 +1988,7 @@
     "status": "machine-draft"
   },
   "zen_tamer_of_purpose": {
-    "name_zh": "禅·目标驯服者",
+    "name_zh": "禅·驭心行者",
     "name_en": "Zen, Tamer of Purpose",
     "type_zh": "",
     "type_en": "Mystic Ninja Hero",
@@ -2002,7 +2002,7 @@
     "status": "machine-draft"
   },
   "zyggy": {
-    "name_zh": "齐吉",
+    "name_zh": "赛吉",
     "name_en": "Zyggy",
     "type_zh": "",
     "type_en": "Lightning Illusionist Hero - Young",
@@ -2016,7 +2016,7 @@
     "status": "machine-draft"
   },
   "zyggy_starlight": {
-    "name_zh": "齐吉·星光",
+    "name_zh": "星光赛吉",
     "name_en": "Zyggy Starlight",
     "type_zh": "",
     "type_en": "Lightning Illusionist Hero",

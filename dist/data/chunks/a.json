@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "a_bit_off_the_side": {
       "id": "a_bit_off_the_side",
@@ -1916,7 +1916,7 @@
     },
     "arakni_5l_p3d_7hru_7h3_cr4x": {
       "id": "arakni_5l_p3d_7hru_7h3_cr4x",
-      "name_zh": "阿拉克尼·5L_P3D_7HRU_7H3_CR4X",
+      "name_zh": "阿拉克尼·滑脱裂界",
       "name_en": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
       "type_zh": "",
       "text_zh": "每回合第一次具有隐匿的攻击获得再动。",
@@ -1973,7 +1973,7 @@
     },
     "arakni_huntsman": {
       "id": "arakni_huntsman",
-      "name_zh": "阿拉克尼·猎蛛",
+      "name_zh": "阿拉克尼·猎命狂蛛",
       "name_en": "Arakni, Huntsman",
       "type_zh": "",
       "text_zh": "每当你使用具有契约的牌时，你可以查看目标对手牌库顶的一张牌。你可以将其置于牌库底。",
@@ -1992,7 +1992,7 @@
     },
     "arakni_marionette": {
       "id": "arakni_marionette",
-      "name_zh": "阿拉克尼·提线木偶",
+      "name_zh": "阿拉克尼·索命傀儡",
       "name_en": "Arakni, Marionette",
       "type_zh": "",
       "text_zh": "你的正在攻击被标记的英雄的具有隐匿的攻击获得+1力量，以及“当此牌命中时，此牌获得再动。”\n在你的结束阶段开始时，若一位对手已被标记，你成为一名随机的混沌特工。",
@@ -2049,7 +2049,7 @@
     },
     "arakni_solitary_confinement": {
       "id": "arakni_solitary_confinement",
-      "name_zh": "阿拉克尼·隔离禁闭",
+      "name_zh": "阿拉克尼·孤禁疯魔",
       "name_en": "Arakni, Solitary Confinement",
       "type_zh": "",
       "text_zh": "你每回合第一次具有隐匿的攻击具有再动。",
@@ -2106,7 +2106,7 @@
     },
     "arakni_web_of_deceit": {
       "id": "arakni_web_of_deceit",
-      "name_zh": "阿拉克尼·欺骗之网",
+      "name_zh": "阿拉克尼·欺诈天罗",
       "name_en": "Arakni, Web of Deceit",
       "type_zh": "",
       "text_zh": "你的正在攻击被标记的英雄的具有隐匿的攻击获得+1力量，以及\"当此牌命中时，此牌获得再动。\"\n在你的结束阶段开始时，若一位对手已被标记，你成为一名随机的混沌特工。",
@@ -3319,7 +3319,7 @@
     },
     "aurora_legacy_of_tempest": {
       "id": "aurora_legacy_of_tempest",
-      "name_zh": "奥罗拉·风暴传承",
+      "name_zh": "奥罗拉·风暴后裔",
       "name_en": "Aurora, Legacy of Tempest",
       "type_zh": "",
       "text_zh": "瞬间——支付2点资源，横置此牌，摧毁你控制的一个闪电流转：创造一个闪电化身衍生物。",

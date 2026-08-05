@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "oaken_old": {
       "id": "oaken_old",
@@ -573,7 +573,7 @@
     },
     "olympia_prized_fighter": {
       "id": "olympia_prized_fighter",
-      "name_zh": "奥林匹亚·受宠斗士",
+      "name_zh": "奥林匹亚·王牌斗士",
       "name_en": "Olympia, Prized Fighter",
       "type_zh": "",
       "text_zh": "你的每次攻击第一次赢得下注时，创造一个金币衍生物。",
@@ -978,7 +978,7 @@
     },
     "oscilio": {
       "id": "oscilio",
-      "name_zh": "奥斯西利奥",
+      "name_zh": "奥斯西琉",
       "name_en": "Oscilio",
       "type_zh": "",
       "text_zh": "每回合一次瞬间——弃一张瞬间牌：抽一张牌。\n闪电精华",
@@ -999,7 +999,7 @@
     },
     "oscilio_constella_intelligence": {
       "id": "oscilio_constella_intelligence",
-      "name_zh": "奥斯西利奥·星象智识",
+      "name_zh": "奥斯西琉·星穹结智",
       "name_en": "Oscilio, Constella Intelligence",
       "type_zh": "",
       "text_zh": "每回合一次瞬间——弃一张瞬间牌：抽一张牌。\n闪电精华",
@@ -1020,7 +1020,7 @@
     },
     "oscilio_forked_continuum": {
       "id": "oscilio_forked_continuum",
-      "name_zh": "奥斯西利奥·分叉连续体",
+      "name_zh": "奥斯西琉·异宙歧途",
       "name_en": "Oscilio, Forked Continuum",
       "type_zh": "",
       "text_zh": "瞬间——支付1点资源，横置此牌，摧毁你控制的一个闪电流转：弃一张牌并创造一个沉思衍生物。若以此方式弃置的是一张瞬间，本回合你可以使用它。",
@@ -1039,7 +1039,7 @@
     },
     "oscilio_scion_of_the_third_age": {
       "id": "oscilio_scion_of_the_third_age",
-      "name_zh": "奥斯西利奥·第三世代后裔",
+      "name_zh": "奥斯西琉·第三世代后裔",
       "name_en": "Oscilio, Scion of the Third Age",
       "type_zh": "",
       "text_zh": "瞬间——支付1点资源，横置此牌，摧毁你控制的一个闪电流转：弃一张牌并创造一个沉思衍生物。若以此方式弃置的是一张瞬间，本回合你可以使用它。",

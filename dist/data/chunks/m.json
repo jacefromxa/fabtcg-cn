@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "machinations_of_dominion": {
       "id": "machinations_of_dominion",
@@ -1006,7 +1006,7 @@
     },
     "maxx_nitro": {
       "id": "maxx_nitro",
-      "name_zh": "马克斯·硝基",
+      "name_zh": "马克斯·奈绰",
       "name_en": "Maxx Nitro",
       "type_zh": "",
       "text_zh": "每回合一次行动——支付2点资源：创造一个带有2个蒸汽指示物的超频驱动器衍生物。仅当本回合你推进过时才能启动此异能。\n你控制的超频驱动器获得上弦。",
@@ -1025,7 +1025,7 @@
     },
     "maxx_the_hype_nitro": {
       "id": "maxx_the_hype_nitro",
-      "name_zh": "马克斯·狂热硝基",
+      "name_zh": "马克斯「炸场」奈绰",
       "name_en": "Maxx 'The Hype' Nitro",
       "type_zh": "",
       "text_zh": "每回合一次行动——支付2点资源：创造一个带有2个蒸汽指示物的超频驱动器衍生物。仅当本回合你推进过时才能启动此异能。\n你控制的超频驱动器获得上弦。",
@@ -1295,7 +1295,7 @@
     },
     "melody_sing_along": {
       "id": "melody_sing_along",
-      "name_zh": "旋律·跟唱",
+      "name_zh": "随唱玫乐蒂",
       "name_en": "Melody, Sing-along",
       "type_zh": "",
       "text_zh": "每当你使用歌曲时，创造与游戏中其他英雄数量相等的铜币衍生物。",

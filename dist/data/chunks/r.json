@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "radiant_flow": {
       "id": "radiant_flow",
@@ -2405,7 +2405,7 @@
     },
     "reya_the_unyielding": {
       "id": "reya_the_unyielding",
-      "name_zh": "不屈的蕾雅",
+      "name_zh": "不屈蕾雅",
       "name_en": "Reya, the Unyielding",
       "type_zh": "",
       "text_zh": "你拥有的防御值和防御为1或更高的装备获得守护。\n每当你守护另一位英雄时，创造一个金币衍生物。",
@@ -2424,7 +2424,7 @@
     },
     "rhinar": {
       "id": "rhinar",
-      "name_zh": "里纳尔",
+      "name_zh": "雷纳",
       "name_en": "Rhinar",
       "type_zh": "",
       "text_zh": "每当你在你的行动阶段期间弃置一张力量为6或更高的牌时，威吓。",
@@ -2445,7 +2445,7 @@
     },
     "rhinar_reckless_rampage": {
       "id": "rhinar_reckless_rampage",
-      "name_zh": "里纳尔·鲁莽狂暴",
+      "name_zh": "雷纳·无羁狂怒",
       "name_en": "Rhinar, Reckless Rampage",
       "type_zh": "",
       "text_zh": "每当你在你的行动阶段期间弃置一张力量为6或更高的牌时，威吓。",
@@ -3036,7 +3036,7 @@
     },
     "riptide_lurker_of_the_deep": {
       "id": "riptide_lurker_of_the_deep",
-      "name_zh": "瑞普泰德·深海潜伏者",
+      "name_zh": "瑞普泰德·深潜伏客",
       "name_en": "Riptide, Lurker of the Deep",
       "type_zh": "",
       "text_zh": "每当你从手牌使用牌时，你可以将手牌中的一张牌牌面朝下放入你的军械库。\n每当你控制的陷阱触发时，对攻击英雄造成1点伤害。",

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "kabuto_of_imperial_authority": {
       "id": "kabuto_of_imperial_authority",
@@ -44,7 +44,7 @@
     },
     "kano_dracai_of_aether": {
       "id": "kano_dracai_of_aether",
-      "name_zh": "卡诺·以太德拉凯",
+      "name_zh": "卡诺·以太之龙",
       "name_en": "Kano, Dracai of Aether",
       "type_zh": "",
       "text_zh": "瞬间——支付3点资源：查看你牌库顶的一张牌。若其为“非攻击”行动牌，你可以放逐它。若如此做，本回合你可以将它当作瞬间使用。",
@@ -82,7 +82,7 @@
     },
     "kassai_cintari_sellsword": {
       "id": "kassai_cintari_sellsword",
-      "name_zh": "卡赛·辛塔里雇佣兵",
+      "name_zh": "卡赛·辛塔里佣剑",
       "name_en": "Kassai, Cintari Sellsword",
       "type_zh": "",
       "text_zh": "你每回合的第二次剑攻击使用费用减少1点资源。\n在你的结束阶段开始时，若本回合你用武器攻击过两次或更多，每有一次武器攻击命中，创造一个铜币衍生物。",
@@ -139,7 +139,7 @@
     },
     "katsu_the_wanderer": {
       "id": "katsu_the_wanderer",
-      "name_zh": "卡兹·流浪者",
+      "name_zh": "浪行客卡兹",
       "name_en": "Katsu, the Wanderer",
       "type_zh": "",
       "text_zh": "每回合第一次你控制的攻击行动牌命中时，你可以弃一张费用为0的牌。若如此做，从你的牌库中搜寻一张具有连击的牌，正面朝上放逐它，然后洗牌。本回合你可以使用它。",
@@ -177,7 +177,7 @@
     },
     "kayo": {
       "id": "kayo",
-      "name_zh": "卡约",
+      "name_zh": "凯曜",
       "name_en": "Kayo",
       "type_zh": "",
       "text_zh": "你拥有1个武器区域。\n你拥有的攻击行动牌在战斗链以外的任意区域期间获得+1力量。\n在你每个行动阶段期间你第一次弃置力量为6或更高的牌时，创造一个力量衍生物。",
@@ -196,7 +196,7 @@
     },
     "kayo_armed_and_dangerous": {
       "id": "kayo_armed_and_dangerous",
-      "name_zh": "卡约·武装且危险",
+      "name_zh": "凯曜·危险人物",
       "name_en": "Kayo, Armed and Dangerous",
       "type_zh": "",
       "text_zh": "你拥有1个武器区域。\n你拥有的攻击行动牌在战斗链以外的任意区域期间获得+1力量。\n在你每个行动阶段期间你第一次弃置力量为6或更高的牌时，创造一个力量衍生物。",
@@ -215,7 +215,7 @@
     },
     "kayo_berserker_runt": {
       "id": "kayo_berserker_runt",
-      "name_zh": "卡约·狂战士小个子",
+      "name_zh": "凯曜·狂战小子",
       "name_en": "Kayo, Berserker Runt",
       "type_zh": "",
       "text_zh": "每当你使用基础力量为6或更高的攻击行动牌时，掷一枚六面骰。若掷出：\n1至4——该攻击的基础力量减半（向下取整）。\n5至6——该攻击的基础力量翻倍。",
@@ -234,7 +234,7 @@
     },
     "kayo_strong_arm": {
       "id": "kayo_strong_arm",
-      "name_zh": "卡约·铁腕",
+      "name_zh": "铁腕凯曜",
       "name_en": "Kayo, Strong-arm",
       "type_zh": "",
       "text_zh": "你以1个武器区域开始游戏。\n瞬间——支付4点资源，横置此牌：你控制的目标攻击行动牌具有6点基础力量。\n每当观众为你喝倒彩时，创造一个活力衍生物。",
@@ -253,7 +253,7 @@
     },
     "kayo_underhanded_cheat": {
       "id": "kayo_underhanded_cheat",
-      "name_zh": "卡约·卑鄙作弊者",
+      "name_zh": "凯曜·偏锋狂徒",
       "name_en": "Kayo, Underhanded Cheat",
       "type_zh": "",
       "text_zh": "你以1个武器区域开始游戏。\n瞬间——支付4点资源，横置此牌：你控制的目标攻击行动牌具有6点基础力量。\n每当观众为你喝倒彩时，创造一个活力衍生物。",

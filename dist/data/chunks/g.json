@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "galaxxi_black": {
       "id": "galaxxi_black",
@@ -480,7 +480,7 @@
     },
     "genis_wotchuneed": {
       "id": "genis_wotchuneed",
-      "name_zh": "杰尼斯·你需要的东西",
+      "name_zh": "詹尼斯·有求必应",
       "name_en": "Genis Wotchuneed",
       "type_zh": "",
       "text_zh": "每回合一次行动——支付2点资源：每位其他英雄可以将其手牌中的一张牌置于其牌库底。若该英雄如此做，该英雄抽一张牌，你创造一个银币衍生物。若你以此方式未获得银币，抽一张牌。再动",
@@ -2246,7 +2246,7 @@
     },
     "gravy_bones": {
       "id": "gravy_bones",
-      "name_zh": "肉汁骸骨",
+      "name_zh": "格雷维·伯恩斯",
       "name_en": "Gravy Bones",
       "type_zh": "",
       "text_zh": "瞬间——横置此牌，摧毁你控制的一个金币：抽一张牌，然后弃一张牌。\n若本回合有一张蓝色牌被置入你的坟场，你可以从你的坟场中使用具有水葬的牌。",
@@ -2265,7 +2265,7 @@
     },
     "gravy_bones_shipwrecked_looter": {
       "id": "gravy_bones_shipwrecked_looter",
-      "name_zh": "肉汁骸骨·沉船掠夺者",
+      "name_zh": "格雷维·伯恩斯，掠船劫客",
       "name_en": "Gravy Bones, Shipwrecked Looter",
       "type_zh": "",
       "text_zh": "瞬间——横置此牌，摧毁你控制的一个金币：抽一张牌，然后弃一张牌。\n若本回合有一张蓝色牌被置入你的坟场，你可以从你的坟场中使用具有水葬的牌。",
@@ -2433,7 +2433,7 @@
     },
     "groundbreaker_crix": {
       "id": "groundbreaker_crix",
-      "name_zh": "破地者克里克斯",
+      "name_zh": "撼地奎珂丝",
       "name_en": "Groundbreaker Crix",
       "type_zh": "",
       "text_zh": "你的攻击在攻击控制地震涌动衍生物的英雄时获得+1力量。\n每当你攻击守护者英雄时，与该英雄交锋。胜者创造一个地震涌动衍生物。",

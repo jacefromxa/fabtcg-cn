@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "ice_bolt": {
       "id": "ice_bolt",
@@ -1572,7 +1572,7 @@
     },
     "ira_crimson_haze": {
       "id": "ira_crimson_haze",
-      "name_zh": "伊拉·绯红朦胧",
+      "name_zh": "伊拉·血雾迷踪",
       "name_en": "Ira, Crimson Haze",
       "type_zh": "",
       "text_zh": "你每回合的第二次攻击获得+1力量。",
@@ -1591,7 +1591,7 @@
     },
     "ira_scarlet_revenger": {
       "id": "ira_scarlet_revenger",
-      "name_zh": "伊拉·猩红复仇者",
+      "name_zh": "伊拉·猩红仇敌",
       "name_en": "Ira, Scarlet Revenger",
       "type_zh": "",
       "text_zh": "你每回合的第二次攻击获得+1力量。",
@@ -2032,7 +2032,7 @@
     },
     "iyslander_stormbind": {
       "id": "iyslander_stormbind",
-      "name_zh": "艾斯兰德·风暴束缚",
+      "name_zh": "艾斯兰德·风暴统御",
       "name_en": "Iyslander, Stormbind",
       "type_zh": "",
       "text_zh": "冰精华\n若现在不是你的回合，你可以将你军械库中的蓝色“非攻击”行动牌当作瞬间使用。\n每当你在此牌对手的回合期间使用冰牌时，在其控制下创造一个霜咬衍生物。",

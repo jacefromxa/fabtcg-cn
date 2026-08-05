@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "fabric_of_blossoms": {
       "id": "fabric_of_blossoms",
@@ -222,7 +222,7 @@
     },
     "fai_rising_rebellion": {
       "id": "fai_rising_rebellion",
-      "name_zh": "法伊·崛起之叛",
+      "name_zh": "法伊·崛行叛焰",
       "name_en": "Fai, Rising Rebellion",
       "type_zh": "",
       "text_zh": "你可以以坟场中一张凤凰烈焰开始游戏。\n每回合一次瞬间——支付3点资源：将你坟场中的一张凤凰烈焰移回你的手牌。每当你控制一个龙裔链环，此异能费用减少1点资源。",
@@ -312,7 +312,7 @@
     },
     "fang": {
       "id": "fang",
-      "name_zh": "方格",
+      "name_zh": "方",
       "name_en": "Fang",
       "type_zh": "",
       "text_zh": "每当你命中被标记的英雄时，创造一个效忠衍生物。\n若你控制3个或更多效忠衍生物，你启动匕首攻击的费用减少1点资源。",
@@ -331,7 +331,7 @@
     },
     "fang_dracai_of_blades": {
       "id": "fang_dracai_of_blades",
-      "name_zh": "方格·刃之德拉凯",
+      "name_zh": "方·锋刃之龙",
       "name_en": "Fang, Dracai of Blades",
       "type_zh": "",
       "text_zh": "每当你命中被标记的英雄时，创造一个效忠衍生物。\n若你控制3个或更多效忠衍生物，你启动匕首攻击的费用减少1点资源。",
@@ -981,7 +981,7 @@
     },
     "fightmaster_kox": {
       "id": "fightmaster_kox",
-      "name_zh": "斗技大师科克斯",
+      "name_zh": "斗技大师寇克斯",
       "name_en": "Fightmaster Kox",
       "type_zh": "",
       "text_zh": "行动——横置此牌，摧毁你控制的一个金币：查看事件牌库顶的3张牌，然后以任意顺序放回。再动",
@@ -2365,7 +2365,7 @@
     },
     "florian_rotwood_harbinger": {
       "id": "florian_rotwood_harbinger",
-      "name_zh": "弗洛里安·腐木预兆",
+      "name_zh": "弗洛里安·腐林引兆",
       "name_en": "Florian, Rotwood Harbinger",
       "type_zh": "",
       "text_zh": "若你的放逐区有8张或更多大地牌，弗洛里安获得“若你将创造1个或更多光环衍生物，改为创造数量加1的每种这些衍生物。”\n大地精华",
@@ -3071,7 +3071,7 @@
     },
     "frankie_make_ends_meat": {
       "id": "frankie_make_ends_meat",
-      "name_zh": "弗兰基·凑合度日",
+      "name_zh": "弗兰基·混口肉吃",
       "name_en": "Frankie, Make Ends Meat",
       "type_zh": "",
       "text_zh": "每当你控制的装备将被置入坟场时，改为放逐它。\n行动——支付3点资源，横置此牌：装备坟场中的一件装备。再动",

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "earth_form": {
       "id": "earth_form",
@@ -1130,7 +1130,7 @@
     },
     "emperor_dracai_of_aesir": {
       "id": "emperor_dracai_of_aesir",
-      "name_zh": "亚瑟德拉凯皇帝",
+      "name_zh": "阿萨龙皇",
       "name_en": "Emperor, Dracai of Aesir",
       "type_zh": "",
       "text_zh": "你的牌库中只能有红色牌。\n行动——支付3点资源：从你的牌库中搜寻指挥与征服，用它攻击，然后洗牌。",
@@ -1667,7 +1667,7 @@
     },
     "enigma": {
       "id": "enigma",
-      "name_zh": "谜团",
+      "name_zh": "伊妮格玛",
       "name_en": "Enigma",
       "type_zh": "",
       "text_zh": "你每回合的第一次幻质护盾攻击启动费用减少1点资源。\n每回合一次瞬间——支付3点资源：创造一个带有一个+1力量指示物的幻质护盾衍生物。",
@@ -1719,7 +1719,7 @@
     },
     "enigma_ledger_of_ancestry": {
       "id": "enigma_ledger_of_ancestry",
-      "name_zh": "祖先谜团账簿",
+      "name_zh": "伊妮格玛·先祖遗录",
       "name_en": "Enigma, Ledger of Ancestry",
       "type_zh": "",
       "text_zh": "你每回合的第一次幻质护盾攻击启动费用减少1点资源。\n每回合一次瞬间——支付3点资源：创造一个带有一个+1力量指示物的幻质护盾衍生物。",
@@ -1738,7 +1738,7 @@
     },
     "enigma_new_moon": {
       "id": "enigma_new_moon",
-      "name_zh": "谜团·新月",
+      "name_zh": "伊妮格玛·新月",
       "name_en": "Enigma, New Moon",
       "type_zh": "",
       "text_zh": "你拥有的装备获得翳装。\n瞬间——支付3点资源：将目标你已装备的牌面朝下的装备翻为正面朝上。若其具有结界，创造3个幻质护盾衍生物。",

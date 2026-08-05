@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "baalghor_omen_of_the_end": {
       "id": "baalghor_omen_of_the_end",
@@ -2033,7 +2033,7 @@
     },
     "betsy_skin_in_the_game": {
       "id": "betsy_skin_in_the_game",
-      "name_zh": "贝特西·投入其中",
+      "name_zh": "贝特西·以身入局",
       "name_en": "Betsy, Skin in the Game",
       "type_zh": "",
       "text_zh": "每当你控制的攻击下注时，你可以支付2点资源。若如此做，该攻击获得+1力量和压制。",
@@ -5442,7 +5442,7 @@
     },
     "bravo_flattering_showman": {
       "id": "bravo_flattering_showman",
-      "name_zh": "布拉沃·奉承表演家",
+      "name_zh": "布拉沃·捧场名角",
       "name_en": "Bravo, Flattering Showman",
       "type_zh": "",
       "text_zh": "行动——支付2点资源，横置此牌：将你军械库中的一张牌面朝下的牌翻为正面朝上。若其具有粉碎，本回合它获得+2力量和支配。再动",
@@ -5463,7 +5463,7 @@
     },
     "bravo_showstopper": {
       "id": "bravo_showstopper",
-      "name_zh": "布拉沃·压轴明星",
+      "name_zh": "布拉沃·压轴大角",
       "name_en": "Bravo, Showstopper",
       "type_zh": "",
       "text_zh": "行动——支付2点资源：直到回合结束，你使用的费用为3或更高的攻击行动牌获得支配。再动",
@@ -5482,7 +5482,7 @@
     },
     "bravo_star_of_the_show": {
       "id": "bravo_star_of_the_show",
-      "name_zh": "布拉沃·全场之星",
+      "name_zh": "布拉沃·镇场巨星",
       "name_en": "Bravo, Star of the Show",
       "type_zh": "",
       "text_zh": "大地、冰和闪电精华\n在你的回合开始时，你可以展示你手牌中的一张大地、一张冰和一张闪电牌。若如此做，你本回合使用的下一张费用为3或更高的攻击行动牌获得+2力量、支配和再动。",
@@ -5820,7 +5820,7 @@
     },
     "briar": {
       "id": "briar",
-      "name_zh": "布里亚",
+      "name_zh": "布莱尔",
       "name_en": "Briar",
       "type_zh": "",
       "text_zh": "大地与闪电精华\n你控制的攻击行动牌第一次对对手英雄造成伤害时，创造一个大地化身衍生物。\n每回合当你使用第二张\"非攻击\"行动牌时，创造一个闪电化身衍生物。",
@@ -5841,7 +5841,7 @@
     },
     "briar_warden_of_thorns": {
       "id": "briar_warden_of_thorns",
-      "name_zh": "荆棘守望者·布里亚",
+      "name_zh": "荆棘守望者·布莱尔",
       "name_en": "Briar, Warden of Thorns",
       "type_zh": "",
       "text_zh": "大地与闪电精华\n你控制的攻击行动牌第一次对对手英雄造成伤害时，创造一个大地化身衍生物。\n每回合当你使用第二张“非攻击”行动牌时，创造一个闪电化身衍生物。",

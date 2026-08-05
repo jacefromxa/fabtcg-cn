@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "cadaverous_contraband": {
       "id": "cadaverous_contraband",
@@ -1720,7 +1720,7 @@
     },
     "cindra_dracai_of_retribution": {
       "id": "cindra_dracai_of_retribution",
-      "name_zh": "辛德拉·天罚之德拉凯",
+      "name_zh": "辛德拉·天罚之龙",
       "name_en": "Cindra, Dracai of Retribution",
       "type_zh": "",
       "text_zh": "每当你命中被标记的英雄时，创造一个效忠衍生物。\n每回合一次瞬间——支付3点资源：从你的坟场中装备至多2把龙裔匕首。每当你控制一个龙裔链环，此异能启动费用减少1点资源。",

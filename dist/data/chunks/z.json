@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "zap": {
       "id": "zap",
@@ -127,7 +127,7 @@
     },
     "zen_tamer_of_purpose": {
       "id": "zen_tamer_of_purpose",
-      "name_zh": "禅·目标驯服者",
+      "name_zh": "禅·驭心行者",
       "name_en": "Zen, Tamer of Purpose",
       "type_zh": "",
       "text_zh": "每回合一次瞬间——支付3点资源：在你的手牌中创造一张卧虎。从你的牌库中搜寻一张具有连击的牌，放逐它，然后洗牌。本回合你可以使用它。",
@@ -319,7 +319,7 @@
     },
     "zyggy": {
       "id": "zyggy",
-      "name_zh": "齐吉",
+      "name_zh": "赛吉",
       "name_en": "Zyggy",
       "type_zh": "",
       "text_zh": "瞬间——支付2点资源，横置此牌，摧毁你控制的一个闪电流转，放逐你控制的另一个没有全息指示物的闪电光环永久物：将被放逐的光环带有一个全息指示物地移回竞技场。",
@@ -338,7 +338,7 @@
     },
     "zyggy_starlight": {
       "id": "zyggy_starlight",
-      "name_zh": "齐吉·星光",
+      "name_zh": "星光赛吉",
       "name_en": "Zyggy Starlight",
       "type_zh": "",
       "text_zh": "瞬间——支付2点资源，横置此牌，摧毁你控制的一个闪电流转，放逐你控制的另一个没有全息指示物的闪电光环永久物：将被放逐的光环带有一个全息指示物地移回竞技场。",

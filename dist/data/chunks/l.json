@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "lace_with_bloodrot": {
       "id": "lace_with_bloodrot",
@@ -967,7 +967,7 @@
     },
     "levia_shadowborn_abomination": {
       "id": "levia_shadowborn_abomination",
-      "name_zh": "莱维娅·暗影所生之孽物",
+      "name_zh": "莱维娅·影裔孽物",
       "name_en": "Levia, Shadowborn Abomination",
       "type_zh": "",
       "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，在结束阶段期间你拥有的牌失去血债。",
@@ -986,7 +986,7 @@
     },
     "lexi": {
       "id": "lexi",
-      "name_zh": "莱克西",
+      "name_zh": "蕾茜",
       "name_en": "Lexi",
       "type_zh": "",
       "text_zh": "冰与闪电精华\n每回合一次行动——将你军械库中的一张牌面朝下的牌翻为正面朝上：若其为闪电牌，你本回合的下一次攻击获得再动。若其为冰牌，在目标英雄的控制下创造一个霜咬衍生物。再动",
@@ -1007,7 +1007,7 @@
     },
     "lexi_livewire": {
       "id": "lexi_livewire",
-      "name_zh": "莱克西·活线",
+      "name_zh": "电掣蕾茜",
       "name_en": "Lexi, Livewire",
       "type_zh": "",
       "text_zh": "冰与闪电精华\n每回合一次行动——将你军械库中的一张牌面朝下的牌翻为正面朝上：若其为闪电牌，你本回合的下一次攻击获得再动。若其为冰牌，在目标英雄的控制下创造一个霜咬衍生物。再动",
@@ -2342,7 +2342,7 @@
     },
     "lyath_goldmane": {
       "id": "lyath_goldmane",
-      "name_zh": "莱雅斯·金鬃",
+      "name_zh": "金鬃莱亚斯",
       "name_en": "Lyath Goldmane",
       "type_zh": "",
       "text_zh": "你控制的牌的基础力量和防御减半（向上取整）。\n瞬间——支付2点资源，横置此牌：观众为你喝倒彩。本回合你控制的防御行动牌获得+1防御。\n每当观众为你喝倒彩时，创造一个力量衍生物。",
@@ -2361,7 +2361,7 @@
     },
     "lyath_goldmane_vile_savant": {
       "id": "lyath_goldmane_vile_savant",
-      "name_zh": "莱雅斯·金鬃·卑鄙学者",
+      "name_zh": "金鬃莱亚斯·邪智奇才",
       "name_en": "Lyath Goldmane, Vile Savant",
       "type_zh": "",
       "text_zh": "你控制的牌的基础力量和防御减半（向上取整）。\n瞬间——支付2点资源，横置此牌：观众为你喝倒彩。本回合你控制的防御行动牌获得+1防御。\n每当观众为你喝倒彩时，创造一个力量衍生物。",

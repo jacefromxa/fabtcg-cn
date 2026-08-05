@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "7291fa23ee28",
+  "version": "925b2d38969c",
   "cards": {
     "nasreth_the_soul_harrower": {
       "id": "nasreth_the_soul_harrower",
@@ -900,7 +900,7 @@
     },
     "nuu": {
       "id": "nuu",
-      "name_zh": "努乌",
+      "name_zh": "奴乌",
       "name_en": "Nuu",
       "type_zh": "",
       "text_zh": "你的具有隐匿的攻击获得\"当此链环结算时，放逐所有防御此牌的的行动牌。\"\n瞬间——支付3点资源：查看一位对手英雄牌库顶的一张牌。若其为蓝色，你可以放逐它。直到回合结束，你可以不支付费用使用该英雄放逐区中的蓝色牌。",
@@ -919,7 +919,7 @@
     },
     "nuu_alluring_desire": {
       "id": "nuu_alluring_desire",
-      "name_zh": "努乌·诱人的欲望",
+      "name_zh": "奴乌·钩魂夺魄",
       "name_en": "Nuu, Alluring Desire",
       "type_zh": "",
       "text_zh": "你的具有隐匿的攻击获得“当此链环结算时，放逐所有防御此牌的的行动牌。”\n瞬间——支付3点资源：查看一位对手英雄牌库顶的一张牌。若其为蓝色，你可以放逐它。直到回合结束，你可以不支付费用使用该英雄放逐区中的蓝色牌。",
