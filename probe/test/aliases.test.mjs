@@ -42,7 +42,7 @@ test('alias entries only carry slug and pitch', () => {
 
 // --- Browser-side key resolution -------------------------------------------
 
-const sourcePath = fileURLToPath(new URL('../probe.user.js', import.meta.url));
+const sourcePath = fileURLToPath(new URL('../talishar-cn.user.js', import.meta.url));
 const source = readFileSync(sourcePath, 'utf8');
 const browserSandbox = { URL };
 browserSandbox.window = browserSandbox;

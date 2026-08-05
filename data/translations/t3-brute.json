@@ -1455,32 +1455,6 @@
     "source": "https://cards.fabtcg.com/card/jaws_of_victory/",
     "status": "machine-draft"
   },
-  "kayo_armed_and_dangerous": {
-    "name_en": "Kayo, Armed and Dangerous",
-    "name_zh": "卡约·武装且危险",
-    "type_zh": "蛮将 英雄",
-    "text_en": "You have 1 weapon zone.\nAttack action cards you own get +1{p} while they are in any zone other than the combat chain.\nThe first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",
-    "text_zh": "你拥有1个武器区域。\n你拥有的攻击行动牌在战斗链以外的任意区域期间获得+1力量。\n在你每个行动阶段期间你第一次弃置力量为6或更高的牌时，创造一个力量衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/kayo_armed_and_dangerous/",
-    "status": "machine-draft"
-  },
-  "kayo_underhanded_cheat": {
-    "name_en": "Kayo, Underhanded Cheat",
-    "name_zh": "卡约·卑鄙作弊者",
-    "type_zh": "憎恶 蛮将 英雄",
-    "text_en": "You start the game with 1 weapon zone.\nInstant - {r}{r}{r}{r}, {t}: Target attack action card you control has 6 base {p}.\nWhenever the crowd boos you, create a Vigor token.",
-    "text_zh": "你以1个武器区域开始游戏。\n瞬间——支付4点资源，横置此牌：你控制的目标攻击行动牌具有6点基础力量。\n每当观众为你喝倒彩时，创造一个活力衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/kayo_underhanded_cheat/",
-    "status": "machine-draft"
-  },
   "lay_down_the_challenge__2": {
     "name_en": "Lay Down the Challenge",
     "name_zh": "提出挑战",
@@ -1492,19 +1466,6 @@
     "power": null,
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/lay_down_the_challenge/",
-    "status": "machine-draft"
-  },
-  "levia_shadowborn_abomination": {
-    "name_en": "Levia, Shadowborn Abomination",
-    "name_zh": "莱维娅·暗影所生之孽物",
-    "type_zh": "暗影 蛮将 英雄",
-    "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose blood debt during the end phase.",
-    "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，在结束阶段期间你拥有的牌失去血债。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/levia_shadowborn_abomination/",
     "status": "machine-draft"
   },
   "madcap_charger__1": {
@@ -2155,19 +2116,6 @@
     "power": "5",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/reincarnate/",
-    "status": "machine-draft"
-  },
-  "rhinar_reckless_rampage": {
-    "name_en": "Rhinar, Reckless Rampage",
-    "name_zh": "里纳尔·鲁莽狂暴",
-    "type_zh": "蛮将 英雄",
-    "text_en": "Whenever you discard a card with 6 or more {p} during your action phase, intimidate.",
-    "text_zh": "每当你在你的行动阶段期间弃置一张力量为6或更高的牌时，威吓。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/rhinar_reckless_rampage/",
     "status": "machine-draft"
   },
   "riled_up__1": {
@@ -3080,19 +3028,6 @@
     "source": "https://cards.fabtcg.com/card/tribute_to_the_legions_of_doom/",
     "status": "machine-draft"
   },
-  "tuffnut_bumbling_hulkster": {
-    "name_en": "Tuffnut, Bumbling Hulkster",
-    "name_zh": "硬汉笨拙猛将",
-    "type_zh": "崇敬 蛮将 英雄",
-    "text_en": "Instant - {t}: Pitch the top card of your deck. If it has 6 or more {p}, the crowd cheers you.\nWhenever the crowd cheers you, create a Toughness token.",
-    "text_zh": "瞬间——横置此牌：资源你牌库顶的一张牌。若其力量为6或更高，观众为你欢呼。\n每当观众为你欢呼时，创造一个坚韧衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/tuffnut_bumbling_hulkster/",
-    "status": "machine-draft"
-  },
   "unexpected_backhand__1": {
     "name_en": "Unexpected Backhand",
     "name_zh": "出其不意的反手",
@@ -3416,6 +3351,48 @@
     "power": "4",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/writhing_beast_hulk/",
+    "status": "machine-draft"
+  },
+  "berserk__2": {
+    "name_zh": "狂暴",
+    "name_en": "Berserk",
+    "type_zh": "",
+    "type_en": "Brute Action",
+    "text_zh": "直到回合结束，每当你随机弃置一张力量为6或更高的牌时，放逐它。若如此做，展示你牌库顶的3张牌。你可以使用一张以此方式展示且力量为6或更高的牌。\n再动",
+    "text_en": "Until end of turn, whenever you discard a random card with 6 or more {p}, banish it. If you do, reveal the top card of your deck. If it has 6 or more {p}, draw a card.\nGo again",
+    "pitch": "2",
+    "cost": "1",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/berserk/",
+    "status": "machine-draft"
+  },
+  "chief_rukutan": {
+    "name_zh": "首领鲁库坦",
+    "name_en": "Chief Ruk'utan",
+    "type_zh": "",
+    "type_en": "Brute Mentor",
+    "text_zh": "当鲁库坦牌面朝下在军械库中时，在你的回合开始时，你可以将他翻为正面朝上。\n当鲁库坦正面朝上在军械库中时，每当你使用一张力量为6或更高的牌时，威吓，并在其上放置一个课业指示物。然后若鲁库坦上有2个或更多课业指示物，放逐他，从你的牌库中搜寻阿尔法狂暴，将其正面朝上放入军械库，然后洗牌。",
+    "text_en": "While Ruk'utan is face down in arsenal, at the start of your turn, you may turn him face up.\nWhile Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p}, intimidate, and put a lesson counter on him. Then if there are 2 or more lesson counters on Ruk'utan, banish him, search your deck for Alpha Rampage, put it face up in arsenal, and shuffle.",
+    "pitch": null,
+    "cost": "",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/chief_rukutan/",
+    "status": "machine-draft"
+  },
+  "lady_barthimont": {
+    "name_zh": "巴希蒙特女士",
+    "name_en": "Lady Barthimont",
+    "type_zh": "",
+    "type_en": "Brute Mentor",
+    "text_zh": "当巴希蒙特牌面朝下在军械库中时，在你的回合开始时，你可以将她翻为正面朝上。\n当巴希蒙特正面朝上在军械库中时，每当你使用攻击行动牌时，放逐你牌库顶的一张牌。若被放逐的牌力量为6或更高，该攻击获得支配，并在巴希蒙特上放置一个课业指示物。然后若她上有2个或更多课业指示物，放逐她，从你的牌库中搜寻一张专精牌，将其正面朝上放入军械库，然后洗牌。",
+    "text_en": "While Barthimont is face down in arsenal, at the start of your turn, you may turn her face up.\nWhile Barthimont is face up in arsenal, whenever you play an attack action card, banish the top card of your deck. If the banished card has 6 or more {p}, the attack gains dominate and put a lesson counter on Barthimont. Then if there are 2 or more lesson counters on her, banish her, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
+    "pitch": null,
+    "cost": "",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/lady_barthimont/",
     "status": "machine-draft"
   }
 }

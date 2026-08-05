@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "10_000_year_reunion": {
       "id": "10_000_year_reunion",
@@ -6016,10 +6016,6 @@
     },
     "jarl_vetrei_i": {
       "id": "jarl_vetrei_i",
-      "chunk": "chunks/j.json"
-    },
-    "jarl_vetreii": {
-      "id": "jarl_vetreii",
       "chunk": "chunks/j.json"
     },
     "jaws_of_victory": {

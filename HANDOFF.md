@@ -270,21 +270,23 @@ needs-review
 ```text
 data/translations/
   human-reviewed.json       ← 人工审核原稿（37 张 Jarl 牌组卡），机器生成永不触碰
+  heroes.json               ← 全部英雄卡（145 张），按 slugifyCardName(name) 规范 key 归档，同名英雄相邻排列
   t1-generic.json           ← 通用牌（按类型，不按合法性）
   t2-equipment.json         ← 装备/武器
   t3-warrior.json           ← 战士
   t3-guardian.json          ← 守护者
   ...                       ← 其余 t3-* 按职业/属性
-  t3-other.json             ← 兜底批次（Event / Adjudicator / Macro / 特殊卡等）
+  t4-remaining.json         ← 兜底批次（34 张 Event / Adjudicator / Macro / 特殊卡；生成器侧称 t3-other）
 ```
 
-**批次分配规则（`scripts/build-translation-drafts.mjs` 的 `getT3BatchName` / T1 / T2 过滤器）：**
+**批次分配规则（`scripts/build-translation-drafts.mjs` 的 `getT3BatchName` / T1 / T2 / T4 过滤器）：**
 
 1. 纯按卡牌类型/职业/属性归类，**不做任何合法性判断**；
 2. 优先级：T1 通用 → T2 装备 → T3 职业/属性（第一匹配优先）→ `t3-other` 兜底；
-3. 保证 `cards.json` 中 4,941 张卡**每张都有且仅有一个批次归属**；
-4. 同名多 pitch 用 `__1 / __2 / __3` 后缀区分，聚合后并入同一卡牌 ID 的 `variants`；
-5. `human-reviewed.json` 中的人工卡（裸 key + 卡内 pitch）与机器稿（`__pitch` 后缀）按 **slug + pitch** 去重，人工覆盖的 pitch 不再生成重复机器稿；未覆盖的 pitch 保留为合法机器稿。
+3. **Hero 类型卡一律不进 T1–T4 自动批次**（`isHeroCard` 过滤），只归 `heroes.json`；重新生成任何批次都不会把英雄写回批次文件；
+4. 保证 `cards.json` 中 4,941 张卡**每张都有且仅有一个批次归属**；
+5. 同名多 pitch 用 `__1 / __2 / __3` 后缀区分，聚合后并入同一卡牌 ID 的 `variants`；
+6. `human-reviewed.json` 中的人工卡（裸 key + 卡内 pitch）与机器稿（`__pitch` 后缀）按 **slug + pitch** 去重，人工覆盖的 pitch 不再生成重复机器稿；未覆盖的 pitch 保留为合法机器稿。
 
 **构建与维护方式：**
 
@@ -302,6 +304,9 @@ cd probe && npm run build:data
 - `build-card-data.mjs` 的 `loadZhTranslations()` 读取 `data/translations/` 全部 JSON 合并成内存映射用于构建；`dist/data/` 产物与用户脚本保持不变。
 - 后续翻译工作流程：改对应批次的 JSON 文件（或让生成器先产出骨架），翻译完成保持 `status: machine-draft`，人工确认后改 `human-reviewed`。**不要**把翻译写回单个大 JSON，也不要重新拆分。
 - `scripts/split-zh-translations.mjs` 是 2026-08-05 的一次性迁移脚本（大文件 → 分批），已执行完毕，无需重跑。
+- `scripts/consolidate-heroes.mjs` 是 2026-08-05 的一次性迁移脚本：把散落在各 t3 批次的英雄卡归拢进 `heroes.json`，统一为 `slugifyCardName(name)` 规范 key（`jarl_vetreii → jarl_vetrei_i`），并把 `jarl_vetreii` 等非规范 key 改名对齐别名表。已执行完毕，幂等，可重跑自检。
+- `scripts/consolidate-t4.mjs` 是 2026-08-05 的一次性迁移脚本：把 t4-remaining 中 85 条实属 T1/T2/具体 T3 批次的卡归位到各自批次文件，t4 只留真正的兜底卡（34 张）。已执行完毕，幂等。
+  - **已知命名不一致（暂保留）**：生成器的兜底批次名是 `t3-other`，而实际文件是 `t4-remaining.json`；`isT4RemainingCard` 过滤器当前为空（兜底卡由 `getT3BatchName` 返回 `t3-other` 归到 t4 文件）。重跑 `t3-other` 批次会写入不存在的 `t3-other.json`，需先二选一收敛命名。
 
 ## 6. P1：完善 Talishar 卡牌 ID 映射
 

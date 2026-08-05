@@ -1559,32 +1559,6 @@
     "source": "https://cards.fabtcg.com/card/index/",
     "status": "machine-draft"
   },
-  "iyslander_stormbind": {
-    "name_en": "Iyslander, Stormbind",
-    "name_zh": "艾斯兰德·风暴束缚",
-    "type_zh": "元素 法师 英雄",
-    "text_en": "Essence of Ice\nIf it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.\nWhenever you play an Ice card during an opponents turn, create a Frostbite token under their control.",
-    "text_zh": "冰精华\n若现在不是你的回合，你可以将你军械库中的蓝色“非攻击”行动牌当作瞬间使用。\n每当你在此牌对手的回合期间使用冰牌时，在其控制下创造一个霜咬衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/iyslander_stormbind/",
-    "status": "machine-draft"
-  },
-  "kano_dracai_of_aether": {
-    "name_en": "Kano, Dracai of Aether",
-    "name_zh": "卡诺·以太德拉凯",
-    "type_zh": "法师 英雄",
-    "text_en": "Instant - {r}{r}{r}: Look at the top card of your deck. If it's a 'non-attack' action card, you may banish it. If you do, you may play it this turn as though it were an instant.",
-    "text_zh": "瞬间——支付3点资源：查看你牌库顶的一张牌。若其为“非攻击”行动牌，你可以放逐它。若如此做，本回合你可以将它当作瞬间使用。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/kano_dracai_of_aether/",
-    "status": "machine-draft"
-  },
   "kindle__1": {
     "name_en": "Kindle",
     "name_zh": "点燃",
@@ -1843,32 +1817,6 @@
     "power": null,
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/open_the_flood_gates/",
-    "status": "machine-draft"
-  },
-  "oscilio_constella_intelligence": {
-    "name_en": "Oscilio, Constella Intelligence",
-    "name_zh": "奥斯西利奥·星象智识",
-    "type_zh": "元素 法师 英雄",
-    "text_en": "Once per Turn Instant - Discard an instant: Draw a card.\nEssence of Lightning",
-    "text_zh": "每回合一次瞬间——弃一张瞬间牌：抽一张牌。\n闪电精华",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/oscilio_constella_intelligence/",
-    "status": "machine-draft"
-  },
-  "oscilio_forked_continuum": {
-    "name_en": "Oscilio, Forked Continuum",
-    "name_zh": "奥斯西利奥·分叉连续体",
-    "type_zh": "闪电 法师 英雄",
-    "text_en": "Instant - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discard this way, you may play it this turn.",
-    "text_zh": "瞬间——支付1点资源，横置此牌，摧毁你控制的一个闪电流转：弃一张牌并创造一个沉思衍生物。若以此方式弃置的是一张瞬间，本回合你可以使用它。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/oscilio_forked_continuum/",
     "status": "machine-draft"
   },
   "overflow_the_aetherwell__1": {
@@ -3093,19 +3041,6 @@
     "source": "https://cards.fabtcg.com/card/turn_to_mindfire/",
     "status": "machine-draft"
   },
-  "verdance_thorn_of_the_rose": {
-    "name_en": "Verdance, Thorn of the Rose",
-    "name_zh": "沃丹斯·玫瑰之棘",
-    "type_zh": "元素 法师 英雄",
-    "text_en": "If there are 8 or more Earth cards in your banished zone, Verdance gets \"Whenever you gain {h} during your turn, you may deal 1 arcane damage to any opposing target.\"\nEssence of Earth",
-    "text_zh": "若你的放逐区有8张或更多大地牌，沃丹斯获得“每当你在你的回合期间获得生命时，你可以对任意对手目标造成1点秘法伤害。”\n大地精华",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/verdance_thorn_of_the_rose/",
-    "status": "machine-draft"
-  },
   "voltic_bolt__1": {
     "name_en": "Voltic Bolt",
     "name_zh": "伏尔蒂克箭",
@@ -3234,6 +3169,34 @@
     "power": null,
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/zap/",
+    "status": "machine-draft"
+  },
+  "tome_of_aetherwind__1": {
+    "name_zh": "以太风之书",
+    "name_en": "Tome of Aetherwind",
+    "type_zh": "",
+    "type_en": "Wizard Action",
+    "text_zh": "选择2个。你可以重复选择同一模式；\n本回合你使用的下一张具有造成秘法伤害效果的牌改为造成等量加1的秘法伤害。\n抽一张牌。",
+    "text_en": "Choose 2. You may choose the same mode more than once;\n\nThe next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.\nDraw a card.",
+    "pitch": "1",
+    "cost": "0",
+    "power": "",
+    "defense": "2",
+    "source": "https://cards.fabtcg.com/card/tome_of_aetherwind/",
+    "status": "machine-draft"
+  },
+  "volzar_the_lightning_rod": {
+    "name_zh": "沃尔扎尔·避雷针",
+    "name_en": "Volzar, the Lightning Rod",
+    "type_zh": "",
+    "type_en": "Lightning Wizard Weapon - Staff (2H)",
+    "text_zh": "若你控制一个名称中含有印记的光环永久物，此牌的启动费用减少1点资源。\n每回合一次瞬间——支付1点资源：增幅X，X为本回合你使用过的闪电牌数量。",
+    "text_en": "If you control an aura permanent with Sigil in its name, this costs {r} less to activate.\nOnce per Turn Instant - {r}: Amp X, where X is the number of Lightning cards you've played this turn.",
+    "pitch": null,
+    "cost": "",
+    "power": "",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/volzar_the_lightning_rod/",
     "status": "machine-draft"
   }
 }

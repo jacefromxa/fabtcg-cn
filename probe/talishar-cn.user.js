@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.6.0
+// @version      0.7.0
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
 // @run-at       document-idle
-// @grant        none
+// @grant        GM_registerMenuCommand
+// @grant        GM_getValue
+// @grant        GM_setValue
 // ==/UserScript==
 
 (function () {
@@ -16,6 +18,54 @@
   const PRODUCTION_DATA_BASE_URL = 'https://raw.githubusercontent.com/jacefromxa/talishar-cn-data/main';
   const LOCAL_DATA_BASE_URL = 'http://127.0.0.1:4173/data';
   const CACHE_PREFIX = 'fab-cn-card-data-v1';
+
+  // --- Settings management --------------------------------------------------
+
+  const SETTINGS_DEFAULTS = {
+    bgColor: '16, 20, 28',
+    bgOpacity: 0.94,
+    borderColor: '255, 255, 255',
+    borderOpacity: 0.35,
+    textColor: '#f4f7fb',
+    textSize: 13,
+    nameColor: '#ffad42',
+    nameSize: 15,
+    typeColor: '#f4f7fb',
+    typeSize: 12,
+    panelMode: 'follow',
+    panelPosition: null,
+  };
+
+  function loadSettings() {
+    try {
+      if (typeof GM_getValue !== 'function') return Object.assign({}, SETTINGS_DEFAULTS);
+      var stored = GM_getValue('fab-cn-settings', null);
+      if (stored) {
+        var parsed = typeof stored === 'string' ? JSON.parse(stored) : stored;
+        return Object.assign({}, SETTINGS_DEFAULTS, parsed);
+      }
+    } catch (_) { /* GM storage unavailable */ }
+    return Object.assign({}, SETTINGS_DEFAULTS);
+  }
+
+  function saveSettings(settings) {
+    try {
+      if (typeof GM_setValue === 'function') {
+        GM_setValue('fab-cn-settings', JSON.stringify(settings));
+      }
+    } catch (_) { /* best-effort */ }
+  }
+
+  // Convert a stored "R, G, B" tuple to a #rrggbb hex used by the color picker.
+  function rgbToHex(rgb) {
+    var parts = String(rgb || '').match(/\d+/g) || ['10', '20', '28'];
+    var hex = '#';
+    for (var i = 0; i < 3; i++) {
+      var n = parseInt(parts[i] || 0, 10);
+      hex += ('0' + n.toString(16)).slice(-2);
+    }
+    return hex;
+  }
 
   // --- Data-base-url resolution -------------------------------------------
 
@@ -445,6 +495,48 @@
     return detected;
   }
 
+  // Talishar renders its full-card hover preview through a React portal: a
+  // position:fixed container (z-index 10002) whose image child is roughly half
+  // the viewport height. Production class names are Vite-hashed, so the
+  // preview is identified by size + fixed positioning rather than by class.
+  // The tooltip anchors to this image so it sits beside the full card, not the
+  // small hovered thumbnail.
+  function findCardPreviewImage(doc, browserRoot) {
+    if (!doc || !doc.body || typeof doc.body.querySelectorAll !== 'function') return null;
+    if (!browserRoot || typeof browserRoot.getComputedStyle !== 'function') return null;
+    let images;
+    try {
+      images = doc.body.querySelectorAll('img');
+    } catch (_) {
+      return null;
+    }
+    const viewportHeight = Number(browserRoot.innerHeight) || 768;
+    const minHeight = viewportHeight * 0.22;
+    for (let i = 0; i < images.length; i++) {
+      const img = images[i];
+      if (typeof img.getBoundingClientRect !== 'function') continue;
+      let rect;
+      try {
+        rect = img.getBoundingClientRect();
+      } catch (_) {
+        continue;
+      }
+      if (!rect || rect.height < minHeight) continue;
+      let ancestor = img.parentElement;
+      while (ancestor && ancestor !== doc.body) {
+        let style;
+        try {
+          style = browserRoot.getComputedStyle(ancestor);
+        } catch (_) {
+          style = null;
+        }
+        if (style && style.position === 'fixed') return img;
+        ancestor = ancestor.parentElement;
+      }
+    }
+    return null;
+  }
+
   function calculatePanelPosition(anchorRect, panelSize, viewport, options) {
     if (!options) options = {};
     const gap = options.gap != null ? options.gap : 12;
@@ -483,14 +575,15 @@
     const name = doc.createElement('div');
     name.className = 'fab-cn-card-name';
     name.textContent = card.name_zh || card.name_en || '';
-    name.style.color = '#ffad42';
-    name.style.fontSize = '15px';
+    name.style.color = 'var(--fab-cn-name-color)';
+    name.style.fontSize = 'var(--fab-cn-name-size)';
     name.style.fontWeight = '700';
 
     const type = doc.createElement('div');
     type.className = 'fab-cn-card-type';
     type.textContent = card.type_zh || card.type_en || '';
-    type.style.fontSize = '12px';
+    type.style.color = 'var(--fab-cn-type-color)';
+    type.style.fontSize = 'var(--fab-cn-type-size)';
     type.style.fontStyle = 'italic';
     type.style.fontWeight = '300';
     type.style.textDecoration = 'underline';
@@ -499,7 +592,7 @@
     const text = doc.createElement('div');
     text.className = 'fab-cn-card-text';
     text.textContent = card.text_zh || '';
-    text.style.fontSize = '13px';
+    text.style.fontSize = 'var(--fab-cn-text-size)';
     text.style.fontWeight = '400';
     text.style.lineHeight = '1.5';
     text.style.marginTop = '6px';
@@ -569,6 +662,36 @@
       return { destroy: function () {} };
     }
 
+    var settings = loadSettings();
+
+    // --- CSS variable style tag --------------------------------------------
+
+    var styleTag = doc.createElement('style');
+    styleTag.id = 'fab-cn-probe-styles';
+    styleTag.textContent = '';
+    (doc.head || doc.documentElement || doc.body).appendChild(styleTag);
+
+    function applyStyleVariables(vars) {
+      // Define the variables on :root so both the tooltip panel and the
+      // settings-dialog preview box can resolve them.
+      styleTag.textContent =
+        ':root {' +
+        '--fab-cn-bg-color:' + (vars.bgColor || '16, 20, 28') + ';' +
+        '--fab-cn-bg-opacity:' + (vars.bgOpacity != null ? vars.bgOpacity : 0.94) + ';' +
+        '--fab-cn-border-color:' + (vars.borderColor || '255, 255, 255') + ';' +
+        '--fab-cn-border-opacity:' + (vars.borderOpacity != null ? vars.borderOpacity : 0.35) + ';' +
+        '--fab-cn-text-color:' + (vars.textColor || '#f4f7fb') + ';' +
+        '--fab-cn-name-color:' + (vars.nameColor || '#ffad42') + ';' +
+        '--fab-cn-name-size:' + (vars.nameSize || 15) + 'px;' +
+        '--fab-cn-type-color:' + (vars.typeColor || '#f4f7fb') + ';' +
+        '--fab-cn-type-size:' + (vars.typeSize || 12) + 'px;' +
+        '--fab-cn-text-size:' + (vars.textSize || 13) + 'px;' +
+        '}';
+    }
+    applyStyleVariables(settings);
+
+    // --- Data loading -------------------------------------------------------
+
     var resolvedBaseUrl = cardData ? null : resolveDataBaseUrl();
     if (resolvedBaseUrl && typeof console !== 'undefined' && console.log) {
       console.log('[Talishar CN] 数据源: ' + resolvedBaseUrl +
@@ -580,6 +703,13 @@
       : null;
     var hoverSerial = 0;
     var currentAnchor = null;
+
+    // Talishar's full-card preview (React portal) is the positioning target.
+    // It appears a beat after the pointerover, so we poll for it briefly.
+    var currentPreviewImg = null;
+    var previewSearchTimer = null;
+
+    // --- Panel creation -----------------------------------------------------
 
     var panel = doc.createElement('div');
     panel.id = 'fab-cn-probe-panel';
@@ -594,15 +724,71 @@
       'max-height:45vh',
       'overflow:auto',
       'padding:9px 11px',
-      'border:1px solid rgba(255,255,255,.35)',
+      'border:1px solid rgba(var(--fab-cn-border-color),var(--fab-cn-border-opacity))',
       'border-radius:6px',
-      'background:rgba(16,20,28,.94)',
-      'color:#f4f7fb',
+      'background:rgba(var(--fab-cn-bg-color),var(--fab-cn-bg-opacity))',
+      'color:var(--fab-cn-text-color)',
       'box-shadow:0 4px 18px rgba(0,0,0,.35)',
       'pointer-events:none',
       'font:13px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif',
     ].join(';');
     doc.body.appendChild(panel);
+
+    // --- Drag handle (fixed mode) -------------------------------------------
+
+    var dragHandle = doc.createElement('div');
+    dragHandle.className = 'fab-cn-drag-handle';
+    dragHandle.style.cssText = [
+      'display:none',
+      'height:8px',
+      'cursor:move',
+      'margin:-9px -11px 4px -11px',
+      'border-radius:6px 6px 0 0',
+      'background:rgba(255,255,255,0.08)',
+    ].join(';');
+    panel.insertBefore(dragHandle, panel.firstChild);
+
+    // --- Drag state ---------------------------------------------------------
+
+    var dragState = null;
+
+    function onDragMouseDown(e) {
+      if (settings.panelMode !== 'fixed') return;
+      // Only respond to mousedown on the drag handle area
+      if (e.target !== dragHandle && e.offsetY > 8) return;
+      if (e.button !== 0) return;
+      e.preventDefault();
+      dragState = {
+        startX: e.clientX,
+        startY: e.clientY,
+        startLeft: panel.offsetLeft,
+        startTop: panel.offsetTop,
+      };
+      doc.addEventListener('mousemove', onDragMouseMove);
+      doc.addEventListener('mouseup', onDragMouseUp);
+    }
+
+    function onDragMouseMove(e) {
+      if (!dragState) return;
+      panel.style.left = (dragState.startLeft + e.clientX - dragState.startX) + 'px';
+      panel.style.top = (dragState.startTop + e.clientY - dragState.startY) + 'px';
+    }
+
+    function onDragMouseUp() {
+      if (!dragState) return;
+      doc.removeEventListener('mousemove', onDragMouseMove);
+      doc.removeEventListener('mouseup', onDragMouseUp);
+      dragState = null;
+      settings.panelPosition = {
+        left: parseInt(panel.style.left, 10) || 0,
+        top: parseInt(panel.style.top, 10) || 0,
+      };
+      saveSettings(settings);
+    }
+
+    panel.addEventListener('mousedown', onDragMouseDown);
+
+    // --- Viewport helpers ---------------------------------------------------
 
     var getViewport = function () {
       return {
@@ -611,10 +797,55 @@
       };
     };
 
+    // --- Positioning --------------------------------------------------------
+
+    // Prefer Talishar's full-card preview image as the anchor; fall back to the
+    // hovered thumbnail while the preview has not appeared yet.
+    function ensurePreviewAnchor() {
+      if (currentPreviewImg) {
+        var stillAttached = typeof doc.body.contains === 'function'
+          ? doc.body.contains(currentPreviewImg)
+          : true;
+        if (stillAttached) return currentPreviewImg;
+        currentPreviewImg = null;
+      }
+      currentPreviewImg = findCardPreviewImage(doc, root);
+      return currentPreviewImg;
+    }
+
+    function schedulePreviewSearch() {
+      if (previewSearchTimer) {
+        if (typeof clearTimeout === 'function') clearTimeout(previewSearchTimer);
+        previewSearchTimer = null;
+      }
+      if (typeof setTimeout !== 'function') return;
+      previewSearchTimer = setTimeout(function () {
+        previewSearchTimer = null;
+        if (currentPreviewImg || !currentAnchor) return;
+        var img = findCardPreviewImage(doc, root);
+        if (img) {
+          currentPreviewImg = img;
+          repositionPanel();
+        } else {
+          schedulePreviewSearch(); // preview not up yet — retry shortly
+        }
+      }, 300);
+    }
+
+    function clearPreviewAnchor() {
+      if (previewSearchTimer) {
+        if (typeof clearTimeout === 'function') clearTimeout(previewSearchTimer);
+        previewSearchTimer = null;
+      }
+      currentPreviewImg = null;
+    }
+
     var repositionPanel = function () {
+      if (settings.panelMode === 'fixed') return; // Fixed mode: don't reposition
       if (!currentAnchor || panel.style.display === 'none') return;
-      if (typeof currentAnchor.getBoundingClientRect !== 'function') return;
-      var anchorRect = currentAnchor.getBoundingClientRect();
+      var anchorEl = ensurePreviewAnchor() || currentAnchor;
+      if (typeof anchorEl.getBoundingClientRect !== 'function') return;
+      var anchorRect = anchorEl.getBoundingClientRect();
       var panelSize = {
         width: Number(panel.offsetWidth) || 300,
         height: Number(panel.offsetHeight) || 100,
@@ -626,13 +857,65 @@
       panel.style.bottom = 'auto';
     };
 
+    // --- rAF following ------------------------------------------------------
+
+    // requestAnimationFrame keeps the panel glued to the card during layout
+    // changes and animations. Fall back to a ~16ms timer where rAF is missing.
+    var followRafId = null;
+
+    function scheduleFollowingTick(fn) {
+      if (typeof root.requestAnimationFrame === 'function') {
+        return root.requestAnimationFrame(fn);
+      }
+      if (typeof setTimeout === 'function') {
+        return setTimeout(fn, 16);
+      }
+      return null; // no scheduler available — rely on scroll/resize repositioning
+    }
+
+    function cancelFollowingTick(id) {
+      if (id == null) return;
+      if (typeof root.cancelAnimationFrame === 'function') {
+        root.cancelAnimationFrame(id);
+      } else {
+        clearTimeout(id);
+      }
+    }
+
+    function startFollowing() {
+      stopFollowing();
+      function tick() {
+        if (settings.panelMode === 'fixed' || !currentAnchor || panel.style.display === 'none') {
+          stopFollowing();
+          return;
+        }
+        repositionPanel();
+        followRafId = scheduleFollowingTick(tick);
+      }
+      followRafId = scheduleFollowingTick(tick);
+    }
+
+    function stopFollowing() {
+      if (followRafId) {
+        cancelFollowingTick(followRafId);
+        followRafId = null;
+      }
+    }
+
+    // --- Panel show / hide --------------------------------------------------
+
     var showLoading = function (anchor) {
       currentAnchor = anchor;
       panel.textContent = '中文卡库加载中…';
+      // Re-insert drag handle after textContent clears children
+      if (settings.panelMode === 'fixed') {
+        panel.insertBefore(dragHandle, panel.firstChild);
+      }
       panel.style.display = 'block';
       panel.style.visibility = 'hidden';
       repositionPanel();
       panel.style.visibility = 'visible';
+      if (settings.panelMode === 'follow') startFollowing();
     };
 
     var showCard = function (anchor, card) {
@@ -640,35 +923,459 @@
       panel.style.display = 'block';
       panel.style.visibility = 'hidden';
       renderCardPanel(doc, panel, card);
+      if (settings.panelMode === 'fixed') {
+        panel.insertBefore(dragHandle, panel.firstChild);
+      }
       repositionPanel();
       panel.style.visibility = 'visible';
+      if (settings.panelMode === 'follow') startFollowing();
     };
 
     var hidePanel = function () {
       currentAnchor = null;
+      stopFollowing();
+      clearPreviewAnchor();
+      if (settings.panelMode === 'fixed') return; // pinned panel stays visible
       panel.style.display = 'none';
       panel.style.visibility = 'hidden';
     };
 
+    // --- Mode management ----------------------------------------------------
+
+    function updatePanelMode(mode) {
+      settings.panelMode = mode;
+      if (mode === 'fixed') {
+        panel.style.pointerEvents = 'auto';
+        dragHandle.style.display = 'block';
+        stopFollowing();
+        if (settings.panelPosition) {
+          panel.style.left = settings.panelPosition.left + 'px';
+          panel.style.top = settings.panelPosition.top + 'px';
+        } else {
+          var rect = panel.getBoundingClientRect();
+          var pinnedLeft = rect.left;
+          var pinnedTop = rect.top;
+          // A hidden panel reports 0,0 — pin at a sensible default instead
+          if (!pinnedLeft && !pinnedTop && panel.style.display === 'none') {
+            var viewport = getViewport();
+            pinnedLeft = Math.round(viewport.width * 0.7);
+            pinnedTop = Math.round(viewport.height * 0.12);
+          }
+          settings.panelPosition = { left: pinnedLeft, top: pinnedTop };
+        }
+        panel.style.left = settings.panelPosition.left + 'px';
+        panel.style.top = settings.panelPosition.top + 'px';
+        panel.style.display = 'block';
+        panel.style.visibility = 'visible';
+      } else {
+        panel.style.pointerEvents = 'none';
+        dragHandle.style.display = 'none';
+        settings.panelPosition = null;
+        // Re-attach to current card if hovering
+        if (!currentAnchor) {
+          hidePanel();
+        }
+      }
+      saveSettings(settings);
+    }
+
+    var modeFeedbackTimer = null;
+
+    function showModeToast(text) {
+      if (modeFeedbackTimer) {
+        if (typeof clearTimeout === 'function') clearTimeout(modeFeedbackTimer);
+        modeFeedbackTimer = null;
+      }
+      panel.textContent = text;
+      if (settings.panelMode === 'fixed') {
+        panel.insertBefore(dragHandle, panel.firstChild);
+      }
+      panel.style.display = 'block';
+      panel.style.visibility = 'visible';
+      if (typeof setTimeout === 'function') {
+        modeFeedbackTimer = setTimeout(function () {
+          modeFeedbackTimer = null;
+          if (settings.panelMode === 'fixed') return; // keep pinned panel visible
+          hidePanel();
+        }, 1600);
+      }
+    }
+
+    function togglePanelMode() {
+      var newMode = settings.panelMode === 'follow' ? 'fixed' : 'follow';
+      updatePanelMode(newMode);
+      if (newMode === 'fixed') {
+        showModeToast('浮窗已固定 — 拖住顶部手柄可移动');
+      } else {
+        showModeToast('已切换为跟随卡牌模式');
+      }
+    }
+
+    // Initialize mode from saved settings
+    if (settings.panelMode === 'fixed' && settings.panelPosition) {
+      panel.style.left = settings.panelPosition.left + 'px';
+      panel.style.top = settings.panelPosition.top + 'px';
+      panel.style.pointerEvents = 'auto';
+      dragHandle.style.display = 'block';
+      panel.style.display = 'block';
+      panel.style.visibility = 'visible';
+      if (!cardData && remoteLoader) {
+        panel.textContent = '已固定 — 悬停卡牌查看中文';
+        panel.insertBefore(dragHandle, panel.firstChild);
+      }
+    }
+
+    // --- Settings dialog ----------------------------------------------------
+
+    var settingsOverlay = null;
+
+    function closeSettingsDialog() {
+      if (settingsOverlay) {
+        if (settingsOverlay._keydownHandler) {
+          doc.removeEventListener('keydown', settingsOverlay._keydownHandler);
+        }
+        settingsOverlay.remove();
+        settingsOverlay = null;
+      }
+    }
+
+    function openSettingsDialog() {
+      closeSettingsDialog();
+
+      var savedSettings = loadSettings();
+
+      settingsOverlay = doc.createElement('div');
+      settingsOverlay.id = 'fab-cn-settings-overlay';
+      settingsOverlay.style.cssText = [
+        'position:fixed;inset:0;z-index:2147483646;',
+        'background:rgba(0,0,0,.5);',
+        'display:flex;align-items:center;justify-content:center;',
+      ].join('');
+
+      var dialog = doc.createElement('div');
+      dialog.id = 'fab-cn-settings-dialog';
+      dialog.style.cssText = [
+        'background:#1a1d24;color:#e0e0e0;',
+        'border:1px solid rgba(255,255,255,.2);border-radius:10px;',
+        'padding:12px 14px;width:330px;max-width:calc(100vw - 20px);',
+        'max-height:90vh;overflow-y:auto;',
+        'font:13px/1.4 system-ui,sans-serif;',
+        'box-shadow:0 8px 32px rgba(0,0,0,.5);',
+      ].join('');
+
+      // Stop clicks inside dialog from closing it
+      dialog.addEventListener('click', function (e) { e.stopPropagation(); });
+
+      // --- Live preview box (mirrors the tooltip using the same CSS vars) ---
+
+      var previewLabel = doc.createElement('div');
+      previewLabel.textContent = '效果预览';
+      previewLabel.style.cssText = 'font-size:11px;font-weight:600;color:#888;margin-bottom:4px;';
+      dialog.appendChild(previewLabel);
+
+      var preview = doc.createElement('div');
+      preview.id = 'fab-cn-settings-preview';
+      preview.style.cssText = [
+        'margin-bottom:10px;padding:8px 10px;border-radius:6px;',
+        'border:1px solid rgba(var(--fab-cn-border-color),var(--fab-cn-border-opacity));',
+        'background:rgba(var(--fab-cn-bg-color),var(--fab-cn-bg-opacity));',
+        'color:var(--fab-cn-text-color);',
+      ].join('');
+
+      var previewName = doc.createElement('div');
+      previewName.textContent = '泰坦之拳';
+      previewName.style.cssText = [
+        'color:var(--fab-cn-name-color);',
+        'font-size:var(--fab-cn-name-size);',
+        'font-weight:700;',
+      ].join('');
+      var previewType = doc.createElement('div');
+      previewType.textContent = '守护者武器·锤（单手）';
+      previewType.style.cssText = [
+        'color:var(--fab-cn-type-color);',
+        'font-size:var(--fab-cn-type-size);',
+        'font-style:italic;font-weight:300;text-decoration:underline;',
+        'margin-top:2px;',
+      ].join('');
+      var previewText = doc.createElement('div');
+      previewText.textContent = '每回合一次行动：攻击。';
+      previewText.style.cssText = [
+        'color:var(--fab-cn-text-color);',
+        'font-size:var(--fab-cn-text-size);',
+        'line-height:1.5;margin-top:4px;white-space:pre-wrap;',
+      ].join('');
+
+      preview.appendChild(previewName);
+      preview.appendChild(previewType);
+      preview.appendChild(previewText);
+      dialog.appendChild(preview);
+
+      // --- Compact field helpers ---
+
+      function makeRow(label) {
+        var row = doc.createElement('div');
+        row.style.cssText = 'display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:5px;';
+        var lbl = doc.createElement('span');
+        lbl.textContent = label;
+        lbl.style.cssText = 'flex:0 0 auto;font-size:12px;';
+        row.appendChild(lbl);
+        return row;
+      }
+
+      // A color swatch with a transparent native color input layered over it.
+      // The user actually clicks the native input, so the browser always opens
+      // its color picker; the visible swatch mirrors the picked color.
+      function makeColorSwatch(value, onChange) {
+        var wrap = doc.createElement('span');
+        wrap.style.cssText = 'position:relative;display:inline-block;width:22px;height:22px;flex:0 0 auto;';
+        var swatch = doc.createElement('span');
+        swatch.style.cssText = 'position:absolute;inset:0;border-radius:4px;background-color:' + value + ';border:1px solid rgba(255,255,255,.35);pointer-events:none;';
+        var input = doc.createElement('input');
+        input.type = 'color';
+        input.value = value;
+        input.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;border:none;padding:0;';
+        input.addEventListener('input', function () {
+          swatch.style.backgroundColor = input.value;
+          onChange(input.value);
+        });
+        wrap.appendChild(swatch);
+        wrap.appendChild(input);
+        return { wrap: wrap, input: input, swatch: swatch };
+      }
+
+      function makeRange(value, onChange) {
+        var wrap = doc.createElement('span');
+        wrap.style.cssText = 'display:flex;align-items:center;gap:5px;';
+        var input = doc.createElement('input');
+        input.type = 'range';
+        input.min = '0';
+        input.max = '1';
+        input.step = '0.05';
+        input.value = String(value);
+        input.style.width = '84px';
+        var val = doc.createElement('span');
+        val.textContent = String(value);
+        val.style.cssText = 'font-size:11px;min-width:28px;text-align:right;';
+        input.addEventListener('input', function () {
+          val.textContent = String(parseFloat(input.value).toFixed(2));
+          onChange(parseFloat(input.value));
+        });
+        wrap.appendChild(input);
+        wrap.appendChild(val);
+        return { wrap: wrap, input: input };
+      }
+
+      function makeNumber(value, onChange) {
+        var wrap = doc.createElement('span');
+        wrap.style.cssText = 'display:flex;align-items:center;gap:3px;';
+        var input = doc.createElement('input');
+        input.type = 'number';
+        input.min = '8';
+        input.max = '30';
+        input.value = String(value);
+        input.style.cssText = 'width:50px;background:#2a2d35;color:#e0e0e0;border:1px solid rgba(255,255,255,.15);border-radius:4px;padding:2px 5px;font-size:12px;';
+        input.addEventListener('input', function () {
+          var v = parseInt(input.value, 10);
+          if (!isNaN(v)) onChange(Math.min(30, Math.max(8, v)));
+        });
+        var px = doc.createElement('span');
+        px.textContent = 'px';
+        px.style.cssText = 'font-size:11px;color:#888;';
+        wrap.appendChild(input);
+        wrap.appendChild(px);
+        return { wrap: wrap, input: input };
+      }
+
+      function sectionTitle(text) {
+        var t = doc.createElement('div');
+        t.textContent = text;
+        t.style.cssText = 'font-size:11px;font-weight:600;color:#888;margin:6px 0 4px;';
+        return t;
+      }
+
+      // --- Background / border ---
+
+      dialog.appendChild(sectionTitle('底色与边框'));
+
+      var bgRow = makeRow('底色');
+      var bgColorField = makeColorSwatch(rgbToHex(savedSettings.bgColor), function () { previewChanges(); });
+      var bgOpacityField = makeRange(savedSettings.bgOpacity, function () { previewChanges(); });
+      bgRow.appendChild(bgColorField.wrap);
+      bgRow.appendChild(bgOpacityField.wrap);
+
+      var borderRow = makeRow('边框');
+      var borderColorField = makeColorSwatch(rgbToHex(savedSettings.borderColor), function () { previewChanges(); });
+      var borderOpacityField = makeRange(savedSettings.borderOpacity, function () { previewChanges(); });
+      borderRow.appendChild(borderColorField.wrap);
+      borderRow.appendChild(borderOpacityField.wrap);
+
+      dialog.appendChild(bgRow);
+      dialog.appendChild(borderRow);
+
+      // --- Fonts (each: color swatch + size, cap 30px) ---
+
+      dialog.appendChild(sectionTitle('字体'));
+
+      function makeFontRow(label, colorValue, sizeValue) {
+        var row = makeRow(label);
+        var colorField = makeColorSwatch(colorValue, function () { previewChanges(); });
+        var sizeField = makeNumber(sizeValue, function () { previewChanges(); });
+        row.appendChild(colorField.wrap);
+        row.appendChild(sizeField.wrap);
+        return { row: row, colorField: colorField, sizeField: sizeField };
+      }
+
+      var nameFont = makeFontRow('卡名', savedSettings.nameColor, savedSettings.nameSize);
+      var typeFont = makeFontRow('类别', savedSettings.typeColor, savedSettings.typeSize);
+      var textFont = makeFontRow('正文', savedSettings.textColor, savedSettings.textSize);
+
+      dialog.appendChild(nameFont.row);
+      dialog.appendChild(typeFont.row);
+      dialog.appendChild(textFont.row);
+
+      // --- Read current field values into a settings object ---
+
+      function readFieldValues() {
+        var out = {};
+        var bgHex = bgColorField.input.value.replace('#', '');
+        out.bgColor = [
+          parseInt(bgHex.substring(0, 2), 16),
+          parseInt(bgHex.substring(2, 4), 16),
+          parseInt(bgHex.substring(4, 6), 16),
+        ].join(', ');
+        var bdHex = borderColorField.input.value.replace('#', '');
+        out.borderColor = [
+          parseInt(bdHex.substring(0, 2), 16),
+          parseInt(bdHex.substring(2, 4), 16),
+          parseInt(bdHex.substring(4, 6), 16),
+        ].join(', ');
+        out.bgOpacity = parseFloat(bgOpacityField.input.value);
+        out.borderOpacity = parseFloat(borderOpacityField.input.value);
+        out.nameColor = nameFont.colorField.input.value;
+        out.nameSize = parseInt(nameFont.sizeField.input.value, 10);
+        out.typeColor = typeFont.colorField.input.value;
+        out.typeSize = parseInt(typeFont.sizeField.input.value, 10);
+        out.textColor = textFont.colorField.input.value;
+        out.textSize = parseInt(textFont.sizeField.input.value, 10);
+        return out;
+      }
+
+      // Live preview: any change re-applies the CSS variables so the tooltip
+      // (and the preview box above, which reads the same vars) updates at once.
+      function previewChanges() {
+        applyStyleVariables(readFieldValues());
+      }
+
+      // --- Buttons ---
+
+      var buttonRow = doc.createElement('div');
+      buttonRow.style.cssText = 'display:flex;gap:6px;justify-content:flex-end;margin-top:8px;';
+
+      function makeButton(text, primary) {
+        var btn = doc.createElement('button');
+        btn.textContent = text;
+        btn.style.cssText = [
+          'padding:5px 12px;border-radius:5px;border:1px solid rgba(255,255,255,.15);',
+          'cursor:pointer;font-size:12px;',
+          primary
+            ? 'background:#ffad42;color:#111;border-color:#ffad42;font-weight:600;'
+            : 'background:transparent;color:#ccc;',
+        ].join('');
+        return btn;
+      }
+
+      var resetBtn = makeButton('恢复默认', false);
+      var cancelBtn = makeButton('取消', false);
+      var saveBtn = makeButton('保存', true);
+
+      buttonRow.appendChild(resetBtn);
+      buttonRow.appendChild(cancelBtn);
+      buttonRow.appendChild(saveBtn);
+      dialog.appendChild(buttonRow);
+
+      resetBtn.addEventListener('click', function () {
+        settings = Object.assign({}, SETTINGS_DEFAULTS);
+        saveSettings(settings);
+        applyStyleVariables(SETTINGS_DEFAULTS);
+        closeSettingsDialog();
+        openSettingsDialog(); // Re-open with defaults
+      });
+
+      cancelBtn.addEventListener('click', function () {
+        applyStyleVariables(settings); // Restore saved
+        closeSettingsDialog();
+      });
+
+      saveBtn.addEventListener('click', function () {
+        var newVals = readFieldValues();
+        // Preserve non-style fields
+        newVals.panelMode = settings.panelMode;
+        newVals.panelPosition = settings.panelPosition;
+        settings = newVals;
+        saveSettings(settings);
+        applyStyleVariables(settings);
+        closeSettingsDialog();
+      });
+
+      // Close on backdrop click
+      settingsOverlay.addEventListener('click', function (e) {
+        if (e.target === settingsOverlay) {
+          applyStyleVariables(settings); // Restore saved
+          closeSettingsDialog();
+        }
+      });
+
+      // Close on Escape (listener removed when the overlay is closed)
+      function onKeyDown(e) {
+        if (e.key === 'Escape') {
+          applyStyleVariables(settings);
+          closeSettingsDialog();
+        }
+      }
+      settingsOverlay._keydownHandler = onKeyDown;
+      doc.addEventListener('keydown', onKeyDown);
+
+      settingsOverlay.appendChild(dialog);
+      doc.body.appendChild(settingsOverlay);
+    }
+
+    // --- Register menu commands ---------------------------------------------
+
+    try {
+      if (typeof GM_registerMenuCommand === 'function') {
+        GM_registerMenuCommand('切换固定/跟随模式', togglePanelMode);
+        GM_registerMenuCommand('设置样式…', openSettingsDialog);
+      }
+    } catch (_) { /* GM menu not available */ }
+
+    // --- Event listeners ----------------------------------------------------
+
     var onPointerOver = function (event) {
       var anchor = findCardAnchor(event && event.target, doc);
       if (!anchor) {
-        hidePanel();
+        // Follow mode: hide. Fixed mode: keep the pinned panel as-is.
+        if (settings.panelMode !== 'fixed') hidePanel();
         return;
       }
       var serial = ++hoverSerial;
+      // A new hover targets a (possibly new) full-card preview — drop any
+      // cached reference so we re-locate it.
+      currentPreviewImg = null;
       if (cardData) {
         var match = lookupCard(anchor, cardData);
-        if (match) showCard(anchor, match.card);
-        else hidePanel();
+        if (match) {
+          showCard(anchor, match.card);
+          schedulePreviewSearch();
+        } else if (settings.panelMode !== 'fixed') hidePanel();
         return;
       }
       if (!remoteLoader) {
-        hidePanel();
+        if (settings.panelMode !== 'fixed') hidePanel();
         return;
       }
 
       showLoading(anchor);
+      schedulePreviewSearch();
       remoteLoader.loadCardForElement(anchor)
         .then(function (match) {
           if (serial !== hoverSerial) return;
@@ -700,10 +1407,17 @@
           root.removeEventListener('scroll', onViewportChange, true);
         }
         hidePanel();
+        clearPreviewAnchor();
+        closeSettingsDialog();
+        doc.removeEventListener('mousemove', onDragMouseMove);
+        doc.removeEventListener('mouseup', onDragMouseUp);
         if (typeof panel.remove === 'function') {
           panel.remove();
         } else if (typeof doc.body.removeChild === 'function') {
           doc.body.removeChild(panel);
+        }
+        if (styleTag && typeof styleTag.remove === 'function') {
+          styleTag.remove();
         }
       },
     };
@@ -715,6 +1429,9 @@
     calculatePanelPosition: calculatePanelPosition,
     collectCandidates: collectCandidates,
     createCardDataLoader: createCardDataLoader,
+    SETTINGS_DEFAULTS: SETTINGS_DEFAULTS,
+    loadSettings: loadSettings,
+    rgbToHex: rgbToHex,
     PRODUCTION_DATA_BASE_URL: PRODUCTION_DATA_BASE_URL,
     LOCAL_DATA_BASE_URL: LOCAL_DATA_BASE_URL,
     resolveDataBaseUrl: resolveDataBaseUrl,
@@ -725,6 +1442,7 @@
     slugifyCardName: slugifyCardName,
     resolveCardKeys: resolveCardKeys,
     findCardAnchor: findCardAnchor,
+    findCardPreviewImage: findCardPreviewImage,
     lookupCard: lookupCard,
     normalizeCandidate: normalizeCandidate,
     renderCardPanel: renderCardPanel,

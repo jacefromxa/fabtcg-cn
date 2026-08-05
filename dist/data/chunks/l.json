@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "lace_with_bloodrot": {
       "id": "lace_with_bloodrot",
@@ -858,7 +858,7 @@
       "id": "levia_shadowborn_abomination",
       "name_zh": "莱维娅·暗影所生之孽物",
       "name_en": "Levia, Shadowborn Abomination",
-      "type_zh": "暗影 蛮将 英雄",
+      "type_zh": "",
       "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，在结束阶段期间你拥有的牌失去血债。",
       "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose blood debt during the end phase.",
       "source": "https://cards.fabtcg.com/card/levia_shadowborn_abomination/",
@@ -894,7 +894,7 @@
       "id": "lexi_livewire",
       "name_zh": "莱克西·活线",
       "name_en": "Lexi, Livewire",
-      "type_zh": "元素 游侠 英雄",
+      "type_zh": "",
       "text_zh": "冰与闪电精华\n每回合一次行动——将你军械库中的一张牌面朝下的牌翻为正面朝上：若其为闪电牌，你本回合的下一次攻击获得再动。若其为冰牌，在目标英雄的控制下创造一个霜咬衍生物。再动",
       "text_en": "Essence of Ice and Lightning\nOnce per Turn Action - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains go again. If it's an Ice card, create a Frostbite token under target hero's control. Go again",
       "source": "https://cards.fabtcg.com/card/lexi_livewire/",
@@ -2112,7 +2112,7 @@
       "id": "lyath_goldmane_vile_savant",
       "name_zh": "莱雅斯·金鬃·卑鄙学者",
       "name_en": "Lyath Goldmane, Vile Savant",
-      "type_zh": "憎恶 守护者 英雄",
+      "type_zh": "",
       "text_zh": "你控制的牌的基础力量和防御减半（向上取整）。\n瞬间——支付2点资源，横置此牌：观众为你喝倒彩。本回合你控制的防御行动牌获得+1防御。\n每当观众为你喝倒彩时，创造一个力量衍生物。",
       "text_en": "The base {p} and {d} of cards you control are halved, rounded up.\nInstant - {r}{r}, {t}: The crowd boos you. Defending action cards you control get +1{d} this turn.\nWhenever the crowd boos you, create a Might token.",
       "source": "https://cards.fabtcg.com/card/lyath_goldmane_vile_savant/",

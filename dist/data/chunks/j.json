@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "jack_be_nimble": {
       "id": "jack_be_nimble",
@@ -88,24 +88,6 @@
     },
     "jarl_vetrei_i": {
       "id": "jarl_vetrei_i",
-      "name_zh": "贾尔·维特雷一世",
-      "name_en": "Jarl Vetreiði",
-      "type_zh": "元素 守护者 英雄",
-      "text_zh": "每当你使用一张冰牌时，在对手的一个暴露的头部、胸部、手臂或腿部区域创造一个霜咬衍生物。\n大地与冰精华",
-      "text_en": "Whenever you play an Ice card, create a Frostbite token in an opponent's exposed head, chest, arms, or legs zone.\nEssence of Earth and Ice",
-      "source": "https://cards.fabtcg.com/card/jarl_vetrei_i/",
-      "status": "machine-draft",
-      "variants": {
-        "default": {
-          "pitch": null,
-          "cost": null,
-          "power": null,
-          "defense": null
-        }
-      }
-    },
-    "jarl_vetreii": {
-      "id": "jarl_vetreii",
       "name_zh": "贾尔·维特雷一世",
       "name_en": "Jarl Vetreiði",
       "type_zh": "",

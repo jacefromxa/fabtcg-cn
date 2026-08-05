@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "earth_form": {
       "id": "earth_form",
@@ -1560,7 +1560,7 @@
       "id": "enigma_ledger_of_ancestry",
       "name_zh": "祖先谜团账簿",
       "name_en": "Enigma, Ledger of Ancestry",
-      "type_zh": "秘法 幻术师 英雄",
+      "type_zh": "",
       "text_zh": "你每回合的第一次幻质护盾攻击启动费用减少1点资源。\n每回合一次瞬间——支付3点资源：创造一个带有一个+1力量指示物的幻质护盾衍生物。",
       "text_en": "Your first Spectral Shield attack each turn costs {r} less to activate.\nOnce per Turn Instant - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",
       "source": "https://cards.fabtcg.com/card/enigma_ledger_of_ancestry/",

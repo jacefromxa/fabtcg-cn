@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "sack_the_shifty": {
       "id": "sack_the_shifty",
@@ -2056,9 +2056,9 @@
     },
     "ser_boltyn_breaker_of_dawn": {
       "id": "ser_boltyn_breaker_of_dawn",
-      "name_zh": "博尔廷爵士，破晓者",
+      "name_zh": "博尔廷爵士·破晓者",
       "name_en": "Ser Boltyn, Breaker of Dawn",
-      "type_zh": "光 战士 英雄",
+      "type_zh": "",
       "text_zh": "若本回合你充能过，当你的攻击被攻击行动牌防御时，它们获得+1力量。\n攻击反应——放逐博尔廷灵魂中的一张牌：目标力量大于其基础力量的攻击获得再动。",
       "text_en": "If you've charged this turn, your attacks get +1{p} while defended by an attack action card.\nAttack Reaction - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains go again.",
       "source": "https://cards.fabtcg.com/card/ser_boltyn_breaker_of_dawn/",

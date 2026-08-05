@@ -1,5 +1,24 @@
 # Changelog
 
+## v0.7.0（2026-08-05）
+
+### 新增
+
+- **锚定全卡预览**：浮窗现在跟随 Talishar 原生全卡悬浮大图（React portal 渲染的 `position:fixed` 大图），而非被悬停的小缩略图；预览延迟出现时会轮询定位
+- **固定模式**：插件菜单「切换固定/跟随模式」可将浮窗钉在指定位置，拖动顶部手柄自由移动；固定模式下浮窗保持可见、内容仍随悬停更新
+- **样式自定义**：插件菜单「设置样式…」打开紧凑设置窗格，内置实时效果预览框；底色/边框的颜色（色块选择器）与透明度、卡名/类别/正文三处字体的大小（上限 30px）与颜色均可调节，支持恢复默认
+- **持久化**：全部设置（样式 + 固定模式 + 位置）通过 `GM_setValue` 存储，刷新后保留
+- **CSS 变量化**：浮窗全部颜色/字号改为 CSS 自定义属性，注入 `<style>` 标签统一管理
+
+### 变更
+
+- `@grant` 从 `none` 调整为 `GM_registerMenuCommand, GM_getValue, GM_setValue`
+- **合并用户脚本为单文件**：删除 `probe/probe.user.js` 模板与 `build-userscript.mjs` 构建步骤，直接编辑 `probe/talishar-cn.user.js`（原构建产物即唯一源码）
+- **英雄全量归档**：`heroes.json` 归拢全部 145 张英雄卡（含此前散落各 t3 批次的 60 张），统一为 `slugifyCardName(name)` 规范 key（`jarl_vetreii → jarl_vetrei_i`），同名英雄相邻排列；`build-translation-drafts.mjs` 排除 Hero 类型卡，重新生成批次不再写回英雄
+- **术语表新增 hero 类别**：83 个英雄基础名入库（`data/glossary.zh-CN.json`），统一跨版本英雄牌及牌面正文中的英雄名翻译
+- **英雄名一致性修正**：`Dorinthea Ironsong`（茜娅→希雅）、`Fang, Dracai of Blades`（獠牙→方格）等 5 处基础名/分隔符统一
+- **批次放置收敛**：`scripts/consolidate-t4.mjs` 把 t4-remaining 中 85 条实属 T1/T2/具体 T3 批次的卡归位到各自批次文件，t4 只留 34 张真兜底卡；新增守卫测试校验每张卡都落在过滤器所属的批次文件
+
 ## v0.6.0（2026-08-05）
 
 ### 新增

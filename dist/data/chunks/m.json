@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "machinations_of_dominion": {
       "id": "machinations_of_dominion",
@@ -564,7 +564,7 @@
       "id": "marlynn_treasure_hunter",
       "name_zh": "玛琳·寻宝猎人",
       "name_en": "Marlynn, Treasure Hunter",
-      "type_zh": "海盗 游侠 英雄",
+      "type_zh": "",
       "text_zh": "行动——横置此牌，摧毁你控制的一个金币：在你的手牌中创造一张金翅鱼叉。再动\n每当你在此行动阶段期间抽牌时，你可以将你手牌中的一张箭矢正面朝上放入你的军械库。",
       "text_en": "Action - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. Go again\nWhenever you draw a card during your action phase, you may put an arrow from your hand face-up into your arsenal.",
       "source": "https://cards.fabtcg.com/card/marlynn_treasure_hunter/",
@@ -918,7 +918,7 @@
       "id": "maxx_the_hype_nitro",
       "name_zh": "马克斯·狂热硝基",
       "name_en": "Maxx 'The Hype' Nitro",
-      "type_zh": "机械师 英雄",
+      "type_zh": "",
       "text_zh": "每回合一次行动——支付2点资源：创造一个带有2个蒸汽指示物的超频驱动器衍生物。仅当本回合你推进过时才能启动此异能。\n你控制的超频驱动器获得上弦。",
       "text_en": "Once per Turn Action - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've boosted this turn.\nHyper Drivers you control get crank.",
       "source": "https://cards.fabtcg.com/card/maxx_the_hype_nitro/",

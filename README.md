@@ -48,12 +48,12 @@ talishar-cn/
 │   ├── source/english/card.json    ← 英文全卡库（23MB，构建数据源）
 │   ├── translations/               ← 中文翻译源文件（26个模块，按批次管理）
 │   │   ├── human-reviewed.json     ← 人工审核翻译
-│   │   ├── heroes.json             ← 英雄独立模块（85张）
+│   │   ├── heroes.json             ← 英雄独立模块（145张，按规范 slug 归档）
 │   │   ├── t1-generic.json         ← 通用卡（399张）
 │   │   ├── t2-equipment.json       ← 装备（439张）
 │   │   ├── t3-*.json               ← 按职业/属性分批
 │   │   └── t4-remaining.json       ← 特殊格式卡
-│   ├── glossary.zh-CN.json         ← 简体中文术语表（270条）
+│   ├── glossary.zh-CN.json         ← 简体中文术语表（353条，含 83 个英雄基础名）
 │   └── talishar-card-aliases.json  ← 印刷ID → 卡牌Slug别名表
 ├── dist/data/                      ← 构建产物（发布到数据仓库）
 │   ├── manifest.json
@@ -61,15 +61,13 @@ talishar-cn/
 │   ├── chunks/*.json
 │   └── aliases.json
 ├── probe/
-│   ├── probe.user.js               ← 用户脚本模板
-│   ├── talishar-cn.user.js         ← 构建生成的用户脚本
+│   ├── talishar-cn.user.js         ← 用户脚本（直接编辑，安装对象）
 │   ├── package.json
-│   └── test/                       ← 48项自动化测试
+│   └── test/                       ← 54项自动化测试
 ├── scripts/
 │   ├── build-card-aliases.mjs      ← 印刷ID别名表生成
 │   ├── build-card-data.mjs         ← 卡牌数据分片构建
 │   ├── build-translation-drafts.mjs ← 机器初稿批处理
-│   ├── build-userscript.mjs        ← 用户脚本生成
 │   ├── dev-data-server.mjs         ← 本地数据服务器
 │   └── translate-helper.mjs        ← 翻译辅助引擎
 └── HANDOFF.md                      ← 项目交接文档
@@ -85,8 +83,8 @@ talishar-cn/
 修改翻译后在 `probe/` 目录运行：
 
 ```bash
-npm run build     # 一键构建：别名表 → 卡牌数据 → 用户脚本
-npm test          # 运行全部测试（48项）
+npm run build     # 一键构建：别名表 → 卡牌数据
+npm test          # 运行全部测试（51项）
 ```
 
 构建完成后提交并推送源码仓库，然后将 `dist/data/` 同步到数据仓库。

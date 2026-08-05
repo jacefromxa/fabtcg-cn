@@ -350,32 +350,6 @@
     "source": "https://cards.fabtcg.com/card/arknight_shard/",
     "status": "machine-draft"
   },
-  "aurora_legacy_of_tempest": {
-    "name_en": "Aurora, Legacy of Tempest",
-    "name_zh": "奥罗拉·风暴传承",
-    "type_zh": "闪电 符文剑士 英雄",
-    "text_en": "Instant - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.",
-    "text_zh": "瞬间——支付2点资源，横置此牌，摧毁你控制的一个闪电流转：创造一个闪电化身衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/aurora_legacy_of_tempest/",
-    "status": "machine-draft"
-  },
-  "aurora_shooting_star": {
-    "name_en": "Aurora, Shooting Star",
-    "name_zh": "奥罗拉·流星",
-    "type_zh": "元素 符文剑士 英雄",
-    "text_en": "Once per Turn Instant - {r}{r}: Create an Embodiment of Lightning token. Activate this only if you've played a Lightning card this turn.\nEssence of Lightning",
-    "text_zh": "每回合一次瞬间——支付2点资源：创造一个闪电化身衍生物。仅当本回合你使用过一张闪电牌时才能启动此异能。\n闪电精华",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/aurora_shooting_star/",
-    "status": "machine-draft"
-  },
   "become_the_arknight__3": {
     "name_en": "Become the Arknight",
     "name_zh": "成为大骑士",
@@ -571,19 +545,6 @@
     "source": "https://cards.fabtcg.com/card/bramble_spark/",
     "status": "machine-draft"
   },
-  "briar_warden_of_thorns": {
-    "name_en": "Briar, Warden of Thorns",
-    "name_zh": "荆棘守望者·布里亚",
-    "type_zh": "元素 符文剑士 英雄",
-    "text_en": "Essence of Earth and Lightning\nThe first time an attack action card you control deals damage to an opposing hero, create an Embodiment of Earth token.\nWhenever you play your second 'non-attack' action card each turn, create an Embodiment of Lightning token.",
-    "text_zh": "大地与闪电精华\n你控制的攻击行动牌第一次对对手英雄造成伤害时，创造一个大地化身衍生物。\n每回合当你使用第二张“非攻击”行动牌时，创造一个闪电化身衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/briar_warden_of_thorns/",
-    "status": "machine-draft"
-  },
   "burn_up_shock__1": {
     "name_en": "Burn Up // Shock",
     "name_zh": "燃尽冲击",
@@ -608,19 +569,6 @@
     "power": "5",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/caress_of_the_reaper/",
-    "status": "machine-draft"
-  },
-  "chane_bound_by_shadow": {
-    "name_en": "Chane, Bound by Shadow",
-    "name_zh": "查恩·受缚于暗影",
-    "type_zh": "暗影 符文剑士 英雄",
-    "text_en": "Once per Turn Action - Create a Soul Shackle token: Your next Runeblade or Shadow action this turn gains go again. Go again",
-    "text_zh": "每回合一次行动——创造一个灵魂枷锁衍生物：本回合你的下一次符文剑士或暗影行动获得再动。再动",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/chane_bound_by_shadow/",
     "status": "machine-draft"
   },
   "chorus_of_rotwood__1": {
@@ -1362,19 +1310,6 @@
     "power": null,
     "defense": "2",
     "source": "https://cards.fabtcg.com/card/flicker_wisp/",
-    "status": "machine-draft"
-  },
-  "florian_rotwood_harbinger": {
-    "name_en": "Florian, Rotwood Harbinger",
-    "name_zh": "弗洛里安·腐木预兆",
-    "type_zh": "元素 符文剑士 英雄",
-    "text_en": "If there are 8 or more Earth cards in your banished zone, Florian gets \"If you would create 1 or more aura tokens, instead create that many plus 1 of each of those tokens.\"\nEssence of Earth",
-    "text_zh": "若你的放逐区有8张或更多大地牌，弗洛里安获得“若你将创造1个或更多光环衍生物，改为创造数量加1的每种这些衍生物。”\n大地精华",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/florian_rotwood_harbinger/",
     "status": "machine-draft"
   },
   "force_of_nature__3": {
@@ -4068,19 +4003,6 @@
     "source": "https://cards.fabtcg.com/card/vexing_malice/",
     "status": "machine-draft"
   },
-  "viserai_rune_blood": {
-    "name_en": "Viserai, Rune Blood",
-    "name_zh": "维塞莱·符文之血",
-    "type_zh": "符文剑士 英雄",
-    "text_en": "Whenever you play a Runeblade card, if you've played another non-attack action card this turn, create a Runechant token.",
-    "text_zh": "每当你使用符文剑士牌时，若本回合你使用过另一张非攻击行动牌，创造一个符文吟唱衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/viserai_rune_blood/",
-    "status": "machine-draft"
-  },
   "voltbound_duality__1": {
     "name_en": "Voltbound Duality",
     "name_zh": "伏特束缚的二元性",
@@ -4118,19 +4040,6 @@
     "power": "2",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/voltbound_duality/",
-    "status": "machine-draft"
-  },
-  "vynnset_iron_maiden": {
-    "name_en": "Vynnset, Iron Maiden",
-    "name_zh": "温塞特·铁处女",
-    "type_zh": "暗影 符文剑士 英雄",
-    "text_en": "At the start of your turn, banish a card from your hand. If you do, create a Runechant token.\nWhenever you play a Shadow non-attack action card, you may pay {h}. If you do, the next Runechant effect that would deal damage this turn can't be prevented.",
-    "text_zh": "在你的回合开始时，放逐你手牌中的一张牌。若如此做，创造一个符文吟唱衍生物。\n每当你使用暗影非攻击行动牌时，你可以支付生命。若如此做，本回合下一个将造成伤害的符文吟唱效果不能被防止。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/vynnset_iron_maiden/",
     "status": "machine-draft"
   },
   "weeping_battleground__1": {
@@ -4222,6 +4131,48 @@
     "power": null,
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/written_in_the_stars/",
+    "status": "machine-draft"
+  },
+  "duskblade": {
+    "name_zh": "暮刃",
+    "name_en": "Duskblade",
+    "type_zh": "",
+    "type_en": "Runeblade Weapon - Sword (2H)",
+    "text_zh": "每回合一次行动——支付1点资源：攻击\n每当你用暮刃攻击时，若本回合你使用过一张攻击行动牌和一张\"非攻击\"行动牌，在暮刃上放置一个+1力量指示物。\n在你的结束阶段开始时，若本回合你尚未使用攻击行动牌和\"非攻击\"行动牌，从暮刃上移除所有+1力量指示物。",
+    "text_en": "Once per Turn Action - {r}: Attack\nWhenever you attack with Duskblade, if you've played an attack action card and a 'non-attack' action card this turn, put a +1{p} counter on Duskblade.\nAt the beginning of your end phase, if you haven't played an attack action card and a 'non-attack' action card this turn, remove all +1{p} counters from Duskblade.",
+    "pitch": null,
+    "cost": "",
+    "power": "2",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/duskblade/",
+    "status": "machine-draft"
+  },
+  "lord_sutcliffe": {
+    "name_zh": "萨特克利夫勋爵",
+    "name_en": "Lord Sutcliffe",
+    "type_zh": "",
+    "type_en": "Runeblade Mentor",
+    "text_zh": "当萨特克利夫牌面朝下在军械库中时，在你的回合开始时，你可以将他翻为正面朝上。\n当萨特克利夫正面朝上在军械库中时，每当你使用\"非攻击\"行动牌时，对每位英雄造成1点秘法伤害，并每以此方式造成1点伤害在萨特克利夫上放置一个课业指示物。然后若其上有3个或更多课业指示物，放逐他，从你的牌库中搜寻一张专精牌，将其正面朝上放入军械库，然后洗牌。",
+    "text_en": "While Sutcliffe is face down in arsenal, at the start of your turn, you may turn him face up.\nWhile Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action card, deal 1 arcane damage to each hero and put a lesson counter on Sutcliffe for each damage dealt this way. Then if there are 3 or more lesson counters on him, banish him, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
+    "pitch": null,
+    "cost": "",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/lord_sutcliffe/",
+    "status": "machine-draft"
+  },
+  "reaping_blade": {
+    "name_zh": "收割之刃",
+    "name_en": "Reaping Blade",
+    "type_zh": "",
+    "type_en": "Runeblade Weapon - Sword (2H)",
+    "text_zh": "每回合一次行动——支付1点资源：攻击\n若一位英雄的生命高于其他所有英雄，该英雄不能获得生命。",
+    "text_en": "Once per Turn Action - {r}: Attack\nIf a hero has more {h} than any other hero, they can't gain {h}.",
+    "pitch": null,
+    "cost": "",
+    "power": "3",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/reaping_blade/",
     "status": "machine-draft"
   }
 }

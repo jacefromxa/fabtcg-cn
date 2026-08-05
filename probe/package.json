@@ -5,8 +5,7 @@
     "test": "node --test",
     "build:aliases": "node ../scripts/build-card-aliases.mjs",
     "build:data": "node ../scripts/build-card-data.mjs",
-    "build:userscript": "node ../scripts/build-userscript.mjs",
-    "build": "npm run build:aliases && npm run build:data && npm run build:userscript",
+    "build": "npm run build:aliases && npm run build:data",
     "serve:data": "node ../scripts/dev-data-server.mjs"
   }
 }

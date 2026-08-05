@@ -25,19 +25,6 @@
     "source": "https://cards.fabtcg.com/card/arc_bending/",
     "status": "machine-draft"
   },
-  "azalea_ace_in_the_hole": {
-    "name_en": "Azalea, Ace in the Hole",
-    "name_zh": "阿泽利亚·隐藏王牌",
-    "type_zh": "游侠 英雄",
-    "text_en": "Once per Turn Action - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it's an arrow card, it gains dominate until end of turn. Go again",
-    "text_zh": "每回合一次行动——费用0：将你军械库中的一张牌置于你的牌库底。若如此做，将你牌库顶的一张牌正面朝上放入你的军械库。若其为箭矢牌，它直到回合结束获得支配。再动",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/azalea_ace_in_the_hole/",
-    "status": "machine-draft"
-  },
   "bait": {
     "name_en": "Bait",
     "name_zh": "诱饵",
@@ -1286,19 +1273,6 @@
     "source": "https://cards.fabtcg.com/card/lace_with_inertia/",
     "status": "machine-draft"
   },
-  "lexi_livewire": {
-    "name_en": "Lexi, Livewire",
-    "name_zh": "莱克西·活线",
-    "type_zh": "元素 游侠 英雄",
-    "text_en": "Essence of Ice and Lightning\nOnce per Turn Action - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains go again. If it's an Ice card, create a Frostbite token under target hero's control. Go again",
-    "text_zh": "冰与闪电精华\n每回合一次行动——将你军械库中的一张牌面朝下的牌翻为正面朝上：若其为闪电牌，你本回合的下一次攻击获得再动。若其为冰牌，在目标英雄的控制下创造一个霜咬衍生物。再动",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/lexi_livewire/",
-    "status": "machine-draft"
-  },
   "light_it_up__2": {
     "name_en": "Light it Up",
     "name_zh": "点亮",
@@ -1388,19 +1362,6 @@
     "power": "5",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/mage_hunter_arrow/",
-    "status": "machine-draft"
-  },
-  "marlynn_treasure_hunter": {
-    "name_en": "Marlynn, Treasure Hunter",
-    "name_zh": "玛琳·寻宝猎人",
-    "type_zh": "海盗 游侠 英雄",
-    "text_en": "Action - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. Go again\nWhenever you draw a card during your action phase, you may put an arrow from your hand face-up into your arsenal.",
-    "text_zh": "行动——横置此牌，摧毁你控制的一个金币：在你的手牌中创造一张金翅鱼叉。再动\n每当你在此行动阶段期间抽牌时，你可以将你手牌中的一张箭矢正面朝上放入你的军械库。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/marlynn_treasure_hunter/",
     "status": "machine-draft"
   },
   "melting_point__1": {
@@ -1947,19 +1908,6 @@
     "power": "2",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/ridge_rider_shot/",
-    "status": "machine-draft"
-  },
-  "riptide_lurker_of_the_deep": {
-    "name_en": "Riptide, Lurker of the Deep",
-    "name_zh": "瑞普泰德·深海潜伏者",
-    "type_zh": "游侠 英雄",
-    "text_en": "Whenever you play a card from hand, you may put a card from hand face down into your arsenal.\nWhenever a trap you control triggers, deal 1 damage to the attacking hero.",
-    "text_zh": "每当你从手牌使用牌时，你可以将手牌中的一张牌牌面朝下放入你的军械库。\n每当你控制的陷阱触发时，对攻击英雄造成1点伤害。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/riptide_lurker_of_the_deep/",
     "status": "machine-draft"
   },
   "rockslide_trap__3": {

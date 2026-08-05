@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "oaken_old": {
       "id": "oaken_old",
@@ -438,7 +438,7 @@
       "id": "oldhim_grandfather_of_eternity",
       "name_zh": "奥德希姆·永恒之祖",
       "name_en": "Oldhim, Grandfather of Eternity",
-      "type_zh": "元素 守护者 英雄",
+      "type_zh": "",
       "text_zh": "大地与冰精华\n每回合一次防御反应——支付3点资源：若以此方式资源的是大地牌，防止本回合接下来将对奥德希姆造成的2点伤害。若以此方式资源的是冰牌，攻击英雄将手牌中的一张牌置于其牌库顶。",
       "text_en": "Essence of Earth and Ice\nOnce per Turn Defense Reaction - {r}{r}{r}: If an Earth card is pitched this way, prevent the next 2 damage that would be dealt to Oldhim this turn. If an Ice card is pitched this way, the attacking hero puts a card from their hand on top of their deck.",
       "source": "https://cards.fabtcg.com/card/oldhim_grandfather_of_eternity/",
@@ -508,9 +508,9 @@
     },
     "olympia_prized_fighter": {
       "id": "olympia_prized_fighter",
-      "name_zh": "奥林匹亚，受宠斗士",
+      "name_zh": "奥林匹亚·受宠斗士",
       "name_en": "Olympia, Prized Fighter",
-      "type_zh": "战士 英雄",
+      "type_zh": "",
       "text_zh": "你的每次攻击第一次赢得下注时，创造一个金币衍生物。",
       "text_en": "The first time each of your attacks wins a wager, create a Gold token.",
       "source": "https://cards.fabtcg.com/card/olympia_prized_fighter/",
@@ -803,6 +803,18 @@
           "cost": "0",
           "power": null,
           "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
         }
       }
     },
@@ -882,7 +894,7 @@
       "id": "oscilio_constella_intelligence",
       "name_zh": "奥斯西利奥·星象智识",
       "name_en": "Oscilio, Constella Intelligence",
-      "type_zh": "元素 法师 英雄",
+      "type_zh": "",
       "text_zh": "每回合一次瞬间——弃一张瞬间牌：抽一张牌。\n闪电精华",
       "text_en": "Once per Turn Instant - Discard an instant: Draw a card.\nEssence of Lightning",
       "source": "https://cards.fabtcg.com/card/oscilio_constella_intelligence/",
@@ -900,7 +912,7 @@
       "id": "oscilio_forked_continuum",
       "name_zh": "奥斯西利奥·分叉连续体",
       "name_en": "Oscilio, Forked Continuum",
-      "type_zh": "闪电 法师 英雄",
+      "type_zh": "",
       "text_zh": "瞬间——支付1点资源，横置此牌，摧毁你控制的一个闪电流转：弃一张牌并创造一个沉思衍生物。若以此方式弃置的是一张瞬间，本回合你可以使用它。",
       "text_en": "Instant - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discard this way, you may play it this turn.",
       "source": "https://cards.fabtcg.com/card/oscilio_forked_continuum/",

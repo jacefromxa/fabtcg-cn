@@ -181,19 +181,6 @@
     "source": "https://cards.fabtcg.com/card/bet_big/",
     "status": "machine-draft"
   },
-  "betsy_skin_in_the_game": {
-    "name_en": "Betsy, Skin in the Game",
-    "name_zh": "贝特西·投入其中",
-    "type_zh": "守护者 英雄",
-    "text_en": "Whenever an attack you control wagers, you may pay {r}{r}. If you do, the attack gets +1{p} and overpower.",
-    "text_zh": "每当你控制的攻击下注时，你可以支付2点资源。若如此做，该攻击获得+1力量和压制。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/betsy_skin_in_the_game/",
-    "status": "machine-draft"
-  },
   "big_bop__1": {
     "name_en": "Big Bop",
     "name_zh": "重拳出击",
@@ -504,32 +491,6 @@
     "power": "5",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/bracken_rap/",
-    "status": "machine-draft"
-  },
-  "bravo_showstopper": {
-    "name_en": "Bravo, Showstopper",
-    "name_zh": "布拉沃·压轴明星",
-    "type_zh": "守护者 英雄",
-    "text_en": "Action - {r}{r}: Until end of turn, your attack action cards with cost 3 or greater gains dominate. Go again",
-    "text_zh": "行动——支付2点资源：直到回合结束，你使用的费用为3或更高的攻击行动牌获得支配。再动",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/bravo_showstopper/",
-    "status": "machine-draft"
-  },
-  "bravo_star_of_the_show": {
-    "name_en": "Bravo, Star of the Show",
-    "name_zh": "布拉沃·全场之星",
-    "type_zh": "元素 守护者 英雄",
-    "text_en": "Essence of Earth, Ice, and Lightning\nAt the start of your turn, you may reveal an Earth, an Ice, and a Lightning card from your hand. If you do, the next attack action card with cost 3 or greater you play this turn gains +2{p}, dominate, and go again.",
-    "text_zh": "大地、冰和闪电精华\n在你的回合开始时，你可以展示你手牌中的一张大地、一张冰和一张闪电牌。若如此做，你本回合使用的下一张费用为3或更高的攻击行动牌获得+2力量、支配和再动。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/bravo_star_of_the_show/",
     "status": "machine-draft"
   },
   "break_stature__2": {
@@ -1975,19 +1936,6 @@
     "source": "https://cards.fabtcg.com/card/in_the_palm_of_your_hand/",
     "status": "machine-draft"
   },
-  "jarl_vetrei_i": {
-    "name_en": "Jarl Vetreiði",
-    "name_zh": "贾尔·维特雷一世",
-    "type_zh": "元素 守护者 英雄",
-    "text_en": "Whenever you play an Ice card, create a Frostbite token in an opponent's exposed head, chest, arms, or legs zone.\nEssence of Earth and Ice",
-    "text_zh": "每当你使用一张冰牌时，在对手的一个暴露的头部、胸部、手臂或腿部区域创造一个霜咬衍生物。\n大地与冰精华",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/jarl_vetrei_i/",
-    "status": "machine-draft"
-  },
   "knock_em_off_their_feet__1": {
     "name_en": "Knock 'Em Off Their Feet",
     "name_zh": "打翻在地",
@@ -2181,19 +2129,6 @@
     "power": "4",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/log_fall/",
-    "status": "machine-draft"
-  },
-  "lyath_goldmane_vile_savant": {
-    "name_en": "Lyath Goldmane, Vile Savant",
-    "name_zh": "莱雅斯·金鬃·卑鄙学者",
-    "type_zh": "憎恶 守护者 英雄",
-    "text_en": "The base {p} and {d} of cards you control are halved, rounded up.\nInstant - {r}{r}, {t}: The crowd boos you. Defending action cards you control get +1{d} this turn.\nWhenever the crowd boos you, create a Might token.",
-    "text_zh": "你控制的牌的基础力量和防御减半（向上取整）。\n瞬间——支付2点资源，横置此牌：观众为你喝倒彩。本回合你控制的防御行动牌获得+1防御。\n每当观众为你喝倒彩时，创造一个力量衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/lyath_goldmane_vile_savant/",
     "status": "machine-draft"
   },
   "macho_grande__1": {
@@ -2391,19 +2326,6 @@
     "source": "https://cards.fabtcg.com/card/no_tall_tales/",
     "status": "machine-draft"
   },
-  "oldhim_grandfather_of_eternity": {
-    "name_en": "Oldhim, Grandfather of Eternity",
-    "name_zh": "奥德希姆·永恒之祖",
-    "type_zh": "元素 守护者 英雄",
-    "text_en": "Essence of Earth and Ice\nOnce per Turn Defense Reaction - {r}{r}{r}: If an Earth card is pitched this way, prevent the next 2 damage that would be dealt to Oldhim this turn. If an Ice card is pitched this way, the attacking hero puts a card from their hand on top of their deck.",
-    "text_zh": "大地与冰精华\n每回合一次防御反应——支付3点资源：若以此方式资源的是大地牌，防止本回合接下来将对奥德希姆造成的2点伤害。若以此方式资源的是冰牌，攻击英雄将手牌中的一张牌置于其牌库顶。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/oldhim_grandfather_of_eternity/",
-    "status": "machine-draft"
-  },
   "over_the_top__1": {
     "name_en": "Over the Top",
     "name_zh": "超出预期",
@@ -2519,19 +2441,6 @@
     "power": null,
     "defense": "2",
     "source": "https://cards.fabtcg.com/card/pint_of_strong_and_stout/",
-    "status": "machine-draft"
-  },
-  "pleiades_superstar": {
-    "name_en": "Pleiades, Superstar",
-    "name_zh": "昴宿巨星",
-    "type_zh": "崇敬 守护者 英雄",
-    "text_en": "Instant - {t}, remove a suspense counter from an aura you control: You may put a suspense counter on an aura of suspense you control.\nWhenever the crowd cheers you, create a Confidence token.",
-    "text_zh": "瞬间——横置此牌，从你控制的一个光环上移除一个悬念指示物：你可以将一个悬念指示物放置在你控制的一个悬念光环上。\n每当观众为你欢呼时，创造一个自信衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/pleiades_superstar/",
     "status": "machine-draft"
   },
   "power_play__1": {
@@ -4081,32 +3990,6 @@
     "source": "https://cards.fabtcg.com/card/valahai_riven/",
     "status": "machine-draft"
   },
-  "valda_seismic_impact": {
-    "name_en": "Valda, Seismic Impact",
-    "name_zh": "瓦尔达·地震冲击",
-    "type_zh": "守护者 英雄",
-    "text_en": "Whenever an opponent draws 1 or more cards during an action phase, create that many Seismic Surge tokens.\nAt the start of your turn, if you control 3 or more Siesmic Surge tokens, cards you own with crush get dominate this turn.",
-    "text_zh": "每当行动阶段期间对手抽1张或更多牌时，创造等量的地震涌动衍生物。\n在你的回合开始时，若你控制3个或更多地震涌动衍生物，本回合你拥有的具有粉碎的牌获得支配。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/valda_seismic_impact/",
-    "status": "machine-draft"
-  },
-  "victor_goldmane_high_and_mighty": {
-    "name_en": "Victor Goldmane, High and Mighty",
-    "name_zh": "维克托·金鬃·趾高气昂",
-    "type_zh": "守护者 英雄",
-    "text_en": "The first time each turn you create a Gold token from an effect you control, draw a card.\nThe first time each turn you would fail to win a clash, instead you may destroy a Gold you control. If you do, put 1 of the revealed cards on the bottom of its owner's deck, then clash again.",
-    "text_zh": "每回合第一次你因自己控制的效果创造金币衍生物时，抽一张牌。\n每回合第一次你将未能赢得交锋时，你可以改为摧毁你控制的一个金币。若如此做，将展示的牌中的一张置于其拥有者的牌库底，然后再次交锋。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/victor_goldmane_high_and_mighty/",
-    "status": "machine-draft"
-  },
   "visit_anvilheim__3": {
     "name_en": "Visit Anvilheim",
     "name_zh": "拜访铁砧海姆",
@@ -4313,6 +4196,34 @@
     "power": null,
     "defense": null,
     "source": "https://cards.fabtcg.com/card/withstand/",
+    "status": "machine-draft"
+  },
+  "awakening__3": {
+    "name_zh": "觉醒",
+    "name_en": "Awakening",
+    "type_zh": "",
+    "type_en": "Elemental Guardian Instant",
+    "text_zh": "大地融合\n若你的生命低于一位对手英雄，创造与你与对手生命差等量的地震涌动衍生物。若觉醒已融合，改为创造两倍数量的地震涌动衍生物。\n从你的牌库中搜寻一张费用小于或等于你控制的地震涌动衍生物数量的守护者攻击行动牌，展示它，将其置入你的手牌，然后洗牌。",
+    "text_en": "Earth Fusion\nIf you have less {h} than an opposing hero, create Seismic Surge tokens equal to the difference. If Awakening was fused, instead create twice that many Seismic Surge tokens.\nSearch your deck for a Guardian attack action card with cost less than or equal to the number of Seismic Surge tokens you control, reveal it, put it into your hand, then shuffle your deck.",
+    "pitch": "3",
+    "cost": "2",
+    "power": "",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/awakening/",
+    "status": "machine-draft"
+  },
+  "winters_wail": {
+    "name_zh": "冬之哀嚎",
+    "name_en": "Winter's Wail",
+    "type_zh": "",
+    "type_en": "Elemental Guardian Weapon - Hammer (1H)",
+    "text_zh": "每回合一次行动——支付3点资源：攻击\n若以此方式资源了一张冰牌，冬之哀嚎获得\"若此牌命中英雄，在其控制下创造一个霜咬衍生物。\"",
+    "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf an Ice card is pitched this way, Winter's Wail gains \"If this hits a hero, create a Frostbite token under their control.\"",
+    "pitch": null,
+    "cost": "",
+    "power": "4",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/winters_wail/",
     "status": "machine-draft"
   }
 }

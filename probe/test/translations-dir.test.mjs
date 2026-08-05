@@ -5,7 +5,8 @@ import path from 'node:path';
 import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { loadZhTranslations } from '../../scripts/build-card-data.mjs';
-import { mergeMachineDrafts, getT3BatchName, isT1GenericCard, isT2EquipmentCard } from '../../scripts/build-translation-drafts.mjs';
+import { mergeMachineDrafts, getT3BatchName, isT1GenericCard, isT2EquipmentCard, isHeroCard } from '../../scripts/build-translation-drafts.mjs';
+import { slugifyCardName } from '../../scripts/translate-helper.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const translationsDir = path.join(projectRoot, 'data/translations');
@@ -66,18 +67,59 @@ test('a T3 batch filter only yields cards assigned to that batch', () => {
 test('every card in cards.json is assignable to a batch (no legality gating)', () => {
   const cards = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/source/english/card.json'), 'utf8'));
   const unassigned = cards.filter(
-    (c) => !(isT1GenericCard(c) || isT2EquipmentCard(c) || getT3BatchName(c)),
+    (c) => !(isT1GenericCard(c) || isT2EquipmentCard(c) || getT3BatchName(c) || isHeroCard(c)),
   );
-  assert.equal(unassigned.length, 0, 'all cards must have a batch home');
+  assert.equal(unassigned.length, 0, 'all cards must have a batch home (heroes live in heroes.json)');
 });
 
-test('the t3-other catch-all never captures Generic or Equipment cards', () => {
+test('the t3-other catch-all never captures Generic, Equipment or Hero cards', () => {
   const cards = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/source/english/card.json'), 'utf8'));
   for (const card of cards) {
     if (getT3BatchName(card) !== 't3-other') continue;
     assert.ok(!card.types.includes('Generic'), `${card.name} should be t1, not t3-other`);
     assert.ok(!card.types.includes('Equipment'), `${card.name} should be t2, not t3-other`);
+    assert.ok(!card.types.includes('Hero'), `${card.name} should live in heroes.json, not t3-other`);
   }
+});
+
+test('every card sits in the batch file its filter assigns (no cross-batch strays)', () => {
+  const cards = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/source/english/card.json'), 'utf8'));
+  const byName = new Map(cards.map((c) => [c.name, c]));
+  const homeOf = (card) => {
+    if (isHeroCard(card)) return 'heroes.json';
+    if (isT1GenericCard(card)) return 't1-generic.json';
+    if (isT2EquipmentCard(card)) return 't2-equipment.json';
+    const batch = getT3BatchName(card);
+    if (batch && batch !== 't3-other') return `${batch}.json`;
+    return 't4-remaining.json'; // catch-all file
+  };
+  for (const file of fs.readdirSync(translationsDir)) {
+    if (!file.endsWith('.json') || file === 'human-reviewed.json') continue;
+    const entries = JSON.parse(fs.readFileSync(path.join(translationsDir, file), 'utf8'));
+    for (const [key, entry] of Object.entries(entries)) {
+      const card = byName.get(entry.name_en);
+      if (!card) continue;
+      assert.equal(file, homeOf(card), `${entry.name_en} (${key}) should live in ${homeOf(card)}, not ${file}`);
+    }
+  }
+});
+
+test('every Hero card in cards.json is archived in heroes.json under its canonical slug', () => {
+  const cards = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/source/english/card.json'), 'utf8'));
+  const heroes = JSON.parse(fs.readFileSync(path.join(translationsDir, 'heroes.json'), 'utf8'));
+  const expected = new Map();
+  for (const card of cards) {
+    if (!Array.isArray(card.types) || !card.types.includes('Hero')) continue;
+    expected.set(slugifyCardName(card.name), card.name);
+  }
+  for (const [slug, name] of expected) {
+    const entry = heroes[slug];
+    assert.ok(entry, `missing hero entry: ${name} (${slug})`);
+    assert.equal(entry.name_en, name, `${slug} should be keyed by slugifyCardName(${name})`);
+    assert.ok(entry.name_zh, `${name} (${slug}) is missing a Chinese name`);
+  }
+  const extra = Object.keys(heroes).filter((slug) => !expected.has(slug));
+  assert.equal(extra.length, 0, `heroes.json has entries that are not Hero cards: ${extra.join(', ')}`);
 });
 
 test('batch generator preserves existing entries when re-run (merge, not rebuild)', () => {

@@ -636,19 +636,6 @@
     "source": "https://cards.fabtcg.com/card/cinderskin_devotion/",
     "status": "machine-draft"
   },
-  "cindra_dracai_of_retribution": {
-    "name_en": "Cindra, Dracai of Retribution",
-    "name_zh": "辛德拉·天罚之德拉凯",
-    "type_zh": "Royal 龙裔 忍者 英雄",
-    "text_en": "Whenever you hit a marked hero, create a Fealty token.\nOnce per Turn Instant - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",
-    "text_zh": "每当你命中被标记的英雄时，创造一个效忠衍生物。\n每回合一次瞬间——支付3点资源：从你的坟场中装备至多2把龙裔匕首。每当你控制一个龙裔链环，此异能启动费用减少1点资源。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/cindra_dracai_of_retribution/",
-    "status": "machine-draft"
-  },
   "combustion_point__1": {
     "name_en": "Combustion Point",
     "name_zh": "燃点",
@@ -1128,19 +1115,6 @@
     "power": "1",
     "defense": "2",
     "source": "https://cards.fabtcg.com/card/evasive_nageboshi/",
-    "status": "machine-draft"
-  },
-  "fai_rising_rebellion": {
-    "name_en": "Fai, Rising Rebellion",
-    "name_zh": "法伊·崛起之叛",
-    "type_zh": "龙裔 忍者 英雄",
-    "text_en": "You may start the game with a Phoenix Flame in your graveyard.\nOnce per Turn Instant - {r}{r}{r}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {r} less for each Draconic chain link you control.",
-    "text_zh": "你可以以坟场中一张凤凰烈焰开始游戏。\n每回合一次瞬间——支付3点资源：将你坟场中的一张凤凰烈焰移回你的手牌。每当你控制一个龙裔链环，此异能费用减少1点资源。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/fai_rising_rebellion/",
     "status": "machine-draft"
   },
   "feign_vengeance__3": {
@@ -1739,32 +1713,6 @@
     "power": "2",
     "defense": "2",
     "source": "https://cards.fabtcg.com/card/ignite/",
-    "status": "machine-draft"
-  },
-  "ira_scarlet_revenger": {
-    "name_en": "Ira, Scarlet Revenger",
-    "name_zh": "伊拉·猩红复仇者",
-    "type_zh": "忍者 英雄",
-    "text_en": "Your second attack each turn gets +1{p}.",
-    "text_zh": "你每回合的第二次攻击获得+1力量。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/ira_scarlet_revenger/",
-    "status": "machine-draft"
-  },
-  "katsu_the_wanderer": {
-    "name_en": "Katsu, the Wanderer",
-    "name_zh": "卡兹·流浪者",
-    "type_zh": "忍者 英雄",
-    "text_en": "The first time an attack action card you control hits each turn, you may discard a card with cost 0. If you do, search your deck for a card with combo, banish it face up, then shuffle your deck. You may play it this turn.",
-    "text_zh": "每回合第一次你控制的攻击行动牌命中时，你可以弃一张费用为0的牌。若如此做，从你的牌库中搜寻一张具有连击的牌，正面朝上放逐它，然后洗牌。本回合你可以使用它。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/katsu_the_wanderer/",
     "status": "machine-draft"
   },
   "knives_out__3": {
@@ -3834,17 +3782,74 @@
     "source": "https://cards.fabtcg.com/card/zen_state/",
     "status": "machine-draft"
   },
-  "zen_tamer_of_purpose": {
-    "name_en": "Zen, Tamer of Purpose",
-    "name_zh": "禅·目标驯服者",
-    "type_zh": "秘法 忍者 英雄",
-    "text_en": "Once per Turn Instant - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with combo, banish it, then shuffle. You may play it this turn.",
-    "text_zh": "每回合一次瞬间——支付3点资源：在你的手牌中创造一张卧虎。从你的牌库中搜寻一张具有连击的牌，放逐它，然后洗牌。本回合你可以使用它。",
+  "brand_with_cinderclaw__1": {
+    "name_zh": "余烬爪烙印",
+    "name_en": "Brand with Cinderclaw",
+    "type_zh": "",
+    "type_en": "Draconic Ninja Action - Attack",
+    "text_zh": "本战斗链中你的下一次攻击除其原有类别外还视为龙裔。\n再动",
+    "text_en": "Your next attack this combat chain is Draconic in addition to its other card types.\nGo again",
+    "pitch": "1",
+    "cost": "0",
+    "power": "3",
+    "defense": "2",
+    "source": "https://cards.fabtcg.com/card/brand_with_cinderclaw/",
+    "status": "machine-draft"
+  },
+  "brand_with_cinderclaw__2": {
+    "name_zh": "余烬爪烙印",
+    "name_en": "Brand with Cinderclaw",
+    "type_zh": "",
+    "type_en": "Draconic Ninja Action - Attack",
+    "text_zh": "本战斗链中你的下一次攻击除其原有类别外还视为龙裔。\n再动",
+    "text_en": "Your next attack this combat chain is Draconic in addition to its other card types.\nGo again",
+    "pitch": "2",
+    "cost": "0",
+    "power": "2",
+    "defense": "2",
+    "source": "https://cards.fabtcg.com/card/brand_with_cinderclaw/",
+    "status": "machine-draft"
+  },
+  "brand_with_cinderclaw__3": {
+    "name_zh": "余烬爪烙印",
+    "name_en": "Brand with Cinderclaw",
+    "type_zh": "",
+    "type_en": "Draconic Ninja Action - Attack",
+    "text_zh": "本战斗链中你的下一次攻击除其原有类别外还视为龙裔。\n再动",
+    "text_en": "Your next attack this combat chain is Draconic in addition to its other card types.\nGo again",
+    "pitch": "3",
+    "cost": "0",
+    "power": "1",
+    "defense": "2",
+    "source": "https://cards.fabtcg.com/card/brand_with_cinderclaw/",
+    "status": "machine-draft"
+  },
+  "wrath_of_retribution__1": {
+    "name_zh": "报复之怒",
+    "name_en": "Wrath of Retribution",
+    "type_zh": "",
+    "type_en": "Draconic Ninja Action - Attack",
+    "text_zh": "传奇\n每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n当此牌攻击时，你控制的匕首获得+1力量且本战斗链中启动费用减少1点资源。\n再动",
+    "text_en": "Legendary\nThis costs {r} less to play for each Draconic chain link you control.\nWhen this attacks, daggers you control get +1{p} and cost {r} less to activate this combat chain.\nGo again",
+    "pitch": "1",
+    "cost": "3",
+    "power": "3",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/wrath_of_retribution/",
+    "status": "machine-draft"
+  },
+  "zephyr_needle": {
+    "name_zh": "微风针",
+    "name_en": "Zephyr Needle",
+    "type_zh": "",
+    "type_en": "Ninja Weapon - Dagger (1H)",
+    "text_zh": "每回合一次行动——支付1点资源：攻击。再动\n当此牌被一张防御大于此武器攻击力量的牌防御时，当战斗链关闭时摧毁此牌。",
+    "text_en": "Once per Turn Action - {r}: Attack. Go again\nWhen this is defended by a card with {d} greater than this weapon attack's {p}, destroy this when the combat chain closes.",
     "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/zen_tamer_of_purpose/",
+    "cost": "",
+    "power": "2",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/zephyr_needle/",
     "status": "machine-draft"
   }
 }

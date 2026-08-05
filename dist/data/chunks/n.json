@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "nasreth_the_soul_harrower": {
       "id": "nasreth_the_soul_harrower",
@@ -834,7 +834,7 @@
       "id": "nuu_alluring_desire",
       "name_zh": "努乌·诱人的欲望",
       "name_en": "Nuu, Alluring Desire",
-      "type_zh": "秘法 刺客 英雄",
+      "type_zh": "",
       "text_zh": "你的具有隐匿的攻击获得“当此链环结算时，放逐所有防御此牌的的行动牌。”\n瞬间——支付3点资源：查看一位对手英雄牌库顶的一张牌。若其为蓝色，你可以放逐它。直到回合结束，你可以不支付费用使用该英雄放逐区中的蓝色牌。",
       "text_en": "Your attacks with stealth get \"When this chain link resolves, banish all action cards defending this.\"\nInstant - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",
       "source": "https://cards.fabtcg.com/card/nuu_alluring_desire/",

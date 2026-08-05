@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "ice_bolt": {
       "id": "ice_bolt",
@@ -1434,7 +1434,7 @@
       "id": "ira_scarlet_revenger",
       "name_zh": "伊拉·猩红复仇者",
       "name_en": "Ira, Scarlet Revenger",
-      "type_zh": "忍者 英雄",
+      "type_zh": "",
       "text_zh": "你每回合的第二次攻击获得+1力量。",
       "text_en": "Your second attack each turn gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/ira_scarlet_revenger/",
@@ -1830,7 +1830,7 @@
       "id": "iyslander_stormbind",
       "name_zh": "艾斯兰德·风暴束缚",
       "name_en": "Iyslander, Stormbind",
-      "type_zh": "元素 法师 英雄",
+      "type_zh": "",
       "text_zh": "冰精华\n若现在不是你的回合，你可以将你军械库中的蓝色“非攻击”行动牌当作瞬间使用。\n每当你在此牌对手的回合期间使用冰牌时，在其控制下创造一个霜咬衍生物。",
       "text_en": "Essence of Ice\nIf it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.\nWhenever you play an Ice card during an opponents turn, create a Frostbite token under their control.",
       "source": "https://cards.fabtcg.com/card/iyslander_stormbind/",

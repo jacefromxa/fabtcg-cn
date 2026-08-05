@@ -12,14 +12,24 @@ const translationsDir = path.join(projectRoot, 'data/translations');
 // assigned purely by card type / class / talent, so every card (whatever its
 // CC/Blitz/LL status) has a home and can be translated.
 
+// Heroes are managed in their own data/translations/heroes.json and must never
+// be drafted into a class / generic / equipment batch. scripts/consolidate-
+// heroes.mjs keeps that archive in sync with the English source; re-running a
+// batch must not resurrect hero cards into the batch files.
+export function isHeroCard(card) {
+  return Boolean(Array.isArray(card.types) && card.types.includes('Hero'));
+}
+
 // T1: Generic cards. Playable in any deck regardless of hero.
 export function isT1GenericCard(card) {
-  return Boolean(Array.isArray(card.types) && card.types.includes('Generic'));
+  return !isHeroCard(card)
+    && Boolean(Array.isArray(card.types) && card.types.includes('Generic'));
 }
 
 // T2: Equipment and weapons. High reuse across heroes.
 export function isT2EquipmentCard(card) {
-  return Boolean(Array.isArray(card.types) && card.types.includes('Equipment'));
+  return !isHeroCard(card)
+    && Boolean(Array.isArray(card.types) && card.types.includes('Equipment'));
 }
 
 // Batch names double as the per-batch translation file name (minus .json), so
@@ -60,8 +70,8 @@ const T3_BATCHES = [
 
 export function getT3BatchName(card) {
   if (!Array.isArray(card.types)) return 't3-other';
-  // Generic and Equipment cards are already handled by the t1 / t2 batches.
-  if (card.types.includes('Generic') || card.types.includes('Equipment')) return null;
+  // Heroes and Generic/Equipment cards are handled by their own batches.
+  if (card.types.includes('Hero') || card.types.includes('Generic') || card.types.includes('Equipment')) return null;
   for (const batch of T3_BATCHES) {
     if (batch.tags.some((tag) => card.types.includes(tag))) return batch.name;
   }
@@ -76,9 +86,12 @@ export function isT3Batch(batchName) {
 
 // T4: Catch-all for every remaining card not yet covered by T1-T3. Blindly
 // translates all unmatched cards regardless of legality (Young heroes, Events,
-// Blitz-only, etc.).
+// Blitz-only, etc.). Hero cards stay out of T4 too — they live in heroes.json.
 export function isT4RemainingCard(card) {
-  return !isT1GenericCard(card) && !isT2EquipmentCard(card) && !getT3BatchName(card);
+  return !isHeroCard(card)
+    && !isT1GenericCard(card)
+    && !isT2EquipmentCard(card)
+    && !getT3BatchName(card);
 }
 
 // --- Merging ----------------------------------------------------------------

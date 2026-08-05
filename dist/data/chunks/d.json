@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "dabble_in_darkness": {
       "id": "dabble_in_darkness",
@@ -162,7 +162,7 @@
       "id": "dash_i_o",
       "name_zh": "达什·I/O",
       "name_en": "Dash I/O",
-      "type_zh": "机械师 英雄",
+      "type_zh": "",
       "text_zh": "你随时可以查看你牌库顶的一张牌。\n每回合一次，你可以将你牌库顶的一张费用为0或1的机械师物品当作瞬间使用。它的使用费用额外增加1点资源。",
       "text_en": "You may look at the top card of your deck at any time.\nOnce per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",
       "source": "https://cards.fabtcg.com/card/dash_i_o/",
@@ -180,7 +180,7 @@
       "id": "dash_inventor_extraordinaire",
       "name_zh": "达什·杰出发明家",
       "name_en": "Dash, Inventor Extraordinaire",
-      "type_zh": "机械师 英雄",
+      "type_zh": "",
       "text_zh": "你可以以竞技场中一张费用为2或更低的机械师物品开始游戏。",
       "text_en": "You may start the game with a Mechanologist item with cost 2 or less in the arena.",
       "source": "https://cards.fabtcg.com/card/dash_inventor_extraordinaire/",
@@ -2008,9 +2008,9 @@
     },
     "dorinthea_ironsong": {
       "id": "dorinthea_ironsong",
-      "name_zh": "多琳茜娅·铁歌",
+      "name_zh": "多琳希雅·铁歌",
       "name_en": "Dorinthea Ironsong",
-      "type_zh": "战士 英雄",
+      "type_zh": "",
       "text_zh": "每回合一次效果——当你控制的武器命中时，本回合你可以用该武器额外攻击一次。",
       "text_en": "Once per turn Effect - When a weapon you control hits, you may attack an additional time with that weapon this turn.",
       "source": "https://cards.fabtcg.com/card/dorinthea_ironsong/",
@@ -2778,7 +2778,7 @@
       "id": "dromai_ash_artist",
       "name_zh": "德罗迈·灰烬艺术家",
       "name_en": "Dromai, Ash Artist",
-      "type_zh": "龙裔 幻术师 英雄",
+      "type_zh": "",
       "text_zh": "每当你资源一张红色牌时，创造一个灰烬衍生物。\n若本回合你使用过一张红色牌，你控制的龙在攻击时具有再动。",
       "text_en": "Whenever you pitch a red card, create an Ash Token.\nIf you've played a red card this turn, dragons you control have go again while attacking.",
       "source": "https://cards.fabtcg.com/card/dromai_ash_artist/",

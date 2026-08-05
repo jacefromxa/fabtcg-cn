@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { runInNewContext } from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
-const sourcePath = fileURLToPath(new URL('../probe.user.js', import.meta.url));
+const sourcePath = fileURLToPath(new URL('../talishar-cn.user.js', import.meta.url));
 const source = readFileSync(sourcePath, 'utf8');
 const browserSandbox = { URL };
 browserSandbox.window = browserSandbox;
@@ -18,8 +18,11 @@ const {
   lookupCard,
   calculatePanelPosition,
   findCardAnchor,
+  findCardPreviewImage,
   renderCardPanel,
   installProbe,
+  SETTINGS_DEFAULTS,
+  loadSettings,
 } = probe;
 
 test('userscript is browser-only and has no lint global declaration', () => {
@@ -81,10 +84,24 @@ function createFakeDocument() {
     },
   };
 
+  var head = {
+    children: [],
+    appendChild(node) {
+      this.children.push(node);
+      node.parentNode = this;
+    },
+    removeChild(node) {
+      this.children = this.children.filter(function (c) { return c !== node; });
+      node.parentNode = null;
+    },
+  };
+
   return {
     body,
+    head,
     listeners,
     createElement(tagName) {
+      const elementListeners = new Map();
       return {
         tagName: tagName.toUpperCase(),
         id: '',
@@ -97,6 +114,19 @@ function createFakeDocument() {
         },
         remove() {
           if (this.parentNode) this.parentNode.removeChild(this);
+        },
+        insertBefore(newNode, refNode) {
+          this.children.unshift(newNode);
+          newNode.parentNode = this;
+        },
+        addEventListener(type, callback) {
+          elementListeners.set(type, callback);
+        },
+        removeEventListener(type, callback) {
+          if (elementListeners.get(type) === callback) elementListeners.delete(type);
+        },
+        getBoundingClientRect() {
+          return { left: 0, top: 0, width: 300, height: 100, right: 300, bottom: 100 };
         },
       };
     },
@@ -235,10 +265,11 @@ test('renderCardPanel only renders the three requested card fields', () => {
     '每回合一次行动：攻击。',
   ]);
   assert.equal(panel.children.length, 3);
-  assert.equal(panel.children[0].style.color, '#ffad42');
+  assert.equal(panel.children[0].style.color, 'var(--fab-cn-name-color)');
   assert.equal(panel.children[0].style.fontWeight, '700');
   assert.equal(panel.children[1].style.fontStyle, 'italic');
   assert.equal(panel.children[1].style.textDecoration, 'underline');
+  assert.equal(panel.children[1].style.color, 'var(--fab-cn-type-color)');
 });
 
 test('findCardAnchor prefers the image inside the detected card container', () => {
@@ -253,4 +284,151 @@ test('findCardAnchor prefers the image inside the detected card container', () =
   const fakeDocument = { body: {} };
 
   assert.equal(findCardAnchor(container, fakeDocument), image);
+});
+
+test('findCardPreviewImage returns a large image inside a fixed container', () => {
+  const previewImg = {
+    tagName: 'IMG',
+    getBoundingClientRect() {
+      return { height: 400 };
+    },
+    parentElement: null,
+  };
+  const fixedContainer = {
+    tagName: 'DIV',
+    parentElement: null,
+    contains() { return true; },
+  };
+  previewImg.parentElement = fixedContainer;
+
+  const fakeDoc = {
+    body: {
+      querySelectorAll(selector) {
+        assert.equal(selector, 'img');
+        return [previewImg];
+      },
+      contains() { return true; },
+    },
+  };
+  const fakeRoot = {
+    innerHeight: 800,
+    getComputedStyle(el) {
+      assert.equal(el, fixedContainer);
+      return { position: 'fixed' };
+    },
+  };
+
+  assert.equal(findCardPreviewImage(fakeDoc, fakeRoot), previewImg);
+});
+
+test('findCardPreviewImage ignores small or unfixed images', () => {
+  const smallImg = {
+    tagName: 'IMG',
+    getBoundingClientRect() {
+      return { height: 80 };
+    },
+    parentElement: null,
+  };
+  const nonFixedParent = { tagName: 'DIV', parentElement: null };
+  smallImg.parentElement = nonFixedParent;
+  const bigStaticImg = {
+    tagName: 'IMG',
+    getBoundingClientRect() {
+      return { height: 400 };
+    },
+    parentElement: null,
+  };
+  bigStaticImg.parentElement = nonFixedParent;
+
+  const fakeDoc = {
+    body: {
+      querySelectorAll() {
+        return [smallImg, bigStaticImg];
+      },
+      contains() { return true; },
+    },
+  };
+  const fakeRoot = {
+    innerHeight: 800,
+    getComputedStyle() {
+      return { position: 'static' };
+    },
+  };
+
+  assert.equal(findCardPreviewImage(fakeDoc, fakeRoot), null);
+});
+
+test('installProbe injects a style tag with default CSS variables', () => {
+  const fakeDocument = createFakeDocument();
+  const instance = installProbe(fakeDocument);
+
+  assert.equal(fakeDocument.head.children.length, 1);
+  const style = fakeDocument.head.children[0];
+  assert.equal(style.id, 'fab-cn-probe-styles');
+  // Variables must live on :root so the settings-dialog preview box (a sibling
+  // of the tooltip panel) can resolve them too.
+  assert.match(style.textContent, /^:root \{/);
+  assert.match(style.textContent, /--fab-cn-name-color:#ffad42/);
+  assert.match(style.textContent, /--fab-cn-bg-opacity:0\.94/);
+  assert.match(style.textContent, /--fab-cn-border-color:255, 255, 255/);
+
+  instance.destroy();
+  assert.equal(fakeDocument.head.children.length, 0);
+});
+
+test('SETTINGS_DEFAULTS covers every style knob', () => {
+  const defaults = probe.SETTINGS_DEFAULTS;
+  assert.equal(typeof defaults.bgColor, 'string');
+  assert.equal(typeof defaults.bgOpacity, 'number');
+  assert.equal(typeof defaults.borderColor, 'string');
+  assert.equal(typeof defaults.borderOpacity, 'number');
+  assert.equal(typeof defaults.textColor, 'string');
+  assert.equal(typeof defaults.textSize, 'number');
+  assert.equal(typeof defaults.nameColor, 'string');
+  assert.equal(typeof defaults.nameSize, 'number');
+  assert.equal(typeof defaults.typeColor, 'string');
+  assert.equal(typeof defaults.typeSize, 'number');
+  assert.equal(defaults.panelMode, 'follow');
+  assert.equal(defaults.panelPosition, null);
+});
+
+test('rgbToHex converts a stored RGB tuple to a hex string', () => {
+  assert.equal(probe.rgbToHex('16, 20, 28'), '#10141c');
+  assert.equal(probe.rgbToHex('255, 173, 66'), '#ffad42');
+  assert.equal(probe.rgbToHex('244, 247, 251'), '#f4f7fb');
+  // Missing / malformed input falls back to a dark default tuple (10, 20, 28)
+  assert.equal(probe.rgbToHex(''), '#0a141c');
+});
+
+test('loadSettings returns full defaults without GM storage', () => {
+  const settings = probe.loadSettings();
+  assert.equal(settings.panelMode, 'follow');
+  assert.equal(settings.nameColor, '#ffad42');
+  assert.equal(settings.bgColor, '16, 20, 28');
+  assert.equal(settings.panelPosition, null);
+});
+
+test('loadSettings merges stored values over defaults', () => {
+  const sandbox = {
+    URL,
+    GM_getValue(key, def) {
+      if (key === 'fab-cn-settings') {
+        return JSON.stringify({ nameColor: '#ff0000', nameSize: 18 });
+      }
+      return def;
+    },
+    GM_setValue() {},
+    GM_registerMenuCommand() {},
+  };
+  sandbox.window = sandbox;
+  runInNewContext(source, sandbox, { filename: sourcePath });
+
+  const settings = sandbox.FabCnProbe.loadSettings();
+  assert.equal(settings.nameColor, '#ff0000');
+  assert.equal(settings.nameSize, 18);
+  // Unset fields fall back to defaults
+  assert.equal(settings.typeSize, 12);
+  assert.equal(settings.textSize, 13);
+  assert.equal(settings.panelMode, 'follow');
+  assert.equal(settings.bgColor, '16, 20, 28');
 });

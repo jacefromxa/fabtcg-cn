@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "fabric_of_blossoms": {
       "id": "fabric_of_blossoms",
@@ -198,7 +198,7 @@
       "id": "fai_rising_rebellion",
       "name_zh": "法伊·崛起之叛",
       "name_en": "Fai, Rising Rebellion",
-      "type_zh": "龙裔 忍者 英雄",
+      "type_zh": "",
       "text_zh": "你可以以坟场中一张凤凰烈焰开始游戏。\n每回合一次瞬间——支付3点资源：将你坟场中的一张凤凰烈焰移回你的手牌。每当你控制一个龙裔链环，此异能费用减少1点资源。",
       "text_en": "You may start the game with a Phoenix Flame in your graveyard.\nOnce per Turn Instant - {r}{r}{r}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {r} less for each Draconic chain link you control.",
       "source": "https://cards.fabtcg.com/card/fai_rising_rebellion/",
@@ -298,9 +298,9 @@
     },
     "fang_dracai_of_blades": {
       "id": "fang_dracai_of_blades",
-      "name_zh": "刃之德拉凯獠牙",
+      "name_zh": "方格·刃之德拉凯",
       "name_en": "Fang, Dracai of Blades",
-      "type_zh": "Royal 龙裔 战士 英雄",
+      "type_zh": "",
       "text_zh": "每当你命中被标记的英雄时，创造一个效忠衍生物。\n若你控制3个或更多效忠衍生物，你启动匕首攻击的费用减少1点资源。",
       "text_en": "Whenever you hit a marked hero, create a Fealty token.\nIf you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",
       "source": "https://cards.fabtcg.com/card/fang_dracai_of_blades/",
@@ -2136,7 +2136,7 @@
       "id": "florian_rotwood_harbinger",
       "name_zh": "弗洛里安·腐木预兆",
       "name_en": "Florian, Rotwood Harbinger",
-      "type_zh": "元素 符文剑士 英雄",
+      "type_zh": "",
       "text_zh": "若你的放逐区有8张或更多大地牌，弗洛里安获得“若你将创造1个或更多光环衍生物，改为创造数量加1的每种这些衍生物。”\n大地精华",
       "text_en": "If there are 8 or more Earth cards in your banished zone, Florian gets \"If you would create 1 or more aura tokens, instead create that many plus 1 of each of those tokens.\"\nEssence of Earth",
       "source": "https://cards.fabtcg.com/card/florian_rotwood_harbinger/",

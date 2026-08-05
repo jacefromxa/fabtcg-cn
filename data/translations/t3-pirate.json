@@ -506,19 +506,6 @@
     "source": "https://cards.fabtcg.com/card/golden_tipple/",
     "status": "machine-draft"
   },
-  "gravy_bones_shipwrecked_looter": {
-    "name_en": "Gravy Bones, Shipwrecked Looter",
-    "name_zh": "肉汁骸骨·沉船掠夺者",
-    "type_zh": "海盗 Necromancer 英雄",
-    "text_en": "Instant - {t}, destroy a Gold you control: Draw a card, then discard a card.\nIf a blue card has been put into your graveyard this turn, you may play cards with watery grave from your graveyard.",
-    "text_zh": "瞬间——横置此牌，摧毁你控制的一个金币：抽一张牌，然后弃一张牌。\n若本回合有一张蓝色牌被置入你的坟场，你可以从你的坟场中使用具有水葬的牌。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/gravy_bones_shipwrecked_looter/",
-    "status": "machine-draft"
-  },
   "hms_barracuda__2": {
     "name_en": "HMS Barracuda",
     "name_zh": "皇家海军梭鱼号",
@@ -1349,6 +1336,34 @@
     "power": null,
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/yo_ho_ho/",
+    "status": "machine-draft"
+  },
+  "chart_the_high_seas__3": {
+    "name_zh": "绘制公海海图",
+    "name_en": "Chart the High Seas",
+    "type_zh": "",
+    "type_en": "Pirate Necromancer Action",
+    "text_zh": "查看你牌库顶的2张牌。你可以从其中资源一张蓝色牌。将其余牌置入你的坟场。\n每有一张以此方式置入你的坟场的黄色牌，创造一个金币衍生物。\n再动",
+    "text_en": "Look at the top 2 cards of your deck. You may pitch a blue card from among them. Put the rest into your graveyard.\nCreate a Gold token for each yellow card put into your graveyard this way.\nGo again",
+    "pitch": "3",
+    "cost": "0",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/chart_the_high_seas/",
+    "status": "machine-draft"
+  },
+  "off_cuts__3": {
+    "name_zh": "边角料",
+    "name_en": "Off Cuts",
+    "type_zh": "",
+    "type_en": "Necromancer Action",
+    "text_zh": "弗兰基专精\n每位英雄摧毁其控制的一件装备。\n再动",
+    "text_en": "Frankie Specialization\nEach hero destroys an equipment they control.\nGo again",
+    "pitch": "3",
+    "cost": "3",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/off_cuts/",
     "status": "machine-draft"
   }
 }

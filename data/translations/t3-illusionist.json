@@ -688,19 +688,6 @@
     "source": "https://cards.fabtcg.com/card/dracona_optimai/",
     "status": "machine-draft"
   },
-  "dromai_ash_artist": {
-    "name_en": "Dromai, Ash Artist",
-    "name_zh": "德罗迈·灰烬艺术家",
-    "type_zh": "龙裔 幻术师 英雄",
-    "text_en": "Whenever you pitch a red card, create an Ash Token.\nIf you've played a red card this turn, dragons you control have go again while attacking.",
-    "text_zh": "每当你资源一张红色牌时，创造一个灰烬衍生物。\n若本回合你使用过一张红色牌，你控制的龙在攻击时具有再动。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/dromai_ash_artist/",
-    "status": "machine-draft"
-  },
   "dunebreaker_cenipai__1": {
     "name_en": "Dunebreaker Cenipai",
     "name_zh": "破沙之蜃",
@@ -985,19 +972,6 @@
     "power": "6",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/enigma_chimera/",
-    "status": "machine-draft"
-  },
-  "enigma_ledger_of_ancestry": {
-    "name_en": "Enigma, Ledger of Ancestry",
-    "name_zh": "祖先谜团账簿",
-    "type_zh": "秘法 幻术师 英雄",
-    "text_en": "Your first Spectral Shield attack each turn costs {r} less to activate.\nOnce per Turn Instant - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",
-    "text_zh": "你每回合的第一次幻质护盾攻击启动费用减少1点资源。\n每回合一次瞬间——支付3点资源：创造一个带有一个+1力量指示物的幻质护盾衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/enigma_ledger_of_ancestry/",
     "status": "machine-draft"
   },
   "erode_authority__1": {
@@ -2326,32 +2300,6 @@
     "source": "https://cards.fabtcg.com/card/power_of_make_believe/",
     "status": "machine-draft"
   },
-  "prism_awakener_of_sol": {
-    "name_en": "Prism, Awakener of Sol",
-    "name_zh": "棱镜·太阳唤醒者",
-    "type_zh": "光 幻术师 英雄",
-    "text_en": "Whenever a card with Herald in its name is put into Prism's soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.\nOnce per Turn Instant - {r}{r}, banish a card from Prism's soul: Awaken target figment you control.",
-    "text_zh": "每当行动阶段期间一张名称中含有先驱者的牌被置入棱镜的灵魂时，你可以从你的牌库中搜寻一张幻象，将其放入竞技场，然后洗牌。\n每回合一次瞬间——支付2点资源，放逐棱镜灵魂中的一张牌：唤醒你控制的目标幻象。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/prism_awakener_of_sol/",
-    "status": "machine-draft"
-  },
-  "prism_sculptor_of_arc_light": {
-    "name_en": "Prism, Sculptor of Arc Light",
-    "name_zh": "棱镜·弧光雕刻家",
-    "type_zh": "光 幻术师 英雄",
-    "text_en": "Once per Turn Instant - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token.",
-    "text_zh": "每回合一次瞬间——支付2点资源，放逐棱镜灵魂中的一张牌：创造一个幻质护盾衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/prism_sculptor_of_arc_light/",
-    "status": "machine-draft"
-  },
   "prismatic_shield__1": {
     "name_en": "Prismatic Shield",
     "name_zh": "棱彩护盾",
@@ -3548,17 +3496,32 @@
     "source": "https://cards.fabtcg.com/card/yendurai/",
     "status": "machine-draft"
   },
-  "zyggy_starlight": {
-    "name_en": "Zyggy Starlight",
-    "name_zh": "齐吉·星光",
-    "type_zh": "闪电 幻术师 英雄",
-    "text_en": "Instant - {r}{r}, {t}, destroy a Lightning Flow you control, banish another Lightning aura permanent you control with no holo counters: Return the banished aura to the arena with a holo counter.",
-    "text_zh": "瞬间——支付2点资源，横置此牌，摧毁你控制的一个闪电流转，放逐你控制的另一个没有全息指示物的闪电光环永久物：将被放逐的光环带有一个全息指示物地移回竞技场。",
+  "phantom_tidemaw__3": {
+    "name_zh": "幻影潮口",
+    "name_en": "Phantom Tidemaw",
+    "type_zh": "",
+    "type_en": "Illusionist Instant - Aura",
+    "text_zh": "每当你控制的幻术师牌被摧毁时，在此牌上放置一个+1力量指示物。\n虚击\n结界1",
+    "text_en": "Whenever an Illusionist card you control is destroyed, put a +1{p} counter on this.\nPhantasm\nWard 1",
+    "pitch": "3",
+    "cost": "0",
+    "power": "",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/phantom_tidemaw/",
+    "status": "machine-draft"
+  },
+  "the_librarian": {
+    "name_zh": "图书管理员",
+    "name_en": "The Librarian",
+    "type_zh": "",
+    "type_en": "Illusionist Mentor",
+    "text_zh": "当图书管理员牌面朝下在军械库中时，在你的回合开始时，你可以将他翻为正面朝上。\n当图书管理员正面朝上在军械库中时，每回合一次，当你创造幻质护盾衍生物时，抽一张牌，并在图书管理员上放置一个课业指示物。然后若其上有3个或更多课业指示物，放逐他，从你的牌库中搜寻一张专精牌，将其正面朝上放入军械库，然后洗牌。",
+    "text_en": "While The Librarian is face down in arsenal, at the start of your turn, you may turn him face up.\nWhile The Librarian is face up in arsenal, once per turn when you create a Spectral Shield token, draw a card and put a lesson counter on The Librarian. Then if there are 3 or more lesson counters on him, banish him, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
     "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/zyggy_starlight/",
+    "cost": "",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/the_librarian/",
     "status": "machine-draft"
   }
 }

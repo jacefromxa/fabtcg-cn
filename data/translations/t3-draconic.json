@@ -532,19 +532,6 @@
     "source": "https://cards.fabtcg.com/card/stoke_the_flames/",
     "status": "machine-draft"
   },
-  "taipanis_dracai_of_judgement": {
-    "name_en": "Taipanis, Dracai of Judgement",
-    "name_zh": "审判德拉凯·泰帕尼斯",
-    "type_zh": "龙裔 Adjudicator 英雄",
-    "text_en": "The first time each turn another hero becomes the target of a source that would deal lethal damage, you may discard a red card. If you do, choose new targets for that source.",
-    "text_zh": "每回合第一次另一位英雄成为将造成致命伤害的来源的目标时，你可以弃一张红色牌。若如此做，为那个来源选择新的目标。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/taipanis_dracai_of_judgement/",
-    "status": "machine-draft"
-  },
   "thaw__1": {
     "name_en": "Thaw",
     "name_zh": "解冻",
@@ -595,6 +582,20 @@
     "power": null,
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/uprising/",
+    "status": "machine-draft"
+  },
+  "tome_of_firebrand__1": {
+    "name_zh": "火种之书",
+    "name_en": "Tome of Firebrand",
+    "type_zh": "",
+    "type_en": "Draconic Instant",
+    "text_zh": "仅当你控制4个或更多龙裔链环时才能使用火种之书。\n抽2张牌。",
+    "text_en": "Play Tome of Firebrand only if you control 4 or more Draconic chain links.\nDraw 2 cards.",
+    "pitch": "1",
+    "cost": "1",
+    "power": "",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/tome_of_firebrand/",
     "status": "machine-draft"
   }
 }

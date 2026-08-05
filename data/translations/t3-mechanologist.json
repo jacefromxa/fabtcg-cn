@@ -753,32 +753,6 @@
     "source": "https://cards.fabtcg.com/card/crash_site_salvage/",
     "status": "machine-draft"
   },
-  "dash_i_o": {
-    "name_en": "Dash I/O",
-    "name_zh": "达什·I/O",
-    "type_zh": "机械师 英雄",
-    "text_en": "You may look at the top card of your deck at any time.\nOnce per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",
-    "text_zh": "你随时可以查看你牌库顶的一张牌。\n每回合一次，你可以将你牌库顶的一张费用为0或1的机械师物品当作瞬间使用。它的使用费用额外增加1点资源。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/dash_i_o/",
-    "status": "machine-draft"
-  },
-  "dash_inventor_extraordinaire": {
-    "name_en": "Dash, Inventor Extraordinaire",
-    "name_zh": "达什·杰出发明家",
-    "type_zh": "机械师 英雄",
-    "text_en": "You may start the game with a Mechanologist item with cost 2 or less in the arena.",
-    "text_zh": "你可以以竞技场中一张费用为2或更低的机械师物品开始游戏。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/dash_inventor_extraordinaire/",
-    "status": "machine-draft"
-  },
   "data_link__1": {
     "name_en": "Data Link",
     "name_zh": "数据链路",
@@ -2105,19 +2079,6 @@
     "source": "https://cards.fabtcg.com/card/maximum_velocity/",
     "status": "machine-draft"
   },
-  "maxx_the_hype_nitro": {
-    "name_en": "Maxx 'The Hype' Nitro",
-    "name_zh": "马克斯·狂热硝基",
-    "type_zh": "机械师 英雄",
-    "text_en": "Once per Turn Action - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've boosted this turn.\nHyper Drivers you control get crank.",
-    "text_zh": "每回合一次行动——支付2点资源：创造一个带有2个蒸汽指示物的超频驱动器衍生物。仅当本回合你推进过时才能启动此异能。\n你控制的超频驱动器获得上弦。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/maxx_the_hype_nitro/",
-    "status": "machine-draft"
-  },
   "mechanical_strength__1": {
     "name_en": "Mechanical Strength",
     "name_zh": "机械力量",
@@ -2753,19 +2714,6 @@
     "power": null,
     "defense": null,
     "source": "https://cards.fabtcg.com/card/prismatic_lens/",
-    "status": "machine-draft"
-  },
-  "puffin_hightail": {
-    "name_en": "Puffin, Hightail",
-    "name_zh": "海雀·快步",
-    "type_zh": "海盗 机械师 英雄",
-    "text_en": "Action - {t}, destroy a Gold you control: Create a Golden Cog token.\nThe second time you crank each turn, draw a card.",
-    "text_zh": "行动——横置此牌，摧毁你控制的一个金币：创造一个金齿轮衍生物。\n你每回合第二次上弦时，抽一张牌。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/puffin_hightail/",
     "status": "machine-draft"
   },
   "pulsewave_harpoon__1": {
@@ -3847,19 +3795,6 @@
     "source": "https://cards.fabtcg.com/card/teklovossens_workshop/",
     "status": "machine-draft"
   },
-  "teklovossen_esteemed_magnate": {
-    "name_en": "Teklovossen, Esteemed Magnate",
-    "name_zh": "泰克洛沃森·尊贵大亨",
-    "type_zh": "机械师 英雄",
-    "text_en": "You may play Evos from your banished zone.\nOnce per Turn Instant - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.",
-    "text_zh": "你可以从你的放逐区使用进化牌。\n每回合一次瞬间——支付3点资源：本回合你可以将你的下一张进化牌当作瞬间使用。当你如此做时，抽一张牌。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/teklovossen_esteemed_magnate/",
-    "status": "machine-draft"
-  },
   "terminator_tank__1": {
     "name_en": "Terminator Tank",
     "name_zh": "终结者坦克",
@@ -4287,6 +4222,20 @@
     "power": "3",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/zoom_in/",
+    "status": "machine-draft"
+  },
+  "high_octane__1": {
+    "name_zh": "高辛烷值",
+    "name_en": "High Octane",
+    "type_zh": "",
+    "type_en": "Mechanologist Action",
+    "text_zh": "本回合每当你推进一张牌时，获得1个行动点。\n抽一张牌。\n再动",
+    "text_en": "Whenever you boost a card this turn, gain 1 action point.\nDraw a card.\nGo again",
+    "pitch": "1",
+    "cost": "1",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/high_octane/",
     "status": "machine-draft"
   }
 }

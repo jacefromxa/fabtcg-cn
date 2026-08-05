@@ -64,19 +64,6 @@
     "source": "https://cards.fabtcg.com/card/annihilate_the_armed/",
     "status": "machine-draft"
   },
-  "arakni_5l_p3d_7hru_7h3_cr4x": {
-    "name_en": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
-    "name_zh": "阿拉克尼·5L_P3D_7HRU_7H3_CR4X",
-    "type_zh": "混沌 刺客 英雄",
-    "text_en": "The first attack with stealth each turn gets go again.",
-    "text_zh": "每回合第一次具有隐匿的攻击获得再动。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/arakni_5l_p3d_7hru_7h3_cr4x/",
-    "status": "machine-draft"
-  },
   "arakni_black_widow": {
     "name_en": "Arakni, Black Widow",
     "name_zh": "阿拉克尼·黑寡妇",
@@ -101,32 +88,6 @@
     "power": null,
     "defense": null,
     "source": "https://cards.fabtcg.com/card/arakni_funnel_web/",
-    "status": "machine-draft"
-  },
-  "arakni_huntsman": {
-    "name_en": "Arakni, Huntsman",
-    "name_zh": "阿拉克尼·猎蛛",
-    "type_zh": "刺客 英雄",
-    "text_en": "Whenever you play a card with contract, you may look at the top card of target opponent's deck. You may put it on the bottom.",
-    "text_zh": "每当你使用具有契约的牌时，你可以查看目标对手牌库顶的一张牌。你可以将其置于牌库底。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/arakni_huntsman/",
-    "status": "machine-draft"
-  },
-  "arakni_marionette": {
-    "name_en": "Arakni, Marionette",
-    "name_zh": "阿拉克尼·提线木偶",
-    "type_zh": "混沌 刺客 英雄",
-    "text_en": "Your attacks with stealth that are attacking a marked hero get +1{p} and \"When this hits, this gets go again.\"\nAt the beginning of your end phase, if an opponent is marked, you become a random Agent of Chaos.",
-    "text_zh": "你的正在攻击被标记的英雄的具有隐匿的攻击获得+1力量，以及“当此牌命中时，此牌获得再动。”\n在你的结束阶段开始时，若一位对手已被标记，你成为一名随机的混沌特工。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/arakni_marionette/",
     "status": "machine-draft"
   },
   "arakni_orb_weaver": {
@@ -1468,19 +1429,6 @@
     "source": "https://cards.fabtcg.com/card/nix_the_nimble/",
     "status": "machine-draft"
   },
-  "nuu_alluring_desire": {
-    "name_en": "Nuu, Alluring Desire",
-    "name_zh": "努乌·诱人的欲望",
-    "type_zh": "秘法 刺客 英雄",
-    "text_en": "Your attacks with stealth get \"When this chain link resolves, banish all action cards defending this.\"\nInstant - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",
-    "text_zh": "你的具有隐匿的攻击获得“当此链环结算时，放逐所有防御此牌的的行动牌。”\n瞬间——支付3点资源：查看一位对手英雄牌库顶的一张牌。若其为蓝色，你可以放逐它。直到回合结束，你可以不支付费用使用该英雄放逐区中的蓝色牌。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/nuu_alluring_desire/",
-    "status": "machine-draft"
-  },
   "orb_weaver_spinneret__1": {
     "name_en": "Orb-Weaver Spinneret",
     "name_zh": "圆网蛛吐丝器",
@@ -2430,19 +2378,6 @@
     "source": "https://cards.fabtcg.com/card/unmake_the_underlings/",
     "status": "machine-draft"
   },
-  "uzuri_switchblade": {
-    "name_en": "Uzuri, Switchblade",
-    "name_zh": "乌祖里·弹簧刀",
-    "type_zh": "刺客 英雄",
-    "text_en": "Once per Turn Attack Reaction - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with stealth from the active chain link on the bottom of its owner's deck, then put the banished card onto the active chain link as the attacking card.",
-    "text_zh": "每回合一次攻击反应——牌面朝下放逐你手牌中的一张牌：将以此方式放逐的牌翻为正面朝上。若其为费用为2或更低的攻击行动牌，将当前链环上目标具有隐匿的攻击牌置于其拥有者的牌库底，然后将被放逐的牌作为攻击牌放入当前链环。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/uzuri_switchblade/",
-    "status": "machine-draft"
-  },
   "venomous_bite__1": {
     "name_en": "Venomous Bite",
     "name_zh": "毒牙噬咬",
@@ -2597,6 +2532,45 @@
     "power": "1",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/wither/",
+    "status": "machine-draft"
+  },
+  "orb_weaver_spinneret__2": {
+    "name_en": "Orb-Weaver Spinneret",
+    "name_zh": "",
+    "type_zh": "刺客 行动",
+    "text_en": "Equip a Graphene Chelicera token.\nYour next attack with stealth this turn gets +2{p}.\nGo again",
+    "text_zh": "",
+    "pitch": "2",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/orb_weaver_spinneret/",
+    "status": "machine-draft"
+  },
+  "orb_weaver_spinneret__3": {
+    "name_en": "Orb-Weaver Spinneret",
+    "name_zh": "",
+    "type_zh": "刺客 行动",
+    "text_en": "Equip a Graphene Chelicera token.\nYour next attack with stealth this turn gets +1{p}.\nGo again",
+    "text_zh": "",
+    "pitch": "3",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/orb_weaver_spinneret/",
+    "status": "machine-draft"
+  },
+  "bonds_of_agony__3": {
+    "name_en": "Bonds of Agony",
+    "name_zh": "痛苦束缚",
+    "type_zh": "刺客 行动·攻击",
+    "text_en": "Stealth\nIf you've played or activated 3 or more attack reactions this chain link, this gets +3{p} and \"When this hits a hero, look at their hand and choose a card. Search their hand, deck, and graveyard and banish up to 3 cards with the same name as the chosen card. They shuffle.\"",
+    "text_zh": "隐匿\n若此链环中你使用或启动过3张或更多攻击反应，此牌获得+3力量，以及\"当此牌命中英雄时，查看其手牌并选择一张牌。搜寻其手牌、牌库和坟场，并放逐至多3张与所选牌同名的牌。该英雄洗牌。\"",
+    "pitch": "3",
+    "cost": "0",
+    "power": "1",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/bonds_of_agony/",
     "status": "machine-draft"
   }
 }

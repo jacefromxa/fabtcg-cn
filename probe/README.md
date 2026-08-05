@@ -44,24 +44,17 @@ npm test
 npm run build
 ```
 
-该命令会同时生成轻量用户脚本和远程数据文件：
+该命令构建远程数据文件：
 
 ```text
-/Users/Zhuanz/CCDeep/talishar-cn/probe/talishar-cn.user.js
 /Users/Zhuanz/CCDeep/talishar-cn/dist/data/manifest.json
 /Users/Zhuanz/CCDeep/talishar-cn/dist/data/index.json
 /Users/Zhuanz/CCDeep/talishar-cn/dist/data/chunks/
 ```
 
-用户脚本不会嵌入完整中文卡库。首次悬停卡牌时，它读取 manifest 和索引，再按需加载对应分片，并使用浏览器缓存保存已加载的数据。
+用户脚本本身直接编辑 `probe/talishar-cn.user.js`，不会嵌入完整中文卡库。首次悬停卡牌时，它读取 manifest 和索引，再按需加载对应分片，并使用浏览器缓存保存已加载的数据。
 
-生成文件为：
-
-```text
-/Users/Zhuanz/CCDeep/talishar-cn/probe/talishar-cn.user.js
-```
-
-这份生成文件可以直接安装到 Violentmonkey 或 Tampermonkey。当前建议使用 Violentmonkey，因为它已经在实际 Talishar 页面上验证可执行。
+这份用户脚本可以直接安装到 Violentmonkey 或 Tampermonkey。当前建议使用 Violentmonkey，因为它已经在实际 Talishar 页面上验证可执行。
 
 ## 英文卡库导入
 
@@ -89,7 +82,7 @@ https://raw.githubusercontent.com/jacefromxa/CCDeep/main/talishar-cn/dist/data
 
 因此需要把 `dist/data/` 发布到该 GitHub 仓库的 `main` 分支。发布后，用户只需安装 `talishar-cn.user.js`，不需要把卡牌 JSON 手工复制进用户脚本。
 
-如果以后更换静态地址，修改 `probe/probe.user.js` 顶部的 `DEFAULT_DATA_BASE_URL`，然后重新运行 `npm run build`。
+如果以后更换静态地址，修改 `probe/talishar-cn.user.js` 顶部的数据地址常量，然后重新运行 `npm run build`。
 
 ## 安装和验证
 

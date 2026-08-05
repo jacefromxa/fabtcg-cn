@@ -116,19 +116,6 @@
     "source": "https://cards.fabtcg.com/card/jinglewood_smash_hit/",
     "status": "machine-draft"
   },
-  "ruudi_gem_keeper": {
-    "name_en": "Ruu'di, Gem Keeper",
-    "name_zh": "鲁迪·宝石守护者",
-    "type_zh": "英雄·Merchant",
-    "text_en": "You may only have PSA graded cards in your deck.\nOnce per Turn Action - {r}: Reveal the top card of your deck. If it's graded Gem Mint 10, put it into your hand, otherwise each opponent may draw a card. Go again",
-    "text_zh": "你的牌库中只能包含经过PSA评级的牌。\n每回合一次行动——支付1点资源：展示你牌库顶的一张牌。若其为评级Gem Mint 10的牌，将其置入你的手牌。否则，每位对手可以抽一张牌。再动",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/ruudi_gem_keeper/",
-    "status": "machine-draft"
-  },
   "song_of_jack_be_quick__3": {
     "name_en": "Song of Jack-be-Quick",
     "name_zh": "杰克快跑之歌",
@@ -218,6 +205,34 @@
     "power": null,
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/song_of_the_wandering_mind/",
+    "status": "machine-draft"
+  },
+  "hummingbird_call_of_adventure": {
+    "name_zh": "蜂鸟·冒险呼唤",
+    "name_en": "Hummingbird, Call of Adventure",
+    "type_zh": "",
+    "type_en": "Bard Weapon - Lute (2H)",
+    "text_zh": "在你的回合开始时，选择其一；\n- 每位英雄创造一个加速衍生物。\n- 每位英雄抽一张牌。\n- 每位英雄获得1点生命。",
+    "text_en": "At the start of your turn, choose 1;\n- Each hero creates a Quicken token.\n- Each hero draws a card.\n- Each hero gains 1{h}.",
+    "pitch": null,
+    "cost": "",
+    "power": "",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/hummingbird_call_of_adventure/",
+    "status": "machine-draft"
+  },
+  "tales_of_adventure__3": {
+    "name_zh": "冒险故事",
+    "name_en": "Tales of Adventure",
+    "type_zh": "",
+    "type_en": "Bard Action",
+    "text_zh": "约里克专精\n每位其他英雄选择并创造一个尚未被选择的衍生物；以太灰翼、大地化身、闪电化身、沉思、加速、符文吟唱、地震涌动、灵魂枷锁、幻质护盾、禅定。\n你创造一个铜币、银币和金币。",
+    "text_en": "Yorick Specialization\nEach other hero chooses and creates a token that hasn't been chosen; Aether Ashwing, Embodiment of Earth, Embodiment of Lightning, Ponder, Quicken, Runechant, Seismic Surge, Soul Shackle, Spectral Shield, Zen State.\nYou create a Copper, Silver, and Gold.",
+    "pitch": "3",
+    "cost": "0",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/tales_of_adventure/",
     "status": "machine-draft"
   }
 }

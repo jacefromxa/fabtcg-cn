@@ -844,19 +844,6 @@
     "source": "https://cards.fabtcg.com/card/suraya_archangel_of_erudition/",
     "status": "machine-draft"
   },
-  "the_librarian_magister_of_history": {
-    "name_en": "The Librarian, Magister of History",
-    "name_zh": "历史首席学者·图书管理员",
-    "type_zh": "光 Adjudicator 英雄",
-    "text_en": "You may have cards with Tome in their name of any class or talent in your deck.\nAction - {t}, reveal a card with Tome in its name from your inventory: Put it into your hand. Another target hero gets +1{i} until the end of their next turn. Go again",
-    "text_zh": "你的牌库中可以包含任意职业或才能的名称为典籍的牌。\n行动——横置此牌，展示你物品栏中的一张名称为典籍的牌：将其置入你的手牌。另一位目标英雄直到其下一个回合结束获得+1智力。再动",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/the_librarian_magister_of_history/",
-    "status": "machine-draft"
-  },
   "themis_archangel_of_judgment": {
     "name_en": "Themis, Archangel of Judgment",
     "name_zh": "审判大天使·忒弥斯",
@@ -868,19 +855,6 @@
     "power": "4",
     "defense": null,
     "source": "https://cards.fabtcg.com/card/themis_archangel_of_judgment/",
-    "status": "machine-draft"
-  },
-  "theryon_magister_of_justice": {
-    "name_en": "Theryon, Magister of Justice",
-    "name_zh": "正义首席学者·塞里昂",
-    "type_zh": "光 Adjudicator 英雄",
-    "text_en": "The first time each turn another hero destroys a card they don't control, you may pay {r}{r}. If you do, they destroy a non-hero permanent they control.",
-    "text_zh": "每回合第一次另一位英雄摧毁一张其不控制的牌时，你可以支付2点资源。若如此做，该英雄摧毁其控制的一个非英雄永久物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/theryon_magister_of_justice/",
     "status": "machine-draft"
   },
   "united_we_stand__2": {
@@ -907,6 +881,20 @@
     "power": "4",
     "defense": null,
     "source": "https://cards.fabtcg.com/card/victoria_archangel_of_triumph/",
+    "status": "machine-draft"
+  },
+  "tome_of_divinity__2": {
+    "name_zh": "神圣之书",
+    "name_en": "Tome of Divinity",
+    "type_zh": "",
+    "type_en": "Light Instant",
+    "text_zh": "抽2张牌。\n若本回合有一张牌被置入你的英雄的灵魂，改为抽3张牌。",
+    "text_en": "Draw 2 cards.\nIf a card has been put into your hero's soul this turn, instead draw 3 cards.",
+    "pitch": "2",
+    "cost": "4",
+    "power": "",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/tome_of_divinity/",
     "status": "machine-draft"
   }
 }

@@ -1585,19 +1585,6 @@
     "source": "https://cards.fabtcg.com/card/donkey/",
     "status": "machine-draft"
   },
-  "dorinthea_ironsong": {
-    "name_en": "Dorinthea Ironsong",
-    "name_zh": "多琳茜娅·铁歌",
-    "type_zh": "战士 英雄",
-    "text_en": "Once per turn Effect - When a weapon you control hits, you may attack an additional time with that weapon this turn.",
-    "text_zh": "每回合一次效果——当你控制的武器命中时，本回合你可以用该武器额外攻击一次。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/dorinthea_ironsong/",
-    "status": "machine-draft"
-  },
   "double_down__1": {
     "name_en": "Double Down",
     "name_zh": "加倍下注",
@@ -2079,19 +2066,6 @@
     "source": "https://cards.fabtcg.com/card/express_lightning/",
     "status": "machine-draft"
   },
-  "fang_dracai_of_blades": {
-    "name_en": "Fang, Dracai of Blades",
-    "name_zh": "刃之德拉凯獠牙",
-    "type_zh": "Royal 龙裔 战士 英雄",
-    "text_en": "Whenever you hit a marked hero, create a Fealty token.\nIf you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",
-    "text_zh": "每当你命中被标记的英雄时，创造一个效忠衍生物。\n若你控制3个或更多效忠衍生物，你启动匕首攻击的费用减少1点资源。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/fang_dracai_of_blades/",
-    "status": "machine-draft"
-  },
   "fatal_engagement__1": {
     "name_en": "Fatal Engagement",
     "name_zh": "致命交锋",
@@ -2402,19 +2376,6 @@
     "power": null,
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/gutshot/",
-    "status": "machine-draft"
-  },
-  "hala_bladesaint_of_the_vow": {
-    "name_en": "Hala, Bladesaint of the Vow",
-    "name_zh": "哈拉，誓约刀圣",
-    "type_zh": "战士 英雄",
-    "text_en": "Action - {r}{r}{r}, {t}: Sharpen target sword you control. Go again",
-    "text_zh": "行动——支付3点资源，横置此牌：磨砺你控制的目标剑。再动",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/hala_bladesaint_of_the_vow/",
     "status": "machine-draft"
   },
   "hatchet_of_body": {
@@ -2859,19 +2820,6 @@
     "source": "https://cards.fabtcg.com/card/jubeel_spellbane/",
     "status": "machine-draft"
   },
-  "kassai_of_the_golden_sand": {
-    "name_en": "Kassai of the Golden Sand",
-    "name_zh": "金沙卡赛",
-    "type_zh": "战士 英雄",
-    "text_en": "If you've drawn a card this turn, your sword attacks cost {r} less to activate.\nOnce per Turn Action - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. Go again",
-    "text_zh": "若本回合你抽过牌，你启动剑攻击的费用减少1点资源。\n每回合一次行动——放逐你坟场中的2张红色和2张黄色牌：本回合你控制的武器下一次命中英雄时，创造一个金币衍生物。再动",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/kassai_of_the_golden_sand/",
-    "status": "machine-draft"
-  },
   "knife_through_butter__1": {
     "name_en": "Knife Through Butter",
     "name_zh": "热刀切黄油",
@@ -3182,19 +3130,6 @@
     "power": null,
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/off_beat/",
-    "status": "machine-draft"
-  },
-  "olympia_prized_fighter": {
-    "name_en": "Olympia, Prized Fighter",
-    "name_zh": "奥林匹亚，受宠斗士",
-    "type_zh": "战士 英雄",
-    "text_en": "The first time each of your attacks wins a wager, create a Gold token.",
-    "text_zh": "你的每次攻击第一次赢得下注时，创造一个金币衍生物。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/olympia_prized_fighter/",
     "status": "machine-draft"
   },
   "ole__3": {
@@ -4053,19 +3988,6 @@
     "power": null,
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/second_swing/",
-    "status": "machine-draft"
-  },
-  "ser_boltyn_breaker_of_dawn": {
-    "name_en": "Ser Boltyn, Breaker of Dawn",
-    "name_zh": "博尔廷爵士，破晓者",
-    "type_zh": "光 战士 英雄",
-    "text_en": "If you've charged this turn, your attacks get +1{p} while defended by an attack action card.\nAttack Reaction - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains go again.",
-    "text_zh": "若本回合你充能过，当你的攻击被攻击行动牌防御时，它们获得+1力量。\n攻击反应——放逐博尔廷灵魂中的一张牌：目标力量大于其基础力量的攻击获得再动。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/ser_boltyn_breaker_of_dawn/",
     "status": "machine-draft"
   },
   "sharp_n_shine__1": {
@@ -5548,6 +5470,34 @@
     "power": "3",
     "defense": null,
     "source": "https://cards.fabtcg.com/card/zenith_blade/",
+    "status": "machine-draft"
+  },
+  "hala_goldenhelm": {
+    "name_zh": "哈拉·金盔",
+    "name_en": "Hala Goldenhelm",
+    "type_zh": "",
+    "type_en": "Warrior Mentor",
+    "text_zh": "当哈拉牌面朝下在军械库中时，在你的回合开始时，你可以将她翻为正面朝上。\n当哈拉正面朝上在军械库中时，每当你控制的剑攻击命中时，它获得再动，并在哈拉上放置一个课业指示物。然后若哈拉上有2个或更多课业指示物，放逐她，从你的牌库中搜寻闪耀钢刃，将其正面朝上放入军械库，然后洗牌。",
+    "text_en": "While Hala is face down in arsenal, at the start of your turn, you may turn her face up.\nWhile Hala is face up in arsenal, whenever a sword attack you control hits, it gains go again and put a lesson counter on Hala. Then if there are 2 or more lesson counters on Hala, banish her, search your deck for Glistening Steelblade, put it face up in arsenal, and shuffle.",
+    "pitch": null,
+    "cost": "",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/hala_goldenhelm/",
+    "status": "machine-draft"
+  },
+  "minerva_themis": {
+    "name_zh": "米涅娃·忒弥斯",
+    "name_en": "Minerva Themis",
+    "type_zh": "",
+    "type_en": "Warrior Mentor",
+    "text_zh": "当米涅娃牌面朝下在军械库中时，在你的回合开始时，你可以将她翻为正面朝上。\n当米涅娃正面朝上在军械库中时，你控制的单手武器获得+1力量。每当你控制的武器命中时，在米涅娃上放置一个课业指示物。然后若其上有3个或更多课业指示物，放逐她，从你的牌库中搜寻一张专精牌，将其正面朝上放入军械库，然后洗牌。",
+    "text_en": "While Minerva is face down in arsenal, at the start of your turn, you may turn her face up.\nWhile Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever a weapon you control hits, put a lesson counter on Minerva. Then if there are 3 or more lesson counters on her, banish her, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
+    "pitch": null,
+    "cost": "",
+    "power": "",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/minerva_themis/",
     "status": "machine-draft"
   }
 }

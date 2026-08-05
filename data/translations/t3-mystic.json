@@ -479,5 +479,19 @@
     "defense": "2",
     "source": "https://cards.fabtcg.com/card/wide_blue_yonder/",
     "status": "machine-draft"
+  },
+  "orihon_of_mystic_tenets__3": {
+    "name_zh": "秘法要义折本",
+    "name_en": "Orihon of Mystic Tenets",
+    "type_zh": "",
+    "type_en": "Mystic Instant",
+    "text_zh": "传奇\n抽2张牌。若为使用此牌资源过一张气，改为抽3张牌。",
+    "text_en": "Legendary\nDraw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",
+    "pitch": "3",
+    "cost": "4",
+    "power": "",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/orihon_of_mystic_tenets/",
+    "status": "machine-draft"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "index_file": "index.json",
   "chunk_files": [
     "chunks/1.json",
@@ -30,5 +30,5 @@
     "chunks/y.json",
     "chunks/z.json"
   ],
-  "card_count": 3164
+  "card_count": 3163
 }

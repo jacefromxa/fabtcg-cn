@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "radiant_flow": {
       "id": "radiant_flow",
@@ -2226,7 +2226,7 @@
       "id": "rhinar_reckless_rampage",
       "name_zh": "里纳尔·鲁莽狂暴",
       "name_en": "Rhinar, Reckless Rampage",
-      "type_zh": "蛮将 英雄",
+      "type_zh": "",
       "text_zh": "每当你在你的行动阶段期间弃置一张力量为6或更高的牌时，威吓。",
       "text_en": "Whenever you discard a card with 6 or more {p} during your action phase, intimidate.",
       "source": "https://cards.fabtcg.com/card/rhinar_reckless_rampage/",
@@ -2760,7 +2760,7 @@
       "id": "riptide_lurker_of_the_deep",
       "name_zh": "瑞普泰德·深海潜伏者",
       "name_en": "Riptide, Lurker of the Deep",
-      "type_zh": "游侠 英雄",
+      "type_zh": "",
       "text_zh": "每当你从手牌使用牌时，你可以将手牌中的一张牌牌面朝下放入你的军械库。\n每当你控制的陷阱触发时，对攻击英雄造成1点伤害。",
       "text_en": "Whenever you play a card from hand, you may put a card from hand face down into your arsenal.\nWhenever a trap you control triggers, deal 1 damage to the attacking hero.",
       "source": "https://cards.fabtcg.com/card/riptide_lurker_of_the_deep/",
@@ -4416,7 +4416,7 @@
       "id": "ruudi_gem_keeper",
       "name_zh": "鲁迪·宝石守护者",
       "name_en": "Ruu'di, Gem Keeper",
-      "type_zh": "英雄·Merchant",
+      "type_zh": "",
       "text_zh": "你的牌库中只能包含经过PSA评级的牌。\n每回合一次行动——支付1点资源：展示你牌库顶的一张牌。若其为评级Gem Mint 10的牌，将其置入你的手牌。否则，每位对手可以抽一张牌。再动",
       "text_en": "You may only have PSA graded cards in your deck.\nOnce per Turn Action - {r}: Reveal the top card of your deck. If it's graded Gem Mint 10, put it into your hand, otherwise each opponent may draw a card. Go again",
       "source": "https://cards.fabtcg.com/card/ruudi_gem_keeper/",

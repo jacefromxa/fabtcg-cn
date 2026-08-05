@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "galaxxi_black": {
       "id": "galaxxi_black",
@@ -2022,7 +2022,7 @@
       "id": "gravy_bones_shipwrecked_looter",
       "name_zh": "肉汁骸骨·沉船掠夺者",
       "name_en": "Gravy Bones, Shipwrecked Looter",
-      "type_zh": "海盗 Necromancer 英雄",
+      "type_zh": "",
       "text_zh": "瞬间——横置此牌，摧毁你控制的一个金币：抽一张牌，然后弃一张牌。\n若本回合有一张蓝色牌被置入你的坟场，你可以从你的坟场中使用具有水葬的牌。",
       "text_en": "Instant - {t}, destroy a Gold you control: Draw a card, then discard a card.\nIf a blue card has been put into your graveyard this turn, you may play cards with watery grave from your graveyard.",
       "source": "https://cards.fabtcg.com/card/gravy_bones_shipwrecked_looter/",

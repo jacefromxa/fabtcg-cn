@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "cba139ba12cc",
+  "version": "64c43438a005",
   "cards": {
     "cadaverous_contraband": {
       "id": "cadaverous_contraband",
@@ -768,7 +768,7 @@
       "id": "chane_bound_by_shadow",
       "name_zh": "查恩·受缚于暗影",
       "name_en": "Chane, Bound by Shadow",
-      "type_zh": "暗影 符文剑士 英雄",
+      "type_zh": "",
       "text_zh": "每回合一次行动——创造一个灵魂枷锁衍生物：本回合你的下一次符文剑士或暗影行动获得再动。再动",
       "text_en": "Once per Turn Action - Create a Soul Shackle token: Your next Runeblade or Shadow action this turn gains go again. Go again",
       "source": "https://cards.fabtcg.com/card/chane_bound_by_shadow/",
@@ -1536,7 +1536,7 @@
       "id": "cindra_dracai_of_retribution",
       "name_zh": "辛德拉·天罚之德拉凯",
       "name_en": "Cindra, Dracai of Retribution",
-      "type_zh": "Royal 龙裔 忍者 英雄",
+      "type_zh": "",
       "text_zh": "每当你命中被标记的英雄时，创造一个效忠衍生物。\n每回合一次瞬间——支付3点资源：从你的坟场中装备至多2把龙裔匕首。每当你控制一个龙裔链环，此异能启动费用减少1点资源。",
       "text_en": "Whenever you hit a marked hero, create a Fealty token.\nOnce per Turn Instant - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",
       "source": "https://cards.fabtcg.com/card/cindra_dracai_of_retribution/",

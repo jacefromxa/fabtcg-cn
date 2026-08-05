@@ -895,5 +895,19 @@
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/void_wraith/",
     "status": "machine-draft"
+  },
+  "gate_to_iarathael": {
+    "name_zh": "通往伊阿拉塞尔之门",
+    "name_en": "Gate to íArathael",
+    "type_zh": "",
+    "type_en": "Shadow Token - Aura",
+    "text_zh": "瞬间——支付1点资源，摧毁此牌：本回合你可以从你的放逐区使用目标具有血债的行动牌。",
+    "text_en": "Instant - {r}, destroy this: You may play target action card with blood debt from your banished zone this turn.",
+    "pitch": null,
+    "cost": "",
+    "power": "",
+    "defense": "",
+    "source": "https://cards.fabtcg.com/card/gate_to_iarathael/",
+    "status": "machine-draft"
   }
 }
