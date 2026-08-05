@@ -113,6 +113,25 @@ test('normalizeStem strips color, cropped, and printing-variant suffixes', () =>
   assert.equal(normalizeStem('burning_blade_dance_red_cropped'), 'burning_blade_dance');
   assert.equal(normalizeStem('energy_potion_blue_cropped'), 'energy_potion');
   assert.equal(normalizeStem('rising_resentment_red_cropped'), 'rising_resentment');
+  // Card-square type marker on equip-able cards (images.talishar.net)
+  assert.equal(normalizeStem('arcbane_grasp_blue_equip'), 'arcbane_grasp');
+  assert.equal(normalizeStem('cogwerx_base_chest_equip'), 'cogwerx_base_chest');
+  assert.equal(normalizeStem('evo_beta_base_chest_equip'), 'evo_beta_base_chest');
+});
+
+test('card-square URL resolves by its own slug, before any (possibly wrong) alt', () => {
+  // images.talishar.net card squares append an "_equip" type marker. The image
+  // slug must win over a wrong alt so hovering an Arcbane Grasp square can never
+  // surface another card's translation.
+  const keys = keysFor(
+    fakeElement('https://images.talishar.net/public/cardsquares/english/arcbane_grasp_blue_equip.webp', 'Adaptive Alpha Mold'),
+    {},
+  );
+  assert.equal(keys[0], 'arcbane_grasp', 'image slug should be the first candidate: ' + JSON.stringify(keys));
+  const imageRank = keys.indexOf('arcbane_grasp');
+  const altRank = keys.indexOf('adaptive_alpha_mold');
+  assert.ok(imageRank >= 0 && imageRank < altRank,
+    'image slug must outrank a wrong alt (image at ' + imageRank + ', alt at ' + altRank + '): ' + JSON.stringify(keys));
 });
 
 test('resolveCardKeys resolves a printing id with a -T variant suffix', () => {

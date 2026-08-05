@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.1
+// @version      0.7.2
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
@@ -260,9 +260,15 @@
     var s = String(stem);
     // Talishar applies modifiers to card image filenames: pitch colors
     // ("boulder_drop_red"), cropped thumbnails ("blaze_headlong_red_cropped"),
-    // and printing-variant markers ("MPW010-T"). None are part of a card
+    // printing-variant markers ("MPW010-T"), and a card-square type marker for
+    // equip-able cards ("arcbane_grasp_blue_equip"). None are part of a card
     // name, so strip them iteratively until the stem stabilises.
-    var strips = [/_(red|yellow|blue)$/i, /_cropped$/i, /_crop$/i];
+    var strips = [
+      /_(red|yellow|blue)$/i,
+      /_cropped$/i,
+      /_crop$/i,
+      /_equip$/i,
+    ];
     var changed = true;
     while (changed) {
       changed = false;

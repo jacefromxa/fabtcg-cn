@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.2（2026-08-05）
+
+### 修复
+
+- **Talishar card-square 装备图交叉识别**：`images.talishar.net` 的卡片方块图在 slug 后追加类型标记（如 `arcbane_grasp_blue_equip`），`normalizeStem` 之前未剥掉 `_equip`，导致图像自身无法解析、只能依赖 alt 文案；alt 有误时（如悬停 Arcbane Grasp 却显示「自适应α模组」）交叉到其他卡。现已剥掉 `_equip` 后缀，图像 slug 优先于 alt 解析，Evo Beta Base Chest / Arcbane Grasp 两例均修复
+
 ## v0.7.1（2026-08-05）
 
 ### 新增
