@@ -401,6 +401,39 @@ dist/data/                  可发布产物
 
 不要把 `data/source/english/card.json` 这种大型源文件放进用户脚本或发布给浏览器下载。
 
+### 8.1 双仓库架构（2026-08-05 部署）
+
+项目采用双仓库分离管理：
+
+| 仓库 | 可见性 | 内容 | 地址 |
+|------|--------|------|------|
+| **源码仓库** | Public | 翻译源文件、构建脚本、用户脚本、测试 | `github.com/jacefromxa/talishar-cn` |
+| **数据仓库** | Public | 仅 `dist/data/` 构建产物 | `github.com/jacefromxa/talishar-cn-data` |
+
+本地开发目录 = 源码仓库。`dist/data/` 在源码仓库中保留（本地 dev 服务器使用），
+但线上数据服务由数据仓库提供（用户脚本默认从 `jacefromxa/talishar-cn-data` 的 GitHub Raw URL 加载）。
+
+**维护流程：**
+
+1. 在本地修改 `data/translations/<批次>.json`
+2. `npm run build`（别名表 + 卡牌数据 + 用户脚本）
+3. 提交源码仓库：`git add -A && git commit -m "..." && git push`
+4. 同步数据仓库：将 `dist/data/*` 拷贝到本地数据仓库 clone 目录，提交并推送
+
+**本地开发数据源切换：**
+
+用户脚本默认连接数据仓库。本地开发时，在浏览器控制台执行：
+
+```js
+localStorage.setItem('fab-cn-data-base-url', 'http://127.0.0.1:4173/data')
+```
+
+切回生产数据：
+
+```js
+localStorage.removeItem('fab-cn-data-base-url')
+```
+
 ## 9. P2：实机测试和体验收尾
 
 需要在 Talishar 真实页面验证：

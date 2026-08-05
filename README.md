@@ -98,6 +98,68 @@ npm test          # 运行全部测试（48项）
 用户脚本从该仓库的 GitHub Raw URL 按需加载 manifest、index、chunks 和别名表，
 使用 Cache Storage 缓存。本地开发时跳过缓存。
 
+## 双仓库架构
+
+本项目拆分为两个 GitHub 仓库，本地开发在一个目录中完成：
+
+| 仓库 | 可见性 | 内容 | 地址 |
+|------|--------|------|------|
+| **源码仓库** | Public | 翻译源文件、构建脚本、测试、用户脚本 | `jacefromxa/talishar-cn` |
+| **数据仓库** | Public | 仅 `dist/data/` 构建产物（manifest/chunks/aliases） | `jacefromxa/talishar-cn-data` |
+
+本地目录 = 源码仓库。构建产物 `dist/data/` 在源码仓库中保留（供本地 dev 服务器使用），
+但每次构建后需要**手动同步**到数据仓库以更新线上服务。
+
+### 日常维护流程
+
+```bash
+# 1. 修改翻译
+vim data/translations/<批次>.json
+
+# 2. 构建全部产物
+cd probe && npm run build && cd ..
+
+# 3. 提交源码仓库（含翻译源 + 构建脚本 + dist/data 快照）
+git add -A
+git commit -m "fix: 修正 XX 翻译" && git push
+
+# 4. 同步数据仓库（将 dist/data 拷贝到数据仓库并推送）
+cp -r dist/data/* /tmp/talishar-cn-data/
+cd /tmp/talishar-cn-data
+git add -A
+git commit -m "data: 同步源码仓库 xxx 提交"
+git push
+```
+
+### 数据流向
+
+```
+data/translations/*.json   (翻译源，在源码仓库中编辑)
+  │
+  ▼  npm run build
+dist/data/*.json           (构建产物，本地 dev 服务器使用)
+  │
+  ▼  cp + git push
+talishar-cn-data 仓库      (GitHub Raw CDN)
+  │
+  ▼  HTTP GET
+用户脚本 (浏览器)           (按需加载 manifest → index → chunks)
+```
+
+### 本地开发切换
+
+插件默认从数据仓库加载。本地开发时，启动 `npm run serve:data` 后在浏览器控制台执行：
+
+```js
+localStorage.setItem('fab-cn-data-base-url', 'http://127.0.0.1:4173/data')
+```
+
+切回生产数据：
+
+```js
+localStorage.removeItem('fab-cn-data-base-url')
+```
+
 ## 许可
 
 翻译文本按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可。
