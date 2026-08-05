@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "t_bone": {
       "id": "t_bone",
@@ -11,6 +11,9 @@
       "text_en": "If you control a card on the combat chain that was boosted, the defending hero must defend this with an equipment they control if able.\nBoost",
       "source": "https://cards.fabtcg.com/card/t_bone/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -41,6 +44,10 @@
       "text_en": "When this hits a hero, mark them.\nGo again",
       "source": "https://cards.fabtcg.com/card/tag_the_target/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Mark"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -71,6 +78,7 @@
       "text_en": "The first time each turn another hero becomes the target of a source that would deal lethal damage, you may discard a red card. If you do, choose new targets for that source.",
       "source": "https://cards.fabtcg.com/card/taipanis_dracai_of_judgement/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -89,6 +97,7 @@
       "text_en": "Target dagger attack gets +3{p} and \"When this hits a marked hero, you may attack with it an additional time this turn.\"",
       "source": "https://cards.fabtcg.com/card/take_a_stab/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -119,6 +128,10 @@
       "text_en": "The next Ranger attack action card you play this turn, gains +3{p}.\nReload\nGo again",
       "source": "https://cards.fabtcg.com/card/take_aim/",
       "status": "machine-draft",
+      "keywords": [
+        "Reload",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -149,6 +162,9 @@
       "text_en": "Reload",
       "source": "https://cards.fabtcg.com/card/take_cover/",
       "status": "machine-draft",
+      "keywords": [
+        "Reload"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -179,6 +195,9 @@
       "text_en": "As an additional cost to play Take Flight, you may charge your hero's soul.\nIf you've charged this turn, Take Flight gains go again.",
       "source": "https://cards.fabtcg.com/card/take_flight/",
       "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -209,6 +228,7 @@
       "text_en": "The next time you would be dealt damage this turn, prevent 2 of that damage. If you do, create an Agility token.",
       "source": "https://cards.fabtcg.com/card/take_it_on_the_chin/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -227,6 +247,7 @@
       "text_en": "When the combat chain closes, if this didn't hit, the defending hero creates a Might token.",
       "source": "https://cards.fabtcg.com/card/take_that/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -257,6 +278,9 @@
       "text_en": "Riptide Specialization\nSearch your deck for a card, then shuffle and put it on top.\nCreate a Bait token under an opponent's control.\nGo again",
       "source": "https://cards.fabtcg.com/card/take_the_bait/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -275,6 +299,7 @@
       "text_en": "The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Blade Dance token.",
       "source": "https://cards.fabtcg.com/card/take_the_lead/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -293,6 +318,7 @@
       "text_en": "When Take the Tempo hits, if you've hit 3 or more times this combat chain, banish the top card of your deck. If it's an attack action card, you may play it until the end of your next turn.",
       "source": "https://cards.fabtcg.com/card/take_the_tempo/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -311,6 +337,7 @@
       "text_en": "Play this only if you've wagered this chain link.\nTarget attack gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/take_the_upper_hand/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -341,6 +368,7 @@
       "text_en": "Target attack action card with stealth gets +2{p}. If it's attacking a marked hero, instead it gets +3{p} and you may banish an attack action card with stealth from your graveyard. If you do, the target becomes a copy of the banished card.",
       "source": "https://cards.fabtcg.com/card/take_up_the_mantle/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -359,6 +387,7 @@
       "text_en": "Yorick Specialization\nEach other hero chooses and creates a token that hasn't been chosen; Aether Ashwing, Embodiment of Earth, Embodiment of Lightning, Ponder, Quicken, Runechant, Seismic Surge, Soul Shackle, Spectral Shield, Zen State.\nYou create a Copper, Silver, and Gold.",
       "source": "https://cards.fabtcg.com/card/tales_of_adventure/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -377,6 +406,7 @@
       "text_en": "Once per Turn Action - {r}{r}, put a rust counter on Talishar, the Lost Prince: Attack\nAt the beginning of your end phase, if Talishar, the Lost Prince has 3 or more rust counters on it, destroy it.",
       "source": "https://cards.fabtcg.com/card/talishar_the_lost_prince/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -395,6 +425,9 @@
       "text_en": "Go again\nAt the beginning of your end phase, if you have less cards in arsenal than an opposing hero, destroy Talisman of Balance and put the top card of your deck into an empty arsenal zone you control.",
       "source": "https://cards.fabtcg.com/card/talisman_of_balance/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -413,6 +446,9 @@
       "text_en": "Go again\nWhen you play a card from your banished zone, destroy Talisman of Cremation and name a card. Banish all cards with the chosen name from each opposing hero's graveyard.",
       "source": "https://cards.fabtcg.com/card/talisman_of_cremation/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -431,6 +467,10 @@
       "text_en": "Go again\nSpellvoid 1",
       "source": "https://cards.fabtcg.com/card/talisman_of_dousing/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Spellvoid 1"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -449,6 +489,9 @@
       "text_en": "Go again\nWhen an attack you control gains exactly +1{p} from an effect during the reaction step, destroy Talisman of Featherfoot and the attack gains go again.",
       "source": "https://cards.fabtcg.com/card/talisman_of_featherfoot/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -467,6 +510,9 @@
       "text_en": "Go again\nWhenever you pitch a card, if you would gain exactly one {r}, instead destroy Talisman of Recompense and gain {r}{r}{r}.",
       "source": "https://cards.fabtcg.com/card/talisman_of_recompense/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -485,6 +531,9 @@
       "text_en": "Go again\nIf an opponent would draw 1 or more cards during your action phase, instead destroy Talisman of Tithes and they draw that many cards minus 1.",
       "source": "https://cards.fabtcg.com/card/talisman_of_tithes/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -503,6 +552,9 @@
       "text_en": "Go again\nWhen a source you control deals exactly 2 damage to an opposing hero, destroy Talisman of Warfare and all cards in all arsenals.",
       "source": "https://cards.fabtcg.com/card/talisman_of_warfare/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -521,6 +573,7 @@
       "text_en": "Instant - Destroy Talismanic Lens: Opt 2",
       "source": "https://cards.fabtcg.com/card/talismanic_lens/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -539,6 +592,9 @@
       "text_en": "Choose a number. The next time you deal that much or more {p} damage to a hero this turn, create that many Might tokens.\nGo again",
       "source": "https://cards.fabtcg.com/card/talk_a_big_game/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -557,6 +613,7 @@
       "text_en": "When this attacks a Reviled hero, this gets +1{p}.\nWhen this hits a Reviled hero, put a card from their arsenal on the bottom of their deck.",
       "source": "https://cards.fabtcg.com/card/tame_the_beastly_behavior/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -575,6 +632,7 @@
       "text_en": "Deal 4 arcane damage to any target.\nIf this deals damage, you may {t} your hero. If you do, put an instant card from your graveyard on the bottom of your deck.",
       "source": "https://cards.fabtcg.com/card/tap_lessons_past/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -605,6 +663,7 @@
       "text_en": "Choose 1 or both;\n\nTarget dagger attack gets +3{p}.\nTarget card defending an attack with stealth gets -3{d} this turn.",
       "source": "https://cards.fabtcg.com/card/tarantula_toxin/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -623,6 +682,7 @@
       "text_en": "Action - Destroy this: Whenever an arrow with an aim counter hits this turn, draw a card. Go again",
       "source": "https://cards.fabtcg.com/card/target_totalizer/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -641,6 +701,7 @@
       "text_en": "When this defends an attack with go again, the next time an attack action card hits this turn, effects don't trigger.",
       "source": "https://cards.fabtcg.com/card/tarpit_trap/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -659,6 +720,7 @@
       "text_en": "You may have equipment of any class or talent in your inventory. Each equipment in your starting inventory must have a different name.\nAt the start of your turn, you may banish an equipment you control. If you do, equip a card of the same subtype from your inventory.",
       "source": "https://cards.fabtcg.com/card/taylor/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -677,6 +739,9 @@
       "text_en": "Your next Guardian attack this turn gains +1{p}, dominate, and \"When this hits a hero, they discard 2 cards.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/tear-asunder/",
       "status": "deck-translation-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -695,6 +760,9 @@
       "text_en": "When this attacks a Revered hero, intimidate them.\nWhen this hits a Revered hero, they discard a card.",
       "source": "https://cards.fabtcg.com/card/tear_down_the_idols/",
       "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -713,6 +781,9 @@
       "text_en": "Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, the next Brute attack action card you play this turn gains +X{p}, where X is its base {p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/tear_limb_from_limb/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -731,6 +802,9 @@
       "text_en": "Choose a red action card in your banished zone. It gets go again until end of turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/tear_through_the_portal/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -761,6 +835,9 @@
       "text_en": "Instant - Destroy this: The next Crouching Tiger you play this turn gains +2{p}.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/tearing_shuko/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -779,6 +856,9 @@
       "text_en": "When this defends together with an Earth card, create a Seismic Surge token.\nTemper",
       "source": "https://cards.fabtcg.com/card/tectonic_crust/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -797,6 +877,9 @@
       "text_en": "Each hero puts a card from their arsenal on the bottom of their deck. If they do, they draw a card.\nCreate Seismic Surge tokens equal to the number of cards drawn this way.\nGo again",
       "source": "https://cards.fabtcg.com/card/tectonic_instability/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -815,6 +898,9 @@
       "text_en": "Once per turn Action - {r}: Create a Seismic Surge aura token. Go again\nBattleworn",
       "source": "https://cards.fabtcg.com/card/tectonic_plating/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -833,6 +919,9 @@
       "text_en": "Create X Seismic Surge tokens.\nGo again",
       "source": "https://cards.fabtcg.com/card/tectonic_rift/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -851,6 +940,9 @@
       "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.",
       "source": "https://cards.fabtcg.com/card/teeth_of_the_cog/",
       "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -881,6 +973,9 @@
       "text_en": "Blade Break",
       "source": "https://cards.fabtcg.com/card/teklo_base_arms/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -899,6 +994,9 @@
       "text_en": "Blade Break",
       "source": "https://cards.fabtcg.com/card/teklo_base_chest/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -917,6 +1015,9 @@
       "text_en": "Blade Break",
       "source": "https://cards.fabtcg.com/card/teklo_base_head/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -935,6 +1036,9 @@
       "text_en": "Blade Break",
       "source": "https://cards.fabtcg.com/card/teklo_base_legs/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -953,6 +1057,7 @@
       "text_en": "Once per Turn Action - {r}{r}{r}: Attack",
       "source": "https://cards.fabtcg.com/card/teklo_blaster/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -971,6 +1076,7 @@
       "text_en": "Dash Specialization\nTeklo Core enters the arena with 2 steam counters on it. When Teklo Core has no steam counters on it, destroy it.\nAt the beginning of your action phase, remove a steam counter from Teklo Core and gain {r}{r}.",
       "source": "https://cards.fabtcg.com/card/teklo_core/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -989,6 +1095,9 @@
       "text_en": "Once per Turn Action - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you've boosted this turn. Go again\nBattleworn",
       "source": "https://cards.fabtcg.com/card/teklo_foundry_heart/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1007,6 +1116,7 @@
       "text_en": "If you have 1 or more Evos equipped, this gets \"Once per Turn Action - {r}{r}{r}: Attack,\"\n\n2 or more, this costs {r}{r} less to activate,\n3 or more, this gets go again,\n4 or more, this gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/teklo_leveler/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1025,6 +1135,7 @@
       "text_en": "Action - Remove a steam counter from Teklo Plasma Pistol: Attack\nAction - {r}: If there are no steam counters on Teklo Plasma Pistol, put a steam counter on it. Go again",
       "source": "https://cards.fabtcg.com/card/teklo_plasma_pistol/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1043,6 +1154,7 @@
       "text_en": "This enters the arena with 3 steam counters on it. When this has none, destroy it.\nOnce per turn, when you boost an attack action card, remove a steam counter from this. If you do, the attack gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/teklo_pounder/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1061,6 +1173,9 @@
       "text_en": "When this attacks, the next attack you boost this combat chain gets +2{p}.\nBoost",
       "source": "https://cards.fabtcg.com/card/teklo_trebuchet_2000/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1079,6 +1194,7 @@
       "text_en": "When this defends an attack with overpower, this gets +2{d}.",
       "source": "https://cards.fabtcg.com/card/teklonetic_force_field/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1109,6 +1225,7 @@
       "text_en": "You may play Evos from your banished zone.\nOnce per Turn Instant - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.",
       "source": "https://cards.fabtcg.com/card/teklovossen/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1127,6 +1244,7 @@
       "text_en": "You may play Evos from your banished zone.\nOnce per Turn Instant - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.",
       "source": "https://cards.fabtcg.com/card/teklovossen_esteemed_magnate/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1145,6 +1263,9 @@
       "text_en": "Action - {r}{r}{r}, banish 2 cards from your soul: Attack\nWhenever this attacks a hero, they discard a card.\nYour Mechanologist attack action cards get go again.\nThis counts as having 4 Evos equipped.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/teklovossen_the_mechropotent/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1163,6 +1284,9 @@
       "text_en": "Opt X, where X is the number of times you have boosted this turn.\nReveal the top card of your deck. If it's a Mechanologist item card with cost 2 or less, put it into the arena.",
       "source": "https://cards.fabtcg.com/card/teklovossens_workshop/",
       "status": "machine-draft",
+      "keywords": [
+        "Opt X"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1193,6 +1317,9 @@
       "text_en": "The next card you play this turn with cost 2 or less and an arcane damage effect, instead deals that much arcane damage plus 1.\nGo again",
       "source": "https://cards.fabtcg.com/card/tempest_aurora/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1223,6 +1350,9 @@
       "text_en": "When this leaves the arena, you may play your next non-attack action card this turn as though it were an instant.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/tempest_dancers/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1241,6 +1371,10 @@
       "text_en": "Combo - If Surging Strike was the last attack this combat chain, this gets +2{p}.\nIf this is played at chain link 3 or higher, this gets go again.",
       "source": "https://cards.fabtcg.com/card/tempest_palm_gustwave/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1259,6 +1393,9 @@
       "text_en": "Quickstrike - If this has go again, it gets +1{p} and \"When this attacks a hero, deal 1 arcane damage to them.\"\nThe first time this deals damage to a hero, they discard a card.",
       "source": "https://cards.fabtcg.com/card/tempestuous_kiss/",
       "status": "machine-draft",
+      "keywords": [
+        "Quickstrike"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1277,6 +1414,9 @@
       "text_en": "Instant - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've activated a weapon this turn, instead prevent the next 2.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/templar_spellbane/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1295,6 +1435,9 @@
       "text_en": "Negate target non-attack action card with cost less than the number of aura permanents you control with Sigil in their name. Its controller gains 1 action point.",
       "source": "https://cards.fabtcg.com/card/temporal_wobble/",
       "status": "machine-draft",
+      "keywords": [
+        "Negate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1313,6 +1456,9 @@
       "text_en": "When this attacks a hero, steal an aura token they control until end of turn.",
       "source": "https://cards.fabtcg.com/card/tempt_over/",
       "status": "machine-draft",
+      "keywords": [
+        "Steal"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1331,6 +1477,7 @@
       "text_en": "When this attacks or defends, your hero gets -2{i} during your next end phase.",
       "source": "https://cards.fabtcg.com/card/ten_foot_tall_and_bulletproof/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1349,6 +1496,7 @@
       "text_en": "When this attacks, it gets +X{p}, where X is the number of defending cards on the combat chain.",
       "source": "https://cards.fabtcg.com/card/tenacity/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1367,6 +1515,9 @@
       "text_en": "Suspense\nWhen this leaves the arena, your next attack this turn gets +4{p}.",
       "source": "https://cards.fabtcg.com/card/tension_in_the_air/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1397,6 +1548,9 @@
       "text_en": "Turn up to 3 ally cards in your graveyard face-down, then create that many Gold tokens.\nGo again",
       "source": "https://cards.fabtcg.com/card/tentacular_toll/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1427,6 +1581,9 @@
       "text_en": "If you have 1 or more Evos equipped, this gets \"When this hits a hero, they discard a card,\"\n\n2 or more, this costs {r}{r}{r} less to play,\n3 or more, this gets overpower,\n4 or more, this gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/terminator_tank/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1445,6 +1602,9 @@
       "text_en": "Your next weapon attack this turn gets +4{p} and \"Whenever a defense reaction is played or activated this chain link, draw a card.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/terms_of_combat/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1463,6 +1623,9 @@
       "text_en": "At the beginning of each end phase, if there is an Earth card in your pitch zone, you may pay {r}. If you do, create a Might token.\nEssence of Earth",
       "source": "https://cards.fabtcg.com/card/terra/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Earth"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1481,6 +1644,7 @@
       "text_en": "While this is defending, if you've created a Crouching Tiger this turn, this gets +3{d}.",
       "source": "https://cards.fabtcg.com/card/territorial_domain/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1499,6 +1663,9 @@
       "text_en": "When this defends, clash with the attacking hero. The winner creates an Agility token.",
       "source": "https://cards.fabtcg.com/card/test_of_agility/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1517,6 +1684,9 @@
       "text_en": "When this defends, clash with the attacking hero. If there is a winner, the other hero discards a card.",
       "source": "https://cards.fabtcg.com/card/test_of_iron_grip/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1535,6 +1705,9 @@
       "text_en": "When this defends, clash with the attacking hero. The winner creates a Might token.",
       "source": "https://cards.fabtcg.com/card/test_of_might/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1553,6 +1726,9 @@
       "text_en": "When this defends, clash with the attacking hero. The winner creates a Gold token.",
       "source": "https://cards.fabtcg.com/card/test_of_strength/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1571,6 +1747,9 @@
       "text_en": "When this defends, clash with the attacking hero. The winner creates a Vigor token.",
       "source": "https://cards.fabtcg.com/card/test_of_vigor/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1589,6 +1768,9 @@
       "text_en": "If you control three or more Seismic Surge tokens, this gets +2{d}. If you control six or more, instead this gets +4{d}.\nGuardwell",
       "source": "https://cards.fabtcg.com/card/testament_of_valahai/",
       "status": "machine-draft",
+      "keywords": [
+        "Guardwell"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1607,6 +1789,7 @@
       "text_en": "While this is defending an attack with 2 or less {p}, when the combat chain closes, draw a card.",
       "source": "https://cards.fabtcg.com/card/that_all_you_got/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1625,6 +1808,7 @@
       "text_en": "While this is in your graveyard, at the start of your turn, you may banish it and choose 1:\n\nDestroy target Frostbite.\nDestroy target Ice affliction.\nUnfreeze target frozen card in the arena or an arsenal.",
       "source": "https://cards.fabtcg.com/card/thaw/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1643,6 +1827,9 @@
       "text_en": "Victor Specialization\nAs an additional cost to play this, you may destroy a Gold you control. If you do, this gets +3{p} and overpower.\nWhen you win a clash revealing this, create a Gold token.",
       "source": "https://cards.fabtcg.com/card/the_golden_son/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1661,6 +1848,10 @@
       "text_en": "Legendary\nTarget attack gets +1{p}.\nIf you've played another blue card this turn, transcend.",
       "source": "https://cards.fabtcg.com/card/the_grain_that_tips_the_scale/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1679,6 +1870,7 @@
       "text_en": "Once per Turn Attack Reaction - 0: Turn this face-up. Activate this only while this is face-down in your arsenal.\nWhile this is face-up in arsenal, your first attack with contract each turn gets go again. If it's attacking a Royal hero, it gets +1{p}.\nAt the beginning of your end phase, destroy a Silver you control. If you don't, put this on the bottom of your deck and draw a card.",
       "source": "https://cards.fabtcg.com/card/the_hand_that_pulls_the_strings/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1697,6 +1889,7 @@
       "text_en": "While The Librarian is face down in arsenal, at the start of your turn, you may turn him face up.\nWhile The Librarian is face up in arsenal, once per turn when you create a Spectral Shield token, draw a card and put a lesson counter on The Librarian. Then if there are 3 or more lesson counters on him, banish him, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
       "source": "https://cards.fabtcg.com/card/the_librarian/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1715,6 +1908,9 @@
       "text_en": "You may have cards with Tome in their name of any class or talent in your deck.\nAction - {t}, reveal a card with Tome in its name from your inventory: Put it into your hand. Another target hero gets +1{i} until the end of their next turn. Go again",
       "source": "https://cards.fabtcg.com/card/the_librarian_magister_of_history/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1733,6 +1929,7 @@
       "text_en": "Each hero may put any number of cards from their hand or arsenal on the bottom of their deck, then they draw a card for each card they put on the bottom this way.",
       "source": "https://cards.fabtcg.com/card/the_moat_exchange/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1751,6 +1948,7 @@
       "text_en": "Instant - Discard this: the next time you would clash with target hero this turn, instead you reveal the top card of their deck and they reveal the top card of your deck. If you win the clash, they discard a card.",
       "source": "https://cards.fabtcg.com/card/the_old_switcheroo/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1769,6 +1967,9 @@
       "text_en": "Suspense\nYour first attack each turn gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/the_suspense_is_killing_me/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1787,6 +1988,7 @@
       "text_en": "When this hits a hero, look at their hand and choose a card without base {d}. If you do, they discard it and you draw a card.",
       "source": "https://cards.fabtcg.com/card/the_weakest_link/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1805,6 +2007,7 @@
       "text_en": "Opponents can't play cards or activate abilities during your turn.",
       "source": "https://cards.fabtcg.com/card/themai/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1823,6 +2026,9 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen Themis attacks, you may banish a card from your hero's soul. If you do, turn a card in any banished zone face-down.\nWard 4",
       "source": "https://cards.fabtcg.com/card/themis_archangel_of_judgment/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 4"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1841,6 +2047,7 @@
       "text_en": "The first time each turn another hero destroys a card they don't control, you may pay {r}{r}. If you do, they destroy a non-hero permanent they control.",
       "source": "https://cards.fabtcg.com/card/theryon_magister_of_justice/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1859,6 +2066,9 @@
       "text_en": "Choose any number;\n- Destroy a Might or Vigor token.\n- The crowd cheers you.\n- Return an aura permanent you control to its owner's hand.",
       "source": "https://cards.fabtcg.com/card/thespian_charm/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1877,6 +2087,7 @@
       "text_en": "When this attacks or defends, discard a random card.",
       "source": "https://cards.fabtcg.com/card/thick_hide_hunter/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1895,6 +2106,7 @@
       "text_en": "When this attacks, you may remove a gold counter from Treasure Island. If you do and you are a Thief, create a Gold token.",
       "source": "https://cards.fabtcg.com/card/thievn_varmints/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1913,6 +2125,10 @@
       "text_en": "Instant - {r}, {t}, destroy a Ponder token you control: Draw a card.\nSpellvoid 1\nBlade Break",
       "source": "https://cards.fabtcg.com/card/third_eye_of_the_sphinx/",
       "status": "machine-draft",
+      "keywords": [
+        "Spellvoid 1",
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1931,6 +2147,9 @@
       "text_en": "Each hero draws a card.\nUntil the start of your next turn, attacks that target you have -1{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/this_rounds_on_me/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1949,6 +2168,9 @@
       "text_en": "Meld\nCreate X Runechant tokens, where X is the total {h} you've gained this turn.\n//\nGain 1{h}",
       "source": "https://cards.fabtcg.com/card/thistle_bloom_life/",
       "status": "machine-draft",
+      "keywords": [
+        "Meld"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1967,6 +2189,7 @@
       "text_en": "Instant - Destroy Threadbare Tunic: Gain {r}. Activate this ability only if you have no cards in hand.",
       "source": "https://cards.fabtcg.com/card/threadbare_tunic/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1985,6 +2208,9 @@
       "text_en": "Draw 3 cards. Until end of turn, you may only play cards from arsenal.\nGo again",
       "source": "https://cards.fabtcg.com/card/three_of_a_kind/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2003,6 +2229,9 @@
       "text_en": "Ward X, where X is three times the number of blue cards you've pitched this turn.",
       "source": "https://cards.fabtcg.com/card/three_visits/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward X"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2021,6 +2250,9 @@
       "text_en": "If an attack would gain {p} this turn, instead it gains that much plus 1.\nGo again",
       "source": "https://cards.fabtcg.com/card/thrive/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2039,6 +2271,9 @@
       "text_en": "Boost",
       "source": "https://cards.fabtcg.com/card/throttle/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2069,6 +2304,7 @@
       "text_en": "Reveal the top card of your deck. The next time you would be dealt damage this turn, prevent X of that damage, where X is the pitch value of the card revealed this way.",
       "source": "https://cards.fabtcg.com/card/throw_caution_to_the_wind/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2087,6 +2323,7 @@
       "text_en": "Target dagger you control that isn't on the active chain link deals 1 damage to the defending hero. If damage is dealt this way, the dagger has hit and you draw a card. Destroy the dagger.",
       "source": "https://cards.fabtcg.com/card/throw_dagger/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2105,6 +2342,9 @@
       "text_en": "When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.\nGo again",
       "source": "https://cards.fabtcg.com/card/throw_yourself_at_them/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2135,6 +2375,7 @@
       "text_en": "Target sword attack gains +3{p}.",
       "source": "https://cards.fabtcg.com/card/thrust/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2153,6 +2394,9 @@
       "text_en": "While Thump's {p} is greater than its base {p}, it gains dominate and \"If this hits a hero, they discard a card.\"",
       "source": "https://cards.fabtcg.com/card/thump/",
       "status": "machine-draft",
+      "keywords": [
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2183,6 +2427,9 @@
       "text_en": "Heave 3",
       "source": "https://cards.fabtcg.com/card/thunder_quake/",
       "status": "machine-draft",
+      "keywords": [
+        "Heave 3"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2213,6 +2460,9 @@
       "text_en": "At the beginning of your action phase, destroy this, then your next attack this turn gets go again.\nArcane Barrier 3",
       "source": "https://cards.fabtcg.com/card/thunderous_retort/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2243,6 +2493,7 @@
       "text_en": "When you win a clash revealing this, create a Might token.",
       "source": "https://cards.fabtcg.com/card/thunk/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2273,6 +2524,7 @@
       "text_en": "When this defends, remove all +1{p} counters from the attacking card.",
       "source": "https://cards.fabtcg.com/card/thwart/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2291,6 +2543,9 @@
       "text_en": "Instant - Destroy this: Put a suspense counter on an aura of suspense you control. Activate this only if you've been cheered this turn.\nGuardwell",
       "source": "https://cards.fabtcg.com/card/tiara_of_suspense/",
       "status": "machine-draft",
+      "keywords": [
+        "Guardwell"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2309,6 +2564,9 @@
       "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this and it deals 1 damage to you unless you remove a steam counter from it.\nWhen a Mechanologist attack action card you control hits a hero, destroy this and up to 2 other items in the arena. Then deal X damage to them, where X is the number of items destroyed this way.",
       "source": "https://cards.fabtcg.com/card/tick_tock_clock/",
       "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2327,6 +2585,9 @@
       "text_en": "Ticket Puncher's {d} is equal to the number of opposing heroes with greater {h} than you.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/ticket_puncher/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2345,6 +2606,7 @@
       "text_en": "If you've played another blue card this turn, this gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/tidal_surge/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2363,6 +2625,7 @@
       "text_en": "Target Assassin or Mystic attack action card gets +3{p}. If you've transcended this turn, instead it gets +5{p}.",
       "source": "https://cards.fabtcg.com/card/tide_chakra/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2393,6 +2656,9 @@
       "text_en": "Attack Reaction - Destroy Tide Flippers: Target attack action card with 2 or less base {p} gains go again.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/tide_flippers/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2411,6 +2677,9 @@
       "text_en": "Ambush\nWhen this defends, create a Crouching Tiger in your banished zone. You may play it during your next turn.",
       "source": "https://cards.fabtcg.com/card/tiger_eye_reflex/",
       "status": "machine-draft",
+      "keywords": [
+        "Ambush"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2435,6 +2704,9 @@
       "text_en": "The next Crouching Tiger you play this turn gets +3{p}.\nIf you've pitched a blue card this turn, create a Crouching Tiger in your hand.\nGo again",
       "source": "https://cards.fabtcg.com/card/tiger_form_incantation/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2465,6 +2737,9 @@
       "text_en": "The second attack action card with 2 or less base {p} you play each turn has +1{p} and \"Damage that would be dealt by this can't be prevented.\"\nBlade Break",
       "source": "https://cards.fabtcg.com/card/tiger_stripe_shuko/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2483,6 +2758,10 @@
       "text_en": "Combo - If Crouching Tiger was the last attack this combat chain, this has +2{p}, go again and \"When this hits, create X Crouching Tigers in your banished zone, where X is the number of Crouching Tigers you control. You may play them this turn.\"",
       "source": "https://cards.fabtcg.com/card/tiger_swipe/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2501,6 +2780,7 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack. Go again\nWhen this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/tiger_taming_khakkara/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2519,6 +2799,7 @@
       "text_en": "When this defends and the attacking hero controls 3 or more attacks with {p} greater than their base, attacks they control can't gain {p} this turn.",
       "source": "https://cards.fabtcg.com/card/tiger_trap/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2537,6 +2818,9 @@
       "text_en": "Your next Mechanologist attack this turn gets +4{p}.\nYou may {u} a cog you control.\nGo again",
       "source": "https://cards.fabtcg.com/card/tighten_the_screws/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2555,6 +2839,10 @@
       "text_en": "Combo - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and go again.\nAttack Reaction - Discard this: Target Ninja attack gets +1{p}. Create a Crouching Tiger in your hand.",
       "source": "https://cards.fabtcg.com/card/tigrine_reflex/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2573,6 +2861,9 @@
       "text_en": "The next time an attack action card hits a hero this turn, you may destroy an aura they control.\nIf this was played from arsenal, the next attack action card you play this turn gets +3{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/time_flies_when_youre_having_fun/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2591,6 +2882,7 @@
       "text_en": "Action - {r}{r}{r}, destroy this: Gain 2 action points.",
       "source": "https://cards.fabtcg.com/card/time_skippers/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2609,6 +2901,7 @@
       "text_en": "Deal 5 arcane damage to target hero.\nIf Timekeeper's Whim is played during an opponent's turn, put it on the bottom of its owner's deck.",
       "source": "https://cards.fabtcg.com/card/timekeepers_whim/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2639,6 +2932,7 @@
       "text_en": "Action - Destroy this: Gain 2 action points.",
       "source": "https://cards.fabtcg.com/card/timesnap_potion/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2657,6 +2951,7 @@
       "text_en": "When Timidity Point hits a hero, attacks they control lose and can't gain dominate during their next turn.",
       "source": "https://cards.fabtcg.com/card/timidity_point/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2687,6 +2982,7 @@
       "text_en": "Instant - Discard this: Mark target opposing hero.",
       "source": "https://cards.fabtcg.com/card/tip_off/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2717,6 +3013,9 @@
       "text_en": "Create a Goldkiss Rum token.\nYou may give a Gold token you control to another hero. If you do, put this on the bottom of its owner's deck.\nGo again",
       "source": "https://cards.fabtcg.com/card/tip_the_barkeep/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2735,6 +3034,9 @@
       "text_en": "{t} target hero. {u} another target hero.\nGo again",
       "source": "https://cards.fabtcg.com/card/tit_for_tat/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2753,6 +3055,7 @@
       "text_en": "",
       "source": "https://cards.fabtcg.com/card/titanium_bauble/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2771,6 +3074,7 @@
       "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +1{p}.",
       "source": "https://cards.fabtcg.com/card/titans-fist/",
       "status": "deck-translation-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2789,6 +3093,9 @@
       "text_en": "Suspense\nThe first time you would be dealt damage each turn, prevent 1 of that damage.",
       "source": "https://cards.fabtcg.com/card/to_be_continued/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2807,6 +3114,7 @@
       "text_en": "Target dagger attack gets +3{p}. If the defending hero is marked, instead it gets +4{p}.",
       "source": "https://cards.fabtcg.com/card/to_the_point/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2837,6 +3145,9 @@
       "text_en": "When this defends, you may pay {r}. If you do, it gets +2{d} this turn.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/toby_jugs/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2855,6 +3166,7 @@
       "text_en": "The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Flurry token.",
       "source": "https://cards.fabtcg.com/card/toe_the_line/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2873,6 +3185,9 @@
       "text_en": "At the beginning of your action phase, destroy Tome of Aeo then draw a card.\nWard 1",
       "source": "https://cards.fabtcg.com/card/tome_of_aeo/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2891,6 +3206,7 @@
       "text_en": "Choose 2. You may choose the same mode more than once;\n\nThe next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.\nDraw a card.",
       "source": "https://cards.fabtcg.com/card/tome_of_aetherwind/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2909,6 +3225,7 @@
       "text_en": "Draw 2 cards.\nIf a card has been put into your hero's soul this turn, instead draw 3 cards.",
       "source": "https://cards.fabtcg.com/card/tome_of_divinity/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2927,6 +3244,7 @@
       "text_en": "Look at the top 2 cards of your deck, then banish one. If it's a 'non-attack' action card, you may play it this turn as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/tome_of_duplicity/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2945,6 +3263,7 @@
       "text_en": "Play Tome of Firebrand only if you control 4 or more Draconic chain links.\nDraw 2 cards.",
       "source": "https://cards.fabtcg.com/card/tome_of_firebrand/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2963,6 +3282,7 @@
       "text_en": "Draw 2 cards.\nIf Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.",
       "source": "https://cards.fabtcg.com/card/tome_of_fyendal/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2981,6 +3301,9 @@
       "text_en": "As an additional cost to play Tome of Harvests, put a card from your arsenal on the bottom of your deck.\nDraw 3 cards.\nGo again",
       "source": "https://cards.fabtcg.com/card/tome_of_harvests/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2999,6 +3322,9 @@
       "text_en": "Draw a card. If you are Royal, instead draw 2 cards.\nYou may pitch 2 red cards. If you don't, banish your hand.\nGo again",
       "source": "https://cards.fabtcg.com/card/tome_of_imperial_flame/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3017,6 +3343,9 @@
       "text_en": "Banish the top card of each hero's deck. You may play them this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/tome_of_pandemonium/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -3035,6 +3364,7 @@
       "text_en": "Create 2 Ponder tokens.",
       "source": "https://cards.fabtcg.com/card/tome_of_quandaries/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3053,6 +3383,9 @@
       "text_en": "Reveal the top 2 cards of your deck. If you reveal an attack action card and a non-attack action card this way, put them into your hand.\nGo again",
       "source": "https://cards.fabtcg.com/card/tome_of_the_arknight/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3071,6 +3404,9 @@
       "text_en": "You may play Tome of Torment from your banished zone.\nDraw a card.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/tome_of_torment/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3089,6 +3425,7 @@
       "text_en": "Whenever Tomeltai attacks a hero, reveal the top 2 cards of your deck. If 1 or more red cards are revealed this way, put that many -1{d} counters on an equipment they control, then if it has 0{d}, destroy it.",
       "source": "https://cards.fabtcg.com/card/tomeltai/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3107,6 +3444,7 @@
       "text_en": "When this hits a hero, turn a card in their arsenal face-up, then banish an instant card from their arsenal.",
       "source": "https://cards.fabtcg.com/card/tongue_tied/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3125,6 +3463,9 @@
       "text_en": "When this attacks, you may reveal any number of Crouching Tigers from your hand. If you reveal 1 or more, this gets go again. 2 or more, this gets +1{p}. 3 or more, draw a card.",
       "source": "https://cards.fabtcg.com/card/tooth_and_claw/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3143,6 +3484,7 @@
       "text_en": "Your next Draconic attack this turn gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/tooth_of_the_dragon/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3161,6 +3503,9 @@
       "text_en": "Instant - Destroy this: Until end of turn, if one or more cards would be put on top of a deck, instead they're put on the bottom.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/topsy_turvy/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3179,6 +3524,9 @@
       "text_en": "Whenever you beat chest, you may destroy this. If you do, the next Brute attack action card you play this turn costs {r}{r} less to play.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/torc_of_vim/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3197,6 +3545,10 @@
       "text_en": "If an item you control has been destroyed this turn, this gets overpower.\nGalvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
       "source": "https://cards.fabtcg.com/card/torque_tuned/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower",
+        "Galvanize"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3227,6 +3579,9 @@
       "text_en": "When this hits, it gets go again.",
       "source": "https://cards.fabtcg.com/card/torrent_of_tempo/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3257,6 +3612,9 @@
       "text_en": "Instant - {x}, {t}: This gets ward X until end of turn. Destroy this at the beginning of the end phase.",
       "source": "https://cards.fabtcg.com/card/touch_of_reality/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward X"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3275,6 +3633,7 @@
       "text_en": "If you have less {h} than each other hero, this card's base {p} is 6, otherwise it's 0.",
       "source": "https://cards.fabtcg.com/card/tough_as_a_rok/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3293,6 +3652,9 @@
       "text_en": "If you control a Toughness and a Vigor token, this gets +2{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/tough_leather_boots/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3311,6 +3673,9 @@
       "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.",
       "source": "https://cards.fabtcg.com/card/tough_old_wrench/",
       "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3341,6 +3706,9 @@
       "text_en": "When this defends, clash with the attacking hero. The winner creates a Toughness token. You may put your revealed card on the bottom of its owner's deck.",
       "source": "https://cards.fabtcg.com/card/tough_smashup/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3371,6 +3739,7 @@
       "text_en": "",
       "source": "https://cards.fabtcg.com/card/toughen_up/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3389,6 +3758,7 @@
       "text_en": "At the start of your opponent's turn, destroy this, then the next action card you defend with this turn gets +1{d} this chain link.",
       "source": "https://cards.fabtcg.com/card/toughness/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3407,6 +3777,7 @@
       "text_en": "At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +10{p}.",
       "source": "https://cards.fabtcg.com/card/towering_titan/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3437,6 +3808,9 @@
       "text_en": "Action - {r}, destroy Toxic Tips: The next attack action card you play this turn gains \"When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.\" Go again\nBlade Break",
       "source": "https://cards.fabtcg.com/card/toxic_tips/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3455,6 +3829,9 @@
       "text_en": "The next Assassin or Ranger attack action card you play this turn gains \"When this hits a hero, they lose 5{h}.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/toxicity/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3485,6 +3862,9 @@
       "text_en": "When this attacks, you may discard a card. If you do, draw a card.\nIf this was played from arsenal, it gains go again.",
       "source": "https://cards.fabtcg.com/card/trade_in/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3515,6 +3895,9 @@
       "text_en": "Deal 3 arcane damage to target hero.\nSurge - If this deals more than 3 damage, it gets go again.",
       "source": "https://cards.fabtcg.com/card/trailblazing_aether/",
       "status": "machine-draft",
+      "keywords": [
+        "Surge"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3545,6 +3928,9 @@
       "text_en": "Whenever you beat chest, you may destroy this. If you do, create an Agility token.\nTemper",
       "source": "https://cards.fabtcg.com/card/trampling_trackers/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3563,6 +3949,9 @@
       "text_en": "When Tranquil Passing enters the arena, you may banish target aura token or aura permanent with cost 3 or less controlled by an opponent until Tranquil Passing leaves the arena.\nWard 1",
       "source": "https://cards.fabtcg.com/card/tranquil_passing/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3593,6 +3982,9 @@
       "text_en": "The next attack action card you play this turn is Illusionist, has 8 base {p}, and gains phantasm.\nGo again",
       "source": "https://cards.fabtcg.com/card/transmogrify/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3623,6 +4015,10 @@
       "text_en": "When this hits a hero, mark them.\nGo again",
       "source": "https://cards.fabtcg.com/card/trap_and_release/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Mark"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3653,6 +4049,9 @@
       "text_en": "When this defends, search your deck for an Inner Chi, reveal it, put it into your hand, then shuffle.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/traverse_the_universe/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3671,6 +4070,7 @@
       "text_en": "The first time a hero is attacked each turn, put a gold counter on this.\nWhenever you or an ally you control deals damage to an opposing hero, you remove that many gold counters from this, then create Gold tokens equal to the number of counters removed this way.",
       "source": "https://cards.fabtcg.com/card/treasure_island/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3689,6 +4089,7 @@
       "text_en": "Until end of turn, if any hero would create 1 or more tokens, instead they create that many plus 1 of each of those tokens.\nCreate a Gold token.",
       "source": "https://cards.fabtcg.com/card/tremor_of_anticipation/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3707,6 +4108,7 @@
       "text_en": "If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.",
       "source": "https://cards.fabtcg.com/card/tremor_of_i_arathael/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3737,6 +4139,7 @@
       "text_en": "If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.",
       "source": "https://cards.fabtcg.com/card/tremor_of_iarathael/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3767,6 +4170,9 @@
       "text_en": "If you control a Seismic Surge token, this gets +2{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/tremor_of_resistance/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3785,6 +4191,9 @@
       "text_en": "Instant - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've controlled a Seismic Surge token this turn, instead prevent the next 2.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/tremorshield_sabatons/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3803,6 +4212,10 @@
       "text_en": "Once per Turn Instant - Put a face down card from your arsenal on the bottom of your deck: Gain {r}\nArcane Barrier 1\nBlade Break",
       "source": "https://cards.fabtcg.com/card/trench_of_sunken_treasure/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1",
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3821,6 +4234,9 @@
       "text_en": "When this defends, you may pitch a blue card from your graveyard.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/trench_of_watery_depths/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3839,6 +4255,9 @@
       "text_en": "You may activate target bow you control 2 additional times this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/tri_shot/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3857,6 +4276,9 @@
       "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, this gets +2{p}.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/tribute_to_demolition/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3887,6 +4309,9 @@
       "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, this gets +2{p}.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/tribute_to_the_legions_of_doom/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3917,6 +4342,9 @@
       "text_en": "When this defends, you may discard a card with watery grave. If you do, draw a card.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/tricorn_of_saltwater_death/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3935,6 +4363,7 @@
       "text_en": "Instant - Discard this: Prevent the next 2 damage that would be dealt to you this turn.",
       "source": "https://cards.fabtcg.com/card/trip_the_light_fantastic/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3965,6 +4394,7 @@
       "text_en": "Tripwire Trap can only be played from arsenal.\nWhen this defends, effects don't trigger when an attack hits this chain link unless the attacking hero pays {r}.",
       "source": "https://cards.fabtcg.com/card/tripwire_trap/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3983,6 +4413,9 @@
       "text_en": "Your next attack with 3 or less base {p} this turn gets go again.\nGo again",
       "source": "https://cards.fabtcg.com/card/trot_along/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -4001,6 +4434,9 @@
       "text_en": "When this defends, clash with the attacking hero. Put the revealed cards on the bottom of their owner's deck, then clash again.\nIf a hero wins both clashes, they create a Gold, Might, and Vigor token.",
       "source": "https://cards.fabtcg.com/card/trounce/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4019,6 +4455,7 @@
       "text_en": "When this enters the arena, choose an opponent.\nAt the beginning of their end phase, destroy this and you each gain 3{h}.\nWhen you or a card you control is the target of an attack they control, destroy this and draw a card.",
       "source": "https://cards.fabtcg.com/card/truce/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -4037,6 +4474,7 @@
       "text_en": "When this defends, you may look at the top card of your deck and choose a color. If you do, the attacking hero guesses if that card is the chosen color, then they look at it. If they guessed wrong, they discard a card.",
       "source": "https://cards.fabtcg.com/card/truth_or_trickery/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -4055,6 +4493,10 @@
       "text_en": "Cloaked\nInstant - {r}, turn this face-up: Put an aura from your graveyard on the bottom of your deck.\nWard 1",
       "source": "https://cards.fabtcg.com/card/truths_retold/",
       "status": "machine-draft",
+      "keywords": [
+        "Cloaked",
+        "Ward 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -4073,6 +4515,7 @@
       "text_en": "Instant - {t}: Pitch the top card of your deck. If it has 6 or more {p}, the crowd cheers you.\nWhenever the crowd cheers you, create a Toughness token.",
       "source": "https://cards.fabtcg.com/card/tuffnut/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -4091,6 +4534,7 @@
       "text_en": "Instant - {t}: Pitch the top card of your deck. If it has 6 or more {p}, the crowd cheers you.\nWhenever the crowd cheers you, create a Toughness token.",
       "source": "https://cards.fabtcg.com/card/tuffnut_bumbling_hulkster/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -4109,6 +4553,9 @@
       "text_en": "Suspense\nWhen this leaves the arena, {t} target Brute hero. They don't {u} during their next end phase.",
       "source": "https://cards.fabtcg.com/card/turn_heads/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -4127,6 +4574,9 @@
       "text_en": "When this attacks a Reviled hero, this gets +1{p}.\nWhen this hits a Reviled hero, the crowd cheers you.",
       "source": "https://cards.fabtcg.com/card/turn_the_crowd_grateful/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4157,6 +4607,9 @@
       "text_en": "When this attacks a Revered hero, this gets +3{p}.\nWhen this hits a Revered hero, the crowd boos you.",
       "source": "https://cards.fabtcg.com/card/turn_the_crowd_hateful/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Boos"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4187,6 +4640,9 @@
       "text_en": "Earth Fusion\nIf Turn Timber was fused, it gains +2{d}.",
       "source": "https://cards.fabtcg.com/card/turn_timber/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4217,6 +4673,7 @@
       "text_en": "Deal 5 arcane damage to any target.\nIf this deals damage, you may {t} your hero. If you do, create a Ponder token.",
       "source": "https://cards.fabtcg.com/card/turn_to_mindfire/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4235,6 +4692,9 @@
       "text_en": "When this defends, if you have less {h} than the attacking hero, the crowd cheers you.\nWhile this is defending, if you've been cheered this turn, it gets +3{d}.",
       "source": "https://cards.fabtcg.com/card/turning_point/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -4253,6 +4713,9 @@
       "text_en": "Whenever you transcend, you may gain {r}.\nInstant - {c}{c}{c}, destroy this: Create a Zen State token.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/twelve_petal_ka_s_a_ya/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -4271,6 +4734,7 @@
       "text_en": "Whenever you transcend, you may gain {r}.\nInstant - {c}{c}{c}, destroy this: Create a Zen State token.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/twelve_petal_kasaya/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -4289,6 +4753,9 @@
       "text_en": "Boost\nBoost",
       "source": "https://cards.fabtcg.com/card/twin_drive/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4307,6 +4774,9 @@
       "text_en": "Choose 1:\n\nTwin Twisters gains \"When this hits, your next attack this combat chain gains +1{p}.\"\nTwin Twisters gains +1{p}.\n\nGo again",
       "source": "https://cards.fabtcg.com/card/twin_twisters/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4337,6 +4807,7 @@
       "text_en": "Instant - Destroy this: Prevent the next 2 damage that would be dealt to you this turn. Activate this only if you've played an instant card this turn.",
       "source": "https://cards.fabtcg.com/card/twinkle_toes/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -4355,6 +4826,7 @@
       "text_en": "You may attack an additional time with target sword this turn.",
       "source": "https://cards.fabtcg.com/card/twinning_blade/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -4373,6 +4845,9 @@
       "text_en": "The next attack you boost this turn gets +3{p}.\nYou may shuffle a Hyper Driver from your graveyard into your deck. If you do, gain {r}.\nGo again",
       "source": "https://cards.fabtcg.com/card/twintek_charging_station/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4391,6 +4866,9 @@
       "text_en": "Your next dagger attack this turn gets +4{p} and \"When this hits, you may attack with it an additional time this turn.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/twist_and_turn/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4421,6 +4899,9 @@
       "text_en": "When this defends, the attacking hero draws a card, then look at their hand and choose a card. They discard the chosen card.",
       "source": "https://cards.fabtcg.com/card/two_faced/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -4439,6 +4920,7 @@
       "text_en": "Choose 1;\n- Target dagger attack gets +3{p}.\n- Target attack action card with stealth gets +3{p} and \"When this hits a hero, mark them.\"",
       "source": "https://cards.fabtcg.com/card/two_sides_to_the_blade/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4457,6 +4939,7 @@
       "text_en": "At the start of your turn, destroy this, then create a Confidence and 3 Might tokens.",
       "source": "https://cards.fabtcg.com/card/two_steps_ahead/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -4475,6 +4958,9 @@
       "text_en": "Instant - Destroy this: Create an Agility token. Activate this only if you've hit 2 or more times this combat chain.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/two_steps_forward/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,

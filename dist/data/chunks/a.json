@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "a_bit_off_the_side": {
       "id": "a_bit_off_the_side",
@@ -11,6 +11,9 @@
       "text_en": "Until end of turn, axes you control get \"When this hits a hero, they discard a card.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/a_bit_off_the_side/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -29,6 +32,10 @@
       "text_en": "Legendary\nTarget attack gets -1{p}.\nIf you've played another blue card this turn, transcend.",
       "source": "https://cards.fabtcg.com/card/a_drop_in_the_ocean/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -47,6 +54,7 @@
       "text_en": "If this is attacking a hero, non-equipment cards they own lose and can't gain abilities.",
       "source": "https://cards.fabtcg.com/card/a_good_clean_fight/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -65,6 +73,7 @@
       "text_en": "When this defends a sword attack, you can't be attacked by the sword again this turn.",
       "source": "https://cards.fabtcg.com/card/a_moments_peace/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -83,6 +92,7 @@
       "text_en": "The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 2.",
       "source": "https://cards.fabtcg.com/card/absorb_in_aether/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -113,6 +123,7 @@
       "text_en": "Absorption Dome enters the arena with steam counters on it equal to the number of times you have boosted this turn.\nIf your hero would be dealt damage, remove that many steam counters from Absorption Dome instead, then prevent damage equal to the number of steam counters removed this way.\nWhen Absorption Dome has no steam counters on it, destroy it.",
       "source": "https://cards.fabtcg.com/card/absorption_dome/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -131,6 +142,9 @@
       "text_en": "Instant - Destroy Achilles Accelerator: Gain 1 action point. Activate this ability only if you have boosted this turn.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/achilles_accelerator/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -149,6 +163,9 @@
       "text_en": "Suspense\nWhen this leaves the arena, your next attack this turn gets +6{p}.",
       "source": "https://cards.fabtcg.com/card/act_of_glory/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -179,6 +196,10 @@
       "text_en": "Modular\nAction - 0: Equip this to another equipment zone.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/adaptive_alpha_mold/",
       "status": "machine-draft",
+      "keywords": [
+        "Modular",
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -197,6 +218,10 @@
       "text_en": "Modular\nAction - 0: Equip this to another equipment zone.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/adaptive_dissolver/",
       "status": "machine-draft",
+      "keywords": [
+        "Modular",
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -215,6 +240,11 @@
       "text_en": "Modular\nAction - 0: Equip this to another equipment zone.\nGalvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d} until end of turn.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/adaptive_plating/",
       "status": "machine-draft",
+      "keywords": [
+        "Modular",
+        "Galvanize",
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -233,6 +263,7 @@
       "text_en": "When you play this, if you have less {h} than an opposing hero, this gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/adrenaline_rush/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -263,6 +294,9 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen Aegis attacks, you may banish a card from your hero's soul. If you do, create 2 Spectral Shield tokens.\nWard 4",
       "source": "https://cards.fabtcg.com/card/aegis_archangel_of_protection/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 4"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -281,6 +315,7 @@
       "text_en": "Deal 1 arcane damage to each opposing hero.\nCreate a Ponder token for each hero dealt damage this way.",
       "source": "https://cards.fabtcg.com/card/aether_arc/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -299,6 +334,9 @@
       "text_en": "Arcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/aether_ashwing/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -317,6 +355,9 @@
       "text_en": "Instant - Destroy this: Until end of turn, whenever an aura permanent you control with Sigil in its name leaves the arena, amp 1.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/aether_bindings_of_the_third_age/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -335,6 +376,7 @@
       "text_en": "Once per Turn Action - {r}{r}: Deal 2 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/aether_conduit/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -353,6 +395,7 @@
       "text_en": "When an attack you control hits a hero, you may destroy this. If you do, deal 1 arcane damage to them.",
       "source": "https://cards.fabtcg.com/card/aether_crackers/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -371,6 +414,7 @@
       "text_en": "Deal 3 arcane damage to any target.",
       "source": "https://cards.fabtcg.com/card/aether_dart/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -401,6 +445,7 @@
       "text_en": "Deal 3 arcane damage to target opposing hero.\nThe next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus X, where X is the damage dealt by Aether Flare.",
       "source": "https://cards.fabtcg.com/card/aether_flare/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -431,6 +476,7 @@
       "text_en": "Deal 4 arcane damage to any target.",
       "source": "https://cards.fabtcg.com/card/aether_hail/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -461,6 +507,9 @@
       "text_en": "Ice Fusion\nDeal 5 arcane damage to any target. If Aether Icevein was fused and deals damage to a hero, they discard a card unless they pay {r}{r}.",
       "source": "https://cards.fabtcg.com/card/aether_icevein/",
       "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -491,6 +540,9 @@
       "text_en": "Action - Destroy Aether Ironweave: Gain {r}{r}. Activate this ability only if you have played an attack action card and a 'non-attack' action card this turn. Go again\nBattleworn",
       "source": "https://cards.fabtcg.com/card/aether_ironweave/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -509,6 +561,10 @@
       "text_en": "Deal 4 arcane damage to target hero.\nSurge - If this deals more than 4 damage, it gets go again.",
       "source": "https://cards.fabtcg.com/card/aether_quickening/",
       "status": "machine-draft",
+      "keywords": [
+        "Surge",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -539,6 +595,7 @@
       "text_en": "Aether Sink enters the arena with a steam counter on it.\nAction - {r}: If there are no steam counters on Aether Sink, put a steam counter on it. Go again\nInstant - Remove a steam counter from Aether Sink: Aether Sink gains Arcane Barrier 2 until end of turn.",
       "source": "https://cards.fabtcg.com/card/aether_sink/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -557,6 +614,7 @@
       "text_en": "When Aether Slash attacks, if a 'non-attack' action card was pitched to play it, deal 1 arcane damage to any target.",
       "source": "https://cards.fabtcg.com/card/aether_slash/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -587,6 +645,9 @@
       "text_en": "Deal 4 arcane damage to target opposing hero.\nOpt X, where X is the damage dealt by Aether Spindle.",
       "source": "https://cards.fabtcg.com/card/aether_spindle/",
       "status": "machine-draft",
+      "keywords": [
+        "Opt X"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -617,6 +678,7 @@
       "text_en": "Deal 4 arcane damage to target opposing hero.\nIf Aether Wildfire is played during an opponents turn, until end of turn, action card effects that deal arcane damage instead deal that much arcane damage plus X, where X is the damage dealt by Aether Wildfire.",
       "source": "https://cards.fabtcg.com/card/aether_wildfire/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -635,6 +697,9 @@
       "text_en": "Negate target instant card with cost {r} or less.",
       "source": "https://cards.fabtcg.com/card/aetherize/",
       "status": "machine-draft",
+      "keywords": [
+        "Negate"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -653,6 +718,9 @@
       "text_en": "Deal 4 arcane damage to any target.\nIf this deals damage, you may {t} your hero. If you do, this gets go again.",
       "source": "https://cards.fabtcg.com/card/aethersling/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -671,6 +739,9 @@
       "text_en": "Arcane Barrier 2",
       "source": "https://cards.fabtcg.com/card/aetherstorm_wellingtons/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 2"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -689,6 +760,7 @@
       "text_en": "Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, create a Fealty token.",
       "source": "https://cards.fabtcg.com/card/affirm_loyalty/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -707,6 +779,7 @@
       "text_en": "When this attacks, if you've controlled a Seismic Surge token this turn, create a Seismic Surge token.",
       "source": "https://cards.fabtcg.com/card/aftershock/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -737,6 +810,9 @@
       "text_en": "If you've intimidated an opponent this turn, this gets go again.",
       "source": "https://cards.fabtcg.com/card/aggressive_pounce/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -767,6 +843,7 @@
       "text_en": "Target Warrior attack gets +3{p}. If it's defended by an attack action card, create an Agility token.",
       "source": "https://cards.fabtcg.com/card/agile_engagement/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -797,6 +874,7 @@
       "text_en": "Instant - Discard this: Create an Agility token.",
       "source": "https://cards.fabtcg.com/card/agile_windup/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -827,6 +905,7 @@
       "text_en": "At the start of your turn, destroy this, then your next attack this turn gets go again.",
       "source": "https://cards.fabtcg.com/card/agility/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -845,6 +924,9 @@
       "text_en": "Go again\nAt the start of your turn, destroy this, then your dagger attacks get go again this turn.",
       "source": "https://cards.fabtcg.com/card/agility_stance/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -863,6 +945,7 @@
       "text_en": "You may put a non-attack action card from your graveyard on top of your deck. If you have no cards in hand, instead you may play it this turn from your graveyard without paying its {r} cost.",
       "source": "https://cards.fabtcg.com/card/air_of_a_comeback/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -881,6 +964,9 @@
       "text_en": "The next time a sword you control attacks this turn, destroy all Gold you control. The attack gets +2{p} for each Gold destroyed this way. When the chain link resolves, if the attack didn't hit, you lose the game.\nGo again",
       "source": "https://cards.fabtcg.com/card/all_in/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -899,6 +985,9 @@
       "text_en": "Shiyana Specialization\nWhen this attacks, the defending hero reveals their hand. You may choose an attack action card revealed this way. If you do, this becomes the chosen card.\nUnity - When this defends together with a card from hand, create an Eloquence token under any number of heroes' control.",
       "source": "https://cards.fabtcg.com/card/alluring_inducement/",
       "status": "machine-draft",
+      "keywords": [
+        "Unity"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -917,6 +1006,9 @@
       "text_en": "The first time Alluvion Constellas prevents arcane damage each turn, if it has less than 4 energy counters, you may put an energy counter on it.\nInstant - Remove 2 energy counters from Alluvion Constellas: The next staff ability you activate this turn costs {r}{r}{r} less.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/alluvion_constellas/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -935,6 +1027,7 @@
       "text_en": "Rhinar Specialization\nWhen this is discard to beat chest, create a Might token.",
       "source": "https://cards.fabtcg.com/card/alpha_instinct/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -953,6 +1046,9 @@
       "text_en": "Rhinar Specialization\nAs an additional cost to play Alpha Rampage, discard a random card.\nWhen you attack with Alpha Rampage, intimidate.",
       "source": "https://cards.fabtcg.com/card/alpha_rampage/",
       "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -971,6 +1067,9 @@
       "text_en": "Contract - You are contracted to banish opponents' non-action cards. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck and a defending card.",
       "source": "https://cards.fabtcg.com/card/already_dead/",
       "status": "machine-draft",
+      "keywords": [
+        "Contract"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -989,6 +1088,10 @@
       "text_en": "Instant - Destroy this: Your next attack this turn gets +2{p}.\nLegend of the Watery Grave",
       "source": "https://cards.fabtcg.com/card/amethyst_amulet/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Watery Grave"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1007,6 +1110,9 @@
       "text_en": "Instant - Destroy Amethyst Tiara: Runechants you control have spellvoid 1 this turn.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/amethyst_tiara/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1025,6 +1131,7 @@
       "text_en": "When this hits a hero, cards and tokens they own lose and can't gain names until the start of your next turn.",
       "source": "https://cards.fabtcg.com/card/amnesia/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1043,6 +1150,7 @@
       "text_en": "This costs {r} less to play for each Runechant you control.",
       "source": "https://cards.fabtcg.com/card/amplify_the_arknight/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1073,6 +1181,7 @@
       "text_en": "While Amplifying Arrow is face up in any zone, if it would gain {p}, instead it gains that much plus 1.",
       "source": "https://cards.fabtcg.com/card/amplifying_arrow/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1091,6 +1200,9 @@
       "text_en": "Go again\nAttack Reaction - Destroy Amulet of Assertiveness: Target attack gains \"When this hits, banish the top card of your deck. If it's an attack action card, you may play it this turn.\" Activate this ability only if you have 4 or more cards in hand.",
       "source": "https://cards.fabtcg.com/card/amulet_of_assertiveness/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1109,6 +1221,9 @@
       "text_en": "Go again\nInstant - Destroy Amulet of Earth: Attack action cards you control gain +1{p} and +1{d} this turn. Activate this ability only if you have Earth fused this turn.",
       "source": "https://cards.fabtcg.com/card/amulet_of_earth/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1127,6 +1242,9 @@
       "text_en": "Go again\nInstant - Destroy Amulet of Echoes: Target hero discards 2 cards. Activate this ability only if they have played 2 or more cards with the same name this turn.",
       "source": "https://cards.fabtcg.com/card/amulet_of_echoes/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1145,6 +1263,9 @@
       "text_en": "Go again\nDefense Reaction - Destroy Amulet of Havencall: Search your deck for a card named Rally the Rearguard, add it to this chain link as a defending card, then shuffle. Activate this ability only if you have no cards in hand.",
       "source": "https://cards.fabtcg.com/card/amulet_of_havencall/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1163,6 +1284,9 @@
       "text_en": "Go again\nInstant - Destroy Amulet of Ice: Target hero discards a card unless they pay {r}{r}. Activate this ability only if you have Ice fused this turn.",
       "source": "https://cards.fabtcg.com/card/amulet_of_ice/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1181,6 +1305,9 @@
       "text_en": "Go again\nInstant - Destroy Amulet of Ignition: The next ability you activate this turn costs {r} less. Activate this ability only if you haven't played a card or activated an ability this turn.",
       "source": "https://cards.fabtcg.com/card/amulet_of_ignition/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1199,6 +1326,9 @@
       "text_en": "Go again\nInstant - Destroy Amulet of Intervention: Prevent the next 1 damage that would be dealt to your hero this turn. Activate this ability only while your hero is the target of a source that would deal damage equal to or greater than your hero's {h}.",
       "source": "https://cards.fabtcg.com/card/amulet_of_intervention/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1217,6 +1347,9 @@
       "text_en": "Go again\nInstant - Destroy Amulet of Lightning: Target action card gains go again. Activate this ability only if you have Lightning fused this turn.",
       "source": "https://cards.fabtcg.com/card/amulet_of_lightning/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1235,6 +1368,9 @@
       "text_en": "Go again\nInstant - Destroy Amulet of Oblation: Until end of turn, target attack action gains \"If this would be put into a graveyard, instead put it on the bottom of its owner's deck.\" Activate this ability only if a card has entered a graveyard this turn.",
       "source": "https://cards.fabtcg.com/card/amulet_of_oblation/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1253,6 +1389,7 @@
       "text_en": "Each opposing hero and ally that has dealt damage to you this turn loses 1{h}.",
       "source": "https://cards.fabtcg.com/card/anaphylactic_shock/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1271,6 +1408,7 @@
       "text_en": "Target Ninja attack action card gains +1{p}.\nDraw a card.",
       "source": "https://cards.fabtcg.com/card/ancestral_empowerment/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1289,6 +1427,9 @@
       "text_en": "Your attacks with combo get +1{p} this turn.\nBanish the top card of your deck. If it has combo, you may play it this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/ancestral_harmony/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1307,6 +1448,7 @@
       "text_en": "Attack with target sword that has been sharpened and you've attacked with this turn.",
       "source": "https://cards.fabtcg.com/card/and_again/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1325,6 +1467,10 @@
       "text_en": "Awaken target figment you control.\nPut this into your soul.\nGo again",
       "source": "https://cards.fabtcg.com/card/angelic_attendant/",
       "status": "machine-draft",
+      "keywords": [
+        "Awaken",
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1343,6 +1489,7 @@
       "text_en": "Target attack action card with Herald in its name gets go again.\nYour next angel attack this turn gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/angelic_descent/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1373,6 +1520,7 @@
       "text_en": "Target attack action card with Herald in its name gets +4{p}",
       "source": "https://cards.fabtcg.com/card/angelic_wrath/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1403,6 +1551,7 @@
       "text_en": "When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/angry_bones/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1433,6 +1582,9 @@
       "text_en": "Action - {r}, {t}: Attack\nInstant - {t}, discard a card with watery grave: The next time an opponent draws one or more cards this action phase, they discard a card.\nWatery Grave",
       "source": "https://cards.fabtcg.com/card/anka_drag_under/",
       "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1451,6 +1603,7 @@
       "text_en": "Once per Turn Action - {r}{r}{r}: Draw a card. If an attack action card and a 'non-attack' action card were pitched this way, create a Runechant token.",
       "source": "https://cards.fabtcg.com/card/annals_of_sutcliffe/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1469,6 +1622,9 @@
       "text_en": "Crush - When this deals 4 or more damage to a Guardian hero, until the end of your next turn, they can't play face-up cards from arsenal, and you may play face-up cards from their arsenal.",
       "source": "https://cards.fabtcg.com/card/annexation_of_all_things_known/",
       "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1487,6 +1643,9 @@
       "text_en": "Crush - When this deals 4 or more damage to a Guardian hero, gain control of an aura they control.",
       "source": "https://cards.fabtcg.com/card/annexation_of_grandeur/",
       "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1505,6 +1664,9 @@
       "text_en": "Crush - When this deals 4 or more damage to a Guardian hero, equip an equipment they have equipped.",
       "source": "https://cards.fabtcg.com/card/annexation_of_the_forge/",
       "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1523,6 +1685,9 @@
       "text_en": "Contract - You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
       "source": "https://cards.fabtcg.com/card/annihilate_the_armed/",
       "status": "machine-draft",
+      "keywords": [
+        "Contract"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1553,6 +1718,9 @@
       "text_en": "If you have 1 or more Evos equipped, this gets \"When this hits a hero, destroy all cards defending this,\"\n\n2 or more, this costs {r}{r}{r} less to play,\n3 or more, this gets overpower,\n4 or more, this gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/annihilator_engine/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1571,6 +1739,7 @@
       "text_en": "Once per turn Action - {r}{r}{r}: Attack\nWhile there are 2 or more cards with cost 3 or greater in your pitch zone, Anothos has +2{p}.",
       "source": "https://cards.fabtcg.com/card/anothos/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1589,6 +1758,10 @@
       "text_en": "Briar Specialization\nThe next attack action card you play this turn gets +1{p}. Go again\nUnity - When this defends together with a card from hand, create an Embodiment of Earth token under any number of heroes' control.",
       "source": "https://cards.fabtcg.com/card/anthem_of_spring/",
       "status": "machine-draft",
+      "keywords": [
+        "Unity",
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1607,6 +1780,9 @@
       "text_en": "When a sword attack you control hits, you may remove a +1{p} counter from the sword. If you do, destroy this and draw a card.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/anticipating_gaze/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1625,6 +1801,9 @@
       "text_en": "When this defends together with a card with 6 or more {p}, create a Might token.\nTemper",
       "source": "https://cards.fabtcg.com/card/apex_bonebreaker/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1643,6 +1822,7 @@
       "text_en": "Instant - {r}, {t}: Deal 2 arcane damage to target hero. Activate this only if an aura with a holo counter has entered the arena under your control this turn.",
       "source": "https://cards.fabtcg.com/card/aphrodias/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1661,6 +1841,9 @@
       "text_en": "Play this only if you have 1 or more Evos equipped.\nEvo Upgrade - This attacks up to X target opposing heroes, where X is the number of Evos you have equipped.",
       "source": "https://cards.fabtcg.com/card/apocalypse_automaton/",
       "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1679,6 +1862,9 @@
       "text_en": "Cloaked\nAttack Reaction - {r}, turn this face up: Target attack gets go again.\nAt the start of your turn, destroy this.",
       "source": "https://cards.fabtcg.com/card/aqua_laps/",
       "status": "machine-draft",
+      "keywords": [
+        "Cloaked"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1697,6 +1883,9 @@
       "text_en": "Cloaked\nInstant - {r}{r}{r}, turn this face-up: Draw a card.\nAt the start of your turn, destroy this.",
       "source": "https://cards.fabtcg.com/card/aqua_seeing_shell/",
       "status": "machine-draft",
+      "keywords": [
+        "Cloaked"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1715,6 +1904,7 @@
       "text_en": "Whenever you play a card with contract, you may look at the top card of target opponent's deck. You may put it on the bottom.",
       "source": "https://cards.fabtcg.com/card/arakni/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1733,6 +1923,7 @@
       "text_en": "The first attack with stealth each turn gets go again.",
       "source": "https://cards.fabtcg.com/card/arakni_5l_p3d_7hru_7h3_cr4x/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1751,6 +1942,7 @@
       "text_en": "Once per Turn Attack Reaction - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has stealth, it gets \"When this hits a hero, they banish a card from their hand.\"\nAt the beginning of your end phase, return to the brood.",
       "source": "https://cards.fabtcg.com/card/arakni_black_widow/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1769,6 +1961,7 @@
       "text_en": "Once per Turn Attack Reaction - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has stealth, it gets \"When this hits a hero, banish a card in their arsenal.\"\nAt the beginning of your end phase, return to the brood.",
       "source": "https://cards.fabtcg.com/card/arakni_funnel_web/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1787,6 +1980,7 @@
       "text_en": "Whenever you play a card with contract, you may look at the top card of target opponent's deck. You may put it on the bottom.",
       "source": "https://cards.fabtcg.com/card/arakni_huntsman/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1805,6 +1999,7 @@
       "text_en": "Your attacks with stealth that are attacking a marked hero get +1{p} and \"When this hits, this gets go again.\"\nAt the beginning of your end phase, if an opponent is marked, you become a random Agent of Chaos.",
       "source": "https://cards.fabtcg.com/card/arakni_marionette/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1823,6 +2018,7 @@
       "text_en": "Graphene Chelicerae cost you {r} less to activate.\nOnce per Turn Instant - Discard an Assassin card: Equip a Graphene Chelicera token. Your next attack with stealth this turn gets +3{p}.\nAt the beginning of your end phase, return to the brood.",
       "source": "https://cards.fabtcg.com/card/arakni_orb_weaver/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1841,6 +2037,7 @@
       "text_en": "Once per Turn Attack Reaction - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has stealth, it gets go again.\nAt the beginning of your end phase, return to the brood.",
       "source": "https://cards.fabtcg.com/card/arakni_redback/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1859,6 +2056,7 @@
       "text_en": "Your first attack with stealth each turn has go again.",
       "source": "https://cards.fabtcg.com/card/arakni_solitary_confinement/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1877,6 +2075,7 @@
       "text_en": "Whenever a dagger you own hits a hero, they lose 1{h}.\nOnce per Turn Attack Reaction - Discard an Assassin card: Target dagger attack gets +3{p}.\nAt the beginning of your end phase, return to the brood.",
       "source": "https://cards.fabtcg.com/card/arakni_tarantula/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1895,6 +2094,7 @@
       "text_en": "When you become this, you may search your deck for a card, banish it face-down, then shuffle. If it's a trap, you may play it until the start of your next turn.\nAt the beginning of your end phase, return to the brood.",
       "source": "https://cards.fabtcg.com/card/arakni_trap_door/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1913,6 +2113,7 @@
       "text_en": "Your attacks with stealth that are attacking a marked hero get +1{p} and \"When this hits, this gets go again.\"\nAt the beginning of your end phase, if an opponent is marked, you become a random Agent of Chaos.",
       "source": "https://cards.fabtcg.com/card/arakni_web_of_deceit/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1931,6 +2132,10 @@
       "text_en": "When this attacks, if a Lightning or Elemental attack would deal damage this combat chain, instead it deals that much damage plus 1.\nLightning Bond - If a Lightning card was pitched to play this, this gets go again.",
       "source": "https://cards.fabtcg.com/card/arc_bending/",
       "status": "machine-draft",
+      "keywords": [
+        "Lightning Bond",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1949,6 +2154,9 @@
       "text_en": "Prism Specialization\nOpponents must choose this as the target of attacks if able.\nSpectra",
       "source": "https://cards.fabtcg.com/card/arc_light_sentinel/",
       "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1967,6 +2175,9 @@
       "text_en": "Aurora Specialization\nWhenever you go again this turn, deal 1 arcane damage to any target.\nThe next action card you play this turn gets go again.\nGo again",
       "source": "https://cards.fabtcg.com/card/arc_lightning/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1985,6 +2196,10 @@
       "text_en": "Amp 3\nYou may destroy a Lightning Flow you control. If you do, this gets go again.",
       "source": "https://cards.fabtcg.com/card/arc_ramp/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Amp 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2015,6 +2230,7 @@
       "text_en": "Until end of turn, effects can't increase arcane damage that target action card on the stack would deal.",
       "source": "https://cards.fabtcg.com/card/arcane_compliance/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2033,6 +2249,9 @@
       "text_en": "Go again\nWhen you deal or are dealt damage, destroy this.\nWhen this leaves the arena during your turn, create 3 Runechant tokens.",
       "source": "https://cards.fabtcg.com/card/arcane_cussing/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2063,6 +2282,9 @@
       "text_en": "Arcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/arcane_lantern/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2081,6 +2303,7 @@
       "text_en": "Gain 1{h}\nIf you've been dealt arcane damage this turn, instead gain 4{h}.",
       "source": "https://cards.fabtcg.com/card/arcane_polarity/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2111,6 +2334,10 @@
       "text_en": "Meld\nCreate a Runechant token. Create a Runechant token.\nGo again\n//\nGain 1{h}",
       "source": "https://cards.fabtcg.com/card/arcane_seeds_life/",
       "status": "machine-draft",
+      "keywords": [
+        "Meld",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2129,6 +2356,7 @@
       "text_en": "Deal 3 arcane damage to any target.\nInstant - Discard this: Amp 1",
       "source": "https://cards.fabtcg.com/card/arcane_twining/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2159,6 +2387,7 @@
       "text_en": "Deal 1 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/arcanic_crackle/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2189,6 +2418,7 @@
       "text_en": "While this is attacking, defending, or on the stack, if you would be dealt arcane damage, prevent 1 of that damage.",
       "source": "https://cards.fabtcg.com/card/arcanic_cunning/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2219,6 +2449,7 @@
       "text_en": "The first time an opposing hero deals damage to you each turn, you may reveal a Lightning card from your hand. If you do, deal 1 arcane damage to them.\nAt the start of your action phase, destroy an aura you control.",
       "source": "https://cards.fabtcg.com/card/arcanic_reproach/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2237,6 +2468,9 @@
       "text_en": "Lightning Fusion\nWhen you attack with Arcanic Shockwave, if it was fused, deal 1 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/arcanic_shockwave/",
       "status": "machine-draft",
+      "keywords": [
+        "Lightning Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2267,6 +2501,7 @@
       "text_en": "If you've dealt arcane damage this turn, this gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/arcanic_spike/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2297,6 +2532,10 @@
       "text_en": "This card's {d} is equal to the number of equipment you control with Arcanite in their name.\nSpellvoid X, where X is the number of equipment you control with Arcanite in their name.\nGuardwell",
       "source": "https://cards.fabtcg.com/card/arcanite_fortress/",
       "status": "machine-draft",
+      "keywords": [
+        "Spellvoid X",
+        "Guardwell"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2315,6 +2554,10 @@
       "text_en": "If you have less {h} than your opponent, Arcanite Skullcap gains +1{d} and Arcane Barrier 3.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/arcanite_skullcap/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 3",
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2333,6 +2576,10 @@
       "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nWhen this is equipped, create a Spellbane Aegis token.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/arcbane_grasp/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1",
+        "Transform"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2351,6 +2598,7 @@
       "text_en": "Create 3 Frostbite tokens under target hero's control.",
       "source": "https://cards.fabtcg.com/card/arctic_incarceration/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2381,6 +2629,7 @@
       "text_en": "Gain 1{h}.\nIf you have no cards in hand, instead gain 3{h}.",
       "source": "https://cards.fabtcg.com/card/arena_medic/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2399,6 +2648,9 @@
       "text_en": "Roll a 6 sided die. Destroy up to X items, where X is half the number rolled, rounded down.\nGo again",
       "source": "https://cards.fabtcg.com/card/argh_smash/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2417,6 +2669,9 @@
       "text_en": "Viserai Specialization\nThis costs {r} less to play for each Runechant you control.\nWhen this hits, create Runechant tokens equal to the damage dealt this way.\nDominate",
       "source": "https://cards.fabtcg.com/card/arknight_ascendancy/",
       "status": "machine-draft",
+      "keywords": [
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2435,6 +2690,9 @@
       "text_en": "Legendary Viserai Specialization\nWhen you pitch Arknight Shard, create a Runechant token.",
       "source": "https://cards.fabtcg.com/card/arknight_shard/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2453,6 +2711,9 @@
       "text_en": "Attack Reaction - {r}, destroy this: Create a Fang Strike in your hand.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/arousing_wave/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2471,6 +2732,7 @@
       "text_en": "Create a Might token for each defending card controlled by an opponent on the combat chain.",
       "source": "https://cards.fabtcg.com/card/arrogant_showboating/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2489,6 +2751,9 @@
       "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck.\nWhenever this banishes a red card, draw a card and gain 1{h}.",
       "source": "https://cards.fabtcg.com/card/art_of_desire_body/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2507,6 +2772,9 @@
       "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck.\nWhenever this banishes a blue card, draw a card and gain 1{h}.",
       "source": "https://cards.fabtcg.com/card/art_of_desire_mind/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2525,6 +2793,9 @@
       "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck.\nWhenever this banishes a yellow card, draw a card and gain 1{h}.",
       "source": "https://cards.fabtcg.com/card/art_of_desire_soul/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2543,6 +2814,9 @@
       "text_en": "When this attacks, if it is Draconic, it gets go again and the next 3 Draconic cards you play this turn cost {r} less to play.",
       "source": "https://cards.fabtcg.com/card/art_of_the_dragon_blood/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2561,6 +2835,7 @@
       "text_en": "When this attacks, if it is Draconic, it gets \"When this hits a hero, destroy all cards in their arsenal.\"",
       "source": "https://cards.fabtcg.com/card/art_of_the_dragon_claw/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2579,6 +2854,7 @@
       "text_en": "When this attacks, if it is Draconic, deal 2 damage to any target.",
       "source": "https://cards.fabtcg.com/card/art_of_the_dragon_fire/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2597,6 +2873,7 @@
       "text_en": "When this attacks, if it is Draconic, it gets \"When this hits a hero, put a -1{d} counter on an equipment they control. Then if it has 0{d}, destroy it.\"",
       "source": "https://cards.fabtcg.com/card/art_of_the_dragon_scale/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2615,6 +2892,7 @@
       "text_en": "As an additional cost to play this, discard a Phoenix Flame.\nDraconic attack action cards you control get +1{p} this turn.\nDraw 2 card.",
       "source": "https://cards.fabtcg.com/card/art_of_the_phoenix_war/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2633,6 +2911,7 @@
       "text_en": "Choose 2;\n\nAttack action cards you control gain +1{p} and +1{d} this turn.\nThe next attack action card you play this turn gains go again.\nUntil end of turn, you may defend with attack action cards from arsenal.\nYou may banish an attack action card from your hand. If you do, draw 2 cards.",
       "source": "https://cards.fabtcg.com/card/art_of_war/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2651,6 +2930,9 @@
       "text_en": "Material - While Ash is under an object, that object has phantasm.",
       "source": "https://cards.fabtcg.com/card/ash/",
       "status": "machine-draft",
+      "keywords": [
+        "Material"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2669,6 +2951,7 @@
       "text_en": "When this defends, create a Vigor token under the attacking hero's control.",
       "source": "https://cards.fabtcg.com/card/asking_for_trouble/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2687,6 +2970,10 @@
       "text_en": "Combo - When this attacks, if a red attack action card was the last attack this combat chain, this gets go again and create a Crouching Tiger in your banished zone. You may play it this turn.",
       "source": "https://cards.fabtcg.com/card/aspect_of_tiger_body/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2705,6 +2992,10 @@
       "text_en": "Combo - When this attacks, if a blue attack action card was the last attack this combat chain, this gets go again and create a Crouching Tiger in your banished zone. You may play it this turn.",
       "source": "https://cards.fabtcg.com/card/aspect_of_tiger_mind/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2723,6 +3014,10 @@
       "text_en": "Combo - When this attacks, if a yellow attack action card was the last attack this combat chain, this gets go again and create a Crouching Tiger in your banished zone. You may play it this turn.",
       "source": "https://cards.fabtcg.com/card/aspect_of_tiger_soul/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2741,6 +3036,9 @@
       "text_en": "Beat Chest\nWhen this attacks, if you've beaten chest this turn, create an Agility token.",
       "source": "https://cards.fabtcg.com/card/assault_and_battery/",
       "status": "machine-draft",
+      "keywords": [
+        "Beat Chest"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2771,6 +3069,9 @@
       "text_en": "Crank\nThis enters the arena with a stream counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nAction - {t}: Search your deck for a Hyper Driver, put it into the arena, then shuffle.",
       "source": "https://cards.fabtcg.com/card/assembly_module/",
       "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2789,6 +3090,7 @@
       "text_en": "When this attacks, you may destroy a Lightning Flow you control. If you do, this gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/astral_assault/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2819,6 +3121,9 @@
       "text_en": "Put the top card of your deck into your graveyard. If it's an instant, you may play it this turn.\nStarfall - If an instant has been put into your graveyard this turn, deal 1 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/astral_bridge/",
       "status": "machine-draft",
+      "keywords": [
+        "Starfall"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2837,6 +3142,7 @@
       "text_en": "Put three +1{p} counters on target aura with ward you control.\nIf you control a Spectral Shield, you may play this as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/astral_etchings/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2867,6 +3173,9 @@
       "text_en": "When this attacks, if you've destroyed a Lightning Flow this turn, choose 1;\n- Draw a card.\n- This gets +2{p}.\n- This gets go again.",
       "source": "https://cards.fabtcg.com/card/astral_strike/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2885,6 +3194,7 @@
       "text_en": "When this attacks, you may discard an instant card. If you do, draw a card and create an Embodiment of Lightning token.",
       "source": "https://cards.fabtcg.com/card/astravolt_elemental/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2903,6 +3213,9 @@
       "text_en": "When this defends, you may remove a suspense counter from an aura you control. If you do, this gets +2{d} this chain link.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/attention_grabbers/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2921,6 +3234,7 @@
       "text_en": "When this attacks a hero or defends a hero's attack, reveal the top card of their deck. If the revealed card is blue, this gets +3{p} and +3{d}.",
       "source": "https://cards.fabtcg.com/card/attune_with_cosmic_vibrations/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2939,6 +3253,9 @@
       "text_en": "When this enters the arena, up to 1 target attack with fragment gets +1{p}. If this has a holo counter, instead the attack gets +4{p}.\nWard 1",
       "source": "https://cards.fabtcg.com/card/auric_shards/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2969,6 +3286,9 @@
       "text_en": "Once per Turn Instant - {r}{r}: Create an Embodiment of Lightning token. Activate this only if you've played a Lightning card this turn.\nEssence of Lightning",
       "source": "https://cards.fabtcg.com/card/aurora/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Lightning"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2987,6 +3307,7 @@
       "text_en": "Instant - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.",
       "source": "https://cards.fabtcg.com/card/aurora_emissary_of_lightning/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3005,6 +3326,7 @@
       "text_en": "Instant - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.",
       "source": "https://cards.fabtcg.com/card/aurora_legacy_of_tempest/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3023,6 +3345,9 @@
       "text_en": "Once per Turn Instant - {r}{r}: Create an Embodiment of Lightning token. Activate this only if you've played a Lightning card this turn.\nEssence of Lightning",
       "source": "https://cards.fabtcg.com/card/aurora_shooting_star/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Lightning"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3041,6 +3366,9 @@
       "text_en": "Victor Specialization\nThis counts as a Gold.\nTemper",
       "source": "https://cards.fabtcg.com/card/aurum_aegis/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3059,6 +3387,9 @@
       "text_en": "Legendary\nWhen this is pitched, defense reaction cards cost opponents an additional {r} to play this turn.",
       "source": "https://cards.fabtcg.com/card/authority_of_ataya/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3077,6 +3408,9 @@
       "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nYour Mechanologist attack action cards get \"When this hits, put it on the bottom of its owner's deck.\"",
       "source": "https://cards.fabtcg.com/card/autosave_script/",
       "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3095,6 +3429,7 @@
       "text_en": "",
       "source": "https://cards.fabtcg.com/card/autumns-touch/",
       "status": "deck-translation-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3125,6 +3460,9 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen Avalon attacks, you may banish a card from your hero's soul. If you do, put a yellow card from your graveyard on top of your deck.\nWard 4",
       "source": "https://cards.fabtcg.com/card/avalon_archangel_of_rebirth/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 4"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3143,6 +3481,9 @@
       "text_en": "Your next Pirate ally attack this turn gets go again and \"When this hits a hero, create a Gold token.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/avast_ye/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3161,6 +3502,9 @@
       "text_en": "Earth Fusion\nIf you have less {h} than an opposing hero, create Seismic Surge tokens equal to the difference. If Awakening was fused, instead create twice that many Seismic Surge tokens.\nSearch your deck for a Guardian attack action card with cost less than or equal to the number of Seismic Surge tokens you control, reveal it, put it into your hand, then shuffle your deck.",
       "source": "https://cards.fabtcg.com/card/awakening/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3179,6 +3523,10 @@
       "text_en": "The next Brute attack action card you play this turn gains +3{p}.\nIntimidate\nGo again",
       "source": "https://cards.fabtcg.com/card/awakening_bellow/",
       "status": "machine-draft",
+      "keywords": [
+        "Intimidate",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3209,6 +3557,7 @@
       "text_en": "Once per Turn Action - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it's an arrow card, it gains dominate until end of turn. Go again",
       "source": "https://cards.fabtcg.com/card/azalea/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3227,6 +3576,7 @@
       "text_en": "Once per Turn Action - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it's an arrow card, it gains dominate until end of turn. Go again",
       "source": "https://cards.fabtcg.com/card/azalea_ace_in_the_hole/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3245,6 +3595,7 @@
       "text_en": "Whenever Azvolai attacks, you may have him deal 1 arcane damage to up to any 2 targets.",
       "source": "https://cards.fabtcg.com/card/azvolai/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,

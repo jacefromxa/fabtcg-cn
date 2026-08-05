@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "oaken_old": {
       "id": "oaken_old",
@@ -11,6 +11,10 @@
       "text_en": "Earth and Ice Fusion\nIf Oaken Old was fused, it gains +2{p}, dominate, and \"If this hits a hero, they put 2 random cards from their hand on the bottom of their deck in any order.\"",
       "source": "https://cards.fabtcg.com/card/oaken-old/",
       "status": "deck-translation-draft",
+      "keywords": [
+        "Earth and Ice Fusion",
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -29,6 +33,7 @@
       "text_en": "Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{h}.",
       "source": "https://cards.fabtcg.com/card/oasis_respite/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -59,6 +64,9 @@
       "text_en": "This may only be played if it's the first action of your turn.\nWhen this is played, until end of turn, you may only play cards that are Draconic.\nGo again",
       "source": "https://cards.fabtcg.com/card/oath_of_loyalty/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -77,6 +85,7 @@
       "text_en": "Create 3 Embodiment of Earth tokens.",
       "source": "https://cards.fabtcg.com/card/oath_of_oak/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -107,6 +116,9 @@
       "text_en": "Whenever you attack with a weapon this turn, put a +1{p} counter on it.\nAt the beginning of your end phase, remove all +1{p} counters from weapons you control.\nGo again",
       "source": "https://cards.fabtcg.com/card/oath_of_steel/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -125,6 +137,9 @@
       "text_en": "Your next Runeblade attack this turn gains +3{p}.\nCreate a Runechant token.\nGo again",
       "source": "https://cards.fabtcg.com/card/oath_of_the_arknight/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -155,6 +170,9 @@
       "text_en": "Legendary Vynnset Specialization\nPlay this only if you control exactly 6 Runechants.\nCreate a Nasreth, the Soul Harrower token.",
       "source": "https://cards.fabtcg.com/card/oblivion/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -173,6 +191,7 @@
       "text_en": "Once per Turn Action - {r}: Attack. If you've played a Draconic card this chain link, this attack gets +1{p} and go again.",
       "source": "https://cards.fabtcg.com/card/obsidian_fire_vein/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -191,6 +210,10 @@
       "text_en": "Your next sword attack this turn gets \"When this attacks, wager with the defending hero. The winner searches their deck for a card, shuffles, then puts that card on top.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/odds_on_favorite/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Wager"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -209,6 +232,9 @@
       "text_en": "Whenever a source you control deals damage to an opponent, they lose 1 {h}.\nIllusionist attack action cards you control get go again.\nSpectra",
       "source": "https://cards.fabtcg.com/card/ode_to_wrath/",
       "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -227,6 +253,10 @@
       "text_en": "Destroy up to 1 Blade Dance and/or Flurry token. Sharpen target sword you control for each token destroyed this way.\nGo again",
       "source": "https://cards.fabtcg.com/card/off_beat/",
       "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -245,6 +275,9 @@
       "text_en": "Frankie Specialization\nEach hero destroys an equipment they control.\nGo again",
       "source": "https://cards.fabtcg.com/card/off_cuts/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -263,6 +296,7 @@
       "text_en": "If you control a Might or Vigor token, this gets +1{p}.\nWhen this hits a hero, create a Might and a Vigor token.",
       "source": "https://cards.fabtcg.com/card/offensive_behavior/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -281,6 +315,9 @@
       "text_en": "Attack Reaction - {t}, banish an Edge of Autumn you control: Target Ninja attack action card gets +1{p}.\nWhenever an attack you control with Vengeance in its name hits, you may equip an Edge of Autumn from your banished zone.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/okana_scar_wraps/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -299,6 +336,7 @@
       "text_en": "When this attacks, if you've been cheered this turn, create a Toughness token.\nWhen this defends, if it has 6 or more {d}, put it on the bottom of its owner's deck when the combat chain closes.",
       "source": "https://cards.fabtcg.com/card/old_favorite/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -317,6 +355,9 @@
       "text_en": "Instant - {t} your hero, destroy this: Gain {r}\nBlade Break",
       "source": "https://cards.fabtcg.com/card/old_knocker/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -335,6 +376,7 @@
       "text_en": "If you control a Toughness or Vigor token, this gets +1{p}.\nWhen this hits a hero, create a Toughness and a Vigor token.",
       "source": "https://cards.fabtcg.com/card/old_leather_and_vim/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -353,6 +395,9 @@
       "text_en": "If you've been attacked 2 or more times this turn, this gets +2{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/olde_leather_boots/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -371,6 +416,9 @@
       "text_en": "If you've been attacked 2 or more times this turn, this gets +2{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/olde_leather_gloves/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -389,6 +437,9 @@
       "text_en": "If you've been attacked 2 or more times this turn, this gets +2{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/olde_leather_helm/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -407,6 +458,9 @@
       "text_en": "If you've been attacked 2 or more times this turn, this gets +2{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/olde_leather_plate/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -425,6 +479,9 @@
       "text_en": "Essence of Earth and Ice\nOnce per Turn Defense Reaction - {r}{r}{r}: If an Earth card is pitched this way, prevent the next 2 damage that would be dealt to Oldhim this turn. If an Ice card is pitched this way, the attacking hero puts a card from their hand on top of their deck.",
       "source": "https://cards.fabtcg.com/card/oldhim/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Earth and Ice"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -443,6 +500,9 @@
       "text_en": "Essence of Earth and Ice\nOnce per Turn Defense Reaction - {r}{r}{r}: If an Earth card is pitched this way, prevent the next 2 damage that would be dealt to Oldhim this turn. If an Ice card is pitched this way, the attacking hero puts a card from their hand on top of their deck.",
       "source": "https://cards.fabtcg.com/card/oldhim_grandfather_of_eternity/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Earth and Ice"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -461,6 +521,7 @@
       "text_en": "Remove a +1{p} counter from target attacking weapon. If you do, create a Flurry token and draw a card.",
       "source": "https://cards.fabtcg.com/card/ole/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -479,6 +540,9 @@
       "text_en": "When this defends together with an Ice card, create a Frostbite token under the attacking hero's control.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/ollin_ice_cap/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -497,6 +561,7 @@
       "text_en": "The first time each of your attacks wins a wager, create a Gold token.",
       "source": "https://cards.fabtcg.com/card/olympia/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -515,6 +580,7 @@
       "text_en": "The first time each of your attacks wins a wager, create a Gold token.",
       "source": "https://cards.fabtcg.com/card/olympia_prized_fighter/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -533,6 +599,7 @@
       "text_en": "Each hero starts the game with a Lightning Flow token.\nLightning Flow tokens get spellvoid 1.",
       "source": "https://cards.fabtcg.com/card/omens_of_arcana/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -551,6 +618,7 @@
       "text_en": "Target attack action card gets +2{p}. If an aura you control was destroyed this turn, instead the card gets +4{p}.",
       "source": "https://cards.fabtcg.com/card/ominous_aggression/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -569,6 +637,7 @@
       "text_en": "You may shuffle an instant card from your graveyard into your deck.\nIf an aura you control was destroyed this turn, create a Ponder token.",
       "source": "https://cards.fabtcg.com/card/ominous_excavation/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -587,6 +656,7 @@
       "text_en": "Gain 2{h}. If an aura you control was destroyed this turn, instead gain 3{h}.",
       "source": "https://cards.fabtcg.com/card/ominous_respite/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -605,6 +675,9 @@
       "text_en": "Your next sword attack this turn gains go again.\nGo again",
       "source": "https://cards.fabtcg.com/card/on_a_knife_edge/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -623,6 +696,7 @@
       "text_en": "When this defends, look at the top card of your deck.",
       "source": "https://cards.fabtcg.com/card/on_the_horizon/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -653,6 +727,9 @@
       "text_en": "Combo - If Head Jab was the last attack this combat chain, this has \"When this hits a hero, deal 2 damage to them.\"",
       "source": "https://cards.fabtcg.com/card/one_two_punch/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -683,6 +760,10 @@
       "text_en": "Action - Destroy this: {t} all heroes and allies. Go again\nLegend of the Watery Grave",
       "source": "https://cards.fabtcg.com/card/onyx_amulet/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Watery Grave"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -701,6 +782,10 @@
       "text_en": "Instant - Destroy this: Opt 2\nLegend of the Watery Grave",
       "source": "https://cards.fabtcg.com/card/opal_amulet/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Watery Grave"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -719,6 +804,11 @@
       "text_en": "Combo - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, go again, and dominate.",
       "source": "https://cards.fabtcg.com/card/open_the_center/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again",
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -749,6 +839,9 @@
       "text_en": "Deal 3 arcane damage to target hero.\nSurge - If this deals more than 3 damage, draw 2 cards.",
       "source": "https://cards.fabtcg.com/card/open_the_flood_gates/",
       "status": "machine-draft",
+      "keywords": [
+        "Surge"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -779,6 +872,7 @@
       "text_en": "Optekal Monocle enters the arena with 5 steam counters on it. When Optekal Monocle has no steam counters on it, destroy it.\nAction - Remove a steam counter from Optekal Monocle: Opt 1. Go again",
       "source": "https://cards.fabtcg.com/card/optekal_monocle/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -797,6 +891,9 @@
       "text_en": "Equip a Graphene Chelicera token.\nYour next attack with stealth this turn gets +3{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/orb_weaver_spinneret/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -827,6 +924,9 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack. Go again\nPiercing 1\nWhen this hits a hero, the next time they defend with 1 or more 'non-attack' action cards this turn, those cards have -1{d} while defending.",
       "source": "https://cards.fabtcg.com/card/orbitoclast/",
       "status": "machine-draft",
+      "keywords": [
+        "Piercing 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -845,6 +945,9 @@
       "text_en": "Legendary\nDraw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",
       "source": "https://cards.fabtcg.com/card/orihon_of_mystic_tenets/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -863,6 +966,7 @@
       "text_en": "Instant - {r}, destroy Ornate Tessen: Put a card from your hand on the bottom of your deck. If you do, draw a card.",
       "source": "https://cards.fabtcg.com/card/ornate_tessen/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -881,6 +985,9 @@
       "text_en": "Once per Turn Instant - Discard an instant: Draw a card.\nEssence of Lightning",
       "source": "https://cards.fabtcg.com/card/oscilio/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Lightning"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -899,6 +1006,9 @@
       "text_en": "Once per Turn Instant - Discard an instant: Draw a card.\nEssence of Lightning",
       "source": "https://cards.fabtcg.com/card/oscilio_constella_intelligence/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Lightning"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -917,6 +1027,7 @@
       "text_en": "Instant - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discard this way, you may play it this turn.",
       "source": "https://cards.fabtcg.com/card/oscilio_forked_continuum/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -935,6 +1046,7 @@
       "text_en": "Instant - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discard this way, you may play it this turn.",
       "source": "https://cards.fabtcg.com/card/oscilio_scion_of_the_third_age/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -953,6 +1065,9 @@
       "text_en": "Target weapon attack gains +3{p}.\nReprise - If the defending hero has defended with a card from their hand this chain link, your next attack this turn gains +1{p}.",
       "source": "https://cards.fabtcg.com/card/out_for_blood/",
       "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -983,6 +1098,9 @@
       "text_en": "While Out Muscle isn't defended by a card with equal or greater {p}, it has go again.",
       "source": "https://cards.fabtcg.com/card/out_muscle/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1013,6 +1131,9 @@
       "text_en": "Boost\nThis can't be defended by equipment.",
       "source": "https://cards.fabtcg.com/card/out_pace/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1043,6 +1164,9 @@
       "text_en": "If you are marked, you can't play this.\nIf the defending hero is marked, this gets +1{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/outed/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1061,6 +1185,9 @@
       "text_en": "Your next 1H weapon attack this turn gains +3{p}.\nThe next time a weapon hits this turn, create a Copper token.\nGo again",
       "source": "https://cards.fabtcg.com/card/outland_skirmish/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1091,6 +1218,7 @@
       "text_en": "Instant - Discard this: You may reveal a Reviled attack action card from your inventory and put it into your hand.",
       "source": "https://cards.fabtcg.com/card/outside_interference/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1109,6 +1237,9 @@
       "text_en": "At the start of your turn or when Ouvia enters the arena, transform up to 1 ash you control into an Aether Ashwing.",
       "source": "https://cards.fabtcg.com/card/ouvia/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1127,6 +1258,10 @@
       "text_en": "Your next arrow attack this turn gains +4{p}.\nReload\nGo again",
       "source": "https://cards.fabtcg.com/card/over_flex/",
       "status": "machine-draft",
+      "keywords": [
+        "Reload",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1157,6 +1292,9 @@
       "text_en": "Boost\nWhen this hits, put it on the bottom of its owner's deck.",
       "source": "https://cards.fabtcg.com/card/over_loop/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1187,6 +1325,9 @@
       "text_en": "If this has {p} greater than its base, it gets overpower.",
       "source": "https://cards.fabtcg.com/card/over_the_top/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1217,6 +1358,9 @@
       "text_en": "Your next weapon attack this turn gets dominate.\nGo again",
       "source": "https://cards.fabtcg.com/card/overbear/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1235,6 +1379,9 @@
       "text_en": "Action - {r}{r}{r}, destroy this: Create 3 Vigor tokens. Activate this only if there is a card with 6 or more {p} in your pitch zone. Go again\nBlade Break",
       "source": "https://cards.fabtcg.com/card/overbearing_presence/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1253,6 +1400,7 @@
       "text_en": "Overblast gains +X{p}, where X is the number of times you have boosted this combat chain.",
       "source": "https://cards.fabtcg.com/card/overblast/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1283,6 +1431,9 @@
       "text_en": "If you've played an instant card this chain link, this gets +3{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/overcharge/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1313,6 +1464,9 @@
       "text_en": "This may only defend an attack if the attack's controller has destroyed an Agility token this turn.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/overcome_adversity/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1331,6 +1485,9 @@
       "text_en": "Ambush\nWhen this attacks or defends, it gets +1{p} +1{d} for each different name among aura tokens in the arena.",
       "source": "https://cards.fabtcg.com/card/overcrowded/",
       "status": "machine-draft",
+      "keywords": [
+        "Ambush"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1349,6 +1506,9 @@
       "text_en": "Deal 3 arcane damage to target hero.\nSurge - If this deals more than 3 damage, gain {r}{r}.",
       "source": "https://cards.fabtcg.com/card/overflow_the_aetherwell/",
       "status": "machine-draft",
+      "keywords": [
+        "Surge"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1379,6 +1539,10 @@
       "text_en": "Dominate\nIf Overload hits, it gains go again.",
       "source": "https://cards.fabtcg.com/card/overload/",
       "status": "machine-draft",
+      "keywords": [
+        "Dominate",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1409,6 +1573,9 @@
       "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nYour Mechanologist attack action cards get overpower.",
       "source": "https://cards.fabtcg.com/card/overload_script/",
       "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1427,6 +1594,9 @@
       "text_en": "Target weapon attack gains +4{p}\nReprise - If the defending hero has defended with a card from their hand this chain link, instead it gains +6{p}.",
       "source": "https://cards.fabtcg.com/card/overpower/",
       "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1457,6 +1627,10 @@
       "text_en": "The next Guardian attack action card you play this turn gets +3{p}.\nGo again\nHeave 2",
       "source": "https://cards.fabtcg.com/card/overswing/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Heave 2"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1487,6 +1661,9 @@
       "text_en": "If you would fail to win a clash revealing this, instead you win the clash and the crowd boos you.",
       "source": "https://cards.fabtcg.com/card/overturn_the_results/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Boos"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1505,6 +1682,7 @@
       "text_en": "This costs an additional {r} to play for each card defending on the active chain link.\nTarget weapon attack gets +X{p}, where X is twice the number of cards defending it plus 1.",
       "source": "https://cards.fabtcg.com/card/overwhelming_swing/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1523,6 +1701,9 @@
       "text_en": "Action - {t}: Attack\nWhen this dies, create a Gold token.\nWatery Grave",
       "source": "https://cards.fabtcg.com/card/oysten_heart_of_gold/",
       "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
       "variants": {
         "2": {
           "pitch": "2",

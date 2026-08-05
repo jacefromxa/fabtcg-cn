@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "nasreth_the_soul_harrower": {
       "id": "nasreth_the_soul_harrower",
@@ -11,6 +11,7 @@
       "text_en": "Once per Turn Action - 0: Attack\nWhen Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{h}.",
       "source": "https://cards.fabtcg.com/card/nasreth_the_soul_harrower/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -29,6 +30,7 @@
       "text_en": "When an opponent's effect puts this into your graveyard from anywhere, create an Agility, Might, and Vigor token.",
       "source": "https://cards.fabtcg.com/card/nasty_surprise/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -47,6 +49,9 @@
       "text_en": "Your next weapon attack this turn gets +3{p} and \"When this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/natures_path_pilgrimage/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -77,6 +82,7 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen this hits, create a Runechant token.\nIf you've played a non-attack action card this turn, this gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/nebula_blade/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -95,6 +101,7 @@
       "text_en": "Deal 3 arcane damage to any target.\nInstant - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.",
       "source": "https://cards.fabtcg.com/card/nebula_duality/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -125,6 +132,9 @@
       "text_en": "When this leaves the arena, create a Ponder token.\nWard 2",
       "source": "https://cards.fabtcg.com/card/nebulus_cycle/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -143,6 +153,7 @@
       "text_en": "Whenever Nekria deals or is dealt damage, put a -1{h} counter on her and create an Ash token.",
       "source": "https://cards.fabtcg.com/card/nekria/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -161,6 +172,9 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack. Go again\nPiercing 1\nWhen this hits a hero, the next time they defend with 1 or more reaction cards this turn, those cards have -1{d} while defending.",
       "source": "https://cards.fabtcg.com/card/nerve_scalpel/",
       "status": "machine-draft",
+      "keywords": [
+        "Piercing 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -179,6 +193,7 @@
       "text_en": "When Nerves of Steel enters the arena, remove a -1{d} counter from a chest equipment you control.\nBattleworn and temper on equipment you control doesn't trigger if it defends an attack with 2 or less {p}.\nWhen your hero is dealt damage, destroy Nerves of Steel.",
       "source": "https://cards.fabtcg.com/card/nerves_of_steel/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -197,6 +212,7 @@
       "text_en": "When this is put face-up into your arsenal, you may {t} target ally.",
       "source": "https://cards.fabtcg.com/card/nettling_shot/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -215,6 +231,7 @@
       "text_en": "Instant - {r}{r}, put this on the bottom of your deck: Target defending action card gets +3{d} this chain link. Activate this only while it's in your graveyard, you have less {h} than each hero, and you've been cheered this turn.",
       "source": "https://cards.fabtcg.com/card/never_give_up/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -233,6 +250,7 @@
       "text_en": "At the start of your turn, destroy Never Yield then if you have no cards in hand, draw a card. If you have less {h} than all other heroes, gain 2{h}. If you control less equipment than all other heroes, remove a -1{d} counter from an equipment you control.",
       "source": "https://cards.fabtcg.com/card/never_yield/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -251,6 +269,9 @@
       "text_en": "If you have a face up card in your arsenal, you have an additional arsenal zone.\nWhen this is destroyed, destroy all cards in your arsenal.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/new_horizon/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -269,6 +290,7 @@
       "text_en": "Your attacks with stealth get +1{p} this turn.",
       "source": "https://cards.fabtcg.com/card/nights_embrace/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -287,6 +309,7 @@
       "text_en": "As an additional cost to play Nimble Strike, you may banish a card named Nimblism from your graveyard. If you do, Nimble Strike gain +1{p} and go again.",
       "source": "https://cards.fabtcg.com/card/nimble_strike/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -317,6 +340,9 @@
       "text_en": "The next attack action card with cost 1 or less you play this turn gains +3{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/nimblism/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -347,6 +373,7 @@
       "text_en": "When this attacks, you may search your deck for a Nimblism, reveal it, put it into your hand, then shuffle.",
       "source": "https://cards.fabtcg.com/card/nimby/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -377,6 +404,7 @@
       "text_en": "This costs {r} less to play for each Runechant you control.",
       "source": "https://cards.fabtcg.com/card/ninth_blade_of_the_blood_oath/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -395,6 +423,7 @@
       "text_en": "Target attack with 3 or less base {p} gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/nip_at_the_heels/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -413,6 +442,10 @@
       "text_en": "Action - Banish a card from under Nitro Mechanoid: Attack\nOverpower\nTemper",
       "source": "https://cards.fabtcg.com/card/nitro_mechanoid/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower",
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -431,6 +464,9 @@
       "text_en": "Contract - You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
       "source": "https://cards.fabtcg.com/card/nix_the_nimble/",
       "status": "machine-draft",
+      "keywords": [
+        "Contract"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -461,6 +497,7 @@
       "text_en": "As an additional cost to play this, banish any number of cards with 6 or more {p} from your hand. At the beginning of the end phase, return them to your hand.\nThe next time you would be dealt damage this turn, prevent X of that damage, where X is 2 plus the number of cards banished to play this.",
       "source": "https://cards.fabtcg.com/card/no_fear/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -479,6 +516,10 @@
       "text_en": "While this is in any zone, if you've controlled a Toughness token this turn, this gets +3{d} and ambush.\nWhen this defends, clash with the attacking hero. The winner may choose an attacking or defending card to get -3{p} -3{d} this chain link.",
       "source": "https://cards.fabtcg.com/card/no_hero_stands_alone/",
       "status": "machine-draft",
+      "keywords": [
+        "Ambush",
+        "Clash"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -497,6 +538,9 @@
       "text_en": "If this has {p} greater than its base, it gets +1{p}.\nTower - If this has 13 or more {p}, it gets \"When this hits a hero, cards they own lose and can't get go again during their next action phase.\"",
       "source": "https://cards.fabtcg.com/card/no_tall_tales/",
       "status": "machine-draft",
+      "keywords": [
+        "Tower"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -515,6 +559,10 @@
       "text_en": "Azalea Specialization\nSearch your deck for an arrow card, reveal it, then shuffle your deck and put it on top of your deck.\nReload\nGo again",
       "source": "https://cards.fabtcg.com/card/nock_the_deathwhistle/",
       "status": "machine-draft",
+      "keywords": [
+        "Reload",
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -533,6 +581,7 @@
       "text_en": "Action - Destroy this: Each hero draws a card.  Go again",
       "source": "https://cards.fabtcg.com/card/nom_de_plume/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -551,6 +600,10 @@
       "text_en": "Oldhim Specialization\nFor each hero, freeze up to 1 equipment, item, and ally they control until the start of your next turn.\nUnity - When this defends together with a card from hand, create a Spellbane Aegis token under any number of heroes' control.",
       "source": "https://cards.fabtcg.com/card/northern_winds/",
       "status": "machine-draft",
+      "keywords": [
+        "Unity",
+        "Freeze"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -569,6 +622,7 @@
       "text_en": "Scurv Specialization\nThe next time an opponent would draw a card from the effect of a Gold token this turn, instead you draw a card.",
       "source": "https://cards.fabtcg.com/card/not_so_fast/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -587,6 +641,7 @@
       "text_en": "When this defends a Reviled hero's attack, destroy a Might token they control. If you do, create a Toughness token.",
       "source": "https://cards.fabtcg.com/card/not_so_mighty/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -605,6 +660,7 @@
       "text_en": "When this defends a Revered hero's attack, destroy a Toughness token they control. If you do, create a Might token.",
       "source": "https://cards.fabtcg.com/card/not_so_tuff/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -623,6 +679,9 @@
       "text_en": "While there are no attack action cards in your graveyard, Nourishing Emptiness has dominate and \"If this hits, your hero gains +1{i} until end of turn.\"",
       "source": "https://cards.fabtcg.com/card/nourishing_emptiness/",
       "status": "machine-draft",
+      "keywords": [
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -641,6 +700,9 @@
       "text_en": "When this enters the arena, gain 1{h}.\nWard 1",
       "source": "https://cards.fabtcg.com/card/nourishing_glow/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -659,6 +721,7 @@
       "text_en": "Deal 3 arcane damage to any target.\nIf this deals damage, you may {t} your hero. If you do, your hero deals 1 arcane damage to any target.",
       "source": "https://cards.fabtcg.com/card/nucleus_aetherbolt/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -677,6 +740,10 @@
       "text_en": "Meld\nIf target instant card has cost less than the total arcane damage you've dealt to opposing heroes this turn, negate it.\n//\nDeal 1 arcane damage to any target.",
       "source": "https://cards.fabtcg.com/card/null_shock/",
       "status": "machine-draft",
+      "keywords": [
+        "Meld",
+        "Negate"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -695,6 +762,9 @@
       "text_en": "Crank\nThis enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.\nWhen this enters the arena, name a card. The named card can't be pitched or played from hand while this is in the arena.",
       "source": "https://cards.fabtcg.com/card/null_time_zone/",
       "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -713,6 +783,9 @@
       "text_en": "Arcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/nullrune_boots/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -731,6 +804,9 @@
       "text_en": "Arcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/nullrune-gloves/",
       "status": "deck-translation-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -749,6 +825,9 @@
       "text_en": "Arcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/nullrune_hood/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -767,6 +846,9 @@
       "text_en": "Arcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/nullrune_robe/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -785,6 +867,7 @@
       "text_en": "While this is in any zone, its {r} cost to play, {p}, and {d} can't be modified.",
       "source": "https://cards.fabtcg.com/card/numbskull/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -803,6 +886,9 @@
       "text_en": "Choose any number;\n- Destroy a Confidence or Might token.\n- The crowd cheers you.\n- Pitch the top card of your deck. If it has 6 or more {p}, create a Vigor token.",
       "source": "https://cards.fabtcg.com/card/numbskull_charm/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -821,6 +907,7 @@
       "text_en": "Your attacks with stealth get \"When this chain link resolves, banish all action cards defending this.\"\nInstant - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",
       "source": "https://cards.fabtcg.com/card/nuu/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -839,6 +926,7 @@
       "text_en": "Your attacks with stealth get \"When this chain link resolves, banish all action cards defending this.\"\nInstant - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",
       "source": "https://cards.fabtcg.com/card/nuu_alluring_desire/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,

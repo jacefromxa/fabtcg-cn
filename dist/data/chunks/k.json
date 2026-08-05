@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "kabuto_of_imperial_authority": {
       "id": "kabuto_of_imperial_authority",
@@ -11,6 +11,9 @@
       "text_en": "When this defends, until end of turn, opponents can't attack with weapons.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/kabuto_of_imperial_authority/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -29,6 +32,7 @@
       "text_en": "Instant - {r}{r}{r}: Look at the top card of your deck. If it's a 'non-attack' action card, you may banish it. If you do, you may play it this turn as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/kano/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -47,6 +51,7 @@
       "text_en": "Instant - {r}{r}{r}: Look at the top card of your deck. If it's a 'non-attack' action card, you may banish it. If you do, you may play it this turn as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/kano_dracai_of_aether/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -65,6 +70,7 @@
       "text_en": "If you've drawn a card this turn, your sword attacks cost {r} less to activate.\nOnce per Turn Action - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. Go again",
       "source": "https://cards.fabtcg.com/card/kassai/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -83,6 +89,7 @@
       "text_en": "Your second sword attack each turn costs {r} less.\nAt the beginning of your end phase, if you have attacked 2 or more times with weapons this turn, create a Copper token for each weapon attack that hit.",
       "source": "https://cards.fabtcg.com/card/kassai_cintari_sellsword/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -101,6 +108,7 @@
       "text_en": "If you've drawn a card this turn, your sword attacks cost {r} less to activate.\nOnce per Turn Action - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. Go again",
       "source": "https://cards.fabtcg.com/card/kassai_of_the_golden_sand/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -119,6 +127,7 @@
       "text_en": "The first time an attack action card you control hits each turn, you may discard a card with cost 0. If you do, search your deck for a card with combo, banish it face up, then shuffle your deck. You may play it this turn.",
       "source": "https://cards.fabtcg.com/card/katsu/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -137,6 +146,7 @@
       "text_en": "The first time an attack action card you control hits each turn, you may discard a card with cost 0. If you do, search your deck for a card with combo, banish it face up, then shuffle your deck. You may play it this turn.",
       "source": "https://cards.fabtcg.com/card/katsu_the_wanderer/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -155,6 +165,7 @@
       "text_en": "Once per Turn Action - {r}{r}{r}: If a hero has more {h} than all other hero's, they lose 1{h} and create a Copper token. Then if a hero has less {h} than all other hero's, they gain 1{h}. Go again",
       "source": "https://cards.fabtcg.com/card/kavdaen_trader_of_skins/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -173,6 +184,7 @@
       "text_en": "You have 1 weapon zone.\nAttack action cards you own get +1{p} while they are in any zone other than the combat chain.\nThe first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",
       "source": "https://cards.fabtcg.com/card/kayo/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -191,6 +203,7 @@
       "text_en": "You have 1 weapon zone.\nAttack action cards you own get +1{p} while they are in any zone other than the combat chain.\nThe first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",
       "source": "https://cards.fabtcg.com/card/kayo_armed_and_dangerous/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -209,6 +222,7 @@
       "text_en": "Whenever you play an attack action card with base power 6 or more {p}, roll a 6 sided die. On;\n\n\n1 to 4 - Halve the attack's base {p}, rounded down.\n\n\n5 to 6 - Double the attack's base {p}.",
       "source": "https://cards.fabtcg.com/card/kayo_berserker_runt/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -227,6 +241,7 @@
       "text_en": "You start the game with 1 weapon zone.\nInstant - {r}{r}{r}{r}, {t}: Target attack action card you control has 6 base {p}.\nWhenever the crowd boos you, create a Vigor token.",
       "source": "https://cards.fabtcg.com/card/kayo_strong_arm/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -245,6 +260,7 @@
       "text_en": "You start the game with 1 weapon zone.\nInstant - {r}{r}{r}{r}, {t}: Target attack action card you control has 6 base {p}.\nWhenever the crowd boos you, create a Vigor token.",
       "source": "https://cards.fabtcg.com/card/kayo_underhanded_cheat/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -263,6 +279,9 @@
       "text_en": "Action - {t}: Attack\nAction - {r}, {t}: {t} target hero or ally. Go again\nWatery Grave",
       "source": "https://cards.fabtcg.com/card/kelpie_tangled_mess/",
       "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -281,6 +300,7 @@
       "text_en": "When an opponent's effect puts this into your graveyard from anywhere, create a Confidence, Might, Toughness, and Vigor token.",
       "source": "https://cards.fabtcg.com/card/kick_the_hornets_nest/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -299,6 +319,9 @@
       "text_en": "Cloaked\nInstant - {c}{c}{c}, turn this face-up: Put a +1{d} counter on this.\nAt the start of your turn, destroy this.",
       "source": "https://cards.fabtcg.com/card/kimono_of_layered_lessons/",
       "status": "machine-draft",
+      "keywords": [
+        "Cloaked"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -317,6 +340,9 @@
       "text_en": "Amp 1\nIf you have no cards in hand, draw a card.",
       "source": "https://cards.fabtcg.com/card/kindle/",
       "status": "machine-draft",
+      "keywords": [
+        "Amp 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -335,6 +361,9 @@
       "text_en": "Go Fish - When this hits a hero, they choose and reveal a card from their hand. If it's a non-attack action card, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",
       "source": "https://cards.fabtcg.com/card/king_kraken_harpoon/",
       "status": "machine-draft",
+      "keywords": [
+        "Go Fish"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -353,6 +382,9 @@
       "text_en": "Go Fish - When this hits a hero, they choose and reveal a card from their hand. If it's an attack action card, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",
       "source": "https://cards.fabtcg.com/card/king_shark_harpoon/",
       "status": "machine-draft",
+      "keywords": [
+        "Go Fish"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -371,6 +403,9 @@
       "text_en": "Stealth\nWhen this hits a hero, they lose 1{h}.",
       "source": "https://cards.fabtcg.com/card/kiss_of_death/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -389,6 +424,7 @@
       "text_en": "As an additional cost to play Knick Knack Bric-a-brac, you may destroy any number of Copper, Silver, and/or Gold you control.\nSearch your deck for a card with Amulet, Potion, or Talisman in its name, put it into the arena, then shuffle. For each 4 Copper, 2 Silver, and/or 1 Gold destroyed this way, repeat this process.",
       "source": "https://cards.fabtcg.com/card/knick_knack_bric_a_brac/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -407,6 +443,10 @@
       "text_en": "Stealth\nIf you've hit with a dagger this combat chain, this gets go again.",
       "source": "https://cards.fabtcg.com/card/knife_through/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -437,6 +477,9 @@
       "text_en": "Your next dagger attack this turn gets +4{p}.\nWhenever you attack a marked hero this turn, the attack gets go again.\nGo again",
       "source": "https://cards.fabtcg.com/card/knife_through_butter/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -467,6 +510,7 @@
       "text_en": "Your daggers gain +1{p} this turn.",
       "source": "https://cards.fabtcg.com/card/knives_out/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -485,6 +529,9 @@
       "text_en": "Crush - When this deals 4 or more damage to a hero, {t} them.",
       "source": "https://cards.fabtcg.com/card/knock_em_off_their_feet/",
       "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -503,6 +550,9 @@
       "text_en": "Kayo Specialization \nAction - Destroy this: Roll a 6-sided die. Until end of turn, your base {i} is the number rolled.\nTemper",
       "source": "https://cards.fabtcg.com/card/knucklehead/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -521,6 +571,9 @@
       "text_en": "Cloaked\nWhile this is equipped face-down, at the start of your turn, if you have exactly 1{h}, you may turn this face-up.\nWhen this is turned face-up, destroy it. Search your deck for an Inner Chi, reveal it, put it into your hand, then shuffle.",
       "source": "https://cards.fabtcg.com/card/koi_blessed_kimono/",
       "status": "machine-draft",
+      "keywords": [
+        "Cloaked"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -539,6 +592,10 @@
       "text_en": "Legendary\nGo again\nWhenever a hero reveals 1 or more cards, they choose 1; Gain {r}, or gain 1{h}, or their next attack this turn gains +1{p}, or the next action card they defend with this turn gains +1{d}.\nAt the beginning of the end phase, if no hero has gained {r} or {h} from a card effect and no card or token controlled by a hero has had {p} or {d} increased this turn, destroy Korshem, Crossroads of the Elements.",
       "source": "https://cards.fabtcg.com/card/korshem_crossroad_of_elements/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Go again"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -557,6 +614,7 @@
       "text_en": "Once per Turn Instant - {r}{r}{r}: Deal 1 arcane damage to target opposing hero. Draw a card for each arcane damage dealt this way.",
       "source": "https://cards.fabtcg.com/card/krakens_aethervein/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -575,6 +633,7 @@
       "text_en": "Once per Turn Action - {r}, destroy this when the combat chain closes: Attack. Go again",
       "source": "https://cards.fabtcg.com/card/kunai_of_retribution/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -593,6 +652,7 @@
       "text_en": "Whenever Kyloria hits a hero, gain control of an item they control. If you don't gain control of an item this way, draw a card.",
       "source": "https://cards.fabtcg.com/card/kyloria/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,

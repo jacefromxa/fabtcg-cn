@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "yellow_fin_harpoon": {
       "id": "yellow_fin_harpoon",
@@ -11,6 +11,9 @@
       "text_en": "Go Fish - When this hits a hero, they choose and reveal a card from their hand. If it's yellow, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",
       "source": "https://cards.fabtcg.com/card/yellow_fin_harpoon/",
       "status": "machine-draft",
+      "keywords": [
+        "Go Fish"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -29,6 +32,7 @@
       "text_en": "Yendurai enters the arena with an endurance counter on him.\nIf Yendurai would be dealt damage, remove an endurance counter from him to prevent 3 of that damage.",
       "source": "https://cards.fabtcg.com/card/yendurai/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -47,6 +51,7 @@
       "text_en": "While Yinti Yanti is attacking and you control an aura, it has +1{p}.\nWhile Yinti Yanti is defending and you control an aura, it has +1{d}.",
       "source": "https://cards.fabtcg.com/card/yinti_yanti/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -77,6 +82,9 @@
       "text_en": "Your next Pirate ally attack this turn gets +1{p} and \"When this hits a hero, create a Gold token.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/yo_ho_ho/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -95,6 +103,7 @@
       "text_en": "Once per Turn Instant - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yoji and prevent 1 of that damage.",
       "source": "https://cards.fabtcg.com/card/yoji_royal_protector/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -113,6 +122,7 @@
       "text_en": "At the start of the game, all heroes shuffle their starting decks together. All heroes share the same deck and graveyard this game.",
       "source": "https://cards.fabtcg.com/card/yorick_weaver_of_tales/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,

@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "galaxxi_black": {
       "id": "galaxxi_black",
@@ -11,6 +11,7 @@
       "text_en": "Once per Turn Action - {r}: Attack\nIf you have played a card from your banished zone this turn, Galaxxi Black gains +2{p} until end of turn.\nIf Galaxxi Black hits a hero, deal 1 arcane damage to that hero.",
       "source": "https://cards.fabtcg.com/card/galaxxi_black/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -29,6 +30,9 @@
       "text_en": "Action - {r}, destroy Gallantry Gold: Your weapon attacks gain +1{p} this turn. Go again\nBattleworn",
       "source": "https://cards.fabtcg.com/card/gallantry_gold/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -47,6 +51,9 @@
       "text_en": "Action - {r}, {t}: Attack\nInstant - {t}, discard a card with watery grave: Until end of turn, effects controlled by opponents don't trigger when their attacks hit.\nWatery Grave",
       "source": "https://cards.fabtcg.com/card/gallow_end_of_the_line/",
       "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -65,6 +72,10 @@
       "text_en": "Material - While this is under a permanent, that permanent has +1{p}.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/galvanic_bender/",
       "status": "machine-draft",
+      "keywords": [
+        "Material",
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -83,6 +94,7 @@
       "text_en": "If a hero would roll one or more 6 sided dice, instead after the roll you may destroy Gambler's Gloves. If you do, that hero rerolls all 6 sided dice rolled this way.",
       "source": "https://cards.fabtcg.com/card/gamblers_gloves/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -101,6 +113,9 @@
       "text_en": "When this attacks a hero, steal an aura token they control.\nIf you control 3 or more auras, this gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/gang_robbery/",
       "status": "machine-draft",
+      "keywords": [
+        "Steal"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -119,6 +134,7 @@
       "text_en": "Action - Destroy this: Gain {r}. Go again",
       "source": "https://cards.fabtcg.com/card/garland_of_spring/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -137,6 +153,9 @@
       "text_en": "Boost",
       "source": "https://cards.fabtcg.com/card/gas_guzzler/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -167,6 +186,9 @@
       "text_en": "The next attack you boost this turn gets +4{p}.\nYou may put a Hyper Driver from your banished zone into the arena.\nGo again",
       "source": "https://cards.fabtcg.com/card/gas_up/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -197,6 +219,7 @@
       "text_en": "Instant - {r}, destroy this: You may play target action card with blood debt from your banished zone this turn.",
       "source": "https://cards.fabtcg.com/card/gate_to_i_arathael/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -215,6 +238,7 @@
       "text_en": "Instant - {r}, destroy this: You may play target action card with blood debt from your banished zone this turn.",
       "source": "https://cards.fabtcg.com/card/gate_to_iarathael/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -233,6 +257,9 @@
       "text_en": "Action - {r}{r}{r}, destroy this: The next Guardian attack action card you play from arsenal this turn gets +2{p}. Go again\nBattleworn",
       "source": "https://cards.fabtcg.com/card/gauntlet_of_boulderhold/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -251,6 +278,9 @@
       "text_en": "Action - Destroy this: Create a Might token. Go again\nBlade Break",
       "source": "https://cards.fabtcg.com/card/gauntlet_of_might/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -269,6 +299,9 @@
       "text_en": "Action - {r}{r}, {t} this and your hero: The next attack action card you play this turn gets \"When this attacks, deal 1 arcane damage to any opposing target. If damage is dealt this way, this gets +1{p}.\" Go again\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/gauntlet_of_sword_and_sorcery/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -287,6 +320,9 @@
       "text_en": "When this defends, the next time an attack would gain {p} this chain link, instead it gains that much minus 1.\nTemper",
       "source": "https://cards.fabtcg.com/card/gauntlets_of_iron_will/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -305,6 +341,9 @@
       "text_en": "Once per Turn Action - {r}{r}: If an Earth card is pitched this way, your attacks named Mangle get +2{p} this turn. If an Ice card is pitched this way, your attacks named Mangle get dominate this turn. Go again\nTemper",
       "source": "https://cards.fabtcg.com/card/gauntlets-of-the-boreal-domain/",
       "status": "deck-translation-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -323,6 +362,9 @@
       "text_en": "Action - {r}, {t}: Your next attack this turn gets +1{p}. Activate this only if there is a card with 6 or more {p} in your pitch zone. Go again\nTemper",
       "source": "https://cards.fabtcg.com/card/gauntlets_of_tyrannical_rex/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -341,6 +383,10 @@
       "text_en": "Unity - When this defends together with a card from hand, this gets +1{d} until end of turn.\nTemper",
       "source": "https://cards.fabtcg.com/card/gauntlets_of_unity/",
       "status": "machine-draft",
+      "keywords": [
+        "Unity",
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -359,6 +405,9 @@
       "text_en": "Pairs with an off-hand\nOnce per Turn Action - {r}{r}: Attack\nWhenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this.",
       "source": "https://cards.fabtcg.com/card/gavel_of_natural_order/",
       "status": "machine-draft",
+      "keywords": [
+        "Pairs"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -377,6 +426,9 @@
       "text_en": "Opt 2\nIf you've played another Wizard non-attack action card this turn, put this into its owner's hand.",
       "source": "https://cards.fabtcg.com/card/gaze_the_ages/",
       "status": "machine-draft",
+      "keywords": [
+        "Opt 2"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -395,6 +447,7 @@
       "text_en": "When this hits, you may search your deck for a cog, put it into the arena, then shuffle.",
       "source": "https://cards.fabtcg.com/card/gear_turner/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -413,6 +466,9 @@
       "text_en": "At the start of your turn, you may put a card from your hand into your soul. If it's an Illusionist card, create a Spectral Shield token. If it's a Light card, draw a card.\nSpectra",
       "source": "https://cards.fabtcg.com/card/genesis/",
       "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -431,6 +487,7 @@
       "text_en": "Once per Turn Action - {r}{r}: Each other hero may put a card from their hand on the bottom of their deck. If they do, they draw a card and you create a Silver token. If you gain no Silver this way, draw a card. Go again",
       "source": "https://cards.fabtcg.com/card/genis_wotchuneed/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -449,6 +506,9 @@
       "text_en": "Your other attacks have 1 base {p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/gentle_breeze/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -467,6 +527,7 @@
       "text_en": "Florian Specialization\nCreate a Runechant or Embodiment of Earth token. Repeat this process X more times.\nGain X+1{h}",
       "source": "https://cards.fabtcg.com/card/germinate/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -485,6 +546,9 @@
       "text_en": "Protect\nWhen this protects another hero, they may give you a token they control.",
       "source": "https://cards.fabtcg.com/card/gesture_of_goodwill/",
       "status": "machine-draft",
+      "keywords": [
+        "Protect"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -503,6 +567,9 @@
       "text_en": "Go again\nThis enters the arena with 3 energy counters. When it has none, destroy it.\nAt the beginning of your end phase, remove an energy counter from this and create a Seismic Surge token.",
       "source": "https://cards.fabtcg.com/card/geyser_of_seismic_stirrings/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -533,6 +600,9 @@
       "text_en": "If this was banished from boosting this turn, you may play this from your banished zone.\nEvo Upgrade - When this attacks, search your deck for an Evo with cost less than or equal to the number of Evos you have equipped, banish it, then shuffle.",
       "source": "https://cards.fabtcg.com/card/ghost_protocol_architect/",
       "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -551,6 +621,9 @@
       "text_en": "If this was banished from boosting this turn, you may play this from your banished zone.\nEvo Upgrade - This gets +1{p} for each Evo you have equipped.",
       "source": "https://cards.fabtcg.com/card/ghost_protocol_mainframe/",
       "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -569,6 +642,7 @@
       "text_en": "Whenever an Illusionist attack you control is destroyed by phantasm, put a haunt counter on Ghostly Touch.\nOnce per Turn Action - Remove a haunt counter from Ghostly Touch: Until end of turn, this becomes an Illusionist ally with phantasm, base {p} and {h} equal to the number of haunt counters on it, and \"Once per Turn Action - {r}{r}{r}: Attack\". Go again",
       "source": "https://cards.fabtcg.com/card/ghostly_touch/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -587,6 +661,9 @@
       "text_en": "You may play Ghostly Visit from your banished zone.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/ghostly_visit/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -617,6 +694,9 @@
       "text_en": "Your next Mechanologist attack this turn gets +4{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/gigawatt/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -647,6 +727,9 @@
       "text_en": "Whenever an action card defends this, you may put an action card with cost less than this card's {p} from your graveyard on top of your deck.\nGo again",
       "source": "https://cards.fabtcg.com/card/give_and_take/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -665,6 +748,7 @@
       "text_en": "When the combat chain closes, if this didn't hit, the defending hero creates a Vigor token.",
       "source": "https://cards.fabtcg.com/card/give_em_a_piece_of_your_mind/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -695,6 +779,9 @@
       "text_en": "The next 2 ally cards with watery grave you play this turn cost {r}{r}{r} less to play.\nGo again",
       "source": "https://cards.fabtcg.com/card/give_no_quarter/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -713,6 +800,10 @@
       "text_en": "Ice Fusion\nIf Glacial Footsteps was fused, it gains dominate.",
       "source": "https://cards.fabtcg.com/card/glacial_footsteps/",
       "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion",
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -743,6 +834,7 @@
       "text_en": "Action - Destroy Glacial Horns: Choose a hero. Freeze up to 1 card in their arsenal and 1 ally they control until the start of your next turn. Go again",
       "source": "https://cards.fabtcg.com/card/glacial_horns/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -761,6 +853,10 @@
       "text_en": "As an additional cost to play this, you may charge your hero's soul.\nIf a yellow card is charged this way, this gets overpower.",
       "source": "https://cards.fabtcg.com/card/glaring_impact/",
       "status": "machine-draft",
+      "keywords": [
+        "Charge",
+        "Overpower"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -791,6 +887,7 @@
       "text_en": "Target weapon attack gets +3{p}.\nInstant - Discard this: Create a Flurry token.",
       "source": "https://cards.fabtcg.com/card/gleam_of_the_blade/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -809,6 +906,7 @@
       "text_en": "Instant - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.",
       "source": "https://cards.fabtcg.com/card/glide_through_starlight/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -839,6 +937,9 @@
       "text_en": "Action - {r}, destroy this: Put an arrow from your hand face-up into your arsenal. It gets +1{p} this turn. Go again\nBattleworn",
       "source": "https://cards.fabtcg.com/card/glidewell_fins/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -857,6 +958,9 @@
       "text_en": "Target weapon attack gets go again.\nReprise - If the defending hero has defended with a card from their hand this chain link, draw a card.",
       "source": "https://cards.fabtcg.com/card/glint_the_quicksilver/",
       "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -875,6 +979,7 @@
       "text_en": "Distribute up to four +1{p} counters among any number of weapons you control.\nAt the beginning of your end phase, remove all +1{p} counters from weapons you control.",
       "source": "https://cards.fabtcg.com/card/glisten/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -905,6 +1010,9 @@
       "text_en": "Dorinthea Specialization\nYour next Dawnblade attack this turn has go again.\nWhenever Dawnblade hits a hero this turn, put a +1{p} counter on it.\nGo again",
       "source": "https://cards.fabtcg.com/card/glistening_steelblade/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -923,6 +1031,9 @@
       "text_en": "This gets +1{d} for each Toughness token that has left the arena this turn.\nGuardwell",
       "source": "https://cards.fabtcg.com/card/glory_plate/",
       "status": "machine-draft",
+      "keywords": [
+        "Guardwell"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -941,6 +1052,7 @@
       "text_en": "Instant - {r}{r}{r}, destroy this: Draw a card.",
       "source": "https://cards.fabtcg.com/card/glory_seeker/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -959,6 +1071,7 @@
       "text_en": "Instant - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.",
       "source": "https://cards.fabtcg.com/card/gloves_of_astral_sanctuary/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -977,6 +1090,11 @@
       "text_en": "Arcane Barrier 1\nHigh Tide - If there are 2 or more blue cards in your pitch zone, this gets +3{d} and blade break.",
       "source": "https://cards.fabtcg.com/card/gloves_of_azure_waves/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1",
+        "High Tide",
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -995,6 +1113,9 @@
       "text_en": "When this leaves the arena, destroy target aura token.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/gloves_of_erasure/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1013,6 +1134,7 @@
       "text_en": "Deal 3 arcane damage to up to X target heroes and/or allies, where X is the number of aura permanents you control with Sigil in their name.",
       "source": "https://cards.fabtcg.com/card/glyph_destruction_nodes/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1031,6 +1153,9 @@
       "text_en": "Deal X+3 arcane damage to target hero, where X is the number of aura permanents you control with Sigil in their name.\nSurge - If this deals more than 3 damage, gain 1{h}, then shuffle all aura permanents you control with Sigil in their name into their owner's deck.",
       "source": "https://cards.fabtcg.com/card/glyph_overlay/",
       "status": "machine-draft",
+      "keywords": [
+        "Surge"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1061,6 +1186,7 @@
       "text_en": "Deal 4 arcane damage to any target. If you control a card with Sigil in its name, instead deal 6 arcane damage.",
       "source": "https://cards.fabtcg.com/card/glyph_power_spell/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1079,6 +1205,7 @@
       "text_en": "Name an action card. Open and reveal a booster pack of Flesh and Blood and put all cards with the chosen name into your hand. If the booster pack does not contain a card with the chosen name, you may repeat this process.",
       "source": "https://cards.fabtcg.com/card/go_bananas/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1097,6 +1224,9 @@
       "text_en": "Create an Agility and a Vigor token.\nGo again",
       "source": "https://cards.fabtcg.com/card/goblet_of_bloodrun_wine/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1115,6 +1245,7 @@
       "text_en": "Action - {r}{r}, destroy this: Draw a card. Go again",
       "source": "https://cards.fabtcg.com/card/gold/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1133,6 +1264,9 @@
       "text_en": "Action - {t}: Your next Pirate attack this turn gets \"When this hits a hero, steal a Gold token they control, otherwise create a Gold token.\" At the beginning of your end phase, if you haven't created or stolen a Gold token this turn, destroy this. Go again\nBattleworn",
       "source": "https://cards.fabtcg.com/card/gold_baited_hook/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1151,6 +1285,7 @@
       "text_en": "If you control less Gold than an opponent, this costs {r}{r} less to play.",
       "source": "https://cards.fabtcg.com/card/gold_hunter_ketch/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1169,6 +1304,7 @@
       "text_en": "When this attacks, if you control less Gold than an opponent, this gets go again.",
       "source": "https://cards.fabtcg.com/card/gold_hunter_lightsail/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1187,6 +1323,7 @@
       "text_en": "If you control less Gold than an opponent, this gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/gold_hunter_longboat/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1205,6 +1342,9 @@
       "text_en": "If you control less Gold than an opponent, this gets overpower.",
       "source": "https://cards.fabtcg.com/card/gold_hunter_marauder/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1223,6 +1363,9 @@
       "text_en": "Your next arrow attack this turn gets +3{p}.\nIf there is a yellow arrow face-up in your arsenal, create a Gold token.\nGo again",
       "source": "https://cards.fabtcg.com/card/gold_the_tip/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1241,6 +1384,9 @@
       "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.",
       "source": "https://cards.fabtcg.com/card/golden_cog/",
       "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1259,6 +1405,7 @@
       "text_en": "You may destroy a Gold you control rather than pay this card's {r} cost.",
       "source": "https://cards.fabtcg.com/card/golden_company/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1289,6 +1436,10 @@
       "text_en": "Legendary Olympia Specialization\nThis counts as a Gold.\nTemper",
       "source": "https://cards.fabtcg.com/card/golden_gait/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1307,6 +1458,10 @@
       "text_en": "Legendary Olympia Specialization\nThis counts as a Gold.\nTemper",
       "source": "https://cards.fabtcg.com/card/golden_galea/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1325,6 +1480,10 @@
       "text_en": "Legendary Olympia Specialization\nThis counts as a Gold.\nTemper",
       "source": "https://cards.fabtcg.com/card/golden_gauntlets/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1343,6 +1502,9 @@
       "text_en": "Victor Specialization\nWhen this defends together with 2 or more yellow cards, create a Gold token.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/golden_glare/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1361,6 +1523,7 @@
       "text_en": "Once per Turn Action - {r}{r} or destroy a Gold you control: Attack. If this attack has wagered, it gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/golden_grail/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1379,6 +1542,10 @@
       "text_en": "Legendary Olympia Specialization\nThis counts as a Gold.\nTemper",
       "source": "https://cards.fabtcg.com/card/golden_heart_plate/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1397,6 +1564,10 @@
       "text_en": "Go again\nThis counts as a Gold.\nWatery Grave",
       "source": "https://cards.fabtcg.com/card/golden_skull/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Watery Grave"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1415,6 +1586,9 @@
       "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token and repeat this process.",
       "source": "https://cards.fabtcg.com/card/golden_skywarden/",
       "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1433,6 +1607,9 @@
       "text_en": "When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.\nGo again",
       "source": "https://cards.fabtcg.com/card/golden_tipple/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1451,6 +1628,7 @@
       "text_en": "If this would be put into a graveyard, instead remove it from the game.",
       "source": "https://cards.fabtcg.com/card/goldfin_harpoon/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1469,6 +1647,7 @@
       "text_en": "Instant - {t} your hero, destroy this: Your next action this turn gets go again. Your hero can't {u} this turn unless they're a Pirate.",
       "source": "https://cards.fabtcg.com/card/goldkiss_rum/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1487,6 +1666,7 @@
       "text_en": "Your next Mechanologist attack this turn gets +3{p}.\nCreate a Golden Cog token.",
       "source": "https://cards.fabtcg.com/card/goldwing_turbine/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1517,6 +1697,7 @@
       "text_en": "Action - Destroy this: The next attack action card with cost 2 or more you play this turn gets +2{p}. Go again",
       "source": "https://cards.fabtcg.com/card/goliath_gauntlet/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1535,6 +1716,7 @@
       "text_en": "When this attacks, the next time you play an instant card this chain link, you may return this to it's owner's hand.",
       "source": "https://cards.fabtcg.com/card/gone_in_a_flash/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1553,6 +1735,7 @@
       "text_en": "At the start of each other hero's turn, choose 1; they draw a card, they gain {r}, they gain 1{h}, or their next attack this turn gains +1{p}.\nAt the start of your turn, destroy this. If another hero drew a card from this, you draw a card, then repeat for {r}, {h}, and {p}.",
       "source": "https://cards.fabtcg.com/card/good_deeds_dont_go_unnoticed/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1571,6 +1754,9 @@
       "text_en": "When this defends, if you have no cards in hand, it gets +6{d} and the crowd cheers you.",
       "source": "https://cards.fabtcg.com/card/good_natured_brutality/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1589,6 +1775,9 @@
       "text_en": "Betsy Specialization\nAction - Destroy a Gold you control: Your next attack this turn gets \"When this attacks a hero, wager a Might and a Vigor token with them.\" Go again\nTemper",
       "source": "https://cards.fabtcg.com/card/good_time_chapeau/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1607,6 +1796,7 @@
       "text_en": "If you control 3 or more auras, this gets +3{p} and \"When this hits a hero, {t} them.\"",
       "source": "https://cards.fabtcg.com/card/goon_battery/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1625,6 +1815,9 @@
       "text_en": "If you control 3 or more auras, this gets +3{p} and \"When this hits a hero, the crowd boos you.\"",
       "source": "https://cards.fabtcg.com/card/goon_beatdown/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Boos"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1643,6 +1836,7 @@
       "text_en": "If you control 3 or more auras, this gets +3{p} and \"When this hits a hero, destroy the top card of their deck.\"",
       "source": "https://cards.fabtcg.com/card/goon_tactics/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1661,6 +1855,7 @@
       "text_en": "When this attacks, reveal cards from the top of your deck until you reveal an attack action card. If you do, banish it and this gets -X{p}, where X is the {p} of the card banished this way. Otherwise, this gets -7{p}. Shuffle.",
       "source": "https://cards.fabtcg.com/card/gore_belching/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1679,6 +1874,10 @@
       "text_en": "Legendary\nDraw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.\nGo again",
       "source": "https://cards.fabtcg.com/card/gorganian_tome/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Go again"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1697,6 +1896,7 @@
       "text_en": "Create a Slither in your hand.\nBanish all defending attack action cards on the combat chain. If a Chi was pitched to play this, you may play the banished cards this combat chain without paying their {r} cost.",
       "source": "https://cards.fabtcg.com/card/gorgons_gaze/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1715,6 +1915,9 @@
       "text_en": "Whenever a weapon attack you control hits, you may pay {r}. If you do, create a Vigor token. \nTemper",
       "source": "https://cards.fabtcg.com/card/grains_of_bloodspill/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1733,6 +1936,9 @@
       "text_en": "Legendary\nWhen you pitch Grandeur of Valahai, create a Seismic Surge token.",
       "source": "https://cards.fabtcg.com/card/grandeur_of_valahai/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1751,6 +1957,9 @@
       "text_en": "Grandstand Legplates' {d} is equal to the number of opposing heroes with greater {h} than you.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/grandstand_legplates/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1769,6 +1978,10 @@
       "text_en": "Stealth\nOnce per Turn Action - {r}: Attack\nWhen this attacks a marked hero, the attack gets go again.",
       "source": "https://cards.fabtcg.com/card/graphene_chelicera/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth",
+        "Go again"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1787,6 +2000,9 @@
       "text_en": "If your hero would be dealt damage, you may banish this to prevent 2 of that damage.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/grasp_of_darkness/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1805,6 +2021,9 @@
       "text_en": "Once per Turn Action - {r}{r}: Create a Runechant token. This ability costs an additional {r} to activate for each Runechant you control. Go again\nBattleworn",
       "source": "https://cards.fabtcg.com/card/grasp_of_the_arknight/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1823,6 +2042,7 @@
       "text_en": "When this attacks a hero, you may banish a card from their graveyard.",
       "source": "https://cards.fabtcg.com/card/gravekeeping/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1853,6 +2073,9 @@
       "text_en": "Play Graveling Growl only if a card with 6 or more {p} has been put into your banished zone this turn.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/graveling_growl/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1883,6 +2106,9 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack. Go again\nPiercing 1\nInstant - Destroy 2 Silver you control: Equip this with a +1{p} counter. Activate this ability only while this is in your graveyard.",
       "source": "https://cards.fabtcg.com/card/graven_call/",
       "status": "machine-draft",
+      "keywords": [
+        "Piercing 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1901,6 +2127,9 @@
       "text_en": "While this is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip this.\nWhen this is equipped from anywhere other than your graveyard, put a -1{d} counter on it.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/graven_cowl/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1919,6 +2148,9 @@
       "text_en": "Instant - Destroy 2 Silver you control: Equip this. Activate this only while this is in your graveyard.\nSpellvoid 1",
       "source": "https://cards.fabtcg.com/card/graven_gaslight/",
       "status": "machine-draft",
+      "keywords": [
+        "Spellvoid 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1937,6 +2169,9 @@
       "text_en": "While this is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip this.\nWhen this is equipped from anywhere other than your graveyard, put a -1{d} counter on it.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/graven_gloves/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1955,6 +2190,9 @@
       "text_en": "Instant - Destroy this: Discard a card. Gain {r} equal to its pitch value.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/graven_justaucorpse/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1973,6 +2211,9 @@
       "text_en": "While this is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip this.\nWhen this is equipped from anywhere other than your graveyard, put a -1{d} counter on it.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/graven_vestment/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1991,6 +2232,9 @@
       "text_en": "While this is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip this.\nWhen this is equipped from anywhere other than your graveyard, put a -1{d} counter on it.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/graven_walkers/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2009,6 +2253,7 @@
       "text_en": "Instant - {t}, destroy a Gold you control: Draw a card, then discard a card.\nIf a blue card has been put into your graveyard this turn, you may play cards with watery grave from your graveyard.",
       "source": "https://cards.fabtcg.com/card/gravy_bones/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2027,6 +2272,7 @@
       "text_en": "Instant - {t}, destroy a Gold you control: Draw a card, then discard a card.\nIf a blue card has been put into your graveyard this turn, you may play cards with watery grave from your graveyard.",
       "source": "https://cards.fabtcg.com/card/gravy_bones_shipwrecked_looter/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2045,6 +2291,9 @@
       "text_en": "Legendary\nAt the beginning of each end phase, if a hero has 2 or more cards with yellow color strips in their pitch zone, they gain +1{i} until end of turn.\nAction - Discard 2 cards with yellow color strips: Destroy Great Library of Solana. Any hero may activate this ability. Go again",
       "source": "https://cards.fabtcg.com/card/great_library_of_solana/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2063,6 +2312,9 @@
       "text_en": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.\nGain 3{h}\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/grim_feast/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2093,6 +2345,7 @@
       "text_en": "Instant - {r}, destroy this: Create a Runechant token.",
       "source": "https://cards.fabtcg.com/card/grimoire_of_fellingsong/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2111,6 +2364,10 @@
       "text_en": "Instant - {r}, banish this: Create an Eloquence token.\nArcane Barrier 1\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/grimoire_of_the_haunt/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt",
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2129,6 +2386,9 @@
       "text_en": "Crush - When this deals 4 or more damage to a hero, destroy the top card of their deck.",
       "source": "https://cards.fabtcg.com/card/grind_them_down/",
       "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2159,6 +2419,9 @@
       "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nAction - 0: Target hero destroys the top card of their deck.",
       "source": "https://cards.fabtcg.com/card/grinding_gears/",
       "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2177,6 +2440,9 @@
       "text_en": "Your attacks get +1{p} while attacking a hero who controls a Seismic Surge token.\nWhenever you attack a Guardian hero, clash with them. The winner creates a Seismic Surge token.",
       "source": "https://cards.fabtcg.com/card/groundbreaker_crix/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2195,6 +2461,9 @@
       "text_en": "If a Draconic attack was the last attack this combat chain, this gets +1{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/grow_claws/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2225,6 +2494,9 @@
       "text_en": "If a Draconic attack was the last attack this combat chain, this gets go again.",
       "source": "https://cards.fabtcg.com/card/grow_wings/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2255,6 +2527,9 @@
       "text_en": "When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/growl/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2279,6 +2554,9 @@
       "text_en": "Action - {r}{r}: Return Guardian of the Shadowrealm from your banished zone into your hand. Activate this ability only while Guardian of the Shadowrealm is in your banished zone.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/guardian_of_the_shadowrealm/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2297,6 +2575,10 @@
       "text_en": "Combo - If Surging Strike was the last attack this combat chain, this gets go again.",
       "source": "https://cards.fabtcg.com/card/gustwave_of_the_second_wind/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2315,6 +2597,10 @@
       "text_en": "Your next sword attack this turn gets +3{p} and \"When this attacks, wager with the defending hero. The winner creates a Blade Dance token.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/gutshot/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Wager"
+      ],
       "variants": {
         "1": {
           "pitch": "1",

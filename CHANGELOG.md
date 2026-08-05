@@ -18,6 +18,8 @@
 - **术语表新增 hero 类别**：83 个英雄基础名入库（`data/glossary.zh-CN.json`），统一跨版本英雄牌及牌面正文中的英雄名翻译
 - **英雄名一致性修正**：`Dorinthea Ironsong`（茜娅→希雅）、`Fang, Dracai of Blades`（獠牙→方格）等 5 处基础名/分隔符统一
 - **批次放置收敛**：`scripts/consolidate-t4.mjs` 把 t4-remaining 中 85 条实属 T1/T2/具体 T3 批次的卡归位到各自批次文件，t4 只留 34 张真兜底卡；新增守卫测试校验每张卡都落在过滤器所属的批次文件
+- **异能关键词释义库**：`glossary.keyword` 重构为结构化 `{name_zh, desc_zh}`，收录 **100 个关键词**的中文名 + 释义，按官方综合规则（rules.fabtcg.com）撰写；`loadGlossary` 兼容对象值；数据中 170 个关键词串除「XX 专精」（由专精模式 + 英雄名组合覆盖）与类型名噪声外全部覆盖
+- **关键词接线到浮窗**：`dist/data/keywords.json`（100 条释义）随构建发布；卡牌构建时按英文源 `card_keywords` join 出 `keywords` 字段（schema v2，仅保留能在词表解析的真实机制关键词，编号变体如「Arcane Barrier 1」自动回退到基础词）；浮窗正文下方新增关键词段（`name_zh：desc_zh`，无交互）；设置项新增关键词独立字体+颜色
 
 ## v0.6.0（2026-08-05）
 

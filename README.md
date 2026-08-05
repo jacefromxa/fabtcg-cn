@@ -53,17 +53,18 @@ talishar-cn/
 │   │   ├── t2-equipment.json       ← 装备（439张）
 │   │   ├── t3-*.json               ← 按职业/属性分批
 │   │   └── t4-remaining.json       ← 特殊格式卡
-│   ├── glossary.zh-CN.json         ← 简体中文术语表（353条，含 83 个英雄基础名）
+│   ├── glossary.zh-CN.json         ← 简体中文术语表（385条：83 个英雄基础名 + 100 个异能关键词释义）
 │   └── talishar-card-aliases.json  ← 印刷ID → 卡牌Slug别名表
 ├── dist/data/                      ← 构建产物（发布到数据仓库）
 │   ├── manifest.json
 │   ├── index.json
 │   ├── chunks/*.json
-│   └── aliases.json
+│   ├── aliases.json
+│   └── keywords.json               ← 异能关键词释义库（100 条，浮窗关键词段用）
 ├── probe/
 │   ├── talishar-cn.user.js         ← 用户脚本（直接编辑，安装对象）
 │   ├── package.json
-│   └── test/                       ← 54项自动化测试
+│   └── test/                       ← 61项自动化测试
 ├── scripts/
 │   ├── build-card-aliases.mjs      ← 印刷ID别名表生成
 │   ├── build-card-data.mjs         ← 卡牌数据分片构建

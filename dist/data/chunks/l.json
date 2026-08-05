@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "lace_with_bloodrot": {
       "id": "lace_with_bloodrot",
@@ -11,6 +11,9 @@
       "text_en": "Your next arrow attack this turn gains +3{p} and \"When this hits a hero, create a Bloodrot Pox token under their control.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/lace_with_bloodrot/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -29,6 +32,9 @@
       "text_en": "Your next arrow attack this turn gains +3{p} and \"When this hits a hero, create a Frailty token under their control.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/lace_with_frailty/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -47,6 +53,9 @@
       "text_en": "Your next arrow attack this turn gains +3{p} and \"When this hits a hero, create an Inertia token under their control.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/lace_with_inertia/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -65,6 +74,7 @@
       "text_en": "Instant - {r}{r}, destroy this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create an Embodiment of Lightning token.",
       "source": "https://cards.fabtcg.com/card/laced_lightning/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -83,6 +93,10 @@
       "text_en": "Your next attack this turn gets +3{p}.\nEarth Bond - If an Earth card was pitched to play this, create an Embodiment of Earth token.\nGo again",
       "source": "https://cards.fabtcg.com/card/laden_with_earth/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth Bond",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -101,6 +115,10 @@
       "text_en": "Your next attack this turn gets +3{p}.\nIce Bond - If an Ice card was pitched to play this, create a Frostbite token under target hero's control.\nGo again",
       "source": "https://cards.fabtcg.com/card/laden_with_frost/",
       "status": "machine-draft",
+      "keywords": [
+        "Ice Bond",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -119,6 +137,10 @@
       "text_en": "Your next attack this turn gets +3{p}.\nLightning Bond - If a Lightning card was pitched to play this, create an Embodiment of Lightning token.\nGo again",
       "source": "https://cards.fabtcg.com/card/laden_with_lightning/",
       "status": "machine-draft",
+      "keywords": [
+        "Lightning Bond",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -137,6 +159,7 @@
       "text_en": "While Barthimont is face down in arsenal, at the start of your turn, you may turn her face up.\nWhile Barthimont is face up in arsenal, whenever you play an attack action card, banish the top card of your deck. If the banished card has 6 or more {p}, the attack gains dominate and put a lesson counter on Barthimont. Then if there are 2 or more lesson counters on her, banish her, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
       "source": "https://cards.fabtcg.com/card/lady_barthimont/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -155,6 +178,9 @@
       "text_en": "When this defends an attack with go again, mark the attacking hero.",
       "source": "https://cards.fabtcg.com/card/lair_of_the_spider/",
       "status": "machine-draft",
+      "keywords": [
+        "Mark"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -173,6 +199,9 @@
       "text_en": "When you play Last Ditch Effort, if you have no cards in your deck, it gains +4{p} and go again.",
       "source": "https://cards.fabtcg.com/card/last_ditch_effort/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -191,6 +220,9 @@
       "text_en": "If you control a Might and a Vigor token, this gets +2{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/laughing_knee_slappers/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -209,6 +241,9 @@
       "text_en": "Rupture - If Lava Burst is played as chain link 4 or higher, it has +3{p}.",
       "source": "https://cards.fabtcg.com/card/lava_burst/",
       "status": "machine-draft",
+      "keywords": [
+        "Rupture"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -227,6 +262,9 @@
       "text_en": "If you control 2 or more Draconic chain links, this gets go again.",
       "source": "https://cards.fabtcg.com/card/lava_vein_loyalty/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -257,6 +295,10 @@
       "text_en": "Intimidate target hero, then if they have more cards in hand than you, draw a card.\nGo again",
       "source": "https://cards.fabtcg.com/card/lay_down_the_challenge/",
       "status": "machine-draft",
+      "keywords": [
+        "Intimidate",
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -275,6 +317,9 @@
       "text_en": "Tower - If this has 13 or more {p}, non-equipment cards get -1{d} while defending this.",
       "source": "https://cards.fabtcg.com/card/lay_down_the_law/",
       "status": "machine-draft",
+      "keywords": [
+        "Tower"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -293,6 +338,7 @@
       "text_en": "If you are marked, you can't play this.\nIf the defending hero is marked, their next attack this turn gets -1{p}.",
       "source": "https://cards.fabtcg.com/card/lay_low/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -311,6 +357,7 @@
       "text_en": "When this attacks a Shadow hero, it gets +1{p}.\nWhen this hits a hero, you may turn a card in their banished zone face-down.",
       "source": "https://cards.fabtcg.com/card/lay_to_rest/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -341,6 +388,9 @@
       "text_en": "Boost\nThis can't be defended by equipment.",
       "source": "https://cards.fabtcg.com/card/lay_waste/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -371,6 +421,9 @@
       "text_en": "The next time you play an action card with cost 0 or greater this turn, gain 1 action point.\nGo again",
       "source": "https://cards.fabtcg.com/card/lead_the_charge/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -401,6 +454,9 @@
       "text_en": "Your next Guardian or Warrior attack this turn gets +3{p}.\nCreate a Vigor token.\nGo again",
       "source": "https://cards.fabtcg.com/card/lead_with_heart/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -431,6 +487,9 @@
       "text_en": "Your next Brute or Guardian attack this turn gets +3{p}.\nCreate a Might token.\nGo again",
       "source": "https://cards.fabtcg.com/card/lead_with_power/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -461,6 +520,9 @@
       "text_en": "Your next Brute or Warrior attack this turn gets +3{p}.\nCreate an Agility token.\nGo again",
       "source": "https://cards.fabtcg.com/card/lead_with_speed/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -491,6 +553,9 @@
       "text_en": "When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/leap_frog_gloves/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -509,6 +574,9 @@
       "text_en": "When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/leap_frog_leggings/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -527,6 +595,9 @@
       "text_en": "When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/leap_frog_slime_skin/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -545,6 +616,9 @@
       "text_en": "When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/leap_frog_vocal_sac/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -563,6 +637,9 @@
       "text_en": "Your next Guardian attack this turn gets \"Crush - When this deals 4 or more damage to a hero, destroy the top 4 cards of their deck.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/leave_a_dent/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -581,6 +658,7 @@
       "text_en": "If you have more {h} than each other hero, you may play this as though it were an instant.\nWhen this enters the arena, name a card. The named card can't be played from hand while this is in the arena.\nAt the beginning of your action phase, destroy this.",
       "source": "https://cards.fabtcg.com/card/leave_em_speechless/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -599,6 +677,9 @@
       "text_en": "Contract - You are contracted to banish opponents' red cards. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck and up to 1 card in their arsenal.",
       "source": "https://cards.fabtcg.com/card/leave_no_witnesses/",
       "status": "machine-draft",
+      "keywords": [
+        "Contract"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -617,6 +698,10 @@
       "text_en": "Suspense\nWhen this enters or leaves the arena, intimidate target hero.\nWhen this leaves the arena, your next attack this turn gets +4{p}.",
       "source": "https://cards.fabtcg.com/card/leave_them_hanging/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense",
+        "Intimidate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -635,6 +720,9 @@
       "text_en": "Earth Bond - If an Earth card was pitched to play this, create an Embodiment of Earth token.",
       "source": "https://cards.fabtcg.com/card/leaven_sheath/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth Bond"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -653,6 +741,9 @@
       "text_en": "The next attack action card you play this turn gets +3{p} and \"Whenever this deals damage to a hero, you may put an attack action card from your graveyard on the bottom of your deck.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/leech_memory/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -671,6 +762,9 @@
       "text_en": "The next attack action card you play this turn gets +3{p} and \"Whenever this deals damage to a hero, destroy an aura token they control.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/leech_renown/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -689,6 +783,9 @@
       "text_en": "The next attack action card you play this turn gets +3{p} and \"Whenever this deals damage to a hero, gain 1{h}.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/leech_vitality/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -707,6 +804,9 @@
       "text_en": "Go again",
       "source": "https://cards.fabtcg.com/card/leg_tap/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -737,6 +837,7 @@
       "text_en": "Target Ninja attack gets +1{p} and \"When this hits, if Edge of Autumn was the last attack this combat chain, draw a card.\"",
       "source": "https://cards.fabtcg.com/card/legacy_of_ikaru/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -755,6 +856,7 @@
       "text_en": "Kano Specialization\nDeal 3 arcane damage to target opposing hero.\nIf Lesson in Lava deals damage, you may search your deck for a Wizard card with {r} cost equal to or less than the damage dealt by Lesson in Lava, reveal it, then shuffle your deck and put it on top of your deck.",
       "source": "https://cards.fabtcg.com/card/lesson_in_lava/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -773,6 +875,7 @@
       "text_en": "Shuffle up to 3 attack reaction cards with different names from your graveyard into your deck.",
       "source": "https://cards.fabtcg.com/card/lessons_learned/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -791,6 +894,7 @@
       "text_en": "Destroy a Gold you control.\nChoose an opponent. They draw a card. Until the start of your next turn, attacks they control that target you get -2{p}.",
       "source": "https://cards.fabtcg.com/card/let_me_buy_you_a_drink/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -809,6 +913,9 @@
       "text_en": "When this attacks, choose 1 for each blue card you've pitched this turn;\n- Draw a card.\n- This gets +2{p}.\n- This gets go again.",
       "source": "https://cards.fabtcg.com/card/levels_of_enlightenment/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -827,6 +934,7 @@
       "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose blood debt during the end phase.",
       "source": "https://cards.fabtcg.com/card/levia/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -845,6 +953,9 @@
       "text_en": "Legendary Levia Specialization\nAction - Turn all cards in your banished zone face-down: Transform into Levia, Redeemed. Activate this ability only while this is in your inventory and you have 13 or more cards with blood debt in your banished zone.\nCards you own lose blood debt.",
       "source": "https://cards.fabtcg.com/card/levia_redeemed/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -863,6 +974,7 @@
       "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose blood debt during the end phase.",
       "source": "https://cards.fabtcg.com/card/levia_shadowborn_abomination/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -881,6 +993,9 @@
       "text_en": "Essence of Ice and Lightning\nOnce per Turn Action - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains go again. If it's an Ice card, create a Frostbite token under target hero's control. Go again",
       "source": "https://cards.fabtcg.com/card/lexi/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Ice and Lightning"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -899,6 +1014,9 @@
       "text_en": "Essence of Ice and Lightning\nOnce per Turn Action - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains go again. If it's an Ice card, create a Frostbite token under target hero's control. Go again",
       "source": "https://cards.fabtcg.com/card/lexi_livewire/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Ice and Lightning"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -917,6 +1035,9 @@
       "text_en": "Legendary\nWhen this enters the arena and whenever you deal damage, create a Seismic Surge token. At the beginning of your end phase, if you control no Seismic Surge tokens, destroy this.",
       "source": "https://cards.fabtcg.com/card/ley_line_of_the_old_ones/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -935,6 +1056,10 @@
       "text_en": "Choose any number;\n- Steal a Toughness or Vigor token.\n- The crowd boos you.\n- Target hero loses and can't gain abilities this action phase unless they discard a card.",
       "source": "https://cards.fabtcg.com/card/liars_charm/",
       "status": "machine-draft",
+      "keywords": [
+        "Steal",
+        "The Crowd Boos"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -953,6 +1078,9 @@
       "text_en": "When this is played, if you have less {h} than an opposing hero, it gets go again.\nWhen this hits, gain 1{h}.",
       "source": "https://cards.fabtcg.com/card/life_for_a_life/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -983,6 +1111,9 @@
       "text_en": "You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;\n\nThis gets \"When this hits, gain life 2{h}.\"\nThis gets +2{p}.\nThis gets go again.",
       "source": "https://cards.fabtcg.com/card/life_of_the_party/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1013,6 +1144,9 @@
       "text_en": "When this defends, if you are a Thief, steal a Gold token the attacking hero controls.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/light_fingers/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1031,6 +1165,9 @@
       "text_en": "Lexi Specialization\nLightning Fusion\nIf Light it Up was fused, it gains \"If this hits a hero, deal 1 damage to them for each equipment they control.\"\nIf Light it Up deals damage to a hero equal to or greater than the number of equipment they control, equipment they control lose and can't gain activated abilities until the end of their next turn.",
       "source": "https://cards.fabtcg.com/card/light_it_up/",
       "status": "machine-draft",
+      "keywords": [
+        "Lightning Fusion"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1049,6 +1186,9 @@
       "text_en": "Legendary\nWhen this is pitched, reveal the top card of your deck. If it's yellow, you may put it into your hero's soul.",
       "source": "https://cards.fabtcg.com/card/light_of_sol/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1067,6 +1207,10 @@
       "text_en": "As an additional cost to play this, you may charge your hero's soul.\nWhen this hits, if a yellow card was charged this way, this gets go again.",
       "source": "https://cards.fabtcg.com/card/light_the_way/",
       "status": "machine-draft",
+      "keywords": [
+        "Charge",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1097,6 +1241,7 @@
       "text_en": "Deal 6 arcane damage to any target.\nInstant - Discard this and an Earth card: Prevent the next 6 arcane damage target source would deal this turn.",
       "source": "https://cards.fabtcg.com/card/light_up_the_leaves/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1115,6 +1260,9 @@
       "text_en": "When this attacks, you may discard a card or destroy an item you control. If you do, this gets go again.",
       "source": "https://cards.fabtcg.com/card/lighten_the_load/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1145,6 +1293,7 @@
       "text_en": "",
       "source": "https://cards.fabtcg.com/card/lightning_flow/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1163,6 +1312,7 @@
       "text_en": "When this hits, create an Embodiment of Lightning token.",
       "source": "https://cards.fabtcg.com/card/lightning_form/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1193,6 +1343,10 @@
       "text_en": "Instant - {r}, destroy this: Instant cards you play this turn get go again.\nArcane Barrier 1\nBattleworn",
       "source": "https://cards.fabtcg.com/card/lightning_greaves/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1",
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1211,6 +1365,9 @@
       "text_en": "Deal 4 arcane damage to any target.\nStarfall - If an instant card has been put into your graveyard this turn, create a Lightning Flow token.",
       "source": "https://cards.fabtcg.com/card/lightning_overload/",
       "status": "machine-draft",
+      "keywords": [
+        "Starfall"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1241,6 +1398,7 @@
       "text_en": "Target attack action card with cost 1 or less gains +3{p}.",
       "source": "https://cards.fabtcg.com/card/lightning_press/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1271,6 +1429,9 @@
       "text_en": "If this was played from arsenal, it gets go again.",
       "source": "https://cards.fabtcg.com/card/lightning_surge/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1301,6 +1462,9 @@
       "text_en": "If there are 4 or more Earth cards in your banished zone, this gets +1{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/limbs_of_lignum_vitae/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1319,6 +1483,9 @@
       "text_en": "Action - {r}, {t}: Attack. Go again\nWatery Grave",
       "source": "https://cards.fabtcg.com/card/limpit_hop_a_long/",
       "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1337,6 +1504,9 @@
       "text_en": "Look at the top card of your deck. If it's an arrow, you may put it face-up into your arsenal. If you do, it gets go again this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/line/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1355,6 +1525,9 @@
       "text_en": "If you have the same {h} as a hero, it also counts as you having more {h} than them, and them having less {h} than you.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/line_crossers/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1373,6 +1546,9 @@
       "text_en": "Your next arrow attack this turn gets +3{p}.\nYou may turn a face-down arrow in your arsenal face-up. If you do, put an aim counter on it.\nGo again",
       "source": "https://cards.fabtcg.com/card/line_it_up/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1391,6 +1567,9 @@
       "text_en": "Action - {r}{r}, {t}: Attack\nIf this has {p} greater than its base, it gets +1{p}.\nWhen this hits a hero, the crowd boos you.",
       "source": "https://cards.fabtcg.com/card/lionclaw_maul/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Boos"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1409,6 +1588,7 @@
       "text_en": "This attacks each hero.",
       "source": "https://cards.fabtcg.com/card/lions_pounce/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1427,6 +1607,9 @@
       "text_en": "Rupture - If Liquefy is played at chain link 4 or higher, target attack action card gains \"When this hits a hero, put a -1{d} counter on an equipment they control. Then if it has 0{d}, destroy it.\"",
       "source": "https://cards.fabtcg.com/card/liquefy/",
       "status": "machine-draft",
+      "keywords": [
+        "Rupture"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1445,6 +1628,9 @@
       "text_en": "Evo Upgrade - This costs {r} less to play for each Evo you have equipped.",
       "source": "https://cards.fabtcg.com/card/liquid_cooled_mayhem/",
       "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1475,6 +1661,7 @@
       "text_en": "If there are two or more cards with cost 3 or more in your pitch zone, this gets +6{p}.",
       "source": "https://cards.fabtcg.com/card/little_big_foot/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1505,6 +1692,7 @@
       "text_en": "Target Lightning attack action card gets \"When this hits a hero, deal 4 damage to them.\"",
       "source": "https://cards.fabtcg.com/card/livewire_press/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1523,6 +1711,9 @@
       "text_en": "Go again\nWhen this enters the arena, create 2 Gold tokens.\nAt the beginning of your end phase, if you haven't created or stolen a Gold this turn, destroy this, then lose 2{h} unless you discard a card.",
       "source": "https://cards.fabtcg.com/card/loan_shark/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1541,6 +1732,9 @@
       "text_en": "Stealth\nWhen this attacks, you may equip an Orbitoclast from your inventory.\nWhen this hits a hero, if you control an Orbitoclast, they lose all hero card abilities during their next action phase.",
       "source": "https://cards.fabtcg.com/card/lobotomy/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1559,6 +1753,10 @@
       "text_en": "The next Mechanologist attack action card you play this turn gains +3{p}.\nIf you have boosted this turn, opt 1.\nGo again",
       "source": "https://cards.fabtcg.com/card/locked_and_loaded/",
       "status": "machine-draft",
+      "keywords": [
+        "Opt 1",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1589,6 +1787,10 @@
       "text_en": "Earth Bond - If an Earth card was pitched to play this, this gets overpower.",
       "source": "https://cards.fabtcg.com/card/log_fall/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth Bond",
+        "Overpower"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1613,6 +1815,7 @@
       "text_en": "If Long Shot has an aim counter, it has +2{p}.",
       "source": "https://cards.fabtcg.com/card/long_shot/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1643,6 +1846,7 @@
       "text_en": "For each Draconic chain link you control, choose 1;\n\nTarget dagger attack gains +2{p}.\nYou may attack with target dagger an additional time this turn.\nThe next time target dagger hits a hero this turn, mark them.",
       "source": "https://cards.fabtcg.com/card/long_whisker_loyalty/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1661,6 +1865,9 @@
       "text_en": "Instant - Destroy this, put 2 cards from your hand and/or arsenal on the bottom of your deck: Your next arrow attack this turn gets +4{p}.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/longdraw_half_glove/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1679,6 +1886,9 @@
       "text_en": "Action - Destroy this: Create a Blade Dance or Flurry token.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/longsword_leggings/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1697,6 +1907,7 @@
       "text_en": "When this attacks, it gets -1{p} unless you pay {r}.",
       "source": "https://cards.fabtcg.com/card/look_tuff/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1715,6 +1926,9 @@
       "text_en": "Search your deck for a Chi, reveal it, shuffle, then put it on top.\nGo again",
       "source": "https://cards.fabtcg.com/card/look_within/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1733,6 +1947,9 @@
       "text_en": "As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and go again.",
       "source": "https://cards.fabtcg.com/card/looking_for_a_scrap/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1763,6 +1980,7 @@
       "text_en": "When Looming Doom enters the arena, destroy all Runechants you control and put that many doom counters on Looming Doom.\nAt the beginning of your end phase, remove a doom counter from Looming Doom. If you do, deal 2 arcane damage to any target. Otherwise, destroy Looming Doom.",
       "source": "https://cards.fabtcg.com/card/looming_doom/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1781,6 +1999,9 @@
       "text_en": "Your next Pirate ally attack this turn gets \"When this hits a hero, destroy a card in their arsenal. If you do, create a Gold token.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/loot_the_arsenal/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1799,6 +2020,9 @@
       "text_en": "Your next Pirate ally attack this turn gets \"When this hits a hero, they discard a card. If they do, create a Gold token.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/loot_the_hold/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1817,6 +2041,9 @@
       "text_en": "Katsu Specialization\nCombo - If Mugenshi: RELEASE was the last attack this combat chain, as an additional cost to play Lord of Wind, you may pay any amount of {r}. If you do, shuffle that many target cards named Surging Strike, Whelming Gustwave and/or Mugenshi: RELEASE from your graveyard into your deck, then Lord of Wind gains that much {p}.",
       "source": "https://cards.fabtcg.com/card/lord_of_wind/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1835,6 +2062,7 @@
       "text_en": "While Sutcliffe is face down in arsenal, at the start of your turn, you may turn him face up.\nWhile Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action card, deal 1 arcane damage to each hero and put a lesson counter on Sutcliffe for each damage dealt this way. Then if there are 3 or more lesson counters on him, banish him, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
       "source": "https://cards.fabtcg.com/card/lord_sutcliffe/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1853,6 +2081,9 @@
       "text_en": "Look at target hero's hand. Choose an attack action card and reveal it. If you do, they put it on the bottom of their deck and create a Ponder token.\nGo again",
       "source": "https://cards.fabtcg.com/card/lost_in_thought/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1871,6 +2102,7 @@
       "text_en": "When this defends, you may remove a gold counter from Treasure Island. If you do and you are a Thief, create a Gold token.",
       "source": "https://cards.fabtcg.com/card/lost_in_transit/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1889,6 +2121,7 @@
       "text_en": "If you've been booed this turn, this gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/low_blow/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1907,6 +2140,7 @@
       "text_en": "While this is in your graveyard, at the start of your turn, you may banish 2 cards named Loyalty Beyond the Grave from your graveyard. If you do, draw a card.",
       "source": "https://cards.fabtcg.com/card/loyalty_beyond_the_grave/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1925,6 +2159,7 @@
       "text_en": "{u} up to 3 cogs you control.",
       "source": "https://cards.fabtcg.com/card/lubricate/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1943,6 +2178,9 @@
       "text_en": "Boltyn Specialization\nUntil end of turn, weapons you control gain +1{p} and \"If this hits, reveal the top card of your deck. If it's a Light card, put it into your hero's soul and gain 1{h}, otherwise put it on the bottom of your deck.\"\nIf you've charged this turn, you may attack an additional time with each weapon you control.\nGo again",
       "source": "https://cards.fabtcg.com/card/lumina_ascension/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1961,6 +2199,7 @@
       "text_en": "As an additional cost to play this, banish up to 3 cards from your hero's soul.  Choose that many modes;\n\nTarget Light attack gets +2{p}.\nTarget Light attack gets \"When this hits, draw a card.\"\nTarget Light attack gets \"When this hits, it gets go again.\"",
       "source": "https://cards.fabtcg.com/card/lumina_lance/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1979,6 +2218,7 @@
       "text_en": "During your action phase, Illusionist auras you control are weapons with 1 base {p} and \"Once per Turn Action - 0: Attack\"\nIf there is a yellow card in your pitch zone, your Illusionist attacks get go again.",
       "source": "https://cards.fabtcg.com/card/luminaris/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1997,6 +2237,7 @@
       "text_en": "If there is a yellow card in your pitch zone, the first attack action card with Herald in its name you play each turn and your first angel attack each turn get go again.",
       "source": "https://cards.fabtcg.com/card/luminaris_angels_glow/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2015,6 +2256,9 @@
       "text_en": "Once per Turn Instant - {r}{r}: Target angel attack or attack action card with Herald in its name gets go again.",
       "source": "https://cards.fabtcg.com/card/luminaris_celestial_fury/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2033,6 +2277,10 @@
       "text_en": "When an attack action card with 6 or more {p} defends this, this becomes a copy of that card.\nGo again\nMirage",
       "source": "https://cards.fabtcg.com/card/lunar_mirage/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Mirage"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2051,6 +2299,7 @@
       "text_en": "If Lunartide Plunderer hits a hero, banish it and a card from their soul.",
       "source": "https://cards.fabtcg.com/card/lunartide_plunderer/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2081,6 +2330,7 @@
       "text_en": "Target attack action card gains +1{p}.",
       "source": "https://cards.fabtcg.com/card/lunging_press/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2099,6 +2349,7 @@
       "text_en": "The base {p} and {d} of cards you control are halved, rounded up.\nInstant - {r}{r}, {t}: The crowd boos you. Defending action cards you control get +1{d} this turn.\nWhenever the crowd boos you, create a Might token.",
       "source": "https://cards.fabtcg.com/card/lyath_goldmane/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2117,6 +2368,7 @@
       "text_en": "The base {p} and {d} of cards you control are halved, rounded up.\nInstant - {r}{r}, {t}: The crowd boos you. Defending action cards you control get +1{d} this turn.\nWhenever the crowd boos you, create a Might token.",
       "source": "https://cards.fabtcg.com/card/lyath_goldmane_vile_savant/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,

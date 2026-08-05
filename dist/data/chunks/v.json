@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "v_for_valor": {
       "id": "v_for_valor",
@@ -11,6 +11,7 @@
       "text_en": "Attack Reaction - {r}, destroy this, charge your hero's soul: Target attack gains +3{p}.",
       "source": "https://cards.fabtcg.com/card/v_for_valor/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -41,6 +42,9 @@
       "text_en": "Boltyn Specialization\nAs an additional cost to play V of the Vanguard, you may charge your hero's soul any number of times.\nAttacks on this combat chain gain +1{p} for each Light card charged this way.",
       "source": "https://cards.fabtcg.com/card/v_of_the_vanguard/",
       "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -59,6 +63,7 @@
       "text_en": "When this defends, you may pay up to {r}{r}{r}. Create that many Seismic Surge tokens.",
       "source": "https://cards.fabtcg.com/card/valahai_riven/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -77,6 +82,7 @@
       "text_en": "Whenever an opponent draws a card during an action phase, create a Seismic Surge token for each card drawn this way.\nAt the start of your turn, if you control 3 or more Seismic Surge tokens, cards you own with crush gain dominate this turn.",
       "source": "https://cards.fabtcg.com/card/valda_brightaxe/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -95,6 +101,7 @@
       "text_en": "Whenever an opponent draws 1 or more cards during an action phase, create that many Seismic Surge tokens.\nAt the start of your turn, if you control 3 or more Siesmic Surge tokens, cards you own with crush get dominate this turn.",
       "source": "https://cards.fabtcg.com/card/valda_seismic_impact/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -113,6 +120,9 @@
       "text_en": "At the beginning of your end phase, if you've attacked 2 or more times with weapons this turn, you may remove a -1{d} counter from this.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/valiant_dynamo/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -131,6 +141,7 @@
       "text_en": "If you've charged this turn, Valiant Thrust gains +3{p}.",
       "source": "https://cards.fabtcg.com/card/valiant_thrust/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -161,6 +172,9 @@
       "text_en": "Once per Turn Attack Reaction - {r}: The next prevention effect that prevents {p} damage this turn, prevents 1 less of that damage.\nWhen this defends, you may pay {r}. If you do, it gains +1{d} and blade break.",
       "source": "https://cards.fabtcg.com/card/vambrace_of_determination/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -179,6 +193,9 @@
       "text_en": "If you've played or created an aura this turn, this gets overpower.",
       "source": "https://cards.fabtcg.com/card/vantage_point/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -209,6 +226,10 @@
       "text_en": "Rune Gate\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/vantom_banshee/",
       "status": "machine-draft",
+      "keywords": [
+        "Rune Gate",
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -239,6 +260,10 @@
       "text_en": "Rune Gate\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/vantom_wraith/",
       "status": "machine-draft",
+      "keywords": [
+        "Rune Gate",
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -269,6 +294,9 @@
       "text_en": "Meld\nDestroy an aura permanent with cost X or less and/or up to X aura tokens, where X is the total arcane damage you've dealt to opposing heroes this turn.\n//\nDeal 1 arcane damage to any target.",
       "source": "https://cards.fabtcg.com/card/vaporize_shock/",
       "status": "machine-draft",
+      "keywords": [
+        "Meld"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -287,6 +315,9 @@
       "text_en": "Go again\nThe next attack action card you play this turn is Illusionist in addition to its other card, and gains +4{p}, phantasm, and \"When this is destroyed, draw a card.\"",
       "source": "https://cards.fabtcg.com/card/veiled_intentions/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -317,6 +348,9 @@
       "text_en": "Lightning Fusion\nIf Vela Flash was fused, you may play your next 'non-attack' action card this turn as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/vela_flash/",
       "status": "machine-draft",
+      "keywords": [
+        "Lightning Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -347,6 +381,10 @@
       "text_en": "Combo - If Edge of Autumn was the last attack this combat chain, this gets go again and \"When this hits a hero, banish it. You may play it this turn.\"",
       "source": "https://cards.fabtcg.com/card/vengeance_never_rests/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -365,6 +403,9 @@
       "text_en": "When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 2 or less this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.\nWard 1",
       "source": "https://cards.fabtcg.com/card/vengeful_apparition/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -395,6 +436,10 @@
       "text_en": "Legendary\nEquip Scabskin Leathers. If you don't, negate this.",
       "source": "https://cards.fabtcg.com/card/venomback_fabric/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Negate"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -413,6 +458,7 @@
       "text_en": "Target Assassin or Mystic attack action card gets +3{p}.\nIf you've pitched a blue card this turn, create a Fang Strike in your hand.",
       "source": "https://cards.fabtcg.com/card/venomous_bite/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -443,6 +489,9 @@
       "text_en": "If there are 4 or more Earth cards in your banished zone, Verdance gets \"Whenever you gain {h} during your turn, you may deal 1 arcane damage to any opposing target.\"\nEssence of Earth",
       "source": "https://cards.fabtcg.com/card/verdance/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Earth"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -461,6 +510,9 @@
       "text_en": "If there are 8 or more Earth cards in your banished zone, Verdance gets \"Whenever you gain {h} during your turn, you may deal 1 arcane damage to any opposing target.\"\nEssence of Earth",
       "source": "https://cards.fabtcg.com/card/verdance_thorn_of_the_rose/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Earth"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -479,6 +531,10 @@
       "text_en": "Until end of turn, if you would create 1 or more Elemental or Runeblade aura tokens, instead create that many plus 1 of each of those tokens.\nEarth Bond - If an Earth card was pitched to play this, create an Embodiment of Earth token.\nGo again",
       "source": "https://cards.fabtcg.com/card/verdant_tide/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth Bond",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -497,6 +553,7 @@
       "text_en": "When an attack action card you control hits, you may destroy Vest of the First Fist. If you do, gain {r}{r}.",
       "source": "https://cards.fabtcg.com/card/vest_of_the_first_fist/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -515,6 +572,9 @@
       "text_en": "The first time an opponent would gain {h} each turn, instead you lose that much and create that many Vigor tokens.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/vestige_of_flagellation/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -533,6 +593,9 @@
       "text_en": "If a card has been put into your hero's soul this turn, whenever you pitch a Light card, instead gain that many {r} plus 1.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/vestige_of_sol/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -551,6 +614,7 @@
       "text_en": "Deal 2 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/vexing_malice/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -581,6 +645,9 @@
       "text_en": "Action - Destroy this: Create 2 Runechant tokens. Go again\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/vexing_quillhand/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -599,6 +666,9 @@
       "text_en": "The first time each turn you create a Gold token from an effect you control, draw a card.\nThe first time each turn you would fail to win a clash, instead you may destroy a Gold you control. If you do, put 1 of the revealed cards on the bottom of its owner's deck, then clash again.",
       "source": "https://cards.fabtcg.com/card/victor_goldmane/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -617,6 +687,9 @@
       "text_en": "The first time each turn you create a Gold token from an effect you control, draw a card.\nThe first time each turn you would fail to win a clash, instead you may destroy a Gold you control. If you do, put 1 of the revealed cards on the bottom of its owner's deck, then clash again.",
       "source": "https://cards.fabtcg.com/card/victor_goldmane_high_and_mighty/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -635,6 +708,7 @@
       "text_en": "Instant - {t}: Choose an opponent. The first card they reveal for their next clash this turn gets +1{p}. When they win that clash, you create a Gold token.\nWhenever you attack, you may destroy 3 Gold you control. If you do, the attack gets +3{p} and dominate.",
       "source": "https://cards.fabtcg.com/card/victor_goldmane_match_fixer/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -653,6 +727,9 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen Victoria attacks, you may banish a card from your hero's soul. If you do, attack action cards your opponents control get -1{p} until the start of your next turn.\nWard 4",
       "source": "https://cards.fabtcg.com/card/victoria_archangel_of_triumph/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 4"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -671,6 +748,7 @@
       "text_en": "Instant - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this only if a weapon has attacked this turn.",
       "source": "https://cards.fabtcg.com/card/vigilant_dodgers/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -689,6 +767,7 @@
       "text_en": "At the start of your turn, destroy this, then gain {r}.",
       "source": "https://cards.fabtcg.com/card/vigor/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -707,6 +786,9 @@
       "text_en": "Action - Destroy this: Create a Vigor token. Go again\nBlade Break",
       "source": "https://cards.fabtcg.com/card/vigor_girth/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -725,6 +807,9 @@
       "text_en": "If you have played a 'non-attack' action card this turn, Vigor Rush gains go again.",
       "source": "https://cards.fabtcg.com/card/vigor_rush/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -755,6 +840,7 @@
       "text_en": "Target Warrior attack gets +3{p}. If it's defended by an attack action card, create a Vigor token.",
       "source": "https://cards.fabtcg.com/card/vigorous_engagement/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -785,6 +871,9 @@
       "text_en": "Your next attack this turn gets +3{p}.\nIf there is a card with 6 or more {p} in your pitch zone, create a Vigor token.\nGo again",
       "source": "https://cards.fabtcg.com/card/vigorous_roar/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -803,6 +892,9 @@
       "text_en": "When this defends, clash with the attacking hero. The winner creates a Vigor token. You may put your revealed card on the bottom of its owner's deck.",
       "source": "https://cards.fabtcg.com/card/vigorous_smashup/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -833,6 +925,7 @@
       "text_en": "Instant - Discard this: Create a Vigor token.",
       "source": "https://cards.fabtcg.com/card/vigorous_windup/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -863,6 +956,9 @@
       "text_en": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.\nTarget hero banishes the top card of their deck. If it's red, they lose 1{h}.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/vile_inquisition/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -893,6 +989,10 @@
       "text_en": "Your next attack this turn gets +4{p}.\nThe crowd boos you.\nGo again",
       "source": "https://cards.fabtcg.com/card/villainous_pose/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "The Crowd Boos"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -923,6 +1023,7 @@
       "text_en": "When Vipox hits a hero, they lose {h} equal to the number of cards in their hand.",
       "source": "https://cards.fabtcg.com/card/vipox/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -941,6 +1042,9 @@
       "text_en": "When this defends, you may remove a suspense counter from an aura you control. If you do, gain {r}{r}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/virtuoso_bodice/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -959,6 +1063,7 @@
       "text_en": "Virulent Touch can't be played from hand.\nWhen this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.",
       "source": "https://cards.fabtcg.com/card/virulent_touch/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -989,6 +1094,7 @@
       "text_en": "Whenever you play a Runeblade card, if you have played another 'non-attack' action card this turn, create a Runechant token.",
       "source": "https://cards.fabtcg.com/card/viserai/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1007,6 +1113,7 @@
       "text_en": "Whenever you play a Runeblade card, if you've played another non-attack action card this turn, create a Runechant token.",
       "source": "https://cards.fabtcg.com/card/viserai_rune_blood/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1025,6 +1132,7 @@
       "text_en": "When this hits, you may put an instant card from your graveyard on the bottom of your deck.",
       "source": "https://cards.fabtcg.com/card/visionary_of_orbits/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1043,6 +1151,7 @@
       "text_en": "Remove X -1{d} counters from a Guardian off-hand you have equipped.",
       "source": "https://cards.fabtcg.com/card/visit_anvilheim/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1061,6 +1170,9 @@
       "text_en": "Victor Specialization\nCreate a Gold token. Then if you control 3 or more Gold, create that many Might tokens.\nGo again",
       "source": "https://cards.fabtcg.com/card/visit_goldmane_estate/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1079,6 +1191,9 @@
       "text_en": "Your next sword attack this turn gains +1{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/visit_the_blacksmith/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1097,6 +1212,7 @@
       "text_en": "Put a card with 6 or more {p} from your graveyard on top of your deck.\nCreate a Vigor token.",
       "source": "https://cards.fabtcg.com/card/visit_the_boneyard/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1115,6 +1231,9 @@
       "text_en": "At the start of your turn, destroy this and sharpen all swords you control.",
       "source": "https://cards.fabtcg.com/card/visit_the_dawnsmith/",
       "status": "machine-draft",
+      "keywords": [
+        "Sharpen"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1133,6 +1252,7 @@
       "text_en": "Katsu Specialization\nPut a Surging Strike and a card with combo from your graveyard on the top and/or bottom of your deck.",
       "source": "https://cards.fabtcg.com/card/visit_the_floating_dojo/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1151,6 +1271,7 @@
       "text_en": "Olympia Specialization\nAs an additional cost to play this, destroy X Gold you control.\nEquip X weapons and/or equipment from your inventory.",
       "source": "https://cards.fabtcg.com/card/visit_the_golden_anvil/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1169,6 +1290,9 @@
       "text_en": "Sword and dagger attacks have piercing 3 this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/visit_the_imperial_forge/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1199,6 +1323,9 @@
       "text_en": "Olympia Specialization\nYou may destroy a Gold you control. If you do, equip a Prized Galea from your inventory.\nCreate a Vigor and a Courage token. Go again",
       "source": "https://cards.fabtcg.com/card/visit_the_prize_room/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1217,6 +1344,7 @@
       "text_en": "Until end of turn, your attacks get \"When this attacks a hero, you each create a Gold token, then you wager with them. The winner gains control of all Gold tokens the other hero controls.\"",
       "source": "https://cards.fabtcg.com/card/visit_the_winner_takes_all/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1235,6 +1363,9 @@
       "text_en": "Action - destroy Vizertronic Model i: Whenever you boost this turn, draw a card then put a card from your hand on top of your deck. Go again\nArcane Barrier 2",
       "source": "https://cards.fabtcg.com/card/viziertronic_model_i/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 2"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1253,6 +1384,9 @@
       "text_en": "You may play Void Wraith from your banished zone.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/void_wraith/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1283,6 +1417,9 @@
       "text_en": "If you've played an instant card this chain link, this gets +3{p}.\nWhen this hits, create a Lightning Flow token.\nGo again",
       "source": "https://cards.fabtcg.com/card/volatile_fluxor/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1313,6 +1450,9 @@
       "text_en": "If you've created a Seismic Surge this turn, this gets spellvoid 3.",
       "source": "https://cards.fabtcg.com/card/volcanic_vice/",
       "status": "machine-draft",
+      "keywords": [
+        "Spellvoid 3"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1331,6 +1471,7 @@
       "text_en": "Twice per Turn Instant - {r}: You may put an arrow card from your hand face up into an empty arsenal zone you control. If you do, choose 1;\n\nIt gains +1{p} until end of turn.\nIt gains go again until end of turn.",
       "source": "https://cards.fabtcg.com/card/voltaire_strike_twice/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1349,6 +1490,9 @@
       "text_en": "Legendary\nWhen this is pitched, create a Lightning Flow token.",
       "source": "https://cards.fabtcg.com/card/voltaris/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1367,6 +1511,7 @@
       "text_en": "Instant - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.",
       "source": "https://cards.fabtcg.com/card/voltbound_duality/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1397,6 +1542,7 @@
       "text_en": "Deal 5 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/voltic_bolt/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1427,6 +1573,7 @@
       "text_en": "Twice per Turn Instant - {r}: This gets +1{p}.\nWhen this hits, create a Lightning Flow token.",
       "source": "https://cards.fabtcg.com/card/voltic_impact/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1445,6 +1592,7 @@
       "text_en": "Instant - Destroy this: Prevent the next 2 damage that would be dealt to you this turn. Activate this only if you've played an instant card this turn.",
       "source": "https://cards.fabtcg.com/card/voltic_vanguard/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1463,6 +1611,9 @@
       "text_en": "Prevent the next 4 damage that would be dealt to you this turn.\nLightning Bond - If a Lightning card was pitched to play this, deal 1 arcane damage to all opposing heroes.",
       "source": "https://cards.fabtcg.com/card/voltic_veil/",
       "status": "machine-draft",
+      "keywords": [
+        "Lightning Bond"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1481,6 +1632,7 @@
       "text_en": "Instant - {t}: Amp 1. Activate this only if an instant card has been put into your graveyard this turn.",
       "source": "https://cards.fabtcg.com/card/volzar_meteor_storm/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1499,6 +1651,7 @@
       "text_en": "If you control an aura permanent with Sigil in its name, this costs {r} less to activate.\nOnce per Turn Instant - {r}: Amp X, where X is the number of Lightning cards you've played this turn.",
       "source": "https://cards.fabtcg.com/card/volzar_the_lightning_rod/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1517,6 +1670,9 @@
       "text_en": "Attack Reaction - Destroy this: Mark target Arakni.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/vow_of_vengeance/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1535,6 +1691,7 @@
       "text_en": "At the start of your turn, banish a card from your hand. If you do, create a Runechant token.\nWhenever you play a Shadow non-attack action card, you may pay {h}. If you do, the next Runechant effect that would deal damage this turn can't be prevented.",
       "source": "https://cards.fabtcg.com/card/vynnset/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1553,6 +1710,7 @@
       "text_en": "At the start of your turn, banish a card from your hand. If you do, create a Runechant token.\nWhenever you play a Shadow non-attack action card, you may pay {h}. If you do, the next Runechant effect that would deal damage this turn can't be prevented.",
       "source": "https://cards.fabtcg.com/card/vynnset_iron_maiden/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1571,6 +1729,7 @@
       "text_en": "Whenever Vynserakai hits a hero, he deals 3 arcane damage to them.",
       "source": "https://cards.fabtcg.com/card/vynserakai/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,

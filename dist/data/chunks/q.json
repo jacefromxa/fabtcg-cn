@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "qi_unleashed": {
       "id": "qi_unleashed",
@@ -11,6 +11,9 @@
       "text_en": "Combo - If Crouching Tiger was the last attack this combat chain, this gets +4{p}.",
       "source": "https://cards.fabtcg.com/card/qi_unleashed/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -41,6 +44,9 @@
       "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nOnce per Turn Instant - 0: Put a Mechanologist item with cost 0 or 1 from your hand into the arena.",
       "source": "https://cards.fabtcg.com/card/quantum_processor/",
       "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -59,6 +65,9 @@
       "text_en": "Action - {r}{r}, destroy this: The next non-attack action card you play this turn gets go again. Go again\nBlade Break",
       "source": "https://cards.fabtcg.com/card/quartermasters_boots/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -77,6 +86,9 @@
       "text_en": "Quell 1",
       "source": "https://cards.fabtcg.com/card/quelling_robe/",
       "status": "machine-draft",
+      "keywords": [
+        "Quell 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -95,6 +107,9 @@
       "text_en": "Quell 1",
       "source": "https://cards.fabtcg.com/card/quelling_sleeves/",
       "status": "machine-draft",
+      "keywords": [
+        "Quell 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -113,6 +128,9 @@
       "text_en": "Quell 1",
       "source": "https://cards.fabtcg.com/card/quelling_slippers/",
       "status": "machine-draft",
+      "keywords": [
+        "Quell 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -131,6 +149,7 @@
       "text_en": "Action - Destroy this: Your next attack this turn gets go again. Activate this only if you've played a Nimblism this turn. Go again",
       "source": "https://cards.fabtcg.com/card/quick_clicks/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -149,6 +168,9 @@
       "text_en": "The next Runeblade or Lightning attack action card you play this turn gets go again.\nYour next 3 attacks this turn get +1{p} while they have go again.\nGo again",
       "source": "https://cards.fabtcg.com/card/quick_succession/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -179,6 +201,7 @@
       "text_en": "Defense Reaction - {r}: Add this to the active chain link as a defending card. It has 2 base {d} this chain link.\nAt the beginning of the end phase, if this defendend this turn, destroy it.",
       "source": "https://cards.fabtcg.com/card/quickdodge_flexors/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -197,6 +220,7 @@
       "text_en": "When you play an attack action card or activate a weapon attack, destroy this and the attack gains go again.",
       "source": "https://cards.fabtcg.com/card/quicken/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -215,6 +239,9 @@
       "text_en": "Create a Quicken token under target hero's control.\nGo again\nWhen this defends an attack with go again, {t} target hero or ally.",
       "source": "https://cards.fabtcg.com/card/quickening_sand/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -233,6 +260,9 @@
       "text_en": "This costs {r} less to play for each Hyper Driver you control.\nThe next attack you boost this turn gets +4{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/quickfire/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -263,6 +293,9 @@
       "text_en": "Once per Turn Action - {r}: Attack\nIf another weapon you control has gained go again this turn, this card's attacks get go again.",
       "source": "https://cards.fabtcg.com/card/quicksilver_dagger/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -281,6 +314,7 @@
       "text_en": "Remove a +1{p} counter from target attacking weapon. If you do, create a Blade Dance token and draw a card.",
       "source": "https://cards.fabtcg.com/card/quicksilver_dance/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -299,6 +333,7 @@
       "text_en": "Action - Destroy this: Each hero creates a Quicken token.  Go again",
       "source": "https://cards.fabtcg.com/card/quickstep/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -317,6 +352,7 @@
       "text_en": "Instant - {r}{r}{r}, destroy Quiver of Abyssal Depths: Shuffle up to 3 arrows with different names from your graveyard into your deck.",
       "source": "https://cards.fabtcg.com/card/quiver_of_abyssal_depths/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -335,6 +371,7 @@
       "text_en": "Instant - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.",
       "source": "https://cards.fabtcg.com/card/quiver_of_rustling_leaves/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,

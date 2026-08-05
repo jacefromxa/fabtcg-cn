@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "radiant_flow": {
       "id": "radiant_flow",
@@ -11,6 +11,7 @@
       "text_en": "Instant - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn.",
       "source": "https://cards.fabtcg.com/card/radiant_flow/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -29,6 +30,7 @@
       "text_en": "If your hero would be dealt damage, banish a card from your hero's soul to prevent 1 of that damage.\nWhen there are no cards in your hero's soul, destroy this.",
       "source": "https://cards.fabtcg.com/card/radiant_forcefield/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -47,6 +49,7 @@
       "text_en": "Instant - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn.",
       "source": "https://cards.fabtcg.com/card/radiant_raiment/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -65,6 +68,7 @@
       "text_en": "Instant - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn.",
       "source": "https://cards.fabtcg.com/card/radiant_touch/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -83,6 +87,7 @@
       "text_en": "Instant - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn.",
       "source": "https://cards.fabtcg.com/card/radiant_view/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -101,6 +106,7 @@
       "text_en": "Instant - Destroy Ragamuffin's Hat: Draw a card then put a card from your hand on the top or bottom of your deck. Activate this ability only if you have 1 card in hand.",
       "source": "https://cards.fabtcg.com/card/ragamuffins_hat/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -119,6 +125,9 @@
       "text_en": "Attack Reaction - {r}, {t}: Target attack with stealth gets \"When this hits a hero, mark them.\"\nBlade Break",
       "source": "https://cards.fabtcg.com/card/rage_baiters/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -137,6 +146,10 @@
       "text_en": "When this enters the arena, if you control no other Illusionist auras, gain 1 action point.\nDuring your turn, this has ward 6. Otherwise, this has ward 1.",
       "source": "https://cards.fabtcg.com/card/rage_specter/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 1",
+        "Ward 6"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -155,6 +168,7 @@
       "text_en": "",
       "source": "https://cards.fabtcg.com/card/raging_onslaught/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -185,6 +199,7 @@
       "text_en": "Arrows have +2{p} while attacking this turn.",
       "source": "https://cards.fabtcg.com/card/rain_razors/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -203,6 +218,7 @@
       "text_en": "When this defends an attack with {p} greater than its base, dominate, and go again, the attack gets -2{p} and loses and can't gain abilities.",
       "source": "https://cards.fabtcg.com/card/rainbow_goo_trap/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -221,6 +237,9 @@
       "text_en": "Kassai Specialization\nAs an additional cost to play this, destroy X Gold you control.\nCreate X Cintari Sellsword tokens.\nGo again",
       "source": "https://cards.fabtcg.com/card/raise_an_army/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -239,6 +258,9 @@
       "text_en": "Draw a card. Put a card from your hand on top of your deck.\nYour next sword attack this turn gets +3{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/raise_blades/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -257,6 +279,9 @@
       "text_en": "You may destroy a Gold you control rather than pay this card's {r} cost.\nYour next sword attack this turn gets +2{p} and \"When this attacks, wager with the defending hero. The winner may equip an equipment card from their graveyard.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/rake_back/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -275,6 +300,7 @@
       "text_en": "Draconic attacks get +1{p} this turn.",
       "source": "https://cards.fabtcg.com/card/rake_over_the_coals/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -293,6 +319,10 @@
       "text_en": "Create an Ash token, then transform up to 3 ash you control into Aether Ashwings.\nGo again",
       "source": "https://cards.fabtcg.com/card/rake_the_embers/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -323,6 +353,7 @@
       "text_en": "Once per Turn Instant - Discard a card: This gets +3{d}. Activate this only while this card is defending.",
       "source": "https://cards.fabtcg.com/card/rally_the_coast_guard/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -353,6 +384,7 @@
       "text_en": "Once per Turn Instant - Discard a card: This gets +3{d}. Activate this ability only while this is defending.",
       "source": "https://cards.fabtcg.com/card/rally_the_rearguard/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -383,6 +415,7 @@
       "text_en": "Draw a card. If you have less {h} than an opponent, instead draw 2 cards.",
       "source": "https://cards.fabtcg.com/card/rally_the_underdog/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -401,6 +434,10 @@
       "text_en": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets go again.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/ram_raider/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -431,6 +468,10 @@
       "text_en": "Meld\nAmp X, where X is the total {h} you've gained this turn.\n//\nGain 1{h}",
       "source": "https://cards.fabtcg.com/card/rampant_growth_life/",
       "status": "machine-draft",
+      "keywords": [
+        "Meld",
+        "Amp X"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -449,6 +490,7 @@
       "text_en": "Whenever you defend with Rampart of the Ram's Head, you may pay {r}. If you do, it gains +1{d} until end of turn.",
       "source": "https://cards.fabtcg.com/card/rampart-of-the-rams-head/",
       "status": "deck-translation-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -467,6 +509,7 @@
       "text_en": "Shuffle the event deck, put this on the bottom, then flip the top card.",
       "source": "https://cards.fabtcg.com/card/random_events_unfold/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -485,6 +528,9 @@
       "text_en": "Destroy target landmark with cost X. Create X Gold tokens.\nGo again",
       "source": "https://cards.fabtcg.com/card/ransack_and_raze/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -503,6 +549,9 @@
       "text_en": "Until end of turn, arrows you control gain go again.\nReload\nGo again",
       "source": "https://cards.fabtcg.com/card/rapid_fire/",
       "status": "machine-draft",
+      "keywords": [
+        "Reload"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -521,6 +570,7 @@
       "text_en": "Target attack action card with cost 0 gains +3{p}.",
       "source": "https://cards.fabtcg.com/card/rapid_reflex/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -551,6 +601,9 @@
       "text_en": "When you win a clash revealing this, the crowd cheers you.",
       "source": "https://cards.fabtcg.com/card/rapturous_applause/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -581,6 +634,9 @@
       "text_en": "If an item you control has been destroyed this turn, action cards get -1{d} while defending this.\nGalvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
       "source": "https://cards.fabtcg.com/card/ratchet_up/",
       "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -611,6 +667,9 @@
       "text_en": "Banish target Runeblade attack action card from your graveyard. You may play it this turn.\nIf you have dealt arcane damage to an opposing hero this turn, you may play Rattle Bones as though it were an instant.\nGo again",
       "source": "https://cards.fabtcg.com/card/rattle_bones/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -629,6 +688,7 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack\nWhenever you attack with Ravenous Meataxe, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Ravenous Meataxe gains +2{p} until end of turn.",
       "source": "https://cards.fabtcg.com/card/ravenous_meataxe/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -647,6 +707,9 @@
       "text_en": "When this attacks, reveal the top card of your deck. This gets -X{p}, where X is the pitch value of the card revealed this way.\nGo again",
       "source": "https://cards.fabtcg.com/card/ravenous_rabble/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -677,6 +740,9 @@
       "text_en": "If you control an Agility token, this gets +1{d}.\nIf you control a Might token, this gets +1{d}.\nTemper",
       "source": "https://cards.fabtcg.com/card/raw_meat/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -695,6 +761,10 @@
       "text_en": "Beat Chest\nWhen this attacks a hero, if you've beaten chest this turn, intimidate them.",
       "source": "https://cards.fabtcg.com/card/rawhide_rumble/",
       "status": "machine-draft",
+      "keywords": [
+        "Beat Chest",
+        "Intimidate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -725,6 +795,7 @@
       "text_en": "Attacks you control have +1{p} while attacking a Shadow hero this turn.\nIf you have less {h} than an opposing Shadow hero, put Ray of Hope into your hero's soul.",
       "source": "https://cards.fabtcg.com/card/ray_of_hope/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -743,6 +814,7 @@
       "text_en": "Once per Turn Action - 0: Attack\nIf you've charged this turn, Raydn gains +3{p}.",
       "source": "https://cards.fabtcg.com/card/raydn_duskbane/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -761,6 +833,7 @@
       "text_en": "Choose 1;\n- Target dagger or sword weapon attack gets +3{p}.\n- Target attack action card with cost 1 or less gets +3{p} and \"When this hits, it gets go again.\"",
       "source": "https://cards.fabtcg.com/card/razor_reflex/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -791,6 +864,9 @@
       "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nWhen this hits a hero, the next action card they defend with this combat chain gets -1{d} until end of turn.",
       "source": "https://cards.fabtcg.com/card/razor_ring/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -809,6 +885,7 @@
       "text_en": "Target attack action card with stealth gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/razors_edge/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -839,6 +916,9 @@
       "text_en": "Boost",
       "source": "https://cards.fabtcg.com/card/razzle_dazzle/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -869,6 +949,9 @@
       "text_en": "Put a steam counter on a Hyper Driver you control.\nThe next attack you boost this turn gets +4{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/re_charge/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -899,6 +982,9 @@
       "text_en": "Action - Destroy this: Return an ally card from your graveyard to your hand, then discard a card. Go again\nBattleworn",
       "source": "https://cards.fabtcg.com/card/reach_beyond_the_grave/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -917,6 +1003,10 @@
       "text_en": "Your next arrow attack this turn gains +3{p}.\nOpt 1\nGo again",
       "source": "https://cards.fabtcg.com/card/read_the_glide_path/",
       "status": "machine-draft",
+      "keywords": [
+        "Opt 1",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -947,6 +1037,9 @@
       "text_en": "At the beginning of your end phase, destroy Read the Ripples then opt 1, opt 1, opt 1, and draw a card.",
       "source": "https://cards.fabtcg.com/card/read_the_ripples/",
       "status": "machine-draft",
+      "keywords": [
+        "Opt 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -977,6 +1070,7 @@
       "text_en": "Create 3 Runechant tokens.",
       "source": "https://cards.fabtcg.com/card/read_the_runes/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1007,6 +1101,9 @@
       "text_en": "Kayo Specialization\nIf you would roll 1 or more dice this turn, instead roll that many dice plus 1 and ignore the lowest roll.\nGo again",
       "source": "https://cards.fabtcg.com/card/ready_to_roll/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1025,6 +1122,7 @@
       "text_en": "Illusionist auras you control are weapons with 5 base {p} and \"Once per Turn Action - {r]{r}: Attack\"",
       "source": "https://cards.fabtcg.com/card/reality_refractor/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1043,6 +1141,9 @@
       "text_en": "Stealth\nInstant - Discard this: Mark target opposing hero.",
       "source": "https://cards.fabtcg.com/card/reapers_call/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1073,6 +1174,7 @@
       "text_en": "Once per Turn Action - {r}: Attack\nIf a hero has more {h} than any other hero, they can't gain {h}.",
       "source": "https://cards.fabtcg.com/card/reaping_blade/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1091,6 +1193,9 @@
       "text_en": "Go again",
       "source": "https://cards.fabtcg.com/card/rebellious_rush/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1121,6 +1226,7 @@
       "text_en": "Choose X equipment with cloaked you have equipped. Turn them face-down.",
       "source": "https://cards.fabtcg.com/card/recede_to_mistform/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1139,6 +1245,7 @@
       "text_en": "When this attacks, roll a 6 sided die. This gets +X{p}, where X is the number rolled.",
       "source": "https://cards.fabtcg.com/card/reckless_arithmetic/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1157,6 +1264,7 @@
       "text_en": "Kayo Specialization\nRoll a 6 sided die. Gain action points equal to half the number rolled, rounded down.\nIf you've rolled a 6 on a die this turn, draw a card.",
       "source": "https://cards.fabtcg.com/card/reckless_charge/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1175,6 +1283,9 @@
       "text_en": "Whenever a card defends this, clash with the defending hero. The winner deals 1 damage to each other hero. Each hero may put their revealed card on the bottom of its owner's deck.",
       "source": "https://cards.fabtcg.com/card/reckless_stampede/",
       "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1193,6 +1304,7 @@
       "text_en": "As an additional cost to play Reckless Swing, discard a random card.\nIf the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.",
       "source": "https://cards.fabtcg.com/card/reckless_swing/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1211,6 +1323,9 @@
       "text_en": "Combo - If Head Jab was the last attack this combat chain, this has \"When this hits a hero, they put a card from their hand on top of their deck.\"",
       "source": "https://cards.fabtcg.com/card/recoil/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1241,6 +1356,9 @@
       "text_en": "If an attack reaction has been played or activated this chain link, this gets +1{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/red_alert_boots/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1259,6 +1377,9 @@
       "text_en": "If an attack reaction has been played or activated this chain link, this gets +1{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/red_alert_gloves/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1277,6 +1398,9 @@
       "text_en": "If an attack reaction has been played or activated this chain link, this gets +1{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/red_alert_vest/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1295,6 +1419,9 @@
       "text_en": "If an attack reaction has been played or activated this chain link, this gets +1{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/red_alert_visor/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1313,6 +1440,9 @@
       "text_en": "Go Fish - When this hits a hero, they choose and reveal a card from their hand. If it's red, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",
       "source": "https://cards.fabtcg.com/card/red_fin_harpoon/",
       "status": "machine-draft",
+      "keywords": [
+        "Go Fish"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1331,6 +1461,9 @@
       "text_en": "Dromai or Fai Specialization\nRupture - If Red Hot is played as chain link 4 or higher, it has \"When you attack with this, reveal the top X cards of your deck, where X is the number of Draconic chain links you control. Deal damage equal to the number of red cards revealed this way to any target, then shuffle.\"",
       "source": "https://cards.fabtcg.com/card/red_hot/",
       "status": "machine-draft",
+      "keywords": [
+        "Rupture"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1349,6 +1482,7 @@
       "text_en": "Azalea Specialization\nIf Red in the Ledger hits a hero, they can't play or activate more than 1 action during their next turn.",
       "source": "https://cards.fabtcg.com/card/red_in_the_ledger/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1367,6 +1501,7 @@
       "text_en": "Once per Turn Action - 0: If you have no cards in your arsenal, put an arrow card from your hand face up into your arsenal. Go again",
       "source": "https://cards.fabtcg.com/card/red_liner/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1385,6 +1520,7 @@
       "text_en": "If you've activated a cannon this turn, this gets \"When this hits a hero, banish a red action card from their graveyard. You may play it until the end of your next turn.\"",
       "source": "https://cards.fabtcg.com/card/red_lure_harpoon/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1403,6 +1539,9 @@
       "text_en": "While Redback Shroud is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip Redback Shroud.\nAttack Reaction - Destroy Redback Shroud: The next attack reaction card you play this turn costs {r} less to play.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/redback_shroud/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1421,6 +1560,7 @@
       "text_en": "Action - {t}: Put an arrow from your hand face-up into your arsenal. Go again",
       "source": "https://cards.fabtcg.com/card/redspine_manta/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1439,6 +1579,7 @@
       "text_en": "Reduce to Runechant costs {r} less to play for each Runechant you control.\nCreate a Runechant token.",
       "source": "https://cards.fabtcg.com/card/reduce_to_runechant/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1469,6 +1610,7 @@
       "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf an Earth card was pitched to attack with this, the attack gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/redwood_hammer/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1487,6 +1629,7 @@
       "text_en": "If you have played or created an aura this turn, Reek of Corruption gains \"When this hits a hero, they discard a card.\"",
       "source": "https://cards.fabtcg.com/card/reek_of_corruption/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1517,6 +1660,9 @@
       "text_en": "Look at the top X+1 cards of your deck. Choose up to 4 traps, reveal them, put them into your hand, then shuffle.\nReload",
       "source": "https://cards.fabtcg.com/card/reel_in/",
       "status": "machine-draft",
+      "keywords": [
+        "Reload"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1535,6 +1681,9 @@
       "text_en": "When a weapon attack you control hits, you may destroy this. If you do, the attack gets go again.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/refraction_bolters/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1553,6 +1702,9 @@
       "text_en": "Your next attack this turn gets +1{p} and \"When this hits, {u} your hero.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/regain_composure/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1571,6 +1723,9 @@
       "text_en": "Legendary Arakni Specialization\nWhen this hits a Royal hero, they lose the game.\nWhen the combat chain closes, you lose the game.\nRegicide can't be defended by cards with the same name as cards in the defending hero's banished zone.",
       "source": "https://cards.fabtcg.com/card/regicide/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1589,6 +1744,10 @@
       "text_en": "Meld\nReturn an attack action card with cost less than X from your graveyard to your hand, where X is the total arcane damage you've dealt to opposing heroes this turn. Go again\n//\nDeal 1 arcane damage to any target.",
       "source": "https://cards.fabtcg.com/card/regrowth_shock/",
       "status": "machine-draft",
+      "keywords": [
+        "Meld",
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1607,6 +1766,9 @@
       "text_en": "As an additional cost to play Regurgitating Slog, you may banish a card named Sloggism from your graveyard. If you do, Regurgitating Slog gains dominate.",
       "source": "https://cards.fabtcg.com/card/regurgitating_slog/",
       "status": "machine-draft",
+      "keywords": [
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1637,6 +1799,7 @@
       "text_en": "When this is discarded at random, put it on the bottom of its owner's deck.",
       "source": "https://cards.fabtcg.com/card/reincarnate/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1667,6 +1830,7 @@
       "text_en": "Remove a -1{d} counter from a Guardian off-hand you control with 3 or less base {d}.",
       "source": "https://cards.fabtcg.com/card/reinforce_steel/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1697,6 +1861,7 @@
       "text_en": "Target defending attack action card gains +4{d}.",
       "source": "https://cards.fabtcg.com/card/reinforce_the_line/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1727,6 +1892,7 @@
       "text_en": "Gain 3{h}\nIf you've fused this turn, you may play Rejuvenate as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/rejuvenate/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1757,6 +1923,9 @@
       "text_en": "Your next arrow attack this turn gains +3{p} and \"Defense reactions can't be played from arsenal this chain link.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/release_the_tension/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1787,6 +1956,10 @@
       "text_en": "Mark target opposing hero.\nIf you've attacked them this turn, put this on the bottom of its owner's deck.\nGo again",
       "source": "https://cards.fabtcg.com/card/relentless_pursuit/",
       "status": "machine-draft",
+      "keywords": [
+        "Mark",
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1805,6 +1978,7 @@
       "text_en": "Shuffle up to 3 action cards from your graveyard into your deck.\nBanish Remembrance.",
       "source": "https://cards.fabtcg.com/card/remembrance/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1823,6 +1997,7 @@
       "text_en": "If Remorseless is put into your arsenal face up, until end of turn it gains \"Defense reaction cards can't be played from arsenal to Remoreseless's chain link.\"\nIf Remorseless hits a hero, until the end of their next turn, whenever they play an action card, they lose 1{h}.",
       "source": "https://cards.fabtcg.com/card/remorseless/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1841,6 +2016,9 @@
       "text_en": "Until end of turn, whenever a sword you control hits a hero, you may remove a +1{p} counter from it. If you do, they lose 2{h}.\nGo again",
       "source": "https://cards.fabtcg.com/card/rend_flesh/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1859,6 +2037,9 @@
       "text_en": "If the defending hero controls an aura token, this gets +1{p}.\nCrush - When this deals 4 or more damage to a hero, they can't create aura tokens during their next turn.",
       "source": "https://cards.fabtcg.com/card/renounce_grandeur/",
       "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1877,6 +2058,7 @@
       "text_en": "Destroy up to 3 Might tokens. Create a Toughness token for each token destroyed this way.",
       "source": "https://cards.fabtcg.com/card/renounce_violence/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1895,6 +2077,9 @@
       "text_en": "You may play this from your banished zone.\nIf a hero has lost {h} this turn, you may play this as though it were an instant.\nCreate an Eloquence token.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/requiem_for_the_damned/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1913,6 +2098,7 @@
       "text_en": "Target Light Warrior attack gets +3{p}.\nIf you've charged this turn, create a Courage token.",
       "source": "https://cards.fabtcg.com/card/resounding_courage/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1943,6 +2129,7 @@
       "text_en": "Play this only if you've attacked with a weapon this turn.\nAt the start of your turn, destroy this and draw a card.",
       "source": "https://cards.fabtcg.com/card/rest_before_battle/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1961,6 +2148,9 @@
       "text_en": "When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets go again.",
       "source": "https://cards.fabtcg.com/card/restless_bones/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1991,6 +2181,9 @@
       "text_en": "When this enters the arena, move any number of +1{p} counters from auras you control onto this.\nOnce per Turn Instant - Remove a +1{p} counter from this: Create a Spectral Shield token.\nWard 2",
       "source": "https://cards.fabtcg.com/card/restless_coalescence/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2009,6 +2202,9 @@
       "text_en": "Your next attack this turn gets +3{p}.\nYou may destroy an Inertia token you control. If you do, gain 1{h}.\nGo again",
       "source": "https://cards.fabtcg.com/card/restvine_elixir/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2027,6 +2223,9 @@
       "text_en": "Katsu Specialization\nCombo - When this attacks, if a card with Gustwave in its name was the last attack this combat chain, name a card, then this gets that name, +2{p}, and go again.",
       "source": "https://cards.fabtcg.com/card/retrace_the_past/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2045,6 +2244,7 @@
       "text_en": "When this defends, you may banish an arrow from your hand. If you do, at the start of your next turn, put it face-up into your arsenal and it gets +3{p} until end of turn.",
       "source": "https://cards.fabtcg.com/card/return_fire/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2063,6 +2263,9 @@
       "text_en": "If you control a Hyper Driver, this costs {r} less to play.\nBoost",
       "source": "https://cards.fabtcg.com/card/rev_up/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2093,6 +2296,9 @@
       "text_en": "If you've played an attack action card and another non-attack action card this turn, create 4 Runechant tokens.\nAt the beginning of your end phase, destroy all Runechants you control.\nGo again",
       "source": "https://cards.fabtcg.com/card/revel_in_runeblood/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2111,6 +2317,7 @@
       "text_en": "Deal 3 arcane damage to target opposing hero.\nIf Reverberate deals damage, you may banish a Wizard 'non-attack' action card from your hand with {r} cost less than or equal to the damage dealt by Reverberate. If you do, you may play it this turn as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/reverberate/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2141,6 +2348,10 @@
       "text_en": "If you would sharpen a Zenith Blade, instead you may pay {r} and destroy this. If you do, sharpen it an additional time.\nTemper",
       "source": "https://cards.fabtcg.com/card/reverent_rerebrace/",
       "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2159,6 +2370,9 @@
       "text_en": "Your next attack this turn gets +3{p}.\nCreate a Might token.\nGo again",
       "source": "https://cards.fabtcg.com/card/revolting_gesture/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2177,6 +2391,9 @@
       "text_en": "Negate target 'non-attack' action card and return it to its owner's hand. Then that hero gains 1 action point.",
       "source": "https://cards.fabtcg.com/card/rewind/",
       "status": "machine-draft",
+      "keywords": [
+        "Negate"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2195,6 +2412,7 @@
       "text_en": "Block cards you own and equipment you control with 1 or greater {d} get protect.\nWhenever you protect another hero, create a Gold token.",
       "source": "https://cards.fabtcg.com/card/reya_the_unyielding/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2213,6 +2431,9 @@
       "text_en": "Whenever you discard a card with 6 or more {p} during your action phase, intimidate.",
       "source": "https://cards.fabtcg.com/card/rhinar/",
       "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2231,6 +2452,9 @@
       "text_en": "Whenever you discard a card with 6 or more {p} during your action phase, intimidate.",
       "source": "https://cards.fabtcg.com/card/rhinar_reckless_rampage/",
       "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2249,6 +2473,9 @@
       "text_en": "Legendary\nWhen this is pitched, create a Gold token.",
       "source": "https://cards.fabtcg.com/card/riches_of_tro_pal_dhani/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2267,6 +2494,7 @@
       "text_en": "Legendary\nWhen this is pitched, create a Gold token.",
       "source": "https://cards.fabtcg.com/card/riches_of_tropal_dhani/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2285,6 +2513,9 @@
       "text_en": "Action - Destroy this: Create 2 Seismic Surge tokens.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/richter_scale/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2303,6 +2534,9 @@
       "text_en": "Go again\nAt the beginning of each hero's end phase, they lose X{h}, where X is the number of auras they controlled when this triggered. If X is 3 or more, destroy this.",
       "source": "https://cards.fabtcg.com/card/riddle_with_regret/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2321,6 +2555,9 @@
       "text_en": "When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains go again.\nGo again",
       "source": "https://cards.fabtcg.com/card/ride_the_tailwind/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2351,6 +2588,9 @@
       "text_en": "If Ridge Rider Shot is put into your arsenal face up, opt 1.",
       "source": "https://cards.fabtcg.com/card/ridge_rider_shot/",
       "status": "machine-draft",
+      "keywords": [
+        "Opt 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2381,6 +2621,9 @@
       "text_en": "You may play Rift Bind from your banished zone. If you do, it gains +X{p}, where X is the number of 'non-attack' action cards you have played this turn.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/rift_bind/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2411,6 +2654,7 @@
       "text_en": "When this hits a hero, destroy a Lightning Flow token they control.",
       "source": "https://cards.fabtcg.com/card/rift_breaker/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2441,6 +2685,11 @@
       "text_en": "Rune Gate\nGo again\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/rift_skitter/",
       "status": "machine-draft",
+      "keywords": [
+        "Rune Gate",
+        "Go again",
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2471,6 +2720,9 @@
       "text_en": "You may play Rifted Torment from your banished zone. If you do, deal 1 arcane damage to target hero.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/rifted_torment/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2501,6 +2753,7 @@
       "text_en": "If Rifting hits, you may play your next 'non-attack' action card this turn as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/rifting/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2531,6 +2784,9 @@
       "text_en": "Action - {r}, {t}: Attack\nWatery Grave",
       "source": "https://cards.fabtcg.com/card/riggermortis/",
       "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2549,6 +2805,7 @@
       "text_en": "When this defends together with another card from hand, this gets +1{d} and you may look at the top card of your deck. You may put it on the bottom.",
       "source": "https://cards.fabtcg.com/card/right_behind_you/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2579,6 +2836,9 @@
       "text_en": "Crush - If Righteous Cleansing deals 4 or more damage to a hero, look at the top 5 cards of their deck. Banish 1 or more cards with the same name from among them, then put the rest on top of their deck in any order.",
       "source": "https://cards.fabtcg.com/card/righteous_cleansing/",
       "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2597,6 +2857,7 @@
       "text_en": "If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/riled_up/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2627,6 +2888,9 @@
       "text_en": "Legendary Verdance Specialization\nThe first time you deal arcane damage each turn, gain 1{h}.",
       "source": "https://cards.fabtcg.com/card/ring_of_roses/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2645,6 +2909,9 @@
       "text_en": "Draw a card, then pitch a random card from your hand. If it has 6 or more {p}, your next attack this turn gets +3{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/rip_off_the_top/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2663,6 +2930,10 @@
       "text_en": "You may play Rip Through Reality from your banished zone.\nIf you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains go again.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/rip_through_reality/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2693,6 +2964,7 @@
       "text_en": "Destroy up to 3 Toughness tokens. Create a Might token for each token destroyed this way.",
       "source": "https://cards.fabtcg.com/card/rip_up_their_virtues/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2711,6 +2983,7 @@
       "text_en": "Instant - Discard this: If an action card effect would create 1 or more tokens this turn, instead it creates that many minus 1 of each of those tokens.",
       "source": "https://cards.fabtcg.com/card/ripple-away/",
       "status": "deck-translation-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": 3,
@@ -2729,6 +3002,10 @@
       "text_en": "Cloaked\nInstant - {c}{c}{c}, turn this face-up: You may return a defending blue attack action card to its owner's hand.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/rippling_wave/",
       "status": "machine-draft",
+      "keywords": [
+        "Cloaked",
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -2747,6 +3024,7 @@
       "text_en": "Whenever you play a card from hand, you may put a card from hand face down into your arsenal.\nWhenever a trap you control triggers, deal 1 damage to the attacking hero.",
       "source": "https://cards.fabtcg.com/card/riptide/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2765,6 +3043,7 @@
       "text_en": "Whenever you play a card from hand, you may put a card from hand face down into your arsenal.\nWhenever a trap you control triggers, deal 1 damage to the attacking hero.",
       "source": "https://cards.fabtcg.com/card/riptide_lurker_of_the_deep/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -2783,6 +3062,7 @@
       "text_en": "You may put a card from your hand on top of your deck rather than pay Rise Above's {r} cost.",
       "source": "https://cards.fabtcg.com/card/rise_above/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2813,6 +3093,9 @@
       "text_en": "The next Draconic or Ninja attack action card you play this turn gains +3{p}.\nYou may return a Phoenix Flame from your graveyard to your hand.\nGo again",
       "source": "https://cards.fabtcg.com/card/rise_from_the_ashes/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2843,6 +3126,10 @@
       "text_en": "Dromai or Fai Specialization\nRupture - If Rise Up is played as chain link 4 or higher, it has dominate and +X{p}, where X is twice the number of Phoenix Flames you control.",
       "source": "https://cards.fabtcg.com/card/rise_up/",
       "status": "machine-draft",
+      "keywords": [
+        "Rupture",
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2861,6 +3148,7 @@
       "text_en": "If you've drawn a card this turn, this costs {r} less to play.",
       "source": "https://cards.fabtcg.com/card/rising_energy/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2891,6 +3179,10 @@
       "text_en": "Combo - If Leg Tap was the last attack this combat chain, Rising Knee Thrust gains +2{p} and go again.",
       "source": "https://cards.fabtcg.com/card/rising_knee_thrust/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2921,6 +3213,7 @@
       "text_en": "If you've drawn a card this turn, this gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/rising_power/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2951,6 +3244,9 @@
       "text_en": "When Rising Resentment hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it costs {r} less to play and you may play it this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/rising_resentment/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2981,6 +3277,7 @@
       "text_en": "If Rising Solartide hits, put it into your hero's soul.",
       "source": "https://cards.fabtcg.com/card/rising_solartide/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3011,6 +3308,9 @@
       "text_en": "If you've drawn a card this turn, this gets go again.",
       "source": "https://cards.fabtcg.com/card/rising_speed/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3041,6 +3341,10 @@
       "text_en": "Legendary\nDraw a card, then put a card from your hand on the bottom of your deck.\nIf you've played another blue card this turn, transcend.",
       "source": "https://cards.fabtcg.com/card/rising_sun_setting_moon/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3059,6 +3363,7 @@
       "text_en": "If you've played another blue card this turn, this gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/rising_tide/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3077,6 +3382,7 @@
       "text_en": "When this enters the arena, create a Seismic Surge token.\nAt the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/rites_of_earthlore/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3107,6 +3413,10 @@
       "text_en": "Lightning Fusion\nWhen you attack with Rites of Lightning, if it was fused, deal 1 arcane damage to target hero.\nIf you have dealt arcane damage this turn, Rites of Lightning gains go again.",
       "source": "https://cards.fabtcg.com/card/rites_of_lightning/",
       "status": "machine-draft",
+      "keywords": [
+        "Lightning Fusion",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3137,6 +3447,9 @@
       "text_en": "Earth Fusion\nWhen you attack with Rites of Replenishment, if you have dealt arcane damage this turn, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.\nWhen you attack with Rites of Replenishment, if it was fused, you may put an attack action card from your graveyard on the bottom of your deck.",
       "source": "https://cards.fabtcg.com/card/rites_of_replenishment/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3167,6 +3480,9 @@
       "text_en": "Create a Crouching Tiger in your hand.\nCrouching Tigers you control gain +1{p} this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/roar_of_the_tiger/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -3185,6 +3501,9 @@
       "text_en": "Create a Courage token.\nIf there are no cards in your soul, return this to its owner's hand, then charge your soul.",
       "source": "https://cards.fabtcg.com/card/roaring_beam/",
       "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -3203,6 +3522,9 @@
       "text_en": "Contract - You are contracted to banish opponents' cards with cost 2 or greater. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
       "source": "https://cards.fabtcg.com/card/rob_the_rich/",
       "status": "machine-draft",
+      "keywords": [
+        "Contract"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3233,6 +3555,7 @@
       "text_en": "Instant - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.",
       "source": "https://cards.fabtcg.com/card/robe_of_astral_sanctuary/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3251,6 +3574,9 @@
       "text_en": "When an Edge of Autumn you control hits, you may destroy this. If you do, gain {r}.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/robe_of_autumns_fall/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3269,6 +3595,9 @@
       "text_en": "Action - Destroy Robe of Rapture: Gain {r}{r}{r}.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/robe_of_rapture/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3287,6 +3616,9 @@
       "text_en": "When this leaves the arena, gain {r}{r}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/robe_of_resourcefulness/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3305,6 +3637,7 @@
       "text_en": "Rockslide Trap can only be played from arsenal.\nWhen this defends, target attack gets -2{p}, unless the attacking hero pays {r}.",
       "source": "https://cards.fabtcg.com/card/rockslide_trap/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3323,6 +3656,7 @@
       "text_en": "This card's {p} is equal to the highest base {p} of weapons you control.",
       "source": "https://cards.fabtcg.com/card/rockyard_rodeo/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3341,6 +3675,9 @@
       "text_en": "Destroy an aura with cost X or less, then you may destroy a Seismic Surge you control. If you do, repeat this process.\nGo again",
       "source": "https://cards.fabtcg.com/card/roiling_fissure/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3359,6 +3696,7 @@
       "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nActivate Rok only if you have no cards in hand.\nDamage that would be dealt by Rok can't be prevented.",
       "source": "https://cards.fabtcg.com/card/rok/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3377,6 +3715,9 @@
       "text_en": "Roll a 6 sided die. Your next Brute attack this turn gains +X{p}, where X the number rolled.\nGo again",
       "source": "https://cards.fabtcg.com/card/rolling_thunder/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3395,6 +3736,7 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack\nOnce per Turn Effect - When you discard a card with 6 or more {p}, Romping Club gains +1{p} until end of turn.",
       "source": "https://cards.fabtcg.com/card/romping_club/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3413,6 +3755,9 @@
       "text_en": "Go again",
       "source": "https://cards.fabtcg.com/card/ronin_renegade/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3443,6 +3788,9 @@
       "text_en": "When this defends together with an aura card, create an Embodiment of Earth token.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/root_bound_trunks/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3461,6 +3809,9 @@
       "text_en": "Decompose - You may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +1{d}.",
       "source": "https://cards.fabtcg.com/card/rootbound-carapace/",
       "status": "deck-translation-draft",
+      "keywords": [
+        "Decompose"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3491,6 +3842,7 @@
       "text_en": "Once per Turn Action - {r}: Attack\nWhenever you attack with Rosetta Thorn, if you've played an attack action card and a 'non-attack' action card this turn, deal 2 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/rosetta_thorn/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3509,6 +3861,9 @@
       "text_en": "The next Mechanologist attack action card you play this turn gains +3{p}.\nIf you have boosted this turn, put Rotary Ram on the bottom of your deck.\nGo again",
       "source": "https://cards.fabtcg.com/card/rotary_ram/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3539,6 +3894,9 @@
       "text_en": "Blade Break",
       "source": "https://cards.fabtcg.com/card/rotten_old_buckler/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3557,6 +3915,7 @@
       "text_en": "When this attacks, you may banish a card with 1{p} from each hero's graveyard. If you do, this gets +1{p}, then repeat this process.",
       "source": "https://cards.fabtcg.com/card/rotten_remains/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3575,6 +3934,7 @@
       "text_en": "Once per Turn Action - {r}{r}: Attack\nIf you've played or created an aura this turn, this gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/rotwood_reaper/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3593,6 +3953,7 @@
       "text_en": "When this attacks, if there is a card with 6 or more {p} in your pitch zone, this gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/rough_up/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3623,6 +3984,9 @@
       "text_en": "As an additional cost to play Rouse the Ancients, you may reveal any number of attack action cards from your hand with 13 or more total {p}. If you do, Rouse the Ancients gains +7{p} and go again.",
       "source": "https://cards.fabtcg.com/card/rouse_the_ancients/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3641,6 +4005,7 @@
       "text_en": "Deal 4 arcane damage to target hero.\nThe next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.",
       "source": "https://cards.fabtcg.com/card/rousing_aether/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3671,6 +4036,9 @@
       "text_en": "Target weapon attack gains +3{p}.\nReprise - If the defending hero has defended with a card from their hand this chain link, you may return target non-equipment defending card to its owners hand.",
       "source": "https://cards.fabtcg.com/card/rout/",
       "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3689,6 +4057,7 @@
       "text_en": "If this is defended by an action card, this gets +2{p}.\nWhen this hits a hero, discard a card. If you do, they discard a card.",
       "source": "https://cards.fabtcg.com/card/rowdy_locals/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3707,6 +4076,9 @@
       "text_en": "Heave 2",
       "source": "https://cards.fabtcg.com/card/rubble_raiser/",
       "status": "machine-draft",
+      "keywords": [
+        "Heave 2"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3737,6 +4109,10 @@
       "text_en": "Instant - Destroy this: Gain {r}{r}\nLegend of the Watery Grave",
       "source": "https://cards.fabtcg.com/card/ruby_amulet/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Watery Grave"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3755,6 +4131,7 @@
       "text_en": "Once per Turn Action - {r}: Attack\nActivate Rugged Roller only if you've rolled a 6 on a die this turn.",
       "source": "https://cards.fabtcg.com/card/rugged_roller/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3773,6 +4150,9 @@
       "text_en": "Play Rumble Grunting only if you've discarded a card with 6 or more {p} this turn.\nYour next Brute attack this turn gains +4{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/rumble_grunting/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3803,6 +4183,7 @@
       "text_en": "When this defends, if you control an Agility token, deal damage to the attacking hero.",
       "source": "https://cards.fabtcg.com/card/run_into_trouble/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3821,6 +4202,7 @@
       "text_en": "Play this only if you've discarded a card with 6 or more {p} this turn.",
       "source": "https://cards.fabtcg.com/card/run_roughshod/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3839,6 +4221,7 @@
       "text_en": "Target sword attack gets go again.\nYour next sword attack this turn gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/run_through/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3869,6 +4252,7 @@
       "text_en": "Instant - Destroy Runaways: Prevent the next 1 damage that would be dealt to your hero this turn. Activate this ability only if your hero has been dealt damage this turn.",
       "source": "https://cards.fabtcg.com/card/runaways/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -3887,6 +4271,9 @@
       "text_en": "This costs {r} less to play for each Runechant token you control.\nGo again",
       "source": "https://cards.fabtcg.com/card/rune_flash/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3917,6 +4304,9 @@
       "text_en": "Your next arrow attack this turn gets +3{p}.\nGo again\nWhen this defends and the attacking hero has played or created 2 or more auras this turn, destroy an aura they control.",
       "source": "https://cards.fabtcg.com/card/rune_snare/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3935,6 +4325,9 @@
       "text_en": "Instant - Destroy this and a Runechant you control: Prevent the next 1 arcane damage that would be dealt to you this turn.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/runebleed_robe/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -3953,6 +4346,7 @@
       "text_en": "When this enters the arena, create 4 Runechant tokens.\nIf your hero would be dealt damage, instead destroy that many Runechant tokens you control and prevent 1 damage for each Runechant token destroyed this way.\nAt the beginning of your action phase, destroy this.",
       "source": "https://cards.fabtcg.com/card/runeblood_barrier/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -3971,6 +4365,9 @@
       "text_en": "Go again\nRuneblood Incantation enters the arena with 3 verse counters on it.\nAt the beginning of your action phase, remove a verse counter from Runeblood Incantation. If you do create a Runechant token. Otherwise, destroy Runeblood Incantation.",
       "source": "https://cards.fabtcg.com/card/runeblood_incantation/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4001,6 +4398,7 @@
       "text_en": "When you play an attack action card or activate a weapon attack, destroy this and deal 1 arcane damage to target opposing hero.",
       "source": "https://cards.fabtcg.com/card/runechant/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -4019,6 +4417,7 @@
       "text_en": "This counts as a Runechant. When an attack usurps this, gain 1{h}.\nWhen this is destroyed, create a Runechant token.\nAt the beginning of your action phase or when you play an attack action card, destroy this.",
       "source": "https://cards.fabtcg.com/card/runechant_of_envy/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -4037,6 +4436,7 @@
       "text_en": "This counts as a Runechant. When an attack usurps this, gain {r}.\nWhen this is destroyed, create a Runechant token.\nAt the beginning of your action phase or when you play an attack action card, destroy this.",
       "source": "https://cards.fabtcg.com/card/runechant_of_gluttony/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -4055,6 +4455,7 @@
       "text_en": "This counts as a Runechant. When an attack usurps this, draw a card.\nWhen this is destroyed, create a Runechant token.\nAt the beginning of your action phase or when you play an attack action card, destroy this.",
       "source": "https://cards.fabtcg.com/card/runechant_of_greed/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -4073,6 +4474,7 @@
       "text_en": "This counts as a Runechant. When an attack usurps this, create a Runechant token.\nWhen this is destroyed, create a Runechant token.\nAt the beginning of your action phase or when you play an attack action card, destroy this.",
       "source": "https://cards.fabtcg.com/card/runechant_of_lust/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -4091,6 +4493,7 @@
       "text_en": "This counts as a Runechant. When an attack usurps this, it gets +1{p}.\nWhen this is destroyed, create a Runechant token.\nAt the beginning of your action phase or when you play an attack action card, destroy this.",
       "source": "https://cards.fabtcg.com/card/runechant_of_pride/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -4109,6 +4512,7 @@
       "text_en": "This counts as a Runechant. When an attack usurps this, it gets go again.\nWhen this is destroyed, create a Runechant token.\nAt the beginning of your action phase or when you play an attack action card, destroy this.",
       "source": "https://cards.fabtcg.com/card/runechant_of_sloth/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -4127,6 +4531,7 @@
       "text_en": "This counts as a Runechant. When an attack usurps this, it gets overpower.\nWhen this is destroyed, create a Runechant token.\nAt the beginning of your action phase or when you play an attack action card, destroy this.",
       "source": "https://cards.fabtcg.com/card/runechant_of_wrath/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -4145,6 +4550,7 @@
       "text_en": "Action - Destroy this: Create a Runechant token. Go again",
       "source": "https://cards.fabtcg.com/card/runehold_release/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -4163,6 +4569,9 @@
       "text_en": "If you've played or created an aura this turn, this gets go again.",
       "source": "https://cards.fabtcg.com/card/runerager_swarm/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4193,6 +4602,7 @@
       "text_en": "When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/runic_fellingsong/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4223,6 +4633,9 @@
       "text_en": "The next Runeblade attack action card you play this turn gains \"When this hits, create 3 Runechant tokens\".\nIf an attack card was pitched to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/runic_reaping/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4253,6 +4666,9 @@
       "text_en": "This costs {r} less to play for each Runechant you control.\nThe next Runeblade attack action card you play this turn gets +3{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/runic_reckoning/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4271,6 +4687,7 @@
       "text_en": "When Runic Reclamation hits a hero, destroy target aura they control. If you do, create a Runechant token.",
       "source": "https://cards.fabtcg.com/card/runic_reclamation/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4289,6 +4706,7 @@
       "text_en": "When this attacks, if it has go again, create an Agility token.",
       "source": "https://cards.fabtcg.com/card/runner_runner/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4307,6 +4725,9 @@
       "text_en": "Quickstrike - If this has go again, it gets +1{p}.\nWhen this hits a hero, deal 1 arcane damage to them.",
       "source": "https://cards.fabtcg.com/card/rush_of_power/",
       "status": "machine-draft",
+      "keywords": [
+        "Quickstrike"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4337,6 +4758,10 @@
       "text_en": "Combo - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, go again, and \"If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain.\"",
       "source": "https://cards.fabtcg.com/card/rushing_river/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -4367,6 +4792,9 @@
       "text_en": "Instant - {t} a cog you control, destroy this: Gain {r}.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/rust_belt/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -4385,6 +4813,9 @@
       "text_en": "Arcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/rusted_relic/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -4403,6 +4834,7 @@
       "text_en": "",
       "source": "https://cards.fabtcg.com/card/rusty_harpoon/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -4421,6 +4853,7 @@
       "text_en": "You may only have PSA graded cards in your deck.\nOnce per Turn Action - {r}: Reveal the top card of your deck. If it's graded Gem Mint 10, put it into your hand, otherwise each opponent may draw a card. Go again",
       "source": "https://cards.fabtcg.com/card/ruudi_gem_keeper/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,

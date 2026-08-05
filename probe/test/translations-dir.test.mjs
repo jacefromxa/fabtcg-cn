@@ -6,7 +6,7 @@ import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { loadZhTranslations } from '../../scripts/build-card-data.mjs';
 import { mergeMachineDrafts, getT3BatchName, isT1GenericCard, isT2EquipmentCard, isHeroCard } from '../../scripts/build-translation-drafts.mjs';
-import { slugifyCardName } from '../../scripts/translate-helper.mjs';
+import { slugifyCardName, loadGlossary } from '../../scripts/translate-helper.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const translationsDir = path.join(projectRoot, 'data/translations');
@@ -101,6 +101,24 @@ test('every card sits in the batch file its filter assigns (no cross-batch stray
       if (!card) continue;
       assert.equal(file, homeOf(card), `${entry.name_en} (${key}) should live in ${homeOf(card)}, not ${file}`);
     }
+  }
+});
+
+test('loadGlossary flattens both string and structured keyword entries', () => {
+  const flat = loadGlossary();
+  assert.equal(flat['go again'], '再动');
+  assert.equal(flat['dominate'], '支配');
+  assert.equal(flat['ward'], '结界');
+  assert.equal(flat['deck'], '牌库');
+  // structured keyword entries must surface their name_zh, never "[object Object]"
+  assert.ok(!Object.values(flat).some((v) => String(v).includes('[object')));
+});
+
+test('every glossary keyword entry carries a name and a description', () => {
+  const glossary = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/glossary.zh-CN.json'), 'utf8'));
+  for (const [keyword, entry] of Object.entries(glossary.keyword)) {
+    assert.ok(entry && entry.name_zh, `${keyword} is missing name_zh`);
+    assert.ok(entry && entry.desc_zh, `${keyword} is missing desc_zh`);
   }
 });
 

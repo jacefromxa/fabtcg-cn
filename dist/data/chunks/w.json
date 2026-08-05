@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "wage_agility": {
       "id": "wage_agility",
@@ -11,6 +11,9 @@
       "text_en": "When this attacks a hero, you may wager an Agility token with them.",
       "source": "https://cards.fabtcg.com/card/wage_agility/",
       "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -41,6 +44,10 @@
       "text_en": "Universal\nWhen this attacks a hero, you may wager a Gold token with them.",
       "source": "https://cards.fabtcg.com/card/wage_gold/",
       "status": "machine-draft",
+      "keywords": [
+        "Universal",
+        "Wager"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -71,6 +78,9 @@
       "text_en": "When this attacks a hero, you may wager a Might token with them.",
       "source": "https://cards.fabtcg.com/card/wage_might/",
       "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -101,6 +111,9 @@
       "text_en": "When this attacks a hero, you may wager a Vigor token with them.",
       "source": "https://cards.fabtcg.com/card/wage_vigor/",
       "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -131,6 +144,9 @@
       "text_en": "Action - {r}{r}{r} {r}{r}{r}, {t}: Attack\nWatery Grave",
       "source": "https://cards.fabtcg.com/card/wailer_humperdinck/",
       "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -149,6 +165,9 @@
       "text_en": "If this has {p} greater than its base, it gets +1{p}.\nCrush - When this deals 4 or more damage to a hero, until the end of their next turn, the base {p} and {d} of attack action cards they control are halved, rounded up.",
       "source": "https://cards.fabtcg.com/card/walk_in_my_shoes/",
       "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -167,6 +186,7 @@
       "text_en": "When this hits a Pirate hero, {t} them or an ally they control.",
       "source": "https://cards.fabtcg.com/card/walk_the_plank/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -197,6 +217,10 @@
       "text_en": "If you've banished a card with 6 or more {p} this turn, this gets overpower.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/wall_breaker/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower",
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -227,6 +251,7 @@
       "text_en": "When this defends, if you control a Might token, you may put an attack action card from your graveyard on top of your deck.",
       "source": "https://cards.fabtcg.com/card/wall_of_meat_and_muscle/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -245,6 +270,7 @@
       "text_en": "When you win a clash revealing this, create a Vigor token.",
       "source": "https://cards.fabtcg.com/card/wallop/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -275,6 +301,9 @@
       "text_en": "Benji Specialization\nWhen this hits, you may discard a card with cost 0. If you do, search your deck for a card with combo, banish it, then shuffle. You may play it this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/wander_with_purpose/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -293,6 +322,7 @@
       "text_en": "Once per Turn Instant - {r}{r}: Deal 2 arcane damage to target hero. If it's not your turn, instead deal 3 arcane damage to them. Activate this ability only if you've played a 'non-attack' action card this turn.",
       "source": "https://cards.fabtcg.com/card/waning_moon/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -311,6 +341,9 @@
       "text_en": "When this leaves the arena, if you've pitched a blue card this turn, create a Spectral Shield token.\nWard 3",
       "source": "https://cards.fabtcg.com/card/waning_vengeance/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -341,6 +374,7 @@
       "text_en": "Target Raydn gets +2{p} this turn.\nInstant - Discard this, banish X cards from your soul: The next time target weapon deals X or less damage to you this turn, deal that much damage to its controller and that damage can't be prevented.",
       "source": "https://cards.fabtcg.com/card/war_cry_of_bellona/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -359,6 +393,9 @@
       "text_en": "Your next angel attack this turn gets +4{p}.\nGo again\nInstant - Discard this, banish X cards from your soul: Turn X target cards in a banished zone face-down.",
       "source": "https://cards.fabtcg.com/card/war_cry_of_themis/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -377,6 +414,9 @@
       "text_en": "If you have 1 or more Evos equipped, this gets \"When this hits a hero, destroy all cards in their arsenal,\"\"\n\n2 or more, this costs {r}{r}{r} less to play,\n3 or more, this gets overpower,\n4 or more, this gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/war_machine/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -395,6 +435,9 @@
       "text_en": "Action - {r}{r}, destroy this: The next time you attack this turn, you may charge your hero's soul. If a yellow card is charged this way, draw a card. Go again\nTemper",
       "source": "https://cards.fabtcg.com/card/warband_of_bellona/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -413,6 +456,7 @@
       "text_en": "Starting with the hero to your left, each hero chooses war or peace.\nIf they choose war, the only actions they may play or activate during their next turn are weapon and attack actions.\nIf they choose peace, the only actions they may play or activate during their next turn are non-weapon non-attack actions.",
       "source": "https://cards.fabtcg.com/card/warmongers_diplomacy/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -431,6 +475,9 @@
       "text_en": "The next attack action card you play this turn gains +3{p} and \"When this hits, put it on the bottom of its owner's deck.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/warmongers_recital/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -461,6 +508,10 @@
       "text_en": "When this defends, you may charge your hero's soul. If a yellow card is charged this way, create a Quicken token.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/warpath_of_winged_grace/",
       "status": "machine-draft",
+      "keywords": [
+        "Charge",
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -479,6 +530,9 @@
       "text_en": "Your next weapon attack this turn gets +3{p} and \"When this hits, it gets go again.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/warriors_valor/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -509,6 +563,9 @@
       "text_en": "When this hits, put it into your soul.\nPhantasm",
       "source": "https://cards.fabtcg.com/card/wartune_herald/",
       "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -539,6 +596,7 @@
       "text_en": "If you've played another blue card this turn, this gets +2{d}.",
       "source": "https://cards.fabtcg.com/card/wash_away/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -557,6 +615,9 @@
       "text_en": "When this defends, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets +2{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/washed_up_wave/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -575,6 +636,9 @@
       "text_en": "Reveal the top card of your deck. If it's red, create a Spectral Shield token.\nGo again",
       "source": "https://cards.fabtcg.com/card/water_glow_lanterns/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -605,6 +669,9 @@
       "text_en": "When this attacks, your next attack this combat chain with 1 or less base {p} gets +1{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/water_the_seeds/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -635,6 +702,9 @@
       "text_en": "When Wave of Reality is destroyed, create a Spectral Shield token.\nWard 1",
       "source": "https://cards.fabtcg.com/card/wave_of_reality/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -653,6 +723,9 @@
       "text_en": "Cloaked\nAttack Reaction - {r}, turn this face-up: Target attack gets +1{p}.\nAt the start of your turn, destroy this.",
       "source": "https://cards.fabtcg.com/card/waves_of_aqua_marine/",
       "status": "machine-draft",
+      "keywords": [
+        "Cloaked"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -671,6 +744,7 @@
       "text_en": "Choose 1 or both:\n- Put a +1{p} counter on target blue aura you control.\n- Put a +1{p} counter on target aura with ward you control.\nIf you choose both, search your deck for an Inner Chi, reveal it, shuffle, then put it on top of your deck.",
       "source": "https://cards.fabtcg.com/card/wax_and_wane/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -689,6 +763,7 @@
       "text_en": "If you've played Wax On this turn, create a Zen State token.",
       "source": "https://cards.fabtcg.com/card/wax_off/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -707,6 +782,7 @@
       "text_en": "While Wax On is defending an attack action card with cost 0, it gains +2{d}.",
       "source": "https://cards.fabtcg.com/card/wax_on/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -737,6 +813,9 @@
       "text_en": "If you've pitched a blue card this turn, this enters the arena with a +1{p} counter.\nWard 3",
       "source": "https://cards.fabtcg.com/card/waxing_specter/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -767,6 +846,9 @@
       "text_en": "When you defend with Wayfinder's Crest, look at the top card of target hero's deck.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/wayfinders_crest/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -785,6 +867,9 @@
       "text_en": "The next Earth or Elemental attack action card you play this turn gains +3{p}.\nIf it's fused, instead it gains +4{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/weave_earth/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -815,6 +900,9 @@
       "text_en": "The next Ice or Elemental attack action card you play this turn gains +3{p}.\nIf it's fused, it gains dominate.\nGo again",
       "source": "https://cards.fabtcg.com/card/weave_ice/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -845,6 +933,9 @@
       "text_en": "The next Lightning or Elemental attack action card you play this turn gains +3{p}. If it's fused, it gains go again.\nGo again",
       "source": "https://cards.fabtcg.com/card/weave_lightning/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -875,6 +966,9 @@
       "text_en": "If this has {p} greater than its base, it gets +1{p}.\nCrush - When this deals 4 or more damage to a hero, destroy a card in their arsenal.",
       "source": "https://cards.fabtcg.com/card/wee_wrecking_ball/",
       "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -893,6 +987,7 @@
       "text_en": "You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/weeping_battleground/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -923,6 +1018,7 @@
       "text_en": "Instant - Destroy this: Prevent the next 2 damage that would be dealt to you this turn. Activate this only if there are 4 or more Earth cards in your banished zone.",
       "source": "https://cards.fabtcg.com/card/well_grounded/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -941,6 +1037,9 @@
       "text_en": "Suspense\nThe first card with cost 1 or more you play each turn costs {r} less to play.",
       "source": "https://cards.fabtcg.com/card/what_happens_next/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -959,6 +1058,10 @@
       "text_en": "Combo - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, go again, and \"If this hits, draw a card.\"",
       "source": "https://cards.fabtcg.com/card/whelming_gustwave/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -989,6 +1092,9 @@
       "text_en": "Ira Specialization\nWhen this hits and it's the second or higher chain link in a row to hit, draw 2 cards.\nGo again",
       "source": "https://cards.fabtcg.com/card/whirling_mist_blossom/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1007,6 +1113,10 @@
       "text_en": "Opt 4\nGo again",
       "source": "https://cards.fabtcg.com/card/whisper_of_the_oracle/",
       "status": "machine-draft",
+      "keywords": [
+        "Opt 2",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1037,6 +1147,7 @@
       "text_en": "Until end of turn, blue attacks and attacks with ephemeral get +1{p}.",
       "source": "https://cards.fabtcg.com/card/whispering_mist/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1055,6 +1166,9 @@
       "text_en": "Stealth\nWhen this attacks a marked hero, equip a Graphene Chelicera token.",
       "source": "https://cards.fabtcg.com/card/whittle_from_bone/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1085,6 +1199,9 @@
       "text_en": "Suspense\nWhen this leaves the arena, you may destroy an aura permanent that a Guardian hero controls.",
       "source": "https://cards.fabtcg.com/card/who_blinks_first/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1103,6 +1220,7 @@
       "text_en": "When the combat chain closes, if this didn't hit, the defending hero creates a Toughness token.",
       "source": "https://cards.fabtcg.com/card/whos_the_tough_guy/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1133,6 +1251,7 @@
       "text_en": "Target attack gets +1{p} for each blue card you've pitched this turn.",
       "source": "https://cards.fabtcg.com/card/wide_blue_yonder/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1151,6 +1270,10 @@
       "text_en": "Rune Gate\nWhen the combat chain closes, each hero who has lost {h} this turn banishes a card from their hand.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/widespread_annihilation/",
       "status": "machine-draft",
+      "keywords": [
+        "Rune Gate",
+        "Blood Debt"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1169,6 +1292,10 @@
       "text_en": "Rune Gate\nWhen the combat chain closes, each hero who has lost {h} this turn banishes a card from their arsenal.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/widespread_destruction/",
       "status": "machine-draft",
+      "keywords": [
+        "Rune Gate",
+        "Blood Debt"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1187,6 +1314,10 @@
       "text_en": "Rune Gate\nWhen the combat chain closes, each hero who has lost {h} this turn banishes the top card of their deck.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/widespread_ruin/",
       "status": "machine-draft",
+      "keywords": [
+        "Rune Gate",
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1205,6 +1336,10 @@
       "text_en": "Arcane Barrier 1\nSpellvoid 1",
       "source": "https://cards.fabtcg.com/card/widow_back_abdomen/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1",
+        "Spellvoid 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1223,6 +1358,10 @@
       "text_en": "Arcane Barrier 1\nSpellvoid 1",
       "source": "https://cards.fabtcg.com/card/widow_claw_tarsus/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1",
+        "Spellvoid 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1241,6 +1380,10 @@
       "text_en": "Arcane Barrier 1\nSpellvoid 1",
       "source": "https://cards.fabtcg.com/card/widow_veil_respirator/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1",
+        "Spellvoid 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1259,6 +1402,10 @@
       "text_en": "Arcane Barrier 1\nSpellvoid 1",
       "source": "https://cards.fabtcg.com/card/widow_web_crawler/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1",
+        "Spellvoid 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1277,6 +1424,7 @@
       "text_en": "Defense reactions can't be played to Widowmaker's chain link.\nIf Widowmaker is defended by fewer than 2 cards, it has +3{p}.",
       "source": "https://cards.fabtcg.com/card/widowmaker/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1307,6 +1455,9 @@
       "text_en": "When this attacks, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, this gets go again.",
       "source": "https://cards.fabtcg.com/card/wild_ride/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1337,6 +1488,10 @@
       "text_en": "Legendary\nWhen this is pitched, amp 1.",
       "source": "https://cards.fabtcg.com/card/will_of_arcana/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Amp 1"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1355,6 +1510,7 @@
       "text_en": "When this defends, if you've been cheered this turn, defending action cards get +3{d} this chain link.",
       "source": "https://cards.fabtcg.com/card/will_of_the_crowd/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1373,6 +1529,9 @@
       "text_en": "The next Crouching Tiger you play this turn gets +3{p}. If you've transcended this turn, instead it gets +5{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/wind_chakra/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1403,6 +1562,9 @@
       "text_en": "Attack Reaction - {r}, {t}: Search your deck for a Shuriken item, put it into the arena, then shuffle. Activate this only if you've hit 2 or more times this combat chain.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/wind_cutter/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1421,6 +1583,7 @@
       "text_en": "Instant - Discard this: Create a Toughness and a Vigor token.",
       "source": "https://cards.fabtcg.com/card/wind_up_the_crowd/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1439,6 +1602,9 @@
       "text_en": "Combo - If Winds of Eternity was the last attack this combat chain, Winds of Eternity gains +2{p} and \"If this hits, shuffle all cards named Hundred Winds you control on this combat chain into your deck.\"",
       "source": "https://cards.fabtcg.com/card/winds_of_eternity/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1457,6 +1623,9 @@
       "text_en": "Target hero discards a card unless they pay {r}{r}{r}.\nGo again",
       "source": "https://cards.fabtcg.com/card/winters_bite/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1487,6 +1656,7 @@
       "text_en": "",
       "source": "https://cards.fabtcg.com/card/winters_grasp/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1517,6 +1687,7 @@
       "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf an Ice card is pitched this way, Winter's Wail gains \"If this hits a hero, create a Frostbite token under their control.\"",
       "source": "https://cards.fabtcg.com/card/winters_wail/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1535,6 +1706,9 @@
       "text_en": "Stealth\nWhen this hits a hero, create a Frailty token under their control.",
       "source": "https://cards.fabtcg.com/card/wither/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1565,6 +1739,7 @@
       "text_en": "If Withering Shot has an aim counter, it has +1{p}.\nWhen this hits a hero, create a Frailty token under their control.",
       "source": "https://cards.fabtcg.com/card/withering_shot/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1595,6 +1770,7 @@
       "text_en": "The next time target Guardian off-hand defends this turn, it gains +6{d} until the combat chain closes.",
       "source": "https://cards.fabtcg.com/card/withstand/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1625,6 +1801,7 @@
       "text_en": "When you play this, if you have less {h} than an opposing hero, this gains +1{p}.",
       "source": "https://cards.fabtcg.com/card/wounded_bull/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1655,6 +1832,7 @@
       "text_en": "",
       "source": "https://cards.fabtcg.com/card/wounding_blow/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1685,6 +1863,10 @@
       "text_en": "Legendary\nThis costs {r} less to play for each Draconic chain link you control.\nWhen this attacks, daggers you control get +1{p} and cost {r} less to activate this combat chain.\nGo again",
       "source": "https://cards.fabtcg.com/card/wrath_of_retribution/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1703,6 +1885,7 @@
       "text_en": "Defense reactions can't be played to this chain link.\nWhen this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.",
       "source": "https://cards.fabtcg.com/card/wreck_havoc/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1733,6 +1916,7 @@
       "text_en": "As an additional cost to play this, discard a random card.",
       "source": "https://cards.fabtcg.com/card/wrecker_romp/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1763,6 +1947,9 @@
       "text_en": "When you attack with Wrecking Ball, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, intimidate.",
       "source": "https://cards.fabtcg.com/card/wrecking_ball/",
       "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1781,6 +1968,10 @@
       "text_en": "As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains dominate.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/writhing_beast_hulk/",
       "status": "machine-draft",
+      "keywords": [
+        "Dominate",
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1811,6 +2002,7 @@
       "text_en": "Create an Embodiment of Lightning token.\nIf you've dealt arcane damage this turn, draw a card.",
       "source": "https://cards.fabtcg.com/card/written_in_the_stars/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",

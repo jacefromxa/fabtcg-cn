@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "zap": {
       "id": "zap",
@@ -11,6 +11,7 @@
       "text_en": "Deal 3 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/zap/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -41,6 +42,9 @@
       "text_en": "When this defends, you may reveal an instant card from your hand. If you do, deal 1 arcane damage to the attacking hero.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/zap_clappers/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -59,6 +63,9 @@
       "text_en": "While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has go again.",
       "source": "https://cards.fabtcg.com/card/zealous_belting/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -89,6 +96,7 @@
       "text_en": "Once per Turn Instant - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with combo, banish it, then shuffle. You may play it this turn.",
       "source": "https://cards.fabtcg.com/card/zen/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -107,6 +115,7 @@
       "text_en": "This enters the arena with a balance counter. At the beginning of your action phase, destroy this unless you remove a balance counter from it.\nIf you would be dealt damage, prevent 1 of that damage.",
       "source": "https://cards.fabtcg.com/card/zen_state/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -125,6 +134,7 @@
       "text_en": "Once per Turn Instant - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with combo, banish it, then shuffle. You may play it this turn.",
       "source": "https://cards.fabtcg.com/card/zen_tamer_of_purpose/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -143,6 +153,9 @@
       "text_en": "Hala Specialization\nOnce per Turn Action - {r}: Attack\nIf this has been sharpened this turn, its first attack this turn gets go again.",
       "source": "https://cards.fabtcg.com/card/zenith_blade/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -161,6 +174,7 @@
       "text_en": "Once per Turn Action - {r}: Attack. Go again\nWhen this is defended by a card with {d} greater than this weapon attack's {p}, destroy this when the combat chain closes.",
       "source": "https://cards.fabtcg.com/card/zephyr_needle/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -179,6 +193,9 @@
       "text_en": "Boost",
       "source": "https://cards.fabtcg.com/card/zero_to_fifty/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -209,6 +226,9 @@
       "text_en": "Boost",
       "source": "https://cards.fabtcg.com/card/zero_to_sixty/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -239,6 +259,9 @@
       "text_en": "Boost",
       "source": "https://cards.fabtcg.com/card/zipper_hit/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -269,6 +292,10 @@
       "text_en": "When you attack with Zoom in, opt X, where X is the number of times you have boosted this combat chain.\nBoost",
       "source": "https://cards.fabtcg.com/card/zoom_in/",
       "status": "machine-draft",
+      "keywords": [
+        "Opt X",
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -299,6 +326,7 @@
       "text_en": "Instant - {r}{r}, {t}, destroy a Lightning Flow you control, banish another Lightning aura permanent you control with no holo counters: Return the banished aura to the arena with a holo counter.",
       "source": "https://cards.fabtcg.com/card/zyggy/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -317,6 +345,7 @@
       "text_en": "Instant - {r}{r}, {t}, destroy a Lightning Flow you control, banish another Lightning aura permanent you control with no holo counters: Return the banished aura to the arena with a holo counter.",
       "source": "https://cards.fabtcg.com/card/zyggy_starlight/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,

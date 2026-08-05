@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "jack_be_nimble": {
       "id": "jack_be_nimble",
@@ -11,6 +11,10 @@
       "text_en": "When this attacks, you may banish a Nimblism from your graveyard. If you do, this gets +1{p} and go again.\nWhen this hits a hero, steal an item they control until the end of this action phase.",
       "source": "https://cards.fabtcg.com/card/jack_be_nimble/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Steal"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -29,6 +33,10 @@
       "text_en": "When this attacks, you may banish a Nimblism from your graveyard. If you do, this gets +1{p} and go again.\nWhen this hits a hero, {u} an ally they control, then steal it until the end of this action phase.",
       "source": "https://cards.fabtcg.com/card/jack_be_quick/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Steal"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -47,6 +55,9 @@
       "text_en": "Banish the top card of your deck. If it's red, create a Runechant token.",
       "source": "https://cards.fabtcg.com/card/jack_o_lantern/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -77,6 +88,7 @@
       "text_en": "Target weapon attack gets +3{p} and \"Damage this would deal can't be prevented.\"",
       "source": "https://cards.fabtcg.com/card/jagged_edge/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -95,6 +107,9 @@
       "text_en": "Whenever you play an Ice card, create a Frostbite token in an opponent's exposed head, chest, arms, or legs zone.\nEssence of Earth and Ice",
       "source": "https://cards.fabtcg.com/card/jarl_vetreii/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Earth and Ice"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -113,6 +128,10 @@
       "text_en": "When this attacks a hero, if you have less {h} than them, the crowd cheers you.\nIf you've been cheered this turn, this gets go again.",
       "source": "https://cards.fabtcg.com/card/jaws_of_victory/",
       "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -131,6 +150,7 @@
       "text_en": "Once per Turn Action - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. Go again\nAction - 0: Attack. When this hits, destroy it.",
       "source": "https://cards.fabtcg.com/card/jinglewood_smash_hit/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -149,6 +169,9 @@
       "text_en": "When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets go again.",
       "source": "https://cards.fabtcg.com/card/jittery_bones/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -179,6 +202,7 @@
       "text_en": "Create a Blade Dance token.",
       "source": "https://cards.fabtcg.com/card/jive/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -197,6 +221,10 @@
       "text_en": "When this attacks, you may {t} a cog you control. If you do, this gets overpower.\nWhen this deals damage to a hero, steal that many items they control.\nThrice per Turn Instant - {t} a cog you control: This gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/jolly_bludger/",
       "status": "machine-draft",
+      "keywords": [
+        "Overpower",
+        "Steal"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -215,6 +243,7 @@
       "text_en": "Once per Turn Action - {r}: Attack\nWhenever this hits a hero and you don't control a Spellbane Aegis, create a Spellbane Aegis token.",
       "source": "https://cards.fabtcg.com/card/jubeel_spellbane/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -233,6 +262,9 @@
       "text_en": "Legendary Azalea Specialization\nIf this has an aim counter, it gets \"When this hits a hero, they discard all but 1 card from their hand.\"",
       "source": "https://cards.fabtcg.com/card/judge_jury_executioner/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -251,6 +283,9 @@
       "text_en": "If you control a Hyper Driver, this costs {r} less to play.\nBoost",
       "source": "https://cards.fabtcg.com/card/jump_start/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -281,6 +316,9 @@
       "text_en": "Scrap\nWhen this attacks, if it scrapped a card, this gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/junkyard_dogg/",
       "status": "machine-draft",
+      "keywords": [
+        "Scrap"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -311,6 +349,7 @@
       "text_en": "Choose 1 or both;\n- Target attack action card with 1 or less base {p} gets +5{p}.\n- Target attack with stealth gets \"When this hits a hero, banish the top card of their deck.\"",
       "source": "https://cards.fabtcg.com/card/just_a_nick/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",

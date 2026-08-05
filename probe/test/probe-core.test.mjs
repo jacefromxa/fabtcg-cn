@@ -272,6 +272,53 @@ test('renderCardPanel only renders the three requested card fields', () => {
   assert.equal(panel.children[1].style.color, 'var(--fab-cn-type-color)');
 });
 
+test('renderCardPanel appends a keyword section (name：desc, numbered fallback)', () => {
+  const fakeDocument = createFakeDocument();
+  const panel = fakeDocument.createElement('div');
+
+  renderCardPanel(fakeDocument, panel, {
+    name_zh: '巨石坠击',
+    type_zh: '守护者行动·攻击',
+    text_zh: '粉碎。',
+    keywords: ['Crush', 'Go again', 'Arcane Barrier 1'],
+  }, {
+    'crush': { name_zh: '粉碎', desc_zh: '当此牌造成 4 点或更多伤害时，[效果]。' },
+    'go again': { name_zh: '再动', desc_zh: '获得 1 点行动点。' },
+    'arcane barrier': { name_zh: '秘法屏障', desc_zh: '若你将受到秘法伤害，你可以支付 N 点资源以防止其中 N 点。' },
+  });
+
+  assert.equal(panel.children.length, 4);
+  const kwBlock = panel.children[3];
+  assert.equal(kwBlock.className, 'fab-cn-card-keywords');
+  assert.equal(kwBlock.style.color, 'var(--fab-cn-keyword-color)');
+  assert.equal(kwBlock.style.fontSize, 'var(--fab-cn-keyword-size)');
+  assert.deepEqual(kwBlock.children.map((c) => c.textContent), [
+    '关键词',
+    '粉碎：当此牌造成 4 点或更多伤害时，[效果]。',
+    '再动：获得 1 点行动点。',
+    '秘法屏障：若你将受到秘法伤害，你可以支付 N 点资源以防止其中 N 点。',
+  ]);
+});
+
+test('renderCardPanel skips keywords that do not resolve in the library', () => {
+  const fakeDocument = createFakeDocument();
+  const panel = fakeDocument.createElement('div');
+  renderCardPanel(fakeDocument, panel, {
+    name_zh: 'X',
+    keywords: ['Crush', 'Rhinar Specialization', 'Attack'],
+  }, { 'crush': { name_zh: '粉碎', desc_zh: '说明' } });
+  const kwBlock = panel.children[3];
+  assert.equal(kwBlock.children.length, 2); // label + one resolved line
+  assert.equal(kwBlock.children[1].textContent, '粉碎：说明');
+});
+
+test('renderCardPanel renders no keyword section when the card has none', () => {
+  const fakeDocument = createFakeDocument();
+  const panel = fakeDocument.createElement('div');
+  renderCardPanel(fakeDocument, panel, { name_zh: 'A', keywords: [] }, { 'go again': { name_zh: '再动', desc_zh: 'x' } });
+  assert.equal(panel.children.length, 3);
+});
+
 test('findCardAnchor prefers the image inside the detected card container', () => {
   const image = { tagName: 'IMG', getBoundingClientRect() { return { width: 80 }; } };
   const container = {

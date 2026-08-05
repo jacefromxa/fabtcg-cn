@@ -32,6 +32,8 @@
     nameSize: 15,
     typeColor: '#f4f7fb',
     typeSize: 12,
+    keywordColor: '#8be9fd',
+    keywordSize: 11,
     panelMode: 'follow',
     panelPosition: null,
   };
@@ -322,6 +324,7 @@
     const isLocal = isLocalDataUrl(normalizedBaseUrl);
     const chunkPromises = new Map();
     let aliasesPromise = null;
+    let keywordsPromise = null;
     let loaderState = null;       // { cacheName, cache, manifest }
     let loaderInitPromise = null;
     let indexPromise = null;
@@ -447,6 +450,15 @@
       return aliasesPromise;
     }
 
+    // The keyword explanation library (English keyword -> {name_zh, desc_zh}).
+    // Small enough to preload once at install; cached like the other data files.
+    function loadKeywords() {
+      if (!keywordsPromise) {
+        keywordsPromise = getJson('keywords.json').catch(function () { return null; });
+      }
+      return keywordsPromise;
+    }
+
     async function findInIndex(keys) {
       var loaded = await loadIndex();
       var index = loaded.index;
@@ -478,6 +490,7 @@
     return {
       loadIndex: loadIndex,
       loadCardForElement: loadCardForElement,
+      loadKeywords: loadKeywords,
       isLocal: isLocal,
     };
   }
@@ -570,7 +583,7 @@
     if (Array.isArray(panel.children)) panel.children.length = 0;
   }
 
-  function renderCardPanel(doc, panel, card) {
+  function renderCardPanel(doc, panel, card, keywordsData) {
     clearPanel(panel);
     const name = doc.createElement('div');
     name.className = 'fab-cn-card-name';
@@ -601,6 +614,43 @@
     panel.appendChild(name);
     panel.appendChild(type);
     panel.appendChild(text);
+
+    // Keyword explanations follow the card text, one line per keyword, styled
+    // with their own color/size. No interaction — the text is shown directly.
+    if (keywordsData && Array.isArray(card.keywords) && card.keywords.length) {
+      const resolved = [];
+      for (const keyword of card.keywords) {
+        const entry = lookupKeywordEntry(keyword, keywordsData);
+        if (entry) resolved.push(entry);
+      }
+      if (resolved.length) {
+        const block = doc.createElement('div');
+        block.className = 'fab-cn-card-keywords';
+        block.style.color = 'var(--fab-cn-keyword-color)';
+        block.style.fontSize = 'var(--fab-cn-keyword-size)';
+        block.style.lineHeight = '1.5';
+        block.style.marginTop = '6px';
+        const label = doc.createElement('div');
+        label.textContent = '关键词';
+        label.style.fontWeight = '600';
+        label.style.marginBottom = '1px';
+        block.appendChild(label);
+        for (const entry of resolved) {
+          const line = doc.createElement('div');
+          line.textContent = entry.name_zh + '：' + entry.desc_zh;
+          block.appendChild(line);
+        }
+        panel.appendChild(block);
+      }
+    }
+  }
+
+  // Resolve a card keyword (e.g. "Arcane Barrier 1") against the keyword
+  // library (lowercased base keys). Numbered magnitudes fall back to the base.
+  function lookupKeywordEntry(keyword, keywordsData) {
+    if (!keywordsData) return null;
+    const key = String(keyword).toLowerCase();
+    return keywordsData[key] || keywordsData[key.replace(/ \d+$| x$/, '')] || null;
   }
 
   // --- Inline card-data lookup (for preloaded cardData) -------------------
@@ -686,6 +736,8 @@
         '--fab-cn-type-color:' + (vars.typeColor || '#f4f7fb') + ';' +
         '--fab-cn-type-size:' + (vars.typeSize || 12) + 'px;' +
         '--fab-cn-text-size:' + (vars.textSize || 13) + 'px;' +
+        '--fab-cn-keyword-color:' + (vars.keywordColor || '#8be9fd') + ';' +
+        '--fab-cn-keyword-size:' + (vars.keywordSize || 11) + 'px;' +
         '}';
     }
     applyStyleVariables(settings);
@@ -703,6 +755,18 @@
       : null;
     var hoverSerial = 0;
     var currentAnchor = null;
+    var currentCard = null;
+    var keywordsData = null;
+    // Preload the tiny keyword library once; a very first hover that happens
+    // before it arrives gets re-rendered as soon as it loads.
+    if (remoteLoader) {
+      remoteLoader.loadKeywords().then(function (kw) {
+        keywordsData = kw;
+        if (currentCard && panel && panel.style.display !== 'none') {
+          presentCard(currentAnchor, currentCard);
+        }
+      });
+    }
 
     // Talishar's full-card preview (React portal) is the positioning target.
     // It appears a beat after the pointerover, so we poll for it briefly.
@@ -918,11 +982,12 @@
       if (settings.panelMode === 'follow') startFollowing();
     };
 
-    var showCard = function (anchor, card) {
+    var presentCard = function (anchor, card) {
       currentAnchor = anchor;
+      currentCard = card;
       panel.style.display = 'block';
       panel.style.visibility = 'hidden';
-      renderCardPanel(doc, panel, card);
+      renderCardPanel(doc, panel, card, keywordsData);
       if (settings.panelMode === 'fixed') {
         panel.insertBefore(dragHandle, panel.firstChild);
       }
@@ -930,6 +995,8 @@
       panel.style.visibility = 'visible';
       if (settings.panelMode === 'follow') startFollowing();
     };
+
+    var showCard = function (anchor, card) { presentCard(anchor, card); };
 
     var hidePanel = function () {
       currentAnchor = null;
@@ -1104,10 +1171,18 @@
         'font-size:var(--fab-cn-text-size);',
         'line-height:1.5;margin-top:4px;white-space:pre-wrap;',
       ].join('');
+      var previewKeyword = doc.createElement('div');
+      previewKeyword.textContent = '关键词\n再动：获得 1 点行动点。';
+      previewKeyword.style.cssText = [
+        'color:var(--fab-cn-keyword-color);',
+        'font-size:var(--fab-cn-keyword-size);',
+        'line-height:1.5;margin-top:4px;white-space:pre-wrap;',
+      ].join('');
 
       preview.appendChild(previewName);
       preview.appendChild(previewType);
       preview.appendChild(previewText);
+      preview.appendChild(previewKeyword);
       dialog.appendChild(preview);
 
       // --- Compact field helpers ---
@@ -1228,10 +1303,12 @@
       var nameFont = makeFontRow('卡名', savedSettings.nameColor, savedSettings.nameSize);
       var typeFont = makeFontRow('类别', savedSettings.typeColor, savedSettings.typeSize);
       var textFont = makeFontRow('正文', savedSettings.textColor, savedSettings.textSize);
+      var keywordFont = makeFontRow('关键词', savedSettings.keywordColor, savedSettings.keywordSize);
 
       dialog.appendChild(nameFont.row);
       dialog.appendChild(typeFont.row);
       dialog.appendChild(textFont.row);
+      dialog.appendChild(keywordFont.row);
 
       // --- Read current field values into a settings object ---
 
@@ -1257,6 +1334,8 @@
         out.typeSize = parseInt(typeFont.sizeField.input.value, 10);
         out.textColor = textFont.colorField.input.value;
         out.textSize = parseInt(textFont.sizeField.input.value, 10);
+        out.keywordColor = keywordFont.colorField.input.value;
+        out.keywordSize = parseInt(keywordFont.sizeField.input.value, 10);
         return out;
       }
 

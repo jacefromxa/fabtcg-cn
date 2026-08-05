@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "ice_bolt": {
       "id": "ice_bolt",
@@ -11,6 +11,7 @@
       "text_en": "Deal 5 arcane damage to any target.",
       "source": "https://cards.fabtcg.com/card/ice_bolt/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -41,6 +42,9 @@
       "text_en": "Iyslander Specialization\nIce Fusion\nCreate X Frostbite tokens under target hero's control. Then, if Ice Eternal was fused, deal arcane damage to that hero equal to the number of Frostbites they control.",
       "source": "https://cards.fabtcg.com/card/ice_eternal/",
       "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -59,6 +63,9 @@
       "text_en": "Your next attack this turn gains +3{p}.\nWhenever an attack hits a hero this turn, create a Frostbite token under their control.\nGo again",
       "source": "https://cards.fabtcg.com/card/ice_quake/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -89,6 +96,10 @@
       "text_en": "Ice and Lightning Fusion\nYour next arrow attack this turn gains +3{p}.\nIf Ice Storm was fused, your next arrow attack this turn gains \"If this hits a hero, deal 1 damage to them\" and \"Whenever this attack deals damage to a hero, create that many Frostbite tokens under their control.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/ice_storm/",
       "status": "machine-draft",
+      "keywords": [
+        "Ice and Lightning Fusion",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -107,6 +118,9 @@
       "text_en": "Ice Fusion\nDeal 3 arcane damage to any target. If Icebind was fused and deals damage to a hero, freeze a card in their arsenal until the start of your next turn.",
       "source": "https://cards.fabtcg.com/card/icebind/",
       "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -137,6 +151,7 @@
       "text_en": "If Icy Encounter hits a hero, create a Frostbite token under their control.",
       "source": "https://cards.fabtcg.com/card/icy_encounter/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -167,6 +182,9 @@
       "text_en": "When this attacks, the next Draconic card you play or activate this combat chain costs {r} less to play or activate.\nGo again",
       "source": "https://cards.fabtcg.com/card/ignite/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -185,6 +203,7 @@
       "text_en": "If Illuminate hits, put it into your hero's soul.",
       "source": "https://cards.fabtcg.com/card/illuminate/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -215,6 +234,7 @@
       "text_en": "If Immobilizing Shot has an aim counter, it has \"When this hits a hero, they can't play more than 1 attack action card and 1 'non-attack' action card during their next action phase.\"",
       "source": "https://cards.fabtcg.com/card/immobilizing_shot/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -233,6 +253,7 @@
       "text_en": "If 3 or more cards have been put into an opposing hero's banished zone this turn, Impenetrable Belief gains +2{d} while defending.",
       "source": "https://cards.fabtcg.com/card/impenetrable_belief/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -263,6 +284,9 @@
       "text_en": "Legendary\nAction - Destroy Imperial Edict: Name a card. The named card can't be played until the start of your next turn. If you are Royal, instead each opponent reveals their hand, then name a card. Go again",
       "source": "https://cards.fabtcg.com/card/imperial_edict/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -281,6 +305,7 @@
       "text_en": "This costs {r} less to play for each Draconic chain link you control.\nTarget dagger attack gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/imperial_intent/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -299,6 +324,9 @@
       "text_en": "Legendary\nAction - Shuffle Imperial Ledger into its owner's deck: Create a Copper token. If you are Royal, instead create a Gold token.",
       "source": "https://cards.fabtcg.com/card/imperial_ledger/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -317,6 +345,9 @@
       "text_en": "Legendary\nAction - Destroy this: Defense reaction cards can't be played this turn. If you are Royal, the next time you hit a hero this turn, destroy all cards in their arsenal. Go again",
       "source": "https://cards.fabtcg.com/card/imperial_seal_of_command/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -335,6 +366,9 @@
       "text_en": "Legendary\nAction - {r}, destroy Imperial Warhorn: Choose any number of heroes. Each of them chooses an ally, aura, item, or landmark permanent they control. Destroy each permanent chosen this way. If you are Royal, instead you choose the permanents.",
       "source": "https://cards.fabtcg.com/card/imperial_warhorn/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -353,6 +387,9 @@
       "text_en": "Search your deck for an aura card with cost X or less, put it into the arena, then shuffle your deck.\nGo again",
       "source": "https://cards.fabtcg.com/card/imposing-visage/",
       "status": "deck-translation-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -371,6 +408,9 @@
       "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck.\nWhenever this banishes a reaction or instant card, gain 1{h}.",
       "source": "https://cards.fabtcg.com/card/impulsive_desire/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -401,6 +441,9 @@
       "text_en": "Suspense\nWhen this enters or leaves the arena, draw a card.",
       "source": "https://cards.fabtcg.com/card/in_the_palm_of_your_hand/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -419,6 +462,7 @@
       "text_en": "Play this only if you've attacked 2 or more times with weapons this turn.\nTarget weapon attack gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/in_the_swing/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -449,6 +493,7 @@
       "text_en": "Target dagger attack gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/incision/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -479,6 +524,9 @@
       "text_en": "Your next arrow attack this turn gains +3{p} and \"Defense reactions can't be played from hand this chain link.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/increase_the_tension/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -509,6 +557,10 @@
       "text_en": "Sharpen target sword you control.\nIf it has 3 or more +1{p} counters, your next attack with it this turn gets \"When this is defended by 1 or more cards, deal 1 damage to the defending hero.\" Go again",
       "source": "https://cards.fabtcg.com/card/indefensibly_honed/",
       "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -527,6 +579,7 @@
       "text_en": "Look at the top 5 cards of your deck. Put 1 card from among them on top of your deck, and the rest on the bottom of your deck in any order.",
       "source": "https://cards.fabtcg.com/card/index/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -557,6 +610,7 @@
       "text_en": "When this defends, choose a color. Each hero reveals a random card from their hand. If it's the chosen color, they discard it.",
       "source": "https://cards.fabtcg.com/card/induce_panic/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -575,6 +629,7 @@
       "text_en": "Action - {r}: If there are no steam counters on Induction Chamber, put a steam counter on it. Go again\nOnce per Turn Attack Reaction - Remove a steam counter from Induction Chamber: Target Mechanologist pistol attack gains go again.",
       "source": "https://cards.fabtcg.com/card/induction_chamber/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -593,6 +648,7 @@
       "text_en": "At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.",
       "source": "https://cards.fabtcg.com/card/inertia/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -611,6 +667,7 @@
       "text_en": "When this defends an attack with {p} greater than its base, create an Inertia token under the attacking hero's control.",
       "source": "https://cards.fabtcg.com/card/inertia_trap/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -629,6 +686,9 @@
       "text_en": "Stealth\nWhen this hits a hero, create a Bloodrot Pox token under their control.",
       "source": "https://cards.fabtcg.com/card/infect/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -659,6 +719,7 @@
       "text_en": "If Infecting Shot has an aim counter, it has +1{p}.\nWhen this hits a hero, create a Bloodrot Pox token under their control.",
       "source": "https://cards.fabtcg.com/card/infecting_shot/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -689,6 +750,7 @@
       "text_en": "When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.",
       "source": "https://cards.fabtcg.com/card/infectious_host/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -719,6 +781,9 @@
       "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck. You may play it until the end of your next turn.",
       "source": "https://cards.fabtcg.com/card/infiltrate/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -737,6 +802,9 @@
       "text_en": "When you attack with Inflame, if you've played another red card this turn, you may return a Phoenix Flame from your graveyard to your hand.\nGo again",
       "source": "https://cards.fabtcg.com/card/inflame/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -755,6 +823,9 @@
       "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
       "source": "https://cards.fabtcg.com/card/infuse_alloy/",
       "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -785,6 +856,9 @@
       "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
       "source": "https://cards.fabtcg.com/card/infuse_titanium/",
       "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -815,6 +889,7 @@
       "text_en": "Instant - Destroy this: Gain {r}. Activate this only if you control an aura permanent with Sigil in its name.",
       "source": "https://cards.fabtcg.com/card/ink_lined_cloak/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -833,6 +908,7 @@
       "text_en": "",
       "source": "https://cards.fabtcg.com/card/inner_chi/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -851,6 +927,7 @@
       "text_en": "Insidious Chill enters the arena with 3 frost counters on it. When it has no frost counters on it, destroy it.\nWhenever you Ice Fuse, remove a frost counter from Insidious Chill. If you do, target hero discards a card unless they pay {r}{r}.",
       "source": "https://cards.fabtcg.com/card/insidious_chill/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -869,6 +946,9 @@
       "text_en": "Lightning Fusion\nIf Inspire Lightning was fused, deal 3 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/inspire_lightning/",
       "status": "machine-draft",
+      "keywords": [
+        "Lightning Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -899,6 +979,9 @@
       "text_en": "When this attacks a hero, intimidate them.",
       "source": "https://cards.fabtcg.com/card/instill_fear/",
       "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -929,6 +1012,9 @@
       "text_en": "When this attacks a hero, if you have more {h} than them, this gets go again.",
       "source": "https://cards.fabtcg.com/card/insult_to_injury/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -959,6 +1045,7 @@
       "text_en": "Your hero has -1{i}.\nIf you would create an Intellect Penalty with X counters on it, instead add X turn counters onto this.\nIf you would draw up to your hero's intellect as an end-of-turn procedure, instead draw that many cards, remove a turn counter from this, and remove it from the game if it has no turn counters on it.",
       "source": "https://cards.fabtcg.com/card/intellect_penalty/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -977,6 +1064,7 @@
       "text_en": "Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.",
       "source": "https://cards.fabtcg.com/card/interlude/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1007,6 +1095,7 @@
       "text_en": "Target Assassin or Mystic attack action card gets +1{p}.\nLook at the top 4 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",
       "source": "https://cards.fabtcg.com/card/intimate_inducement/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1037,6 +1126,7 @@
       "text_en": "Play this only if you've wagered this chain link.\nBanish a non-equipment defending card on the active chain link.",
       "source": "https://cards.fabtcg.com/card/into_the_muck/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1055,6 +1145,7 @@
       "text_en": "Riptide Specialization\nWhen this hits a hero, they create a Courage and Quicken token.",
       "source": "https://cards.fabtcg.com/card/intoxicating_shot/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1073,6 +1164,9 @@
       "text_en": "You may play Invert Existence from your banished zone.\nBanish up to 2 cards in an opposing hero's graveyard. If an attack action card and a 'non-attack' action card are banished this way, deal 2 arcane damage to that hero.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/invert_existence/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1091,6 +1185,9 @@
       "text_en": "Action - Destroy this: Until end of turn, whenever you play an attack action card with stealth, gain {r}. Go again\nBattleworn",
       "source": "https://cards.fabtcg.com/card/inverters_nightcowl/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1109,6 +1206,9 @@
       "text_en": "The next attack you fuse this turn gains +4{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/invigorate/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1139,6 +1239,7 @@
       "text_en": "When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes.",
       "source": "https://cards.fabtcg.com/card/invigorating_light/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1169,6 +1270,10 @@
       "text_en": "Transform target ash you control into Azvolai. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_azvolai/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1187,6 +1292,10 @@
       "text_en": "Transform target ash you control into Cromai. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_cromai/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1205,6 +1314,11 @@
       "text_en": "Legendary\nTransform target ash you control into Dominia. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_dominia/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1223,6 +1337,11 @@
       "text_en": "Legendary\nTransform target ash you control into Dracona Optimai. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_dracona_optimai/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1241,6 +1360,10 @@
       "text_en": "Transform target ash you control into Kyloria. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_kyloria/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1259,6 +1382,10 @@
       "text_en": "Transform target ash you control into Miragai. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_miragai/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1277,6 +1404,10 @@
       "text_en": "Transform target ash you control into Nekria. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_nekria/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1295,6 +1426,10 @@
       "text_en": "Transform target ash you control into Ouvia. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_ouvia/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1313,6 +1448,11 @@
       "text_en": "Legendary\nTransform target Spectral Shield you control into Suraya, Arcane Herald.\nGo again",
       "source": "https://cards.fabtcg.com/card/invoke_suraya/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1331,6 +1471,10 @@
       "text_en": "Transform target ash you control into Themai. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_themai/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1349,6 +1493,11 @@
       "text_en": "Legendary\nTransform target ash you control into Tomeltai. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_tomeltai/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1367,6 +1516,10 @@
       "text_en": "Transform target ash you control into Vynserakai. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_vynserakai/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1385,6 +1538,10 @@
       "text_en": "Transform target ash you control into Yendurai. Go again",
       "source": "https://cards.fabtcg.com/card/invoke_yendurai/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1403,6 +1560,7 @@
       "text_en": "Until end of turn, Lightning and Elemental attacks get +1{p} while they have go again.",
       "source": "https://cards.fabtcg.com/card/ion_charged/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1421,6 +1579,7 @@
       "text_en": "Your second attack each turn gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/ira_crimson_haze/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1439,6 +1598,7 @@
       "text_en": "Your second attack each turn gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/ira_scarlet_revenger/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1457,6 +1617,7 @@
       "text_en": "At the beginning of your end phase, if you didn't hit a hero this turn, lose 2{h}.",
       "source": "https://cards.fabtcg.com/card/ire_of_the_crowd/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1475,6 +1636,7 @@
       "text_en": "During your action phase, Illusionist auras you control are weapons with 4{p} and Once per Turn Action - {r}{r}{r}: Attack. Go again",
       "source": "https://cards.fabtcg.com/card/iris_of_reality/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1493,6 +1655,9 @@
       "text_en": "Instant - {t}, discard a card: Search your deck for a Whirling Mist Blossom, banish it, then shuffle. You may play it this turn. Activate this only if you've hit this turn.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/iris_of_the_blossom/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1511,6 +1676,9 @@
       "text_en": "When this defends, you may turn a face-down card with crush in your arsenal face-up. If you do, put a +1{p} counter on it.\nTemper",
       "source": "https://cards.fabtcg.com/card/ironfist_revelation/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1529,6 +1697,7 @@
       "text_en": "When you defend with Ironhide Gauntlet, you may pay {r}. If you do, it gains +2{d} and \"When the combat chain closes, destroy Ironhide Gauntlet.\"",
       "source": "https://cards.fabtcg.com/card/ironhide_gauntlet/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1547,6 +1716,7 @@
       "text_en": "When you defend with Ironhide Helm, you may pay {r}. If you do, it gains +2{d} and \"When the combat chain closes, destroy Ironhide Helm.\"",
       "source": "https://cards.fabtcg.com/card/ironhide_helm/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1565,6 +1735,7 @@
       "text_en": "When you defend with Ironhide Legs, you may pay {r}. If you do, it gains +2{d} and \"When the combat chain closes, destroy Ironhide Legs.\"",
       "source": "https://cards.fabtcg.com/card/ironhide_legs/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1583,6 +1754,7 @@
       "text_en": "When you defend with Ironhide Plate, you may pay {r}. If you do, it gains +2{d} and destroy it when the combat chain closes.",
       "source": "https://cards.fabtcg.com/card/ironhide_plate/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1601,6 +1773,9 @@
       "text_en": "Blade Break",
       "source": "https://cards.fabtcg.com/card/ironrot_gauntlet/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1619,6 +1794,9 @@
       "text_en": "Blade Break",
       "source": "https://cards.fabtcg.com/card/ironrot_helm/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1637,6 +1815,9 @@
       "text_en": "Blade Break",
       "source": "https://cards.fabtcg.com/card/ironrot_legs/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1655,6 +1836,9 @@
       "text_en": "Blade Break",
       "source": "https://cards.fabtcg.com/card/ironrot_plate/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1673,6 +1857,9 @@
       "text_en": "Target weapon's attacks get +1{p} and dominate until end of turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/ironsong_determination/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1691,6 +1878,7 @@
       "text_en": "When this enters the arena, put a +1{p} counter on target sword you control.\nWhen this leaves the arena, remove all +1{p} counters from swords you control.\nAt the beginning of your end phase, if a sword has not hit this turn, destroy this.",
       "source": "https://cards.fabtcg.com/card/ironsong_pride/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1709,6 +1897,9 @@
       "text_en": "Reprise - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +3{p}.",
       "source": "https://cards.fabtcg.com/card/ironsong_response/",
       "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1739,6 +1930,9 @@
       "text_en": "Once per Turn Action - {r}: Your next sword attack this turn gets \"When this hits a hero, create a Courage token.\"  Go again\nTemper",
       "source": "https://cards.fabtcg.com/card/ironsong_versus/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1757,6 +1951,9 @@
       "text_en": "The next time you Ice fuse this turn, create 4 Frostbite tokens under target hero's control.\nGo again",
       "source": "https://cards.fabtcg.com/card/isenhowl_weathervane/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1787,6 +1984,10 @@
       "text_en": "Stealth\nDominate",
       "source": "https://cards.fabtcg.com/card/isolate/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth",
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1817,6 +2018,9 @@
       "text_en": "Essence of Ice\nIf it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.\nWhenever you play an Ice card during an opponents turn, create a Frostbite token under their control.",
       "source": "https://cards.fabtcg.com/card/iyslander/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Ice"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1835,6 +2039,9 @@
       "text_en": "Essence of Ice\nIf it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.\nWhenever you play an Ice card during an opponents turn, create a Frostbite token under their control.",
       "source": "https://cards.fabtcg.com/card/iyslander_stormbind/",
       "status": "machine-draft",
+      "keywords": [
+        "Essence of Ice"
+      ],
       "variants": {
         "default": {
           "pitch": null,

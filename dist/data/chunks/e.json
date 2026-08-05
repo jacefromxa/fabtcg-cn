@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "earth_form": {
       "id": "earth_form",
@@ -11,6 +11,7 @@
       "text_en": "When this hits, create an Embodiment of Earth token.",
       "source": "https://cards.fabtcg.com/card/earth_form/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -41,6 +42,9 @@
       "text_en": "Whenever you draw 1 or more cards from an action card effect, create that many Seismic Surge tokens.\nTemper",
       "source": "https://cards.fabtcg.com/card/earthlore_bounty/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -59,6 +63,7 @@
       "text_en": "At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +5{p}.",
       "source": "https://cards.fabtcg.com/card/earthlore_empowerment/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -83,6 +88,9 @@
       "text_en": "The next attack action card you play this turn gains +5{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/earthlore_surge/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -113,6 +121,9 @@
       "text_en": "Go again\nAt the beginning of your end phase, create an Embodiment of Earth token. Then, if you haven't banished an Earth card this turn, destroy this.",
       "source": "https://cards.fabtcg.com/card/earths_embrace/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -131,6 +142,10 @@
       "text_en": "Whenever this fragments, it gets go again.\nFragment",
       "source": "https://cards.fabtcg.com/card/ebbing_arcstride/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Fragment"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -161,6 +176,9 @@
       "text_en": "Instant - {r}, destroy Ebon Fold: Banish a card from your hand. If it's a Shadow card, draw a card.\nSpellvoid 2",
       "source": "https://cards.fabtcg.com/card/ebon_fold/",
       "status": "machine-draft",
+      "keywords": [
+        "Spellvoid 2"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -179,6 +197,9 @@
       "text_en": "Whenever you beat chest, you may {r} and destroy this. If you do, draw a card.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/echo_casque/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -197,6 +218,7 @@
       "text_en": "Deal 1 arcane damage to target hero.\nWhen this is put into your graveyard from anywhere, your hero deals 1 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/echoflash/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -215,6 +237,7 @@
       "text_en": "When this attacks, you may play a non-attack action card this chain link as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/eclectic_magnetism/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -233,6 +256,9 @@
       "text_en": "Legendary Chane Specialization\nPlay Eclipse only if you have played 6 or more cards with blood debt this turn. If you have, you may play Eclipse from your banished zone.\nCreate an Ursur, the Soul Reaper token.",
       "source": "https://cards.fabtcg.com/card/eclipse/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -251,6 +277,7 @@
       "text_en": "Until end of turn, whenever an attack hits a Light hero, you may banish a card from their soul. If they do, they lose 1{h}.\nIf you have more {h} than an opposing Light hero, you may banish an action card from your graveyard.",
       "source": "https://cards.fabtcg.com/card/eclipse_existence/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -269,6 +296,9 @@
       "text_en": "Your next Warrior attack this turn gets +3{p} and \"When this attacks a hero, you may wager an Agility token with them.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/edge_ahead/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -299,6 +329,9 @@
       "text_en": "Instant - Destroy this: Gain {r}. Activate this only if you've sharpened a sword this turn.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/edge_laden_plate/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -317,6 +350,7 @@
       "text_en": "Once per Turn Action - {r}: Attack. Go again",
       "source": "https://cards.fabtcg.com/card/edge_of_autumn/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -335,6 +369,9 @@
       "text_en": "Suspense\nWhen this leaves the arena, your next attack this turn gets +5{p}.",
       "source": "https://cards.fabtcg.com/card/edge_of_their_seats/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -365,6 +402,10 @@
       "text_en": "Sharpen target sword you control.\nIf it has 1 or more +1{p} counters, create a Flurry token.\nGo again",
       "source": "https://cards.fabtcg.com/card/edict_of_steel/",
       "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -395,6 +436,7 @@
       "text_en": "Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 6 minus the pitch value of the card revealed this way.",
       "source": "https://cards.fabtcg.com/card/eirinas_prayer/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -425,6 +467,9 @@
       "text_en": "The next time an attack action card hits a hero this turn, it deals 3 damage to them.\nIf Electrify is played from arsenal, draw a card.\nGo again",
       "source": "https://cards.fabtcg.com/card/electrify/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -455,6 +500,9 @@
       "text_en": "Go again",
       "source": "https://cards.fabtcg.com/card/electrolyze/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -485,6 +533,7 @@
       "text_en": "Choose up to 2 attack action cards with cost 2 or more on the active chain link. Return them to their owner's hand when the chain link resolves.",
       "source": "https://cards.fabtcg.com/card/electromagnetic_somersault/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -503,6 +552,7 @@
       "text_en": "The next attack action card you play this turn with cost 1 or less gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/electrostatic_discharge/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -533,6 +583,9 @@
       "text_en": "Your next Runeblade or Lightning attack this turn gets +3{p}.\nCreate a Lightning Flow token.\nGo again",
       "source": "https://cards.fabtcg.com/card/electryn_joltstep/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -563,6 +616,9 @@
       "text_en": "Quickstrike - If this has go again, it gets +1{p} and \"When this attacks a hero, deal 1 arcane damage to them.\"\nThe first time this deals damage to a hero, you may put an instant card from your graveyard on the bottom of your deck.",
       "source": "https://cards.fabtcg.com/card/electryn_mindmeld/",
       "status": "machine-draft",
+      "keywords": [
+        "Quickstrike"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -581,6 +637,10 @@
       "text_en": "As an additional cost to play this, banish a card from your hand. If it's Earth, this gets +2{p}. Lightning, this gets go again. Ice, this gets dominate.",
       "source": "https://cards.fabtcg.com/card/elemental_strike/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -599,6 +659,9 @@
       "text_en": "When this leaves the arena, create an Embodiment of Lightning token.\nWard 2",
       "source": "https://cards.fabtcg.com/card/elliptical_conflux/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -617,6 +680,7 @@
       "text_en": "When you play a non-attack action card, destroy this and the card gets go again.",
       "source": "https://cards.fabtcg.com/card/eloquence/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -635,6 +699,10 @@
       "text_en": "Rune Gate\nWhen the combat chain closes, if a hero has lost {h} this turn, create an Eloquence token.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/eloquent_eulogy/",
       "status": "machine-draft",
+      "keywords": [
+        "Rune Gate",
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -653,6 +721,10 @@
       "text_en": "You may play this from your banished zone. If you do, it gets go again.\nPut an attack action card with blood debt from your graveyard on the bottom of your deck.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/embalm/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Blood Debt"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -671,6 +743,9 @@
       "text_en": "Phantasm\nWhen Embermaw Cenipai is destroyed, create an Ash token.",
       "source": "https://cards.fabtcg.com/card/embermaw_cenipai/",
       "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -701,6 +776,7 @@
       "text_en": "'Non-attack' action cards you control have +1{d} while defending.\nAt the beginning of your action phase, destroy Embodiment of Earth.",
       "source": "https://cards.fabtcg.com/card/embodiment_of_earth/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -719,6 +795,7 @@
       "text_en": "When you play an attack action card, destroy this, then the attack gets go again.",
       "source": "https://cards.fabtcg.com/card/embodiment_of_lightning/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -737,6 +814,7 @@
       "text_en": "Shiyana Specialization\nName a living legend hero. Become that hero until the start of your next turn, except your base {h} doesn't change.",
       "source": "https://cards.fabtcg.com/card/embody_greatness/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -755,6 +833,9 @@
       "text_en": "Go again\nWhen this enters the arena, if you control another non-token aura, draw a card.\nAt the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn gets +5{p}.",
       "source": "https://cards.fabtcg.com/card/embolden/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -785,6 +866,9 @@
       "text_en": "Turn a face-down card in any arsenal face-up. If it's a defense reaction, destroy it and your next weapon attack this turn gets +1{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/emboldened_blade/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -803,6 +887,7 @@
       "text_en": "If you've been cheered this turn, this costs {r}{r}{r} less to play.",
       "source": "https://cards.fabtcg.com/card/emboldened_by_the_crowd/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -821,6 +906,9 @@
       "text_en": "This may only defend an attack if the attack's controller has destroyed a Might token this turn.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/embrace_adversity/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -839,6 +927,10 @@
       "text_en": "If this would be put into your graveyard from anywhere, instead banish it.\nTemper\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/embraforged_gauntlet/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper",
+        "Blood Debt"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -857,6 +949,10 @@
       "text_en": "Ice Fusion\nGo again\nWhen Emerging Avalanche enters the arena, if it was fused, create a Frostbite token under target hero control.\nAt the beginning of your action phase, destroy Emerging Avalanche then the next attack action card you play this turn gains +3{p}.",
       "source": "https://cards.fabtcg.com/card/emerging_avalanche/",
       "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -887,6 +983,7 @@
       "text_en": "At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +3{p} and dominate.",
       "source": "https://cards.fabtcg.com/card/emerging_dominance/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -917,6 +1014,9 @@
       "text_en": "Go again\nAt the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn gets +3{p}.",
       "source": "https://cards.fabtcg.com/card/emerging_power/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -947,6 +1047,7 @@
       "text_en": "Deal 4 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 6 arcane damage to them.",
       "source": "https://cards.fabtcg.com/card/emeritus_scolding/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -977,6 +1078,7 @@
       "text_en": "When this attacks, you may put a card from your hand on the bottom of your deck. If you do, draw a card.",
       "source": "https://cards.fabtcg.com/card/emissary_of_moon/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -995,6 +1097,7 @@
       "text_en": "When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/emissary_of_tides/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1013,6 +1116,9 @@
       "text_en": "When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets go again.",
       "source": "https://cards.fabtcg.com/card/emissary_of_wind/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1031,6 +1137,7 @@
       "text_en": "You may only have red cards in your deck.\nAction - {r}{r}{r}: Search your deck for Command and Conquer, attack with it, then shuffle.",
       "source": "https://cards.fabtcg.com/card/emperor_dracai_of_aesir/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1049,6 +1156,7 @@
       "text_en": "If you've been cheered this turn, this gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/empowering_ruckus/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1067,6 +1175,7 @@
       "text_en": "If a card with Herald in its name has been put into your hero's soul during your turn, the first hero ability you activate that turn costs {r}{r} less to activate.\nOnce per Turn Instant - {r}: This gets ward 1 until end of turn.",
       "source": "https://cards.fabtcg.com/card/empyrean_rapture/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1085,6 +1194,9 @@
       "text_en": "Your next weapon attack this turn gains +3{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/en_garde/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1103,6 +1215,9 @@
       "text_en": "Combo - If Edge of Autumn or a card with Vengeance in its name was the last attack this combat chain, this gets \"When this hits a hero, destroy all cards in their arsenal.\"",
       "source": "https://cards.fabtcg.com/card/enact_vengeance/",
       "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1121,6 +1236,9 @@
       "text_en": "Ice Fusion\nDeal 3 arcane damage to any target. If Encase was fused and deals damage to a hero, freeze that hero and all equipment they control until the start of your next turn.",
       "source": "https://cards.fabtcg.com/card/encase/",
       "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1139,6 +1257,7 @@
       "text_en": "Instant - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If there is a face-up arrow in your arsenal, instead prevent the next 2.",
       "source": "https://cards.fabtcg.com/card/enchanted_quiver/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1157,6 +1276,9 @@
       "text_en": "Go again\nIf your hero would be dealt damage, instead destroy Enchanting Melody and prevent 4 damage that source would deal.\nAt the beginning of your end phase, destroy Enchanting Melody unless you have played a 'non-attack' action card this turn.",
       "source": "https://cards.fabtcg.com/card/enchanting_melody/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1187,6 +1309,9 @@
       "text_en": "Arcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/enclosed_firemind/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -1205,6 +1330,9 @@
       "text_en": "Return a Bard attack action card from your graveyard to your hand.\nGo again",
       "source": "https://cards.fabtcg.com/card/encore/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1223,6 +1351,7 @@
       "text_en": "Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, create a Fealty token.",
       "source": "https://cards.fabtcg.com/card/endear_devotion/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1241,6 +1370,7 @@
       "text_en": "When this hits, put it into its owner's hand.",
       "source": "https://cards.fabtcg.com/card/endless_arrow/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1259,6 +1389,9 @@
       "text_en": "As an additional cost to play Endless Maw, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/endless_maw/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1289,6 +1422,9 @@
       "text_en": "Oldhim Specialization\nIce Fusion\nIf Endless Winter was fused, whenever the defending hero adds a defending card to this chain link, create a Frostbite token under their control.\nIf Endless Winter hits a hero, until the end of their next turn, whenever they activate an ability, create a Frostbite token under their control.",
       "source": "https://cards.fabtcg.com/card/endless_winter/",
       "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1307,6 +1443,7 @@
       "text_en": "When this defends together with a card with 6 or more {p}, create a Vigor token.",
       "source": "https://cards.fabtcg.com/card/energetic_impact/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1325,6 +1462,7 @@
       "text_en": "If you have less {h} than each other hero, this gets +1{p} for each aura of suspense you control.",
       "source": "https://cards.fabtcg.com/card/energy_of_the_audience/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1343,6 +1481,7 @@
       "text_en": "Instant - Destroy this: Gain {r}{r}",
       "source": "https://cards.fabtcg.com/card/energy_potion/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1361,6 +1500,9 @@
       "text_en": "When this attacks, if you control 2 or more Draconic chain links, this gets go again, 3 or more, your attacks are Draconic this combat chain, 4 or more, this gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/enflame_the_firebrand/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1379,6 +1521,9 @@
       "text_en": "Your next sword attack this turn gets +3{p} and \"If this is defended by a Warrior card, this gets +1{p}.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/engage_steel/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1409,6 +1554,9 @@
       "text_en": "Your next Warrior attack this turn gets +3{p} and \"If this is defended by an attack action card, this gets Go again.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/engaged_swiftblade/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1439,6 +1587,9 @@
       "text_en": "When Engulfing Flamewave hits, reveal the top card of your deck. If it's an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/engulfing_flamewave/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1469,6 +1620,9 @@
       "text_en": "As an additional cost to play Engulfing Light, you may charge your hero's soul.\nIf you've charged this turn, Engulfing Light gains \"If this hits, put it into your hero's soul.\"",
       "source": "https://cards.fabtcg.com/card/engulfing_light/",
       "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1499,6 +1653,9 @@
       "text_en": "If this would be put into your graveyard from anywhere, instead banish it.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/engulfing_shadows/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1517,6 +1674,7 @@
       "text_en": "Your first Spectral Shield attack each turn costs {r} less to activate.\nOnce per Turn Instant - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",
       "source": "https://cards.fabtcg.com/card/enigma/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1535,6 +1693,9 @@
       "text_en": "Phantasm",
       "source": "https://cards.fabtcg.com/card/enigma_chimera/",
       "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1565,6 +1726,7 @@
       "text_en": "Your first Spectral Shield attack each turn costs {r} less to activate.\nOnce per Turn Instant - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",
       "source": "https://cards.fabtcg.com/card/enigma_ledger_of_ancestry/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1583,6 +1745,7 @@
       "text_en": "Equipment you own gets cloaked\nInstant - {c}{c}{c}: Turn target face-down equipment you have equipped face-up. If it has ward, create 3 Spectral Shield tokens.",
       "source": "https://cards.fabtcg.com/card/enigma_new_moon/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -1601,6 +1764,7 @@
       "text_en": "Deal 3 arcane damage to any target.\nIf this deals damage, you may {t} your hero. If you do, create a Lightning Flow token.",
       "source": "https://cards.fabtcg.com/card/enion_surge/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1631,6 +1795,9 @@
       "text_en": "As an additional cost to play Enlightened Strike, put a card from your hand on the bottom of your deck.\nChoose 1;\n- When you attack with Enlightened Strike, draw a card.\n- Enlightened Strike gains +2{p}.\n- Enlightened Strike gains go again.",
       "source": "https://cards.fabtcg.com/card/enlightened_strike/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1649,6 +1816,9 @@
       "text_en": "Earth Fusion\nIf Entangle was fused, it gains \"If this hits a hero, their first attack during their next turn has -2{p}.\"",
       "source": "https://cards.fabtcg.com/card/entangle/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1679,6 +1849,7 @@
       "text_en": "When this is put face-up into your arsenal, you may {t} target hero.",
       "source": "https://cards.fabtcg.com/card/entangling_shot/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1697,6 +1868,9 @@
       "text_en": "Earth Fusion\nIf Entwine Earth was fused, it gains +2{p}.",
       "source": "https://cards.fabtcg.com/card/entwine_earth/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1727,6 +1901,10 @@
       "text_en": "Ice Fusion\nIf Entwine Ice was fused, it gains dominate.",
       "source": "https://cards.fabtcg.com/card/entwine_ice/",
       "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion",
+        "Dominate"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1757,6 +1935,10 @@
       "text_en": "Lightning Fusion\nIf Entwine Lightning was fused, it gains go again.",
       "source": "https://cards.fabtcg.com/card/entwine_lightning/",
       "status": "machine-draft",
+      "keywords": [
+        "Lightning Fusion",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1787,6 +1969,9 @@
       "text_en": "Create a Runechant token.\nThe next attack action card you rune gate this turn gets +3{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/envelop_in_darkness/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1817,6 +2002,9 @@
       "text_en": "Contract - You are contracted to banish opponents' yellow cards. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top X cards of their deck, where X is the damage dealt by Eradicate.",
       "source": "https://cards.fabtcg.com/card/eradicate/",
       "status": "machine-draft",
+      "keywords": [
+        "Contract"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1835,6 +2023,7 @@
       "text_en": "When this hits a hero, cards they own lose all class and talent types until the end of their next turn.",
       "source": "https://cards.fabtcg.com/card/erase_face/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1853,6 +2042,10 @@
       "text_en": "Dominate\nFragment",
       "source": "https://cards.fabtcg.com/card/erode_authority/",
       "status": "machine-draft",
+      "keywords": [
+        "Dominate",
+        "Fragment"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1883,6 +2076,7 @@
       "text_en": "Whenever a hero draws a card during an action phase, they lose 1{h}.\nAt the beginning of each hero's action phase, they draw a card.\nAt the beginning of each hero's end phase, if a weapon did not attack this turn, destroy this.",
       "source": "https://cards.fabtcg.com/card/escalate_bloodshed/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1901,6 +2095,7 @@
       "text_en": "When this attacks, if you control a Toughness token, create 3 more.",
       "source": "https://cards.fabtcg.com/card/escalate_order/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1919,6 +2114,7 @@
       "text_en": "When this attacks, if you control a Might token, create 3 more.",
       "source": "https://cards.fabtcg.com/card/escalate_violence/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1937,6 +2133,9 @@
       "text_en": "When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a red source this turn, prevent it.\nWard 2",
       "source": "https://cards.fabtcg.com/card/essence_of_ancestry_body/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -1955,6 +2154,9 @@
       "text_en": "When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a blue source this turn, prevent it.\nWard 2",
       "source": "https://cards.fabtcg.com/card/essence_of_ancestry_mind/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -1973,6 +2175,9 @@
       "text_en": "When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a yellow source this turn, prevent it.\nWard 2",
       "source": "https://cards.fabtcg.com/card/essence_of_ancestry_soul/",
       "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -1991,6 +2196,9 @@
       "text_en": "Deal 3 arcane damage to target hero.\nSurge - If this deals more than 3 damage, you may return an aura with Sigil in its name from your graveyard to your hand.",
       "source": "https://cards.fabtcg.com/card/etchings_of_arcana/",
       "status": "machine-draft",
+      "keywords": [
+        "Surge"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2021,6 +2229,9 @@
       "text_en": "Deal 4 arcane damage to any target.\nSurge - If this deals more than 4 damage, banish it. You may play it this turn.",
       "source": "https://cards.fabtcg.com/card/eternal_inferno/",
       "status": "machine-draft",
+      "keywords": [
+        "Surge"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2039,6 +2250,7 @@
       "text_en": "",
       "source": "https://cards.fabtcg.com/card/evasive_leap/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2069,6 +2281,9 @@
       "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nThis can't be defended by equipment or reaction cards.",
       "source": "https://cards.fabtcg.com/card/evasive_nageboshi/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2087,6 +2302,9 @@
       "text_en": "Play Even Bigger Than That! only if you've dealt {p} this turn.\nOpt 3, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card.",
       "source": "https://cards.fabtcg.com/card/even_bigger_than_that/",
       "status": "machine-draft",
+      "keywords": [
+        "Opt 1"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2117,6 +2335,10 @@
       "text_en": "Meld\nChoose an action card in a graveyard with cost less than the total {h} you've gained this turn. Put it on the bottom of its owner's deck.\nGo again\n//\nGain 1{h}",
       "source": "https://cards.fabtcg.com/card/everbloom-life/",
       "status": "deck-translation-draft",
+      "keywords": [
+        "Go again",
+        "Meld"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2135,6 +2357,7 @@
       "text_en": "If Evergreen is played from arsenal, put it on the bottom of its owner's deck when the combat chain closes.",
       "source": "https://cards.fabtcg.com/card/evergreen/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2165,6 +2388,9 @@
       "text_en": "If you have a base chest equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost, you may destroy a card under this. If you do, gain {r}{r}.",
       "source": "https://cards.fabtcg.com/card/evo_atom_breaker/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2183,6 +2409,10 @@
       "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Put a steam counter on an item you control with crank.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/evo_battery_pack/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Blade Break"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2201,6 +2431,10 @@
       "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nEvo arms cost you {r} less to play.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_beta_base_arms/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2219,6 +2453,10 @@
       "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nEvo chests cost you {r} less to play.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_beta_base_chest/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2237,6 +2475,10 @@
       "text_en": "If you have a base head equipped, transform it into this, then equip this.\nEvo heads cost you {r} less to play.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_beta_base_head/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2255,6 +2497,10 @@
       "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nEvo legs cost you {r} less to play.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_beta_base_legs/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2273,6 +2519,9 @@
       "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nWhen this is equipped, gain {r}.",
       "source": "https://cards.fabtcg.com/card/evo_buzz_hive/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2291,6 +2540,10 @@
       "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Create a Quicken token.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/evo_charging_rods/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Blade Break"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2309,6 +2562,9 @@
       "text_en": "If you have a base head equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost, you may destroy a card under this. If you do, shuffle 2 attack action cards from your banished zone into your deck.",
       "source": "https://cards.fabtcg.com/card/evo_circuit_breaker/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2327,6 +2583,10 @@
       "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Put an item with cost 0 or 1 from your hand into the arena.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/evo_cogspitter/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Blade Break"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2345,6 +2605,10 @@
       "text_en": "If you have a base head equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Your next weapon attack this turn gets \"When this hits, draw a card.\"\nBlade Break",
       "source": "https://cards.fabtcg.com/card/evo_command_center/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Blade Break"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2363,6 +2627,10 @@
       "text_en": "If you have a base head equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Draw a card, then put a card from your hand on top of your deck.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/evo_data_mine/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Blade Break"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2381,6 +2649,10 @@
       "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nYour Teklo Blaster costs {r} less to activate for each opposing hero.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_energy_matrix/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2399,6 +2671,10 @@
       "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Your next weapon attack this turn costs {r} less to activate.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/evo_engine_room/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Blade Break"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2417,6 +2693,9 @@
       "text_en": "If you have a base arms equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost an attack action card, you may destroy a card under this. If you do, the attack gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/evo_face_breaker/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2435,6 +2714,9 @@
       "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nWhen this is equipped, the next attack action card you play this turn costs {r} less to play.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/evo_heartdrive/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2453,6 +2735,9 @@
       "text_en": "If you have a base legs equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost, you may destroy a card under this. If you do, create a Quicken token.",
       "source": "https://cards.fabtcg.com/card/evo_mach_breaker/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2471,6 +2756,9 @@
       "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nWhen this defends, you may destroy a card under it. If you do, gain control of target item with cost 0 or 1 controlled by the attacking hero.\nTemper",
       "source": "https://cards.fabtcg.com/card/evo_magneto/",
       "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2489,6 +2777,10 @@
       "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nYour Teklo Blaster attacks get go again.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_rapid_fire/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2507,6 +2799,9 @@
       "text_en": "If you have a base head equipped, transform it into this, then equip this.\nWhen this is equipped, put up to 1 Mechanologist action card from your banished zone on top of your deck.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/evo_recall/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2525,6 +2820,10 @@
       "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nYour Teklo Blaster gets +1{p} for each opposing hero.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_scatter_shot/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2543,6 +2842,10 @@
       "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_sentry_base_arms/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2561,6 +2864,10 @@
       "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_sentry_base_chest/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2579,6 +2886,10 @@
       "text_en": "If you have a base head equipped, transform it into this, then equip this.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_sentry_base_head/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2597,6 +2908,10 @@
       "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_sentry_base_legs/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2615,6 +2930,9 @@
       "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nWhen this is equipped, deal 1 damage to any target.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/evo_shortcircuit/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2633,6 +2951,10 @@
       "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Your next weapon attack this turn gets +1{p}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/evo_smoothbore/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Blade Break"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2651,6 +2973,9 @@
       "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nWhen this is equipped, the next attack action card you play this turn gets boost.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/evo_speedslip/",
       "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2669,6 +2994,10 @@
       "text_en": "If you have base arms equipped, transform it into this, then equip this.\nWhen this transforms from or into an Evo with a different name, you may put an attack action card with 6{p} from your graveyard into your deck fifth from the top. If that Evo is a hero, instead this triggers twice.\nTemper",
       "source": "https://cards.fabtcg.com/card/evo_steel_soul_controller/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Temper"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2687,6 +3016,10 @@
       "text_en": "If you have a base head equipped, transform it into this, then equip this.\nWhen this transforms from or into an Evo with a different name, your hero gets +1{i} until end of turn. If that Evo is a hero, instead this triggers twice.\nTemper",
       "source": "https://cards.fabtcg.com/card/evo_steel_soul_memory/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Temper"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2705,6 +3038,10 @@
       "text_en": "If you have a base chest equipped, transform it into this, then equip this.\nWhen this transforms from or into an Evo with a different name, gain {r}{r}{r}. If that Evo is a hero, instead this triggers twice.\nTemper",
       "source": "https://cards.fabtcg.com/card/evo_steel_soul_processor/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Temper"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2723,6 +3060,10 @@
       "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nWhen this transforms from or into an Evo with a different name, gain 1 action point. If that Evo is a hero, instead this triggers twice.\nTemper",
       "source": "https://cards.fabtcg.com/card/evo_steel_soul_tower/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Temper"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2741,6 +3082,10 @@
       "text_en": "If you have a base head equipped, transform it into this, then equip this.\nYour Teklo Blaster attacks can target any opposing hero.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/evo_tekloscope/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Battleworn"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2759,6 +3104,10 @@
       "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: You may attack an additional time with target weapon this turn.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/evo_thruster/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Blade Break"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2777,6 +3126,9 @@
       "text_en": "If you have a base head equipped, transform it into this, then equip this.\nWhen this is equipped, up to 1 target attack gets +1{p}.",
       "source": "https://cards.fabtcg.com/card/evo_whizz_bang/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2795,6 +3147,9 @@
       "text_en": "If you have a base legs equipped, transform it into this, then equip this.\nWhen this is equipped, up to 1 target attack gets go again.",
       "source": "https://cards.fabtcg.com/card/evo_zip_line/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2813,6 +3168,9 @@
       "text_en": "If you have a base head equipped, transform it into this, then equip this.\nWhen this is equipped, you may banish a card from you hand. If you do, draw a card.",
       "source": "https://cards.fabtcg.com/card/evo_zoom_call/",
       "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -2831,6 +3189,9 @@
       "text_en": "Contract - You are contracted to banish opponents' red cards. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck. If it's red, repeat this process once.",
       "source": "https://cards.fabtcg.com/card/excessive_bloodloss/",
       "status": "machine-draft",
+      "keywords": [
+        "Contract"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2861,6 +3222,9 @@
       "text_en": "Boost\nWhen this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
       "source": "https://cards.fabtcg.com/card/expedite/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2891,6 +3255,7 @@
       "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
       "source": "https://cards.fabtcg.com/card/expedition_to_azuro_keys/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2909,6 +3274,7 @@
       "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
       "source": "https://cards.fabtcg.com/card/expedition_to_blackwater_strait/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2927,6 +3293,7 @@
       "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
       "source": "https://cards.fabtcg.com/card/expedition_to_dreadfall_reach/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2945,6 +3312,7 @@
       "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
       "source": "https://cards.fabtcg.com/card/expedition_to_horizons_mantle/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -2963,6 +3331,7 @@
       "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, you may play it from your banished zone during your next action phase.",
       "source": "https://cards.fabtcg.com/card/expendable_limbs/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -2981,6 +3350,10 @@
       "text_en": "Amp 3\nGo again",
       "source": "https://cards.fabtcg.com/card/exploding_aether/",
       "status": "machine-draft",
+      "keywords": [
+        "Amp 1",
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3011,6 +3384,9 @@
       "text_en": "Earth Fusion\nIf Explosive Growth was fused, whenever it deals damage, attacks gain +1{p} this combat chain.\nWhen you attack with Explosive Growth, deal 1 arcane damage to target hero.",
       "source": "https://cards.fabtcg.com/card/explosive_growth/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3041,6 +3417,9 @@
       "text_en": "If you are marked, you can't play this.\nTarget attack gets +1{p}.\nMark the defending hero.",
       "source": "https://cards.fabtcg.com/card/exposed/",
       "status": "machine-draft",
+      "keywords": [
+        "Mark"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3059,6 +3438,9 @@
       "text_en": "Earth and/or Ice Fusion\nIf Exposed to the Elements was fused with an Earth card, put a -1{d} counter on target equipment.\nIf Exposed to the Elements was fused with an Ice card, destroy an equipment with 0{d} controlled by target hero unless they pay {r}{r}.",
       "source": "https://cards.fabtcg.com/card/exposed_to_the_elements/",
       "status": "machine-draft",
+      "keywords": [
+        "Earth and/or Ice Fusion"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3077,6 +3459,9 @@
       "text_en": "As an additional cost to play Express Lightning, you may charge your hero's soul.",
       "source": "https://cards.fabtcg.com/card/express_lightning/",
       "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3107,6 +3492,10 @@
       "text_en": "Stealth\nContract - You are contracted to hit a marked hero named Cindra. Whenever you complete this contract, draw a card.",
       "source": "https://cards.fabtcg.com/card/extinguish_the_flames/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth",
+        "Contract"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3125,6 +3514,7 @@
       "text_en": "While Exude Confidence isn't defended by a card with equal or greater {p}, the defending hero can't play or activate instants or defense reactions this combat chain.\nInstant - {r}{r}{r}: Exude Confidence gains +2{p}. Activate this ability only while Exude Confidence is attacking.",
       "source": "https://cards.fabtcg.com/card/exude_confidence/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -3143,6 +3533,10 @@
       "text_en": "Legendary\nWhen you pitch Eye of Ophidia, opt 2.",
       "source": "https://cards.fabtcg.com/card/eye_of_ophidia/",
       "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Opt 2"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -3161,6 +3555,9 @@
       "text_en": "Until end of turn, whenever you attack a hero, wager with them. The winner creates 2 Gold tokens.",
       "source": "https://cards.fabtcg.com/card/ez_sqeez_bookie_syndicate/",
       "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
       "variants": {
         "default": {
           "pitch": null,

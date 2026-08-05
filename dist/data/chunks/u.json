@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "version": "64c43438a005",
+  "schema_version": 2,
+  "version": "7291fa23ee28",
   "cards": {
     "under_loop": {
       "id": "under_loop",
@@ -11,6 +11,9 @@
       "text_en": "Boost\nWhen this hits, put it on the bottom of its owner's deck.",
       "source": "https://cards.fabtcg.com/card/under_loop/",
       "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -41,6 +44,9 @@
       "text_en": "Stealth\nInstant - Discard this: Banish target trap from your graveyard. If you do, you may play it this turn and if it would be put into the graveyard this turn, instead banish it.",
       "source": "https://cards.fabtcg.com/card/under_the_trap_door/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -59,6 +65,10 @@
       "text_en": "Stealth\nWhen this hits a hero, steal an item they control.",
       "source": "https://cards.fabtcg.com/card/undercover_acquisition/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth",
+        "Steal"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -77,6 +87,9 @@
       "text_en": "Attack Reaction - {r}, destroy this: Create a Slither in your hand.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/undertow_stilettos/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -95,6 +108,7 @@
       "text_en": "When you win a clash revealing this, deal 1 damage to the other hero.",
       "source": "https://cards.fabtcg.com/card/unexpected_backhand/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -125,6 +139,9 @@
       "text_en": "Instant - Destroy this: Target attack loses and can't gain dominate.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/unflinching_foothold/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -143,6 +160,7 @@
       "text_en": "Jarl Specialization\nWhen this defends, if the attacking hero controls an equipment with a -1{d} counter, you may search your deck for a Mangle, banish it, then shuffle. You may play it during your next action phase.",
       "source": "https://cards.fabtcg.com/card/unforgetting_unforgiving/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -161,6 +179,9 @@
       "text_en": "If you have played a 'non-attack' action card this turn, you may play Unhallowed Rites from your banished zone.\nYou may put a 'non-attack' action card with blood debt from your graveyard on the bottom of your deck.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/unhallowed_rites/",
       "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -191,6 +212,9 @@
       "text_en": "Instant - Destroy this: {u} a cog you control.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/unicycle/",
       "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -209,6 +233,9 @@
       "text_en": "Target weapon attack gains +3{p}.\nReprise - If the defending hero has defended with a card from their hand this chain link, look at the top card of your deck. If it's an attack reaction card, you may banish it. If you do, you may play it this combat chain.",
       "source": "https://cards.fabtcg.com/card/unified_decree/",
       "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -227,6 +254,9 @@
       "text_en": "Unity - When this defends together with a card from hand, if Boltyn is in your party, create a Courage token under his control. Then repeat for Bravo and Seismic Surge, Briar and Embodiment of Earth, Dorinthea and Courage, Lexi and Embodiment of Lightning, Oldhim and Spellbane Aegis, Prism and Spectral Shield, and Shiyana and Eloquence.",
       "source": "https://cards.fabtcg.com/card/united_we_stand/",
       "status": "machine-draft",
+      "keywords": [
+        "Unity"
+      ],
       "variants": {
         "2": {
           "pitch": "2",
@@ -245,6 +275,9 @@
       "text_en": "Stealth\nWhen this attacks a hero, turn an ally in their graveyard face-down.\nWhen this hits an ally, destroy that ally.",
       "source": "https://cards.fabtcg.com/card/unmake_the_underlings/",
       "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -263,6 +296,7 @@
       "text_en": "If this was played from arsenal, it gets +1{d}.",
       "source": "https://cards.fabtcg.com/card/unmovable/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -293,6 +327,7 @@
       "text_en": "If a Chi was pitched to play this, draw a card.",
       "source": "https://cards.fabtcg.com/card/unravel_aggression/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -311,6 +346,9 @@
       "text_en": "Your next sword attack this turn gets +3{p} and \"When this attacks, if its {p} is greater than twice its base, it gets go again.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/unsheathed/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -329,6 +367,9 @@
       "text_en": "When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/untamed/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -359,6 +400,9 @@
       "text_en": "If you have no cards in your deck, this gets +4{p}.\nIf this is defended by 3 or more cards, it gets go again.",
       "source": "https://cards.fabtcg.com/card/unwavering_resolve/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -377,6 +421,9 @@
       "text_en": "When this hits, draw a card.\nWhenever this fragments, you may put a Lightning instant card from your graveyard on top of your deck.\nFragment",
       "source": "https://cards.fabtcg.com/card/unwinding_finality/",
       "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -395,6 +442,9 @@
       "text_en": "As an additional cost to play Unworldly Bellow, banish 3 random cards from your graveyard.\nThe next Brute or Shadow attack action card you play this turn gains +4{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/unworldly_bellow/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -425,6 +475,9 @@
       "text_en": "If you have no cards in your hand, this gets +3{d}.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/unyielding_grip/",
       "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -443,6 +496,9 @@
       "text_en": "Suspense\nWhen this enters or leaves the arena, you may put a Revered or Guardian attack action card from your graveyard on top of your deck.",
       "source": "https://cards.fabtcg.com/card/up_on_a_pedestal/",
       "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -461,6 +517,10 @@
       "text_en": "You may retrieve a dagger from your graveyard.\nYour next dagger attack this turn gets +4{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/up_sticks_and_run/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Retrieve"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -491,6 +551,9 @@
       "text_en": "Olympia Specialization\nChoose X+1;\n- Target attack wagers an Agility token with the defending hero.\n- Target attack wagers a Gold token with the defending hero.\n- Target attack wagers a Vigor token with the defending hero.\n- Target attack gets +Y{p}, where Y is the number of times it has wagered.",
       "source": "https://cards.fabtcg.com/card/up_the_ante/",
       "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
       "variants": {
         "3": {
           "pitch": "3",
@@ -509,6 +572,10 @@
       "text_en": "Cloaked\nInstant - {r}, turn this face-up: Put a +1{p} counter on an aura you control with ward.\nWard 1",
       "source": "https://cards.fabtcg.com/card/uphold_tradition/",
       "status": "machine-draft",
+      "keywords": [
+        "Cloaked",
+        "Ward 1"
+      ],
       "variants": {
         "default": {
           "pitch": null,
@@ -527,6 +594,7 @@
       "text_en": "If you control a Confidence or Toughness token, this gets +1{p}.\nWhen this hits a hero, create a Confidence and a Toughness token.",
       "source": "https://cards.fabtcg.com/card/uplifting_performance/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "3": {
           "pitch": "3",
@@ -545,6 +613,9 @@
       "text_en": "Your next 4 Draconic attacks this turn gain +1{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/uprising/",
       "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
       "variants": {
         "1": {
           "pitch": "1",
@@ -563,6 +634,7 @@
       "text_en": "When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you've boosted this combat chain.",
       "source": "https://cards.fabtcg.com/card/urgent_delivery/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "1": {
           "pitch": "1",
@@ -593,6 +665,7 @@
       "text_en": "Once per Turn Action - 0: Attack\nWhile Ursur is attacking a hero with 1 or more cards in their soul, the attack has go again.",
       "source": "https://cards.fabtcg.com/card/ursur_the_soul_reaper/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -611,6 +684,7 @@
       "text_en": "Once per Turn Attack Reaction - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with stealth from the active chain link on the bottom of its owner's deck, then put the banished card onto the active chain link as the attacking card.",
       "source": "https://cards.fabtcg.com/card/uzuri/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,
@@ -629,6 +703,7 @@
       "text_en": "Once per Turn Attack Reaction - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with stealth from the active chain link on the bottom of its owner's deck, then put the banished card onto the active chain link as the attacking card.",
       "source": "https://cards.fabtcg.com/card/uzuri_switchblade/",
       "status": "machine-draft",
+      "keywords": [],
       "variants": {
         "default": {
           "pitch": null,

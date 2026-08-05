@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { slugifyCardName } from './translate-helper.mjs';
 
 function nullable(value) {
   if (value === undefined || value === null) return null;
@@ -46,6 +47,7 @@ function normalizeCard(cardId, entries) {
     text_en: first.text_en || '',
     source: first.source || '',
     status: first.status || '',
+    keywords: first.keywords || [],
     variants,
   };
 }
@@ -75,7 +77,7 @@ export function buildCardArtifacts(cardData) {
     const chunk = `chunks/${chunkNameForCardId(cardId)}.json`;
     if (!chunks[chunk]) {
       chunks[chunk] = {
-        schema_version: 1,
+        schema_version: 2,
         version: sourceHash,
         cards: {},
       };
@@ -85,14 +87,14 @@ export function buildCardArtifacts(cardData) {
   }
 
   const manifest = {
-    schema_version: 1,
+    schema_version: 2,
     version: sourceHash,
     index_file: 'index.json',
     chunk_files: Object.keys(chunks).sort(),
     card_count: Object.keys(cards).length,
   };
   const index = {
-    schema_version: 1,
+    schema_version: 2,
     version: sourceHash,
     cards: indexCards,
   };
@@ -145,11 +147,67 @@ export function loadZhTranslations(inputDir = defaultInputDir) {
   return merged;
 }
 
+// The keyword library shipped to the runtime: lowercased English keyword name
+// -> { name_zh, desc_zh }, derived from data/glossary.zh-CN.json "keyword".
+export function buildKeywordLibrary(glossary) {
+  const library = {};
+  for (const [keyword, entry] of Object.entries(glossary.keyword || {})) {
+    if (!entry || !entry.name_zh) continue;
+    library[String(keyword).toLowerCase()] = {
+      name_zh: entry.name_zh,
+      desc_zh: entry.desc_zh || '',
+    };
+  }
+  return library;
+}
+
+// A card keyword resolves in the library either verbatim or as a numbered
+// variant ("Arcane Barrier 1" -> "arcane barrier"). Specializations and type
+// names ("Rhinar Specialization", "Attack") have no library entry and are
+// dropped, so only real mechanic keywords reach the tooltip.
+export function resolvesKeyword(keyword, library) {
+  const key = String(keyword).toLowerCase();
+  if (library[key]) return true;
+  return Boolean(library[key.replace(/ \d+$| x$/, '')]);
+}
+
+// Join each translated card with its English card_keywords, keeping only the
+// keywords that resolve in the glossary keyword library.
+export function attachCardKeywords(cardData, englishCards, library) {
+  const keywordsById = new Map();
+  for (const card of englishCards) {
+    if (!Array.isArray(card.card_keywords) || card.card_keywords.length === 0) continue;
+    const id = slugifyCardName(card.name);
+    if (!id) continue;
+    keywordsById.set(id, card.card_keywords);
+  }
+  const result = {};
+  for (const [key, entry] of Object.entries(cardData)) {
+    const id = cardIdFromKey(key);
+    const raw = keywordsById.get(id) || [];
+    const kept = raw.filter((k) => resolvesKeyword(k, library));
+    result[key] = kept.length ? { ...entry, keywords: kept } : entry;
+  }
+  return result;
+}
+
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const inputDir = process.argv[2] || defaultInputDir;
   const outputDirectory = process.argv[3] || defaultOutput;
   const cardData = loadZhTranslations(inputDir);
-  const artifacts = writeCardArtifacts(cardData, outputDirectory);
+
+  // Attach mechanic keywords to each card and ship the keyword library so the
+  // tooltip can explain them. Translation source files are never modified.
+  const englishSource = path.join(projectRoot, 'data/source/english/card.json');
+  const glossarySource = path.join(projectRoot, 'data/glossary.zh-CN.json');
+  const keywordLibrary = fs.existsSync(glossarySource)
+    ? buildKeywordLibrary(JSON.parse(fs.readFileSync(glossarySource, 'utf8')))
+    : {};
+  const enriched = fs.existsSync(englishSource)
+    ? attachCardKeywords(cardData, JSON.parse(fs.readFileSync(englishSource, 'utf8')), keywordLibrary)
+    : cardData;
+
+  const artifacts = writeCardArtifacts(enriched, outputDirectory);
 
   // Ship the printing-id alias table so the userscript can resolve FaBrary's
   // printing-id image filenames (e.g. "PEN313.webp") to our slug keys.
@@ -157,6 +215,16 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   if (fs.existsSync(aliasesSource)) {
     fs.copyFileSync(aliasesSource, path.join(outputDirectory, 'aliases.json'));
     console.log('Copied talishar-card-aliases.json to dist/data/aliases.json');
+  }
+
+  // Ship the keyword explanation library for the tooltip keyword section.
+  if (Object.keys(keywordLibrary).length) {
+    fs.writeFileSync(
+      path.join(outputDirectory, 'keywords.json'),
+      `${JSON.stringify(keywordLibrary, null, 2)}\n`,
+      'utf8',
+    );
+    console.log(`Wrote keywords.json (${Object.keys(keywordLibrary).length} keywords) to dist/data/keywords.json`);
   }
 
   console.log(`Built ${artifacts.manifest.card_count} cards into ${outputDirectory}`);
