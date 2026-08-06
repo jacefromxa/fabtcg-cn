@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "1a0509a39dd9",
+  "version": "0a829bacd302",
   "cards": {
     "10_000_year_reunion": {
       "id": "10_000_year_reunion",
@@ -9136,15 +9136,15 @@
     },
     "sacred_art_immortal_lunar_shrine": {
       "id": "sacred_art_immortal_lunar_shrine",
-      "chunk": "chunks/t3-illusionist.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "sacred_art_jade_tiger_domain": {
       "id": "sacred_art_jade_tiger_domain",
-      "chunk": "chunks/t3-ninja.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "sacred_art_undercurrent_desires": {
       "id": "sacred_art_undercurrent_desires",
-      "chunk": "chunks/t3-assassin.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "sadistic_scowl": {
       "id": "sadistic_scowl",

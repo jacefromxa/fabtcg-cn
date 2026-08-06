@@ -24,3 +24,4 @@ scripts/equipment-name-review.mjs
 scripts/export-heroes-glossary.mjs
 scripts/migrate-confirmed-equipment.mjs
 scripts/retranslate-arcane.mjs
+scripts/finalize-sacred-art.mjs

@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.14（2026-08-06）
+
+### 变更
+
+- **Sacred Art 三张终稿（人工确认）**：Undercurrent Desires → 潜念断神诀、Immortal Lunar Shrine → 太阴镇魂功、Jade Tiger Domain → 玉虎摧朽劲，并入 `human-reviewed.json`；Arcanite 确认保留「秘银」
+
 ## v0.7.13（2026-08-06）
 
 ### 变更

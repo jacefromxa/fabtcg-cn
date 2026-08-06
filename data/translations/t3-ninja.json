@@ -2729,19 +2729,6 @@
     "source": "https://cards.fabtcg.com/card/rushing_river/",
     "status": "machine-draft"
   },
-  "sacred_art_jade_tiger_domain__3": {
-    "name_en": "Sacred Art: Jade Tiger Domain",
-    "name_zh": "神功·玉虎领域",
-    "type_zh": "秘法 忍者 瞬间",
-    "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create 2 Crouching Tigers in your hand.\n- Your Crouching Tigers get +1{p} this turn.\n- Transcend",
-    "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 在你的手牌中创造2张卧虎。\n- 本回合你的卧虎获得+1力量。\n- 超越",
-    "pitch": "3",
-    "cost": "3",
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/sacred_art_jade_tiger_domain/",
-    "status": "machine-draft"
-  },
   "salt_the_wound__2": {
     "name_en": "Salt the Wound",
     "name_zh": "往伤口撒盐",

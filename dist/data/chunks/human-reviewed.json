@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "1a0509a39dd9",
+  "version": "0a829bacd302",
   "cards": {
     "aether_bindings_of_the_third_age": {
       "id": "aether_bindings_of_the_third_age",
@@ -2282,6 +2282,72 @@
           "cost": "0",
           "power": null,
           "defense": "1"
+        }
+      }
+    },
+    "sacred_art_immortal_lunar_shrine": {
+      "id": "sacred_art_immortal_lunar_shrine",
+      "name_zh": "太阴镇魂功",
+      "name_en": "Sacred Art: Immortal Lunar Shrine",
+      "type_zh": "秘法 幻术师 瞬间",
+      "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 创造2个幻质护盾衍生物。\n- 在你控制的每个具有结界的光环上放置一个+1力量指示物。\n- 超越",
+      "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create 2 Spectral Shield tokens.\n- Put a +1{p} counter on each aura with ward you control.\n- Transcend",
+      "source": "https://cards.fabtcg.com/card/sacred_art_immortal_lunar_shrine/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sacred_art_jade_tiger_domain": {
+      "id": "sacred_art_jade_tiger_domain",
+      "name_zh": "玉虎摧朽劲",
+      "name_en": "Sacred Art: Jade Tiger Domain",
+      "type_zh": "秘法 忍者 瞬间",
+      "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 在你的手牌中创造2张卧虎。\n- 本回合你的卧虎获得+1力量。\n- 超越",
+      "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create 2 Crouching Tigers in your hand.\n- Your Crouching Tigers get +1{p} this turn.\n- Transcend",
+      "source": "https://cards.fabtcg.com/card/sacred_art_jade_tiger_domain/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sacred_art_undercurrent_desires": {
+      "id": "sacred_art_undercurrent_desires",
+      "name_zh": "潜念断神诀",
+      "name_en": "Sacred Art: Undercurrent Desires",
+      "type_zh": "秘法 刺客 瞬间",
+      "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 在你的手牌中创造一张獠牙突袭和滑行。\n- 放逐一位对手英雄坟场中的至多2张牌。\n- 超越",
+      "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create a Fang Strike and Slither in your hand.\n- Banish up to 2 cards in an opposing hero's graveyard.\n- Transcend",
+      "source": "https://cards.fabtcg.com/card/sacred_art_undercurrent_desires/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
         }
       }
     },

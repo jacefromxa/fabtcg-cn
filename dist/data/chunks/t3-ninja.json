@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "1a0509a39dd9",
+  "version": "0a829bacd302",
   "cards": {
     "ancestral_empowerment": {
       "id": "ancestral_empowerment",
@@ -2908,28 +2908,6 @@
           "cost": "0",
           "power": "1",
           "defense": "3"
-        }
-      }
-    },
-    "sacred_art_jade_tiger_domain": {
-      "id": "sacred_art_jade_tiger_domain",
-      "name_zh": "神功·玉虎领域",
-      "name_en": "Sacred Art: Jade Tiger Domain",
-      "type_zh": "秘法 忍者 瞬间",
-      "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 在你的手牌中创造2张卧虎。\n- 本回合你的卧虎获得+1力量。\n- 超越",
-      "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create 2 Crouching Tigers in your hand.\n- Your Crouching Tigers get +1{p} this turn.\n- Transcend",
-      "source": "https://cards.fabtcg.com/card/sacred_art_jade_tiger_domain/",
-      "status": "machine-draft",
-      "keywords": [
-        "Legendary",
-        "Transcend"
-      ],
-      "variants": {
-        "3": {
-          "pitch": "3",
-          "cost": "3",
-          "power": null,
-          "defense": null
         }
       }
     },
