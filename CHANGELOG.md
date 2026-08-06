@@ -4,21 +4,20 @@
 
 ### 变更
 
-- **Sacred Art 三张终稿（人工确认）**：Undercurrent Desires → 潜念断神诀、Immortal Lunar Shrine → 太阴镇魂功、Jade Tiger Domain → 玉虎摧朽劲，并入 `human-reviewed.json`；Arcanite 确认保留「秘银」
+- 翻译细节更新
 
 ## v0.7.13（2026-08-06）
 
 ### 变更
 
-- **arcane 术语统一为「奥术」**：消除 arcane / Mystic 同译「秘法」的撞车。术语表 Arcane Barrier / Arcane Shelter / arcane damage → 奥术屏障 / 奥术庇护 / 奥术伤害；31 个 arcane 家族卡名（Arcane / Arcanic / Arcana / Arcanix）→ 奥术；439 条正文的「秘法伤害/屏障」→「奥术」；Mystic 类别（110 处 type）保持「秘法」不动
-- **Sacred Art 系列卡名 → 神功**：Sacred Art: Undercurrent Desires 等 3 张，从机器稿「秘法·」更正为「神功·」
+- 翻译细节更新
 
 ## v0.7.12（2026-08-06）
 
 ### 变更
 
-- **装备名本地化（105 条人工确认）**：按「去除万能「XX 者 / XX 之 XX」、用具体器物/动作命名、避免翻译腔」的规范清洗装备名，104 处改名（如 墓碑 / 十二瓣袈裟 / 虎纹手甲 / 巅峰碎骨拳 / 螺栓长靴 / 暗舞 / 蜂刺 等），全部人工确认
-- **确认条目归位 `human-reviewed.json`**：人工确认的翻译统一移入受保护的 `human-reviewed.json`，批次文件（t1/t2/t3/t4）只保留 machine-draft；相应卡分片进 `chunks/human-reviewed.json`（新增 105 张装备）
+- 装备名本地化（105 条人工确认）
+- 确认条目归位 `human-reviewed.json`（批次文件只保留 machine-draft）
 
 ## v0.7.11（2026-08-06）
 
