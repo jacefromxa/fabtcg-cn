@@ -781,7 +781,7 @@
   },
   "murderous_rabble__3": {
     "name_en": "Murderous Rabble",
-    "name_zh": "凶残乌合之众",
+    "name_zh": "凶恶群氓",
     "type_zh": "海盗 行动·攻击",
     "text_en": "When this attacks, reveal the top card of your deck. This gets +X{p}, where X is the pitch value of the card revealed this way.\nGo again",
     "text_zh": "当此牌攻击时，展示你牌库顶的一张牌。此牌获得+X力量，X为以此方式展示的牌的资源数值。\n再动",

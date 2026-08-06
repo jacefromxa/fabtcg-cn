@@ -42,6 +42,54 @@ test('buildCardArtifacts falls back to a misc chunk when batch info is missing',
   assert.equal(result.index.cards.foo.chunk, 'chunks/_.json');
 });
 
+test('buildCardArtifacts prefers a human-reviewed entry over an empty machine draft', () => {
+  // A confirmed bare key can sit after its empty machine-draft pitch variants in
+  // the batch file; the published card must still carry the confirmed text.
+  const result = buildCardArtifacts({
+    boulder_drop__2: {
+      name_zh: '',
+      name_en: 'Boulder Drop',
+      type_zh: '守护者 行动·攻击',
+      text_zh: '',
+      text_en: 'Crush.',
+      pitch: 2,
+      power: 6,
+      defense: 3,
+      status: 'machine-draft',
+    },
+    boulder_drop__3: {
+      name_zh: '',
+      name_en: 'Boulder Drop',
+      type_zh: '守护者 行动·攻击',
+      text_zh: '',
+      text_en: 'Crush.',
+      pitch: 3,
+      power: 5,
+      defense: 3,
+      status: 'machine-draft',
+    },
+    boulder_drop: {
+      name_zh: '巨石坠击',
+      name_en: 'Boulder Drop',
+      type_zh: '守护者行动·攻击',
+      text_zh: '粉碎——当此牌对英雄造成4点或更多伤害时，该英雄将手牌中的一张牌置于其牌库顶。',
+      text_en: 'Crush - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.',
+      pitch: 1,
+      power: 7,
+      defense: 3,
+      status: 'human-reviewed',
+    },
+  }, { boulder_drop: 't3-guardian' });
+
+  const card = result.chunks['chunks/t3-guardian.json'].cards.boulder_drop;
+  assert.equal(card.name_zh, '巨石坠击', 'confirmed name must not be shadowed by empty drafts');
+  assert.equal(card.status, 'human-reviewed');
+  assert.equal(card.text_zh, '粉碎——当此牌对英雄造成4点或更多伤害时，该英雄将手牌中的一张牌置于其牌库顶。');
+  assert.equal(card.variants['1'].power, 7);
+  assert.equal(card.variants['2'].power, 6);
+  assert.equal(card.variants['3'].power, 5);
+});
+
 test('buildKeywordLibrary flattens glossary.keyword into a lowercased map', () => {
   const library = buildKeywordLibrary({
     keyword: {

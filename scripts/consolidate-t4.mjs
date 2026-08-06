@@ -27,7 +27,7 @@ function properHome(card) {
   if (isT1GenericCard(card)) return 't1-generic.json';
   if (isT2EquipmentCard(card)) return 't2-equipment.json';
   const batch = getT3BatchName(card);
-  if (batch && batch !== 't3-other') return `${batch}.json`;
+  if (batch && batch !== 't4-remaining') return `${batch}.json`;
   return null; // genuine catch-all -> stays in t4-remaining.json
 }
 
@@ -74,7 +74,7 @@ fs.writeFileSync(t4File, `${JSON.stringify(t4, null, 2)}\n`, 'utf8');
 console.log(`t4-remaining.json: moved=${moved} stayed=${stayed} unresolved=${unresolved} remaining=${Object.keys(t4).length}`);
 
 // Verify placement consistency across every batch file.
-const files = fs.readdirSync(translationsDir).filter((f) => f.endsWith('.json') && f !== 'human-reviewed.json');
+const files = fs.readdirSync(translationsDir).filter((f) => f.endsWith('.json'));
 let wrong = [];
 for (const f of files) {
   const data = JSON.parse(fs.readFileSync(path.join(translationsDir, f), 'utf8'));

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "6ab323915396",
+  "version": "07f55bee7dc2",
   "cards": {
     "angry_bones": {
       "id": "angry_bones",
@@ -1057,7 +1057,7 @@
     },
     "murderous_rabble": {
       "id": "murderous_rabble",
-      "name_zh": "凶残乌合之众",
+      "name_zh": "凶恶群氓",
       "name_en": "Murderous Rabble",
       "type_zh": "海盗 行动·攻击",
       "text_zh": "当此牌攻击时，展示你牌库顶的一张牌。此牌获得+X力量，X为以此方式展示的牌的资源数值。\n再动",

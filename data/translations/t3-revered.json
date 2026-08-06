@@ -326,7 +326,7 @@
   },
   "hulk_up__1": {
     "name_en": "Hulk Up",
-    "name_zh": "变身浩克",
+    "name_zh": "蛮躯暴起",
     "type_zh": "崇敬 行动·攻击",
     "text_en": "If you have less {h} than each other hero, this costs {r} less to play.",
     "text_zh": "若你的生命低于其他每位英雄，此牌的使用费用减少1点资源。",
@@ -339,7 +339,7 @@
   },
   "hulk_up__2": {
     "name_en": "Hulk Up",
-    "name_zh": "变身浩克",
+    "name_zh": "蛮躯暴起",
     "type_zh": "崇敬 行动·攻击",
     "text_en": "If you have less {h} than each other hero, this costs {r} less to play.",
     "text_zh": "若你的生命低于其他每位英雄，此牌的使用费用减少1点资源。",
@@ -352,7 +352,7 @@
   },
   "hulk_up__3": {
     "name_en": "Hulk Up",
-    "name_zh": "变身浩克",
+    "name_zh": "蛮躯暴起",
     "type_zh": "崇敬 行动·攻击",
     "text_en": "If you have less {h} than each other hero, this costs {r} less to play.",
     "text_zh": "若你的生命低于其他每位英雄，此牌的使用费用减少1点资源。",
@@ -391,7 +391,7 @@
   },
   "no_hero_stands_alone__2": {
     "name_en": "No Hero Stands Alone",
-    "name_zh": "英雄并非孤身",
+    "name_zh": "英雄不孤",
     "type_zh": "崇敬 行动·攻击",
     "text_en": "While this is in any zone, if you've controlled a Toughness token this turn, this gets +3{d} and ambush.\nWhen this defends, clash with the attacking hero. The winner may choose an attacking or defending card to get -3{p} -3{d} this chain link.",
     "text_zh": "当此牌在任意区域时，若本回合你控制过坚韧衍生物，此牌获得+3防御和伏击。\n当此牌防御时，与攻击英雄交锋。胜者可以选择让一张攻击或防御牌在此链环中获得-3力量和-3防御。",
@@ -547,7 +547,7 @@
   },
   "tough_smashup__1": {
     "name_en": "Tough Smashup",
-    "name_zh": "硬汉猛砸",
+    "name_zh": "硬砸",
     "type_zh": "崇敬 行动·攻击",
     "text_en": "When this defends, clash with the attacking hero. The winner creates a Toughness token. You may put your revealed card on the bottom of its owner's deck.",
     "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个坚韧衍生物。你可以将你展示的牌置于其拥有者的牌库底。",
@@ -560,7 +560,7 @@
   },
   "tough_smashup__2": {
     "name_en": "Tough Smashup",
-    "name_zh": "硬汉猛砸",
+    "name_zh": "硬砸",
     "type_zh": "崇敬 行动·攻击",
     "text_en": "When this defends, clash with the attacking hero. The winner creates a Toughness token. You may put your revealed card on the bottom of its owner's deck.",
     "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个坚韧衍生物。你可以将你展示的牌置于其拥有者的牌库底。",
@@ -573,7 +573,7 @@
   },
   "tough_smashup__3": {
     "name_en": "Tough Smashup",
-    "name_zh": "硬汉猛砸",
+    "name_zh": "硬砸",
     "type_zh": "崇敬 行动·攻击",
     "text_en": "When this defends, clash with the attacking hero. The winner creates a Toughness token. You may put your revealed card on the bottom of its owner's deck.",
     "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个坚韧衍生物。你可以将你展示的牌置于其拥有者的牌库底。",

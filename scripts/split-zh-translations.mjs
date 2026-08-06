@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { isT1GenericCard, isT2EquipmentCard, getT3BatchName } from './build-translation-drafts.mjs';
+import { isHeroCard, isT1GenericCard, isT2EquipmentCard, getT3BatchName } from './build-translation-drafts.mjs';
 import { slugifyCardName } from './translate-helper.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -19,10 +19,9 @@ for (const card of englishCards) {
   slugToCards.get(slug).push(card);
 }
 
-// Assign a zh entry to its per-batch file. Human-reviewed entries are always
-// isolated in their own file so machine generation can never touch them.
+// Assign a zh entry to its per-batch file. Confirmed (human-reviewed) entries
+// stay in their deterministic batch file too — status alone never reroutes them.
 function batchForEntry(key, entry) {
-  if (entry.status !== 'machine-draft') return 'human-reviewed';
   const [base, pitchSuffix] = key.split('__');
   const cards = slugToCards.get(base);
   if (!cards || cards.length === 0) return 'other';
@@ -34,6 +33,7 @@ function batchForEntry(key, entry) {
   const card = exact || cards[0];
   if (!card) return 'other';
 
+  if (isHeroCard(card)) return 'heroes';
   if (isT1GenericCard(card)) return 't1-generic';
   if (isT2EquipmentCard(card)) return 't2-equipment';
   const t3 = getT3BatchName(card);

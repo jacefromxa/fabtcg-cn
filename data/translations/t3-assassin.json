@@ -144,7 +144,7 @@
   },
   "art_of_desire_body__1": {
     "name_en": "Art of Desire: Body",
-    "name_zh": "欲望之艺·肉身",
+    "name_zh": "驾欲之道·身",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck.\nWhenever this banishes a red card, draw a card and gain 1{h}.",
     "text_zh": "隐匿\n当此牌命中英雄时，放逐其牌库顶的一张牌。\n每当此牌放逐一张红色牌时，抽一张牌并获得1点生命。",
@@ -157,7 +157,7 @@
   },
   "art_of_desire_mind__3": {
     "name_en": "Art of Desire: Mind",
-    "name_zh": "欲望之艺·心智",
+    "name_zh": "驾欲之道·心",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck.\nWhenever this banishes a blue card, draw a card and gain 1{h}.",
     "text_zh": "隐匿\n当此牌命中英雄时，放逐其牌库顶的一张牌。\n每当此牌放逐一张蓝色牌时，抽一张牌并获得1点生命。",
@@ -170,7 +170,7 @@
   },
   "art_of_desire_soul__2": {
     "name_en": "Art of Desire: Soul",
-    "name_zh": "欲望之艺·灵魂",
+    "name_zh": "驾欲之道·灵",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck.\nWhenever this banishes a yellow card, draw a card and gain 1{h}.",
     "text_zh": "隐匿\n当此牌命中英雄时，放逐其牌库顶的一张牌。\n每当此牌放逐一张黄色牌时，抽一张牌并获得1点生命。",
@@ -846,7 +846,7 @@
   },
   "hunters_klaive": {
     "name_en": "Hunter's Klaive",
-    "name_zh": "猎手之刃",
+    "name_zh": "猎徒戟刀",
     "type_zh": "刺客 武器·匕首 （单手）",
     "text_en": "Once per Turn Action - {r}{r}: Attack. Go again\nWhen this hits a hero, mark them.\nPiercing 1",
     "text_zh": "每回合一次行动——支付2点资源：攻击。再动\n当此牌命中英雄时，标记该英雄。\n穿透1",
@@ -2559,5 +2559,18 @@
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/bonds_of_agony/",
     "status": "machine-draft"
+  },
+  "sacred_art_undercurrent_desires__3": {
+    "name_en": "Sacred Art: Undercurrent Desires",
+    "name_zh": "神功：潜念断神诀",
+    "type_zh": "秘法 刺客 瞬间",
+    "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create a Fang Strike and Slither in your hand.\n- Banish up to 2 cards in an opposing hero's graveyard.\n- Transcend",
+    "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 在你的手牌中创造一张獠牙突袭和滑行。\n- 放逐一位对手英雄坟场中的至多2张牌。\n- 超越",
+    "pitch": "3",
+    "cost": "3",
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/sacred_art_undercurrent_desires/",
+    "status": "human-reviewed"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "6ab323915396",
+  "version": "07f55bee7dc2",
   "cards": {
     "a_good_clean_fight": {
       "id": "a_good_clean_fight",
@@ -387,7 +387,7 @@
     },
     "hulk_up": {
       "id": "hulk_up",
-      "name_zh": "变身浩克",
+      "name_zh": "蛮躯暴起",
       "name_en": "Hulk Up",
       "type_zh": "崇敬 行动·攻击",
       "text_zh": "若你的生命低于其他每位英雄，此牌的使用费用减少1点资源。",
@@ -458,7 +458,7 @@
     },
     "no_hero_stands_alone": {
       "id": "no_hero_stands_alone",
-      "name_zh": "英雄并非孤身",
+      "name_zh": "英雄不孤",
       "name_en": "No Hero Stands Alone",
       "type_zh": "崇敬 行动·攻击",
       "text_zh": "当此牌在任意区域时，若本回合你控制过坚韧衍生物，此牌获得+3防御和伏击。\n当此牌防御时，与攻击英雄交锋。胜者可以选择让一张攻击或防御牌在此链环中获得-3力量和-3防御。",
@@ -643,7 +643,7 @@
     },
     "tough_smashup": {
       "id": "tough_smashup",
-      "name_zh": "硬汉猛砸",
+      "name_zh": "硬砸",
       "name_en": "Tough Smashup",
       "type_zh": "崇敬 行动·攻击",
       "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个坚韧衍生物。你可以将你展示的牌置于其拥有者的牌库底。",

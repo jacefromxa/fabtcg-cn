@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "6ab323915396",
+  "version": "07f55bee7dc2",
   "cards": {
     "adrenaline_rush": {
       "id": "adrenaline_rush",
@@ -405,6 +405,27 @@
         }
       }
     },
+    "balance_of_justice": {
+      "id": "balance_of_justice",
+      "name_zh": "正义天平",
+      "name_en": "Balance of Justice",
+      "type_zh": "通用装备·头部",
+      "text_zh": "瞬间——摧毁此牌：抽一张牌。仅当对手本回合抽过两张或更多牌时才能启动。\n守御",
+      "text_en": "Instant - Destroy this: Draw a card. Activate this only if an opponent has drawn 2 or more cards this turn.\nGuardwell",
+      "source": "https://cards.fabtcg.com/card/balance-of-justice/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Guardwell"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": 2
+        }
+      }
+    },
     "bandana_of_the_blue_beyond": {
       "id": "bandana_of_the_blue_beyond",
       "name_zh": "蔚蓝彼岸头巾",
@@ -457,7 +478,7 @@
     },
     "base_of_the_mountain": {
       "id": "base_of_the_mountain",
-      "name_zh": "山麓",
+      "name_zh": "山基重靴",
       "name_en": "Base of the Mountain",
       "type_zh": "通用 装备·腿部",
       "text_zh": "当此牌防御时，放逐你手牌中的任意数量行动牌，然后将它们作为防御牌加入链环。\n此牌的防御等于当前链环上防御的行动牌数量。\n刃碎",
@@ -850,6 +871,27 @@
           "cost": null,
           "power": null,
           "defense": "0"
+        }
+      }
+    },
+    "boots_of_omnis_ward": {
+      "id": "boots_of_omnis_ward",
+      "name_zh": "万象护御战靴",
+      "name_en": "Boots of Omnis Ward",
+      "type_zh": "通用装备·腿部",
+      "text_zh": "若你本回合受到过奥术伤害，此牌获得+1防御。\n瞬间——横置你的英雄，摧毁此牌：防止本回合接下来将对你造成的1点伤害。\n淬炼",
+      "text_en": "If you've been dealt arcane damage this turn, this gets +1{d}.\nInstant - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.\nTemper",
+      "source": "https://cards.fabtcg.com/card/boots-of-omnis-ward/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": 1
         }
       }
     },
@@ -1489,6 +1531,25 @@
         }
       }
     },
+    "command_and_conquer": {
+      "id": "command_and_conquer",
+      "name_zh": "命令与征服",
+      "name_en": "Command and Conquer",
+      "type_zh": "通用行动·攻击",
+      "text_zh": "防御反应牌不能在此链环中使用。当此牌命中英雄时，摧毁其军械库中的所有牌。",
+      "text_en": "Defense reaction cards can't be played this chain link. When this hits a hero, destroy all cards in their arsenal.",
+      "source": "https://cards.fabtcg.com/card/command-and-conquer/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": 1,
+          "cost": 2,
+          "power": 6,
+          "defense": 3
+        }
+      }
+    },
     "confidence": {
       "id": "confidence",
       "name_zh": "自信",
@@ -1790,10 +1851,10 @@
     },
     "crown_of_providence": {
       "id": "crown_of_providence",
-      "name_zh": "天佑之冠",
+      "name_zh": "天佑冠冕",
       "name_en": "Crown of Providence",
       "type_zh": "通用 装备·头部",
-      "text_zh": "当你用天佑之冠防御时，你可以将你手牌或军械库中的一张牌置于牌库底。若如此做，抽一张牌。\n刃碎",
+      "text_zh": "当你用天佑冠冕防御时，你可以将你手牌或军械库中的一张牌置于牌库底。若如此做，抽一张牌。\n刃碎",
       "text_en": "When you defend with Crown of Providence, you may put a card from your hand or arsenal on the bottom of your deck. If you do, draw a card.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/crown_of_providence/",
       "status": "machine-draft",
@@ -2842,6 +2903,37 @@
         }
       }
     },
+    "fiddlers_green": {
+      "id": "fiddlers_green",
+      "name_zh": "提琴手之绿",
+      "name_en": "Fiddler's Green",
+      "type_zh": "通用·防御牌",
+      "text_zh": "当此牌从任何区域置入你的坟场时，获得3点生命。",
+      "text_en": "When this is put into your graveyard from anywhere, gain 3{h}.",
+      "source": "https://cards.fabtcg.com/card/fiddlers-green/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": 1,
+          "cost": null,
+          "power": null,
+          "defense": 1
+        },
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "firebreathing": {
       "id": "firebreathing",
       "name_zh": "喷火",
@@ -3280,6 +3372,27 @@
           "cost": "3",
           "power": "5",
           "defense": "2"
+        }
+      }
+    },
+    "fyendals_spring_tunic": {
+      "id": "fyendals_spring_tunic",
+      "name_zh": "菲恩达尔的春日战袍",
+      "name_en": "Fyendal's Spring Tunic",
+      "type_zh": "通用装备·胸部",
+      "text_zh": "在你的回合开始时，若此牌上的能量指示物少于3个，你可以在其上放置一个能量指示物。\n瞬间——从此牌上移除3个能量指示物：获得1点资源。\n刃碎",
+      "text_en": "At the start of your turn, if this has fewer than 3 energy counters, you may put an energy counter on it.\nInstant - Remove 3 energy counters from this: Gain {r}\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/fyendals-spring-tunic/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": 1
         }
       }
     },
@@ -4607,7 +4720,7 @@
     },
     "mage_master_boots": {
       "id": "mage_master_boots",
-      "name_zh": "法师大师之靴",
+      "name_zh": "宗师法靴",
       "name_en": "Mage Master Boots",
       "type_zh": "通用 装备·腿部",
       "text_zh": "行动——支付1点资源，摧毁此牌：你本回合使用的下一张非攻击行动牌获得再动。再动",
@@ -5056,6 +5169,27 @@
           "cost": null,
           "power": null,
           "defense": "0"
+        }
+      }
+    },
+    "nullrune_gloves": {
+      "id": "nullrune_gloves",
+      "name_zh": "虚符手套",
+      "name_en": "Nullrune Gloves",
+      "type_zh": "通用装备·手臂",
+      "text_zh": "奥术屏障1",
+      "text_en": "Arcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/nullrune-gloves/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": 0
         }
       }
     },
@@ -6441,7 +6575,7 @@
     },
     "quick_clicks": {
       "id": "quick_clicks",
-      "name_zh": "快速点击",
+      "name_zh": "迅扣快履",
       "name_en": "Quick Clicks",
       "type_zh": "通用 装备·腿部",
       "text_zh": "行动——摧毁此牌：你本回合的下一次攻击获得再动。仅当本回合你使用过一张轻灵之道时才能启动此异能。再动",
@@ -6460,7 +6594,7 @@
     },
     "quickdodge_flexors": {
       "id": "quickdodge_flexors",
-      "name_zh": "快速闪避屈肌",
+      "name_zh": "电闪快靴",
       "name_en": "Quickdodge Flexors",
       "type_zh": "通用 装备·腿部",
       "text_zh": "防御反应——支付1点资源：将此牌作为防御牌加入当前链环。此链环中它有2点基础防御。\n在结束阶段开始时，若此牌本回合进行过防御，摧毁它。",
@@ -6939,6 +7073,25 @@
           "cost": "3",
           "power": "5",
           "defense": "2"
+        }
+      }
+    },
+    "ripple_away": {
+      "id": "ripple_away",
+      "name_zh": "涟漪消散",
+      "name_en": "Ripple Away",
+      "type_zh": "通用行动·攻击",
+      "text_zh": "瞬间——弃掉此牌：如果本回合某个行动牌效果将创造一个或更多衍生物，则改为各创造数量减1的这些衍生物。",
+      "text_en": "Instant - Discard this: If an action card effect would create 1 or more tokens this turn, instead it creates that many minus 1 of each of those tokens.",
+      "source": "https://cards.fabtcg.com/card/ripple-away/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": 3,
+          "cost": 2,
+          "power": 4,
+          "defense": 3
         }
       }
     },
@@ -7461,6 +7614,25 @@
         }
       }
     },
+    "shelter_from_the_storm": {
+      "id": "shelter_from_the_storm",
+      "name_zh": "风暴庇护",
+      "name_en": "Shelter from the Storm",
+      "type_zh": "通用·防御反应",
+      "text_zh": "瞬间——弃掉此牌：本回合你接下来三次受到伤害时，每次防止其中1点伤害。",
+      "text_en": "Instant - Discard this: The next 3 times you would be dealt damage this turn, prevent 1 of that damage.",
+      "source": "https://cards.fabtcg.com/card/shelter-from-the-storm/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": 1,
+          "cost": 0,
+          "power": null,
+          "defense": 4
+        }
+      }
+    },
     "sheltered_cove": {
       "id": "sheltered_cove",
       "name_zh": "避风港",
@@ -7607,6 +7779,37 @@
         }
       }
     },
+    "sigil_of_solace": {
+      "id": "sigil_of_solace",
+      "name_zh": "慰藉印记",
+      "name_en": "Sigil of Solace",
+      "type_zh": "通用·瞬间",
+      "text_zh": "获得3点生命。",
+      "text_en": "Gain 3{h}",
+      "source": "https://cards.fabtcg.com/card/sigil-of-solace/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": 1,
+          "cost": 0,
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
     "silken_gi": {
       "id": "silken_gi",
       "name_zh": "丝绸道服",
@@ -7661,6 +7864,37 @@
           "cost": "",
           "power": "",
           "defense": ""
+        }
+      }
+    },
+    "sink_below": {
+      "id": "sink_below",
+      "name_zh": "沉入深处",
+      "name_en": "Sink Below",
+      "type_zh": "通用·防御反应",
+      "text_zh": "你可以将手牌中的一张牌置于牌库底。若如此做，抽一张牌。",
+      "text_en": "You may put a card from your hand on the bottom of your deck. If you do, draw a card.",
+      "source": "https://cards.fabtcg.com/card/sink-below/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": 1,
+          "cost": 0,
+          "power": null,
+          "defense": 4
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
         }
       }
     },

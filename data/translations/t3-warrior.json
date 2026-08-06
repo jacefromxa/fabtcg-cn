@@ -3134,7 +3134,7 @@
   },
   "ole__3": {
     "name_en": "Olé",
-    "name_zh": "奥雷",
+    "name_zh": "噢嘞！",
     "type_zh": "战士 攻击反应",
     "text_en": "Remove a +1{p} counter from target attacking weapon. If you do, create a Flurry token and draw a card.",
     "text_zh": "从目标攻击中的武器上移除一个+1力量指示物。若如此做，创造一个连击衍生物并抽一张牌。",
@@ -5461,7 +5461,7 @@
   },
   "zenith_blade": {
     "name_en": "Zenith Blade",
-    "name_zh": "天顶之刃",
+    "name_zh": "天顶利刃",
     "type_zh": "战士 武器·剑 （双手）",
     "text_en": "Hala Specialization\nOnce per Turn Action - {r}: Attack\nIf this has been sharpened this turn, its first attack this turn gets go again.",
     "text_zh": "哈拉专精\n每回合一次行动——支付1点资源：攻击\n若此牌本回合被磨砺过，本回合它的第一次攻击获得再动。",

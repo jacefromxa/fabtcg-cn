@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "6ab323915396",
+  "version": "07f55bee7dc2",
   "cards": {
     "ancestral_empowerment": {
       "id": "ancestral_empowerment",
@@ -44,7 +44,7 @@
     },
     "art_of_the_dragon_blood": {
       "id": "art_of_the_dragon_blood",
-      "name_zh": "龙血之艺",
+      "name_zh": "龙流·血之型",
       "name_en": "Art of the Dragon: Blood",
       "type_zh": "忍者 行动·攻击",
       "text_zh": "当此牌攻击时，若其为龙裔，它获得再动，且本回合你使用的接下来3张龙裔牌使用费用减少1点资源。",
@@ -65,7 +65,7 @@
     },
     "art_of_the_dragon_claw": {
       "id": "art_of_the_dragon_claw",
-      "name_zh": "龙爪之艺",
+      "name_zh": "龙流·爪之型",
       "name_en": "Art of the Dragon: Claw",
       "type_zh": "忍者 行动·攻击",
       "text_zh": "当此牌攻击时，若其为龙裔，它获得“当此牌命中英雄时，摧毁其军械库中的所有牌。”",
@@ -84,7 +84,7 @@
     },
     "art_of_the_dragon_fire": {
       "id": "art_of_the_dragon_fire",
-      "name_zh": "龙火之艺",
+      "name_zh": "龙流·火之型",
       "name_en": "Art of the Dragon: Fire",
       "type_zh": "忍者 行动·攻击",
       "text_zh": "当此牌攻击时，若其为龙裔，对任意目标造成2点伤害。",
@@ -103,7 +103,7 @@
     },
     "art_of_the_dragon_scale": {
       "id": "art_of_the_dragon_scale",
-      "name_zh": "龙鳞之艺",
+      "name_zh": "龙流·鳞之型",
       "name_en": "Art of the Dragon: Scale",
       "type_zh": "忍者 行动·攻击",
       "text_zh": "当此牌攻击时，若其为龙裔，它获得“当此牌命中英雄时，在其控制的一件装备上放置一个-1防御指示物。然后若其防御为0，摧毁它。”",
@@ -122,7 +122,7 @@
     },
     "aspect_of_tiger_body": {
       "id": "aspect_of_tiger_body",
-      "name_zh": "虎身之相",
+      "name_zh": "虎形拳·虎躯",
       "name_en": "Aspect of Tiger: Body",
       "type_zh": "忍者 行动·攻击",
       "text_zh": "连击——当此牌攻击时，若一张红色攻击行动牌是本战斗链的最后一次攻击，此牌获得再动，并在你的放逐区中创造一张卧虎。本回合你可以使用它。",
@@ -144,7 +144,7 @@
     },
     "aspect_of_tiger_mind": {
       "id": "aspect_of_tiger_mind",
-      "name_zh": "虎心之相",
+      "name_zh": "虎形拳·虎心",
       "name_en": "Aspect of Tiger: Mind",
       "type_zh": "忍者 行动·攻击",
       "text_zh": "连击——当此牌攻击时，若一张蓝色攻击行动牌是本战斗链的最后一次攻击，此牌获得再动，并在你的放逐区中创造一张卧虎。本回合你可以使用它。",
@@ -166,7 +166,7 @@
     },
     "aspect_of_tiger_soul": {
       "id": "aspect_of_tiger_soul",
-      "name_zh": "虎魂之相",
+      "name_zh": "虎形拳·虎魂",
       "name_en": "Aspect of Tiger: Soul",
       "type_zh": "忍者 行动·攻击",
       "text_zh": "连击——当此牌攻击时，若一张黄色攻击行动牌是本战斗链的最后一次攻击，此牌获得再动，并在你的放逐区中创造一张卧虎。本回合你可以使用它。",
@@ -188,7 +188,7 @@
     },
     "back_heel_kick": {
       "id": "back_heel_kick",
-      "name_zh": "后跟踢",
+      "name_zh": "足跟踢",
       "name_en": "Back Heel Kick",
       "type_zh": "忍者 行动·攻击",
       "text_zh": "连击——若双旋风是本战斗链的最后一次攻击，当此牌在任意区域正面朝上且将获得力量时，改为其获得等量加1的力量。",
@@ -254,7 +254,7 @@
     },
     "become_the_bottle": {
       "id": "become_the_bottle",
-      "name_zh": "成为瓶子",
+      "name_zh": "人瓶一体",
       "name_en": "Become the Bottle",
       "type_zh": "忍者 行动·攻击",
       "text_zh": "当此牌攻击时，选择战斗链上的一张牌。此牌获得所选牌的名称。\n再动",
@@ -287,7 +287,7 @@
     },
     "become_the_cup": {
       "id": "become_the_cup",
-      "name_zh": "成为杯子",
+      "name_zh": "人杯一体",
       "name_en": "Become the Cup",
       "type_zh": "忍者 行动·攻击",
       "text_zh": "当你使用此牌时，选择一种颜色。此牌获得所选颜色。\n再动",
@@ -2908,6 +2908,28 @@
           "cost": "0",
           "power": "1",
           "defense": "3"
+        }
+      }
+    },
+    "sacred_art_jade_tiger_domain": {
+      "id": "sacred_art_jade_tiger_domain",
+      "name_zh": "神功：玉虎摧朽劲",
+      "name_en": "Sacred Art: Jade Tiger Domain",
+      "type_zh": "秘法 忍者 瞬间",
+      "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 在你的手牌中创造2张卧虎。\n- 本回合你的卧虎获得+1力量。\n- 超越",
+      "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create 2 Crouching Tigers in your hand.\n- Your Crouching Tigers get +1{p} this turn.\n- Transcend",
+      "source": "https://cards.fabtcg.com/card/sacred_art_jade_tiger_domain/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
         }
       }
     },

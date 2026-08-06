@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "6ab323915396",
+  "version": "07f55bee7dc2",
   "cards": {
     "a_bit_off_the_side": {
       "id": "a_bit_off_the_side",
@@ -3469,7 +3469,7 @@
     },
     "ole": {
       "id": "ole",
-      "name_zh": "奥雷",
+      "name_zh": "噢嘞！",
       "name_en": "Olé",
       "type_zh": "战士 攻击反应",
       "text_zh": "从目标攻击中的武器上移除一个+1力量指示物。若如此做，创造一个连击衍生物并抽一张牌。",
@@ -5964,7 +5964,7 @@
     },
     "zenith_blade": {
       "id": "zenith_blade",
-      "name_zh": "天顶之刃",
+      "name_zh": "天顶利刃",
       "name_en": "Zenith Blade",
       "type_zh": "战士 武器·剑 （双手）",
       "text_zh": "哈拉专精\n每回合一次行动——支付1点资源：攻击\n若此牌本回合被磨砺过，本回合它的第一次攻击获得再动。",

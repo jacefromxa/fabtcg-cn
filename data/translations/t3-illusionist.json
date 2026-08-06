@@ -3510,5 +3510,18 @@
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/the_librarian/",
     "status": "machine-draft"
+  },
+  "sacred_art_immortal_lunar_shrine__3": {
+    "name_en": "Sacred Art: Immortal Lunar Shrine",
+    "name_zh": "神功：太阴镇魂功",
+    "type_zh": "秘法 幻术师 瞬间",
+    "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create 2 Spectral Shield tokens.\n- Put a +1{p} counter on each aura with ward you control.\n- Transcend",
+    "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 创造2个幻质护盾衍生物。\n- 在你控制的每个具有结界的光环上放置一个+1力量指示物。\n- 超越",
+    "pitch": "3",
+    "cost": "3",
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/sacred_art_immortal_lunar_shrine/",
+    "status": "human-reviewed"
   }
 }

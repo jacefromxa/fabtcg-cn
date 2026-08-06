@@ -1,5 +1,25 @@
 # Changelog
 
+## v0.7.21（2026-08-06）
+
+### 变更
+
+- **数据结构重组：废除 `human-reviewed.json`，分类确定性化**：人工确认的翻译不再迁入独立文件，而是留在各自批次文件、以 `status: human-reviewed` 标记（批次文件同时容纳 machine-draft 与 human-reviewed 条目，重跑生成器不会覆盖已确认条目）
+- **分类规则收敛**：每张卡有唯一可预测的归属文件——Hero→heroes、Generic→t1-generic、Equipment→t2-equipment、职业牌按职业优先归入对应 t3 批次、其余归 t4-remaining（统一兜底名，消除 `t3-other` 与 `t4-remaining` 命名不一致的历史遗留）
+- **新增穷举守卫**：测试保证每张英文源卡的基础名都出现在其 home 批次文件中，装备/generic 可交叉、职业类别在职业文件内穷举
+
+### 修复
+
+- **确认翻译不再被空名机器稿遮蔽**：发布时主字段优先取 `human-reviewed` 条目。此前确认条目并入批次文件末尾后，`boulder_drop`（巨石坠击）/`staunch_response`（坚毅回应）等确认译名会被同卡的空名 machine-draft 变体盖掉、无法上线
+
+### 翻译细节更新
+
+## v0.7.20（2026-08-06）
+
+### 变更
+
+- 翻译细节更新
+
 ## v0.7.19（2026-08-06）
 
 ### 变更

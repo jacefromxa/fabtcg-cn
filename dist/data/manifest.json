@@ -1,10 +1,9 @@
 {
   "schema_version": 2,
-  "version": "6ab323915396",
+  "version": "07f55bee7dc2",
   "index_file": "index.json",
   "chunk_files": [
     "chunks/heroes.json",
-    "chunks/human-reviewed.json",
     "chunks/t1-generic.json",
     "chunks/t2-equipment.json",
     "chunks/t3-assassin.json",

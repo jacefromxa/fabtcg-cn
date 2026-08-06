@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "6ab323915396",
+  "version": "07f55bee7dc2",
   "cards": {
     "act_of_glory": {
       "id": "act_of_glory",
@@ -476,6 +476,39 @@
           "pitch": "3",
           "cost": null,
           "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "boulder_drop": {
+      "id": "boulder_drop",
+      "name_zh": "巨石坠击",
+      "name_en": "Boulder Drop",
+      "type_zh": "守护者行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄将手牌中的一张牌置于其牌库顶。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.",
+      "source": "https://cards.fabtcg.com/card/boulder-drop/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
           "defense": "3"
         }
       }
@@ -1761,6 +1794,27 @@
         }
       }
     },
+    "frozen_to_death": {
+      "id": "frozen_to_death",
+      "name_zh": "冻毙",
+      "name_en": "Frozen to Death",
+      "type_zh": "冰·守护者行动",
+      "text_zh": "冰融合\n若此牌已融合，你可以摧毁一个带有-1防御指示物的装备。\n你可以在一个暴露的头部、胸部、手臂或腿部区域创造一个霜咬衍生物。",
+      "text_en": "Ice Fusion\nIf this was fused, you may destroy an equipment with a -1{d} counter.\nYou may create a Frostbite token in an exposed head, chest, arms, or legs zone.",
+      "source": "https://cards.fabtcg.com/card/frozen-to-death/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Ice Fusion"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
     "full_of_bravado": {
       "id": "full_of_bravado",
       "name_zh": "充满豪勇",
@@ -2011,6 +2065,27 @@
           "cost": "1",
           "power": null,
           "defense": "2"
+        }
+      }
+    },
+    "imposing_visage": {
+      "id": "imposing_visage",
+      "name_zh": "威严面容",
+      "name_en": "Imposing Visage",
+      "type_zh": "守护者行动",
+      "text_zh": "从你的牌库中搜寻一张费用为X或更低的光环牌，将其置入竞技场，然后洗牌。\n再动",
+      "text_en": "Search your deck for an aura card with cost X or less, put it into the arena, then shuffle your deck.\nGo again",
+      "source": "https://cards.fabtcg.com/card/imposing-visage/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "X3",
+          "power": null,
+          "defense": "3"
         }
       }
     },
@@ -2309,6 +2384,27 @@
         }
       }
     },
+    "mangle": {
+      "id": "mangle",
+      "name_zh": "绞碎",
+      "name_en": "Mangle",
+      "type_zh": "守护者行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，摧毁该英雄控制的一个带有-1防御指示物的装备。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, destroy target equipment they control with a -1{d} counter.",
+      "source": "https://cards.fabtcg.com/card/mangle/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
     "mighty_windup": {
       "id": "mighty_windup",
       "name_zh": "强力蓄势",
@@ -2489,6 +2585,28 @@
           "pitch": "2",
           "cost": "0",
           "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "oaken_old": {
+      "id": "oaken_old",
+      "name_zh": "老橡树",
+      "name_en": "Oaken Old",
+      "type_zh": "元素·守护者行动·攻击",
+      "text_zh": "大地与冰融合\n若老橡树已融合，它获得+2力量、支配，以及“当此牌命中英雄时，该英雄将手牌中的两张随机牌以任意顺序置于其牌库底。”",
+      "text_en": "Earth and Ice Fusion\nIf Oaken Old was fused, it gains +2{p}, dominate, and \"If this hits a hero, they put 2 random cards from their hand on the bottom of their deck in any order.\"",
+      "source": "https://cards.fabtcg.com/card/oaken-old/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Earth and Ice Fusion",
+        "Dominate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
           "defense": "3"
         }
       }
@@ -3307,6 +3425,25 @@
         }
       }
     },
+    "sledge_of_anvilheim": {
+      "id": "sledge_of_anvilheim",
+      "name_zh": "铁砧海姆重锤",
+      "name_en": "Sledge of Anvilheim",
+      "type_zh": "守护者武器·锤（双手）",
+      "text_zh": "行动——支付4点资源：攻击。",
+      "text_en": "Action - {r}{r}{r}{r}: Attack",
+      "source": "https://cards.fabtcg.com/card/sledge-of-anvilheim/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": 6,
+          "defense": null
+        }
+      }
+    },
     "smack_of_reality": {
       "id": "smack_of_reality",
       "name_zh": "现实之击",
@@ -3556,6 +3693,37 @@
         }
       }
     },
+    "staunch_response": {
+      "id": "staunch_response",
+      "name_zh": "坚毅回应",
+      "name_en": "Staunch Response",
+      "type_zh": "守护者·防御反应",
+      "text_zh": "使用坚毅回应的额外费用是：你可以支付4点资源。若如此做，坚毅回应获得+3防御。",
+      "text_en": "As an additional cost to play Staunch Response you may pay {r}{r}{r}{r}. If you do, Staunch Response gains +3{d}.",
+      "source": "https://cards.fabtcg.com/card/staunch-response/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "7"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "6"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
     "steadfast": {
       "id": "steadfast",
       "name_zh": "坚定不移",
@@ -3792,6 +3960,27 @@
         "3": {
           "pitch": "3",
           "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "tear_asunder": {
+      "id": "tear_asunder",
+      "name_zh": "撕裂",
+      "name_en": "Tear Asunder",
+      "type_zh": "守护者行动",
+      "text_zh": "你本回合的下一次守护者攻击获得+1力量、支配，以及“当此牌命中英雄时，该英雄弃两张牌。”\n再动",
+      "text_en": "Your next Guardian attack this turn gains +1{p}, dominate, and \"When this hits a hero, they discard 2 cards.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/tear-asunder/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
           "power": null,
           "defense": "3"
         }
@@ -4071,6 +4260,25 @@
           "cost": "5",
           "power": "6",
           "defense": "3"
+        }
+      }
+    },
+    "titans_fist": {
+      "id": "titans_fist",
+      "name_zh": "泰坦之拳",
+      "name_en": "Titan's Fist",
+      "type_zh": "守护者武器·锤（单手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击。\n如果你的资源区有一张费用为3或更高的牌，泰坦之拳获得+1力量。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +1{p}.",
+      "source": "https://cards.fabtcg.com/card/titans-fist/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": 3,
+          "defense": null
         }
       }
     },

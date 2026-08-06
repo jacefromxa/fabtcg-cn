@@ -2159,7 +2159,7 @@
   },
   "rip_off_the_top__2": {
     "name_en": "Rip Off the Top",
-    "name_zh": "撕开顶部",
+    "name_zh": "撕头彻尾",
     "type_zh": "蛮将 行动",
     "text_en": "Draw a card, then pitch a random card from your hand. If it has 6 or more {p}, your next attack this turn gets +3{p}.\nGo again",
     "text_zh": "抽一张牌，然后随机资源你手牌中的一张牌。若其力量为6或更高，你本回合的下一次攻击获得+3力量。\n再动",
@@ -2432,7 +2432,7 @@
   },
   "send_packing__2": {
     "name_en": "Send Packing",
-    "name_zh": "打发走人",
+    "name_zh": "好走不送",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this attacks a hero, banish a card from their arsenal. When the chain link resolves, if this didn't hit, return the banished card to its owner's hand.",
     "text_zh": "当此牌攻击英雄时，放逐其军械库中的一张牌。当链环结算时，若此牌没有命中，将被放逐的牌移回其拥有者的手牌。",
@@ -2760,7 +2760,7 @@
     "name_zh": "嗅到恐惧",
     "type_zh": "蛮将 行动",
     "text_en": "Beat Chest\nIf you've beaten chest this turn, intimidate.\nYour next Brute attack this turn gets \"If you've intimidated 2 or more times this turn, this gets +2{p}.\"\nGo again",
-    "text_zh": "捶胸\n若本回合你捶胸过，威吓。\n你本回合的下一次蛮将攻击获得“若本回合你威吓过两次或更多，此牌获得+3力量。”\n再动",
+    "text_zh": "捶胸\n若本回合你捶胸过，威吓。\n你本回合的下一次蛮将攻击获得“若本回合你威吓过两次或更多，此牌获得+2力量。”\n再动",
     "pitch": "3",
     "cost": "0",
     "power": null,
@@ -2770,7 +2770,7 @@
   },
   "song_of_sinew__2": {
     "name_en": "Song of Sinew",
-    "name_zh": "筋腱之歌",
+    "name_zh": "练筋歌",
     "type_zh": "蛮将 行动",
     "text_en": "Reveal the top 4 cards of your deck. Your next attack this turn gets +X{p}, where X is the number of cards with 6 or more {p} revealed this way. Put them back in any order.\nGo again",
     "text_zh": "展示你牌库顶的4张牌。你本回合的下一次攻击获得+X力量，X为以此方式展示的力量为6或更高的牌数量。将它们以任意顺序放回。\n再动",
@@ -2926,7 +2926,7 @@
   },
   "thick_hide_hunter__2": {
     "name_en": "Thick Hide Hunter",
-    "name_zh": "厚皮猎人",
+    "name_zh": "肉装猎手",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this attacks or defends, discard a random card.",
     "text_zh": "当此牌攻击或防御时，随机弃一张牌。",
@@ -2939,7 +2939,7 @@
   },
   "tough_as_a_rok__3": {
     "name_en": "Tough as a Rok",
-    "name_zh": "硬如岩块",
+    "name_zh": "坚若磐石",
     "type_zh": "崇敬 蛮将 行动·攻击",
     "text_en": "If you have less {h} than each other hero, this card's base {p} is 6, otherwise it's 0.",
     "text_zh": "若你的生命低于其他每位英雄，此牌的基础力量为6。否则，它为0。",
@@ -3030,7 +3030,7 @@
   },
   "unexpected_backhand__1": {
     "name_en": "Unexpected Backhand",
-    "name_zh": "出其不意的反手",
+    "name_zh": "回马一击",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When you win a clash revealing this, deal 1 damage to the other hero.",
     "text_zh": "当你展示此牌并赢得交锋时，对另一位英雄造成1点伤害。",
@@ -3043,7 +3043,7 @@
   },
   "unexpected_backhand__2": {
     "name_en": "Unexpected Backhand",
-    "name_zh": "出其不意的反手",
+    "name_zh": "回马一击",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When you win a clash revealing this, deal 1 damage to the other hero.",
     "text_zh": "当你展示此牌并赢得交锋时，对另一位英雄造成1点伤害。",
@@ -3056,7 +3056,7 @@
   },
   "unexpected_backhand__3": {
     "name_en": "Unexpected Backhand",
-    "name_zh": "出其不意的反手",
+    "name_zh": "回马一击",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When you win a clash revealing this, deal 1 damage to the other hero.",
     "text_zh": "当你展示此牌并赢得交锋时，对另一位英雄造成1点伤害。",
@@ -3121,7 +3121,7 @@
   },
   "vigorous_smashup__1": {
     "name_en": "Vigorous Smashup",
-    "name_zh": "雄壮猛砸",
+    "name_zh": "重砸",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this defends, clash with the attacking hero. The winner creates a Vigor token. You may put your revealed card on the bottom of its owner's deck.",
     "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个活力衍生物。你可以将你展示的牌置于其拥有者的牌库底。",
@@ -3134,7 +3134,7 @@
   },
   "vigorous_smashup__2": {
     "name_en": "Vigorous Smashup",
-    "name_zh": "雄壮猛砸",
+    "name_zh": "重砸",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this defends, clash with the attacking hero. The winner creates a Vigor token. You may put your revealed card on the bottom of its owner's deck.",
     "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个活力衍生物。你可以将你展示的牌置于其拥有者的牌库底。",
@@ -3147,7 +3147,7 @@
   },
   "vigorous_smashup__3": {
     "name_en": "Vigorous Smashup",
-    "name_zh": "雄壮猛砸",
+    "name_zh": "重砸",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this defends, clash with the attacking hero. The winner creates a Vigor token. You may put your revealed card on the bottom of its owner's deck.",
     "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个活力衍生物。你可以将你展示的牌置于其拥有者的牌库底。",
@@ -3264,7 +3264,7 @@
   },
   "wrecker_romp__1": {
     "name_en": "Wrecker Romp",
-    "name_zh": "破坏者嬉闹",
+    "name_zh": "蛮冲嬉撞",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, discard a random card.",
     "text_zh": "作为使用此牌的额外费用，随机弃一张牌。",
@@ -3277,7 +3277,7 @@
   },
   "wrecker_romp__2": {
     "name_en": "Wrecker Romp",
-    "name_zh": "破坏者嬉闹",
+    "name_zh": "蛮冲嬉撞",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, discard a random card.",
     "text_zh": "作为使用此牌的额外费用，随机弃一张牌。",
@@ -3290,7 +3290,7 @@
   },
   "wrecker_romp__3": {
     "name_en": "Wrecker Romp",
-    "name_zh": "破坏者嬉闹",
+    "name_zh": "蛮冲嬉撞",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, discard a random card.",
     "text_zh": "作为使用此牌的额外费用，随机弃一张牌。",

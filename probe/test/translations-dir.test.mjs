@@ -48,12 +48,15 @@ test('every translation file is parseable JSON', () => {
   }
 });
 
-test('human-reviewed entries never land in a machine batch file', () => {
+test('batch files carry only machine-draft or human-reviewed entries', () => {
   for (const file of fs.readdirSync(translationsDir)) {
-    if (!file.endsWith('.json') || file === 'human-reviewed.json') continue;
+    if (!file.endsWith('.json')) continue;
     const entries = JSON.parse(fs.readFileSync(path.join(translationsDir, file), 'utf8'));
     for (const [key, entry] of Object.entries(entries)) {
-      assert.equal(entry.status, 'machine-draft', `${key} in ${file} should be machine-draft`);
+      assert.ok(
+        ['machine-draft', 'human-reviewed'].includes(entry.status),
+        `${key} in ${file} has unexpected status ${entry.status}`,
+      );
     }
   }
 });
@@ -76,13 +79,13 @@ test('every card in cards.json is assignable to a batch (no legality gating)', (
   assert.equal(unassigned.length, 0, 'all cards must have a batch home (heroes live in heroes.json)');
 });
 
-test('the t3-other catch-all never captures Generic, Equipment or Hero cards', () => {
+test('the t4-remaining catch-all never captures Generic, Equipment or Hero cards', () => {
   const cards = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/source/english/card.json'), 'utf8'));
   for (const card of cards) {
-    if (getT3BatchName(card) !== 't3-other') continue;
-    assert.ok(!card.types.includes('Generic'), `${card.name} should be t1, not t3-other`);
-    assert.ok(!card.types.includes('Equipment'), `${card.name} should be t2, not t3-other`);
-    assert.ok(!card.types.includes('Hero'), `${card.name} should live in heroes.json, not t3-other`);
+    if (getT3BatchName(card) !== 't4-remaining') continue;
+    assert.ok(!card.types.includes('Generic'), `${card.name} should be t1, not t4-remaining`);
+    assert.ok(!card.types.includes('Equipment'), `${card.name} should be t2, not t4-remaining`);
+    assert.ok(!card.types.includes('Hero'), `${card.name} should live in heroes.json, not t4-remaining`);
   }
 });
 
@@ -94,11 +97,11 @@ test('every card sits in the batch file its filter assigns (no cross-batch stray
     if (isT1GenericCard(card)) return 't1-generic.json';
     if (isT2EquipmentCard(card)) return 't2-equipment.json';
     const batch = getT3BatchName(card);
-    if (batch && batch !== 't3-other') return `${batch}.json`;
+    if (batch) return `${batch}.json`;
     return 't4-remaining.json'; // catch-all file
   };
   for (const file of fs.readdirSync(translationsDir)) {
-    if (!file.endsWith('.json') || file === 'human-reviewed.json') continue;
+    if (!file.endsWith('.json')) continue;
     const entries = JSON.parse(fs.readFileSync(path.join(translationsDir, file), 'utf8'));
     for (const [key, entry] of Object.entries(entries)) {
       const card = byName.get(entry.name_en);
@@ -106,6 +109,37 @@ test('every card sits in the batch file its filter assigns (no cross-batch stray
       assert.equal(file, homeOf(card), `${entry.name_en} (${key}) should live in ${homeOf(card)}, not ${file}`);
     }
   }
+});
+
+test('every card in cards.json is exhaustively present in its home batch file', () => {
+  const cards = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/source/english/card.json'), 'utf8'));
+  const homeOf = (card) => {
+    if (isHeroCard(card)) return 'heroes.json';
+    if (isT1GenericCard(card)) return 't1-generic.json';
+    if (isT2EquipmentCard(card)) return 't2-equipment.json';
+    const batch = getT3BatchName(card);
+    if (batch) return `${batch}.json`;
+    return 't4-remaining.json'; // catch-all file
+  };
+  // Index each batch file by the base slugs it holds (bare or __pitch variants).
+  const baseByHome = new Map();
+  for (const file of fs.readdirSync(translationsDir)) {
+    if (!file.endsWith('.json')) continue;
+    const bases = new Set();
+    for (const key of Object.keys(JSON.parse(fs.readFileSync(path.join(translationsDir, file), 'utf8')))) {
+      bases.add(key.split('__')[0]);
+    }
+    baseByHome.set(file, bases);
+  }
+  const missing = [];
+  for (const card of cards) {
+    const base = slugifyCardName(card.name);
+    if (!base) continue;
+    const home = homeOf(card);
+    const bases = baseByHome.get(home);
+    if (!bases || !bases.has(base)) missing.push(`${card.name} (${base}) -> ${home}`);
+  }
+  assert.equal(missing.length, 0, `cards missing from their home batch:\n  ${missing.join('\n  ')}`);
 });
 
 test('loadGlossary flattens both string and structured keyword entries', () => {
@@ -147,9 +181,11 @@ test('every Hero card in cards.json is archived in heroes.json under its canonic
 test('batch generator preserves existing entries when re-run (merge, not rebuild)', () => {
   const dir = tempDir('fab-cn-merge-');
   const batchFile = path.join(dir, 't3-chaos.json');
-  // Simulate an existing translated entry that the current filter would still match.
+  // Simulate existing translated entries: a machine draft plus a confirmed one.
+  // Both live in the batch file and re-running must preserve each untouched.
   const existing = {
     'concoct_disorder__1': { name_zh: '制造混乱', status: 'machine-draft' },
+    'seed_of_agony__1': { name_zh: '痛楚之种', status: 'human-reviewed' },
   };
   fs.writeFileSync(batchFile, JSON.stringify(existing));
 
@@ -159,4 +195,6 @@ test('batch generator preserves existing entries when re-run (merge, not rebuild
 
   assert.ok(result['concoct_disorder__1'], 'existing entry preserved');
   assert.equal(result['concoct_disorder__1'].name_zh, '制造混乱', 'existing name preserved');
+  assert.ok(result['seed_of_agony__1'], 'human-reviewed entry preserved');
+  assert.equal(result['seed_of_agony__1'].status, 'human-reviewed', 'confirmed status untouched');
 });

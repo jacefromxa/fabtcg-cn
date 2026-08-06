@@ -23,7 +23,11 @@ function normalizeVariant(card) {
 }
 
 function normalizeCard(cardId, entries) {
-  const first = entries[0];
+  // Primary display fields come from a human-reviewed entry when one exists;
+  // fall back to the first entry otherwise. Without this, a confirmed bare key
+  // sitting after its empty machine-draft pitch variants in a batch file would
+  // be shadowed by them in the published chunk.
+  const first = entries.find((e) => e.status === 'human-reviewed') || entries[0];
   const variants = {};
 
   for (const entry of entries) {

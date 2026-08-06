@@ -69,7 +69,7 @@ const T3_BATCHES = [
 ];
 
 export function getT3BatchName(card) {
-  if (!Array.isArray(card.types)) return 't3-other';
+  if (!Array.isArray(card.types)) return 't4-remaining';
   // Heroes and Generic/Equipment cards are handled by their own batches.
   if (card.types.includes('Hero') || card.types.includes('Generic') || card.types.includes('Equipment')) return null;
   for (const batch of T3_BATCHES) {
@@ -77,7 +77,7 @@ export function getT3BatchName(card) {
   }
   // Catch-all: every remaining card (Event, Adjudicator, Macro, token-only, …)
   // still gets a home so the whole cards.json pool is translatable.
-  return 't3-other';
+  return 't4-remaining';
 }
 
 export function isT3Batch(batchName) {
@@ -85,13 +85,11 @@ export function isT3Batch(batchName) {
 }
 
 // T4: Catch-all for every remaining card not yet covered by T1-T3. Blindly
-// translates all unmatched cards regardless of legality (Young heroes, Events,
-// Blitz-only, etc.). Hero cards stay out of T4 too — they live in heroes.json.
+// translates all unmatched cards regardless of legality (Events, Adjudicators,
+// Macros, token-only, etc.). Hero cards stay out of T4 too — they live in
+// heroes.json.
 export function isT4RemainingCard(card) {
-  return !isHeroCard(card)
-    && !isT1GenericCard(card)
-    && !isT2EquipmentCard(card)
-    && !getT3BatchName(card);
+  return getT3BatchName(card) === 't4-remaining';
 }
 
 // --- Merging ----------------------------------------------------------------
@@ -158,23 +156,9 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   // under data/translations/. Merge into the EXISTING batch file (never rebuild
   // it from scratch) so entries already in the file — even ones a future filter
   // no longer re-matches — are preserved. New drafts for filter-matching cards
-  // are added on top.
-  const humanReviewedFile = path.join(translationsDir, 'human-reviewed.json');
-  // Human entries use bare keys (e.g. "command_and_conquer") while the machine
-  // generator emits "__pitch" suffixed keys, so a machine draft only duplicates
-  // a human card when the SAME pitch is already covered. Exclude by base slug
-  // + pitch, never by base slug alone (a human pitch-1 card must not suppress
-  // the legitimate pitch-2 / pitch-3 machine drafts).
-  const humanPitches = new Set(
-    fs.existsSync(humanReviewedFile)
-      ? Object.entries(JSON.parse(fs.readFileSync(humanReviewedFile, 'utf8'))).map(([key, entry]) => {
-          const base = key.split('__')[0];
-          const pitch = entry.pitch == null || entry.pitch === '' ? '' : String(entry.pitch);
-          return `${base}::${pitch}`;
-        })
-      : [],
-  );
-
+  // are added on top. Confirmed entries (status != machine-draft) live in the
+  // batch file alongside machine drafts; mergeMachineDrafts never overwrites
+  // them, so re-running a batch cannot wipe finished work.
   fs.mkdirSync(translationsDir, { recursive: true });
   const batchFile = path.join(translationsDir, `${batchName}.json`);
   const existingBatch = fs.existsSync(batchFile)
@@ -183,17 +167,9 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
 
   const { result, added, skippedExisting } = mergeMachineDrafts(existingBatch, englishCards, filter);
 
-  const batchEntries = {};
-  for (const [key, entry] of Object.entries(result)) {
-    const [base, pitchSuffix] = key.split('__');
-    const pitch = pitchSuffix || '';
-    if (humanPitches.has(`${base}::${pitch}`)) continue; // redundant human duplicate
-    batchEntries[key] = entry;
-  }
-
-  fs.writeFileSync(batchFile, `${JSON.stringify(batchEntries, null, 2)}\n`, 'utf8');
+  fs.writeFileSync(batchFile, `${JSON.stringify(result, null, 2)}\n`, 'utf8');
   console.log(`Merged batch "${batchName}" machine drafts into ${batchFile}`);
   console.log(`  added: ${added}`);
-  console.log(`  kept human entries: ${skippedExisting}`);
-  console.log(`  total entries in batch file: ${Object.keys(batchEntries).length}`);
+  console.log(`  kept non-machine-draft entries: ${skippedExisting}`);
+  console.log(`  total entries in batch file: ${Object.keys(result).length}`);
 }
