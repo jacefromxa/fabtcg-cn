@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.7.11（2026-08-06）
+
+### 变更
+
+- **取消独立数据仓库，改为单仓库发布**：数据源从 `talishar-cn-data` 改为本仓库 `.../talishar-cn/main/dist/data`，`dist/data` 随源码提交推送即发布，删除手动同步步骤
+- **chunk 按翻译批次分片**：产物从首字母分片改为按翻译源批次命名（`chunks/t3-warrior.json` 对应该批次），改翻译即可知影响的 chunk；构建时自动清理旧 chunk
+- 内部维护文档（CLAUDE.md / HANDOFF.md）移出公开仓库，README 精简为用户面向
+
 ## v0.7.10（2026-08-06）
 
 ### 变更
