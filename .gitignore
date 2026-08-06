@@ -11,3 +11,7 @@ node_modules/
 # Agent tool state (x-reader MCP inbox / content-hub output) — not project docs
 output/
 unified_inbox.json
+
+# Internal maintenance docs — keep local-only, not for the public repo
+CLAUDE.md
+HANDOFF.md
