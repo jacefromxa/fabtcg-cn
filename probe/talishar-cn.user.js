@@ -1,17 +1,19 @@
 // ==UserScript==
-// @name         Talishar / FaBrary 简体中文卡牌浮窗
-// @namespace    https://talishar.net/
-// @version      0.7.17
-// @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
-// @author       jacefromxa
-// @match        https://talishar.net/*
-// @match        https://fabrary.net/*
-// @run-at       document-idle
-// @updateURL    https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
-// @downloadURL  https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
-// @grant        GM_registerMenuCommand
-// @grant        GM_getValue
-// @grant        GM_setValue
+// @name           Talishar / FaBrary 简体中文卡牌浮窗
+// @name:en        Talishar / FaBrary Simplified Chinese Card Tooltip
+// @namespace      https://talishar.net/
+// @version        0.7.18
+// @description    在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
+// @description:en Show Simplified Chinese card info on hover for Talishar and FaBrary — card name, type, rules text, and keyword explanations.
+// @author         jacefromxa
+// @match          https://talishar.net/*
+// @match          https://fabrary.net/*
+// @run-at         document-idle
+// @updateURL      https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
+// @downloadURL    https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
+// @grant          GM_registerMenuCommand
+// @grant          GM_getValue
+// @grant          GM_setValue
 // ==/UserScript==
 
 (function () {
