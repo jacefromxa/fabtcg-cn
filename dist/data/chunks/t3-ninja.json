@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2dbb503e6a3c",
+  "version": "1a0509a39dd9",
   "cards": {
     "ancestral_empowerment": {
       "id": "ancestral_empowerment",
@@ -2913,7 +2913,7 @@
     },
     "sacred_art_jade_tiger_domain": {
       "id": "sacred_art_jade_tiger_domain",
-      "name_zh": "秘法·玉虎领域",
+      "name_zh": "神功·玉虎领域",
       "name_en": "Sacred Art: Jade Tiger Domain",
       "type_zh": "秘法 忍者 瞬间",
       "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 在你的手牌中创造2张卧虎。\n- 本回合你的卧虎获得+1力量。\n- 超越",

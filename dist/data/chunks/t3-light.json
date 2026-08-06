@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2dbb503e6a3c",
+  "version": "1a0509a39dd9",
   "cards": {
     "aegis_archangel_of_protection": {
       "id": "aegis_archangel_of_protection",
@@ -746,7 +746,7 @@
       "name_zh": "蹂躏大天使·塞凯姆",
       "name_en": "Sekem, Archangel of Ravages",
       "type_zh": "光·Angel Ally",
-      "text_zh": "每回合一次行动——支付2点资源：攻击\n当塞凯姆攻击时，你可以放逐你的英雄的灵魂中的一张牌。若如此做，对任意目标造成2点秘法伤害。\n结界4",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n当塞凯姆攻击时，你可以放逐你的英雄的灵魂中的一张牌。若如此做，对任意目标造成2点奥术伤害。\n结界4",
       "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen Sekem attacks, you may banish a card from your hero's soul. If you do, deal 2 arcane damage to any target.\nWard 4",
       "source": "https://cards.fabtcg.com/card/sekem_archangel_of_ravages/",
       "status": "machine-draft",

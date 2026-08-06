@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2dbb503e6a3c",
+  "version": "1a0509a39dd9",
   "cards": {
     "amulet_of_lightning": {
       "id": "amulet_of_lightning",
@@ -1217,7 +1217,7 @@
       "name_zh": "导电印记",
       "name_en": "Sigil of Conductivity",
       "type_zh": "闪电 瞬间·光环",
-      "text_zh": "秘法庇护1\n当此牌离开竞技场时，创造一个闪电化身衍生物。",
+      "text_zh": "奥术庇护1\n当此牌离开竞技场时，创造一个闪电化身衍生物。",
       "text_en": "Arcane Shelter 1\nWhen this leaves the arena, create an Embodiment of Lightning token.",
       "source": "https://cards.fabtcg.com/card/sigil_of_conductivity/",
       "status": "machine-draft",
@@ -1334,7 +1334,7 @@
       "name_zh": "咒缚印记",
       "name_en": "Spellbane Sigil",
       "type_zh": "闪电 瞬间·光环",
-      "text_zh": "在你的行动阶段开始时，摧毁此牌。\n秘法屏障X",
+      "text_zh": "在你的行动阶段开始时，摧毁此牌。\n奥术屏障X",
       "text_en": "At the beginning of your action phase, destroy this.\nArcane Barrier X",
       "source": "https://cards.fabtcg.com/card/spellbane_sigil/",
       "status": "machine-draft",
@@ -1502,7 +1502,7 @@
       "name_zh": "雷鸣反驳",
       "name_en": "Thunderous Retort",
       "type_zh": "闪电 瞬间·光环",
-      "text_zh": "在你的行动阶段开始时，摧毁此牌，然后你本回合的下一次攻击获得再动。\n秘法屏障3",
+      "text_zh": "在你的行动阶段开始时，摧毁此牌，然后你本回合的下一次攻击获得再动。\n奥术屏障3",
       "text_en": "At the beginning of your action phase, destroy this, then your next attack this turn gets go again.\nArcane Barrier 3",
       "source": "https://cards.fabtcg.com/card/thunderous_retort/",
       "status": "machine-draft",

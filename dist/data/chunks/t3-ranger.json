@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2dbb503e6a3c",
+  "version": "1a0509a39dd9",
   "cards": {
     "amplifying_arrow": {
       "id": "amplifying_arrow",
@@ -1574,7 +1574,7 @@
       "name_zh": "法师猎手箭",
       "name_en": "Mage Hunter Arrow",
       "type_zh": "游侠 行动·箭矢 攻击",
-      "text_zh": "瞬间——摧毁此牌：本回合接下来你将受到秘法伤害时，防止其中3点伤害。仅当此牌在你军械库中正面朝上时才能启动此异能。\n当此牌命中符文剑士或法师英雄时，你可以摧毁其控制的一个光环。",
+      "text_zh": "瞬间——摧毁此牌：本回合接下来你将受到奥术伤害时，防止其中3点伤害。仅当此牌在你军械库中正面朝上时才能启动此异能。\n当此牌命中符文剑士或法师英雄时，你可以摧毁其控制的一个光环。",
       "text_en": "Instant - Destroy this: The next time you would be dealt arcane damage this turn, prevent 3 of that damage. Activate this only while this is face-up in your arsenal.\nWhen this hits a Runeblade or Wizard hero, you may destroy an aura they control.",
       "source": "https://cards.fabtcg.com/card/mage_hunter_arrow/",
       "status": "machine-draft",
@@ -2693,7 +2693,7 @@
       "name_zh": "咒缚陷阱",
       "name_en": "Spellbane Trap",
       "type_zh": "游侠 行动·陷阱",
-      "text_zh": "你本回合的下一次箭矢攻击获得+3力量。\n再动\n当此牌防御且攻击英雄本回合造成过秘法伤害时，创造一个法殁神盾衍生物。",
+      "text_zh": "你本回合的下一次箭矢攻击获得+3力量。\n再动\n当此牌防御且攻击英雄本回合造成过奥术伤害时，创造一个法殁神盾衍生物。",
       "text_en": "Your next arrow attack this turn gets +3{p}.\nGo again\nWhen this defends and the attacking hero has dealt arcane damage this turn, create a Spellbane Aegis token.",
       "source": "https://cards.fabtcg.com/card/spellbane_trap/",
       "status": "machine-draft",

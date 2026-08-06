@@ -284,7 +284,7 @@ test('renderCardPanel appends a keyword section (name：desc, numbered fallback)
   }, {
     'crush': { name_zh: '粉碎', desc_zh: '当此牌造成 4 点或更多伤害时，[效果]。' },
     'go again': { name_zh: '再动', desc_zh: '获得 1 点行动点。' },
-    'arcane barrier': { name_zh: '秘法屏障', desc_zh: '若你将受到秘法伤害，你可以支付 N 点资源以防止其中 N 点。' },
+    'arcane barrier': { name_zh: '奥术屏障', desc_zh: '若你将受到奥术伤害，你可以支付 N 点资源以防止其中 N 点。' },
   });
 
   assert.equal(panel.children.length, 4);
@@ -296,7 +296,7 @@ test('renderCardPanel appends a keyword section (name：desc, numbered fallback)
     '关键词',
     '· 粉碎：当此牌造成 4 点或更多伤害时，[效果]。',
     '· 再动：获得 1 点行动点。',
-    '· 秘法屏障：若你将受到秘法伤害，你可以支付 N 点资源以防止其中 N 点。',
+    '· 奥术屏障：若你将受到奥术伤害，你可以支付 N 点资源以防止其中 N 点。',
   ]);
 });
 

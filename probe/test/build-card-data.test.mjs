@@ -57,7 +57,7 @@ test('attachCardKeywords joins English card_keywords, keeping resolvable ones on
   const library = buildKeywordLibrary({
     keyword: {
       'Crush': { name_zh: '粉碎', desc_zh: '…' },
-      'Arcane Barrier': { name_zh: '秘法屏障', desc_zh: '…' },
+      'Arcane Barrier': { name_zh: '奥术屏障', desc_zh: '…' },
     },
   });
   const englishCards = [

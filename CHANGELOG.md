@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.7.13（2026-08-06）
+
+### 变更
+
+- **arcane 术语统一为「奥术」**：消除 arcane / Mystic 同译「秘法」的撞车。术语表 Arcane Barrier / Arcane Shelter / arcane damage → 奥术屏障 / 奥术庇护 / 奥术伤害；31 个 arcane 家族卡名（Arcane / Arcanic / Arcana / Arcanix）→ 奥术；439 条正文的「秘法伤害/屏障」→「奥术」；Mystic 类别（110 处 type）保持「秘法」不动
+- **Sacred Art 系列卡名 → 神功**：Sacred Art: Undercurrent Desires 等 3 张，从机器稿「秘法·」更正为「神功·」
+
 ## v0.7.12（2026-08-06）
 
 ### 变更

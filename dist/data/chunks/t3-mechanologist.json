@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2dbb503e6a3c",
+  "version": "1a0509a39dd9",
   "cards": {
     "absorption_dome": {
       "id": "absorption_dome",
@@ -26,7 +26,7 @@
       "name_zh": "以太水槽",
       "name_en": "Aether Sink",
       "type_zh": "机械师 行动·物品",
-      "text_zh": "以太水槽进入竞技场时带有一个蒸汽指示物。\n行动——支付1点资源：若以太水槽上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动\n瞬间——从以太水槽上移除一个蒸汽指示物：以太水槽直到回合结束获得秘法屏障2。",
+      "text_zh": "以太水槽进入竞技场时带有一个蒸汽指示物。\n行动——支付1点资源：若以太水槽上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动\n瞬间——从以太水槽上移除一个蒸汽指示物：以太水槽直到回合结束获得奥术屏障2。",
       "text_en": "Aether Sink enters the arena with a steam counter on it.\nAction - {r}: If there are no steam counters on Aether Sink, put a steam counter on it. Go again\nInstant - Remove a steam counter from Aether Sink: Aether Sink gains Arcane Barrier 2 until end of turn.",
       "source": "https://cards.fabtcg.com/card/aether_sink/",
       "status": "machine-draft",
