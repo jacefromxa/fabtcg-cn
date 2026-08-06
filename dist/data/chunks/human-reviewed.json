@@ -1,7 +1,92 @@
 {
   "schema_version": 2,
-  "version": "925b2d38969c",
+  "version": "2dbb503e6a3c",
   "cards": {
+    "aether_bindings_of_the_third_age": {
+      "id": "aether_bindings_of_the_third_age",
+      "name_zh": "第三纪元以太绑手",
+      "name_en": "Aether Bindings of the Third Age",
+      "type_zh": "法师 装备·手臂",
+      "text_zh": "瞬间——摧毁此牌：直到回合结束，每当你控制的名称中含有印记的光环永久物离开竞技场时，增幅1。\n战痕",
+      "text_en": "Instant - Destroy this: Until end of turn, whenever an aura permanent you control with Sigil in its name leaves the arena, amp 1.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/aether_bindings_of_the_third_age/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "apex_bonebreaker": {
+      "id": "apex_bonebreaker",
+      "name_zh": "巅峰碎骨拳",
+      "name_en": "Apex Bonebreaker",
+      "type_zh": "蛮将 装备·手臂",
+      "text_zh": "当此牌与一张力量为6或更高的牌一起防御时，创造一个力量衍生物。\n淬炼",
+      "text_en": "When this defends together with a card with 6 or more {p}, create a Might token.\nTemper",
+      "source": "https://cards.fabtcg.com/card/apex_bonebreaker/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "aqua_laps": {
+      "id": "aqua_laps",
+      "name_zh": "凌波踝珠",
+      "name_en": "Aqua Laps",
+      "type_zh": "秘法 装备·腿部",
+      "text_zh": "翳装\n攻击反应——支付1点资源，将此牌翻为正面朝上：目标攻击获得再动。\n在你的回合开始时，摧毁此牌。",
+      "text_en": "Cloaked\nAttack Reaction - {r}, turn this face up: Target attack gets go again.\nAt the start of your turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/aqua_laps/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Cloaked"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "arcbane_grasp": {
+      "id": "arcbane_grasp",
+      "name_zh": "破法拳械",
+      "name_en": "Arcbane Grasp",
+      "type_zh": "机械师 瞬间 装备·Evo Base 手臂",
+      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n当此牌被装备时，创造一个法殁神盾衍生物。\n秘法屏障1",
+      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nWhen this is equipped, create a Spellbane Aegis token.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/arcbane_grasp/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 1",
+        "Transform"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
     "autumns_touch": {
       "id": "autumns_touch",
       "name_zh": "秋之触",
@@ -75,6 +160,69 @@
         }
       }
     },
+    "basalt_boots": {
+      "id": "basalt_boots",
+      "name_zh": "玄武岩靴",
+      "name_en": "Basalt Boots",
+      "type_zh": "守护者 装备·腿部",
+      "text_zh": "若你控制一个地震涌动衍生物，此牌获得+1防御。\n淬炼",
+      "text_en": "If you control a Seismic Surge token, this gets +1{d}.\nTemper",
+      "source": "https://cards.fabtcg.com/card/basalt_boots/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "blacktek_whisperers": {
+      "id": "blacktek_whisperers",
+      "name_zh": "黑泰克轻语靴",
+      "name_en": "Blacktek Whisperers",
+      "type_zh": "刺客 装备·腿部",
+      "text_zh": "当黑泰克低语者在你坟场中时，在你的回合开始时，你可以摧毁你控制的2个银币。若如此做，装备黑泰克低语者。\n攻击反应——摧毁黑泰克低语者：目标刺客攻击行动牌获得“当此牌命中英雄时，它获得再动。”\n战痕",
+      "text_en": "While Blacktek Whisperers is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Blacktek Whisperers.\nAttack Reaction - Destroy Blacktek Whisperers: Target Assassin attack action card gains \"When this hits a hero, it gains go again.\"\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/blacktek_whisperers/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "blitz_kicks": {
+      "id": "blitz_kicks",
+      "name_zh": "御电战靴",
+      "name_en": "Blitz Kicks",
+      "type_zh": "闪电 装备·腿部",
+      "text_zh": "瞬间——支付1点资源，摧毁此牌：创造一个闪电化身衍生物。仅当本回合你使用过一张瞬间牌时才能启动此异能。\n秘法屏障1",
+      "text_en": "Instant - {r}, destroy this: Create an Embodiment of Lightning token. Activate this only if you've played an instant card this turn.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/blitz_kicks/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
     "blizzard": {
       "id": "blizzard",
       "name_zh": "暴风雪",
@@ -91,6 +239,27 @@
           "cost": "0",
           "power": null,
           "defense": null
+        }
+      }
+    },
+    "boltn_boots": {
+      "id": "boltn_boots",
+      "name_zh": "螺栓长靴",
+      "name_en": "Bolt'n Boots",
+      "type_zh": "游侠 装备·腿部",
+      "text_zh": "攻击反应——支付1点资源，摧毁此牌：目标力量大于其基础的箭矢攻击获得再动。\n战痕",
+      "text_en": "Attack Reaction - {r}, destroy this: Target arrow attack with {p} greater than its base gets go again.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/boltn_boots/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
         }
       }
     },
@@ -112,6 +281,27 @@
           "cost": null,
           "power": null,
           "defense": 1
+        }
+      }
+    },
+    "boots_to_the_boards": {
+      "id": "boots_to_the_boards",
+      "name_zh": "登台长靴",
+      "name_en": "Boots to the Boards",
+      "type_zh": "崇敬 装备·腿部",
+      "text_zh": "当此牌防御时，支付至多3点资源。创造等量的坚韧衍生物。\n淬炼",
+      "text_en": "When this defends, pay up to {r}{r}{r}. Create that many Toughness tokens.\nTemper",
+      "source": "https://cards.fabtcg.com/card/boots_to_the_boards/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
         }
       }
     },
@@ -145,6 +335,48 @@
           "cost": "3",
           "power": "5",
           "defense": "3"
+        }
+      }
+    },
+    "breeze_rider_boots": {
+      "id": "breeze_rider_boots",
+      "name_zh": "乘风长靴",
+      "name_en": "Breeze Rider Boots",
+      "type_zh": "忍者 装备·腿部",
+      "text_zh": "当你控制的忍者攻击行动牌命中时，你可以摧毁乘风之靴。若如此做，本回合具有连击的攻击行动牌获得再动。\n战痕",
+      "text_en": "When a Ninja attack action card you control hits, you may destroy Breeze Rider Boots. If you do, attack action cards with combo gain go again this turn.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/breeze_rider_boots/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "bulls_eye_bracers": {
+      "id": "bulls_eye_bracers",
+      "name_zh": "靶心护腕",
+      "name_en": "Bull's Eye Bracers",
+      "type_zh": "游侠 装备·手臂",
+      "text_zh": "行动——摧毁牛眼护腕：若你军械库中没有牌，你可以将你手牌中的一张箭矢正面朝上放入你的军械库。它直到回合结束获得+1力量。再动\n秘法屏障1",
+      "text_en": "Action - Destroy Bull's Eye Bracers: If you have no cards in your arsenal, you may put an arrow card from your hand face up into your arsenal. It gains +1{p} until end of turn. Go again\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/bulls_eye_bracers/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
         }
       }
     },
@@ -193,6 +425,48 @@
         }
       }
     },
+    "civic_guide": {
+      "id": "civic_guide",
+      "name_zh": "公民指南",
+      "name_en": "Civic Guide",
+      "type_zh": "守护者 装备·手臂",
+      "text_zh": "每当此牌防御时，在另一位英雄的控制下创造一个力量衍生物。\n淬炼",
+      "text_en": "Whenever this defends, create a Might token under another hero's control.\nTemper",
+      "source": "https://cards.fabtcg.com/card/civic_guide/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "civic_peak": {
+      "id": "civic_peak",
+      "name_zh": "公民巅峰",
+      "name_en": "Civic Peak",
+      "type_zh": "守护者 装备·头部",
+      "text_zh": "每当此牌防御时，另一位目标英雄抽一张牌。\n淬炼",
+      "text_en": "Whenever this defends, another target hero draws a card.\nTemper",
+      "source": "https://cards.fabtcg.com/card/civic_peak/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
     "colors_of_aria": {
       "id": "colors_of_aria",
       "name_zh": "阿瑞亚之色",
@@ -212,6 +486,27 @@
         }
       }
     },
+    "comeback_kicks": {
+      "id": "comeback_kicks",
+      "name_zh": "逆袭靴",
+      "name_en": "Comeback Kicks",
+      "type_zh": "崇敬 装备·腿部",
+      "text_zh": "每当观众为你欢呼时，若你的生命低于其他每位英雄，你可以摧毁此牌。若如此做，获得1个行动点。\n战痕",
+      "text_en": "Whenever the crowd cheers you, if you have less {h} than each other hero, you may destroy this. If you do, gain 1 action point.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/comeback_kicks/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "command_and_conquer": {
       "id": "command_and_conquer",
       "name_zh": "指挥与征服",
@@ -228,6 +523,48 @@
           "cost": 2,
           "power": 6,
           "defense": 3
+        }
+      }
+    },
+    "crater_fist": {
+      "id": "crater_fist",
+      "name_zh": "陨坑拳",
+      "name_en": "Crater Fist",
+      "type_zh": "守护者 装备·手臂",
+      "text_zh": "行动——支付3点资源，摧毁陨石之拳：本回合你的具有粉碎的攻击获得+2力量。再动\n淬炼",
+      "text_en": "Action - {r}{r}{r}, destroy Crater Fist: Your attacks with crush gain +2{p} this turn. Go again\nTemper",
+      "source": "https://cards.fabtcg.com/card/crater_fist/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "crown_of_dichotomy": {
+      "id": "crown_of_dichotomy",
+      "name_zh": "二元王冠",
+      "name_en": "Crown of Dichotomy",
+      "type_zh": "符文剑士 装备·头部",
+      "text_zh": "行动——支付1点资源，摧毁二分王冠：将你坟场中的目标符文剑士攻击行动牌和目标符文剑士“非攻击”行动牌以任意顺序置于你的牌库顶。\n秘法屏障1",
+      "text_en": "Action - {r}, destroy Crown of Dichotomy: Put target Runeblade attack action card and target Runeblade 'non-attack' action card from your graveyard on top of your deck in any order.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/crown_of_dichotomy/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
         }
       }
     },
@@ -252,6 +589,68 @@
         }
       }
     },
+    "crown_of_frozen_thoughts": {
+      "id": "crown_of_frozen_thoughts",
+      "name_zh": "凝思冰冠",
+      "name_en": "Crown of Frozen Thoughts",
+      "type_zh": "冰 装备·头部",
+      "text_zh": "当此牌防御时，冻结攻击英雄直到其下一个回合开始。\n刃碎",
+      "text_en": "When this defends, freeze the attacking hero until the start of their next turn.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/crown_of_frozen_thoughts/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Freeze",
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "crown_of_reflection": {
+      "id": "crown_of_reflection",
+      "name_zh": "映心头冠",
+      "name_en": "Crown of Reflection",
+      "type_zh": "幻术师 装备·头部",
+      "text_zh": "瞬间——摧毁反思之冠：摧毁你控制的目标幻术师光环。若如此做，你可以将你手牌中一张费用小于或等于以此方式摧毁的光环的幻术师光环牌放入竞技场。仅能在你的行动阶段期间启动反思之冠。\n秘法屏障1",
+      "text_en": "Instant - Destroy Crown of Reflection: Destroy target Illusionist aura you control. If you do, you may put an Illusionist aura card from your hand into the arena with cost less than or equal the aura destroyed this way. Activate Crown of Reflection only during your action phase.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/crown_of_reflection/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "crown_of_seeds": {
+      "id": "crown_of_seeds",
+      "name_zh": "种源头冠",
+      "name_en": "Crown of Seeds",
+      "type_zh": "",
+      "text_zh": "每回合一次瞬间——支付1点资源，将你军械库中的一张牌面朝下的牌置于你的牌库底：抽一张牌，并防止本回合接下来将对你的英雄造成的1点伤害。",
+      "text_en": "Once per Turn Instant - {r}, put a face down card from your arsenal on the bottom of your deck: Draw a card and prevent the next 1 damage that would be dealt to your hero this turn.",
+      "source": "https://cards.fabtcg.com/card/crown_of_seeds/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "0"
+        }
+      }
+    },
     "crumble_to_eternity": {
       "id": "crumble_to_eternity",
       "name_zh": "崩解至永恒",
@@ -268,6 +667,174 @@
           "cost": "0",
           "power": null,
           "defense": "3"
+        }
+      }
+    },
+    "dance_of_darkness": {
+      "id": "dance_of_darkness",
+      "name_zh": "暗舞",
+      "name_en": "Dance of Darkness",
+      "type_zh": "暗影 装备·腿部",
+      "text_zh": "若你的英雄将受到伤害，你可以放逐此牌以防止其中2点伤害。\n血债",
+      "text_en": "If your hero would be dealt damage, you may banish this to prevent 2 of that damage.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/dance_of_darkness/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dealers_grip": {
+      "id": "dealers_grip",
+      "name_zh": "庄家之手",
+      "name_en": "Dealer's Grip",
+      "type_zh": "战士 装备·手臂",
+      "text_zh": "攻击反应——支付2点资源，摧毁此牌：目标已下注的攻击获得+1力量。\n战痕",
+      "text_en": "Attack Reaction - {r}{r}, destroy this: Target attack that has wagered gets +1{p}.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/dealers_grip/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "diamond_hands": {
+      "id": "diamond_hands",
+      "name_zh": "钻石手套",
+      "name_en": "Diamond Hands",
+      "type_zh": "",
+      "text_zh": "鲁迪专精\n在你的结束阶段开始时，若你手牌中有4张或更多牌，创造一个钻石衍生物。\n刃碎",
+      "text_en": "Ruu'di Specialization\nAt the beginning of your end phase, if you have 4 or more cards in hand, create a Diamond token.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/diamond_hands/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "1"
+        }
+      }
+    },
+    "dragonscaler_flight_path": {
+      "id": "dragonscaler_flight_path",
+      "name_zh": "龙鳞飞靴",
+      "name_en": "Dragonscaler Flight Path",
+      "type_zh": "龙裔 装备·腿部",
+      "text_zh": "瞬间——支付3点资源，摧毁此牌：目标龙裔攻击获得再动。若其为武器或盟友攻击，本回合你可以用它额外攻击一次。每当你控制一个龙裔链环，此异能费用减少1点资源。\n战痕",
+      "text_en": "Instant - {r}{r}{r}, destroy this: Target Draconic attack gets go again. If it's a weapon or ally attack, you may attack with it an additional time this turn. This ability costs {r} less to activate for each Draconic chain link you control.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/dragonscaler_flight_path/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "dream_weavers": {
+      "id": "dream_weavers",
+      "name_zh": "织梦手套",
+      "name_en": "Dream Weavers",
+      "type_zh": "幻术师 装备·手臂",
+      "text_zh": "行动——摧毁织梦者：本回合你使用的下一张幻术师攻击行动牌失去且不能获得虚击。再动\n法力虚空1",
+      "text_en": "Action - Destroy Dream Weavers: The next Illusionist attack action card you play this turn loses and can't gain phantasm. Go again\nSpellvoid 1",
+      "source": "https://cards.fabtcg.com/card/dream_weavers/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Spellvoid 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "drive_brake": {
+      "id": "drive_brake",
+      "name_zh": "驱动刹车",
+      "name_en": "Drive Brake",
+      "type_zh": "机械师 装备·腿部",
+      "text_zh": "每当你因推进放逐一张超频驱动器时，从你此牌上移除一个-1防御指示物。\n战痕",
+      "text_en": "Whenever you banish a Hyper Driver from boosting, remove a -1{d} counter from this.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/drive_brake/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "duelist_gauntlets": {
+      "id": "duelist_gauntlets",
+      "name_zh": "决斗护手",
+      "name_en": "Duelist Gauntlets",
+      "type_zh": "战士 装备·手臂",
+      "text_zh": "攻击反应——支付1点资源，摧毁此牌：目标剑攻击获得“当防御此牌时，反应牌获得-1防御。”\n战痕",
+      "text_en": "Attack Reaction - {r}, destroy this: Target sword attack gets \"Reaction cards get -1{d} while defending this.\"\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/duelist_gauntlets/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "edge_laden_plate": {
+      "id": "edge_laden_plate",
+      "name_zh": "万刃胸甲",
+      "name_en": "Edge Laden Plate",
+      "type_zh": "战士 装备·胸部",
+      "text_zh": "瞬间——摧毁此牌：获得1点资源。仅当本回合你磨砺过一把剑时才能启动此异能。\n战痕",
+      "text_en": "Instant - Destroy this: Gain {r}. Activate this only if you've sharpened a sword this turn.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/edge_laden_plate/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
         }
       }
     },
@@ -293,6 +860,90 @@
         }
       }
     },
+    "evo_atom_breaker": {
+      "id": "evo_atom_breaker",
+      "name_zh": "进化原子粉碎器",
+      "name_en": "Evo Atom Breaker",
+      "type_zh": "机械师 瞬间 装备·Evo 胸部",
+      "text_zh": "若你装备了一件基础胸部装备，将其和你控制的X张超频驱动器转化为此牌，然后装备此牌。若如此做，本回合接下来你将受到伤害时，防止其中两倍X的伤害。\n每当你推进时，你可以摧毁此牌之下的一张牌。若如此做，获得2点资源。",
+      "text_en": "If you have a base chest equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost, you may destroy a card under this. If you do, gain {r}{r}.",
+      "source": "https://cards.fabtcg.com/card/evo_atom_breaker/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Transform"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_face_breaker": {
+      "id": "evo_face_breaker",
+      "name_zh": "进化破面器",
+      "name_en": "Evo Face Breaker",
+      "type_zh": "机械师 瞬间 装备·Evo 手臂",
+      "text_zh": "若你装备了一件基础手臂装备，将其和你控制的X张超频驱动器转化为此牌，然后装备此牌。若如此做，本回合接下来你将受到伤害时，防止其中两倍X的伤害。\n每当你推进一张攻击行动牌时，你可以摧毁此牌之下的一张牌。若如此做，该攻击获得+2力量。",
+      "text_en": "If you have a base arms equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost an attack action card, you may destroy a card under this. If you do, the attack gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/evo_face_breaker/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Transform"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "evo_mach_breaker": {
+      "id": "evo_mach_breaker",
+      "name_zh": "进化马赫碎击",
+      "name_en": "Evo Mach Breaker",
+      "type_zh": "机械师 瞬间 装备·Evo 腿部",
+      "text_zh": "若你装备了一件基础腿部装备，将其和你控制的X张超频驱动器转化为此牌，然后装备此牌。若如此做，本回合接下来你将受到伤害时，防止其中两倍X的伤害。\n每当你推进时，你可以摧毁此牌之下的一张牌。若如此做，创造一个加速衍生物。",
+      "text_en": "If you have a base legs equipped, transform it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.\nWhenever you boost, you may destroy a card under this. If you do, create a Quicken token.",
+      "source": "https://cards.fabtcg.com/card/evo_mach_breaker/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Transform"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "face_purgatory": {
+      "id": "face_purgatory",
+      "name_zh": "临狱盔冠",
+      "name_en": "Face Purgatory",
+      "type_zh": "符文剑士 装备·头部",
+      "text_zh": "当此牌与一张攻击行动牌和一张非攻击行动牌一起防御时，攻击英雄弃一张牌，你抽一张牌。\n刃碎",
+      "text_en": "When this defends together with an attack action card and a non-attack action card, the attacking hero discards a card and you draw a card.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/face_purgatory/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
     "felling_of_the_crown": {
       "id": "felling_of_the_crown",
       "name_zh": "斩落王冠",
@@ -311,6 +962,25 @@
           "cost": "3",
           "power": "4",
           "defense": "3"
+        }
+      }
+    },
+    "fiddle_dee": {
+      "id": "fiddle_dee",
+      "name_zh": "绷弦护手",
+      "name_en": "Fiddle-dee",
+      "type_zh": "Bard 装备·手臂",
+      "text_zh": "行动——摧毁此牌：每位英雄创造一个力量衍生物。再动",
+      "text_en": "Action - Destroy this: Each hero creates a Might token.  Go again",
+      "source": "https://cards.fabtcg.com/card/fiddle_dee/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
         }
       }
     },
@@ -342,6 +1012,67 @@
           "cost": null,
           "power": null,
           "defense": "1"
+        }
+      }
+    },
+    "fingers_of_fragmentation": {
+      "id": "fingers_of_fragmentation",
+      "name_zh": "碎指套",
+      "name_en": "Fingers of Fragmentation",
+      "type_zh": "幻术师 装备·手臂",
+      "text_zh": "瞬间——支付2点资源，摧毁此牌：目标已碎裂的攻击行动牌获得+2力量。",
+      "text_en": "Instant - {r}{r}, destroy this: Target attack action card that has fragmented gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/fingers_of_fragmentation/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "fish_fingers": {
+      "id": "fish_fingers",
+      "name_zh": "逮鱼手套",
+      "name_en": "Fish Fingers",
+      "type_zh": "海盗 装备·手臂",
+      "text_zh": "行动——支付1点资源，摧毁此牌：你本回合的下一次攻击获得+1力量。再动\n刃碎",
+      "text_en": "Action - {r}, destroy this: Your next attack this turn gets +1{p}. Go again\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/fish_fingers/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "fortitude_of_anvilheim": {
+      "id": "fortitude_of_anvilheim",
+      "name_zh": "铁砧堡之志",
+      "name_en": "Fortitude of Anvilheim",
+      "type_zh": "守护者·战士 装备·副手",
+      "text_zh": "攻击反应——支付2点资源，横置你的英雄，摧毁此牌：将一张防御武器攻击的行动牌移回其拥有者的手牌。守御",
+      "text_en": "Attack Reaction - {r}{r}, {t} your hero, destroy this: Return an action card defending a weapon attack to its owner's hand. Guardwell",
+      "source": "https://cards.fabtcg.com/card/fortitude_of_anvilheim/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Guardwell"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
         }
       }
     },
@@ -418,6 +1149,49 @@
         }
       }
     },
+    "galvanic_bender": {
+      "id": "galvanic_bender",
+      "name_zh": "曲流电手",
+      "name_en": "Galvanic Bender",
+      "type_zh": "机械师 装备·手臂",
+      "text_zh": "材料——当此牌位于某个永久物之下时，该永久物获得+1力量。\n战痕",
+      "text_en": "Material - While this is under a permanent, that permanent has +1{p}.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/galvanic_bender/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Material",
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "gauntlet_of_boulderhold": {
+      "id": "gauntlet_of_boulderhold",
+      "name_zh": "巨岩臂铠",
+      "name_en": "Gauntlet of Boulderhold",
+      "type_zh": "守护者 装备·手臂",
+      "text_zh": "行动——支付3点资源，摧毁此牌：本回合你从军械库使用的下一张守护者攻击行动牌获得+2力量。再动\n战痕",
+      "text_en": "Action - {r}{r}{r}, destroy this: The next Guardian attack action card you play from arsenal this turn gets +2{p}. Go again\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/gauntlet_of_boulderhold/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "gauntlets_of_the_boreal_domain": {
       "id": "gauntlets_of_the_boreal_domain",
       "name_zh": "极北领域护手",
@@ -436,6 +1210,211 @@
           "cost": null,
           "power": null,
           "defense": 2
+        }
+      }
+    },
+    "ghostly_touch": {
+      "id": "ghostly_touch",
+      "name_zh": "魅触",
+      "name_en": "Ghostly Touch",
+      "type_zh": "幻术师 装备·手臂",
+      "text_zh": "每当你控制的幻术师攻击被虚击摧毁时，在鬼魅之触上放置一个鬼影指示物。\n每回合一次行动——从鬼魅之触上移除一个鬼影指示物：直到回合结束，此牌成为一位具有虚击的幻术师盟友，其基础力量和生命等于其上的鬼影指示物数量，且具有“每回合一次行动——支付3点资源：攻击”。再动",
+      "text_en": "Whenever an Illusionist attack you control is destroyed by phantasm, put a haunt counter on Ghostly Touch.\nOnce per Turn Action - Remove a haunt counter from Ghostly Touch: Until end of turn, this becomes an Illusionist ally with phantasm, base {p} and {h} equal to the number of haunt counters on it, and \"Once per Turn Action - {r}{r}{r}: Attack\". Go again",
+      "source": "https://cards.fabtcg.com/card/ghostly_touch/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "glacial_horns": {
+      "id": "glacial_horns",
+      "name_zh": "冰川角盔",
+      "name_en": "Glacial Horns",
+      "type_zh": "冰 装备·头部",
+      "text_zh": "行动——摧毁冰川之角：选择一位英雄。冻结其军械库中的至多1张牌和其控制的至多1个盟友，直到你的下一个回合开始。再动",
+      "text_en": "Action - Destroy Glacial Horns: Choose a hero. Freeze up to 1 card in their arsenal and 1 ally they control until the start of your next turn. Go again",
+      "source": "https://cards.fabtcg.com/card/glacial_horns/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "good_time_chapeau": {
+      "id": "good_time_chapeau",
+      "name_zh": "欢愉礼帽",
+      "name_en": "Good Time Chapeau",
+      "type_zh": "守护者 装备·头部",
+      "text_zh": "贝特西专精\n行动——摧毁你控制的一个金币：你本回合的下一次攻击获得“当此牌攻击英雄时，与该英雄以力量和活力衍生物下注。”再动\n淬炼",
+      "text_en": "Betsy Specialization\nAction - Destroy a Gold you control: Your next attack this turn gets \"When this attacks a hero, wager a Might and a Vigor token with them.\" Go again\nTemper",
+      "source": "https://cards.fabtcg.com/card/good_time_chapeau/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "grasp_of_darkness": {
+      "id": "grasp_of_darkness",
+      "name_zh": "幽攫手套",
+      "name_en": "Grasp of Darkness",
+      "type_zh": "暗影 装备·手臂",
+      "text_zh": "若你的英雄将受到伤害，你可以放逐此牌以防止其中2点伤害。\n血债",
+      "text_en": "If your hero would be dealt damage, you may banish this to prevent 2 of that damage.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/grasp_of_darkness/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "graven_walkers": {
+      "id": "graven_walkers",
+      "name_zh": "铭刻行靴",
+      "name_en": "Graven Walkers",
+      "type_zh": "刺客 装备·腿部",
+      "text_zh": "当此牌在你坟场中时，在你的回合开始时，你可以摧毁你控制的2个银币。若如此做，装备此牌。\n当此牌从你坟场以外的任何地方被装备时，在其上放置一个-1防御指示物。\n刃碎",
+      "text_en": "While this is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip this.\nWhen this is equipped from anywhere other than your graveyard, put a -1{d} counter on it.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/graven_walkers/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "grimoire_of_fellingsong": {
+      "id": "grimoire_of_fellingsong",
+      "name_zh": "陨歌魔典",
+      "name_en": "Grimoire of Fellingsong",
+      "type_zh": "符文剑士 装备·副手",
+      "text_zh": "瞬间——支付1点资源，摧毁此牌：创造一个符文吟唱衍生物。",
+      "text_en": "Instant - {r}, destroy this: Create a Runechant token.",
+      "source": "https://cards.fabtcg.com/card/grimoire_of_fellingsong/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "halo_of_lumina_light": {
+      "id": "halo_of_lumina_light",
+      "name_zh": "卢米娜光环",
+      "name_en": "Halo of Lumina Light",
+      "type_zh": "光 幻术师 装备·头部",
+      "text_zh": "当此牌被摧毁时，你可以将你放逐区中的一张黄色光环牌放入竞技场。\n法力虚空2",
+      "text_en": "When this is destroyed, you may put a yellow aura from your banished zone into the arena.\nSpellvoid 2",
+      "source": "https://cards.fabtcg.com/card/halo_of_lumina_light/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Spellvoid 2"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "hand_of_vengeance": {
+      "id": "hand_of_vengeance",
+      "name_zh": "复仇手甲",
+      "name_en": "Hand of Vengeance",
+      "type_zh": "龙裔 装备·手臂",
+      "text_zh": "攻击反应——摧毁此牌：目标正在攻击阿拉克尼的攻击获得+1力量。\n刃碎",
+      "text_en": "Attack Reaction - Destroy this: Target attack that is attacking Arakni gets +1{p}.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/hand_of_vengeance/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "head_stone": {
+      "id": "head_stone",
+      "name_zh": "墓碑",
+      "name_en": "Head Stone",
+      "type_zh": "Necromancer 装备·头部",
+      "text_zh": "瞬间——摧毁此牌：摧毁你牌库顶的一张牌。\n战痕",
+      "text_en": "Instant - Destroy this: Destroy the top card of your deck.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/head_stone/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "heart_of_bladehold": {
+      "id": "heart_of_bladehold",
+      "name_zh": "刃心胸甲",
+      "name_en": "Heart of Bladehold",
+      "type_zh": "战士 装备·胸部",
+      "text_zh": "行动——摧毁此牌：本回合你可以不支付费用激活你的第二次剑攻击。再动\n战痕",
+      "text_en": "Action - Destroy this: You may activate your second sword attack this turn without paying its {r} cost. Go again\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/heart_of_bladehold/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn",
+        "Go again"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
         }
       }
     },
@@ -461,6 +1440,237 @@
         }
       }
     },
+    "heart_of_vengeance": {
+      "id": "heart_of_vengeance",
+      "name_zh": "仇心胸甲",
+      "name_en": "Heart of Vengeance",
+      "type_zh": "龙裔 装备·胸部",
+      "text_zh": "瞬间——摧毁此牌：本回合你的下一次以阿拉克尼为目标的攻击使用或启动费用减少1点资源。\n刃碎",
+      "text_en": "Instant - Destroy this: Your next attack this turn that targets Arakni costs {r} less to play or activate.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/heart_of_vengeance/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "helm_of_isens_peak": {
+      "id": "helm_of_isens_peak",
+      "name_zh": "伊森之巅",
+      "name_en": "Helm of Isen's Peak",
+      "type_zh": "守护者 装备·头部",
+      "text_zh": "行动——支付1点资源，摧毁此牌：本回合你的英雄获得+1智力。\n战痕",
+      "text_en": "Action - {r}, destroy this: Your hero gains +1{i} this turn.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/helm_of_isens_peak/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "helm_of_lignum_vitae": {
+      "id": "helm_of_lignum_vitae",
+      "name_zh": "愈创圣盔",
+      "name_en": "Helm of Lignum Vitae",
+      "type_zh": "大地 装备·头部",
+      "text_zh": "若你的放逐区有四张或更多大地牌，此牌获得+1防御。\n刃碎",
+      "text_en": "If there are 4 or more Earth cards in your banished zone, this gets +1{d}.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/helm_of_lignum_vitae/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "helm_of_the_adored": {
+      "id": "helm_of_the_adored",
+      "name_zh": "崇敬之盔",
+      "name_en": "Helm of the Adored",
+      "type_zh": "崇敬 装备·头部",
+      "text_zh": "当此牌防御时，观众为你欢呼。\n刃碎",
+      "text_en": "When this defends, the crowd cheers you.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/helm_of_the_adored/",
+      "status": "human-reviewed",
+      "keywords": [
+        "The Crowd Cheers",
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "helm_of_the_arknight": {
+      "id": "helm_of_the_arknight",
+      "name_zh": "大骑士头盔",
+      "name_en": "Helm of the Arknight",
+      "type_zh": "符文剑士 装备·头部",
+      "text_zh": "淬炼",
+      "text_en": "Temper",
+      "source": "https://cards.fabtcg.com/card/helm_of_the_arknight/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "hide_tanner": {
+      "id": "hide_tanner",
+      "name_zh": "制革匠",
+      "name_en": "Hide Tanner",
+      "type_zh": "蛮将 装备·手臂",
+      "text_zh": "当你随机弃置一张力量为6或更高的牌时，你可以摧毁此牌。若如此做，创造2个力量衍生物。\n战痕",
+      "text_en": "When you discard a random card with 6 or more {p}, you may destroy this. If you do, create 2 Might tokens.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/hide_tanner/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "honing_hood": {
+      "id": "honing_hood",
+      "name_zh": "磨砺兜帽",
+      "name_en": "Honing Hood",
+      "type_zh": "游侠 装备·头部",
+      "text_zh": "瞬间——摧毁打磨兜帽：将你军械库中的所有牌移回你的手牌，然后将你手牌中的一张牌牌面朝下放入你的军械库。",
+      "text_en": "Instant - Destroy Honing Hood: Return all cards in your arsenal to your hand, then put a card from your hand face down into your arsenal.",
+      "source": "https://cards.fabtcg.com/card/honing_hood/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "0",
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "hooves_of_the_shadowbeast": {
+      "id": "hooves_of_the_shadowbeast",
+      "name_zh": "影兽蹄靴",
+      "name_en": "Hooves of the Shadowbeast",
+      "type_zh": "暗影 蛮将 装备·腿部",
+      "text_zh": "每当一张力量为6或更高的牌被置入你的放逐区时，你可以摧毁影兽之蹄。若如此做，获得1个行动点。\n战痕",
+      "text_en": "Whenever a card with 6 or more {p} is put into your banished zone, you may destroy Hooves of the Shadowbeast. If you do, gain 1 action point.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/hooves_of_the_shadowbeast/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "hornets_sting": {
+      "id": "hornets_sting",
+      "name_zh": "蜂刺",
+      "name_en": "Hornet's Sting",
+      "type_zh": "游侠 装备·手臂",
+      "text_zh": "每当黄蜂之刺防御时，展示你牌库顶的一张牌。若其为箭矢，对攻击英雄或盟友造成1点伤害。否则，将其置于你的牌库底。\n刃碎",
+      "text_en": "Whenever Hornet's Sting defends, reveal the top card of your deck. If it's an arrow, deal 1 damage to the attacking hero or ally. Otherwise, put it on the bottom of your deck.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/hornets_sting/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "horns_of_the_despised": {
+      "id": "horns_of_the_despised",
+      "name_zh": "憎恶之角",
+      "name_en": "Horns of the Despised",
+      "type_zh": "憎恶 装备·头部",
+      "text_zh": "当此牌防御时，观众为你喝倒彩。\n刃碎",
+      "text_en": "When this defends, the crowd boos you.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/horns_of_the_despised/",
+      "status": "human-reviewed",
+      "keywords": [
+        "The Crowd Boos",
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "hot_top": {
+      "id": "hot_top",
+      "name_zh": "炽顶兜鍪",
+      "name_en": "Hot Top",
+      "type_zh": "战士 装备·头部",
+      "text_zh": "当此牌防御武器攻击时，你可以将你坟场中的一张攻击反应牌置于你的牌库顶。\n刃碎",
+      "text_en": "When this defends a weapon attack, you may put an attack reaction card from your graveyard on top of your deck.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/hot_top/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "imposing_visage": {
       "id": "imposing_visage",
       "name_zh": "威严面容",
@@ -482,6 +1692,90 @@
         }
       }
     },
+    "inverters_nightcowl": {
+      "id": "inverters_nightcowl",
+      "name_zh": "逆变夜兜",
+      "name_en": "Inverter's Nightcowl",
+      "type_zh": "刺客 装备·胸部",
+      "text_zh": "行动——摧毁此牌：直到回合结束，每当你使用具有隐匿的攻击行动牌时，获得1点资源。再动\n战痕",
+      "text_en": "Action - Destroy this: Until end of turn, whenever you play an attack action card with stealth, gain {r}. Go again\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/inverters_nightcowl/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "iris_of_the_blossom": {
+      "id": "iris_of_the_blossom",
+      "name_zh": "花瞳面甲",
+      "name_en": "Iris of the Blossom",
+      "type_zh": "忍者 装备·头部",
+      "text_zh": "瞬间——横置此牌，弃一张牌：从你的牌库中搜寻一张旋转雾之花，放逐它，然后洗牌。本回合你可以使用它。仅当本回合你命中过时才能启动此异能。\n刃碎",
+      "text_en": "Instant - {t}, discard a card: Search your deck for a Whirling Mist Blossom, banish it, then shuffle. You may play it this turn. Activate this only if you've hit this turn.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/iris_of_the_blossom/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "limbs_of_lignum_vitae": {
+      "id": "limbs_of_lignum_vitae",
+      "name_zh": "愈创圣甲",
+      "name_en": "Limbs of Lignum Vitae",
+      "type_zh": "大地 装备·手臂",
+      "text_zh": "若你的放逐区有四张或更多大地牌，此牌获得+1防御。\n刃碎",
+      "text_en": "If there are 4 or more Earth cards in your banished zone, this gets +1{d}.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/limbs_of_lignum_vitae/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "line_crossers": {
+      "id": "line_crossers",
+      "name_zh": "越线手套",
+      "name_en": "Line Crossers",
+      "type_zh": "憎恶 装备·手臂",
+      "text_zh": "若你的生命与某位英雄相同，也计为你拥有比他更多的生命，且他拥有的生命比你少。\n刃碎",
+      "text_en": "If you have the same {h} as a hero, it also counts as you having more {h} than them, and them having less {h} than you.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/line_crossers/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "mangle": {
       "id": "mangle",
       "name_zh": "绞碎",
@@ -500,6 +1794,112 @@
           "cost": "4",
           "power": "8",
           "defense": "3"
+        }
+      }
+    },
+    "mask_of_momentum": {
+      "id": "mask_of_momentum",
+      "name_zh": "动势面具",
+      "name_en": "Mask of Momentum",
+      "type_zh": "忍者 装备·头部",
+      "text_zh": "每回合一次效果——当你控制的攻击行动牌是连续第三个或更高链环命中时，抽一张牌。\n刃碎",
+      "text_en": "Once per Turn Effect - When an attack action card you control is the third or higher chain link in a row to hit, draw a card.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/mask_of_momentum/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mask_of_recurring_nightmares": {
+      "id": "mask_of_recurring_nightmares",
+      "name_zh": "轮回噩梦面具",
+      "name_en": "Mask of Recurring Nightmares",
+      "type_zh": "秘法 刺客 装备·头部",
+      "text_zh": "每回合一次攻击反应——支付3点资源：目标防御英雄放逐其手牌中的一张牌。\n刃碎",
+      "text_en": "Once per Turn Attack Reaction - {c}{c}{c}: Target defending hero banishes a card from their hand.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/mask_of_recurring_nightmares/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mask_of_the_swarming_claw": {
+      "id": "mask_of_the_swarming_claw",
+      "name_zh": "万爪面具",
+      "name_en": "Mask of the Swarming Claw",
+      "type_zh": "忍者 装备·头部",
+      "text_zh": "秘法屏障1\n法力虚空X，X为你控制的链环数量。",
+      "text_en": "Arcane Barrier 1\nSpellvoid X, where X is the number of chain links you control.",
+      "source": "https://cards.fabtcg.com/card/mask_of_the_swarming_claw/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 1",
+        "Spellvoid X"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "meridian_pathway": {
+      "id": "meridian_pathway",
+      "name_zh": "灵途足佩",
+      "name_en": "Meridian Pathway",
+      "type_zh": "秘法 幻术师 装备·腿部",
+      "text_zh": "瞬间——支付3点资源：本回合你可以将光环当作瞬间使用。\n每当你资源一张气时，你可以让此牌直到回合结束获得结界3。",
+      "text_en": "Instant - {c}{c}{c}: You may play auras this turn as though they were instants.\nWhenever you pitch a Chi, you may have this get ward 3 until end of turn.",
+      "source": "https://cards.fabtcg.com/card/meridian_pathway/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Ward 3"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "misfire_dampener": {
+      "id": "misfire_dampener",
+      "name_zh": "熄火抑制器",
+      "name_en": "Misfire Dampener",
+      "type_zh": "机械师 装备·手臂",
+      "text_zh": "瞬间——摧毁此牌：防止本回合接下来将对你造成的1点秘法伤害。若本回合你推进过，改为防止接下来的2点。\n刃碎",
+      "text_en": "Instant - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've boosted this turn, instead prevent the next 2.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/misfire_dampener/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
         }
       }
     },
@@ -546,6 +1946,48 @@
         }
       }
     },
+    "paragon_plate": {
+      "id": "paragon_plate",
+      "name_zh": "典范胸甲",
+      "name_en": "Paragon Plate",
+      "type_zh": "战士 装备·胸部",
+      "text_zh": "攻击反应——横置此牌，从你控制的一把攻击中的剑上移除一个+1力量指示物：获得1点资源。\n淬炼",
+      "text_en": "Attack Reaction - {t}, remove a +1{p} counter from an attacking sword you control: Gain {r}\nTemper",
+      "source": "https://cards.fabtcg.com/card/paragon_plate/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "path_of_vengeance": {
+      "id": "path_of_vengeance",
+      "name_zh": "长路寻仇",
+      "name_en": "Path of Vengeance",
+      "type_zh": "龙裔 装备·腿部",
+      "text_zh": "攻击反应——摧毁此牌：目标正在攻击阿拉克尼的攻击获得再动。\n刃碎",
+      "text_en": "Attack Reaction - Destroy this: Target attack that is attacking Arakni gets go again.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/path_of_vengeance/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "plow_under": {
       "id": "plow_under",
       "name_zh": "翻土",
@@ -564,6 +2006,46 @@
           "cost": "2",
           "power": "2",
           "defense": "3"
+        }
+      }
+    },
+    "plume_of_evergrowth": {
+      "id": "plume_of_evergrowth",
+      "name_zh": "长青羽织",
+      "name_en": "Plume of Evergrowth",
+      "type_zh": "",
+      "text_zh": "瞬间——支付3点资源，摧毁长青之羽：将你坟场中的目标大地行动牌或大地瞬间牌移回你的手牌。",
+      "text_en": "Instant - {r}{r}{r}, destroy Plume of Evergrowth: Return target Earth action card or Earth instant card from your graveyard to your hand.",
+      "source": "https://cards.fabtcg.com/card/plume_of_evergrowth/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "0"
+        }
+      }
+    },
+    "pouncing_paws": {
+      "id": "pouncing_paws",
+      "name_zh": "扑云履",
+      "name_en": "Pouncing Paws",
+      "type_zh": "忍者 装备·腿部",
+      "text_zh": "瞬间——摧毁此牌：在你的放逐区中创造一张卧虎。本回合你可以使用它。\n战痕",
+      "text_en": "Instant - Destroy this: Create a Crouching Tiger in your banished zone. You may play it this turn.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/pouncing_paws/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
         }
       }
     },
@@ -588,6 +2070,44 @@
         }
       }
     },
+    "quiver_of_abyssal_depths": {
+      "id": "quiver_of_abyssal_depths",
+      "name_zh": "深渊箭囊",
+      "name_en": "Quiver of Abyssal Depths",
+      "type_zh": "游侠 装备·Quiver",
+      "text_zh": "瞬间——支付3点资源，摧毁深渊之底箭袋：将你坟场中至多3张不同名称的箭矢洗入你的牌库。",
+      "text_en": "Instant - {r}{r}{r}, destroy Quiver of Abyssal Depths: Shuffle up to 3 arrows with different names from your graveyard into your deck.",
+      "source": "https://cards.fabtcg.com/card/quiver_of_abyssal_depths/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "radiant_touch": {
+      "id": "radiant_touch",
+      "name_zh": "光辉之触",
+      "name_en": "Radiant Touch",
+      "type_zh": "光 装备·手臂",
+      "text_zh": "瞬间——放逐此牌和你英雄灵魂中的一张牌：防止本回合接下来将对你的英雄造成的2点伤害。",
+      "text_en": "Instant - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn.",
+      "source": "https://cards.fabtcg.com/card/radiant_touch/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
     "rampart_of_the_rams_head": {
       "id": "rampart_of_the_rams_head",
       "name_zh": "公羊之首壁垒",
@@ -607,6 +2127,48 @@
         }
       }
     },
+    "reach_beyond_the_grave": {
+      "id": "reach_beyond_the_grave",
+      "name_zh": "探墓之手",
+      "name_en": "Reach Beyond the Grave",
+      "type_zh": "Necromancer 装备·手臂",
+      "text_zh": "行动——摧毁此牌：将你坟场中的一张盟友牌移回你的手牌，然后弃一张牌。再动\n战痕",
+      "text_en": "Action - Destroy this: Return an ally card from your graveyard to your hand, then discard a card. Go again\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/reach_beyond_the_grave/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "red_alert_boots": {
+      "id": "red_alert_boots",
+      "name_zh": "红色警戒",
+      "name_en": "Red Alert Boots",
+      "type_zh": "刺客·战士 装备·腿部",
+      "text_zh": "若此链环中已有攻击反应被使用或启动，此牌获得+1防御。\n刃碎",
+      "text_en": "If an attack reaction has been played or activated this chain link, this gets +1{d}.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/red_alert_boots/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "ripple_away": {
       "id": "ripple_away",
       "name_zh": "涟漪消散",
@@ -623,6 +2185,70 @@
           "cost": 2,
           "power": 4,
           "defense": 3
+        }
+      }
+    },
+    "rippling_wave": {
+      "id": "rippling_wave",
+      "name_zh": "涟波水袖",
+      "name_en": "Rippling Wave",
+      "type_zh": "秘法 装备·手臂",
+      "text_zh": "翳装\n瞬间——支付3点资源，将此牌翻为正面朝上：你可以将一张防御中的蓝色攻击行动牌移回其拥有者的手牌。\n刃碎",
+      "text_en": "Cloaked\nInstant - {c}{c}{c}, turn this face-up: You may return a defending blue attack action card to its owner's hand.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/rippling_wave/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Cloaked",
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "robe_of_resourcefulness": {
+      "id": "robe_of_resourcefulness",
+      "name_zh": "机谋长袍",
+      "name_en": "Robe of Resourcefulness",
+      "type_zh": "法师 装备·胸部",
+      "text_zh": "当此牌离开竞技场时，获得2点资源。\n刃碎",
+      "text_en": "When this leaves the arena, gain {r}{r}.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/robe_of_resourcefulness/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "root_bound_trunks": {
+      "id": "root_bound_trunks",
+      "name_zh": "蜿根盘靴",
+      "name_en": "Root-Bound Trunks",
+      "type_zh": "大地 守护者 装备·腿部",
+      "text_zh": "当此牌与一张光环牌一起防御时，创造一个大地化身衍生物。\n刃碎",
+      "text_en": "When this defends together with an aura card, create an Embodiment of Earth token.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/root_bound_trunks/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
         }
       }
     },
@@ -659,6 +2285,48 @@
         }
       }
     },
+    "scuttle_toes": {
+      "id": "scuttle_toes",
+      "name_zh": "骷趾疾靴",
+      "name_en": "Scuttle Toes",
+      "type_zh": "Necromancer 装备·腿部",
+      "text_zh": "瞬间——支付2点资源，摧毁此牌：重置你控制的目标盟友。在结束阶段开始时摧毁它。\n秘法屏障1",
+      "text_en": "Instant - {r}{r}, destroy this: {u} target ally you control. Destroy it at the beginning of the end phase.\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/scuttle_toes/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "shattering_grasp": {
+      "id": "shattering_grasp",
+      "name_zh": "碎冰手铠",
+      "name_en": "Shattering Grasp",
+      "type_zh": "冰 装备·手臂",
+      "text_zh": "行动——摧毁此牌：摧毁目标被冻结的盟友。再动\n战痕",
+      "text_en": "Action - Destroy this: Destroy target frozen ally. Go again\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/shattering_grasp/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "shelter_from_the_storm": {
       "id": "shelter_from_the_storm",
       "name_zh": "风暴庇护",
@@ -675,6 +2343,27 @@
           "cost": 0,
           "power": null,
           "defense": 4
+        }
+      }
+    },
+    "shock_charmers": {
+      "id": "shock_charmers",
+      "name_zh": "电魅手套",
+      "name_en": "Shock Charmers",
+      "type_zh": "闪电 装备·手臂",
+      "text_zh": "瞬间——支付2点资源：本回合你控制的攻击行动牌下一次命中英雄时，对其造成1点伤害。\n法力虚空2",
+      "text_en": "Instant - {r}{r}: The next time an attack action card you control hits a hero this turn, it deals 1 damage to them.\nSpellvoid 2",
+      "source": "https://cards.fabtcg.com/card/shock_charmers/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Spellvoid 2"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
         }
       }
     },
@@ -740,6 +2429,27 @@
         }
       }
     },
+    "skull_crushers": {
+      "id": "skull_crushers",
+      "name_zh": "碎颅拳",
+      "name_en": "Skull Crushers",
+      "type_zh": "蛮将 装备·手臂",
+      "text_zh": "每当你掷骰掷出5或6时，本回合你的蛮将攻击获得+1力量。\n每当你掷骰掷出1时，摧毁碎颅者。\n战痕",
+      "text_en": "Whenever you roll a 5 or 6 on a die, your Brute attacks gain +1{p} this turn.\nWhenever you roll a 1 on a die, destroy Skull Crushers.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/skull_crushers/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "sledge_of_anvilheim": {
       "id": "sledge_of_anvilheim",
       "name_zh": "铁砧海姆重锤",
@@ -756,6 +2466,27 @@
           "cost": null,
           "power": 6,
           "defense": null
+        }
+      }
+    },
+    "spellbound_creepers": {
+      "id": "spellbound_creepers",
+      "name_zh": "咒缚攀靴",
+      "name_en": "Spellbound Creepers",
+      "type_zh": "符文剑士 装备·腿部",
+      "text_zh": "每回合一次瞬间——支付1点资源，在咒缚爬行者上放置一个束缚指示物：本回合你可以将你的下一张“非攻击”行动牌当作瞬间使用。仅当本回合你用攻击行动牌攻击或防御过时才能启动此异能。\n在你的结束阶段开始时，摧毁咒缚爬行者，除非你已造成等于或大于咒缚爬行者上束缚指示物数量的秘法伤害。\n刃碎",
+      "text_en": "Once per Turn Instant - {r}, put a bind counter on Spellbound Creepers: You may play your next 'non-attack' action card this turn as though it were an instant. Activate this ability only if you have attacked or defended with an attack action card this turn.\nAt the beginning of your end phase, destroy Spellbound Creepers unless you have dealt arcane damage equal to or greater than the number of bind counters on Spellbound Creepers.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/spellbound_creepers/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
         }
       }
     },
@@ -777,6 +2508,48 @@
           "cost": null,
           "power": null,
           "defense": 2
+        }
+      }
+    },
+    "stand_strong": {
+      "id": "stand_strong",
+      "name_zh": "岿立足甲",
+      "name_en": "Stand Strong",
+      "type_zh": "守护者 装备·腿部",
+      "text_zh": "行动——支付3点资源，摧毁此牌：创造一个自信衍生物。仅当你控制一个悬念光环时才能启动此异能。再动\n刃碎",
+      "text_en": "Action - {r}{r}{r}, destroy this: Create a Confidence token. Activate this only if you control an aura of suspense. Go again\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/stand_strong/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "starlight_striders": {
+      "id": "starlight_striders",
+      "name_zh": "星光行靴",
+      "name_en": "Starlight Striders",
+      "type_zh": "闪电 符文剑士 装备·腿部",
+      "text_zh": "当此牌防御时，你可以展示你手牌中的一张瞬间牌。若如此做，创造一个闪电化身衍生物。\n刃碎",
+      "text_en": "When this defends, you may reveal an instant card from your hand. If you do, create an Embodiment of Lightning token.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/starlight_striders/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
         }
       }
     },
@@ -811,6 +2584,88 @@
         }
       }
     },
+    "storm_striders": {
+      "id": "storm_striders",
+      "name_zh": "风暴行靴",
+      "name_en": "Storm Striders",
+      "type_zh": "法师 装备·腿部",
+      "text_zh": "瞬间——支付1点资源，摧毁风暴行者：本回合你可以将你的下一张法师“非攻击”行动牌当作瞬间使用。\n秘法屏障2",
+      "text_en": "Instant - {r}, destroy Storm Striders: You may play your next Wizard 'non-attack' action card this turn as though it were an instant.\nArcane Barrier 2",
+      "source": "https://cards.fabtcg.com/card/storm_striders/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 2"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "stormweavers_aegis": {
+      "id": "stormweavers_aegis",
+      "name_zh": "织风神盾",
+      "name_en": "Stormweaver's Aegis",
+      "type_zh": "闪电 装备·胸部",
+      "text_zh": "瞬间——摧毁此牌：直到回合结束，你拥有的瞬间牌获得“瞬间——弃掉此牌：防止本回合接下来将对你造成的2点伤害。”\n秘法屏障1",
+      "text_en": "Instant - Destroy this: Until end of turn, instant cards you own get \"Instant - Discard this: Prevent the next 2 damage that would be dealt to you this turn.\"\nArcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/stormweavers_aegis/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "stride_of_reprisal": {
+      "id": "stride_of_reprisal",
+      "name_zh": "迴锋履",
+      "name_en": "Stride of Reprisal",
+      "type_zh": "秘法 忍者 装备·腿部",
+      "text_zh": "当此牌防御时，在你的手牌中创造一张卧虎。\n刃碎",
+      "text_en": "When this defends, create a Crouching Tiger in your hand.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/stride_of_reprisal/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "target_totalizer": {
+      "id": "target_totalizer",
+      "name_zh": "锁头器",
+      "name_en": "Target Totalizer",
+      "type_zh": "游侠 装备·头部",
+      "text_zh": "行动——摧毁此牌：本回合每当带有瞄准指示物的箭矢命中时，抽一张牌。再动",
+      "text_en": "Action - Destroy this: Whenever an arrow with an aim counter hits this turn, draw a card. Go again",
+      "source": "https://cards.fabtcg.com/card/target_totalizer/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
     "tear_asunder": {
       "id": "tear_asunder",
       "name_zh": "撕裂",
@@ -832,6 +2687,111 @@
         }
       }
     },
+    "teklo_foundry_heart": {
+      "id": "teklo_foundry_heart",
+      "name_zh": "泰克洛铸心",
+      "name_en": "Teklo Foundry Heart",
+      "type_zh": "机械师 装备·胸部",
+      "text_zh": "每回合一次行动——支付1点资源：放逐你牌库顶的2张牌。每有一张以此方式放逐的机械师牌，获得1点资源。仅当本回合你推进过时才能启动此异能。再动\n战痕",
+      "text_en": "Once per Turn Action - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you've boosted this turn. Go again\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/teklo_foundry_heart/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "tempest_dancers": {
+      "id": "tempest_dancers",
+      "name_zh": "风暴舞靴",
+      "name_en": "Tempest Dancers",
+      "type_zh": "法师 装备·腿部",
+      "text_zh": "当此牌离开竞技场时，本回合你可以将你的下一张非攻击行动牌当作瞬间使用。\n刃碎",
+      "text_en": "When this leaves the arena, you may play your next non-attack action card this turn as though it were an instant.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/tempest_dancers/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "templar_spellbane": {
+      "id": "templar_spellbane",
+      "name_zh": "圣殿法殁者",
+      "name_en": "Templar Spellbane",
+      "type_zh": "战士 装备·头部",
+      "text_zh": "瞬间——摧毁此牌：防止本回合接下来将对你造成的1点秘法伤害。若本回合你启动过武器，改为防止接下来的2点。\n战痕",
+      "text_en": "Instant - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've activated a weapon this turn, instead prevent the next 2.\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/templar_spellbane/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "testament_of_valahai": {
+      "id": "testament_of_valahai",
+      "name_zh": "瓦拉海遗嘱",
+      "name_en": "Testament of Valahai",
+      "type_zh": "守护者 装备·副手",
+      "text_zh": "若你控制三个或更多地震涌动衍生物，此牌获得+2防御。若你控制六个或更多，改为此牌获得+4防御。\n守御",
+      "text_en": "If you control three or more Seismic Surge tokens, this gets +2{d}. If you control six or more, instead this gets +4{d}.\nGuardwell",
+      "source": "https://cards.fabtcg.com/card/testament_of_valahai/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Guardwell"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "tiger_stripe_shuko": {
+      "id": "tiger_stripe_shuko",
+      "name_zh": "虎纹手甲",
+      "name_en": "Tiger Stripe Shuko",
+      "type_zh": "忍者 装备·手臂",
+      "text_zh": "你每回合使用的第二张基础力量为2或更低的攻击行动牌获得+1力量，以及“此牌将造成的伤害不能被防止。”\n刃碎",
+      "text_en": "The second attack action card with 2 or less base {p} you play each turn has +1{p} and \"Damage that would be dealt by this can't be prevented.\"\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/tiger_stripe_shuko/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
     "titans_fist": {
       "id": "titans_fist",
       "name_zh": "泰坦之拳",
@@ -848,6 +2808,234 @@
           "cost": null,
           "power": 3,
           "defense": null
+        }
+      }
+    },
+    "touch_of_reality": {
+      "id": "touch_of_reality",
+      "name_zh": "触实之手",
+      "name_en": "Touch of Reality",
+      "type_zh": "幻术师 装备·手臂",
+      "text_zh": "瞬间——支付X点资源，横置此牌：此牌直到回合结束获得结界X。在结束阶段开始时摧毁此牌。",
+      "text_en": "Instant - {x}, {t}: This gets ward X until end of turn. Destroy this at the beginning of the end phase.",
+      "source": "https://cards.fabtcg.com/card/touch_of_reality/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Ward X"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "tough_leather_boots": {
+      "id": "tough_leather_boots",
+      "name_zh": "坚韧皮靴",
+      "name_en": "Tough Leather Boots",
+      "type_zh": "崇敬 蛮将 装备·腿部",
+      "text_zh": "若你控制一个坚韧和一个活力衍生物，此牌获得+2防御。\n刃碎",
+      "text_en": "If you control a Toughness and a Vigor token, this gets +2{d}.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/tough_leather_boots/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "tricorn_of_saltwater_death": {
+      "id": "tricorn_of_saltwater_death",
+      "name_zh": "盐海亡帽",
+      "name_en": "Tricorn of Saltwater Death",
+      "type_zh": "海盗 Necromancer 装备·头部",
+      "text_zh": "当此牌防御时，你可以弃一张具有水葬的牌。若如此做，抽一张牌。\n刃碎",
+      "text_en": "When this defends, you may discard a card with watery grave. If you do, draw a card.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/tricorn_of_saltwater_death/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "twelve_petal_ka_s_a_ya": {
+      "id": "twelve_petal_ka_s_a_ya",
+      "name_zh": "十二瓣袈裟",
+      "name_en": "Twelve Petal Kāṣāya",
+      "type_zh": "秘法 忍者 装备·胸部",
+      "text_zh": "每当你超越时，你可以获得1点资源。\n瞬间——支付3点资源，摧毁此牌：创造一个禅定衍生物。\n刃碎",
+      "text_en": "Whenever you transcend, you may gain {r}.\nInstant - {c}{c}{c}, destroy this: Create a Zen State token.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/twelve_petal_ka_s_a_ya/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "twelve_petal_kasaya": {
+      "id": "twelve_petal_kasaya",
+      "name_zh": "十二瓣袈裟",
+      "name_en": "Twelve Petal Kāṣāya",
+      "type_zh": "",
+      "text_zh": "每当你超越时，你可以获得1点资源。\n瞬间——支付3点资源，摧毁此牌：创造一个禅定衍生物。\n刃碎",
+      "text_en": "Whenever you transcend, you may gain {r}.\nInstant - {c}{c}{c}, destroy this: Create a Zen State token.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/twelve_petal_kasaya/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "2"
+        }
+      }
+    },
+    "viziertronic_model_i": {
+      "id": "viziertronic_model_i",
+      "name_zh": "维视特I型",
+      "name_en": "Viziertronic Model i",
+      "type_zh": "机械师 装备·头部",
+      "text_zh": "行动——摧毁维齐尔特罗尼克I型：本回合每当你推进时，抽一张牌，然后将你手牌中的一张牌置于你的牌库顶。再动\n秘法屏障2",
+      "text_en": "Action - destroy Vizertronic Model i: Whenever you boost this turn, draw a card then put a card from your hand on top of your deck. Go again\nArcane Barrier 2",
+      "source": "https://cards.fabtcg.com/card/viziertronic_model_i/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Arcane Barrier 2"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "voltic_vanguard": {
+      "id": "voltic_vanguard",
+      "name_zh": "伏特先锋",
+      "name_en": "Voltic Vanguard",
+      "type_zh": "闪电 装备·头部",
+      "text_zh": "瞬间——摧毁此牌：防止本回合接下来将对你造成的2点伤害。仅当本回合你使用过一张瞬间牌时才能启动此异能。",
+      "text_en": "Instant - Destroy this: Prevent the next 2 damage that would be dealt to you this turn. Activate this only if you've played an instant card this turn.",
+      "source": "https://cards.fabtcg.com/card/voltic_vanguard/",
+      "status": "human-reviewed",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "warpath_of_winged_grace": {
+      "id": "warpath_of_winged_grace",
+      "name_zh": "圣翼战靴",
+      "name_en": "Warpath of Winged Grace",
+      "type_zh": "光 战士 装备·腿部",
+      "text_zh": "当此牌防御时，你可以为你的英雄的灵魂充能。若以此方式充能的是黄色牌，创造一个加速衍生物。\n刃碎",
+      "text_en": "When this defends, you may charge your hero's soul. If a yellow card is charged this way, create a Quicken token.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/warpath_of_winged_grace/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Charge",
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "washed_up_wave": {
+      "id": "washed_up_wave",
+      "name_zh": "冲滩浪潮",
+      "name_en": "Washed Up Wave",
+      "type_zh": "海盗 Necromancer 装备·手臂",
+      "text_zh": "当此牌防御时，你可以弃一张牌或摧毁你牌库顶的一张牌。若该牌具有水葬，此牌获得+2防御。\n刃碎",
+      "text_en": "When this defends, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets +2{d}.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/washed_up_wave/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "wave_of_reality": {
+      "id": "wave_of_reality",
+      "name_zh": "现实浪潮",
+      "name_en": "Wave of Reality",
+      "type_zh": "幻术师 装备·手臂",
+      "text_zh": "当现实之浪被摧毁时，创造一个幻质护盾衍生物。\n结界1",
+      "text_en": "When Wave of Reality is destroyed, create a Spectral Shield token.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/wave_of_reality/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "wayfinders_crest": {
+      "id": "wayfinders_crest",
+      "name_zh": "寻路徽记",
+      "name_en": "Wayfinder's Crest",
+      "type_zh": "游侠 装备·头部",
+      "text_zh": "当你用寻路者徽记防御时，查看目标英雄牌库顶的一张牌。\n刃碎",
+      "text_en": "When you defend with Wayfinder's Crest, look at the top card of target hero's deck.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/wayfinders_crest/",
+      "status": "human-reviewed",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
         }
       }
     }

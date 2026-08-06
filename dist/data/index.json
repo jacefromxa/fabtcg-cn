@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "925b2d38969c",
+  "version": "2dbb503e6a3c",
   "cards": {
     "10_000_year_reunion": {
       "id": "10_000_year_reunion",
@@ -68,7 +68,7 @@
     },
     "aether_bindings_of_the_third_age": {
       "id": "aether_bindings_of_the_third_age",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "aether_conduit": {
       "id": "aether_conduit",
@@ -316,7 +316,7 @@
     },
     "apex_bonebreaker": {
       "id": "apex_bonebreaker",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "aphrodias": {
       "id": "aphrodias",
@@ -328,7 +328,7 @@
     },
     "aqua_laps": {
       "id": "aqua_laps",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "aqua_seeing_shell": {
       "id": "aqua_seeing_shell",
@@ -452,7 +452,7 @@
     },
     "arcbane_grasp": {
       "id": "arcbane_grasp",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "arctic_incarceration": {
       "id": "arctic_incarceration",
@@ -796,7 +796,7 @@
     },
     "basalt_boots": {
       "id": "basalt_boots",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "base_of_the_mountain": {
       "id": "base_of_the_mountain",
@@ -1072,7 +1072,7 @@
     },
     "blacktek_whisperers": {
       "id": "blacktek_whisperers",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "blade_beckoner_boots": {
       "id": "blade_beckoner_boots",
@@ -1244,7 +1244,7 @@
     },
     "blitz_kicks": {
       "id": "blitz_kicks",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "blizzard": {
       "id": "blizzard",
@@ -1416,7 +1416,7 @@
     },
     "boltn_boots": {
       "id": "boltn_boots",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "boltn_shot": {
       "id": "boltn_shot",
@@ -1484,7 +1484,7 @@
     },
     "boots_to_the_boards": {
       "id": "boots_to_the_boards",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "booze": {
       "id": "booze",
@@ -1600,7 +1600,7 @@
     },
     "breeze_rider_boots": {
       "id": "breeze_rider_boots",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "brevant_civic_protector": {
       "id": "brevant_civic_protector",
@@ -1680,7 +1680,7 @@
     },
     "bulls_eye_bracers": {
       "id": "bulls_eye_bracers",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "bully_tactics": {
       "id": "bully_tactics",
@@ -2060,11 +2060,11 @@
     },
     "civic_guide": {
       "id": "civic_guide",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "civic_peak": {
       "id": "civic_peak",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "civic_steps": {
       "id": "civic_steps",
@@ -2288,7 +2288,7 @@
     },
     "comeback_kicks": {
       "id": "comeback_kicks",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "comeback_kid": {
       "id": "comeback_kid",
@@ -2544,7 +2544,7 @@
     },
     "crater_fist": {
       "id": "crater_fist",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "craterhoof": {
       "id": "craterhoof",
@@ -2600,7 +2600,7 @@
     },
     "crown_of_dichotomy": {
       "id": "crown_of_dichotomy",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "crown_of_dominion": {
       "id": "crown_of_dominion",
@@ -2612,7 +2612,7 @@
     },
     "crown_of_frozen_thoughts": {
       "id": "crown_of_frozen_thoughts",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "crown_of_providence": {
       "id": "crown_of_providence",
@@ -2620,11 +2620,11 @@
     },
     "crown_of_reflection": {
       "id": "crown_of_reflection",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "crown_of_seeds": {
       "id": "crown_of_seeds",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "crows_nest": {
       "id": "crows_nest",
@@ -2740,7 +2740,7 @@
     },
     "dance_of_darkness": {
       "id": "dance_of_darkness",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "danger_digits": {
       "id": "danger_digits",
@@ -2820,7 +2820,7 @@
     },
     "dealers_grip": {
       "id": "dealers_grip",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "death_dealer": {
       "id": "death_dealer",
@@ -2960,7 +2960,7 @@
     },
     "diamond_hands": {
       "id": "diamond_hands",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "dice_up": {
       "id": "dice_up",
@@ -3160,7 +3160,7 @@
     },
     "dragonscaler_flight_path": {
       "id": "dragonscaler_flight_path",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "dramatic_pause": {
       "id": "dramatic_pause",
@@ -3208,7 +3208,7 @@
     },
     "dream_weavers": {
       "id": "dream_weavers",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "driftwood_quiver": {
       "id": "driftwood_quiver",
@@ -3228,7 +3228,7 @@
     },
     "drive_brake": {
       "id": "drive_brake",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "driving_blade": {
       "id": "driving_blade",
@@ -3272,7 +3272,7 @@
     },
     "duelist_gauntlets": {
       "id": "duelist_gauntlets",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "dumpster_dive": {
       "id": "dumpster_dive",
@@ -3400,7 +3400,7 @@
     },
     "edge_laden_plate": {
       "id": "edge_laden_plate",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "edge_of_autumn": {
       "id": "edge_of_autumn",
@@ -3732,7 +3732,7 @@
     },
     "evo_atom_breaker": {
       "id": "evo_atom_breaker",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "evo_battery_pack": {
       "id": "evo_battery_pack",
@@ -3788,7 +3788,7 @@
     },
     "evo_face_breaker": {
       "id": "evo_face_breaker",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "evo_heartdrive": {
       "id": "evo_heartdrive",
@@ -3796,7 +3796,7 @@
     },
     "evo_mach_breaker": {
       "id": "evo_mach_breaker",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "evo_magneto": {
       "id": "evo_magneto",
@@ -3972,7 +3972,7 @@
     },
     "face_purgatory": {
       "id": "face_purgatory",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "fact_finding_mission": {
       "id": "fact_finding_mission",
@@ -4084,7 +4084,7 @@
     },
     "fiddle_dee": {
       "id": "fiddle_dee",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "fiddlers_green": {
       "id": "fiddlers_green",
@@ -4152,7 +4152,7 @@
     },
     "fingers_of_fragmentation": {
       "id": "fingers_of_fragmentation",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "fire_and_brimstone": {
       "id": "fire_and_brimstone",
@@ -4192,7 +4192,7 @@
     },
     "fish_fingers": {
       "id": "fish_fingers",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "fist_pump": {
       "id": "fist_pump",
@@ -4436,7 +4436,7 @@
     },
     "fortitude_of_anvilheim": {
       "id": "fortitude_of_anvilheim",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "four_feathers_one_crown": {
       "id": "four_feathers_one_crown",
@@ -4596,7 +4596,7 @@
     },
     "galvanic_bender": {
       "id": "galvanic_bender",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "gamblers_gloves": {
       "id": "gamblers_gloves",
@@ -4628,7 +4628,7 @@
     },
     "gauntlet_of_boulderhold": {
       "id": "gauntlet_of_boulderhold",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "gauntlet_of_might": {
       "id": "gauntlet_of_might",
@@ -4700,7 +4700,7 @@
     },
     "ghostly_touch": {
       "id": "ghostly_touch",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "ghostly_visit": {
       "id": "ghostly_visit",
@@ -4728,7 +4728,7 @@
     },
     "glacial_horns": {
       "id": "glacial_horns",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "glaring_impact": {
       "id": "glaring_impact",
@@ -4900,7 +4900,7 @@
     },
     "good_time_chapeau": {
       "id": "good_time_chapeau",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "goon_battery": {
       "id": "goon_battery",
@@ -4944,7 +4944,7 @@
     },
     "grasp_of_darkness": {
       "id": "grasp_of_darkness",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "grasp_of_the_arknight": {
       "id": "grasp_of_the_arknight",
@@ -4984,7 +4984,7 @@
     },
     "graven_walkers": {
       "id": "graven_walkers",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "gravy_bones": {
       "id": "gravy_bones",
@@ -5004,7 +5004,7 @@
     },
     "grimoire_of_fellingsong": {
       "id": "grimoire_of_fellingsong",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "grimoire_of_the_haunt": {
       "id": "grimoire_of_the_haunt",
@@ -5076,7 +5076,7 @@
     },
     "halo_of_lumina_light": {
       "id": "halo_of_lumina_light",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "hammer_of_havenhold": {
       "id": "hammer_of_havenhold",
@@ -5100,7 +5100,7 @@
     },
     "hand_of_vengeance": {
       "id": "hand_of_vengeance",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "hard_knuckle": {
       "id": "hard_knuckle",
@@ -5168,7 +5168,7 @@
     },
     "head_stone": {
       "id": "head_stone",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "headbutt": {
       "id": "headbutt",
@@ -5192,7 +5192,7 @@
     },
     "heart_of_bladehold": {
       "id": "heart_of_bladehold",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "heart_of_fyendal": {
       "id": "heart_of_fyendal",
@@ -5204,7 +5204,7 @@
     },
     "heart_of_vengeance": {
       "id": "heart_of_vengeance",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "heart_throb": {
       "id": "heart_throb",
@@ -5308,11 +5308,11 @@
     },
     "helm_of_isens_peak": {
       "id": "helm_of_isens_peak",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "helm_of_lignum_vitae": {
       "id": "helm_of_lignum_vitae",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "helm_of_might_and_magic": {
       "id": "helm_of_might_and_magic",
@@ -5328,11 +5328,11 @@
     },
     "helm_of_the_adored": {
       "id": "helm_of_the_adored",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "helm_of_the_arknight": {
       "id": "helm_of_the_arknight",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "helm_of_unity": {
       "id": "helm_of_unity",
@@ -5404,7 +5404,7 @@
     },
     "hide_tanner": {
       "id": "hide_tanner",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "high_current_currency": {
       "id": "high_current_currency",
@@ -5512,7 +5512,7 @@
     },
     "honing_hood": {
       "id": "honing_hood",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "hood_of_red_sand": {
       "id": "hood_of_red_sand",
@@ -5528,7 +5528,7 @@
     },
     "hooves_of_the_shadowbeast": {
       "id": "hooves_of_the_shadowbeast",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "hope_merchants_hood": {
       "id": "hope_merchants_hood",
@@ -5536,11 +5536,11 @@
     },
     "hornets_sting": {
       "id": "hornets_sting",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "horns_of_the_despised": {
       "id": "horns_of_the_despised",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "horrors_of_the_past": {
       "id": "horrors_of_the_past",
@@ -5560,7 +5560,7 @@
     },
     "hot_top": {
       "id": "hot_top",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "howl_from_beyond": {
       "id": "howl_from_beyond",
@@ -5844,7 +5844,7 @@
     },
     "inverters_nightcowl": {
       "id": "inverters_nightcowl",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "invigorate": {
       "id": "invigorate",
@@ -5928,7 +5928,7 @@
     },
     "iris_of_the_blossom": {
       "id": "iris_of_the_blossom",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "ironfist_revelation": {
       "id": "ironfist_revelation",
@@ -6432,7 +6432,7 @@
     },
     "limbs_of_lignum_vitae": {
       "id": "limbs_of_lignum_vitae",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "limpit_hop_a_long": {
       "id": "limpit_hop_a_long",
@@ -6444,7 +6444,7 @@
     },
     "line_crossers": {
       "id": "line_crossers",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "line_it_up": {
       "id": "line_it_up",
@@ -6716,7 +6716,7 @@
     },
     "mask_of_momentum": {
       "id": "mask_of_momentum",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "mask_of_perdition": {
       "id": "mask_of_perdition",
@@ -6724,7 +6724,7 @@
     },
     "mask_of_recurring_nightmares": {
       "id": "mask_of_recurring_nightmares",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "mask_of_shifting_perspectives": {
       "id": "mask_of_shifting_perspectives",
@@ -6736,7 +6736,7 @@
     },
     "mask_of_the_swarming_claw": {
       "id": "mask_of_the_swarming_claw",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "mask_of_three_tails": {
       "id": "mask_of_three_tails",
@@ -6852,7 +6852,7 @@
     },
     "meridian_pathway": {
       "id": "meridian_pathway",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "metacarpus_node": {
       "id": "metacarpus_node",
@@ -6948,7 +6948,7 @@
     },
     "misfire_dampener": {
       "id": "misfire_dampener",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "mist_hunter": {
       "id": "mist_hunter",
@@ -7560,7 +7560,7 @@
     },
     "paragon_plate": {
       "id": "paragon_plate",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "parched_terrain": {
       "id": "parched_terrain",
@@ -7588,7 +7588,7 @@
     },
     "path_of_vengeance": {
       "id": "path_of_vengeance",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "path_well_traveled": {
       "id": "path_well_traveled",
@@ -7832,7 +7832,7 @@
     },
     "plume_of_evergrowth": {
       "id": "plume_of_evergrowth",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "plunder_run": {
       "id": "plunder_run",
@@ -7948,7 +7948,7 @@
     },
     "pouncing_paws": {
       "id": "pouncing_paws",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "pouncing_qi": {
       "id": "pouncing_qi",
@@ -8324,7 +8324,7 @@
     },
     "quiver_of_abyssal_depths": {
       "id": "quiver_of_abyssal_depths",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "quiver_of_rustling_leaves": {
       "id": "quiver_of_rustling_leaves",
@@ -8344,7 +8344,7 @@
     },
     "radiant_touch": {
       "id": "radiant_touch",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "radiant_view": {
       "id": "radiant_view",
@@ -8492,7 +8492,7 @@
     },
     "reach_beyond_the_grave": {
       "id": "reach_beyond_the_grave",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "read_the_glide_path": {
       "id": "read_the_glide_path",
@@ -8552,7 +8552,7 @@
     },
     "red_alert_boots": {
       "id": "red_alert_boots",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "red_alert_gloves": {
       "id": "red_alert_gloves",
@@ -8824,7 +8824,7 @@
     },
     "rippling_wave": {
       "id": "rippling_wave",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "riptide": {
       "id": "riptide",
@@ -8916,7 +8916,7 @@
     },
     "robe_of_resourcefulness": {
       "id": "robe_of_resourcefulness",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "rockslide_trap": {
       "id": "rockslide_trap",
@@ -8948,7 +8948,7 @@
     },
     "root_bound_trunks": {
       "id": "root_bound_trunks",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "rootbound_carapace": {
       "id": "rootbound_carapace",
@@ -9336,7 +9336,7 @@
     },
     "scuttle_toes": {
       "id": "scuttle_toes",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "sea_floor_salvage": {
       "id": "sea_floor_salvage",
@@ -9600,7 +9600,7 @@
     },
     "shattering_grasp": {
       "id": "shattering_grasp",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "shattering_stardust": {
       "id": "shattering_stardust",
@@ -9676,7 +9676,7 @@
     },
     "shock_charmers": {
       "id": "shock_charmers",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "shock_frock": {
       "id": "shock_frock",
@@ -9980,7 +9980,7 @@
     },
     "skull_crushers": {
       "id": "skull_crushers",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "skullbone_crosswrap": {
       "id": "skullbone_crosswrap",
@@ -10380,7 +10380,7 @@
     },
     "spellbound_creepers": {
       "id": "spellbound_creepers",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "spellfire_cloak": {
       "id": "spellfire_cloak",
@@ -10560,7 +10560,7 @@
     },
     "stand_strong": {
       "id": "stand_strong",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "stand_tall": {
       "id": "stand_tall",
@@ -10608,7 +10608,7 @@
     },
     "starlight_striders": {
       "id": "starlight_striders",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "starting_point": {
       "id": "starting_point",
@@ -10740,7 +10740,7 @@
     },
     "storm_striders": {
       "id": "storm_striders",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "stormshard": {
       "id": "stormshard",
@@ -10752,7 +10752,7 @@
     },
     "stormweavers_aegis": {
       "id": "stormweavers_aegis",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "stormwhirl": {
       "id": "stormwhirl",
@@ -10784,7 +10784,7 @@
     },
     "stride_of_reprisal": {
       "id": "stride_of_reprisal",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "strike_gold": {
       "id": "strike_gold",
@@ -11104,7 +11104,7 @@
     },
     "target_totalizer": {
       "id": "target_totalizer",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "tarpit_trap": {
       "id": "tarpit_trap",
@@ -11180,7 +11180,7 @@
     },
     "teklo_foundry_heart": {
       "id": "teklo_foundry_heart",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "teklo_leveler": {
       "id": "teklo_leveler",
@@ -11224,7 +11224,7 @@
     },
     "tempest_dancers": {
       "id": "tempest_dancers",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "tempest_palm_gustwave": {
       "id": "tempest_palm_gustwave",
@@ -11236,7 +11236,7 @@
     },
     "templar_spellbane": {
       "id": "templar_spellbane",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "temporal_wobble": {
       "id": "temporal_wobble",
@@ -11300,7 +11300,7 @@
     },
     "testament_of_valahai": {
       "id": "testament_of_valahai",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "that_all_you_got": {
       "id": "that_all_you_got",
@@ -11472,7 +11472,7 @@
     },
     "tiger_stripe_shuko": {
       "id": "tiger_stripe_shuko",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "tiger_swipe": {
       "id": "tiger_swipe",
@@ -11632,7 +11632,7 @@
     },
     "touch_of_reality": {
       "id": "touch_of_reality",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "tough_as_a_rok": {
       "id": "tough_as_a_rok",
@@ -11640,7 +11640,7 @@
     },
     "tough_leather_boots": {
       "id": "tough_leather_boots",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "tough_old_wrench": {
       "id": "tough_old_wrench",
@@ -11744,7 +11744,7 @@
     },
     "tricorn_of_saltwater_death": {
       "id": "tricorn_of_saltwater_death",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "trip_the_light_fantastic": {
       "id": "trip_the_light_fantastic",
@@ -11808,11 +11808,11 @@
     },
     "twelve_petal_ka_s_a_ya": {
       "id": "twelve_petal_ka_s_a_ya",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "twelve_petal_kasaya": {
       "id": "twelve_petal_kasaya",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "twin_drive": {
       "id": "twin_drive",
@@ -12200,7 +12200,7 @@
     },
     "viziertronic_model_i": {
       "id": "viziertronic_model_i",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "void_wraith": {
       "id": "void_wraith",
@@ -12236,7 +12236,7 @@
     },
     "voltic_vanguard": {
       "id": "voltic_vanguard",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "voltic_veil": {
       "id": "voltic_veil",
@@ -12344,7 +12344,7 @@
     },
     "warpath_of_winged_grace": {
       "id": "warpath_of_winged_grace",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "warriors_valor": {
       "id": "warriors_valor",
@@ -12360,7 +12360,7 @@
     },
     "washed_up_wave": {
       "id": "washed_up_wave",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "water_glow_lanterns": {
       "id": "water_glow_lanterns",
@@ -12372,7 +12372,7 @@
     },
     "wave_of_reality": {
       "id": "wave_of_reality",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "waves_of_aqua_marine": {
       "id": "waves_of_aqua_marine",
@@ -12396,7 +12396,7 @@
     },
     "wayfinders_crest": {
       "id": "wayfinders_crest",
-      "chunk": "chunks/t2-equipment.json"
+      "chunk": "chunks/human-reviewed.json"
     },
     "weave_earth": {
       "id": "weave_earth",
