@@ -3,7 +3,7 @@
 ## 一句话定位
 
 为 [Talishar](https://talishar.net/) / [FaBrary](https://fabrary.net/) 提供 Flesh and Blood
-卡牌悬停中文翻译的用户脚本 + 数据构建管线，采用双仓库（源码 + 数据）架构。
+卡牌悬停中文翻译的用户脚本 + 数据构建管线。单仓库：`dist/data/` 随源码一并发布。
 
 ## 怎么跑起来
 
@@ -24,14 +24,14 @@ npm test               # 运行测试（当前 64 项）
 - 用户脚本：纯 JS（无框架），`GM_registerMenuCommand` / `GM_getValue` / `GM_setValue`
 - 构建：Node.js ESM 脚本（分片、别名表、关键词库）
 - 分发：GitHub Raw CDN + 浏览器 Cache Storage，按 manifest 的 version 哈希做缓存失效
-- 双仓库：源码 `jacefromxa/talishar-cn`，数据 `jacefromxa/talishar-cn-data`（仅 `dist/data/`）
+- 单仓库：`jacefromxa/talishar-cn`，数据从 `.../main/dist/data` 加载
 
 ## 目录与约定
 
 - `data/translations/*.json` — 中文翻译源（批次文件）。`heroes.json` 手工维护；机器稿 `status: machine-draft`，人工确认后改 `human-reviewed`
 - `data/glossary.zh-CN.json` — 术语表。`keyword` 类别为结构化 `{name_zh, desc_zh}`，构建发布为 `dist/data/keywords.json` 供浮窗释义；**没有 hero 类别**（英雄名靠人工，明确不做机制性强制）
 - `data/source/english/card.json` — 英文源（23MB，构建数据源）
-- `dist/data/` — 构建产物；每次构建后需**手动拷贝同步**到数据仓库并推送，线上才生效
+- `dist/data/` — 构建产物，分片**按翻译批次命名**（`chunks/t3-warrior.json` 对应该批次）；随源码提交推送即发布
 - `probe/test/` — Node 测试（`node --test`）
 - 已知：本机访问 github.com 不稳定，git push 常需 `GIT_HTTP_LOW_SPEED_LIMIT=1000 GIT_HTTP_LOW_SPEED_TIME=90` 或多次重试
 

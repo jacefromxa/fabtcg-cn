@@ -1,0 +1,4523 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "absorption_dome": {
+      "id": "absorption_dome",
+      "name_zh": "吸收穹顶",
+      "name_en": "Absorption Dome",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "吸收穹顶进入竞技场时带有与你本回合推进次数等量的蒸汽指示物。\n若你的英雄将受到伤害，改为从吸收穹顶上移除等量的蒸汽指示物，然后防止与此方式移除的蒸汽指示物数量相等的伤害。\n当吸收穹顶上的蒸汽指示物用完时，摧毁它。",
+      "text_en": "Absorption Dome enters the arena with steam counters on it equal to the number of times you have boosted this turn.\nIf your hero would be dealt damage, remove that many steam counters from Absorption Dome instead, then prevent damage equal to the number of steam counters removed this way.\nWhen Absorption Dome has no steam counters on it, destroy it.",
+      "source": "https://cards.fabtcg.com/card/absorption_dome/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "aether_sink": {
+      "id": "aether_sink",
+      "name_zh": "以太水槽",
+      "name_en": "Aether Sink",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "以太水槽进入竞技场时带有一个蒸汽指示物。\n行动——支付1点资源：若以太水槽上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动\n瞬间——从以太水槽上移除一个蒸汽指示物：以太水槽直到回合结束获得秘法屏障2。",
+      "text_en": "Aether Sink enters the arena with a steam counter on it.\nAction - {r}: If there are no steam counters on Aether Sink, put a steam counter on it. Go again\nInstant - Remove a steam counter from Aether Sink: Aether Sink gains Arcane Barrier 2 until end of turn.",
+      "source": "https://cards.fabtcg.com/card/aether_sink/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "annihilator_engine": {
+      "id": "annihilator_engine",
+      "name_zh": "湮灭引擎",
+      "name_en": "Annihilator Engine",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若你装备了1件或更多进化装备，此牌获得“当此牌命中英雄时，摧毁所有防御此牌的牌。”\n装备2件或更多，此牌的使用费用减少3点资源；\n装备3件或更多，此牌获得压制；\n装备4件或更多，此牌获得+3力量。",
+      "text_en": "If you have 1 or more Evos equipped, this gets \"When this hits a hero, destroy all cards defending this,\"\n\n2 or more, this costs {r}{r}{r} less to play,\n3 or more, this gets overpower,\n4 or more, this gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/annihilator_engine/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "apocalypse_automaton": {
+      "id": "apocalypse_automaton",
+      "name_zh": "天启自动机",
+      "name_en": "Apocalypse Automaton",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "仅当你装备了1件或更多进化装备时才能使用此牌。\n进化升级——此牌攻击至多X个目标对手英雄，X为你已装备的进化装备数量。",
+      "text_en": "Play this only if you have 1 or more Evos equipped.\nEvo Upgrade - This attacks up to X target opposing heroes, where X is the number of Evos you have equipped.",
+      "source": "https://cards.fabtcg.com/card/apocalypse_automaton/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "assembly_module": {
+      "id": "assembly_module",
+      "name_zh": "装配模块",
+      "name_en": "Assembly Module",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n行动——横置此牌：从你的牌库中搜寻一张超频驱动器，将其放入竞技场，然后洗牌。",
+      "text_en": "Crank\nThis enters the arena with a stream counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nAction - {t}: Search your deck for a Hyper Driver, put it into the arena, then shuffle.",
+      "source": "https://cards.fabtcg.com/card/assembly_module/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "autosave_script": {
+      "id": "autosave_script",
+      "name_zh": "自动存档脚本",
+      "name_en": "Autosave Script",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n你的机械师攻击行动牌获得“当此牌命中时，将其置于其拥有者的牌库底。”",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nYour Mechanologist attack action cards get \"When this hits, put it on the bottom of its owner's deck.\"",
+      "source": "https://cards.fabtcg.com/card/autosave_script/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "backspin_thrust": {
+      "id": "backspin_thrust",
+      "name_zh": "回旋推进",
+      "name_en": "Backspin Thrust",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "每回合一次瞬间——重置你控制的一个齿轮：此牌获得+1力量或再动。",
+      "text_en": "Once per Turn Instant - {u} a cog you control: This gets +1{p} or go again.",
+      "source": "https://cards.fabtcg.com/card/backspin_thrust/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "backup_protocol_blu": {
+      "id": "backup_protocol_blu",
+      "name_zh": "蓝色备份协议",
+      "name_en": "Backup Protocol: BLU",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n瞬间——支付2点资源，摧毁此牌：将你坟场中的一张蓝色机械师攻击行动牌移回你的手牌。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nInstant - {r}{r}, destroy this: Return a blue Mechanologist attack action card from your graveyard to your hand.",
+      "source": "https://cards.fabtcg.com/card/backup_protocol_blu/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "backup_protocol_red": {
+      "id": "backup_protocol_red",
+      "name_zh": "红色备份协议",
+      "name_en": "Backup Protocol: RED",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n瞬间——支付2点资源，摧毁此牌：将你坟场中的一张红色机械师攻击行动牌移回你的手牌。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nInstant - {r}{r}, destroy this: Return a red Mechanologist attack action card from your graveyard to your hand.",
+      "source": "https://cards.fabtcg.com/card/backup_protocol_red/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "backup_protocol_yel": {
+      "id": "backup_protocol_yel",
+      "name_zh": "黄色备份协议",
+      "name_en": "Backup Protocol: YEL",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n瞬间——支付2点资源，摧毁此牌：将你坟场中的一张黄色机械师攻击行动牌移回你的手牌。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nInstant - {r}{r}, destroy this: Return a yellow Mechanologist attack action card from your graveyard to your hand.",
+      "source": "https://cards.fabtcg.com/card/backup_protocol_yel/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "bank_breaker": {
+      "id": "bank_breaker",
+      "name_zh": "破银行家",
+      "name_en": "Bank Breaker",
+      "type_zh": "机械师 武器·Wrench （双手）",
+      "text_zh": "每回合两次行动——支付1点资源：攻击。仅当本回合你上弦过时才能启动此异能。\n当此牌攻击时，你可以放逐其下的一张牌。若如此做，该攻击获得压制和再动。",
+      "text_en": "Twice per Turn Action - {r}: Attack. Activate this only if you've cranked this turn.\nWhen this attacks, you may banish a card from under it. If you do, the attack gets overpower and go again.",
+      "source": "https://cards.fabtcg.com/card/bank_breaker/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "banksy": {
+      "id": "banksy",
+      "name_zh": "班克斯",
+      "name_en": "Banksy",
+      "type_zh": "机械师 武器·Wrench （双手）",
+      "text_zh": "马克斯专精\n每回合一次行动——支付1点资源：攻击。仅当本回合你上弦过时才能启动此异能。\n当此牌命中英雄时，在你控制的一个具有上弦的物品上放置一个蒸汽指示物。",
+      "text_en": "Maxx Specialization\nOnce per Turn Action - {r}: Attack. Activate this ability only if you've cranked this turn.\nWhen this hits a hero, put a steam counter on an item you control with crank.",
+      "source": "https://cards.fabtcg.com/card/banksy/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "big_bertha": {
+      "id": "big_bertha",
+      "name_zh": "大贝莎",
+      "name_en": "Big Bertha",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌因推进被放逐时，在你控制的一张超频驱动器上放置一个蒸汽指示物。",
+      "text_en": "Boost\nWhen this is banished from boosting, put a steam counter on a Hyper Driver you control.",
+      "source": "https://cards.fabtcg.com/card/big_bertha/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "big_shot": {
+      "id": "big_shot",
+      "name_zh": "大人物",
+      "name_en": "Big Shot",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若本回合你推进过两次或更多，此牌获得+2力量。",
+      "text_en": "If you've boosted 2 or more times this turn, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/big_shot/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "bios_update": {
+      "id": "bios_update",
+      "name_zh": "生物系统更新",
+      "name_en": "Bios Update",
+      "type_zh": "机械师 行动",
+      "text_zh": "本回合你推进的下一张攻击行动牌获得+3力量。\n本回合下一次费用为2或更低的机械师物品被放逐以支付推进费用时，将其放入竞技场。\n再动",
+      "text_en": "The next attack action card you boost this turn gains +3{p}.\nThe next time a Mechanologist item with cost 2 or less is banished to pay a boost cost this turn, put it into the arena.\nGo again",
+      "source": "https://cards.fabtcg.com/card/bios_update/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blast_rig": {
+      "id": "blast_rig",
+      "name_zh": "爆破钻塔",
+      "name_en": "Blast Rig",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "进化升级——每有一件你已装备的进化装备，此牌获得+1力量。\n推进",
+      "text_en": "Evo Upgrade - This gets +1{p} for each Evo you have equipped.\nBoost",
+      "source": "https://cards.fabtcg.com/card/blast_rig/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade",
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "blessing_of_ingenuity": {
+      "id": "blessing_of_ingenuity",
+      "name_zh": "巧思祝福",
+      "name_en": "Blessing of Ingenuity",
+      "type_zh": "机械师 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁巧思祝福，然后将你坟场和/或放逐区中的至多3张超频驱动器放入竞技场。",
+      "text_en": "At the start of your turn, destroy Blessing of Ingenuity then put up to 3 Hyper Drivers from your graveyard and/or banished zone into the arena.",
+      "source": "https://cards.fabtcg.com/card/blessing_of_ingenuity/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "boom_grenade": {
+      "id": "boom_grenade",
+      "name_zh": "爆炸手雷",
+      "name_en": "Boom Grenade",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n当你控制的机械师攻击行动牌命中英雄时，摧毁此牌并对其造成4点伤害。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nWhen a Mechanologist attack action card you control hits a hero, destroy this and deal 4 damage to them.",
+      "source": "https://cards.fabtcg.com/card/boom_grenade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "bull_bar": {
+      "id": "bull_bar",
+      "name_zh": "防撞杠",
+      "name_en": "Bull Bar",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n若你控制一张超频驱动器，此牌获得压制。",
+      "text_en": "Boost\nIf you control a Hyper Driver, this gets overpower.",
+      "source": "https://cards.fabtcg.com/card/bull_bar/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost",
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "burn_rubber": {
+      "id": "burn_rubber",
+      "name_zh": "烧胎",
+      "name_en": "Burn Rubber",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若本回合你推进过两次或更多，此牌获得+2力量，且不能被装备防御。",
+      "text_en": "If you've boosted 2 or more times this turn, this gets +2{p} and can't be defended by equipment.",
+      "source": "https://cards.fabtcg.com/card/burn_rubber/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "cerebellum_processor": {
+      "id": "cerebellum_processor",
+      "name_zh": "小脑处理器",
+      "name_en": "Cerebellum Processor",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有2个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n每回合一次行动——费用0：抽一张牌。",
+      "text_en": "Crank\nThis enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.\nOnce per Turn Action - 0: Draw a card.",
+      "source": "https://cards.fabtcg.com/card/cerebellum_processor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "clamp_press": {
+      "id": "clamp_press",
+      "name_zh": "夹紧压床",
+      "name_en": "Clamp Press",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有2个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n你控制的扳手获得+2力量。",
+      "text_en": "Crank\nThis enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.\nWrenches you control get +2{p}.",
+      "source": "https://cards.fabtcg.com/card/clamp_press/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "cloud_city_steamboat": {
+      "id": "cloud_city_steamboat",
+      "name_zh": "云城汽船",
+      "name_en": "Cloud City Steamboat",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "当此牌命中英雄时，你可以横置你控制的一个齿轮。若如此做，在你控制的一个齿轮上放置一个蒸汽指示物。\n每回合两次瞬间——横置你控制的一个齿轮：此牌获得+1力量。",
+      "text_en": "When this hits a hero, you may {t} a cog you control. If you do, put a steam counter on a cog you control.\nTwice per Turn Instant - {t} a cog you control: This gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/cloud_city_steamboat/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "cloud_skiff": {
+      "id": "cloud_skiff",
+      "name_zh": "云梭",
+      "name_en": "Cloud Skiff",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "每回合一次瞬间——横置你控制的一个齿轮：此牌获得+1力量或再动。",
+      "text_en": "Once per Turn Instant - {t} a cog you control: This gets +1{p} or go again.",
+      "source": "https://cards.fabtcg.com/card/cloud_skiff/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "cog_in_the_machine": {
+      "id": "cog_in_the_machine",
+      "name_zh": "机器中的齿轮",
+      "name_en": "Cog in the Machine",
+      "type_zh": "机械师 行动",
+      "text_zh": "创造2个金齿轮衍生物。\n你可以横置你控制的一个齿轮。若如此做，将此牌置于其拥有者的牌库底。",
+      "text_en": "Create 2 Golden Cog tokens.\nYou may {t} a cog you control. If you do, put this on the bottom of its owner's deck.",
+      "source": "https://cards.fabtcg.com/card/cog_in_the_machine/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "cognition_field": {
+      "id": "cognition_field",
+      "name_zh": "认知领域",
+      "name_en": "Cognition Field",
+      "type_zh": "机械师 阻挡",
+      "text_zh": "激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+2防御。",
+      "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/cognition_field/",
+      "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "cognition_nodes": {
+      "id": "cognition_nodes",
+      "name_zh": "认知节点",
+      "name_en": "Cognition Nodes",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "行动——支付1点资源：若认知节点上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动\n每回合一次攻击反应——从认知节点上移除一个蒸汽指示物：目标攻击行动牌获得“当此牌命中时，将其置于其拥有者的牌库底。”",
+      "text_en": "Action - {r}: If there are no steam counters on Cognition Nodes, put a steam counter on it. Go again\nOnce per Turn Attack Reaction - Remove a steam counter from Cognition Nodes: Target attack action card gains \"When this hits, put it on the bottom of its owner's deck.\"",
+      "source": "https://cards.fabtcg.com/card/cognition_nodes/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "cogwerx_blunderbuss": {
+      "id": "cogwerx_blunderbuss",
+      "name_zh": "齿轮工坊火铳",
+      "name_en": "Cogwerx Blunderbuss",
+      "type_zh": "机械师 武器·Gun （双手）",
+      "text_zh": "行动——支付2点资源，横置此牌：攻击\n瞬间——横置你控制的一个齿轮：此牌本回合的下一次攻击获得再动。",
+      "text_en": "Action - {r}{r}, {t}: Attack\nInstant - {t} a cog you control: This card's next attack this turn gets go again.",
+      "source": "https://cards.fabtcg.com/card/cogwerx_blunderbuss/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "cogwerx_dovetail": {
+      "id": "cogwerx_dovetail",
+      "name_zh": "齿轮工坊燕尾榫",
+      "name_en": "Cogwerx Dovetail",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "当此牌命中英雄时，重置你控制的所有齿轮。\n每回合三次瞬间——横置你控制的一个齿轮：此牌获得+1力量或再动。",
+      "text_en": "When this hits a hero, {u} all cogs you control.\nThrice per Turn Instant - {t} a cog you control: This gets +1{p} or go again.",
+      "source": "https://cards.fabtcg.com/card/cogwerx_dovetail/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "cogwerx_workshop": {
+      "id": "cogwerx_workshop",
+      "name_zh": "齿轮工坊车间",
+      "name_en": "Cogwerx Workshop",
+      "type_zh": "机械师 行动",
+      "text_zh": "创造一个金齿轮衍生物。\n在你控制的至多2个齿轮上放置一个蒸汽指示物。",
+      "text_en": "Create a Golden Cog token.\nPut a steam counter on up to 2 cogs you control.",
+      "source": "https://cards.fabtcg.com/card/cogwerx_workshop/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "cogwerx_zeppelin": {
+      "id": "cogwerx_zeppelin",
+      "name_zh": "齿轮工坊飞艇",
+      "name_en": "Cogwerx Zeppelin",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "当此牌命中英雄时，你可以横置你控制的一个齿轮。若如此做，创造一个金齿轮衍生物。\n每回合两次瞬间——横置你控制的一个齿轮：此牌获得+1力量。",
+      "text_en": "When this hits a hero, you may {t} a cog you control. If you do, create a Golden Cog token.\nTwice per Turn Instant - {t} a cog you control: This gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/cogwerx_zeppelin/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "combustible_courier": {
+      "id": "combustible_courier",
+      "name_zh": "易燃信使",
+      "name_en": "Combustible Courier",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若易燃信使命中，本战斗链中你推进的下一次攻击获得+3力量。\n推进",
+      "text_en": "If Combustible Courier hits, the next attack you boost this combat chain gains +3{p}.\nBoost",
+      "source": "https://cards.fabtcg.com/card/combustible_courier/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "construct_bank_breaker": {
+      "id": "construct_bank_breaker",
+      "name_zh": "组装破银行家",
+      "name_en": "Construct Bank Breaker",
+      "type_zh": "机械师 行动·Construct",
+      "text_zh": "若你装备了一件扳手武器，将其和你控制的3张超频驱动器转化为破银行家，然后装备破银行家。\n再动",
+      "text_en": "If you have a wrench weapon equipped, transform it and 3 Hyper Drivers you control into Bank Breaker, then equip Bank Breaker.\nGo again",
+      "source": "https://cards.fabtcg.com/card/construct_bank_breaker/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "construct_nitro_mechanoid": {
+      "id": "construct_nitro_mechanoid",
+      "name_zh": "组装硝基机甲",
+      "name_en": "Construct Nitro Mechanoid",
+      "type_zh": "机械师 行动·Construct",
+      "text_zh": "将目标机械师头部、胸部、手臂、腿部、武器装备和你控制的3张超频驱动器转化为硝基机甲。若你没有，则此牌无效。\n再动",
+      "text_en": "Transform target Mechanologist head, chest, arms, legs, weapon and 3 Hyper Drivers you control into Nitro Mechanoid. If you don't, negate this.\nGo again",
+      "source": "https://cards.fabtcg.com/card/construct_nitro_mechanoid/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Negate",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "convection_amplifier": {
+      "id": "convection_amplifier",
+      "name_zh": "对流放大器",
+      "name_en": "Convection Amplifier",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "对流放大器进入竞技场时带有2个蒸汽指示物。当对流放大器上的蒸汽指示物用完时，摧毁它。\n行动——从对流放大器上移除一个蒸汽指示物：本回合你使用的下一张攻击行动牌获得支配。再动",
+      "text_en": "Convection Amplifier enters the arena with 2 steam counters on it. When Convection Amplifier has no steam counters on it, destroy it.\nAction - Remove a steam counter from Convection Amplifier: The next attack action card you play this turn gains dominate. Go again",
+      "source": "https://cards.fabtcg.com/card/convection_amplifier/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "copper_cog": {
+      "id": "copper_cog",
+      "name_zh": "铜齿轮",
+      "name_en": "Copper Cog",
+      "type_zh": "机械师 行动·Cog 物品",
+      "text_zh": "无限制\n上弦\n此牌进入竞技场时带有2个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。",
+      "text_en": "Unlimited\nCrank\nThis enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.",
+      "source": "https://cards.fabtcg.com/card/copper_cog/",
+      "status": "machine-draft",
+      "keywords": [
+        "Unlimited",
+        "Crank"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "crankshaft": {
+      "id": "crankshaft",
+      "name_zh": "曲轴",
+      "name_en": "Crankshaft",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌因推进被放逐时，在你控制的一张超频驱动器上放置一个蒸汽指示物。",
+      "text_en": "Boost\nWhen this is banished from boosting, put a steam counter on a Hyper Driver you control.",
+      "source": "https://cards.fabtcg.com/card/crankshaft/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "crash_site_salvage": {
+      "id": "crash_site_salvage",
+      "name_zh": "坠毁现场回收",
+      "name_en": "Crash Site Salvage",
+      "type_zh": "海盗 机械师 行动·攻击",
+      "text_zh": "废铁\n当此牌攻击时，若它废掉过一张牌，此牌获得再动。若以此方式废掉的是一个齿轮，创造一个金币衍生物。",
+      "text_en": "Scrap\nWhen this attacks, if it scrapped a card, this gets go again. If a cog was scrapped this way, create a Gold token.",
+      "source": "https://cards.fabtcg.com/card/crash_site_salvage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Scrap",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "data_link": {
+      "id": "data_link",
+      "name_zh": "数据链路",
+      "name_en": "Data Link",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，占卜1。",
+      "text_en": "Boost\nWhen this hits, opt 1.",
+      "source": "https://cards.fabtcg.com/card/data_link/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost",
+        "Opt 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "demolition_protocol": {
+      "id": "demolition_protocol",
+      "name_zh": "拆除协议",
+      "name_en": "Demolition Protocol",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "进化升级——当此牌攻击英雄时，从其控制的至多X件装备、物品和/或武器上移除所有蒸汽指示物，X为你已装备的进化装备数量。",
+      "text_en": "Evo Upgrade - When this attacks a hero, remove all steam counters from up to X equipment, items, and/or weapons they control, where X is the number of Evos you have equipped.",
+      "source": "https://cards.fabtcg.com/card/demolition_protocol/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "dissipation_shield": {
+      "id": "dissipation_shield",
+      "name_zh": "消散护盾",
+      "name_en": "Dissipation Shield",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "消散护盾进入竞技场时带有4个蒸汽指示物。\n在你的行动阶段开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n瞬间——摧毁消散护盾：本回合你的英雄下一次将受到伤害时，防止X点伤害，X为消散护盾上的蒸汽指示物数量。",
+      "text_en": "Dissipation Shield enters the arena with 4 steam counters on it.\nAt the beginning of your action phase, destroy Dissipation Shield unless you remove a steam counter from it.\nInstant - Destroy Dissipation Shield: The next time your hero would be dealt damage this turn, prevent X damage, where X is the number of steam counters on Dissipation Shield.",
+      "source": "https://cards.fabtcg.com/card/dissipation_shield/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dissolution_sphere": {
+      "id": "dissolution_sphere",
+      "name_zh": "溶解球体",
+      "name_en": "Dissolution Sphere",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "溶解球体进入竞技场时带有一个蒸汽指示物。\n在你的行动阶段开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n每当你的英雄将受到恰好1点伤害时，防止它。",
+      "text_en": "Dissolution Sphere enters the arena with a steam counter on it.\nAt the beginning of your action phase, destroy Dissolution Sphere unless you remove a steam counter from it.\nWhenever your hero would be dealt exactly 1 damage, prevent it.",
+      "source": "https://cards.fabtcg.com/card/dissolution_sphere/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dissolving_shield": {
+      "id": "dissolving_shield",
+      "name_zh": "溶解护盾",
+      "name_en": "Dissolving Shield",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有3个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n瞬间——从此牌上移除一个蒸汽指示物：防止本回合接下来将对你造成的1点伤害。若此牌没有蒸汽指示物，摧毁它。",
+      "text_en": "Crank\nThis enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.\nInstant - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.",
+      "source": "https://cards.fabtcg.com/card/dissolving_shield/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dive_through_data": {
+      "id": "dive_through_data",
+      "name_zh": "潜入数据",
+      "name_en": "Dive Through Data",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，占卜1。",
+      "text_en": "Boost\nWhen this hits, opt 1.",
+      "source": "https://cards.fabtcg.com/card/dive_through_data/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost",
+        "Opt 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "draw_back_the_hammer": {
+      "id": "draw_back_the_hammer",
+      "name_zh": "收锤",
+      "name_en": "Draw Back the Hammer",
+      "type_zh": "机械师 行动",
+      "text_zh": "你本回合的下一次机械师攻击获得+4力量。\n你可以重置你控制的一把枪。\n再动",
+      "text_en": "Your next Mechanologist attack this turn gets +4{p}.\nYou may {u} a gun you control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/draw_back_the_hammer/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "dumpster_dive": {
+      "id": "dumpster_dive",
+      "name_zh": "翻垃圾桶",
+      "name_en": "Dumpster Dive",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n若一个物品或装备因推进此牌被放逐，此牌获得+1力量。",
+      "text_en": "Boost\nIf an item or equipment was banished from boosting this, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/dumpster_dive/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "expedite": {
+      "id": "expedite",
+      "name_zh": "加急",
+      "name_en": "Expedite",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，你可以将你手牌中一张费用为0或1的物品放入竞技场。",
+      "text_en": "Boost\nWhen this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+      "source": "https://cards.fabtcg.com/card/expedite/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "fabricate": {
+      "id": "fabricate",
+      "name_zh": "制造",
+      "name_en": "Fabricate",
+      "type_zh": "机械师 瞬间",
+      "text_zh": "选择2个；\n从你的物品栏装备一件名称中含有原型的带有基础名称的装备。\n本回合你控制的进化永久物获得+1防御。\n将此牌置于你控制的一个进化永久物之下。\n你可以放逐你手牌中的一张进化牌。若如此做，抽一张牌。",
+      "text_en": "Choose 2;\n\nEquip a base equipment with Proto in its name from your inventory.\nEvo permanents you control get +1{d} this turn.\nPut this under an Evo permanent you control.\nYou may banish an Evo from your hand. If you do, draw a card.",
+      "source": "https://cards.fabtcg.com/card/fabricate/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "fast_and_furious": {
+      "id": "fast_and_furious",
+      "name_zh": "速度与激情",
+      "name_en": "Fast and Furious",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n若本回合你上弦过，此牌获得+1力量。\n当此牌因推进被放逐时，在你控制的一个具有上弦的物品上放置一个蒸汽指示物。",
+      "text_en": "Boost\nIf you've cranked this turn, this gets +1{p}.\nWhen this is banished from boosting, put a steam counter on an item you control with crank.",
+      "source": "https://cards.fabtcg.com/card/fast_and_furious/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "fender_bender": {
+      "id": "fender_bender",
+      "name_zh": "刮蹭事故",
+      "name_en": "Fender Bender",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n此牌获得+X力量，X为防御它的装备数量。",
+      "text_en": "Boost\nThis gets +X{p}, where X is the number of equipment defending it.",
+      "source": "https://cards.fabtcg.com/card/fender_bender/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "firewall": {
+      "id": "firewall",
+      "name_zh": "防火墙",
+      "name_en": "Firewall",
+      "type_zh": "机械师 阻挡",
+      "text_zh": "当此牌防御时，展示你牌库顶的一张牌。若其为进化牌，将其置于你的牌库顶。否则，将其置于牌库底。",
+      "text_en": "When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",
+      "source": "https://cards.fabtcg.com/card/firewall/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "fuel_injector": {
+      "id": "fuel_injector",
+      "name_zh": "燃油喷射器",
+      "name_en": "Fuel Injector",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "瞬间——将此牌置于其拥有者的牌库底：获得1点资源。",
+      "text_en": "Instant - Put this on the bottom of its owner's deck: Gain {r}",
+      "source": "https://cards.fabtcg.com/card/fuel_injector/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "full_tilt": {
+      "id": "full_tilt",
+      "name_zh": "全力冲刺",
+      "name_en": "Full Tilt",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/full_tilt/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "gas_guzzler": {
+      "id": "gas_guzzler",
+      "name_zh": "油老虎",
+      "name_en": "Gas Guzzler",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/gas_guzzler/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "gas_up": {
+      "id": "gas_up",
+      "name_zh": "加油",
+      "name_en": "Gas Up",
+      "type_zh": "机械师 行动",
+      "text_zh": "本回合你推进的下一次攻击获得+4力量。\n你可以将你放逐区中的一张超频驱动器放入竞技场。\n再动",
+      "text_en": "The next attack you boost this turn gets +4{p}.\nYou may put a Hyper Driver from your banished zone into the arena.\nGo again",
+      "source": "https://cards.fabtcg.com/card/gas_up/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "gear_turner": {
+      "id": "gear_turner",
+      "name_zh": "齿轮工",
+      "name_en": "Gear Turner",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "当此牌命中时，你可以从你的牌库中搜寻一个齿轮，将其放入竞技场，然后洗牌。",
+      "text_en": "When this hits, you may search your deck for a cog, put it into the arena, then shuffle.",
+      "source": "https://cards.fabtcg.com/card/gear_turner/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "ghost_protocol_architect": {
+      "id": "ghost_protocol_architect",
+      "name_zh": "幽灵协议架构师",
+      "name_en": "Ghost Protocol: Architect",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若本回合此牌因推进被放逐，你可以从你的放逐区使用此牌。\n进化升级——当此牌攻击时，从你的牌库中搜寻一张费用小于或等于你已装备的进化装备数量的进化牌，放逐它，然后洗牌。",
+      "text_en": "If this was banished from boosting this turn, you may play this from your banished zone.\nEvo Upgrade - When this attacks, search your deck for an Evo with cost less than or equal to the number of Evos you have equipped, banish it, then shuffle.",
+      "source": "https://cards.fabtcg.com/card/ghost_protocol_architect/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "ghost_protocol_mainframe": {
+      "id": "ghost_protocol_mainframe",
+      "name_zh": "幽灵协议主机",
+      "name_en": "Ghost Protocol: Mainframe",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若本回合此牌因推进被放逐，你可以从你的放逐区使用此牌。\n进化升级——每有一件你已装备的进化装备，此牌获得+1力量。",
+      "text_en": "If this was banished from boosting this turn, you may play this from your banished zone.\nEvo Upgrade - This gets +1{p} for each Evo you have equipped.",
+      "source": "https://cards.fabtcg.com/card/ghost_protocol_mainframe/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "gigawatt": {
+      "id": "gigawatt",
+      "name_zh": "十亿瓦特",
+      "name_en": "Gigawatt",
+      "type_zh": "机械师 行动",
+      "text_zh": "你本回合的下一次机械师攻击获得+4力量。\n再动",
+      "text_en": "Your next Mechanologist attack this turn gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/gigawatt/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "golden_cog": {
+      "id": "golden_cog",
+      "name_zh": "金齿轮",
+      "name_en": "Golden Cog",
+      "type_zh": "机械师 衍生物·Cog 物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.",
+      "source": "https://cards.fabtcg.com/card/golden_cog/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "golden_skywarden": {
+      "id": "golden_skywarden",
+      "name_zh": "金色天空守望者",
+      "name_en": "Golden Skywarden",
+      "type_zh": "海盗 机械师 行动·攻击",
+      "text_zh": "激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+1防御。若以此方式摧毁的是金齿轮，创造一个金币衍生物并重复此过程。",
+      "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token and repeat this process.",
+      "source": "https://cards.fabtcg.com/card/golden_skywarden/",
+      "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "2"
+        }
+      }
+    },
+    "goldwing_turbine": {
+      "id": "goldwing_turbine",
+      "name_zh": "金翼涡轮",
+      "name_en": "Goldwing Turbine",
+      "type_zh": "机械师 行动",
+      "text_zh": "你本回合的下一次机械师攻击获得+3力量。\n创造一个金齿轮衍生物。",
+      "text_en": "Your next Mechanologist attack this turn gets +3{p}.\nCreate a Golden Cog token.",
+      "source": "https://cards.fabtcg.com/card/goldwing_turbine/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "grinding_gears": {
+      "id": "grinding_gears",
+      "name_zh": "碾磨齿轮",
+      "name_en": "Grinding Gears",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n行动——费用0：目标英雄摧毁其牌库顶的一张牌。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nAction - 0: Target hero destroys the top card of their deck.",
+      "source": "https://cards.fabtcg.com/card/grinding_gears/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "hadron_collider": {
+      "id": "hadron_collider",
+      "name_zh": "强子对撞机",
+      "name_en": "Hadron Collider",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有4个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n当你推进一个攻击时，摧毁此牌。若如此做，该攻击获得+X力量，X为此牌上的蒸汽指示物数量。",
+      "text_en": "Crank\nThis enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.\nWhen you boost an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",
+      "source": "https://cards.fabtcg.com/card/hadron_collider/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "hanabi_blaster": {
+      "id": "hanabi_blaster",
+      "name_zh": "花火爆能枪",
+      "name_en": "Hanabi Blaster",
+      "type_zh": "机械师 武器·Gun （双手）",
+      "text_zh": "每回合一次行动——从花火爆能枪上移除2个蒸汽指示物：攻击\n压制\n每回合你第三次使用具有推进的牌时，在花火爆能枪上放置一个蒸汽指示物。",
+      "text_en": "Once per Turn Action - Remove 2 steam counters from Hanabi Blaster: Atttack\nOverpower\nThe third time you play a card with boost each turn, put a steam counter on Hanabi Blaster.",
+      "source": "https://cards.fabtcg.com/card/hanabi_blaster/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "5",
+          "defense": null
+        }
+      }
+    },
+    "heart_wrencher": {
+      "id": "heart_wrencher",
+      "name_zh": "心碎扳手",
+      "name_en": "Heart Wrencher",
+      "type_zh": "机械师 行动·Wrench 攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/heart_wrencher/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "heavy_artillery": {
+      "id": "heavy_artillery",
+      "name_zh": "重型火炮",
+      "name_en": "Heavy Artillery",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "进化升级——防御英雄不能用费用小于X的攻击行动牌防御此牌，X为你已装备的进化装备数量。",
+      "text_en": "Evo Upgrade - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.",
+      "source": "https://cards.fabtcg.com/card/heavy_artillery/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "heavy_metal_hardcore": {
+      "id": "heavy_metal_hardcore",
+      "name_zh": "重金属硬核",
+      "name_en": "Heavy Metal Hardcore",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若本回合有进化牌因推进被放逐，此牌获得+1力量。\n推进",
+      "text_en": "If an Evo has been banished from boosting this turn, this gets +1{p}.\nBoost",
+      "source": "https://cards.fabtcg.com/card/heavy_metal_hardcore/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "heist": {
+      "id": "heist",
+      "name_zh": "抢劫",
+      "name_en": "Heist",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中英雄时，你可以将任意放逐区中一张费用为0或1的物品放入你控制下的竞技场。",
+      "text_en": "Boost\nWhen this hits a hero, you may put an item with cost 0 or 1 from any banished zone into the arena under your control.",
+      "source": "https://cards.fabtcg.com/card/heist/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "high_octane": {
+      "id": "high_octane",
+      "name_zh": "高辛烷值",
+      "name_en": "High Octane",
+      "type_zh": "",
+      "text_zh": "本回合每当你推进一张牌时，获得1个行动点。\n抽一张牌。\n再动",
+      "text_en": "Whenever you boost a card this turn, gain 1 action point.\nDraw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/high_octane/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    },
+    "high_speed_impact": {
+      "id": "high_speed_impact",
+      "name_zh": "高速冲击",
+      "name_en": "High Speed Impact",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若高速冲击命中，本战斗链中你推进的下一次攻击获得支配。\n推进",
+      "text_en": "If High Speed Impact hits, the next attack you boost this combat chain gains dominate.\nBoost",
+      "source": "https://cards.fabtcg.com/card/high_speed_impact/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "hit_the_gas": {
+      "id": "hit_the_gas",
+      "name_zh": "踩油门",
+      "name_en": "Hit the Gas",
+      "type_zh": "机械师 行动",
+      "text_zh": "马克斯专精\n将你放逐区中的任意数量超频驱动器翻为牌面朝下，并获得等量的行动点。若以此方式翻为牌面朝下的牌有3张或更多，抽一张牌。",
+      "text_en": "Maxx Specialization\nTurn any number of Hyper Drivers in your banished zone face-down and gain that many action points. If 3 or more cards are turned face-down this way, draw a card.",
+      "source": "https://cards.fabtcg.com/card/hit_the_gas/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "hydraulic_press": {
+      "id": "hydraulic_press",
+      "name_zh": "液压机",
+      "name_en": "Hydraulic Press",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "废铁\n当此牌攻击时，若它废掉过一张牌，此牌获得压制。",
+      "text_en": "Scrap\nWhen this attacks, if it scrapped a card, this gets overpower.",
+      "source": "https://cards.fabtcg.com/card/hydraulic_press/",
+      "status": "machine-draft",
+      "keywords": [
+        "Scrap",
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "hyper_driver": {
+      "id": "hyper_driver",
+      "name_zh": "超频驱动器",
+      "name_en": "Hyper Driver",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "此牌进入竞技场时带有3个蒸汽指示物。当其用完时，摧毁它。\n每回合一次，当你推进一张牌时，从此牌上移除一个蒸汽指示物并获得1点资源。",
+      "text_en": "This enters the arena with 3 steam counters. When it has none, destroy it.\nOnce per turn, when you boost a card, remove a steam counter from this and gain {r}.",
+      "source": "https://cards.fabtcg.com/card/hyper_driver/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "hyper_scrapper": {
+      "id": "hyper_scrapper",
+      "name_zh": "超频拆解者",
+      "name_en": "Hyper Scrapper",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，放逐你坟场中的X个物品。\n当此牌攻击时，它获得+X力量。若为使用此牌放逐了3张或更多超频驱动器，获得6点资源，此牌获得再动。",
+      "text_en": "As an additional cost to play this, banish X items from your graveyard.\nWhen this attacks it gets +X{p}. If 3 or more Hyper Drivers were banished to play this, gain {r}{r}{r} {r}{r}{r} and this gets go again.",
+      "source": "https://cards.fabtcg.com/card/hyper_scrapper/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go Again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "X",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "induction_chamber": {
+      "id": "induction_chamber",
+      "name_zh": "感应室",
+      "name_en": "Induction Chamber",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "行动——支付1点资源：若感应室上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动\n每回合一次攻击反应——从感应室上移除一个蒸汽指示物：目标机械师手枪攻击获得再动。",
+      "text_en": "Action - {r}: If there are no steam counters on Induction Chamber, put a steam counter on it. Go again\nOnce per Turn Attack Reaction - Remove a steam counter from Induction Chamber: Target Mechanologist pistol attack gains go again.",
+      "source": "https://cards.fabtcg.com/card/induction_chamber/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "infuse_alloy": {
+      "id": "infuse_alloy",
+      "name_zh": "注入合金",
+      "name_en": "Infuse Alloy",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+2防御。",
+      "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/infuse_alloy/",
+      "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "infuse_titanium": {
+      "id": "infuse_titanium",
+      "name_zh": "注入钛",
+      "name_en": "Infuse Titanium",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+2防御。",
+      "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/infuse_titanium/",
+      "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "jolly_bludger": {
+      "id": "jolly_bludger",
+      "name_zh": "欢快凶棍",
+      "name_en": "Jolly Bludger",
+      "type_zh": "海盗 机械师 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以横置你控制的一个齿轮。若如此做，此牌获得压制。\n当此牌对英雄造成伤害时，偷取其控制的等量物品。\n每回合三次瞬间——横置你控制的一个齿轮：此牌获得+1力量。",
+      "text_en": "When this attacks, you may {t} a cog you control. If you do, this gets overpower.\nWhen this deals damage to a hero, steal that many items they control.\nThrice per Turn Instant - {t} a cog you control: This gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/jolly_bludger/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower",
+        "Steal"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "jump_start": {
+      "id": "jump_start",
+      "name_zh": "跨接启动",
+      "name_en": "Jump Start",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若你控制一张超频驱动器，此牌的使用费用减少1点资源。\n推进",
+      "text_en": "If you control a Hyper Driver, this costs {r} less to play.\nBoost",
+      "source": "https://cards.fabtcg.com/card/jump_start/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "junkyard_dogg": {
+      "id": "junkyard_dogg",
+      "name_zh": "废品场狗",
+      "name_en": "Junkyard Dogg",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "废铁\n当此牌攻击时，若它废掉过一张牌，此牌获得+1力量。",
+      "text_en": "Scrap\nWhen this attacks, if it scrapped a card, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/junkyard_dogg/",
+      "status": "machine-draft",
+      "keywords": [
+        "Scrap"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "lay_waste": {
+      "id": "lay_waste",
+      "name_zh": "夷为平地",
+      "name_en": "Lay Waste",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n此牌不能被装备防御。",
+      "text_en": "Boost\nThis can't be defended by equipment.",
+      "source": "https://cards.fabtcg.com/card/lay_waste/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "liquid_cooled_mayhem": {
+      "id": "liquid_cooled_mayhem",
+      "name_zh": "液冷混乱",
+      "name_en": "Liquid-Cooled Mayhem",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "进化升级——每有一件你已装备的进化装备，此牌的使用费用减少1点资源。",
+      "text_en": "Evo Upgrade - This costs {r} less to play for each Evo you have equipped.",
+      "source": "https://cards.fabtcg.com/card/liquid_cooled_mayhem/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "locked_and_loaded": {
+      "id": "locked_and_loaded",
+      "name_zh": "上膛待发",
+      "name_en": "Locked and Loaded",
+      "type_zh": "机械师 行动",
+      "text_zh": "你本回合使用的下一张机械师攻击行动牌获得+3力量。\n若本回合你推进过，占卜1。\n再动",
+      "text_en": "The next Mechanologist attack action card you play this turn gains +3{p}.\nIf you have boosted this turn, opt 1.\nGo again",
+      "source": "https://cards.fabtcg.com/card/locked_and_loaded/",
+      "status": "machine-draft",
+      "keywords": [
+        "Opt 1",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "lubricate": {
+      "id": "lubricate",
+      "name_zh": "润滑",
+      "name_en": "Lubricate",
+      "type_zh": "机械师 瞬间",
+      "text_zh": "重置你控制的至多3个齿轮。",
+      "text_en": "{u} up to 3 cogs you control.",
+      "source": "https://cards.fabtcg.com/card/lubricate/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "master_cog": {
+      "id": "master_cog",
+      "name_zh": "大师齿轮",
+      "name_en": "Master Cog",
+      "type_zh": "机械师 资源·宝石",
+      "text_zh": "传奇\n当此牌被资源时，你可以在你控制的一个具有上弦的物品上放置一个蒸汽指示物。",
+      "text_en": "Legendary\nWhen this is pitched, you may put a steam counter on an item you control with crank.",
+      "source": "https://cards.fabtcg.com/card/master_cog/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "maximum_velocity": {
+      "id": "maximum_velocity",
+      "name_zh": "最大速度",
+      "name_en": "Maximum Velocity",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "仅当本回合你推进过三次或更多时才能使用此牌。",
+      "text_en": "Play this only if you've boosted 3 or more times this turn.",
+      "source": "https://cards.fabtcg.com/card/maximum_velocity/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "10",
+          "defense": "3"
+        }
+      }
+    },
+    "mechanical_strength": {
+      "id": "mechanical_strength",
+      "name_zh": "机械力量",
+      "name_en": "Mechanical Strength",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "进化升级——此牌获得+X力量，X为你已装备的进化装备数量。",
+      "text_en": "Evo Upgrade - This gets +X{p}, where X is the number of Evos you have equipped.",
+      "source": "https://cards.fabtcg.com/card/mechanical_strength/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "medkit": {
+      "id": "medkit",
+      "name_zh": "医疗包",
+      "name_en": "Medkit",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "行动——将此牌置于其拥有者的牌库底：获得2点生命。",
+      "text_en": "Action - Put this on the bottom of its owner's deck: Gain 2{h}",
+      "source": "https://cards.fabtcg.com/card/medkit/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "meganetic_lockwave": {
+      "id": "meganetic_lockwave",
+      "name_zh": "磁力锁定波",
+      "name_en": "Meganetic Lockwave",
+      "type_zh": "机械师 行动",
+      "text_zh": "目标英雄选择其控制的X件装备，然后你从其中选择1件。该英雄本回合若能够，必须用那件装备防御你的攻击。\n再动",
+      "text_en": "Target hero chooses X equipment they control, then you choose 1 from among them. That hero must defend your attacks this turn with that equipment if able. \nGo again",
+      "source": "https://cards.fabtcg.com/card/meganetic_lockwave/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go Again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "XXX",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "meganetic_protocol": {
+      "id": "meganetic_protocol",
+      "name_zh": "磁力协议",
+      "name_en": "Meganetic Protocol",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "进化升级——防御英雄若能够，必须用其控制的带有-1防御指示物的X件装备防御此牌，X为你已装备的进化装备数量。",
+      "text_en": "Evo Upgrade - The defending hero must defend this with X equipment they control with -1{d} counters if able, where X is the number of Evos you have equipped.",
+      "source": "https://cards.fabtcg.com/card/meganetic_protocol/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "meganetic_shockwave": {
+      "id": "meganetic_shockwave",
+      "name_zh": "磁力冲击波",
+      "name_en": "Meganetic Shockwave",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "防御英雄必须用其控制的X件装备防御磁力冲击波，X为本战斗链中你推进的次数。",
+      "text_en": "The defending hero must defend Meganetic Shockwave with X equipment they control, where X is the number of times you have boosted this combat chain.",
+      "source": "https://cards.fabtcg.com/card/meganetic_shockwave/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "metex": {
+      "id": "metex",
+      "name_zh": "金属织机",
+      "name_en": "MetEx",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，你可以将你手牌中一张费用为0或1的物品放入竞技场。",
+      "text_en": "Boost\nWhen this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+      "source": "https://cards.fabtcg.com/card/metex/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "mhz_script": {
+      "id": "mhz_script",
+      "name_zh": "兆赫脚本",
+      "name_en": "MHz Script",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n你的机械师攻击行动牌获得再动。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nYour Mechanologist attack action cards get go again.",
+      "source": "https://cards.fabtcg.com/card/mhz_script/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "micro_processor": {
+      "id": "micro_processor",
+      "name_zh": "微处理器",
+      "name_en": "Micro-processor",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "数据娃娃专精\n每回合一次行动——费用0：占卜1\n每回合一次行动——费用0：抽一张牌，然后将你手牌中的一张牌置于你的牌库顶。\n每回合一次行动——费用0：放逐你牌库顶的一张牌。\n每回合你第一次启动微处理器时，获得1个行动点。",
+      "text_en": "Data Doll Specialization\nOnce Per Turn Action - 0: Opt 1\nOnce Per Turn Action - 0: Draw a card then put a card from your hand on top of your deck.\nOnce Per Turn Action - 0: Banish the top card of your deck.\nThe first time you activate Micro-processor each turn, gain 1 action point.",
+      "source": "https://cards.fabtcg.com/card/micro_processor/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mini_forcefield": {
+      "id": "mini_forcefield",
+      "name_zh": "迷你力场",
+      "name_en": "Mini Forcefield",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有4个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n结界X，X为此牌上的蒸汽指示物数量。",
+      "text_en": "Crank\nThis enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.\nWard X, where X is the number of steam counters on this.",
+      "source": "https://cards.fabtcg.com/card/mini_forcefield/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank",
+        "Ward X"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "moonshot": {
+      "id": "moonshot",
+      "name_zh": "登月一击",
+      "name_en": "Moonshot",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "仅当本回合你推进过时才能使用此牌。作为使用此牌的额外费用，摧毁你控制的X张超频驱动器。\n当此牌攻击时，每有一张以此方式摧毁的超频驱动器，它获得+3力量。\n若此牌的力量为10或更高，它获得压制。",
+      "text_en": "Play this only if you've boosted this turn. As an additional cost to play this, destroy X Hyper Drivers you control.\nWhen this attacks, it gets +3{p} for each Hyper Driver destroyed this way.\nIf this has 10 or more {p}, it gets overpower.",
+      "source": "https://cards.fabtcg.com/card/moonshot/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "XX",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "null_time_zone": {
+      "id": "null_time_zone",
+      "name_zh": "零点时区",
+      "name_en": "Null Time Zone",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有2个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n当此牌进入竞技场时，说出一张牌名。当此牌在竞技场中时，被说出的牌不能被资源或从手牌使用。",
+      "text_en": "Crank\nThis enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.\nWhen this enters the arena, name a card. The named card can't be pitched or played from hand while this is in the arena.",
+      "source": "https://cards.fabtcg.com/card/null_time_zone/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "optekal_monocle": {
+      "id": "optekal_monocle",
+      "name_zh": "光学单眼镜",
+      "name_en": "Optekal Monocle",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "光学单眼镜进入竞技场时带有5个蒸汽指示物。当光学单眼镜上的蒸汽指示物用完时，摧毁它。\n行动——从光学单眼镜上移除一个蒸汽指示物：占卜1。再动",
+      "text_en": "Optekal Monocle enters the arena with 5 steam counters on it. When Optekal Monocle has no steam counters on it, destroy it.\nAction - Remove a steam counter from Optekal Monocle: Opt 1. Go again",
+      "source": "https://cards.fabtcg.com/card/optekal_monocle/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "out_pace": {
+      "id": "out_pace",
+      "name_zh": "超越速度",
+      "name_en": "Out Pace",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n此牌不能被装备防御。",
+      "text_en": "Boost\nThis can't be defended by equipment.",
+      "source": "https://cards.fabtcg.com/card/out_pace/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "over_loop": {
+      "id": "over_loop",
+      "name_zh": "超循环",
+      "name_en": "Over Loop",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，将其置于其拥有者的牌库底。",
+      "text_en": "Boost\nWhen this hits, put it on the bottom of its owner's deck.",
+      "source": "https://cards.fabtcg.com/card/over_loop/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "overblast": {
+      "id": "overblast",
+      "name_zh": "过爆",
+      "name_en": "Overblast",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "过爆获得+X力量，X为本战斗链中你推进的次数。",
+      "text_en": "Overblast gains +X{p}, where X is the number of times you have boosted this combat chain.",
+      "source": "https://cards.fabtcg.com/card/overblast/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "overload_script": {
+      "id": "overload_script",
+      "name_zh": "过载脚本",
+      "name_en": "Overload Script",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n你的机械师攻击行动牌获得压制。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nYour Mechanologist attack action cards get overpower.",
+      "source": "https://cards.fabtcg.com/card/overload_script/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "palantir_aeronought": {
+      "id": "palantir_aeronought",
+      "name_zh": "晶球飞舟",
+      "name_en": "Palantir Aeronought",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "防御英雄若能够，必须用其控制的一件装备防御此牌。\n每回合三次瞬间——横置你控制的一个齿轮：此牌获得+1力量。若这是你第三次启动此异能，摧毁一张防御牌。",
+      "text_en": "The defending hero must defend this with an equipment they control if able.\nThrice per Turn Instant - {t} a cog you control: This gets +1{p}. If this is the third time you've activated this ability, destroy a defending card.",
+      "source": "https://cards.fabtcg.com/card/palantir_aeronought/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "panel_beater": {
+      "id": "panel_beater",
+      "name_zh": "钣金锤",
+      "name_en": "Panel Beater",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n此牌获得+X力量，X为防御它的装备数量。",
+      "text_en": "Boost\nThis gets +X{p}, where X is the number of equipment defending it.",
+      "source": "https://cards.fabtcg.com/card/panel_beater/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "payload": {
+      "id": "payload",
+      "name_zh": "有效载荷",
+      "name_en": "Payload",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若本战斗链中你推进过，有效载荷获得支配。",
+      "text_en": "If you have boosted this combat chain, Payload gains dominate.",
+      "source": "https://cards.fabtcg.com/card/payload/",
+      "status": "machine-draft",
+      "keywords": [
+        "Dominate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "pedal_to_the_metal": {
+      "id": "pedal_to_the_metal",
+      "name_zh": "油门踩到底",
+      "name_en": "Pedal to the Metal",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若踩油门到底命中，你本回合的下一次攻击获得支配。\n推进",
+      "text_en": "If Pedal to the Metal hits, your next attack this turn gains dominate.\nBoost",
+      "source": "https://cards.fabtcg.com/card/pedal_to_the_metal/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "penetration_script": {
+      "id": "penetration_script",
+      "name_zh": "穿透脚本",
+      "name_en": "Penetration Script",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n你的机械师攻击行动牌获得+1力量。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nYour Mechanologist attack action cards get +1{p}.",
+      "source": "https://cards.fabtcg.com/card/penetration_script/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "perk_up": {
+      "id": "perk_up",
+      "name_zh": "振作",
+      "name_en": "Perk Up",
+      "type_zh": "机械师 行动",
+      "text_zh": "你本回合的下一次机械师攻击获得+4力量。\n你可以重置你的英雄。\n再动",
+      "text_en": "Your next Mechanologist attack this turn gets +4{p}.\nYou may {u} your hero.\nGo again",
+      "source": "https://cards.fabtcg.com/card/perk_up/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "pinion_sentry": {
+      "id": "pinion_sentry",
+      "name_zh": "齿轮哨兵",
+      "name_en": "Pinion Sentry",
+      "type_zh": "机械师 阻挡",
+      "text_zh": "当此牌防御时，你可以横置你控制的一个齿轮。若如此做，创造一个金齿轮衍生物。",
+      "text_en": "When this defends, you may {t} a cog you control. If you do, create a Golden Cog token.",
+      "source": "https://cards.fabtcg.com/card/pinion_sentry/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "plasma_barrel_shot": {
+      "id": "plasma_barrel_shot",
+      "name_zh": "等离子炮膛射击",
+      "name_en": "Plasma Barrel Shot",
+      "type_zh": "机械师 武器·Gun （双手）",
+      "text_zh": "每回合一次行动——从等离子炮膛射击上移除一个蒸汽指示物：攻击\n行动——支付2点资源：若等离子炮膛射击上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动\nX为1加上本战斗链中你推进的次数。",
+      "text_en": "Once per Turn Action - Remove a steam counter from Plasma Barrel Shot: Attack\nAction - {r}{r}: If there are no steam counters on Plasma Barrel Shot, put a steam counter on it. Go again\nX is equal to 1 plus the number of times you have boosted this combat chain.",
+      "source": "https://cards.fabtcg.com/card/plasma_barrel_shot/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "X",
+          "defense": null
+        }
+      }
+    },
+    "plasma_mainline": {
+      "id": "plasma_mainline",
+      "name_zh": "等离子主管线",
+      "name_en": "Plasma Mainline",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "等离子主管线进入竞技场时带有5个蒸汽指示物。当其用完时，摧毁它。\n当一张费用为2或更低的机械师物品在你控制下进入竞技场时，你可以将一个蒸汽指示物从等离子主管线移动到该物品上。",
+      "text_en": "Plasma Mainline enters the arena with 5 steam counters on it. When it has no steam counters, destroy it.\nWhen a Mechanologist item with cost 2 or less enters the arena under your control, you may move a steam counter from Plasma Mainline to that item.",
+      "source": "https://cards.fabtcg.com/card/plasma_mainline/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "plasma_purifier": {
+      "id": "plasma_purifier",
+      "name_zh": "等离子净化器",
+      "name_en": "Plasma Purifier",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "行动——支付1点资源：若等离子净化器上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动\n每回合一次行动——从等离子净化器上移除一个蒸汽指示物：你控制的目标机械师手枪直到回合结束获得+1力量。再动",
+      "text_en": "Action - {r}: If there are no steam counters on Plasma Purifier, put a steam counter on it. Go again\nOnce per Turn Action - Remove a steam counter from Plasma Purifier: Target Mechanologist pistol you control gains +1{p} until end of turn. Go again",
+      "source": "https://cards.fabtcg.com/card/plasma_purifier/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "polarity_reversal_script": {
+      "id": "polarity_reversal_script",
+      "name_zh": "极性反转脚本",
+      "name_en": "Polarity Reversal Script",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n当防御你的机械师攻击行动牌时，行动牌获得-1防御。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nAction cards get -1{d} while defending your Mechanologist attack action cards.",
+      "source": "https://cards.fabtcg.com/card/polarity_reversal_script/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "pour_the_mold": {
+      "id": "pour_the_mold",
+      "name_zh": "浇铸模具",
+      "name_en": "Pour the Mold",
+      "type_zh": "机械师 行动",
+      "text_zh": "将你手牌中一张费用为2或更低的机械师物品放入竞技场。\n若本回合你推进过，在其上放置一个蒸汽指示物。\n再动",
+      "text_en": "Put a Mechanologist item with cost 2 or less from your hand into the arena.\nIf you have boosted this turn, put a steam counter on it.\nGo again",
+      "source": "https://cards.fabtcg.com/card/pour_the_mold/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "powder_keg": {
+      "id": "powder_keg",
+      "name_zh": "火药桶",
+      "name_en": "Powder Keg",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "每当你控制的机械师枪命中时，你可以摧毁火药桶和一件防御装备。",
+      "text_en": "Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.",
+      "source": "https://cards.fabtcg.com/card/powder_keg/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "prismatic_lens": {
+      "id": "prismatic_lens",
+      "name_zh": "棱彩镜片",
+      "name_en": "Prismatic Lens",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n每回合一次瞬间——费用0：展示你牌库顶的一张牌。将你放逐区中一张同色的机械师物品置于你的牌库顶。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nOnce per Turn Instant - 0: Reveal the top card of your deck. Put a Mechanologist item of the same color from your banished zone on top of your deck.",
+      "source": "https://cards.fabtcg.com/card/prismatic_lens/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "pulsewave_harpoon": {
+      "id": "pulsewave_harpoon",
+      "name_zh": "脉冲波鱼叉",
+      "name_en": "Pulsewave Harpoon",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，该英雄展示其手牌中的X张牌，X为本战斗链中你推进的次数。选择一张防御小于或等于X的行动牌，然后将其作为防御牌加入此链环。\n推进",
+      "text_en": "When this attacks a hero, they reveal X cards from their hand, where X is the number of times you've boosted this combat chain. Choose an action card with {d} less than or equal to X, then add it to this chain link as a defending card.\nBoost",
+      "source": "https://cards.fabtcg.com/card/pulsewave_harpoon/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "pulsewave_protocol": {
+      "id": "pulsewave_protocol",
+      "name_zh": "脉冲波协议",
+      "name_en": "Pulsewave Protocol",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "进化升级——当此牌攻击英雄时，该英雄展示其手牌中的X张牌，X为你已装备的进化装备数量。选择一张防御小于X的行动牌，然后将其作为防御牌加入此链环。",
+      "text_en": "Evo Upgrade - When this attacks a hero, they reveal X cards from their hand, where X is the number of Evos you have equipped. Choose an action card with {d} less than X, then add it to this chain link as a defending card.",
+      "source": "https://cards.fabtcg.com/card/pulsewave_protocol/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "quantum_processor": {
+      "id": "quantum_processor",
+      "name_zh": "量子处理器",
+      "name_en": "Quantum Processor",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n每回合一次瞬间——费用0：将你手牌中一张费用为0或1的机械师物品放入竞技场。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nOnce per Turn Instant - 0: Put a Mechanologist item with cost 0 or 1 from your hand into the arena.",
+      "source": "https://cards.fabtcg.com/card/quantum_processor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "quickfire": {
+      "id": "quickfire",
+      "name_zh": "速射",
+      "name_en": "Quickfire",
+      "type_zh": "机械师 行动",
+      "text_zh": "每当你控制一张超频驱动器，此牌的使用费用减少1点资源。\n本回合你推进的下一次攻击获得+4力量。\n再动",
+      "text_en": "This costs {r} less to play for each Hyper Driver you control.\nThe next attack you boost this turn gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/quickfire/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "ratchet_up": {
+      "id": "ratchet_up",
+      "name_zh": "棘轮加力",
+      "name_en": "Ratchet Up",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若本回合你控制的一个物品被摧毁过，当防御此牌时，行动牌获得-1防御。\n激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+2防御。",
+      "text_en": "If an item you control has been destroyed this turn, action cards get -1{d} while defending this.\nGalvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/ratchet_up/",
+      "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "razzle_dazzle": {
+      "id": "razzle_dazzle",
+      "name_zh": "眼花缭乱",
+      "name_en": "Razzle Dazzle",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/razzle_dazzle/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "re_charge": {
+      "id": "re_charge",
+      "name_zh": "重新充能",
+      "name_en": "Re-Charge!",
+      "type_zh": "机械师 行动",
+      "text_zh": "在你控制的一张超频驱动器上放置一个蒸汽指示物。\n本回合你推进的下一次攻击获得+4力量。\n再动",
+      "text_en": "Put a steam counter on a Hyper Driver you control.\nThe next attack you boost this turn gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/re_charge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "rev_up": {
+      "id": "rev_up",
+      "name_zh": "加速",
+      "name_en": "Rev Up",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若你控制一张超频驱动器，此牌的使用费用减少1点资源。\n推进",
+      "text_en": "If you control a Hyper Driver, this costs {r} less to play.\nBoost",
+      "source": "https://cards.fabtcg.com/card/rev_up/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "rotary_ram": {
+      "id": "rotary_ram",
+      "name_zh": "旋转冲压",
+      "name_en": "Rotary Ram",
+      "type_zh": "机械师 行动",
+      "text_zh": "你本回合使用的下一张机械师攻击行动牌获得+3力量。\n若本回合你推进过，将旋转冲压置于你的牌库底。\n再动",
+      "text_en": "The next Mechanologist attack action card you play this turn gains +3{p}.\nIf you have boosted this turn, put Rotary Ram on the bottom of your deck.\nGo again",
+      "source": "https://cards.fabtcg.com/card/rotary_ram/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "scramble_pulse": {
+      "id": "scramble_pulse",
+      "name_zh": "扰动脉冲",
+      "name_en": "Scramble Pulse",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "本战斗链中当防御此牌时，装备获得-1防御。\n推进",
+      "text_en": "Equipment have -1{d} while defending this combat chain.\nBoost",
+      "source": "https://cards.fabtcg.com/card/scramble_pulse/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "scrap_compactor": {
+      "id": "scrap_compactor",
+      "name_zh": "废铁压实机",
+      "name_en": "Scrap Compactor",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "废铁\n当此牌攻击时，若它废掉过一张牌，本回合你可以将你的下一张进化牌当作瞬间使用。",
+      "text_en": "Scrap\nWhen this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.",
+      "source": "https://cards.fabtcg.com/card/scrap_compactor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Scrap"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "scrap_harvester": {
+      "id": "scrap_harvester",
+      "name_zh": "废铁收割机",
+      "name_en": "Scrap Harvester",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "废铁\n当此牌攻击时，若它废掉过一张牌，在你控制的一个具有上弦的物品上放置一个蒸汽指示物。",
+      "text_en": "Scrap\nWhen this attacks, if it scrapped a card, put a steam counter on an item you control with crank.",
+      "source": "https://cards.fabtcg.com/card/scrap_harvester/",
+      "status": "machine-draft",
+      "keywords": [
+        "Scrap"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "scrap_hopper": {
+      "id": "scrap_hopper",
+      "name_zh": "废铁漏斗",
+      "name_en": "Scrap Hopper",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "废铁\n当此牌攻击时，若它废掉过一张牌，创造一个加速衍生物。",
+      "text_en": "Scrap\nWhen this attacks, if it scrapped a card, create a Quicken token.",
+      "source": "https://cards.fabtcg.com/card/scrap_hopper/",
+      "status": "machine-draft",
+      "keywords": [
+        "Scrap"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "scrap_prospector": {
+      "id": "scrap_prospector",
+      "name_zh": "废铁勘探者",
+      "name_en": "Scrap Prospector",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "废铁\n当此牌攻击时，若它废掉过一张牌，获得1点资源。",
+      "text_en": "Scrap\nWhen this attacks, if it scrapped a card, gain {r}.",
+      "source": "https://cards.fabtcg.com/card/scrap_prospector/",
+      "status": "machine-draft",
+      "keywords": [
+        "Scrap"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "scrap_trader": {
+      "id": "scrap_trader",
+      "name_zh": "废铁商人",
+      "name_en": "Scrap Trader",
+      "type_zh": "机械师 行动",
+      "text_zh": "废铁\n废铁\n此牌每废掉一张牌，获得2点资源。",
+      "text_en": "Scrap\nScrap\nGain {r}{r} for each card this scrapped.",
+      "source": "https://cards.fabtcg.com/card/scrap_trader/",
+      "status": "machine-draft",
+      "keywords": [
+        "Scrap"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "security_script": {
+      "id": "security_script",
+      "name_zh": "安全脚本",
+      "name_en": "Security Script",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n你的机械师攻击行动牌获得+1防御。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nYour Mechanologist attack action cards get +1{d}.",
+      "source": "https://cards.fabtcg.com/card/security_script/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "signal_jammer": {
+      "id": "signal_jammer",
+      "name_zh": "信号干扰器",
+      "name_en": "Signal Jammer",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "信号干扰器进入竞技场时带有一个蒸汽指示物。\n在你的行动阶段开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n每位英雄每回合不能使用超过1张“非攻击”行动牌。",
+      "text_en": "Signal Jammer enters the arena with a steam counter on it.\nAt the beginning of your action phase, destroy Signal Jammer unless you remove a steam counter from it.\nEach hero can't play more than 1 'non-attack' action card each turn.",
+      "source": "https://cards.fabtcg.com/card/signal_jammer/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "singularity": {
+      "id": "singularity",
+      "name_zh": "奇点",
+      "name_en": "Singularity",
+      "type_zh": "机械师 行动·Construct",
+      "text_zh": "传奇泰克洛沃森专精\n将你的英雄、你的武器和你已装备的4件进化装备转化为泰克洛沃森，机械至尊。它进入竞技场时带有与其转化来源的英雄等量的生命。",
+      "text_en": "Legendary Teklovossen Specialization\nTransform your hero, your weapon, and 4 Evos you have equipped into Teklovossen, the Mechropotent. It enters the arena with {h} equal to the hero it transformed from.",
+      "source": "https://cards.fabtcg.com/card/singularity/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Legendary"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sky_skimmer": {
+      "id": "sky_skimmer",
+      "name_zh": "掠空者",
+      "name_en": "Sky Skimmer",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "每回合一次瞬间——横置你控制的一个齿轮：此牌获得+1力量或再动。",
+      "text_en": "Once per Turn Instant - {t} a cog you control: This gets +1{p} or go again.",
+      "source": "https://cards.fabtcg.com/card/sky_skimmer/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "skywarden_no_161803": {
+      "id": "skywarden_no_161803",
+      "name_zh": "天空守望者161803号",
+      "name_en": "Skywarden no.161803",
+      "type_zh": "海盗 机械师 行动·攻击",
+      "text_zh": "激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+1防御。若以此方式摧毁的是金齿轮，创造一个金币衍生物。",
+      "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token.",
+      "source": "https://cards.fabtcg.com/card/skywarden_no_161803/",
+      "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "smash_and_grab": {
+      "id": "smash_and_grab",
+      "name_zh": "破窗抢劫",
+      "name_en": "Smash and Grab",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若本回合你推进过两次或更多，此牌获得+2力量，以及“当此牌命中英雄时，获得其控制的一个物品的控制权。”",
+      "text_en": "If you've boosted 2 or more times this turn, this gets +2{p} and \"When this hits a hero, gain control of an item they control.\"",
+      "source": "https://cards.fabtcg.com/card/smash_and_grab/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "soup_up": {
+      "id": "soup_up",
+      "name_zh": "增强马力",
+      "name_en": "Soup Up",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若本回合你控制的一个物品被摧毁过，此牌获得再动。\n激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+2防御。",
+      "text_en": "If an item you control has been destroyed this turn, this gets go again.\nGalvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/soup_up/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Galvanize"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "spark_of_genius": {
+      "id": "spark_of_genius",
+      "name_zh": "天才火花",
+      "name_en": "Spark of Genius",
+      "type_zh": "机械师 行动",
+      "text_zh": "达什专精\n从你的牌库中搜寻一张费用为X的机械师物品牌，将其放入竞技场，然后洗牌。\n若本回合你推进过，抽一张牌。",
+      "text_en": "Dash Specialization\nSearch your deck for a Mechanologist item card with cost X, put it into the arena, then shuffle your deck.\nIf you have boosted this turn, draw a card.",
+      "source": "https://cards.fabtcg.com/card/spark_of_genius/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "XX",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "speed_demon": {
+      "id": "speed_demon",
+      "name_zh": "极速恶魔",
+      "name_en": "Speed Demon",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "废铁\n若你控制一张超频驱动器，此牌获得+1力量。\n当此牌攻击时，若它废掉过一张超频驱动器，创造一个带有2个蒸汽指示物的超频驱动器衍生物。",
+      "text_en": "Scrap\nIf you control a Hyper Driver, this gets +1{p}.\nWhen this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token with 2 steam counters.",
+      "source": "https://cards.fabtcg.com/card/speed_demon/",
+      "status": "machine-draft",
+      "keywords": [
+        "Scrap"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "spitfire": {
+      "id": "spitfire",
+      "name_zh": "喷火枪",
+      "name_en": "Spitfire",
+      "type_zh": "机械师 武器·Gun （双手）",
+      "text_zh": "行动——横置此牌，横置你控制的一个齿轮：攻击\n当此牌攻击时，你可以横置你控制的一个齿轮。若如此做，该攻击获得+1力量。",
+      "text_en": "Action - {t}, {t} a cog you control: Attack\nWhen this attacks, you may {t} a cog you control. If you do, the attack gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/spitfire/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "spring_a_leak": {
+      "id": "spring_a_leak",
+      "name_zh": "出现泄漏",
+      "name_en": "Spring a Leak",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中英雄时，从其控制的一件装备、物品或武器上移除所有蒸汽指示物。",
+      "text_en": "Boost\nWhen this hits a hero, remove all steam counters from an equipment, item, or weapon they control.",
+      "source": "https://cards.fabtcg.com/card/spring_a_leak/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "sprocket_rocket": {
+      "id": "sprocket_rocket",
+      "name_zh": "链轮火箭",
+      "name_en": "Sprocket Rocket",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n若一个物品或装备因推进此牌被放逐，此牌获得+1力量。",
+      "text_en": "Boost\nIf an item or equipment was banished from boosting this, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/sprocket_rocket/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "stasis_cell": {
+      "id": "stasis_cell",
+      "name_zh": "停滞舱",
+      "name_en": "Stasis Cell",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "当此牌进入或离开竞技场时，目标装备的启动式异能直到其操控者的下一个回合结束不能启动。\n行动——将此牌置于其拥有者的牌库底：选择一件装备。它本回合不能防御。再动",
+      "text_en": "When this enters or leaves the arena, activated abilities of target equipment can't be activated until the end of its controller's next turn.\nAction - Put this on the bottom of its owner's deck: Choose an equipment. It can't defend this turn. Go again",
+      "source": "https://cards.fabtcg.com/card/stasis_cell/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "steam_canister": {
+      "id": "steam_canister",
+      "name_zh": "蒸汽罐",
+      "name_en": "Steam Canister",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "瞬间——将此牌置于其拥有者的牌库底：在你控制的一个具有上弦的物品上放置一个蒸汽指示物。",
+      "text_en": "Instant - Put this on the bottom of its owner's deck: Put a steam counter on an item you control with crank.",
+      "source": "https://cards.fabtcg.com/card/steam_canister/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "steel_street_enforcement": {
+      "id": "steel_street_enforcement",
+      "name_zh": "钢街执法",
+      "name_en": "Steel Street Enforcement",
+      "type_zh": "机械师 阻挡",
+      "text_zh": "进化升级——当此牌防御时，它获得+X防御，X为你已装备的进化装备数量。",
+      "text_en": "Evo Upgrade - While this is defending, it gets +X{d}, where X is the number of Evos you have equipped.",
+      "source": "https://cards.fabtcg.com/card/steel_street_enforcement/",
+      "status": "machine-draft",
+      "keywords": [
+        "Evo Upgrade"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "steel_street_hoons": {
+      "id": "steel_street_hoons",
+      "name_zh": "钢街飙车党",
+      "name_en": "Steel Street Hoons",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n若本回合你控制的一个物品被摧毁过，此牌获得+2力量。\n激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+2防御。",
+      "text_en": "Boost\nIf an item you control has been destroyed this turn, this gets +2{p}.\nGalvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d).",
+      "source": "https://cards.fabtcg.com/card/steel_street_hoons/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost",
+        "Galvanize"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "supercell": {
+      "id": "supercell",
+      "name_zh": "超级单体风暴",
+      "name_en": "Supercell",
+      "type_zh": "机械师 行动",
+      "text_zh": "在你控制的X张目标超频驱动器上放置X个蒸汽指示物。\n创造一个带有X个蒸汽指示物的超频驱动器衍生物。\n若X为3或更高，你可以将你放逐区中的一张组装硝基机甲洗入你的牌库。",
+      "text_en": "Put X steam counters on X target Hyper Drivers you control.\nCreate a Hyper Driver token with X steam counters.\nIf X is 3 or greater, you may shuffle a Construct Nitro Mechanoid from your banished zone into your deck.",
+      "source": "https://cards.fabtcg.com/card/supercell/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "X",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "symbiosis_shot": {
+      "id": "symbiosis_shot",
+      "name_zh": "共生射击",
+      "name_en": "Symbiosis Shot",
+      "type_zh": "机械师 武器·Gun （双手）",
+      "text_zh": "达什专精\n行动——从此牌上移除一个蒸汽指示物：攻击\n每当你控制下有机械师物品进入竞技场时，若此牌上的蒸汽指示物少于6个，你可以在此牌上放置一个蒸汽指示物。",
+      "text_en": "Dash Specialization\nAction - Remove a steam counter from this: Attack\nWhenever a Mechanologist item enters the arena under your control, if this has fewer than 6 steam counters, you may put a steam counter on this.",
+      "source": "https://cards.fabtcg.com/card/symbiosis_shot/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "system_failure": {
+      "id": "system_failure",
+      "name_zh": "系统故障",
+      "name_en": "System Failure",
+      "type_zh": "机械师 行动",
+      "text_zh": "从目标装备、物品或武器上移除所有蒸汽指示物。若以此方式移除了2个或更多蒸汽指示物，对其操控者造成2点伤害。",
+      "text_en": "Remove all steam counters from target equipment, item, or weapon. If 2 or more steam counters are removed this way, deal 2 damage to its controler.",
+      "source": "https://cards.fabtcg.com/card/system_failure/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "system_reset": {
+      "id": "system_reset",
+      "name_zh": "系统重置",
+      "name_en": "System Reset",
+      "type_zh": "机械师 行动",
+      "text_zh": "放逐你控制的费用为0或1的X个机械师物品，然后将其在其拥有者的控制下移回竞技场。",
+      "text_en": "Banish X Mechanologist items you control with cost 0 or 1, then return them to the arena under their owners' control.",
+      "source": "https://cards.fabtcg.com/card/system_reset/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "X",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "t_bone": {
+      "id": "t_bone",
+      "name_zh": "T形撞击",
+      "name_en": "T-Bone",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若你控制战斗链上的一张曾被推进的牌，防御英雄若能够，必须用其控制的一件装备防御此牌。\n推进",
+      "text_en": "If you control a card on the combat chain that was boosted, the defending hero must defend this with an equipment they control if able.\nBoost",
+      "source": "https://cards.fabtcg.com/card/t_bone/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "teeth_of_the_cog": {
+      "id": "teeth_of_the_cog",
+      "name_zh": "齿轮之齿",
+      "name_en": "Teeth of the Cog",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，创造一个金齿轮衍生物。",
+      "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.",
+      "source": "https://cards.fabtcg.com/card/teeth_of_the_cog/",
+      "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "teklo_blaster": {
+      "id": "teklo_blaster",
+      "name_zh": "泰克洛爆能枪",
+      "name_en": "Teklo Blaster",
+      "type_zh": "机械师 武器·Gun （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack",
+      "source": "https://cards.fabtcg.com/card/teklo_blaster/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "teklo_core": {
+      "id": "teklo_core",
+      "name_zh": "泰克洛核心",
+      "name_en": "Teklo Core",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "达什专精\n泰克洛核心进入竞技场时带有2个蒸汽指示物。当泰克洛核心上的蒸汽指示物用完时，摧毁它。\n在你的行动阶段开始时，从泰克洛核心上移除一个蒸汽指示物并获得2点资源。",
+      "text_en": "Dash Specialization\nTeklo Core enters the arena with 2 steam counters on it. When Teklo Core has no steam counters on it, destroy it.\nAt the beginning of your action phase, remove a steam counter from Teklo Core and gain {r}{r}.",
+      "source": "https://cards.fabtcg.com/card/teklo_core/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "teklo_leveler": {
+      "id": "teklo_leveler",
+      "name_zh": "泰克洛平权者",
+      "name_en": "Teklo Leveler",
+      "type_zh": "机械师 武器·Gun （双手）",
+      "text_zh": "若你装备了1件或更多进化装备，此牌获得“每回合一次行动——支付3点资源：攻击”；\n装备2件或更多，此牌的启动费用减少2点资源；\n装备3件或更多，此牌获得再动；\n装备4件或更多，此牌获得+1力量。",
+      "text_en": "If you have 1 or more Evos equipped, this gets \"Once per Turn Action - {r}{r}{r}: Attack,\"\n\n2 or more, this costs {r}{r} less to activate,\n3 or more, this gets go again,\n4 or more, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/teklo_leveler/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "teklo_plasma_pistol": {
+      "id": "teklo_plasma_pistol",
+      "name_zh": "泰克洛等离子手枪",
+      "name_en": "Teklo Plasma Pistol",
+      "type_zh": "机械师 武器·Pistol （双手）",
+      "text_zh": "行动——从泰克洛等离子手枪上移除一个蒸汽指示物：攻击\n行动——支付1点资源：若泰克洛等离子手枪上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动",
+      "text_en": "Action - Remove a steam counter from Teklo Plasma Pistol: Attack\nAction - {r}: If there are no steam counters on Teklo Plasma Pistol, put a steam counter on it. Go again",
+      "source": "https://cards.fabtcg.com/card/teklo_plasma_pistol/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "teklo_pounder": {
+      "id": "teklo_pounder",
+      "name_zh": "泰克洛重锤",
+      "name_en": "Teklo Pounder",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "此牌进入竞技场时带有3个蒸汽指示物。当其用完时，摧毁它。\n每回合一次，当你推进一张攻击行动牌时，从此牌上移除一个蒸汽指示物。若如此做，该攻击获得+2力量。",
+      "text_en": "This enters the arena with 3 steam counters on it. When this has none, destroy it.\nOnce per turn, when you boost an attack action card, remove a steam counter from this. If you do, the attack gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/teklo_pounder/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "teklo_trebuchet_2000": {
+      "id": "teklo_trebuchet_2000",
+      "name_zh": "泰克洛投石车2000",
+      "name_en": "Teklo Trebuchet 2000",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "当此牌攻击时，本战斗链中你推进的下一次攻击获得+2力量。\n推进",
+      "text_en": "When this attacks, the next attack you boost this combat chain gets +2{p}.\nBoost",
+      "source": "https://cards.fabtcg.com/card/teklo_trebuchet_2000/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "teklonetic_force_field": {
+      "id": "teklonetic_force_field",
+      "name_zh": "泰克洛动能力场",
+      "name_en": "Teklonetic Force Field",
+      "type_zh": "机械师 阻挡",
+      "text_zh": "当此牌防御具有压制的攻击时，此牌获得+2防御。",
+      "text_en": "When this defends an attack with overpower, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/teklonetic_force_field/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "teklovossens_workshop": {
+      "id": "teklovossens_workshop",
+      "name_zh": "泰克洛沃森的工坊",
+      "name_en": "Teklovossen's Workshop",
+      "type_zh": "机械师 行动",
+      "text_zh": "占卜X，X为本回合你推进的次数。\n展示你牌库顶的一张牌。若其为费用为2或更低的机械师物品牌，将其放入竞技场。",
+      "text_en": "Opt X, where X is the number of times you have boosted this turn.\nReveal the top card of your deck. If it's a Mechanologist item card with cost 2 or less, put it into the arena.",
+      "source": "https://cards.fabtcg.com/card/teklovossens_workshop/",
+      "status": "machine-draft",
+      "keywords": [
+        "Opt X"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "terminator_tank": {
+      "id": "terminator_tank",
+      "name_zh": "终结者坦克",
+      "name_en": "Terminator Tank",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若你装备了1件或更多进化装备，此牌获得“当此牌命中英雄时，该英雄弃一张牌”；\n装备2件或更多，此牌的使用费用减少3点资源；\n装备3件或更多，此牌获得压制；\n装备4件或更多，此牌获得+3力量。",
+      "text_en": "If you have 1 or more Evos equipped, this gets \"When this hits a hero, they discard a card,\"\n\n2 or more, this costs {r}{r}{r} less to play,\n3 or more, this gets overpower,\n4 or more, this gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/terminator_tank/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "throttle": {
+      "id": "throttle",
+      "name_zh": "节流阀",
+      "name_en": "Throttle",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/throttle/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "tick_tock_clock": {
+      "id": "tick_tock_clock",
+      "name_zh": "滴答时钟",
+      "name_en": "Tick Tock Clock",
+      "type_zh": "机械师 行动·物品",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它并对你造成1点伤害。\n当你控制的机械师攻击行动牌命中英雄时，摧毁此牌和竞技场中的至多2个其他物品。然后对其造成X点伤害，X为此方式摧毁的物品数量。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this and it deals 1 damage to you unless you remove a steam counter from it.\nWhen a Mechanologist attack action card you control hits a hero, destroy this and up to 2 other items in the arena. Then deal X damage to them, where X is the number of items destroyed this way.",
+      "source": "https://cards.fabtcg.com/card/tick_tock_clock/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crank"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "tighten_the_screws": {
+      "id": "tighten_the_screws",
+      "name_zh": "拧紧螺丝",
+      "name_en": "Tighten the Screws",
+      "type_zh": "机械师 行动",
+      "text_zh": "你本回合的下一次机械师攻击获得+4力量。\n你可以重置你控制的一个齿轮。\n再动",
+      "text_en": "Your next Mechanologist attack this turn gets +4{p}.\nYou may {u} a cog you control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tighten_the_screws/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "torque_tuned": {
+      "id": "torque_tuned",
+      "name_zh": "扭矩调校",
+      "name_en": "Torque Tuned",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若本回合你控制的一个物品被摧毁过，此牌获得压制。\n激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+2防御。",
+      "text_en": "If an item you control has been destroyed this turn, this gets overpower.\nGalvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/torque_tuned/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower",
+        "Galvanize"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "tough_old_wrench": {
+      "id": "tough_old_wrench",
+      "name_zh": "耐用老扳手",
+      "name_en": "Tough Old Wrench",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，创造一个金齿轮衍生物。",
+      "text_en": "Galvanize - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.",
+      "source": "https://cards.fabtcg.com/card/tough_old_wrench/",
+      "status": "machine-draft",
+      "keywords": [
+        "Galvanize"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "twin_drive": {
+      "id": "twin_drive",
+      "name_zh": "双驱动",
+      "name_en": "Twin Drive",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n推进",
+      "text_en": "Boost\nBoost",
+      "source": "https://cards.fabtcg.com/card/twin_drive/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "twintek_charging_station": {
+      "id": "twintek_charging_station",
+      "name_zh": "双泰克充电站",
+      "name_en": "Twintek Charging Station",
+      "type_zh": "机械师 行动",
+      "text_zh": "本回合你推进的下一次攻击获得+3力量。\n你可以将你坟场中的一张超频驱动器洗入你的牌库。若如此做，获得1点资源。\n再动",
+      "text_en": "The next attack you boost this turn gets +3{p}.\nYou may shuffle a Hyper Driver from your graveyard into your deck. If you do, gain {r}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/twintek_charging_station/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "under_loop": {
+      "id": "under_loop",
+      "name_zh": "地下循环",
+      "name_en": "Under Loop",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进\n当此牌命中时，将其置于其拥有者的牌库底。",
+      "text_en": "Boost\nWhen this hits, put it on the bottom of its owner's deck.",
+      "source": "https://cards.fabtcg.com/card/under_loop/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "urgent_delivery": {
+      "id": "urgent_delivery",
+      "name_zh": "紧急投递",
+      "name_en": "Urgent Delivery",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "当此牌命中时，你可以将你手牌中一张费用小于或等于本战斗链中你推进次数的机械师物品放入竞技场。",
+      "text_en": "When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you've boosted this combat chain.",
+      "source": "https://cards.fabtcg.com/card/urgent_delivery/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "war_machine": {
+      "id": "war_machine",
+      "name_zh": "战争机器",
+      "name_en": "War Machine",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "若你装备了1件或更多进化装备，此牌获得“当此牌命中英雄时，摧毁其军械库中的所有牌”；\n装备2件或更多，此牌的使用费用减少3点资源；\n装备3件或更多，此牌获得压制；\n装备4件或更多，此牌获得+3力量。",
+      "text_en": "If you have 1 or more Evos equipped, this gets \"When this hits a hero, destroy all cards in their arsenal,\"\"\n\n2 or more, this costs {r}{r}{r} less to play,\n3 or more, this gets overpower,\n4 or more, this gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/war_machine/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "zero_to_fifty": {
+      "id": "zero_to_fifty",
+      "name_zh": "从零到五十",
+      "name_en": "Zero to Fifty",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/zero_to_fifty/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "zero_to_sixty": {
+      "id": "zero_to_sixty",
+      "name_zh": "从零到六十",
+      "name_en": "Zero to Sixty",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/zero_to_sixty/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "zipper_hit": {
+      "id": "zipper_hit",
+      "name_zh": "拉链式命中",
+      "name_en": "Zipper Hit",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "推进",
+      "text_en": "Boost",
+      "source": "https://cards.fabtcg.com/card/zipper_hit/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "zoom_in": {
+      "id": "zoom_in",
+      "name_zh": "拉近镜头",
+      "name_en": "Zoom In",
+      "type_zh": "机械师 行动·攻击",
+      "text_zh": "当你用拉近镜头攻击时，占卜X，X为本战斗链中你推进的次数。\n推进",
+      "text_en": "When you attack with Zoom in, opt X, where X is the number of times you have boosted this combat chain.\nBoost",
+      "source": "https://cards.fabtcg.com/card/zoom_in/",
+      "status": "machine-draft",
+      "keywords": [
+        "Opt X",
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    }
+  }
+}

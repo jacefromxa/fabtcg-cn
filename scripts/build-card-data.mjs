@@ -13,11 +13,6 @@ function cardIdFromKey(key) {
   return String(key).replace(/__(1|2|3)$/, '');
 }
 
-function chunkNameForCardId(cardId) {
-  const first = String(cardId).charAt(0).toLowerCase();
-  return /^[a-z0-9]$/.test(first) ? first : '_';
-}
-
 function normalizeVariant(card) {
   return {
     pitch: nullable(card.pitch),
@@ -52,7 +47,7 @@ function normalizeCard(cardId, entries) {
   };
 }
 
-export function buildCardArtifacts(cardData) {
+export function buildCardArtifacts(cardData, cardBatch) {
   const grouped = new Map();
   for (const [key, card] of Object.entries(cardData || {})) {
     const cardId = cardIdFromKey(key);
@@ -71,10 +66,14 @@ export function buildCardArtifacts(cardData) {
     .digest('hex')
     .slice(0, 12);
 
+  // Chunk by translation batch (the file each card came from) instead of by
+  // first letter, so editing data/translations/<batch>.json maps to a chunk of
+  // the same name. Cards without batch info fall into a misc "_" chunk.
   const chunks = {};
   const indexCards = {};
   for (const [cardId, card] of Object.entries(cards)) {
-    const chunk = `chunks/${chunkNameForCardId(cardId)}.json`;
+    const batchName = (cardBatch && cardBatch[cardId]) || '_';
+    const chunk = `chunks/${batchName}.json`;
     if (!chunks[chunk]) {
       chunks[chunk] = {
         schema_version: 2,
@@ -102,9 +101,13 @@ export function buildCardArtifacts(cardData) {
   return { manifest, index, chunks };
 }
 
-export function writeCardArtifacts(cardData, outputDirectory) {
-  const artifacts = buildCardArtifacts(cardData);
-  fs.mkdirSync(path.join(outputDirectory, 'chunks'), { recursive: true });
+export function writeCardArtifacts(cardData, cardBatch, outputDirectory) {
+  const artifacts = buildCardArtifacts(cardData, cardBatch);
+  // Remove stale chunk files first so a chunking-scheme change (or a removed
+  // batch) never leaves orphan files behind in the published directory.
+  const chunksDir = path.join(outputDirectory, 'chunks');
+  fs.rmSync(chunksDir, { recursive: true, force: true });
+  fs.mkdirSync(chunksDir, { recursive: true });
   fs.writeFileSync(
     path.join(outputDirectory, 'manifest.json'),
     `${JSON.stringify(artifacts.manifest, null, 2)}\n`,
@@ -134,17 +137,23 @@ export function loadZhTranslations(inputDir = defaultInputDir) {
   if (files.length === 0) {
     throw new Error(`No translation files found in ${inputDir}`);
   }
-  const merged = {};
+  const cards = {};
+  // base slug -> translation batch file base name (e.g. 't3-warrior'), used to
+  // chunk the published data by the same batches that translators maintain.
+  const cardBatch = {};
   for (const file of files) {
+    const batchName = file.replace(/\.json$/, '');
     const entries = JSON.parse(fs.readFileSync(path.join(inputDir, file), 'utf8'));
     for (const [key, value] of Object.entries(entries)) {
-      if (merged[key]) {
+      if (cards[key]) {
         throw new Error(`Duplicate card key "${key}" across translation files (${file})`);
       }
-      merged[key] = value;
+      cards[key] = value;
+      const base = cardIdFromKey(key);
+      if (!cardBatch[base]) cardBatch[base] = batchName;
     }
   }
-  return merged;
+  return { cards, cardBatch };
 }
 
 // The keyword library shipped to the runtime: lowercased English keyword name
@@ -194,7 +203,7 @@ export function attachCardKeywords(cardData, englishCards, library) {
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const inputDir = process.argv[2] || defaultInputDir;
   const outputDirectory = process.argv[3] || defaultOutput;
-  const cardData = loadZhTranslations(inputDir);
+  const { cards, cardBatch } = loadZhTranslations(inputDir);
 
   // Attach mechanic keywords to each card and ship the keyword library so the
   // tooltip can explain them. Translation source files are never modified.
@@ -204,10 +213,10 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     ? buildKeywordLibrary(JSON.parse(fs.readFileSync(glossarySource, 'utf8')))
     : {};
   const enriched = fs.existsSync(englishSource)
-    ? attachCardKeywords(cardData, JSON.parse(fs.readFileSync(englishSource, 'utf8')), keywordLibrary)
-    : cardData;
+    ? attachCardKeywords(cards, JSON.parse(fs.readFileSync(englishSource, 'utf8')), keywordLibrary)
+    : cards;
 
-  const artifacts = writeCardArtifacts(enriched, outputDirectory);
+  const artifacts = writeCardArtifacts(enriched, cardBatch, outputDirectory);
 
   // Ship the printing-id alias table so the userscript can resolve FaBrary's
   // printing-id image filenames (e.g. "PEN313.webp") to our slug keys.

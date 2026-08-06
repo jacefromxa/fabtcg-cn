@@ -1,0 +1,194 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "concoct_disorder": {
+      "id": "concoct_disorder",
+      "name_zh": "制造混乱",
+      "name_en": "Concoct Disorder",
+      "type_zh": "混沌 行动·攻击",
+      "text_zh": "当此牌攻击时，每位英雄将其牌库顶的一张牌牌面朝下放入其军械库。若以此方式有2张或更多牌被放入军械库，此牌获得再动。",
+      "text_en": "When this attacks, each hero puts the top card of their deck face-down into their arsenal. If 2 or more cards are put into arsenals this way, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/concoct_disorder/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "descend_into_madness": {
+      "id": "descend_into_madness",
+      "name_zh": "坠入疯狂",
+      "name_en": "Descend into Madness",
+      "type_zh": "混沌 攻击反应",
+      "text_zh": "随机放逐防御英雄手牌中的一张牌，然后该英雄抽一张牌。",
+      "text_en": "Banish a random card from the defending hero's hand, then they draw a card.",
+      "source": "https://cards.fabtcg.com/card/descend_into_madness/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "hyper_inflation": {
+      "id": "hyper_inflation",
+      "name_zh": "恶性通货膨胀",
+      "name_en": "Hyper Inflation",
+      "type_zh": "混沌 行动·攻击",
+      "text_zh": "当此牌攻击时，本回合牌的使用费用增加1点资源。\n再动",
+      "text_en": "When this attacks, cards cost {r} more to play this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/hyper_inflation/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "induce_panic": {
+      "id": "induce_panic",
+      "name_zh": "引发恐慌",
+      "name_en": "Induce Panic",
+      "type_zh": "混沌 阻挡",
+      "text_zh": "当此牌防御时，选择一种颜色。每位英雄展示其手牌中的一张随机牌。若其为所选颜色，该英雄弃掉它。",
+      "text_en": "When this defends, choose a color. Each hero reveals a random card from their hand. If it's the chosen color, they discard it.",
+      "source": "https://cards.fabtcg.com/card/induce_panic/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "riddle_with_regret": {
+      "id": "riddle_with_regret",
+      "name_zh": "以悔恨困扰",
+      "name_en": "Riddle with Regret",
+      "type_zh": "混沌 行动·光环",
+      "text_zh": "再动\n在每位英雄的结束阶段开始时，该英雄失去X点生命，X为此效果触发时其控制的光环数量。若X为3或更高，摧毁此牌。",
+      "text_en": "Go again\nAt the beginning of each hero's end phase, they lose X{h}, where X is the number of auras they controlled when this triggered. If X is 3 or more, destroy this.",
+      "source": "https://cards.fabtcg.com/card/riddle_with_regret/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "schism_of_chaos": {
+      "id": "schism_of_chaos",
+      "name_zh": "混沌分裂",
+      "name_en": "Schism of Chaos",
+      "type_zh": "混沌 资源·宝石",
+      "text_zh": "传奇\n当此牌被资源时，每位英雄洗牌，然后将其牌库顶的一张牌牌面朝下放入其军械库。",
+      "text_en": "Legendary\nWhen this is pitched, each hero shuffles, then puts the top card of their deck facedown into their arsenal.",
+      "source": "https://cards.fabtcg.com/card/schism_of_chaos/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "spur_locked": {
+      "id": "spur_locked",
+      "name_zh": "靴刺锁定",
+      "name_en": "Spur Locked",
+      "type_zh": "混沌 行动",
+      "text_zh": "每位英雄秘密选择一个1到6之间的数字，然后这些数字被展示。选择最高数字的英雄失去等量生命，搜寻其牌库中一张费用小于或等于所选数字的牌，展示它，将其置入其手牌，然后洗牌。\n再动",
+      "text_en": "Each hero secretly chooses a number between 1 and 6, then those numbers are revealed. The hero that chose the highest number loses that much {h}, searches their deck for a card with cost less than or equal to the chosen number, reveales it, puts it in their hand, then shuffles.\nGo again",
+      "source": "https://cards.fabtcg.com/card/spur_locked/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "tome_of_pandemonium": {
+      "id": "tome_of_pandemonium",
+      "name_zh": "群魔乱舞之书",
+      "name_en": "Tome of Pandemonium",
+      "type_zh": "混沌 行动",
+      "text_zh": "放逐每位英雄牌库顶的一张牌。本回合你可以使用它们。\n再动",
+      "text_en": "Banish the top card of each hero's deck. You may play them this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tome_of_pandemonium/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    }
+  }
+}

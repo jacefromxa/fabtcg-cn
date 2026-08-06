@@ -15,7 +15,7 @@
    ```
 4. 打开 Talishar 或 FaBrary，悬停卡牌即可看到中文浮窗
 
-数据自动从独立数据仓库加载，无需额外配置。
+数据自动从本仓库的 `dist/data/` 按需加载，无需额外配置。
 
 ### 本地开发
 
@@ -55,10 +55,10 @@ talishar-cn/
 │   │   └── t4-remaining.json       ← 特殊格式卡
 │   ├── glossary.zh-CN.json         ← 简体中文术语表（302条，含 100 个异能关键词释义）
 │   └── talishar-card-aliases.json  ← 印刷ID → 卡牌Slug别名表
-├── dist/data/                      ← 构建产物（发布到数据仓库）
+├── dist/data/                      ← 构建产物（随源码仓库发布）
 │   ├── manifest.json
 │   ├── index.json
-│   ├── chunks/*.json
+│   ├── chunks/<批次>.json          ← 按翻译批次分片（t1-generic / t3-warrior / heroes …）
 │   ├── aliases.json
 │   └── keywords.json               ← 异能关键词释义库（100 条，浮窗关键词段用）
 ├── probe/
@@ -88,26 +88,19 @@ npm run build     # 一键构建：别名表 → 卡牌数据
 npm test          # 运行全部测试（64项）
 ```
 
-构建完成后提交并推送源码仓库，然后将 `dist/data/` 同步到数据仓库。
+构建完成后提交并推送源码仓库，`dist/data/` 随发布一并生效。
 用户在下次刷新页面时自动获取新翻译（manifest 版本号变化 → 缓存失效）。
 
-## 数据仓库
+## 数据发布
 
-卡牌数据独立托管于 [talishar-cn-data](https://github.com/jacefromxa/talishar-cn-data)（公开仓库）。
-用户脚本从该仓库的 GitHub Raw URL 按需加载 manifest、index、chunks 和别名表，
-使用 Cache Storage 缓存。本地开发时跳过缓存。
+数据随源码仓库一并发布，无需独立数据仓库。用户脚本从本仓库 GitHub Raw 按需加载：
 
-## 双仓库架构
+```text
+https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/dist/data
+```
 
-本项目拆分为两个 GitHub 仓库，本地开发在一个目录中完成：
-
-| 仓库 | 可见性 | 内容 | 地址 |
-|------|--------|------|------|
-| **源码仓库** | Public | 翻译源文件、构建脚本、测试、用户脚本 | `jacefromxa/talishar-cn` |
-| **数据仓库** | Public | 仅 `dist/data/` 构建产物（manifest/chunks/aliases） | `jacefromxa/talishar-cn-data` |
-
-本地目录 = 源码仓库。构建产物 `dist/data/` 在源码仓库中保留（供本地 dev 服务器使用），
-但每次构建后需要**手动同步**到数据仓库以更新线上服务。
+构建后 `dist/data/` 即包含最新数据（manifest / index / chunks / aliases / keywords），
+随源码一起提交推送即完成发布。用户下次刷新页面按 manifest 版本号变化刷新缓存。
 
 ### 日常维护流程
 
@@ -115,39 +108,35 @@ npm test          # 运行全部测试（64项）
 # 1. 修改翻译
 vim data/translations/<批次>.json
 
-# 2. 构建全部产物
+# 2. 构建全部产物（别名表 + 卡牌数据）
 cd probe && npm run build && cd ..
 
-# 3. 提交源码仓库（含翻译源 + 构建脚本 + dist/data 快照）
+# 3. 提交并推送（翻译源 + 构建脚本 + dist/data 一并发布）
 git add -A
 git commit -m "fix: 修正 XX 翻译" && git push
-
-# 4. 同步数据仓库（将 dist/data 拷贝到数据仓库并推送）
-cp -r dist/data/* /tmp/talishar-cn-data/
-cd /tmp/talishar-cn-data
-git add -A
-git commit -m "data: 同步源码仓库 xxx 提交"
-git push
 ```
+
+产物分片**按翻译批次命名**（`chunks/t3-warrior.json` 对应该批次文件），
+改哪个批次的翻译，一眼可知影响的 chunk，维护时不用再猜首字母。
 
 ### 数据流向
 
 ```
-data/translations/*.json   (翻译源，在源码仓库中编辑)
+data/translations/*.json   (翻译源，按批次编辑)
   │
   ▼  npm run build
-dist/data/*.json           (构建产物，本地 dev 服务器使用)
+dist/data/*.json           (构建产物：manifest / index / chunks/<批次> / aliases / keywords)
   │
-  ▼  cp + git push
-talishar-cn-data 仓库      (GitHub Raw CDN)
+  ▼  git commit + push（随源码仓库）
+GitHub Raw (jacefromxa/talishar-cn/main/dist/data)
   │
   ▼  HTTP GET
-用户脚本 (浏览器)           (按需加载 manifest → index → chunks)
+用户脚本 (浏览器)          (按需加载 manifest → index → 命中批次 chunk)
 ```
 
 ### 本地开发切换
 
-插件默认从数据仓库加载。本地开发时，启动 `npm run serve:data` 后在浏览器控制台执行：
+插件默认从生产地址加载。本地开发时，启动 `npm run serve:data` 后在浏览器控制台执行：
 
 ```js
 localStorage.setItem('fab-cn-data-base-url', 'http://127.0.0.1:4173/data')

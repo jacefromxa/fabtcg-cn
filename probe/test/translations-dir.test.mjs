@@ -15,16 +15,20 @@ function tempDir(prefix) {
   return fs.mkdtempSync(path.join(os.tmpdir(), prefix));
 }
 
-test('loadZhTranslations merges every batch file into one card map', () => {
+test('loadZhTranslations merges every batch file and tracks each card batch', () => {
   const files = fs.readdirSync(translationsDir).filter((f) => f.endsWith('.json'));
   assert.ok(files.length >= 20, `expected at least 20 batch files, got ${files.length}`);
 
-  const merged = loadZhTranslations(translationsDir);
+  const { cards, cardBatch } = loadZhTranslations(translationsDir);
   const fileTotal = files.reduce(
     (sum, f) => sum + Object.keys(JSON.parse(fs.readFileSync(path.join(translationsDir, f), 'utf8'))).length,
     0,
   );
-  assert.equal(Object.keys(merged).length, fileTotal);
+  assert.equal(Object.keys(cards).length, fileTotal);
+  // Every card maps to the batch file that owns it.
+  for (const batchName of Object.values(cardBatch)) {
+    assert.ok(files.includes(`${batchName}.json`), `${batchName} should be a translation file`);
+  }
 });
 
 test('loadZhTranslations throws on a duplicate key across files', () => {

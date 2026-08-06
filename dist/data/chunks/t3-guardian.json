@@ -1,0 +1,4599 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "act_of_glory": {
+      "id": "act_of_glory",
+      "name_zh": "荣耀之举",
+      "name_en": "Act of Glory",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌离开竞技场时，你本回合的下一次攻击获得+6力量。",
+      "text_en": "Suspense\nWhen this leaves the arena, your next attack this turn gets +6{p}.",
+      "source": "https://cards.fabtcg.com/card/act_of_glory/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "aftershock": {
+      "id": "aftershock",
+      "name_zh": "余震",
+      "name_en": "Aftershock",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当此牌攻击时，若本回合你控制过地震涌动衍生物，创造一个地震涌动衍生物。",
+      "text_en": "When this attacks, if you've controlled a Seismic Surge token this turn, create a Seismic Surge token.",
+      "source": "https://cards.fabtcg.com/card/aftershock/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "annexation_of_all_things_known": {
+      "id": "annexation_of_all_things_known",
+      "name_zh": "吞并一切已知",
+      "name_en": "Annexation of All Things Known",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对守护者英雄造成4点或更多伤害时，直到你的下一个回合结束，该英雄不能从军械库使用正面朝上的牌，而你可以使用其军械库中正面朝上的牌。",
+      "text_en": "Crush - When this deals 4 or more damage to a Guardian hero, until the end of your next turn, they can't play face-up cards from arsenal, and you may play face-up cards from their arsenal.",
+      "source": "https://cards.fabtcg.com/card/annexation_of_all_things_known/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "5",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "annexation_of_grandeur": {
+      "id": "annexation_of_grandeur",
+      "name_zh": "吞并宏伟",
+      "name_en": "Annexation of Grandeur",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对守护者英雄造成4点或更多伤害时，获得其控制的一个光环的控制权。",
+      "text_en": "Crush - When this deals 4 or more damage to a Guardian hero, gain control of an aura they control.",
+      "source": "https://cards.fabtcg.com/card/annexation_of_grandeur/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "5",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "annexation_of_the_forge": {
+      "id": "annexation_of_the_forge",
+      "name_zh": "吞并熔炉",
+      "name_en": "Annexation of the Forge",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对守护者英雄造成4点或更多伤害时，装备该英雄已装备的一件装备。",
+      "text_en": "Crush - When this deals 4 or more damage to a Guardian hero, equip an equipment they have equipped.",
+      "source": "https://cards.fabtcg.com/card/annexation_of_the_forge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "5",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "anothos": {
+      "id": "anothos",
+      "name_zh": "阿诺索斯",
+      "name_en": "Anothos",
+      "type_zh": "守护者 武器·锤 （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n当你资源区中有2张或更多费用为3或更高的牌时，阿诺索斯获得+2力量。",
+      "text_en": "Once per turn Action - {r}{r}{r}: Attack\nWhile there are 2 or more cards with cost 3 or greater in your pitch zone, Anothos has +2{p}.",
+      "source": "https://cards.fabtcg.com/card/anothos/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "awakening": {
+      "id": "awakening",
+      "name_zh": "觉醒",
+      "name_en": "Awakening",
+      "type_zh": "",
+      "text_zh": "大地融合\n若你的生命低于一位对手英雄，创造与你与对手生命差等量的地震涌动衍生物。若觉醒已融合，改为创造两倍数量的地震涌动衍生物。\n从你的牌库中搜寻一张费用小于或等于你控制的地震涌动衍生物数量的守护者攻击行动牌，展示它，将其置入你的手牌，然后洗牌。",
+      "text_en": "Earth Fusion\nIf you have less {h} than an opposing hero, create Seismic Surge tokens equal to the difference. If Awakening was fused, instead create twice that many Seismic Surge tokens.\nSearch your deck for a Guardian attack action card with cost less than or equal to the number of Seismic Surge tokens you control, reveal it, put it into your hand, then shuffle your deck.",
+      "source": "https://cards.fabtcg.com/card/awakening/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "bash_brute": {
+      "id": "bash_brute",
+      "name_zh": "痛击蛮将",
+      "name_en": "Bash Brute",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌被蛮将牌防御，此牌获得+1力量。\n当此牌命中蛮将英雄时，摧毁其控制的一个光环衍生物。",
+      "text_en": "If this is defended by a Brute card, this gets +1{p}.\nWhen this hits a Brute hero, destroy an aura token they control.",
+      "source": "https://cards.fabtcg.com/card/bash_brute/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        }
+      }
+    },
+    "batter_to_a_pulp": {
+      "id": "batter_to_a_pulp",
+      "name_zh": "打成肉泥",
+      "name_en": "Batter to a Pulp",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌将造成4点或更多伤害，该伤害不能被防止。\n粉碎——当此牌对英雄造成4点或更多伤害时，摧毁其控制的没有防御值的一件装备。",
+      "text_en": "If this would deal 4 or more damage, that damage can't be prevented.\nCrush - When this deals 4 or more damage to a hero, destroy an equipment they control with no defense value.",
+      "source": "https://cards.fabtcg.com/card/batter_to_a_pulp/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "10",
+          "defense": "3"
+        }
+      }
+    },
+    "battered_not_broken": {
+      "id": "battered_not_broken",
+      "name_zh": "遍体鳞伤而不屈",
+      "name_en": "Battered Not Broken",
+      "type_zh": "蛮将·守护者 瞬间",
+      "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。若如此做，创造一个力量衍生物。",
+      "text_en": "The next time you would be dealt damage this turn, prevent 2 of that damage. If you do, create a Might token.",
+      "source": "https://cards.fabtcg.com/card/battered_not_broken/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "bet_big": {
+      "id": "bet_big",
+      "name_zh": "下大注",
+      "name_en": "Bet Big",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "贝特西专精\n当此牌攻击英雄时，你可以与该英雄以金币、力量和活力衍生物下注。",
+      "text_en": "Betsy Specialization\nWhen this attacks a hero, you may wager a Gold, Might, and Vigor token with them.",
+      "source": "https://cards.fabtcg.com/card/bet_big/",
+      "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "big_bop": {
+      "id": "big_bop",
+      "name_zh": "重拳出击",
+      "name_en": "Big Bop",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁此牌，然后你本回合的下一次守护者攻击获得+5力量，以及“当此牌攻击英雄时，你可以与该英雄以一个活力衍生物下注。”",
+      "text_en": "At the start of your turn, destroy this, then your next Guardian attack this turn gets +5{p} and \"When this attacks a hero, you may wager a Vigor token with them.\"",
+      "source": "https://cards.fabtcg.com/card/big_bop/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "bigger_than_big": {
+      "id": "bigger_than_big",
+      "name_zh": "比大更大",
+      "name_en": "Bigger Than Big",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁此牌，然后你本回合的下一次守护者攻击获得+5力量，以及“当此牌攻击英雄时，你可以与该英雄以一个力量衍生物下注。”",
+      "text_en": "At the start of your turn, destroy this, then your next Guardian attack this turn gets +5{p} and \"When this attacks a hero, you may wager a Might token with them.\"",
+      "source": "https://cards.fabtcg.com/card/bigger_than_big/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "biting_gale": {
+      "id": "biting_gale",
+      "name_zh": "刺骨寒风",
+      "name_en": "Biting Gale",
+      "type_zh": "元素 守护者 防御反应",
+      "text_zh": "冰融合\n若刺骨寒风已融合，攻击英雄弃一张牌，除非其支付2点资源。",
+      "text_en": "Ice Fusion\nIf Biting Gale was fused, the attacking hero discards a card unless they pay {r}{r}.",
+      "source": "https://cards.fabtcg.com/card/biting_gale/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "4"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "blessing_of_deliverance": {
+      "id": "blessing_of_deliverance",
+      "name_zh": "解脱祝福",
+      "name_en": "Blessing of Deliverance",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n当解脱祝福进入竞技场时，若你资源区中有一张费用为3或更高的牌，抽一张牌。\n在你的行动阶段开始时，摧毁解脱祝福，然后展示你牌库顶的3张牌。每有一张以此方式展示的费用为3或更高的牌，获得1点生命。",
+      "text_en": "Go again\nWhen Blessing of Deliverance enters the arena, if you have a card with cost 3 or greater in your pitch zone, draw a card.\nAt the beginning of your action phase, destroy Blessing of Deliverance then reveal the top 3 cards of your deck. Gain 1{h} for each card with cost 3 or greater revealed this way.",
+      "source": "https://cards.fabtcg.com/card/blessing_of_deliverance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blessing_of_patience": {
+      "id": "blessing_of_patience",
+      "name_zh": "耐心祝福",
+      "name_en": "Blessing of Patience",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁耐心祝福，然后目标英雄获得3点生命。",
+      "text_en": "At the start of your turn, destroy Blessing of Patience then target hero gains 3{h}.",
+      "source": "https://cards.fabtcg.com/card/blessing_of_patience/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blessing_of_serenity": {
+      "id": "blessing_of_serenity",
+      "name_zh": "宁静祝福",
+      "name_en": "Blessing of Serenity",
+      "type_zh": "守护者 瞬间",
+      "text_zh": "本回合你的英雄下一次将受到力量伤害时，防止该来源将造成的3点伤害。",
+      "text_en": "The next time your hero would be dealt {p} damage this turn, prevent 3 damage that source would deal.",
+      "source": "https://cards.fabtcg.com/card/blessing_of_serenity/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "blinding_of_the_old_ones": {
+      "id": "blinding_of_the_old_ones",
+      "name_zh": "古神致盲",
+      "name_en": "Blinding of the Old Ones",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对守护者英雄造成4点或更多伤害时，该英雄拥有的牌在其下一个回合期间失去所有异能。\n重掷2",
+      "text_en": "Crush - When this deals 4 or more damage to a Guardian hero, cards they own lose all abilities during their next turn.\nHeave 2",
+      "source": "https://cards.fabtcg.com/card/blinding_of_the_old_ones/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush",
+        "Heave 2"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "10",
+          "defense": "3"
+        }
+      }
+    },
+    "boast": {
+      "id": "boast",
+      "name_zh": "自夸",
+      "name_en": "Boast",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "防御时此牌获得+X防御，X为你本回合赢得交锋次数的两倍。",
+      "text_en": "This gets +X{d} while defending, where X is twice the number of clashes you've won this turn.",
+      "source": "https://cards.fabtcg.com/card/boast/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "bracken_rap": {
+      "id": "bracken_rap",
+      "name_zh": "蕨藤敲击",
+      "name_en": "Bracken Rap",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "大地羁绊——当此牌攻击时，若你为使用此牌资源过一张大地牌，创造一个力量衍生物。",
+      "text_en": "Earth Bond - When this attacks, if an Earth card was pitched to play this, create a Might token.",
+      "source": "https://cards.fabtcg.com/card/bracken_rap/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Bond"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "break_stature": {
+      "id": "break_stature",
+      "name_zh": "击碎姿态",
+      "name_en": "Break Stature",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，摧毁其控制的一个光环衍生物。直到其下一个回合结束，该英雄不能创造具有该衍生物名称的光环。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, destroy an aura token they control. They can't create auras with that token's name until the end of their next turn.",
+      "source": "https://cards.fabtcg.com/card/break_stature/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "5",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "buckle": {
+      "id": "buckle",
+      "name_zh": "屈膝",
+      "name_en": "Buckle",
+      "type_zh": "守护者 行动",
+      "text_zh": "你本回合的下一次守护者攻击获得+1力量、支配，以及“当此牌命中英雄时，摧毁其控制的带有-1防御指示物的一件装备。”\n再动",
+      "text_en": "Your next Guardian attack this turn gains +1{p}, dominate, and \"When this hits a hero, destroy an equipment they control with a -1{d} counter on it.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/buckle/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "buckling_blow": {
+      "id": "buckling_blow",
+      "name_zh": "屈服之击",
+      "name_en": "Buckling Blow",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，在其控制的一件装备上放置一个-1防御指示物。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, put a -1{d} counter on an equipment they control.",
+      "source": "https://cards.fabtcg.com/card/buckling_blow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "cartilage_crush": {
+      "id": "cartilage_crush",
+      "name_zh": "软骨碾碎",
+      "name_en": "Cartilage Crush",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄在其下一个回合期间的第一个行动使用或启动费用额外增加1点资源。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, their first action during their next turn costs an additional {r} to play or activate.",
+      "source": "https://cards.fabtcg.com/card/cartilage_crush/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "chivalry": {
+      "id": "chivalry",
+      "name_zh": "骑士精神",
+      "name_en": "Chivalry",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "守护",
+      "text_en": "Protect",
+      "source": "https://cards.fabtcg.com/card/chivalry/",
+      "status": "machine-draft",
+      "keywords": [
+        "Protect"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "chokeslam": {
+      "id": "chokeslam",
+      "name_zh": "锁喉摔",
+      "name_en": "Chokeslam",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄控制的攻击行动牌在其下一个行动阶段期间不能获得力量。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.",
+      "source": "https://cards.fabtcg.com/card/chokeslam/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "clash_of_arms": {
+      "id": "clash_of_arms",
+      "name_zh": "手臂交锋",
+      "name_en": "Clash of Arms",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "当此牌防御守护者攻击时，与攻击英雄交锋。若有胜者，另一位英雄在其已装备的一件手臂装备上放置一个-1防御指示物。若该英雄没有，其失去1点生命。",
+      "text_en": "When this defends a Guardian attack, clash with the attacking hero. If there is a winner, the other hero puts a -1{d} counter on an arms they have equipped. If they don't, they lose 1{h}.",
+      "source": "https://cards.fabtcg.com/card/clash_of_arms/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "clash_of_bravado": {
+      "id": "clash_of_bravado",
+      "name_zh": "豪勇交锋",
+      "name_en": "Clash of Bravado",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当此牌防御时，与攻击英雄交锋。胜者摧毁另一位英雄控制的一个光环。",
+      "text_en": "When this defends, clash with the attacking hero. The winner destroys an aura the other hero controls.",
+      "source": "https://cards.fabtcg.com/card/clash_of_bravado/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "clash_of_chests": {
+      "id": "clash_of_chests",
+      "name_zh": "胸部交锋",
+      "name_en": "Clash of Chests",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "当此牌防御守护者攻击时，与攻击英雄交锋。若有胜者，另一位英雄在其已装备的一件胸部装备上放置一个-1防御指示物。若该英雄没有，其失去1点生命。",
+      "text_en": "When this defends a Guardian attack, clash with the attacking hero. If there is a winner, the other hero puts a -1{d} counter on a chest they have equipped. If they don't, they lose 1{h}.",
+      "source": "https://cards.fabtcg.com/card/clash_of_chests/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "clash_of_heads": {
+      "id": "clash_of_heads",
+      "name_zh": "头部交锋",
+      "name_en": "Clash of Heads",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "当此牌防御守护者攻击时，与攻击英雄交锋。若有胜者，另一位英雄在其已装备的一件头部装备上放置一个-1防御指示物。若该英雄没有，其失去1点生命。",
+      "text_en": "When this defends a Guardian attack, clash with the attacking hero. If there is a winner, the other hero puts a -1{d} counter on a head they have equipped. If they don't, they lose 1{h}.",
+      "source": "https://cards.fabtcg.com/card/clash_of_heads/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "clash_of_legs": {
+      "id": "clash_of_legs",
+      "name_zh": "腿部交锋",
+      "name_en": "Clash of Legs",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "当此牌防御守护者攻击时，与攻击英雄交锋。若有胜者，另一位英雄在其已装备的一件腿部装备上放置一个-1防御指示物。若该英雄没有，其失去1点生命。",
+      "text_en": "When this defends a Guardian attack, clash with the attacking hero. If there is a winner, the other hero puts a -1{d} counter on a legs they have equipped. If they don't, they lose 1{h}.",
+      "source": "https://cards.fabtcg.com/card/clash_of_legs/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "clash_of_might": {
+      "id": "clash_of_might",
+      "name_zh": "力量交锋",
+      "name_en": "Clash of Might",
+      "type_zh": "蛮将·守护者 行动·攻击",
+      "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个力量衍生物。",
+      "text_en": "When this defends, clash with the attacking hero. The winner creates a Might token.",
+      "source": "https://cards.fabtcg.com/card/clash_of_might/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "clash_of_mountains": {
+      "id": "clash_of_mountains",
+      "name_zh": "山岳交锋",
+      "name_en": "Clash of Mountains",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当此牌防御守护者攻击时，与攻击英雄交锋。胜者创造一个地震涌动衍生物。",
+      "text_en": "When this defends a Guardian attack, clash with the attacking hero. The winner creates a Seismic Surge token.",
+      "source": "https://cards.fabtcg.com/card/clash_of_mountains/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "clash_of_shields": {
+      "id": "clash_of_shields",
+      "name_zh": "盾牌交锋",
+      "name_en": "Clash of Shields",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "当此牌防御守护者攻击时，与攻击英雄交锋。若有胜者，另一位英雄在其已装备的一件副手装备上放置一个-1防御指示物。若该英雄没有，其失去1点生命。",
+      "text_en": "When this defends a Guardian attack, clash with the attacking hero. If there is a winner, the other hero puts a -1{d} counter on an off-hand they have equipped. If they don't, they lose 1{h}.",
+      "source": "https://cards.fabtcg.com/card/clash_of_shields/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "colossal_bearing": {
+      "id": "colossal_bearing",
+      "name_zh": "巨硕气度",
+      "name_en": "Colossal Bearing",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "塔盾——若此牌的力量为13或更高，它获得“当此牌命中英雄时，摧毁其控制的防御为1或更低的一件装备。”",
+      "text_en": "Tower - If this has 13 or more {p}, it gets \"When this hits a hero, destroy an equipment they control with 1 or less {d}.\"",
+      "source": "https://cards.fabtcg.com/card/colossal_bearing/",
+      "status": "machine-draft",
+      "keywords": [
+        "Tower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "command_respect": {
+      "id": "command_respect",
+      "name_zh": "命令敬畏",
+      "name_en": "Command Respect",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当此牌命中英雄时，若此牌的力量大于其基础，摧毁其军械库中的一张牌。",
+      "text_en": "When this hits a hero, if this has {p} greater than its base, destroy a card in their arsenal.",
+      "source": "https://cards.fabtcg.com/card/command_respect/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "concuss": {
+      "id": "concuss",
+      "name_zh": "震荡",
+      "name_en": "Concuss",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当此牌命中英雄时，若此牌的力量大于其基础，该英雄弃一张牌。",
+      "text_en": "When this hits a hero, if this has {p} greater than its base, they discard a card.",
+      "source": "https://cards.fabtcg.com/card/concuss/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "cranial_crush": {
+      "id": "cranial_crush",
+      "name_zh": "颅骨碾压",
+      "name_en": "Cranial Crush",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄在其下一个行动阶段期间不能抽牌。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, they can't draw cards during their next action phase",
+      "source": "https://cards.fabtcg.com/card/cranial_crush/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "6",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "crash_and_bash": {
+      "id": "crash_and_bash",
+      "name_zh": "猛冲猛砸",
+      "name_en": "Crash and Bash",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "当此牌防御时，你可以展示你手牌中的一张具有粉碎的牌。若如此做，创造一个地震涌动衍生物。",
+      "text_en": "When this defends, you may reveal a card with crush from your hand. If you do, create a Seismic Surge token.",
+      "source": "https://cards.fabtcg.com/card/crash_and_bash/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "crash_down": {
+      "id": "crash_down",
+      "name_zh": "砸落",
+      "name_en": "Crash Down",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌获得+6力量。",
+      "text_en": "At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +6{p}.",
+      "source": "https://cards.fabtcg.com/card/crash_down/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "cries_of_encore": {
+      "id": "cries_of_encore",
+      "name_zh": "再来一曲的呼声",
+      "name_en": "Cries of Encore",
+      "type_zh": "崇敬 守护者 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，若你的生命低于该英雄，观众为你欢呼。\n若本回合你被欢呼过，此牌获得“当此牌命中英雄时，本回合你可以从你的坟场中规划一张悬念光环。”",
+      "text_en": "When this attacks a hero, if you have less {h} than them, the crowd cheers you.\nIf you've been cheered this turn, this gets \"When this hits a hero, you may plan an aura of suspense from your graveyard this turn.\"",
+      "source": "https://cards.fabtcg.com/card/cries_of_encore/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "crippling_crush": {
+      "id": "crippling_crush",
+      "name_zh": "致残碾压",
+      "name_en": "Crippling Crush",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "布拉沃专精\n粉碎——若致残碾压对英雄造成4点或更多伤害，该英雄随机弃2张牌。",
+      "text_en": "Bravo Specialization\nCrush - If Crippling Crush deals 4 or more damage to a hero, they discard 2 random cards.",
+      "source": "https://cards.fabtcg.com/card/crippling_crush/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "7",
+          "power": "11",
+          "defense": "3"
+        }
+      }
+    },
+    "crush_confidence": {
+      "id": "crush_confidence",
+      "name_zh": "碾碎自信",
+      "name_en": "Crush Confidence",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄失去所有英雄牌异能，直到其下一个回合结束。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, they lose all hero card abilities until the end of their next turn.",
+      "source": "https://cards.fabtcg.com/card/crush_confidence/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "crush_the_weak": {
+      "id": "crush_the_weak",
+      "name_zh": "碾碎弱者",
+      "name_en": "Crush the Weak",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄在其下一个行动阶段期间不能使用基础力量为3或更低的攻击行动牌。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, they can't play attack action cards with 3 or less base {p} during their next action phase.",
+      "source": "https://cards.fabtcg.com/card/crush_the_weak/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "cut_a_long_story_short": {
+      "id": "cut_a_long_story_short",
+      "name_zh": "长话短说",
+      "name_en": "Cut a Long Story Short",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌的力量大于其基础，它获得+1力量。\n塔盾——若此牌的力量为13或更高，它获得“当此牌命中英雄时，该英雄弃掉其手牌。”",
+      "text_en": "If this has {p} greater than its base, it gets +1{p}.\nTower - If this has 13 or more {p}, it gets \"When this hits a hero, they discard their hand.\"",
+      "source": "https://cards.fabtcg.com/card/cut_a_long_story_short/",
+      "status": "machine-draft",
+      "keywords": [
+        "Tower"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "cut_off_at_the_knees": {
+      "id": "cut_off_at_the_knees",
+      "name_zh": "削膝",
+      "name_en": "Cut Off at the Knees",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌的力量大于其基础，它获得+1力量。\n塔盾——若此牌的力量为13或更高，它获得“当此牌命中英雄时，摧毁其牌库顶的3张牌。”",
+      "text_en": "If this has {p} greater than its base, it gets +1{p}.\nTower - If this has 13 or more {p}, it gets \"When this hits a hero, destroy the top 3 cards of their deck.\"",
+      "source": "https://cards.fabtcg.com/card/cut_off_at_the_knees/",
+      "status": "machine-draft",
+      "keywords": [
+        "Tower"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "cut_the_small_talk": {
+      "id": "cut_the_small_talk",
+      "name_zh": "免去寒暄",
+      "name_en": "Cut the Small Talk",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌的力量大于其基础，它获得+1力量。\n塔盾——若此牌的力量为13或更高，它获得“当此牌命中英雄时，摧毁其控制的所有光环。”",
+      "text_en": "If this has {p} greater than its base, it gets +1{p}.\nTower - If this has 13 or more {p}, it gets \"When this hits a hero, destroy all auras they control.\"",
+      "source": "https://cards.fabtcg.com/card/cut_the_small_talk/",
+      "status": "machine-draft",
+      "keywords": [
+        "Tower"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "daily_grind": {
+      "id": "daily_grind",
+      "name_zh": "日常苦工",
+      "name_en": "Daily Grind",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "你控制的攻击行动牌获得“当此牌防御时，与攻击英雄交锋。胜者摧毁另一位英雄牌库顶的一张牌。”\n在你的回合开始时，摧毁此牌。",
+      "text_en": "Attack action cards you control get \"When this defends, clash with the attacking hero. The winner destroys the top card of the other hero's deck.\"\nAt the start of your turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/daily_grind/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "debilitate": {
+      "id": "debilitate",
+      "name_zh": "削弱",
+      "name_en": "Debilitate",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄在其下一个回合期间的第一次攻击获得-2力量。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, their first attack during their next turn gets -2{p}.",
+      "source": "https://cards.fabtcg.com/card/debilitate/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "disable": {
+      "id": "disable",
+      "name_zh": "瘫痪",
+      "name_en": "Disable",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，将其军械库中的一张牌置于其牌库底。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of their deck.",
+      "source": "https://cards.fabtcg.com/card/disable/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "5",
+          "power": "9",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "5",
+          "power": "8",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "5",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "disenchantment_of_the_old_ones": {
+      "id": "disenchantment_of_the_old_ones",
+      "name_zh": "古神祛魅",
+      "name_en": "Disenchantment of the Old Ones",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对守护者英雄造成4点或更多伤害时，摧毁其控制的所有光环。\n重掷2",
+      "text_en": "Crush - When this deals 4 or more damage to a Guardian hero, destroy all auras they control.\nHeave 2",
+      "source": "https://cards.fabtcg.com/card/disenchantment_of_the_old_ones/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush",
+        "Heave 2"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "10",
+          "defense": "3"
+        }
+      }
+    },
+    "distant_rumbling": {
+      "id": "distant_rumbling",
+      "name_zh": "远方轰鸣",
+      "name_en": "Distant Rumbling",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "当此牌进入竞技场时，抽一张牌，然后将你手牌中的一张牌放入你的牌库的从上往下第五张的位置。\n在你的回合开始时，摧毁此牌，然后创造3个地震涌动衍生物。",
+      "text_en": "When this enters the arena, draw a card, then put a card from your hand into your deck fifth from the top.\nAt the start of your turn, destroy this, then create 3 Seismic Surge tokens.",
+      "source": "https://cards.fabtcg.com/card/distant_rumbling/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dramatic_pause": {
+      "id": "dramatic_pause",
+      "name_zh": "戏剧性停顿",
+      "name_en": "Dramatic Pause",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌进入竞技场时，此链环中目标防御行动牌获得+3防御。",
+      "text_en": "Suspense\nWhen this enters the arena, target defending action card gets +3{d} this chain link.",
+      "source": "https://cards.fabtcg.com/card/dramatic_pause/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "draw_a_crowd": {
+      "id": "draw_a_crowd",
+      "name_zh": "吸引人群",
+      "name_en": "Draw a Crowd",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n当此牌进入竞技场时，每位英雄抽一张牌。\n在你的行动阶段开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌获得+3力量。",
+      "text_en": "Go again\nWhen this enters the arena, each hero draws a card.\nAt the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/draw_a_crowd/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "drink_em_under_the_table": {
+      "id": "drink_em_under_the_table",
+      "name_zh": "灌醉他们",
+      "name_en": "Drink 'Em Under the Table",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "贝特西专精\n当此牌攻击英雄时，你可以与该英雄下注。胜者抽一张牌，另一位英雄弃一张牌。",
+      "text_en": "Betsy Specialization\nWhen this attacks a hero, you may wager with them. The winner draws a card, and the other hero discards a card.",
+      "source": "https://cards.fabtcg.com/card/drink_em_under_the_table/",
+      "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "earthlore_empowerment": {
+      "id": "earthlore_empowerment",
+      "name_zh": "大地学识赋能",
+      "name_en": "Earthlore Empowerment",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌费用减少1点资源并获得+5力量。",
+      "text_en": "At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +5{p}.",
+      "source": "https://cards.fabtcg.com/card/earthlore_empowerment/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "edge_of_their_seats": {
+      "id": "edge_of_their_seats",
+      "name_zh": "屏息以待",
+      "name_en": "Edge of Their Seats",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌离开竞技场时，你本回合的下一次攻击获得+5力量。",
+      "text_en": "Suspense\nWhen this leaves the arena, your next attack this turn gets +5{p}.",
+      "source": "https://cards.fabtcg.com/card/edge_of_their_seats/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "embolden": {
+      "id": "embolden",
+      "name_zh": "壮胆",
+      "name_en": "Embolden",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n当此牌进入竞技场时，若你控制另一个非衍生物光环，抽一张牌。\n在你的行动阶段开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌获得+5力量。",
+      "text_en": "Go again\nWhen this enters the arena, if you control another non-token aura, draw a card.\nAt the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn gets +5{p}.",
+      "source": "https://cards.fabtcg.com/card/embolden/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "emerging_avalanche": {
+      "id": "emerging_avalanche",
+      "name_zh": "骤起的雪崩",
+      "name_en": "Emerging Avalanche",
+      "type_zh": "元素 守护者 行动·光环",
+      "text_zh": "冰融合\n再动\n当骤起的雪崩进入竞技场时，若它已融合，在目标英雄的控制下创造一个霜咬衍生物。\n在你的行动阶段开始时，摧毁骤起的雪崩，然后你本回合使用的下一张攻击行动牌获得+3力量。",
+      "text_en": "Ice Fusion\nGo again\nWhen Emerging Avalanche enters the arena, if it was fused, create a Frostbite token under target hero control.\nAt the beginning of your action phase, destroy Emerging Avalanche then the next attack action card you play this turn gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/emerging_avalanche/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "emerging_dominance": {
+      "id": "emerging_dominance",
+      "name_zh": "骤起的支配",
+      "name_en": "Emerging Dominance",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "在你的行动阶段开始时，摧毁骤起的支配，然后你本回合使用的下一张守护者攻击行动牌获得+3力量和支配。",
+      "text_en": "At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +3{p} and dominate.",
+      "source": "https://cards.fabtcg.com/card/emerging_dominance/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "emerging_power": {
+      "id": "emerging_power",
+      "name_zh": "骤起的力量",
+      "name_en": "Emerging Power",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n在你的行动阶段开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌获得+3力量。",
+      "text_en": "Go again\nAt the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/emerging_power/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "endless_winter": {
+      "id": "endless_winter",
+      "name_zh": "无尽寒冬",
+      "name_en": "Endless Winter",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "奥德希姆专精\n冰融合\n若无尽寒冬已融合，每当防御英雄向此链环加入防御牌时，在其控制下创造一个霜咬衍生物。\n若无尽寒冬命中英雄，直到其下一个回合结束，每当其启动异能时，在其控制下创造一个霜咬衍生物。",
+      "text_en": "Oldhim Specialization\nIce Fusion\nIf Endless Winter was fused, whenever the defending hero adds a defending card to this chain link, create a Frostbite token under their control.\nIf Endless Winter hits a hero, until the end of their next turn, whenever they activate an ability, create a Frostbite token under their control.",
+      "source": "https://cards.fabtcg.com/card/endless_winter/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "energy_of_the_audience": {
+      "id": "energy_of_the_audience",
+      "name_zh": "观众的能量",
+      "name_en": "Energy of the Audience",
+      "type_zh": "崇敬 守护者 行动·攻击",
+      "text_zh": "若你的生命低于其他每位英雄，每当你控制一个悬念光环，此牌获得+1力量。",
+      "text_en": "If you have less {h} than each other hero, this gets +1{p} for each aura of suspense you control.",
+      "source": "https://cards.fabtcg.com/card/energy_of_the_audience/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "entangle": {
+      "id": "entangle",
+      "name_zh": "缠绕",
+      "name_en": "Entangle",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "大地融合\n若缠绕已融合，它获得“若此牌命中英雄，该英雄在其下一个回合期间的第一次攻击获得-2力量。”",
+      "text_en": "Earth Fusion\nIf Entangle was fused, it gains \"If this hits a hero, their first attack during their next turn has -2{p}.\"",
+      "source": "https://cards.fabtcg.com/card/entangle/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "familiar_story": {
+      "id": "familiar_story",
+      "name_zh": "似曾相识的故事",
+      "name_en": "Familiar Story",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当1张或更多守护者牌防御此牌时，创造一个自信衍生物。",
+      "text_en": "When 1 or more Guardian cards defend this, create a Confidence token.",
+      "source": "https://cards.fabtcg.com/card/familiar_story/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        }
+      }
+    },
+    "fault_line": {
+      "id": "fault_line",
+      "name_zh": "断层线",
+      "name_en": "Fault Line",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若你军械库中有一张牌，此牌获得+1力量。\n粉碎——当此牌对英雄造成4点或更多伤害时，将所有军械库中的所有牌置于其拥有者的牌库底。",
+      "text_en": "If you have a card in your arsenal, this gets +1{p}.\nCrush - When this deals 4 or more damage to a hero, put all cards in all arsenals on bottom of their owner's deck.",
+      "source": "https://cards.fabtcg.com/card/fault_line/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "flatten_the_field": {
+      "id": "flatten_the_field",
+      "name_zh": "夷平战场",
+      "name_en": "Flatten the Field",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，摧毁其控制的一个地震涌动衍生物。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, destroy a Seismic Surge token they control.",
+      "source": "https://cards.fabtcg.com/card/flatten_the_field/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "forged_for_war": {
+      "id": "forged_for_war",
+      "name_zh": "为战争锻造",
+      "name_en": "Forged for War",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n你控制的装备获得+1防御。\n在你的行动阶段开始时，摧毁为战争锻造。",
+      "text_en": "Go again\nEquipment you control gain +1{d}.\nAt the beginning of your action phase, destroy Forged for War.",
+      "source": "https://cards.fabtcg.com/card/forged_for_war/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "full_of_bravado": {
+      "id": "full_of_bravado",
+      "name_zh": "充满豪勇",
+      "name_en": "Full of Bravado",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当此牌攻击或防御时，若你控制一个悬念光环，创造一个自信衍生物。",
+      "text_en": "When this attacks or defends, if you control an aura of suspense, create a Confidence token.",
+      "source": "https://cards.fabtcg.com/card/full_of_bravado/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "geyser_of_seismic_stirrings": {
+      "id": "geyser_of_seismic_stirrings",
+      "name_zh": "地震骚动间歇泉",
+      "name_en": "Geyser of Seismic Stirrings",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n此牌进入竞技场时带有3个能量指示物。当其没有指示物时，摧毁它。\n在你的结束阶段开始时，从此牌上移除一个能量指示物并创造一个地震涌动衍生物。",
+      "text_en": "Go again\nThis enters the arena with 3 energy counters. When it has none, destroy it.\nAt the beginning of your end phase, remove an energy counter from this and create a Seismic Surge token.",
+      "source": "https://cards.fabtcg.com/card/geyser_of_seismic_stirrings/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "glacial_footsteps": {
+      "id": "glacial_footsteps",
+      "name_zh": "冰川脚步",
+      "name_en": "Glacial Footsteps",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "冰融合\n若冰川脚步已融合，它获得支配。",
+      "text_en": "Ice Fusion\nIf Glacial Footsteps was fused, it gains dominate.",
+      "source": "https://cards.fabtcg.com/card/glacial_footsteps/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion",
+        "Dominate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "10",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "6",
+          "power": "9",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "6",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "grandeur_of_valahai": {
+      "id": "grandeur_of_valahai",
+      "name_zh": "瓦拉海之壮丽",
+      "name_en": "Grandeur of Valahai",
+      "type_zh": "守护者 资源·宝石",
+      "text_zh": "传奇\n当你将瓦拉海之壮丽资源时，创造一个地震涌动衍生物。",
+      "text_en": "Legendary\nWhen you pitch Grandeur of Valahai, create a Seismic Surge token.",
+      "source": "https://cards.fabtcg.com/card/grandeur_of_valahai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "grind_them_down": {
+      "id": "grind_them_down",
+      "name_zh": "磨灭他们",
+      "name_en": "Grind Them Down",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，摧毁其牌库顶的一张牌。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, destroy the top card of their deck.",
+      "source": "https://cards.fabtcg.com/card/grind_them_down/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "hammer_of_havenhold": {
+      "id": "hammer_of_havenhold",
+      "name_zh": "避难港之锤",
+      "name_en": "Hammer of Havenhold",
+      "type_zh": "守护者 武器·锤 （单手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n若你资源区中有一张骑士精神，此牌获得+1力量。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf you have a Chivalry in your pitch zone, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/hammer_of_havenhold/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "headbutt": {
+      "id": "headbutt",
+      "name_zh": "头槌",
+      "name_en": "Headbutt",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "此牌不能被非头部装备防御。\n若你装备了头部装备而防御英雄没有，此牌获得+1力量。\n粉碎——当此牌对英雄造成4点或更多伤害时，在其已装备的一件头部装备上放置一个-1防御指示物，然后若其防御为0，摧毁它。",
+      "text_en": "This can't be defended by non-head equipment.\nIf you have a head equipped and the defending hero doesn't, this gets +1{p}.\nCrush - When this deals 4 or more damage to a hero, put a -1{d} counter on a head they have equipped, then if it has 0{d}, destroy it.",
+      "source": "https://cards.fabtcg.com/card/headbutt/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "high_riser": {
+      "id": "high_riser",
+      "name_zh": "高抛锤",
+      "name_en": "High Riser",
+      "type_zh": "守护者 武器·锤 （单手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n若本回合你抽过牌，此牌获得+1力量。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf you've drawn a card this turn, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/high_riser/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "hostile_encroachment": {
+      "id": "hostile_encroachment",
+      "name_zh": "敌意入侵",
+      "name_en": "Hostile Encroachment",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，该英雄抽一张牌。\n粉碎——当此牌对英雄造成4点或更多伤害时，该英雄弃一张牌。",
+      "text_en": "When this attacks a hero, they draw a card.\nCrush - When this deals 4 or more damage to a hero, they discard a card.",
+      "source": "https://cards.fabtcg.com/card/hostile_encroachment/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "hungry_for_more": {
+      "id": "hungry_for_more",
+      "name_zh": "渴望更多",
+      "name_en": "Hungry for More",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌离开竞技场时，获得3点生命。",
+      "text_en": "Suspense\nWhen this leaves the arena, gain 3{h}.",
+      "source": "https://cards.fabtcg.com/card/hungry_for_more/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "in_the_palm_of_your_hand": {
+      "id": "in_the_palm_of_your_hand",
+      "name_zh": "尽在掌中",
+      "name_en": "In the Palm of Your Hand",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌进入或离开竞技场时，抽一张牌。",
+      "text_en": "Suspense\nWhen this enters or leaves the arena, draw a card.",
+      "source": "https://cards.fabtcg.com/card/in_the_palm_of_your_hand/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "knock_em_off_their_feet": {
+      "id": "knock_em_off_their_feet",
+      "name_zh": "打翻在地",
+      "name_en": "Knock 'Em Off Their Feet",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，横置该英雄。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, {t} them.",
+      "source": "https://cards.fabtcg.com/card/knock_em_off_their_feet/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "lay_down_the_law": {
+      "id": "lay_down_the_law",
+      "name_zh": "立下规矩",
+      "name_en": "Lay Down the Law",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "塔盾——若此牌的力量为13或更高，当防御此牌时，非装备牌获得-1防御。",
+      "text_en": "Tower - If this has 13 or more {p}, non-equipment cards get -1{d} while defending this.",
+      "source": "https://cards.fabtcg.com/card/lay_down_the_law/",
+      "status": "machine-draft",
+      "keywords": [
+        "Tower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "lead_with_power": {
+      "id": "lead_with_power",
+      "name_zh": "用力量领导",
+      "name_en": "Lead with Power",
+      "type_zh": "蛮将·守护者 行动",
+      "text_zh": "你本回合的下一次蛮将或守护者攻击获得+3力量。\n创造一个力量衍生物。\n再动",
+      "text_en": "Your next Brute or Guardian attack this turn gets +3{p}.\nCreate a Might token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/lead_with_power/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "leave_a_dent": {
+      "id": "leave_a_dent",
+      "name_zh": "留下凹痕",
+      "name_en": "Leave a Dent",
+      "type_zh": "守护者 行动",
+      "text_zh": "你本回合的下一次守护者攻击获得“粉碎——当此牌对英雄造成4点或更多伤害时，摧毁其牌库顶的4张牌。”\n再动",
+      "text_en": "Your next Guardian attack this turn gets \"Crush - When this deals 4 or more damage to a hero, destroy the top 4 cards of their deck.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/leave_a_dent/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "leave_them_hanging": {
+      "id": "leave_them_hanging",
+      "name_zh": "吊着他们",
+      "name_en": "Leave Them Hanging",
+      "type_zh": "憎恶 守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌进入或离开竞技场时，威吓目标英雄。\n当此牌离开竞技场时，你本回合的下一次攻击获得+4力量。",
+      "text_en": "Suspense\nWhen this enters or leaves the arena, intimidate target hero.\nWhen this leaves the arena, your next attack this turn gets +4{p}.",
+      "source": "https://cards.fabtcg.com/card/leave_them_hanging/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense",
+        "Intimidate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ley_line_of_the_old_ones": {
+      "id": "ley_line_of_the_old_ones",
+      "name_zh": "古神地脉",
+      "name_en": "Ley Line of the Old Ones",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "传奇\n当此牌进入竞技场时以及每当你造成伤害时，创造一个地震涌动衍生物。在你的结束阶段开始时，若你没有控制地震涌动衍生物，摧毁此牌。",
+      "text_en": "Legendary\nWhen this enters the arena and whenever you deal damage, create a Seismic Surge token. At the beginning of your end phase, if you control no Seismic Surge tokens, destroy this.",
+      "source": "https://cards.fabtcg.com/card/ley_line_of_the_old_ones/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "liars_charm": {
+      "id": "liars_charm",
+      "name_zh": "骗子护符",
+      "name_en": "Liar's Charm",
+      "type_zh": "憎恶 守护者 瞬间",
+      "text_zh": "选择任意数量；\n- 偷取一个坚韧或活力衍生物。\n- 观众为你喝倒彩。\n- 目标英雄在本行动阶段失去且不能获得异能，除非其弃一张牌。",
+      "text_en": "Choose any number;\n- Steal a Toughness or Vigor token.\n- The crowd boos you.\n- Target hero loses and can't gain abilities this action phase unless they discard a card.",
+      "source": "https://cards.fabtcg.com/card/liars_charm/",
+      "status": "machine-draft",
+      "keywords": [
+        "Steal",
+        "The Crowd Boos"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "lionclaw_maul": {
+      "id": "lionclaw_maul",
+      "name_zh": "狮爪大锤",
+      "name_en": "Lionclaw Maul",
+      "type_zh": "憎恶 守护者 武器·锤 斧 （单手）",
+      "text_zh": "行动——支付2点资源，横置此牌：攻击\n若此牌的力量大于其基础，它获得+1力量。\n当此牌命中英雄时，观众为你喝倒彩。",
+      "text_en": "Action - {r}{r}, {t}: Attack\nIf this has {p} greater than its base, it gets +1{p}.\nWhen this hits a hero, the crowd boos you.",
+      "source": "https://cards.fabtcg.com/card/lionclaw_maul/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Boos"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "little_big_foot": {
+      "id": "little_big_foot",
+      "name_zh": "小大脚",
+      "name_en": "Little Big Foot",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若你资源区中有两张或更多费用为3或更高的牌，此牌获得+6力量。",
+      "text_en": "If there are two or more cards with cost 3 or more in your pitch zone, this gets +6{p}.",
+      "source": "https://cards.fabtcg.com/card/little_big_foot/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "log_fall": {
+      "id": "log_fall",
+      "name_zh": "滚木坠落",
+      "name_en": "Log Fall",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "大地羁绊——若你为使用此牌资源过一张大地牌，此牌获得压制。",
+      "text_en": "Earth Bond - If an Earth card was pitched to play this, this gets overpower.",
+      "source": "https://cards.fabtcg.com/card/log_fall/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Bond",
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "macho_grande": {
+      "id": "macho_grande",
+      "name_zh": "伟大猛男",
+      "name_en": "Macho Grande",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "支配",
+      "text_en": "Dominate",
+      "source": "https://cards.fabtcg.com/card/macho_grande/",
+      "status": "machine-draft",
+      "keywords": [
+        "Dominate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "7",
+          "power": "10",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "7",
+          "power": "9",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "7",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "mighty_windup": {
+      "id": "mighty_windup",
+      "name_zh": "强力蓄势",
+      "name_en": "Mighty Windup",
+      "type_zh": "蛮将·守护者 行动·攻击",
+      "text_zh": "瞬间——弃掉此牌：创造一个力量衍生物。",
+      "text_en": "Instant - Discard this: Create a Might token.",
+      "source": "https://cards.fabtcg.com/card/mighty_windup/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "millers_grindstone": {
+      "id": "millers_grindstone",
+      "name_zh": "磨坊主磨石",
+      "name_en": "Miller's Grindstone",
+      "type_zh": "守护者 武器·锤 （单手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n当此牌命中英雄时，与该英雄交锋。若你获胜，摧毁其牌库顶的一张牌。若该英雄获胜，在此牌上放置一个-1力量指示物。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nWhen this hits a hero, clash with them. If you win, destroy the top card of their deck. If they win, put a -1{p} counter on this.",
+      "source": "https://cards.fabtcg.com/card/millers_grindstone/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "moment_maker": {
+      "id": "moment_maker",
+      "name_zh": "制造时刻",
+      "name_en": "Moment Maker",
+      "type_zh": "崇敬 守护者 武器·锤 斧 （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n若你控制3个或更多悬念光环，此牌获得+2力量，以及“当此牌命中英雄时，观众为你欢呼。”",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf you control 3 or more auras of suspense, this gets +2{p} and \"When this hits a hero, the crowd cheers you.\"",
+      "source": "https://cards.fabtcg.com/card/moment_maker/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "monolith_of_galcia": {
+      "id": "monolith_of_galcia",
+      "name_zh": "加尔西亚巨石",
+      "name_en": "Monolith of Galcia",
+      "type_zh": "冰 守护者 行动",
+      "text_zh": "选择1个或更多；\n摧毁目标被冻结的盟友。\n摧毁目标被冻结的光环。\n摧毁目标被冻结的装备。\n摧毁目标被冻结的物品。",
+      "text_en": "Choose 1 or more;\n\nDestroy target frozen ally.\nDestroy target frozen aura.\nDestroy target frozen equipment.\nDestroy target frozen item.",
+      "source": "https://cards.fabtcg.com/card/monolith_of_galcia/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mulch": {
+      "id": "mulch",
+      "name_zh": "覆盖物",
+      "name_en": "Mulch",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "大地融合\n若覆盖物已融合，它获得“若此牌命中英雄，将其军械库中的一张牌置于其牌库底。”",
+      "text_en": "Earth Fusion\nIf Mulch was fused, it gains \"If this hits a hero, put a card from their arsenal on the bottom of their deck.\"",
+      "source": "https://cards.fabtcg.com/card/mulch/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "nerves_of_steel": {
+      "id": "nerves_of_steel",
+      "name_zh": "钢铁神经",
+      "name_en": "Nerves of Steel",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "当钢铁神经进入竞技场时，从你控制的一件胸部装备上移除一个-1防御指示物。\n若你控制的装备防御力量为2或更低的攻击，其战痕和淬炼不触发。\n当你的英雄受到伤害时，摧毁钢铁神经。",
+      "text_en": "When Nerves of Steel enters the arena, remove a -1{d} counter from a chest equipment you control.\nBattleworn and temper on equipment you control doesn't trigger if it defends an attack with 2 or less {p}.\nWhen your hero is dealt damage, destroy Nerves of Steel.",
+      "source": "https://cards.fabtcg.com/card/nerves_of_steel/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "never_yield": {
+      "id": "never_yield",
+      "name_zh": "永不退缩",
+      "name_en": "Never Yield",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁永不退缩，然后若你手牌中没有牌，抽一张牌。若你的生命低于其他所有英雄，获得2点生命。若你控制的装备少于其他所有英雄，从你控制的一件装备上移除一个-1防御指示物。",
+      "text_en": "At the start of your turn, destroy Never Yield then if you have no cards in hand, draw a card. If you have less {h} than all other heroes, gain 2{h}. If you control less equipment than all other heroes, remove a -1{d} counter from an equipment you control.",
+      "source": "https://cards.fabtcg.com/card/never_yield/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "no_tall_tales": {
+      "id": "no_tall_tales",
+      "name_zh": "别吹牛",
+      "name_en": "No Tall Tales",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌的力量大于其基础，它获得+1力量。\n塔盾——若此牌的力量为13或更高，它获得“当此牌命中英雄时，该英雄拥有的牌在其下一个行动阶段期间失去且不能获得再动。”",
+      "text_en": "If this has {p} greater than its base, it gets +1{p}.\nTower - If this has 13 or more {p}, it gets \"When this hits a hero, cards they own lose and can't get go again during their next action phase.\"",
+      "source": "https://cards.fabtcg.com/card/no_tall_tales/",
+      "status": "machine-draft",
+      "keywords": [
+        "Tower"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "over_the_top": {
+      "id": "over_the_top",
+      "name_zh": "超出预期",
+      "name_en": "Over the Top",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌的力量大于其基础，它获得压制。",
+      "text_en": "If this has {p} greater than its base, it gets overpower.",
+      "source": "https://cards.fabtcg.com/card/over_the_top/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "overswing": {
+      "id": "overswing",
+      "name_zh": "过挥",
+      "name_en": "Overswing",
+      "type_zh": "守护者 行动",
+      "text_zh": "你本回合使用的下一张守护者攻击行动牌获得+3力量。\n再动\n重掷2",
+      "text_en": "The next Guardian attack action card you play this turn gets +3{p}.\nGo again\nHeave 2",
+      "source": "https://cards.fabtcg.com/card/overswing/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Heave 2"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "pec_perfect": {
+      "id": "pec_perfect",
+      "name_zh": "完美胸肌",
+      "name_en": "Pec Perfect",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "每当牌防御此牌时，与防御英雄交锋。胜者摧毁另一位英雄牌库顶的一张牌。",
+      "text_en": "Whenever a card defends this, clash with the defending hero. The winner destroys the top card of the other hero's deck.",
+      "source": "https://cards.fabtcg.com/card/pec_perfect/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "5",
+          "power": "9",
+          "defense": "3"
+        }
+      }
+    },
+    "pile_driver": {
+      "id": "pile_driver",
+      "name_zh": "打桩机",
+      "name_en": "Pile Driver",
+      "type_zh": "守护者 武器·Log （双手）",
+      "text_zh": "贝特西专精\n行动——支付4点资源，横置此牌：攻击\n当此牌攻击时，你可以与防御英雄以一个金币衍生物下注。",
+      "text_en": "Betsy Specialization\nAction - {r}{r}{r}{r}, {t}: Attack\nWhen this attacks, you may wager a Gold token with the defending hero.",
+      "source": "https://cards.fabtcg.com/card/pile_driver/",
+      "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "pint_of_strong_and_stout": {
+      "id": "pint_of_strong_and_stout",
+      "name_zh": "一品脱烈性黑啤",
+      "name_en": "Pint of Strong and Stout",
+      "type_zh": "守护者 行动",
+      "text_zh": "创造一个力量和一个活力衍生物。\n再动",
+      "text_en": "Create a Might and a Vigor token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/pint_of_strong_and_stout/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "power_play": {
+      "id": "power_play",
+      "name_zh": "强攻",
+      "name_en": "Power Play",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌是从军械库使用的，它获得+5力量。",
+      "text_en": "If this was played from arsenal, it gets +5{p}.",
+      "source": "https://cards.fabtcg.com/card/power_play/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "primed_to_fight": {
+      "id": "primed_to_fight",
+      "name_zh": "蓄势待战",
+      "name_en": "Primed to Fight",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若本回合你控制过活力衍生物，此牌的使用费用减少1点资源。\n若本回合你控制过力量衍生物，此牌获得+1力量。",
+      "text_en": "If you've controlled a Vigor token this turn, this costs {r} less to play.\nIf you've controlled a Might token this turn, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/primed_to_fight/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "5",
+          "power": "9",
+          "defense": "3"
+        }
+      }
+    },
+    "promising_terrain": {
+      "id": "promising_terrain",
+      "name_zh": "大有希望的地形",
+      "name_en": "Promising Terrain",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n若你将创造1个或更多地震涌动衍生物，改为创造等量加1个。\n在你的行动阶段开始时，摧毁此牌，然后若你控制3个或更多地震涌动衍生物，抽一张牌并获得1点生命。",
+      "text_en": "Go again\nIf you would create 1 or more Seismic Surge tokens, instead create that many plus 1.\nAt the beginning of your action phase, destroy this, then if you control 3 or more Seismic Surge tokens, draw a card and gain 1{h}.",
+      "source": "https://cards.fabtcg.com/card/promising_terrain/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "pulverize": {
+      "id": "pulverize",
+      "name_zh": "粉碎",
+      "name_en": "Pulverize",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "重掷3\n若粉碎命中英雄，该英雄在其下一个回合期间的第一次攻击获得-4力量。",
+      "text_en": "Heave 3\nIf Pulverize hits a hero, their first attack during their next turn has -4{p}.",
+      "source": "https://cards.fabtcg.com/card/pulverize/",
+      "status": "machine-draft",
+      "keywords": [
+        "Heave 3"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "10",
+          "power": "14",
+          "defense": "3"
+        }
+      }
+    },
+    "put_em_in_their_place": {
+      "id": "put_em_in_their_place",
+      "name_zh": "让他们安分",
+      "name_en": "Put 'Em In Their Place",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "瓦尔达专精\n粉碎——当此牌对英雄造成4点或更多伤害时，该英雄弃掉其手牌，然后抽等量的牌。",
+      "text_en": "Valda Specialization\nCrush - When this deals 4 or more damage to a hero, they discard their hand, then they draw that many cards.",
+      "source": "https://cards.fabtcg.com/card/put_em_in_their_place/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "10",
+          "defense": "3"
+        }
+      }
+    },
+    "redwood_hammer": {
+      "id": "redwood_hammer",
+      "name_zh": "红杉木锤",
+      "name_en": "Redwood Hammer",
+      "type_zh": "大地 守护者 武器·锤 （单手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n若你为用此牌攻击资源过一张大地牌，该攻击获得+1力量。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf an Earth card was pitched to attack with this, the attack gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/redwood_hammer/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "reinforce_steel": {
+      "id": "reinforce_steel",
+      "name_zh": "加固钢铁",
+      "name_en": "Reinforce Steel",
+      "type_zh": "守护者 行动",
+      "text_zh": "从你控制的一件基础防御为3或更低的守护者副手装备上移除一个-1防御指示物。",
+      "text_en": "Remove a -1{d} counter from a Guardian off-hand you control with 3 or less base {d}.",
+      "source": "https://cards.fabtcg.com/card/reinforce_steel/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "renounce_grandeur": {
+      "id": "renounce_grandeur",
+      "name_zh": "放弃宏伟",
+      "name_en": "Renounce Grandeur",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若防御英雄控制一个光环衍生物，此牌获得+1力量。\n粉碎——当此牌对英雄造成4点或更多伤害时，该英雄在其下一个回合期间不能创造光环衍生物。",
+      "text_en": "If the defending hero controls an aura token, this gets +1{p}.\nCrush - When this deals 4 or more damage to a hero, they can't create aura tokens during their next turn.",
+      "source": "https://cards.fabtcg.com/card/renounce_grandeur/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "righteous_cleansing": {
+      "id": "righteous_cleansing",
+      "name_zh": "正义净化",
+      "name_en": "Righteous Cleansing",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——若正义净化对英雄造成4点或更多伤害，查看其牌库顶的5张牌。从其中放逐1张或更多同名牌，然后将其余牌以任意顺序置于其牌库顶。",
+      "text_en": "Crush - If Righteous Cleansing deals 4 or more damage to a hero, look at the top 5 cards of their deck. Banish 1 or more cards with the same name from among them, then put the rest on top of their deck in any order.",
+      "source": "https://cards.fabtcg.com/card/righteous_cleansing/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "7",
+          "power": "10",
+          "defense": "3"
+        }
+      }
+    },
+    "rising_power": {
+      "id": "rising_power",
+      "name_zh": "上升的力量",
+      "name_en": "Rising Power",
+      "type_zh": "蛮将·守护者 行动·攻击",
+      "text_zh": "若本回合你抽过牌，此牌获得+1力量。",
+      "text_en": "If you've drawn a card this turn, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/rising_power/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "rites_of_earthlore": {
+      "id": "rites_of_earthlore",
+      "name_zh": "大地学识仪式",
+      "name_en": "Rites of Earthlore",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "当此牌进入竞技场时，创造一个地震涌动衍生物。\n在你的回合开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌获得+3力量。",
+      "text_en": "When this enters the arena, create a Seismic Surge token.\nAt the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/rites_of_earthlore/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "roiling_fissure": {
+      "id": "roiling_fissure",
+      "name_zh": "翻涌裂隙",
+      "name_en": "Roiling Fissure",
+      "type_zh": "守护者 行动",
+      "text_zh": "摧毁一张费用为X或更低的光环，然后你可以摧毁你控制的一个地震涌动。若如此做，重复此过程。\n再动",
+      "text_en": "Destroy an aura with cost X or less, then you may destroy a Seismic Surge you control. If you do, repeat this process.\nGo again",
+      "source": "https://cards.fabtcg.com/card/roiling_fissure/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "X1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "rubble_raiser": {
+      "id": "rubble_raiser",
+      "name_zh": "碎石者",
+      "name_en": "Rubble Raiser",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "重掷2",
+      "text_en": "Heave 2",
+      "source": "https://cards.fabtcg.com/card/rubble_raiser/",
+      "status": "machine-draft",
+      "keywords": [
+        "Heave 2"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "seeds_of_strength": {
+      "id": "seeds_of_strength",
+      "name_zh": "力量种子",
+      "name_en": "Seeds of Strength",
+      "type_zh": "元素 守护者 行动",
+      "text_zh": "创造3个力量衍生物。\n大地羁绊——若你为使用此牌资源过一张大地牌，改为创造4个力量衍生物。",
+      "text_en": "Create 3 Might tokens.\nEarth Bond - If an Earth card was pitched to play this, instead create 4 Might tokens",
+      "source": "https://cards.fabtcg.com/card/seeds_of_strength/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Bond"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "seismic_eruption": {
+      "id": "seismic_eruption",
+      "name_zh": "地震喷发",
+      "name_en": "Seismic Eruption",
+      "type_zh": "守护者 瞬间",
+      "text_zh": "创造3个地震涌动衍生物。",
+      "text_en": "Create 3 Seismic Surge tokens.",
+      "source": "https://cards.fabtcg.com/card/seismic_eruption/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "seismic_shelter": {
+      "id": "seismic_shelter",
+      "name_zh": "地震庇护",
+      "name_en": "Seismic Shelter",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n防御时你控制的攻击行动牌获得+X防御，X为你控制的地震涌动衍生物数量。\n在你的回合开始时，摧毁此牌。",
+      "text_en": "Go again\nAttack action cards you control get +X{d} while defending, where X is the number of Seismic Surge tokens you control.\nAt the start of your turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/seismic_shelter/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "seismic_shift": {
+      "id": "seismic_shift",
+      "name_zh": "地震迁移",
+      "name_en": "Seismic Shift",
+      "type_zh": "守护者 行动",
+      "text_zh": "作为使用此牌的额外费用，横置你控制的X个地震涌动衍生物。\n摧毁X个目标光环衍生物。\n再动",
+      "text_en": "As an additional cost to play this, {t} X Seismic Surge tokens you control.\nDestroy X target aura tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/seismic_shift/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "seismic_stir": {
+      "id": "seismic_stir",
+      "name_zh": "地震扰动",
+      "name_en": "Seismic Stir",
+      "type_zh": "守护者 行动",
+      "text_zh": "创造3个地震涌动衍生物。\n再动",
+      "text_en": "Create 3 Seismic Surge tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/seismic_stir/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "seismic_surge": {
+      "id": "seismic_surge",
+      "name_zh": "地震涌动",
+      "name_en": "Seismic Surge",
+      "type_zh": "守护者 衍生物·光环",
+      "text_zh": "在你的行动阶段开始时，摧毁此牌，然后你本回合使用的下一张守护者攻击行动牌费用减少1点资源。",
+      "text_en": "At the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play.",
+      "source": "https://cards.fabtcg.com/card/seismic_surge/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sense_weakness": {
+      "id": "sense_weakness",
+      "name_zh": "感知弱点",
+      "name_en": "Sense Weakness",
+      "type_zh": "守护者 行动",
+      "text_zh": "你本回合的下一次守护者攻击获得+1力量、支配，以及“当此牌命中英雄时，对其控制的所有盟友造成等于以此方式造成的伤害的伤害。”\n再动",
+      "text_en": "Your next Guardian attack this turn gets +1{p}, dominate, and \"When this hits a hero, deal damage to all allies they control equal to the damage dealt this way.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/sense_weakness/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "shield_bash": {
+      "id": "shield_bash",
+      "name_zh": "盾击",
+      "name_en": "Shield Bash",
+      "type_zh": "守护者 防御反应",
+      "text_zh": "若此链环中有一件防御为1或更高的守护者副手在防御，对攻击英雄造成1点伤害，除非其弃一张牌。",
+      "text_en": "If a Guardian off-hand with 1 or more {d} is defending this chain link, deal 1 damage to the attacking hero unless they discard a card.",
+      "source": "https://cards.fabtcg.com/card/shield_bash/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "6"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "5"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "shield_beater": {
+      "id": "shield_beater",
+      "name_zh": "盾锤",
+      "name_en": "Shield Beater",
+      "type_zh": "守护者 武器·锤 （单手）",
+      "text_zh": "行动——支付4点资源，横置此牌：攻击\n你拥有的名为拜访铁砧海姆的牌获得再动。",
+      "text_en": "Action - {r}{r}{r}{r}, {t}: Attack\nCards you own named Visit Anvilheim get go again.",
+      "source": "https://cards.fabtcg.com/card/shield_beater/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "5",
+          "defense": null
+        }
+      }
+    },
+    "shield_wall": {
+      "id": "shield_wall",
+      "name_zh": "盾墙",
+      "name_en": "Shield Wall",
+      "type_zh": "守护者 防御反应",
+      "text_zh": "若你控制一件守护者副手，盾墙获得+4防御。",
+      "text_en": "If you control a Guardian off-hand, Shield Wall has +4{d}.",
+      "source": "https://cards.fabtcg.com/card/shield_wall/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": null,
+          "defense": "7"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "6",
+          "power": null,
+          "defense": "6"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "6",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
+    "shoot_your_mouth_off": {
+      "id": "shoot_your_mouth_off",
+      "name_zh": "说大话",
+      "name_en": "Shoot Your Mouth Off",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当战斗链关闭时，若此牌没有命中，防御英雄创造一个自信衍生物。",
+      "text_en": "When the combat chain closes, if this didn't hit, the defending hero creates a Confidence token.",
+      "source": "https://cards.fabtcg.com/card/shoot_your_mouth_off/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "8",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "short_shrift": {
+      "id": "short_shrift",
+      "name_zh": "从速了结",
+      "name_en": "Short Shrift",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌的力量大于其基础，它获得+1力量。\n粉碎——当此牌对英雄造成4点或更多伤害时，该英雄弃一张牌。",
+      "text_en": "If this has {p} greater than its base, it gets +1{p}.\nCrush - When this deals 4 or more damage to a hero, they discard a card.",
+      "source": "https://cards.fabtcg.com/card/short_shrift/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "show_time": {
+      "id": "show_time",
+      "name_zh": "表演时间",
+      "name_en": "Show Time!",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "布拉沃专精\n当表演时间！进入竞技场时，从你的牌库中搜寻一张守护者攻击行动牌，展示它并将其置入你的手牌，然后洗牌。\n在你的行动阶段开始时，摧毁表演时间！，然后抽一张牌。",
+      "text_en": "Bravo Specialization\nWhen Show Time! enters the arena, search your deck for a Guardian attack action card, reveal it and put it into your hand, then shuffle your deck.\nAt the beginning of your action phase, destroy Show Time! then draw a card.",
+      "source": "https://cards.fabtcg.com/card/show_time/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sigil_of_shelter": {
+      "id": "sigil_of_shelter",
+      "name_zh": "庇护印记",
+      "name_en": "Sigil of Shelter",
+      "type_zh": "守护者 瞬间",
+      "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。",
+      "text_en": "The next time you would be dealt damage this turn, prevent 2 of that damage.",
+      "source": "https://cards.fabtcg.com/card/sigil_of_shelter/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sit": {
+      "id": "sit",
+      "name_zh": "坐下",
+      "name_en": "Sit!",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "当此牌防御蛮将攻击时，此牌获得+3防御。",
+      "text_en": "When this defends a Brute attack, this gets +3{d}.",
+      "source": "https://cards.fabtcg.com/card/sit/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "smack_of_reality": {
+      "id": "smack_of_reality",
+      "name_zh": "现实之击",
+      "name_en": "Smack of Reality",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "塔盾——若此牌的力量为13或更高，它获得“当此牌命中英雄时，摧毁其控制的所有光环衍生物。”",
+      "text_en": "Tower - If this has 13 or more {p}, it gets \"When this hits a hero, destroy all aura tokens they control.\"",
+      "source": "https://cards.fabtcg.com/card/smack_of_reality/",
+      "status": "machine-draft",
+      "keywords": [
+        "Tower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "5",
+          "power": "9",
+          "defense": "3"
+        }
+      }
+    },
+    "small_problem": {
+      "id": "small_problem",
+      "name_zh": "小问题",
+      "name_en": "Small Problem",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌的力量大于其基础，它获得+1力量。\n粉碎——当此牌对英雄造成4点或更多伤害时，摧毁其控制的一个光环。",
+      "text_en": "If this has {p} greater than its base, it gets +1{p}.\nCrush - When this deals 4 or more damage to a hero, destroy an aura they control.",
+      "source": "https://cards.fabtcg.com/card/small_problem/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "smelting_of_the_old_ones": {
+      "id": "smelting_of_the_old_ones",
+      "name_zh": "古神熔炼",
+      "name_en": "Smelting of the Old Ones",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——当此牌对守护者英雄造成4点或更多伤害时，摧毁其控制的带有-1防御指示物的所有装备。\n重掷2",
+      "text_en": "Crush - When this deals 4 or more damage to a Guardian hero, destroy all equipment they control with -1{d} counters.\nHeave 2",
+      "source": "https://cards.fabtcg.com/card/smelting_of_the_old_ones/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush",
+        "Heave 2"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "10",
+          "defense": "3"
+        }
+      }
+    },
+    "snow_under": {
+      "id": "snow_under",
+      "name_zh": "雪埋",
+      "name_en": "Snow Under",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "冰融合\n若雪埋已融合，它获得“若此牌命中英雄，在其控制下创造一个霜咬衍生物。”",
+      "text_en": "Ice Fusion\nIf Snow Under was fused, it gains \"If this hits a hero, create a Frostbite token under their control.\"",
+      "source": "https://cards.fabtcg.com/card/snow_under/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "solid_ground": {
+      "id": "solid_ground",
+      "name_zh": "坚实地面",
+      "name_en": "Solid Ground",
+      "type_zh": "守护者 防御反应",
+      "text_zh": "每当你控制一个地震涌动，此牌的使用费用减少1点资源。",
+      "text_en": "This costs {r} less to play for each Seismic Surge you control.",
+      "source": "https://cards.fabtcg.com/card/solid_ground/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
+    "spew_obscenities": {
+      "id": "spew_obscenities",
+      "name_zh": "口吐污言",
+      "name_en": "Spew Obscenities",
+      "type_zh": "憎恶 守护者 行动·攻击",
+      "text_zh": "若你控制一个自信或力量衍生物，此牌获得+1力量。\n当此牌命中英雄时，创造一个自信和一个力量衍生物。",
+      "text_en": "If you control a Confidence or Might token, this gets +1{p}.\nWhen this hits a hero, create a Confidence and a Might token.",
+      "source": "https://cards.fabtcg.com/card/spew_obscenities/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "spinal_crush": {
+      "id": "spinal_crush",
+      "name_zh": "脊椎碾压",
+      "name_en": "Spinal Crush",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "粉碎——若脊椎碾压对英雄造成4点或更多伤害，该英雄控制的行动牌、启动式异能和攻击在其下一个行动阶段期间失去且不能获得再动。",
+      "text_en": "Crush - If Spinal Crush deals 4 or more damage to a hero, action cards, activated abilities, and attacks they control lose and can't gain go again during their next action phase.",
+      "source": "https://cards.fabtcg.com/card/spinal_crush/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "5",
+          "power": "9",
+          "defense": "3"
+        }
+      }
+    },
+    "stacked_in_your_favor": {
+      "id": "stacked_in_your_favor",
+      "name_zh": "对你有利",
+      "name_en": "Stacked in Your Favor",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n防御时你的攻击行动牌获得+3防御。\n在你的回合开始时，摧毁此牌，抽一张牌，然后将你手牌中的一张牌置于你的牌库顶。",
+      "text_en": "Go again\nYour attack action cards get +3{d} while defending.\nAt the start of your turn, destroy this, draw a card, then put a card from your hand on top of your deck.",
+      "source": "https://cards.fabtcg.com/card/stacked_in_your_favor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "stamp_authority": {
+      "id": "stamp_authority",
+      "name_zh": "盖上权威",
+      "name_en": "Stamp Authority",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "当盖上权威进入竞技场时，若你资源区中有2张或更多费用为3或更高的牌，你的英雄直到回合结束获得+1智力。\n当盖上权威在竞技场中时，攻击行动牌的效果在命中时不触发。\n在你的行动阶段开始时，摧毁盖上权威。",
+      "text_en": "When Stamp Authority enters the arena, if you have 2 or more cards in your pitch zone with cost 3 or greater, your hero gains +1{i} until end of turn.\nWhile Stamp Authority is in the arena, attack action card effects do not trigger when they hit.\nAt the beginning of your action phase, destroy Stamp Authority.",
+      "source": "https://cards.fabtcg.com/card/stamp_authority/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "standing_ovation": {
+      "id": "standing_ovation",
+      "name_zh": "起立鼓掌",
+      "name_en": "Standing Ovation",
+      "type_zh": "崇敬 守护者 行动·攻击",
+      "text_zh": "若本回合有3个或更多悬念光环离开竞技场，此牌获得“当此牌命中英雄时，在此回合之后额外进行一个回合。在下一个结束阶段开始时，该英雄抽牌至其智力上限。”",
+      "text_en": "If 3 or more auras of suspense have left the arena this turn, this gets \"When this hits a hero, take an extra turn after this one. At the beginning of the next end phase, they draw up to their {i}.\"",
+      "source": "https://cards.fabtcg.com/card/standing_ovation/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "6",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "star_struck": {
+      "id": "star_struck",
+      "name_zh": "星光闪耀",
+      "name_en": "Star Struck",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "布拉沃专精\n粉碎——当此牌对英雄造成4点或更多伤害时，该英雄在其下一个回合期间只能使用或启动基础力量大于以此方式造成的伤害的攻击。\n团结——当此牌与一张来自手牌的牌一起防御时，在任意数量英雄的控制下创造一个地震涌动衍生物。",
+      "text_en": "Bravo Specialization\nCrush - When this deals 4 or more damage to a hero, the only attacks they may play or activate during their next turn are attacks with base {p} greater than the damage dealt this way.\nUnity - When this defends together with a card from hand, create a Seismic Surge token under any number of heroes' control.",
+      "source": "https://cards.fabtcg.com/card/star_struck/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush",
+        "Unity"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "7",
+          "power": "10",
+          "defense": "3"
+        }
+      }
+    },
+    "steadfast": {
+      "id": "steadfast",
+      "name_zh": "坚定不移",
+      "name_en": "Steadfast",
+      "type_zh": "守护者 瞬间",
+      "text_zh": "防止本回合接下来将由你选择的一个来源对你的英雄造成的6点伤害。",
+      "text_en": "Prevent the next 6 damage that would be dealt to your hero this turn by a source of your choice.",
+      "source": "https://cards.fabtcg.com/card/steadfast/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "stonewall_confidence": {
+      "id": "stonewall_confidence",
+      "name_zh": "石墙自信",
+      "name_en": "Stonewall Confidence",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n防御时你控制的费用为3或更高的牌获得+4防御。\n在你的行动阶段开始时，摧毁此牌。",
+      "text_en": "Go again\nCards you control with cost 3 or more get +4{d} while defending.\nAt the beginning of your action phase, destroy this.",
+      "source": "https://cards.fabtcg.com/card/stonewall_confidence/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "story_beats": {
+      "id": "story_beats",
+      "name_zh": "故事节拍",
+      "name_en": "Story Beats",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当此牌攻击或防御时，你可以将一个悬念指示物放置在你控制的一个悬念光环上，或从其上移除一个。",
+      "text_en": "When this attacks or defends, you may put a suspense counter on, or remove one from, an aura of suspense you control.",
+      "source": "https://cards.fabtcg.com/card/story_beats/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "strength_of_sequoia": {
+      "id": "strength_of_sequoia",
+      "name_zh": "红杉之力",
+      "name_en": "Strength of Sequoia",
+      "type_zh": "元素 守护者 行动·光环",
+      "text_zh": "大地融合\n再动\n当红杉之力进入竞技场时，若它已融合，创造一个地震涌动衍生物。\n在你的行动阶段开始时，摧毁红杉之力，然后你本回合使用的下一张攻击行动牌获得+3力量。",
+      "text_en": "Earth Fusion\nGo again\nWhen Strength of Sequoia enters the arena, if it was fused, create a Seismic Surge token.\nAt the beginning of your action phase, destroy Strength of Sequoia then the next attack action card you play this turn gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/strength_of_sequoia/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "strong_wood": {
+      "id": "strong_wood",
+      "name_zh": "坚木",
+      "name_en": "Strong Wood",
+      "type_zh": "元素 守护者 行动·攻击",
+      "text_zh": "大地羁绊——若你为使用此牌资源过一张大地牌，此牌获得+1力量。",
+      "text_en": "Earth Bond - If an Earth card was pitched to play this, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/strong_wood/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Bond"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "summit_the_unforgiving": {
+      "id": "summit_the_unforgiving",
+      "name_zh": "无情之巅",
+      "name_en": "Summit, the Unforgiving",
+      "type_zh": "大地 冰 守护者 武器·Polearm （单手）",
+      "text_zh": "每回合一次行动——支付6点资源：攻击\n当此牌命中英雄时，在其暴露的头部、胸部、手臂或腿部区域创造一个霜咬衍生物。\n重型——若此牌是装备在你武器区域的唯一一张牌，它获得+2力量。",
+      "text_en": "Once per Turn Action - {r}{r}{r} {r}{r}{r}: Attack\nWhen this hits a hero, create a Frostbite token in their exposed head, chest, arms, or legs zone.\nHeavy - If this is the only card equipped to your weapon zones, it gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/summit_the_unforgiving/",
+      "status": "machine-draft",
+      "keywords": [
+        "Heavy"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "superstar": {
+      "id": "superstar",
+      "name_zh": "超级明星",
+      "name_en": "Superstar",
+      "type_zh": "崇敬 守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌进入或离开竞技场时，观众为你欢呼。",
+      "text_en": "Suspense\nWhen this enters or leaves the arena, the crowd cheers you.",
+      "source": "https://cards.fabtcg.com/card/superstar/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense",
+        "The Crowd Cheers"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "surface_shaking": {
+      "id": "surface_shaking",
+      "name_zh": "地表震动",
+      "name_en": "Surface Shaking",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "再动\n当此牌进入竞技场时，创造3个地震涌动衍生物。\n在你的行动阶段开始时，摧毁此牌，然后你可以将你手牌中的至多X张牌置于你的牌库底，X为你控制的地震涌动衍生物数量。抽与你以此方式置于牌库底的牌数量相等的牌。",
+      "text_en": "Go again\nWhen this enters the arena, create 3 Seismic Surge tokens.\nAt the beginning of your action phase, destroy this, then you may put up to X cards from your hand on the bottom of your deck, where X is the number of Seismic Surge tokens you control. Draw cards equal to the number of cards put on the bottom this way.",
+      "source": "https://cards.fabtcg.com/card/surface_shaking/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "talk_a_big_game": {
+      "id": "talk_a_big_game",
+      "name_zh": "说大话",
+      "name_en": "Talk a Big Game",
+      "type_zh": "蛮将·守护者 行动",
+      "text_zh": "选择一个数字。本回合你下一次对英雄造成等于或大于该数量的力量伤害时，创造等量的力量衍生物。\n再动",
+      "text_en": "Choose a number. The next time you deal that much or more {p} damage to a hero this turn, create that many Might tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/talk_a_big_game/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "tectonic_instability": {
+      "id": "tectonic_instability",
+      "name_zh": "地壳不稳定",
+      "name_en": "Tectonic Instability",
+      "type_zh": "守护者 行动",
+      "text_zh": "每位英雄将军械库中的一张牌置于其牌库底。若如此做，该英雄抽一张牌。\n创造与此方式抽牌数量相等的地震涌动衍生物。\n再动",
+      "text_en": "Each hero puts a card from their arsenal on the bottom of their deck. If they do, they draw a card.\nCreate Seismic Surge tokens equal to the number of cards drawn this way.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tectonic_instability/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "tectonic_rift": {
+      "id": "tectonic_rift",
+      "name_zh": "地壳裂谷",
+      "name_en": "Tectonic Rift",
+      "type_zh": "守护者 行动",
+      "text_zh": "创造X个地震涌动衍生物。\n再动",
+      "text_en": "Create X Seismic Surge tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tectonic_rift/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "X",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "tension_in_the_air": {
+      "id": "tension_in_the_air",
+      "name_zh": "空气中弥漫紧张",
+      "name_en": "Tension in the Air",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌离开竞技场时，你本回合的下一次攻击获得+4力量。",
+      "text_en": "Suspense\nWhen this leaves the arena, your next attack this turn gets +4{p}.",
+      "source": "https://cards.fabtcg.com/card/tension_in_the_air/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "test_of_iron_grip": {
+      "id": "test_of_iron_grip",
+      "name_zh": "铁握考验",
+      "name_en": "Test of Iron Grip",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "当此牌防御时，与攻击英雄交锋。若有胜者，另一位英雄弃一张牌。",
+      "text_en": "When this defends, clash with the attacking hero. If there is a winner, the other hero discards a card.",
+      "source": "https://cards.fabtcg.com/card/test_of_iron_grip/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "test_of_might": {
+      "id": "test_of_might",
+      "name_zh": "力量考验",
+      "name_en": "Test of Might",
+      "type_zh": "蛮将·守护者 阻挡",
+      "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个力量衍生物。",
+      "text_en": "When this defends, clash with the attacking hero. The winner creates a Might token.",
+      "source": "https://cards.fabtcg.com/card/test_of_might/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "the_golden_son": {
+      "id": "the_golden_son",
+      "name_zh": "黄金之子",
+      "name_en": "The Golden Son",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "维克托专精\n作为使用此牌的额外费用，你可以摧毁你控制的一个金币。若如此做，此牌获得+3力量和压制。\n当你展示此牌并赢得交锋时，创造一个金币衍生物。",
+      "text_en": "Victor Specialization\nAs an additional cost to play this, you may destroy a Gold you control. If you do, this gets +3{p} and overpower.\nWhen you win a clash revealing this, create a Gold token.",
+      "source": "https://cards.fabtcg.com/card/the_golden_son/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "the_suspense_is_killing_me": {
+      "id": "the_suspense_is_killing_me",
+      "name_zh": "悬念煎熬",
+      "name_en": "The Suspense is Killing Me",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n你每回合的第一次攻击获得+1力量。",
+      "text_en": "Suspense\nYour first attack each turn gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/the_suspense_is_killing_me/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "thespian_charm": {
+      "id": "thespian_charm",
+      "name_zh": "演员护符",
+      "name_en": "Thespian Charm",
+      "type_zh": "崇敬 守护者 瞬间",
+      "text_zh": "选择任意数量；\n- 摧毁一个力量或活力衍生物。\n- 观众为你欢呼。\n- 将你控制的一个光环永久物移回其拥有者的手牌。",
+      "text_en": "Choose any number;\n- Destroy a Might or Vigor token.\n- The crowd cheers you.\n- Return an aura permanent you control to its owner's hand.",
+      "source": "https://cards.fabtcg.com/card/thespian_charm/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "thump": {
+      "id": "thump",
+      "name_zh": "重击",
+      "name_en": "Thump",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当重击的力量大于其基础力量时，它获得支配，以及“若此牌命中英雄，该英雄弃一张牌。”",
+      "text_en": "While Thump's {p} is greater than its base {p}, it gains dominate and \"If this hits a hero, they discard a card.\"",
+      "source": "https://cards.fabtcg.com/card/thump/",
+      "status": "machine-draft",
+      "keywords": [
+        "Dominate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "thunder_quake": {
+      "id": "thunder_quake",
+      "name_zh": "雷鸣地震",
+      "name_en": "Thunder Quake",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "重掷3",
+      "text_en": "Heave 3",
+      "source": "https://cards.fabtcg.com/card/thunder_quake/",
+      "status": "machine-draft",
+      "keywords": [
+        "Heave 3"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "10",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "6",
+          "power": "9",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "6",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "thunk": {
+      "id": "thunk",
+      "name_zh": "闷响",
+      "name_en": "Thunk",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当你展示此牌并赢得交锋时，创造一个力量衍生物。",
+      "text_en": "When you win a clash revealing this, create a Might token.",
+      "source": "https://cards.fabtcg.com/card/thunk/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "5",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "5",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "5",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "to_be_continued": {
+      "id": "to_be_continued",
+      "name_zh": "未完待续",
+      "name_en": "To Be Continued...",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n每回合第一次你将受到伤害时，防止其中1点伤害。",
+      "text_en": "Suspense\nThe first time you would be dealt damage each turn, prevent 1 of that damage.",
+      "source": "https://cards.fabtcg.com/card/to_be_continued/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "towering_titan": {
+      "id": "towering_titan",
+      "name_zh": "巍峨泰坦",
+      "name_en": "Towering Titan",
+      "type_zh": "守护者 行动·光环",
+      "text_zh": "在你的行动阶段开始时，摧毁巍峨泰坦，然后你本回合使用的下一张守护者攻击行动牌获得+10力量。",
+      "text_en": "At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +10{p}.",
+      "source": "https://cards.fabtcg.com/card/towering_titan/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "9",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "9",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "9",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "trounce": {
+      "id": "trounce",
+      "name_zh": "击溃",
+      "name_en": "Trounce",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "当此牌防御时，与攻击英雄交锋。将展示的牌置于其拥有者的牌库底，然后再次交锋。\n若一位英雄赢得两次交锋，其创造一个金币、力量和活力衍生物。",
+      "text_en": "When this defends, clash with the attacking hero. Put the revealed cards on the bottom of their owner's deck, then clash again.\nIf a hero wins both clashes, they create a Gold, Might, and Vigor token.",
+      "source": "https://cards.fabtcg.com/card/trounce/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "truth_or_trickery": {
+      "id": "truth_or_trickery",
+      "name_zh": "真假难辨",
+      "name_en": "Truth or Trickery",
+      "type_zh": "憎恶 守护者 阻挡",
+      "text_zh": "当此牌防御时，你可以查看你牌库顶的一张牌并选择一种颜色。若如此做，攻击英雄猜那张牌是否为所选颜色，然后该英雄查看它。若该英雄猜错，其弃一张牌。",
+      "text_en": "When this defends, you may look at the top card of your deck and choose a color. If you do, the attacking hero guesses if that card is the chosen color, then they look at it. If they guessed wrong, they discard a card.",
+      "source": "https://cards.fabtcg.com/card/truth_or_trickery/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "turn_heads": {
+      "id": "turn_heads",
+      "name_zh": "令人侧目",
+      "name_en": "Turn Heads",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌离开竞技场时，横置目标蛮将英雄。该英雄在其下一个结束阶段期间不能重置。",
+      "text_en": "Suspense\nWhen this leaves the arena, {t} target Brute hero. They don't {u} during their next end phase.",
+      "source": "https://cards.fabtcg.com/card/turn_heads/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "turn_timber": {
+      "id": "turn_timber",
+      "name_zh": "转木",
+      "name_en": "Turn Timber",
+      "type_zh": "元素 守护者 防御反应",
+      "text_zh": "大地融合\n若转木已融合，它获得+2防御。",
+      "text_en": "Earth Fusion\nIf Turn Timber was fused, it gains +2{d}.",
+      "source": "https://cards.fabtcg.com/card/turn_timber/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "6"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "5"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "turning_point": {
+      "id": "turning_point",
+      "name_zh": "转折点",
+      "name_en": "Turning Point",
+      "type_zh": "崇敬 守护者 阻挡",
+      "text_zh": "当此牌防御时，若你的生命低于攻击英雄，观众为你欢呼。\n当此牌防御时，若本回合你被欢呼过，它获得+3防御。",
+      "text_en": "When this defends, if you have less {h} than the attacking hero, the crowd cheers you.\nWhile this is defending, if you've been cheered this turn, it gets +3{d}.",
+      "source": "https://cards.fabtcg.com/card/turning_point/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "two_steps_ahead": {
+      "id": "two_steps_ahead",
+      "name_zh": "领先两步",
+      "name_en": "Two Steps Ahead",
+      "type_zh": "憎恶 守护者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁此牌，然后创造一个自信和3个力量衍生物。",
+      "text_en": "At the start of your turn, destroy this, then create a Confidence and 3 Might tokens.",
+      "source": "https://cards.fabtcg.com/card/two_steps_ahead/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "unforgetting_unforgiving": {
+      "id": "unforgetting_unforgiving",
+      "name_zh": "铭记且绝不宽恕",
+      "name_en": "Unforgetting Unforgiving",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "贾尔专精\n当此牌防御时，若攻击英雄控制一件带有-1防御指示物的装备，你可以从你的牌库中搜寻一张绞碎，放逐它，然后洗牌。在你的下一个行动阶段期间你可以使用它。",
+      "text_en": "Jarl Specialization\nWhen this defends, if the attacking hero controls an equipment with a -1{d} counter, you may search your deck for a Mangle, banish it, then shuffle. You may play it during your next action phase.",
+      "source": "https://cards.fabtcg.com/card/unforgetting_unforgiving/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "up_on_a_pedestal": {
+      "id": "up_on_a_pedestal",
+      "name_zh": "高高在上",
+      "name_en": "Up on a Pedestal",
+      "type_zh": "崇敬 守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌进入或离开竞技场时，你可以将你坟场中的一张崇敬或守护者攻击行动牌置于你的牌库顶。",
+      "text_en": "Suspense\nWhen this enters or leaves the arena, you may put a Revered or Guardian attack action card from your graveyard on top of your deck.",
+      "source": "https://cards.fabtcg.com/card/up_on_a_pedestal/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "uplifting_performance": {
+      "id": "uplifting_performance",
+      "name_zh": "振奋演出",
+      "name_en": "Uplifting Performance",
+      "type_zh": "崇敬 守护者 行动·攻击",
+      "text_zh": "若你控制一个自信或坚韧衍生物，此牌获得+1力量。\n当此牌命中英雄时，创造一个自信和一个坚韧衍生物。",
+      "text_en": "If you control a Confidence or Toughness token, this gets +1{p}.\nWhen this hits a hero, create a Confidence and a Toughness token.",
+      "source": "https://cards.fabtcg.com/card/uplifting_performance/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "valahai_riven": {
+      "id": "valahai_riven",
+      "name_zh": "瓦拉海裂谷",
+      "name_en": "Valahai Riven",
+      "type_zh": "守护者 阻挡",
+      "text_zh": "当此牌防御时，你可以支付至多3点资源。创造等量的地震涌动衍生物。",
+      "text_en": "When this defends, you may pay up to {r}{r}{r}. Create that many Seismic Surge tokens.",
+      "source": "https://cards.fabtcg.com/card/valahai_riven/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "visit_anvilheim": {
+      "id": "visit_anvilheim",
+      "name_zh": "拜访铁砧海姆",
+      "name_en": "Visit Anvilheim",
+      "type_zh": "守护者 行动",
+      "text_zh": "从你已装备的一件守护者副手上移除X个-1防御指示物。",
+      "text_en": "Remove X -1{d} counters from a Guardian off-hand you have equipped.",
+      "source": "https://cards.fabtcg.com/card/visit_anvilheim/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "X",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "visit_goldmane_estate": {
+      "id": "visit_goldmane_estate",
+      "name_zh": "拜访金鬃庄园",
+      "name_en": "Visit Goldmane Estate",
+      "type_zh": "守护者 行动",
+      "text_zh": "维克托专精\n创造一个金币衍生物。然后若你控制3个或更多金币，创造等量的力量衍生物。\n再动",
+      "text_en": "Victor Specialization\nCreate a Gold token. Then if you control 3 or more Gold, create that many Might tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/visit_goldmane_estate/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "wage_might": {
+      "id": "wage_might",
+      "name_zh": "押上力量",
+      "name_en": "Wage Might",
+      "type_zh": "蛮将·守护者 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，你可以与该英雄以一个力量衍生物下注。",
+      "text_en": "When this attacks a hero, you may wager a Might token with them.",
+      "source": "https://cards.fabtcg.com/card/wage_might/",
+      "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "walk_in_my_shoes": {
+      "id": "walk_in_my_shoes",
+      "name_zh": "设身处地",
+      "name_en": "Walk in My Shoes",
+      "type_zh": "憎恶 守护者 行动·攻击",
+      "text_zh": "若此牌的力量大于其基础，它获得+1力量。\n粉碎——当此牌对英雄造成4点或更多伤害时，直到其下一个回合结束，该英雄控制的攻击行动牌的基础力量和防御减半（向上取整）。",
+      "text_en": "If this has {p} greater than its base, it gets +1{p}.\nCrush - When this deals 4 or more damage to a hero, until the end of their next turn, the base {p} and {d} of attack action cards they control are halved, rounded up.",
+      "source": "https://cards.fabtcg.com/card/walk_in_my_shoes/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "wall_of_meat_and_muscle": {
+      "id": "wall_of_meat_and_muscle",
+      "name_zh": "血肉之墙",
+      "name_en": "Wall of Meat and Muscle",
+      "type_zh": "蛮将·守护者 阻挡",
+      "text_zh": "当此牌防御时，若你控制一个力量衍生物，你可以将你坟场中的一张攻击行动牌置于你的牌库顶。",
+      "text_en": "When this defends, if you control a Might token, you may put an attack action card from your graveyard on top of your deck.",
+      "source": "https://cards.fabtcg.com/card/wall_of_meat_and_muscle/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "wallop": {
+      "id": "wallop",
+      "name_zh": "猛揍",
+      "name_en": "Wallop",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "当你展示此牌并赢得交锋时，创造一个活力衍生物。",
+      "text_en": "When you win a clash revealing this, create a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/wallop/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "wee_wrecking_ball": {
+      "id": "wee_wrecking_ball",
+      "name_zh": "小小破坏球",
+      "name_en": "Wee Wrecking Ball",
+      "type_zh": "守护者 行动·攻击",
+      "text_zh": "若此牌的力量大于其基础，它获得+1力量。\n粉碎——当此牌对英雄造成4点或更多伤害时，摧毁其军械库中的一张牌。",
+      "text_en": "If this has {p} greater than its base, it gets +1{p}.\nCrush - When this deals 4 or more damage to a hero, destroy a card in their arsenal.",
+      "source": "https://cards.fabtcg.com/card/wee_wrecking_ball/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "what_happens_next": {
+      "id": "what_happens_next",
+      "name_zh": "接下来会发生什么",
+      "name_en": "What Happens Next?",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n你每回合使用的第一张费用为1或更高的牌使用费用减少1点资源。",
+      "text_en": "Suspense\nThe first card with cost 1 or more you play each turn costs {r} less to play.",
+      "source": "https://cards.fabtcg.com/card/what_happens_next/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "who_blinks_first": {
+      "id": "who_blinks_first",
+      "name_zh": "谁先眨眼",
+      "name_en": "Who Blinks First?",
+      "type_zh": "守护者 瞬间·光环",
+      "text_zh": "悬念\n当此牌离开竞技场时，你可以摧毁一位守护者英雄控制的一个光环永久物。",
+      "text_en": "Suspense\nWhen this leaves the arena, you may destroy an aura permanent that a Guardian hero controls.",
+      "source": "https://cards.fabtcg.com/card/who_blinks_first/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "winters_wail": {
+      "id": "winters_wail",
+      "name_zh": "冬之哀嚎",
+      "name_en": "Winter's Wail",
+      "type_zh": "",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n若以此方式资源了一张冰牌，冬之哀嚎获得\"若此牌命中英雄，在其控制下创造一个霜咬衍生物。\"",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nIf an Ice card is pitched this way, Winter's Wail gains \"If this hits a hero, create a Frostbite token under their control.\"",
+      "source": "https://cards.fabtcg.com/card/winters_wail/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "4",
+          "defense": ""
+        }
+      }
+    },
+    "withstand": {
+      "id": "withstand",
+      "name_zh": "抵挡",
+      "name_en": "Withstand",
+      "type_zh": "守护者 瞬间",
+      "text_zh": "本回合目标守护者副手下一次防御时，它获得+6防御直到战斗链关闭。",
+      "text_en": "The next time target Guardian off-hand defends this turn, it gains +6{d} until the combat chain closes.",
+      "source": "https://cards.fabtcg.com/card/withstand/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1918 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "amulet_of_earth": {
+      "id": "amulet_of_earth",
+      "name_zh": "大地护符",
+      "name_en": "Amulet of Earth",
+      "type_zh": "大地 行动·物品",
+      "text_zh": "再动\n瞬间——摧毁大地护符：本回合你控制的攻击行动牌获得+1力量和+1防御。仅当本回合你已大地融合时才能启动此异能。",
+      "text_en": "Go again\nInstant - Destroy Amulet of Earth: Attack action cards you control gain +1{p} and +1{d} this turn. Activate this ability only if you have Earth fused this turn.",
+      "source": "https://cards.fabtcg.com/card/amulet_of_earth/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "amulet_of_ice": {
+      "id": "amulet_of_ice",
+      "name_zh": "冰之护符",
+      "name_en": "Amulet of Ice",
+      "type_zh": "冰 行动·物品",
+      "text_zh": "再动\n瞬间——摧毁冰之护符：目标英雄弃一张牌，除非其支付2点资源。仅当本回合你已冰融合时才能启动此异能。",
+      "text_en": "Go again\nInstant - Destroy Amulet of Ice: Target hero discards a card unless they pay {r}{r}. Activate this ability only if you have Ice fused this turn.",
+      "source": "https://cards.fabtcg.com/card/amulet_of_ice/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "anthem_of_spring": {
+      "id": "anthem_of_spring",
+      "name_zh": "春之颂歌",
+      "name_en": "Anthem of Spring",
+      "type_zh": "大地 行动",
+      "text_zh": "布里亚专精\n本回合你使用的下一张攻击行动牌获得+1力量。再动\n团结——当此牌与一张来自手牌的牌一起防御时，在任意数量英雄的控制下创造一个大地化身衍生物。",
+      "text_en": "Briar Specialization\nThe next attack action card you play this turn gets +1{p}. Go again\nUnity - When this defends together with a card from hand, create an Embodiment of Earth token under any number of heroes' control.",
+      "source": "https://cards.fabtcg.com/card/anthem_of_spring/",
+      "status": "machine-draft",
+      "keywords": [
+        "Unity",
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "arctic_incarceration": {
+      "id": "arctic_incarceration",
+      "name_zh": "北极禁锢",
+      "name_en": "Arctic Incarceration",
+      "type_zh": "冰 行动",
+      "text_zh": "在目标英雄的控制下创造3个霜咬衍生物。",
+      "text_en": "Create 3 Frostbite tokens under target hero's control.",
+      "source": "https://cards.fabtcg.com/card/arctic_incarceration/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "blossoming_decay": {
+      "id": "blossoming_decay",
+      "name_zh": "绽放的腐坏",
+      "name_en": "Blossoming Decay",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "分解——当此牌攻击时，你可以放逐你坟场中的2张大地牌和一张行动牌。若如此做，获得1点生命。",
+      "text_en": "Decompose - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, gain 1{h}.",
+      "source": "https://cards.fabtcg.com/card/blossoming_decay/",
+      "status": "machine-draft",
+      "keywords": [
+        "Decompose"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "break_ground": {
+      "id": "break_ground",
+      "name_zh": "破土",
+      "name_en": "Break Ground",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "当你用破土攻击时，你可以将你军械库中的一张牌置于你的牌库底。若如此做，抽一张牌。",
+      "text_en": "When you attack with Break Ground, you may put a card from your arsenal on the bottom of your deck. If you do, draw a card.",
+      "source": "https://cards.fabtcg.com/card/break_ground/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "burgeoning": {
+      "id": "burgeoning",
+      "name_zh": "蓬勃生长",
+      "name_en": "Burgeoning",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "若此牌是从军械库使用的，它获得+1力量。",
+      "text_en": "If this was played from arsenal, it gains +1{p}.",
+      "source": "https://cards.fabtcg.com/card/burgeoning/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "cadaverous_tilling": {
+      "id": "cadaverous_tilling",
+      "name_zh": "尸骸耕作",
+      "name_en": "Cadaverous Tilling",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "分解——当此牌攻击时，你可以放逐你坟场中的2张大地牌和一张行动牌。若如此做，此牌获得+2力量。",
+      "text_en": "Decompose - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/cadaverous_tilling/",
+      "status": "machine-draft",
+      "keywords": [
+        "Decompose"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "canopy_shelter": {
+      "id": "canopy_shelter",
+      "name_zh": "树冠庇护",
+      "name_en": "Canopy Shelter",
+      "type_zh": "大地 阻挡",
+      "text_zh": "当此牌防御时，创造一个力量衍生物。",
+      "text_en": "When this defends, create a Might token.",
+      "source": "https://cards.fabtcg.com/card/canopy_shelter/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "channel_galcias_cradle": {
+      "id": "channel_galcias_cradle",
+      "name_zh": "引导：加尔西亚之摇篮",
+      "name_en": "Channel Galcia's Cradle",
+      "type_zh": "冰 行动·光环",
+      "text_zh": "当此牌进入竞技场时以及在你的回合开始时，当此牌在竞技场中时冻结目标盟友、光环、物品或装备。\n引导冰霜——在你的结束阶段开始时，在此牌上放置一个流动指示物，然后除非你为其上的每个流动指示物将一张冰牌从资源区置于牌库底，否则摧毁此牌。",
+      "text_en": "When this enters the arena and at the start of your turn, freeze target ally, aura, item, or equipment while this is in the arena.\nChannel Ice - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.",
+      "source": "https://cards.fabtcg.com/card/channel_galcias_cradle/",
+      "status": "machine-draft",
+      "keywords": [
+        "Freeze",
+        "Channel Ice"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "channel_mount_heroic": {
+      "id": "channel_mount_heroic",
+      "name_zh": "引导：英雄之峰",
+      "name_en": "Channel Mount Heroic",
+      "type_zh": "大地 行动·光环",
+      "text_zh": "再动\n你控制的攻击行动牌获得+3力量。\n引导大地——在你的结束阶段开始时，在引导：英雄之峰上放置一个流动指示物，然后除非你为其上的每个流动指示物将一张大地牌从资源区置于牌库底，否则摧毁它。",
+      "text_en": "Go again\nAttack action cards you control have +3{p}.\nChannel Earth - At the beginning of your end phase, put an flow counter on Channel Mount Heroic then destroy it unless you put an Earth card from your pitch zone on the bottom of your deck for each flow counter on it.",
+      "source": "https://cards.fabtcg.com/card/channel_mount_heroic/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Channel Earth"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "channel_mount_isen": {
+      "id": "channel_mount_isen",
+      "name_zh": "引导：伊森之峰",
+      "name_en": "Channel Mount Isen",
+      "type_zh": "冰 行动·光环",
+      "text_zh": "再动\n在每位英雄的回合开始时，该英雄失去与其装备区域中霜咬数量相等的生命。\n引导冰霜——在你的结束阶段开始时，在此牌上放置一个流动指示物，然后除非你为其上的每个流动指示物将一张冰牌从资源区置于牌库底，否则摧毁此牌。",
+      "text_en": "Go again\nAt the start of each hero's turn, they lose {h} equal to the number of Frostbites in their equipment zones.\nChannel Ice - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.",
+      "source": "https://cards.fabtcg.com/card/channel_mount_isen/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Channel Ice"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "channel_the_bleak_expanse": {
+      "id": "channel_the_bleak_expanse",
+      "name_zh": "引导：荒凉之境",
+      "name_en": "Channel the Bleak Expanse",
+      "type_zh": "冰 行动·光环",
+      "text_zh": "再动\n英雄不能展示牌、搜寻牌库或因效果抽牌。\n引导冰霜——在你的结束阶段开始时，在引导：荒凉之境上放置一个流动指示物，然后除非你为其上的每个流动指示物将一张冰牌从资源区置于牌库底，否则摧毁它。",
+      "text_en": "Go again\nHeroes can't reveal cards, search decks, or draw cards from effects.\nChannel Ice - At the beginning of your end phase, put a flow counter on Channel the Bleak Expanse then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.",
+      "source": "https://cards.fabtcg.com/card/channel_the_bleak_expanse/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Channel Ice"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "channel_the_millennium_tree": {
+      "id": "channel_the_millennium_tree",
+      "name_zh": "引导：千年之树",
+      "name_en": "Channel the Millennium Tree",
+      "type_zh": "大地 行动·光环",
+      "text_zh": "再动\n当此牌进入竞技场时以及在你的行动阶段开始时，增幅3。\n引导大地——在你的结束阶段开始时，在此牌上放置一个流动指示物，然后除非你为其上的每个流动指示物将一张大地牌从资源区置于牌库底，否则摧毁此牌。",
+      "text_en": "Go again\nWhen this enters the arena and at the beginning of your action phase, amp 3.\nChannel Earth - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Earth card from your pitch zone on the bottom of your deck for each flow counter on it.",
+      "source": "https://cards.fabtcg.com/card/channel_the_millennium_tree/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Channel Earth",
+        "Amp 3"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "channel_the_skybreaker": {
+      "id": "channel_the_skybreaker",
+      "name_zh": "引导：破天者",
+      "name_en": "Channel the Skybreaker",
+      "type_zh": "大地 行动·光环",
+      "text_zh": "再动\n当此牌进入竞技场时以及在你的行动阶段开始时，创造2个力量衍生物。\n引导大地——在你的结束阶段开始时，在此牌上放置一个流动指示物，然后除非你为其上的每个流动指示物将一张大地牌从资源区置于牌库底，否则摧毁此牌。",
+      "text_en": "Go again\nWhen this enters the arena and at the beginning of your action phase, create 2 Might tokens.\nChannel Earth - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Earth card from your pitch zone on the bottom of your deck for each flow counter on it.",
+      "source": "https://cards.fabtcg.com/card/channel_the_skybreaker/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Channel Earth"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "channel_the_tranquil_domain": {
+      "id": "channel_the_tranquil_domain",
+      "name_zh": "引导：宁静领域",
+      "name_en": "Channel the Tranquil Domain",
+      "type_zh": "大地 行动·光环",
+      "text_zh": "再动\n当此牌进入竞技场时以及在你的行动阶段开始时，将另一个目标光环置于其拥有者的牌库底。\n引导大地——在你的结束阶段开始时，在此牌上放置一个流动指示物，然后除非你为其上的每个流动指示物将一张大地牌从资源区置于牌库底，否则摧毁此牌。",
+      "text_en": "Go again\nWhen this enters the arena and at the start of your action phase, put another target aura on the obttom of its owner's deck.\nChannel Earth - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Earth card from your pitch zone on the bottom of your deck for each flow counter on it.",
+      "source": "https://cards.fabtcg.com/card/channel_the_tranquil_domain/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Channel Earth"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "chill_to_the_bone": {
+      "id": "chill_to_the_bone",
+      "name_zh": "寒意彻骨",
+      "name_en": "Chill to the Bone",
+      "type_zh": "冰 行动",
+      "text_zh": "本回合冰或元素攻击下一次命中英雄时，在其控制下创造3个霜咬衍生物。\n再动",
+      "text_en": "The next time an Ice or Elemental attack hits a hero this turn, create 3 Frostbite tokens under their control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/chill_to_the_bone/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "cold_snap": {
+      "id": "cold_snap",
+      "name_zh": "骤寒",
+      "name_en": "Cold Snap",
+      "type_zh": "冰 行动",
+      "text_zh": "目标英雄可以支付3点资源。若该英雄不支付，冻结其军械库中的一张牌或其控制的一个盟友，直到你的下一个回合开始。\n若骤寒是从军械库使用的，抽一张牌。\n再动",
+      "text_en": "Target hero may pay {r}{r}{r}. If they don't, freeze a card in their arsenal or an ally they control until the start of your next turn.\nIf Cold Snap is played from arsenal, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/cold_snap/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "conquer_the_icy_terrain": {
+      "id": "conquer_the_icy_terrain",
+      "name_zh": "征服冰封地形",
+      "name_en": "Conquer the Icy Terrain",
+      "type_zh": "冰 行动·攻击",
+      "text_zh": "当此牌命中英雄时，该英雄可以支付2点资源。若该英雄不支付，你可以摧毁其军械库中的一张冻结的牌或其控制的一个被冻结的非英雄永久物。",
+      "text_en": "When this hits a hero, they may pay {r}{r}. If they don't, you may destroy a frozen card in their arsenal or a frozen non-hero permanent they control.",
+      "source": "https://cards.fabtcg.com/card/conquer_the_icy_terrain/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "doubling_season": {
+      "id": "doubling_season",
+      "name_zh": "翻倍之季",
+      "name_en": "Doubling Season",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "当此牌在任意区域正面朝上时，若它将获得力量，改为它获得等量加1的力量。",
+      "text_en": "While this is face-up in any zone, if it would gain {p}, instead it gains that much plus 1.",
+      "source": "https://cards.fabtcg.com/card/doubling_season/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "0",
+          "defense": "3"
+        }
+      }
+    },
+    "earth_form": {
+      "id": "earth_form",
+      "name_zh": "大地形态",
+      "name_en": "Earth Form",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "当此牌命中时，创造一个大地化身衍生物。",
+      "text_en": "When this hits, create an Embodiment of Earth token.",
+      "source": "https://cards.fabtcg.com/card/earth_form/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "earthlore_surge": {
+      "id": "earthlore_surge",
+      "name_zh": "大地学识奔涌",
+      "name_en": "Earthlore Surge",
+      "type_zh": "大地 行动",
+      "text_zh": "本回合你使用的下一张攻击行动牌获得+5力量。\n再动",
+      "text_en": "The next attack action card you play this turn gains +5{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/earthlore_surge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "earths_embrace": {
+      "id": "earths_embrace",
+      "name_zh": "大地怀抱",
+      "name_en": "Earth's Embrace",
+      "type_zh": "大地 行动·光环",
+      "text_zh": "再动\n在你的结束阶段开始时，创造一个大地化身衍生物。然后，若本回合你尚未放逐过一张大地牌，摧毁此牌。",
+      "text_en": "Go again\nAt the beginning of your end phase, create an Embodiment of Earth token. Then, if you haven't banished an Earth card this turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/earths_embrace/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "elemental_strike": {
+      "id": "elemental_strike",
+      "name_zh": "元素打击",
+      "name_en": "Elemental Strike",
+      "type_zh": "元素 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，放逐你手牌中的一张牌。若其为大地牌，此牌获得+2力量。闪电牌，此牌获得再动。冰牌，此牌获得支配。",
+      "text_en": "As an additional cost to play this, banish a card from your hand. If it's Earth, this gets +2{p}. Lightning, this gets go again. Ice, this gets dominate.",
+      "source": "https://cards.fabtcg.com/card/elemental_strike/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Dominate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "embodiment_of_earth": {
+      "id": "embodiment_of_earth",
+      "name_zh": "大地化身",
+      "name_en": "Embodiment of Earth",
+      "type_zh": "元素 衍生物·光环",
+      "text_zh": "防御时你控制的“非攻击”行动牌获得+1防御。\n在你的行动阶段开始时，摧毁大地化身。",
+      "text_en": "'Non-attack' action cards you control have +1{d} while defending.\nAt the beginning of your action phase, destroy Embodiment of Earth.",
+      "source": "https://cards.fabtcg.com/card/embodiment_of_earth/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "embodiment_of_lightning": {
+      "id": "embodiment_of_lightning",
+      "name_zh": "闪电化身",
+      "name_en": "Embodiment of Lightning",
+      "type_zh": "元素 衍生物·光环",
+      "text_zh": "当你使用攻击行动牌时，摧毁此牌，然后该攻击获得再动。",
+      "text_en": "When you play an attack action card, destroy this, then the attack gets go again.",
+      "source": "https://cards.fabtcg.com/card/embodiment_of_lightning/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "entwine_earth": {
+      "id": "entwine_earth",
+      "name_zh": "交织大地",
+      "name_en": "Entwine Earth",
+      "type_zh": "元素 行动·攻击",
+      "text_zh": "大地融合\n若交织大地已融合，它获得+2力量。",
+      "text_en": "Earth Fusion\nIf Entwine Earth was fused, it gains +2{p}.",
+      "source": "https://cards.fabtcg.com/card/entwine_earth/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Fusion"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "entwine_ice": {
+      "id": "entwine_ice",
+      "name_zh": "交织冰",
+      "name_en": "Entwine Ice",
+      "type_zh": "元素 行动·攻击",
+      "text_zh": "冰融合\n若交织冰已融合，它获得支配。",
+      "text_en": "Ice Fusion\nIf Entwine Ice was fused, it gains dominate.",
+      "source": "https://cards.fabtcg.com/card/entwine_ice/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ice Fusion",
+        "Dominate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "entwine_lightning": {
+      "id": "entwine_lightning",
+      "name_zh": "交织闪电",
+      "name_en": "Entwine Lightning",
+      "type_zh": "元素 行动·攻击",
+      "text_zh": "闪电融合\n若交织闪电已融合，它获得再动。",
+      "text_en": "Lightning Fusion\nIf Entwine Lightning was fused, it gains go again.",
+      "source": "https://cards.fabtcg.com/card/entwine_lightning/",
+      "status": "machine-draft",
+      "keywords": [
+        "Lightning Fusion",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "evergreen": {
+      "id": "evergreen",
+      "name_zh": "常青",
+      "name_en": "Evergreen",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "若常青是从军械库使用的，当战斗链关闭时将其置于其拥有者的牌库底。",
+      "text_en": "If Evergreen is played from arsenal, put it on the bottom of its owner's deck when the combat chain closes.",
+      "source": "https://cards.fabtcg.com/card/evergreen/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "exposed_to_the_elements": {
+      "id": "exposed_to_the_elements",
+      "name_zh": "暴露于元素",
+      "name_en": "Exposed to the Elements",
+      "type_zh": "元素 瞬间",
+      "text_zh": "大地和/或冰融合\n若暴露于元素以一张大地牌融合，在目标装备上放置一个-1防御指示物。\n若暴露于元素以一张冰牌融合，摧毁目标英雄控制的防御为0的一件装备，除非其支付2点资源。",
+      "text_en": "Earth and/or Ice Fusion\nIf Exposed to the Elements was fused with an Earth card, put a -1{d} counter on target equipment.\nIf Exposed to the Elements was fused with an Ice card, destroy an equipment with 0{d} controlled by target hero unless they pay {r}{r}.",
+      "source": "https://cards.fabtcg.com/card/exposed_to_the_elements/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth and/or Ice Fusion"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "fertile_ground": {
+      "id": "fertile_ground",
+      "name_zh": "沃土",
+      "name_en": "Fertile Ground",
+      "type_zh": "大地 瞬间",
+      "text_zh": "获得2点生命。\n若你的放逐区有四张或更多大地牌，改为获得5点生命。",
+      "text_en": "Gain 2{h}\nIf there are 4 or more Earth cards in your banished zone, instead gain 5{h}.",
+      "source": "https://cards.fabtcg.com/card/fertile_ground/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "flashfreeze": {
+      "id": "flashfreeze",
+      "name_zh": "速冻",
+      "name_en": "Flashfreeze",
+      "type_zh": "元素 行动",
+      "text_zh": "冰和/或闪电融合\n若速冻以一张冰牌融合，本回合你控制的攻击获得“当你用此牌攻击时，它获得支配，除非防御英雄支付2点资源。”\n若速冻以一张闪电牌融合，本回合你控制的攻击获得“若此牌命中英雄，对其造成3点伤害。”\n再动",
+      "text_en": "Ice and/or Lightning Fusion\nIf Flashfreeze was fused with an Ice card, attacks you control this turn gain \"When you attack with this, it gains dominate, unless the defending hero pays {r}{r}.\"\nIf Flashfreeze was fused with a Lightning card, attacks you control this turn gain \"If this hits a hero, deal 3 damage to them.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/flashfreeze/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ice and/or Lightning Fusion",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "flourish": {
+      "id": "flourish",
+      "name_zh": "繁茂",
+      "name_en": "Flourish",
+      "type_zh": "大地 行动",
+      "text_zh": "本回合攻击下一次将获得力量时，改为它获得等量加3的力量。\n再动",
+      "text_en": "The next time an attack would gain {p} this turn, instead it gains that much plus 3.\nGo again",
+      "source": "https://cards.fabtcg.com/card/flourish/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "frost_fang": {
+      "id": "frost_fang",
+      "name_zh": "冰霜獠牙",
+      "name_en": "Frost Fang",
+      "type_zh": "冰 行动·攻击",
+      "text_zh": "若冰霜獠牙命中英雄，该英雄弃一张牌，除非其支付2点资源。",
+      "text_en": "If Frost Fang hits a hero, they discard a card unless they pay {r}{r}.",
+      "source": "https://cards.fabtcg.com/card/frost_fang/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "frostbite": {
+      "id": "frostbite",
+      "name_zh": "霜咬",
+      "name_en": "Frostbite",
+      "type_zh": "元素 衍生物·光环",
+      "text_zh": "牌和异能使用或启动费用额外增加1点资源。\n在你的结束阶段开始时或当你使用牌或启动异能时，摧毁霜咬。",
+      "text_en": "Cards and abilities cost you an additional {r} to play or activate.\nAt the beginning of your end phase or when you play a card or activate an ability, destroy Frostbite.",
+      "source": "https://cards.fabtcg.com/card/frostbite/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "frosthaven_sheath": {
+      "id": "frosthaven_sheath",
+      "name_zh": "霜港剑鞘",
+      "name_en": "Frosthaven Sheath",
+      "type_zh": "元素 防御反应",
+      "text_zh": "冰羁绊——若你为使用此牌资源过一张冰牌，在攻击英雄的控制下创造一个霜咬衍生物。",
+      "text_en": "Ice Bond - If an Ice card was pitched to play this, create a Frostbite token under the attacking hero's control.",
+      "source": "https://cards.fabtcg.com/card/frosthaven_sheath/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ice Bond"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
+    "fulminate": {
+      "id": "fulminate",
+      "name_zh": "爆裂",
+      "name_en": "Fulminate",
+      "type_zh": "元素 行动",
+      "text_zh": "大地和/或闪电融合\n若爆裂以一张大地牌融合，本回合你控制的攻击行动牌获得+3力量。\n若爆裂以一张闪电牌融合，本回合你控制的攻击行动牌获得再动。\n再动",
+      "text_en": "Earth and/or Lightning Fusion\nIf Fulminate was fused with an Earth card, attack action cards you control gain +3{p} this turn.\nIf Fulminate was fused with a Lightning card, attack action cards you control gain go again this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/fulminate/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth and/or Lightning Fusion",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "harvest_season": {
+      "id": "harvest_season",
+      "name_zh": "收获季节",
+      "name_en": "Harvest Season",
+      "type_zh": "大地 行动·光环",
+      "text_zh": "再动\n在你的行动阶段开始时，摧毁此牌，然后获得3点生命。",
+      "text_en": "Go again\nAt the beginning of your action phase, destroy this, then gain 3{h}.",
+      "source": "https://cards.fabtcg.com/card/harvest_season/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "hypothermia": {
+      "id": "hypothermia",
+      "name_zh": "体温过低",
+      "name_en": "Hypothermia",
+      "type_zh": "冰 行动·Affliction 光环",
+      "text_zh": "你控制的攻击不能获得再动。\n在你的结束阶段开始时，摧毁体温过低。",
+      "text_en": "Attacks you control can't gain go again.\nAt the beginning of your end phase, destroy Hypothermia.",
+      "source": "https://cards.fabtcg.com/card/hypothermia/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "ice_quake": {
+      "id": "ice_quake",
+      "name_zh": "冰震",
+      "name_en": "Ice Quake",
+      "type_zh": "冰 行动",
+      "text_zh": "你本回合的下一次攻击获得+3力量。\n本回合每当攻击命中英雄时，在其控制下创造一个霜咬衍生物。\n再动",
+      "text_en": "Your next attack this turn gains +3{p}.\nWhenever an attack hits a hero this turn, create a Frostbite token under their control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ice_quake/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "icy_encounter": {
+      "id": "icy_encounter",
+      "name_zh": "冰冷遭遇",
+      "name_en": "Icy Encounter",
+      "type_zh": "冰 行动·攻击",
+      "text_zh": "若冰冷遭遇命中英雄，在其控制下创造一个霜咬衍生物。",
+      "text_en": "If Icy Encounter hits a hero, create a Frostbite token under their control.",
+      "source": "https://cards.fabtcg.com/card/icy_encounter/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "insidious_chill": {
+      "id": "insidious_chill",
+      "name_zh": "阴险寒意",
+      "name_en": "Insidious Chill",
+      "type_zh": "冰 行动·光环",
+      "text_zh": "阴险寒意进入竞技场时带有3个霜指示物。当其上的霜指示物用完时，摧毁它。\n每当你冰融合时，从阴险寒意上移除一个霜指示物。若如此做，目标英雄弃一张牌，除非其支付2点资源。",
+      "text_en": "Insidious Chill enters the arena with 3 frost counters on it. When it has no frost counters on it, destroy it.\nWhenever you Ice Fuse, remove a frost counter from Insidious Chill. If you do, target hero discards a card unless they pay {r}{r}.",
+      "source": "https://cards.fabtcg.com/card/insidious_chill/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "invigorate": {
+      "id": "invigorate",
+      "name_zh": "鼓舞",
+      "name_en": "Invigorate",
+      "type_zh": "元素 行动",
+      "text_zh": "本回合你融合的下一次攻击获得+4力量。\n再动",
+      "text_en": "The next attack you fuse this turn gains +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/invigorate/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "isenhowl_weathervane": {
+      "id": "isenhowl_weathervane",
+      "name_zh": "伊森嚎风信标",
+      "name_en": "Isenhowl Weathervane",
+      "type_zh": "冰 行动",
+      "text_zh": "本回合你下一次冰融合时，在目标英雄的控制下创造4个霜咬衍生物。\n再动",
+      "text_en": "The next time you Ice fuse this turn, create 4 Frostbite tokens under target hero's control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/isenhowl_weathervane/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "korshem_crossroad_of_elements": {
+      "id": "korshem_crossroad_of_elements",
+      "name_zh": "元素十字路口·科尔谢姆",
+      "name_en": "Korshem, Crossroad of Elements",
+      "type_zh": "元素 行动·地标",
+      "text_zh": "传奇\n再动\n每当一位英雄展示1张或更多牌时，该英雄选择其一；获得1点资源，或获得1点生命，或本回合其下一次攻击获得+1力量，或本回合其用于防御的下一张行动牌获得+1防御。\n在结束阶段开始时，若没有英雄因牌效果获得过资源或生命，且没有英雄控制的牌或衍生物本回合获得过力量或防御加成，摧毁元素十字路口·科尔谢姆。",
+      "text_en": "Legendary\nGo again\nWhenever a hero reveals 1 or more cards, they choose 1; Gain {r}, or gain 1{h}, or their next attack this turn gains +1{p}, or the next action card they defend with this turn gains +1{d}.\nAt the beginning of the end phase, if no hero has gained {r} or {h} from a card effect and no card or token controlled by a hero has had {p} or {d} increased this turn, destroy Korshem, Crossroads of the Elements.",
+      "source": "https://cards.fabtcg.com/card/korshem_crossroad_of_elements/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Go again"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "laden_with_earth": {
+      "id": "laden_with_earth",
+      "name_zh": "满载大地",
+      "name_en": "Laden with Earth",
+      "type_zh": "元素 行动",
+      "text_zh": "你本回合的下一次攻击获得+3力量。\n大地羁绊——若你为使用此牌资源过一张大地牌，创造一个大地化身衍生物。\n再动",
+      "text_en": "Your next attack this turn gets +3{p}.\nEarth Bond - If an Earth card was pitched to play this, create an Embodiment of Earth token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/laden_with_earth/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Bond",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "laden_with_frost": {
+      "id": "laden_with_frost",
+      "name_zh": "满载冰霜",
+      "name_en": "Laden with Frost",
+      "type_zh": "元素 行动",
+      "text_zh": "你本回合的下一次攻击获得+3力量。\n冰羁绊——若你为使用此牌资源过一张冰牌，在目标英雄的控制下创造一个霜咬衍生物。\n再动",
+      "text_en": "Your next attack this turn gets +3{p}.\nIce Bond - If an Ice card was pitched to play this, create a Frostbite token under target hero's control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/laden_with_frost/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ice Bond",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "laden_with_lightning": {
+      "id": "laden_with_lightning",
+      "name_zh": "满载闪电",
+      "name_en": "Laden with Lightning",
+      "type_zh": "元素 行动",
+      "text_zh": "你本回合的下一次攻击获得+3力量。\n闪电羁绊——若你为使用此牌资源过一张闪电牌，创造一个闪电化身衍生物。\n再动",
+      "text_en": "Your next attack this turn gets +3{p}.\nLightning Bond - If a Lightning card was pitched to play this, create an Embodiment of Lightning token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/laden_with_lightning/",
+      "status": "machine-draft",
+      "keywords": [
+        "Lightning Bond",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "leaven_sheath": {
+      "id": "leaven_sheath",
+      "name_zh": "发面剑鞘",
+      "name_en": "Leaven Sheath",
+      "type_zh": "元素 防御反应",
+      "text_zh": "大地羁绊——若你为使用此牌资源过一张大地牌，创造一个大地化身衍生物。",
+      "text_en": "Earth Bond - If an Earth card was pitched to play this, create an Embodiment of Earth token.",
+      "source": "https://cards.fabtcg.com/card/leaven_sheath/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Bond"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
+    "lightning_flow": {
+      "id": "lightning_flow",
+      "name_zh": "闪电流转",
+      "name_en": "Lightning Flow",
+      "type_zh": "元素 衍生物·光环",
+      "text_zh": "",
+      "text_en": "",
+      "source": "https://cards.fabtcg.com/card/lightning_flow/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "northern_winds": {
+      "id": "northern_winds",
+      "name_zh": "北风",
+      "name_en": "Northern Winds",
+      "type_zh": "冰 行动",
+      "text_zh": "奥德希姆专精\n为每位英雄，冻结其控制的至多1件装备、物品和盟友，直到你的下一个回合开始。\n团结——当此牌与一张来自手牌的牌一起防御时，在任意数量英雄的控制下创造一个法殁神盾衍生物。",
+      "text_en": "Oldhim Specialization\nFor each hero, freeze up to 1 equipment, item, and ally they control until the start of your next turn.\nUnity - When this defends together with a card from hand, create a Spellbane Aegis token under any number of heroes' control.",
+      "source": "https://cards.fabtcg.com/card/northern_winds/",
+      "status": "machine-draft",
+      "keywords": [
+        "Unity",
+        "Freeze"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "oath_of_oak": {
+      "id": "oath_of_oak",
+      "name_zh": "橡木誓言",
+      "name_en": "Oath of Oak",
+      "type_zh": "大地 行动",
+      "text_zh": "创造3个大地化身衍生物。",
+      "text_en": "Create 3 Embodiment of Earth tokens.",
+      "source": "https://cards.fabtcg.com/card/oath_of_oak/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "polar_blast": {
+      "id": "polar_blast",
+      "name_zh": "极地爆发",
+      "name_en": "Polar Blast",
+      "type_zh": "冰 行动",
+      "text_zh": "目标对手英雄可以支付3点资源。若该英雄不支付，你本回合的下一次攻击获得支配。\n若极地爆发是从军械库使用的，抽一张牌。\n再动",
+      "text_en": "Target opposing hero may pay {r}{r}{r}. If they don't your next attack this turn gains dominate.\nIf Polar Blast is played from arsenal, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/polar_blast/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "put_on_ice": {
+      "id": "put_on_ice",
+      "name_zh": "雪藏",
+      "name_en": "Put on Ice",
+      "type_zh": "冰 行动",
+      "text_zh": "冻结至多3个目标盟友，直到你的下一个回合开始。\n若此牌是从军械库使用的，抽一张牌。\n再动",
+      "text_en": "Freeze up to 3 target allies until the start of your next turn.\nIf this was played from arsenal, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/put_on_ice/",
+      "status": "machine-draft",
+      "keywords": [
+        "Freeze",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "rejuvenate": {
+      "id": "rejuvenate",
+      "name_zh": "恢复活力",
+      "name_en": "Rejuvenate",
+      "type_zh": "元素 行动",
+      "text_zh": "获得3点生命。\n若本回合你融合过，你可以将恢复活力当作瞬间使用。",
+      "text_en": "Gain 3{h}\nIf you've fused this turn, you may play Rejuvenate as though it were an instant.",
+      "source": "https://cards.fabtcg.com/card/rejuvenate/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "seeds_of_tomorrow": {
+      "id": "seeds_of_tomorrow",
+      "name_zh": "明日之种",
+      "name_en": "Seeds of Tomorrow",
+      "type_zh": "大地 瞬间",
+      "text_zh": "作为使用此牌的额外费用，将你军械库中的一张牌置于你的牌库底。\n防止本回合接下来将对你造成的5点伤害。",
+      "text_en": "As an additional cost to play this, put a card from your arsenal on the bottom of your deck.\nPrevent the next 5 damage that would be dealt to you this turn.",
+      "source": "https://cards.fabtcg.com/card/seeds_of_tomorrow/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sigil_of_earth": {
+      "id": "sigil_of_earth",
+      "name_zh": "大地印记",
+      "name_en": "Sigil of Earth",
+      "type_zh": "大地 行动·光环",
+      "text_zh": "再动\n在你的行动阶段开始时，摧毁此牌。\n当此牌离开竞技场时，创造一个大地化身衍生物。",
+      "text_en": "Go again\nAt the beginning of your action phase, destroy this.\nWhen this leaves the arena, create an Embodiment of Earth token.",
+      "source": "https://cards.fabtcg.com/card/sigil_of_earth/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "sigil_of_sanctuary": {
+      "id": "sigil_of_sanctuary",
+      "name_zh": "庇护印记",
+      "name_en": "Sigil of Sanctuary",
+      "type_zh": "大地 瞬间·光环",
+      "text_zh": "秘法庇护1\n当此牌离开竞技场时，创造一个大地化身衍生物。",
+      "text_en": "Arcane Shelter 1\nWhen this leaves the arena, create an Embodiment of Earth token.",
+      "source": "https://cards.fabtcg.com/card/sigil_of_sanctuary/",
+      "status": "machine-draft",
+      "keywords": [
+        "Arcane Shelter 1"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sow_tomorrow": {
+      "id": "sow_tomorrow",
+      "name_zh": "播种明日",
+      "name_en": "Sow Tomorrow",
+      "type_zh": "大地 行动",
+      "text_zh": "将你坟场中一张费用为0或更高的目标大地或元素行动牌置于你的牌库底。放逐播种明日。\n若播种明日是从军械库使用的，抽一张牌。\n再动",
+      "text_en": "Put target Earth or Elemental action card with cost 0 or greater from your graveyard on the bottom of your deck. Banish Sow Tomorrow.\nIf Sow Tomorrow is played from arsenal, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/sow_tomorrow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "sprout_strength": {
+      "id": "sprout_strength",
+      "name_zh": "萌芽力量",
+      "name_en": "Sprout Strength",
+      "type_zh": "大地 行动",
+      "text_zh": "你本回合的下一次攻击获得+1力量。\n你本回合的下一次攻击获得+1力量。\n你本回合的下一次攻击获得+1力量。\n再动",
+      "text_en": "Your next attack this turn gets +1{p}.\nYour next attack this turn gets +1{p}.\nYour next attack this turn gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/sprout_strength/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "stormwind_sheath": {
+      "id": "stormwind_sheath",
+      "name_zh": "风暴之鞘",
+      "name_en": "Stormwind Sheath",
+      "type_zh": "元素 防御反应",
+      "text_zh": "闪电羁绊——若你为使用此牌资源过一张闪电牌，创造一个闪电化身衍生物。",
+      "text_en": "Lightning Bond - If a Lightning card was pitched to play this, create an Embodiment of Lightning token.",
+      "source": "https://cards.fabtcg.com/card/stormwind_sheath/",
+      "status": "machine-draft",
+      "keywords": [
+        "Lightning Bond"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
+    "strength_of_four_seasons": {
+      "id": "strength_of_four_seasons",
+      "name_zh": "四季之力",
+      "name_en": "Strength of Four Seasons",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "若你的放逐区有四张或更多大地牌，此牌获得+4力量。",
+      "text_en": "If there are 4 or more Earth cards in your banished zone, this gets +4{p}.",
+      "source": "https://cards.fabtcg.com/card/strength_of_four_seasons/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "strong_yield": {
+      "id": "strong_yield",
+      "name_zh": "丰收",
+      "name_en": "Strong Yield",
+      "type_zh": "大地 行动·光环",
+      "text_zh": "再动\n在你的行动阶段开始时，摧毁此牌，然后你本回合的下一次攻击获得+3力量。",
+      "text_en": "Go again\nAt the beginning of your action phase, destroy this, then your next attack this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/strong_yield/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "summers_fall": {
+      "id": "summers_fall",
+      "name_zh": "夏之陨落",
+      "name_en": "Summer's Fall",
+      "type_zh": "大地 行动·攻击",
+      "text_zh": "分解——当此牌攻击时，你可以放逐你坟场中的2张大地牌和一张行动牌。若如此做，将至多1个目标光环置于其拥有者的牌库底。",
+      "text_en": "Decompose - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, put up to 1 target aura on the bottom of its owner's deck.",
+      "source": "https://cards.fabtcg.com/card/summers_fall/",
+      "status": "machine-draft",
+      "keywords": [
+        "Decompose"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "summerwood_shelter": {
+      "id": "summerwood_shelter",
+      "name_zh": "夏木庇护",
+      "name_en": "Summerwood Shelter",
+      "type_zh": "大地 瞬间",
+      "text_zh": "目标防御中的大地或元素行动牌获得+4防御。",
+      "text_en": "Target defending Earth or Elemental action card gains +4{d}.",
+      "source": "https://cards.fabtcg.com/card/summerwood_shelter/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "thrive": {
+      "id": "thrive",
+      "name_zh": "茁壮成长",
+      "name_en": "Thrive",
+      "type_zh": "大地 行动",
+      "text_zh": "若本回合攻击将获得力量，改为它获得等量加1的力量。\n再动",
+      "text_en": "If an attack would gain {p} this turn, instead it gains that much plus 1.\nGo again",
+      "source": "https://cards.fabtcg.com/card/thrive/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "tome_of_harvests": {
+      "id": "tome_of_harvests",
+      "name_zh": "丰收之书",
+      "name_en": "Tome of Harvests",
+      "type_zh": "大地 行动",
+      "text_zh": "作为使用丰收之书的额外费用，将你军械库中的一张牌置于你的牌库底。\n抽3张牌。\n再动",
+      "text_en": "As an additional cost to play Tome of Harvests, put a card from your arsenal on the bottom of your deck.\nDraw 3 cards.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tome_of_harvests/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "weave_earth": {
+      "id": "weave_earth",
+      "name_zh": "编织大地",
+      "name_en": "Weave Earth",
+      "type_zh": "大地 行动",
+      "text_zh": "本回合你使用的下一张大地或元素攻击行动牌获得+3力量。\n若它已融合，改为它获得+4力量。\n再动",
+      "text_en": "The next Earth or Elemental attack action card you play this turn gains +3{p}.\nIf it's fused, instead it gains +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/weave_earth/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "weave_ice": {
+      "id": "weave_ice",
+      "name_zh": "编织冰",
+      "name_en": "Weave Ice",
+      "type_zh": "冰 行动",
+      "text_zh": "本回合你使用的下一张冰或元素攻击行动牌获得+3力量。\n若它已融合，它获得支配。\n再动",
+      "text_en": "The next Ice or Elemental attack action card you play this turn gains +3{p}.\nIf it's fused, it gains dominate.\nGo again",
+      "source": "https://cards.fabtcg.com/card/weave_ice/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "winters_bite": {
+      "id": "winters_bite",
+      "name_zh": "寒冬之咬",
+      "name_en": "Winter's Bite",
+      "type_zh": "冰 行动",
+      "text_zh": "目标英雄弃一张牌，除非其支付3点资源。\n再动",
+      "text_en": "Target hero discards a card unless they pay {r}{r}{r}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/winters_bite/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "winters_grasp": {
+      "id": "winters_grasp",
+      "name_zh": "寒冬之握",
+      "name_en": "Winter's Grasp",
+      "type_zh": "冰 行动·攻击",
+      "text_zh": "",
+      "text_en": "",
+      "source": "https://cards.fabtcg.com/card/winters_grasp/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    }
+  }
+}

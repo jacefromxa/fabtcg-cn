@@ -1,0 +1,1690 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "amulet_of_lightning": {
+      "id": "amulet_of_lightning",
+      "name_zh": "闪电护符",
+      "name_en": "Amulet of Lightning",
+      "type_zh": "闪电 行动·物品",
+      "text_zh": "再动\n瞬间——摧毁闪电护符：目标行动牌获得再动。仅当本回合你已闪电融合时才能启动此异能。",
+      "text_en": "Go again\nInstant - Destroy Amulet of Lightning: Target action card gains go again. Activate this ability only if you have Lightning fused this turn.",
+      "source": "https://cards.fabtcg.com/card/amulet_of_lightning/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "astral_assault": {
+      "id": "astral_assault",
+      "name_zh": "星界突袭",
+      "name_en": "Astral Assault",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以摧毁你控制的一个闪电流转。若如此做，此牌获得+2力量。",
+      "text_en": "When this attacks, you may destroy a Lightning Flow you control. If you do, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/astral_assault/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "astral_strike": {
+      "id": "astral_strike",
+      "name_zh": "星界打击",
+      "name_en": "Astral Strike",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，若本回合你摧毁过一个闪电流转，选择其一；\n- 抽一张牌。\n- 此牌获得+2力量。\n- 此牌获得再动。",
+      "text_en": "When this attacks, if you've destroyed a Lightning Flow this turn, choose 1;\n- Draw a card.\n- This gets +2{p}.\n- This gets go again.",
+      "source": "https://cards.fabtcg.com/card/astral_strike/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "astravolt_elemental": {
+      "id": "astravolt_elemental",
+      "name_zh": "星伏元素",
+      "name_en": "Astravolt Elemental",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一张瞬间牌。若如此做，抽一张牌并创造一个闪电化身衍生物。",
+      "text_en": "When this attacks, you may discard an instant card. If you do, draw a card and create an Embodiment of Lightning token.",
+      "source": "https://cards.fabtcg.com/card/astravolt_elemental/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "ball_lightning": {
+      "id": "ball_lightning",
+      "name_zh": "球形闪电",
+      "name_en": "Ball Lightning",
+      "type_zh": "",
+      "text_zh": "本战斗链中每当闪电或元素行动牌将造成伤害时，改为它造成等量加1的伤害。\n再动",
+      "text_en": "Whenever a Lightning or Elemental action card would deal damage this combat chain, instead it deals that much damage plus 1.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ball_lightning/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "0"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "0"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "0"
+        }
+      }
+    },
+    "beckoning_brilliance": {
+      "id": "beckoning_brilliance",
+      "name_zh": "召唤璀璨",
+      "name_en": "Beckoning Brilliance",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，本链环中你使用的下一张瞬间牌使用费用减少1点资源。",
+      "text_en": "When this attacks, the next instant card you play this chain link costs {r} less to play.",
+      "source": "https://cards.fabtcg.com/card/beckoning_brilliance/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "blast_to_oblivion": {
+      "id": "blast_to_oblivion",
+      "name_zh": "轰至湮灭",
+      "name_en": "Blast to Oblivion",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，本链环中你下一次使用瞬间牌时，你可以将目标费用为1或更低的光环永久物或目标光环衍生物移回其拥有者的手牌。",
+      "text_en": "When this attacks, the next time you play an instant card this chain link, you may return target aura permanent with cost 1 or less or target aura token to it's owner's hand.",
+      "source": "https://cards.fabtcg.com/card/blast_to_oblivion/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "blink": {
+      "id": "blink",
+      "name_zh": "闪现",
+      "name_en": "Blink",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "获得1个行动点。",
+      "text_en": "Gain 1 action point.",
+      "source": "https://cards.fabtcg.com/card/blink/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "call_down_the_lightning": {
+      "id": "call_down_the_lightning",
+      "name_zh": "召唤闪电",
+      "name_en": "Call Down the Lightning",
+      "type_zh": "闪电 行动",
+      "text_zh": "莱克西专精\n本回合你的攻击获得“每当防御英雄从此链环中加入1张或更多来自手牌的防御牌时，此牌对其造成1点伤害。”再动\n团结——当此牌与一张来自手牌的牌一起防御时，在任意数量英雄的控制下创造一个闪电化身衍生物。",
+      "text_en": "Lexi Specialization\nYour attacks this turn get \"Whenever the defending hero adds 1 or more defending cards from hand to this chain link, this deals 1 damage to them.\" Go again\nUnity - When this defends together with a card from hand, create an Embodiment of Lightning token under any number of heroes' control.",
+      "source": "https://cards.fabtcg.com/card/call_down_the_lightning/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Unity"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "calmveil_of_volthaven": {
+      "id": "calmveil_of_volthaven",
+      "name_zh": "沃尔特海文之静纱",
+      "name_en": "Calmveil of Volthaven",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "防止本回合接下来将对你造成的3点伤害。你第一次以此方式防止伤害时，创造一个闪电流转衍生物。",
+      "text_en": "Prevent the next 3 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/calmveil_of_volthaven/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "channel_lightning_valley": {
+      "id": "channel_lightning_valley",
+      "name_zh": "引导：闪电谷",
+      "name_en": "Channel Lightning Valley",
+      "type_zh": "",
+      "text_zh": "你每回合第一次对对手英雄造成伤害时，抽一张牌。\n引导闪电——在你的结束阶段开始时，在此牌上放置一个流动指示物，然后除非你为其上的每个流动指示物将一张闪电牌从资源区置于牌库底，否则摧毁此牌。",
+      "text_en": "The first time you deal damage to an opposing hero each turn, draw a card.\nChannel Lightning - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put a Lightning card from your pitch zone on the bottom of your deck for each flow counter on it.",
+      "source": "https://cards.fabtcg.com/card/channel_lightning_valley/",
+      "status": "machine-draft",
+      "keywords": [
+        "Channel Lightning"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "channel_thunder_steppe": {
+      "id": "channel_thunder_steppe",
+      "name_zh": "引导：雷霆草原",
+      "name_en": "Channel Thunder Steppe",
+      "type_zh": "闪电 行动·光环",
+      "text_zh": "再动\n每当你使用行动牌时，你可以支付1点资源。若如此做，它获得再动。\n引导闪电——在你的结束阶段开始时，在引导：雷霆草原上放置一个流动指示物，然后除非你为其上的每个流动指示物将一张闪电牌从资源区置于牌库底，否则摧毁它。",
+      "text_en": "Go again\nWhenever you play an action card, you may pay {r}. If you do, it gains go again.\nChannel Lightning - At the beginning of your end phase, put a flow counter on Channel Thunder Steppe then destroy it unless you put a Lightning card from your pitch zone on the bottom of your deck for each flow counter on it.",
+      "source": "https://cards.fabtcg.com/card/channel_thunder_steppe/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Channel Lightning"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "chromatic_refinement": {
+      "id": "chromatic_refinement",
+      "name_zh": "色彩精炼",
+      "name_en": "Chromatic Refinement",
+      "type_zh": "闪电 瞬间·光环",
+      "text_zh": "在你的行动阶段开始时，摧毁此牌，然后本回合你使用的下一张红色牌使用费用减少1点资源。本回合那张牌第一次将造成伤害时，改为它造成等量加1的伤害。",
+      "text_en": "At the beginning of your action phase, destroy this, then the next red card you play this turn costs {r} less to play. The first time that card would deal damage this turn, instead it deals that much plus 1.",
+      "source": "https://cards.fabtcg.com/card/chromatic_refinement/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "cloud_cover": {
+      "id": "cloud_cover",
+      "name_zh": "云幕",
+      "name_en": "Cloud Cover",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "本回合接下来你将受到伤害时，防止其中3点伤害。",
+      "text_en": "The next time you would be dealt damage this turn, prevent 3 of that damage.",
+      "source": "https://cards.fabtcg.com/card/cloud_cover/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "cosmic_flare": {
+      "id": "cosmic_flare",
+      "name_zh": "宇宙耀斑",
+      "name_en": "Cosmic Flare",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "获得3点资源。",
+      "text_en": "Gain {r}{r}{r}",
+      "source": "https://cards.fabtcg.com/card/cosmic_flare/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "current_funnel": {
+      "id": "current_funnel",
+      "name_zh": "电流漏斗",
+      "name_en": "Current Funnel",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，若你本回合使用的最后一张行动牌是闪电牌，此牌和你本回合使用的下一张行动牌获得再动。",
+      "text_en": "When this attacks, if the last action card you played this turn was Lightning, this and the next action card you play this turn get go again.",
+      "source": "https://cards.fabtcg.com/card/current_funnel/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "eclectic_magnetism": {
+      "id": "eclectic_magnetism",
+      "name_zh": "折中磁力",
+      "name_en": "Eclectic Magnetism",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，本链环中你可以将一张非攻击行动牌当作瞬间使用。",
+      "text_en": "When this attacks, you may play a non-attack action card this chain link as though it were an instant.",
+      "source": "https://cards.fabtcg.com/card/eclectic_magnetism/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "electrify": {
+      "id": "electrify",
+      "name_zh": "通电",
+      "name_en": "Electrify",
+      "type_zh": "闪电 行动",
+      "text_zh": "本回合攻击行动牌下一次命中英雄时，对其造成3点伤害。\n若通电是从军械库使用的，抽一张牌。\n再动",
+      "text_en": "The next time an attack action card hits a hero this turn, it deals 3 damage to them.\nIf Electrify is played from arsenal, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/electrify/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "electrolyze": {
+      "id": "electrolyze",
+      "name_zh": "电解",
+      "name_en": "Electrolyze",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "再动",
+      "text_en": "Go again",
+      "source": "https://cards.fabtcg.com/card/electrolyze/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "0"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "0"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "0"
+        }
+      }
+    },
+    "electromagnetic_somersault": {
+      "id": "electromagnetic_somersault",
+      "name_zh": "电磁空翻",
+      "name_en": "Electromagnetic Somersault",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "选择当前链环上至多2张费用为2或更高的攻击行动牌。当链环结算时，将它们移回其拥有者的手牌。",
+      "text_en": "Choose up to 2 attack action cards with cost 2 or more on the active chain link. Return them to their owner's hand when the chain link resolves.",
+      "source": "https://cards.fabtcg.com/card/electromagnetic_somersault/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "electrostatic_discharge": {
+      "id": "electrostatic_discharge",
+      "name_zh": "静电释放",
+      "name_en": "Electrostatic Discharge",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "本回合你使用的下一张费用为1或更低的攻击行动牌获得+3力量。",
+      "text_en": "The next attack action card you play this turn with cost 1 or less gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/electrostatic_discharge/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "flash": {
+      "id": "flash",
+      "name_zh": "闪光",
+      "name_en": "Flash",
+      "type_zh": "闪电 行动",
+      "text_zh": "本回合你使用的下一张费用为0或更高的行动牌获得再动。\n再动",
+      "text_en": "The next action card you play this turn with cost 0 or greater gets go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/flash/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "flittering_charge": {
+      "id": "flittering_charge",
+      "name_zh": "轻盈冲锋",
+      "name_en": "Flittering Charge",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "若此链环中你使用过一张瞬间牌，此牌获得再动。",
+      "text_en": "If you've played an instant card this chain link, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/flittering_charge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "flittering_forcefield": {
+      "id": "flittering_forcefield",
+      "name_zh": "轻盈力场",
+      "name_en": "Flittering Forcefield",
+      "type_zh": "闪电 防御反应",
+      "text_zh": "当此牌防御时，若此链环中你使用过一张瞬间牌，此牌获得+1防御。",
+      "text_en": "While this is defending, if you've played an instant card this chain link, this gets +1{d}.",
+      "source": "https://cards.fabtcg.com/card/flittering_forcefield/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "flittering_spike": {
+      "id": "flittering_spike",
+      "name_zh": "轻盈尖刺",
+      "name_en": "Flittering Spike",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "若此链环中你使用过一张瞬间牌，此牌获得+2力量。\n当此牌命中时，创造一个闪电流转衍生物。",
+      "text_en": "If you've played an instant card this chain link, this gets +2{p}.\nWhen this hits, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/flittering_spike/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "flow_through": {
+      "id": "flow_through",
+      "name_zh": "流转",
+      "name_en": "Flow Through",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "目标闪电攻击获得+1力量，以及“当此牌命中时，创造一个闪电流转衍生物。”",
+      "text_en": "Target Lightning attack gets +1{p} and \"When this hits, create a Lightning Flow token.\"",
+      "source": "https://cards.fabtcg.com/card/flow_through/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "flowing_stormstrike": {
+      "id": "flowing_stormstrike",
+      "name_zh": "流转风暴打击",
+      "name_en": "Flowing Stormstrike",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "每回合两次瞬间——支付1点资源：此牌获得+1力量。\n当此牌命中时，创造一个闪电流转衍生物。",
+      "text_en": "Twice per Turn Instant - {r}: This gets +1{p}.\nWhen this hits, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/flowing_stormstrike/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "flowshard_elemental": {
+      "id": "flowshard_elemental",
+      "name_zh": "流晶元素",
+      "name_en": "Flowshard Elemental",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一张瞬间牌。若如此做，创造一个闪电流转衍生物且此牌获得再动。",
+      "text_en": "When this attacks, you may discard an instant card. If you do, create a Lightning Flow token and this gets go again.",
+      "source": "https://cards.fabtcg.com/card/flowshard_elemental/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "flowstate_embodiment": {
+      "id": "flowstate_embodiment",
+      "name_zh": "流转状态化身",
+      "name_en": "Flowstate Embodiment",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "每当此链环中你使用瞬间牌时，创造一个闪电化身或闪电流转衍生物。",
+      "text_en": "Whenever you play an instant card this chain link, create an Embodiment of Lightning or Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/flowstate_embodiment/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "fry": {
+      "id": "fry",
+      "name_zh": "油炸",
+      "name_en": "Fry",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "再动",
+      "text_en": "Go again",
+      "source": "https://cards.fabtcg.com/card/fry/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "0"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "0"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "0"
+        }
+      }
+    },
+    "glide_through_starlight": {
+      "id": "glide_through_starlight",
+      "name_zh": "滑翔穿越星光",
+      "name_en": "Glide Through Starlight",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "瞬间——支付1点资源，弃掉此牌：防止本回合接下来将对你造成的1点伤害。若你以此方式防止伤害，创造一个闪电流转衍生物。",
+      "text_en": "Instant - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/glide_through_starlight/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "gone_in_a_flash": {
+      "id": "gone_in_a_flash",
+      "name_zh": "转瞬即逝",
+      "name_en": "Gone in a Flash",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，本链环中你下一次使用瞬间牌时，你可以将此牌移回其拥有者的手牌。",
+      "text_en": "When this attacks, the next time you play an instant card this chain link, you may return this to it's owner's hand.",
+      "source": "https://cards.fabtcg.com/card/gone_in_a_flash/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "heavens_claws": {
+      "id": "heavens_claws",
+      "name_zh": "天穹之爪",
+      "name_en": "Heaven's Claws",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "",
+      "text_en": "",
+      "source": "https://cards.fabtcg.com/card/heavens_claws/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "high_voltage": {
+      "id": "high_voltage",
+      "name_zh": "高压",
+      "name_en": "High Voltage",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "增幅1",
+      "text_en": "Amp 1",
+      "source": "https://cards.fabtcg.com/card/high_voltage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Amp 1"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "ion_charged": {
+      "id": "ion_charged",
+      "name_zh": "离子充能",
+      "name_en": "Ion Charged",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "直到回合结束，闪电和元素攻击在具有再动期间获得+1力量。",
+      "text_en": "Until end of turn, Lightning and Elemental attacks get +1{p} while they have go again.",
+      "source": "https://cards.fabtcg.com/card/ion_charged/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "lightning_form": {
+      "id": "lightning_form",
+      "name_zh": "闪电形态",
+      "name_en": "Lightning Form",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌命中时，创造一个闪电化身衍生物。",
+      "text_en": "When this hits, create an Embodiment of Lightning token.",
+      "source": "https://cards.fabtcg.com/card/lightning_form/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "lightning_press": {
+      "id": "lightning_press",
+      "name_zh": "闪电压制",
+      "name_en": "Lightning Press",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "目标费用为1或更低的攻击行动牌获得+3力量。",
+      "text_en": "Target attack action card with cost 1 or less gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/lightning_press/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "lightning_surge": {
+      "id": "lightning_surge",
+      "name_zh": "闪电奔涌",
+      "name_en": "Lightning Surge",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "若此牌是从军械库使用的，它获得再动。",
+      "text_en": "If this was played from arsenal, it gets go again.",
+      "source": "https://cards.fabtcg.com/card/lightning_surge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "livewire_press": {
+      "id": "livewire_press",
+      "name_zh": "带电压制",
+      "name_en": "Livewire Press",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "目标闪电攻击行动牌获得“当此牌命中英雄时，对其造成4点伤害。”",
+      "text_en": "Target Lightning attack action card gets \"When this hits a hero, deal 4 damage to them.\"",
+      "source": "https://cards.fabtcg.com/card/livewire_press/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "meteoric_rise": {
+      "id": "meteoric_rise",
+      "name_zh": "流星升腾",
+      "name_en": "Meteoric Rise",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "每回合两次瞬间——支付1点资源：此牌获得+1力量。\n当此牌命中时，创造一个闪电流转衍生物。",
+      "text_en": "Twice per Turn Instant - {r}: This gets +1{p}.\nWhen this hits, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/meteoric_rise/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "overcharge": {
+      "id": "overcharge",
+      "name_zh": "过充",
+      "name_en": "Overcharge",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "若此链环中你使用过一张瞬间牌，此牌获得+3力量。\n再动",
+      "text_en": "If you've played an instant card this chain link, this gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/overcharge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "1",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "1",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "pulse_of_candlehold": {
+      "id": "pulse_of_candlehold",
+      "name_zh": "烛火之脉冲",
+      "name_en": "Pulse of Candlehold",
+      "type_zh": "大地 闪电 行动",
+      "text_zh": "传奇\n将你坟场中的至多2张目标大地、闪电和/或元素行动牌置于你的牌库顶。放逐烛火之脉冲。\n再动",
+      "text_en": "Legendary\nPut up to 2 target Earth, Lightning and/or Elemental action cards from your graveyard on top of your deck. Banish Pulse of Candlehold.\nGo again",
+      "source": "https://cards.fabtcg.com/card/pulse_of_candlehold/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "pulse_of_volthaven": {
+      "id": "pulse_of_volthaven",
+      "name_zh": "沃尔特海文之脉冲",
+      "name_en": "Pulse of Volthaven",
+      "type_zh": "闪电 冰 瞬间",
+      "text_zh": "传奇\n你本回合的下一次冰、闪电或元素攻击获得+4力量。",
+      "text_en": "Legendary\nYour next Ice, Lightning, or Elemental attack this turn gains +4{p}.",
+      "source": "https://cards.fabtcg.com/card/pulse_of_volthaven/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "rift_breaker": {
+      "id": "rift_breaker",
+      "name_zh": "裂隙破坏者",
+      "name_en": "Rift Breaker",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌命中英雄时，摧毁其控制的一个闪电流转衍生物。",
+      "text_en": "When this hits a hero, destroy a Lightning Flow token they control.",
+      "source": "https://cards.fabtcg.com/card/rift_breaker/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "second_strike": {
+      "id": "second_strike",
+      "name_zh": "第二次打击",
+      "name_en": "Second Strike",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，若本回合你造成过伤害，此牌获得+1力量和再动。",
+      "text_en": "When this attacks, if you've dealt damage this turn, this gets +1{p} and go again.",
+      "source": "https://cards.fabtcg.com/card/second_strike/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "shock_striker": {
+      "id": "shock_striker",
+      "name_zh": "电击打击者",
+      "name_en": "Shock Striker",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "每回合一次瞬间——支付2点资源：电击打击者获得“若电击打击者命中英雄，对其造成1点伤害。”",
+      "text_en": "Once per Turn Instant - {r}{r}: Shock Striker gains \"If Shock Striker hits a hero, deal 1 damage to them.\"",
+      "source": "https://cards.fabtcg.com/card/shock_striker/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "sigil_of_astral_flow": {
+      "id": "sigil_of_astral_flow",
+      "name_zh": "星界流转印记",
+      "name_en": "Sigil of Astral Flow",
+      "type_zh": "闪电 瞬间·光环",
+      "text_zh": "在你的行动阶段开始时，摧毁此牌。\n当此牌离开竞技场时，创造一个闪电流转衍生物。",
+      "text_en": "At the beginning of your action phase, destroy this.\nWhen this leaves the arena, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/sigil_of_astral_flow/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sigil_of_conductivity": {
+      "id": "sigil_of_conductivity",
+      "name_zh": "导电印记",
+      "name_en": "Sigil of Conductivity",
+      "type_zh": "闪电 瞬间·光环",
+      "text_zh": "秘法庇护1\n当此牌离开竞技场时，创造一个闪电化身衍生物。",
+      "text_en": "Arcane Shelter 1\nWhen this leaves the arena, create an Embodiment of Lightning token.",
+      "source": "https://cards.fabtcg.com/card/sigil_of_conductivity/",
+      "status": "machine-draft",
+      "keywords": [
+        "Arcane Shelter 1"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sigil_of_lightning": {
+      "id": "sigil_of_lightning",
+      "name_zh": "闪电印记",
+      "name_en": "Sigil of Lightning",
+      "type_zh": "闪电 瞬间·光环",
+      "text_zh": "在你的行动阶段开始时，摧毁此牌。\n当此牌离开竞技场时，创造一个闪电化身衍生物。",
+      "text_en": "At the beginning of your action phase, destroy this.\nWhen this leaves the arena, create an Embodiment of Lightning token.",
+      "source": "https://cards.fabtcg.com/card/sigil_of_lightning/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sizzle": {
+      "id": "sizzle",
+      "name_zh": "滋滋作响",
+      "name_en": "Sizzle",
+      "type_zh": "闪电 行动",
+      "text_zh": "你本回合的下一次闪电或元素攻击获得+3力量。\n再动",
+      "text_en": "Your next Lightning or Elemental attack this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/sizzle/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "skyzyk": {
+      "id": "skyzyk",
+      "name_zh": "天蛇",
+      "name_en": "Skyzyk",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "若此牌具有再动，它获得+1力量。",
+      "text_en": "If this has go again, it gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/skyzyk/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "spark_spray": {
+      "id": "spark_spray",
+      "name_zh": "火花喷射",
+      "name_en": "Spark Spray",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌被1张或更多牌防御时，你可以支付1点资源。若如此做，此牌获得+1力量。",
+      "text_en": "When this is defended by 1 or more cards, you may pay {r}. If you do, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/spark_spray/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "spellbane_sigil": {
+      "id": "spellbane_sigil",
+      "name_zh": "咒缚印记",
+      "name_en": "Spellbane Sigil",
+      "type_zh": "闪电 瞬间·光环",
+      "text_zh": "在你的行动阶段开始时，摧毁此牌。\n秘法屏障X",
+      "text_en": "At the beginning of your action phase, destroy this.\nArcane Barrier X",
+      "source": "https://cards.fabtcg.com/card/spellbane_sigil/",
+      "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier X"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "starlight_road": {
+      "id": "starlight_road",
+      "name_zh": "星光之路",
+      "name_en": "Starlight Road",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "创造一个闪电化身或闪电流转衍生物。",
+      "text_en": "Create an Embodiment of Lightning or Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/starlight_road/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "starworld_warning": {
+      "id": "starworld_warning",
+      "name_zh": "星界警告",
+      "name_en": "Starworld Warning",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "创造2个闪电流转衍生物。",
+      "text_en": "Create 2 Lightning Flow tokens.",
+      "source": "https://cards.fabtcg.com/card/starworld_warning/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "static_shelter": {
+      "id": "static_shelter",
+      "name_zh": "静电庇护",
+      "name_en": "Static Shelter",
+      "type_zh": "闪电 防御反应",
+      "text_zh": "当此牌防御时，你可以支付1点资源。若如此做，创造一个闪电流转衍生物。",
+      "text_en": "When this defends, you may pay {r}. If you do, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/static_shelter/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "stellar_glide": {
+      "id": "stellar_glide",
+      "name_zh": "星光滑翔",
+      "name_en": "Stellar Glide",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以摧毁你控制的一个闪电流转。若如此做，此牌获得再动。",
+      "text_en": "When this attacks, you may destroy a Lightning Flow you control. If you do, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/stellar_glide/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "stormshard": {
+      "id": "stormshard",
+      "name_zh": "风暴碎片",
+      "name_en": "Stormshard",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "你可以摧毁你控制的一个闪电流转，而非支付此牌的费用。\n目标闪电攻击获得+3力量。",
+      "text_en": "You may destroy a Lightning Flow you control rather than pay this card's {r} cost.\nTarget Lightning attack gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/stormshard/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "stormshatter": {
+      "id": "stormshatter",
+      "name_zh": "风暴碎击",
+      "name_en": "Stormshatter",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "你可以摧毁你控制的一个闪电流转，而非支付此牌的费用。\n目标闪电攻击获得-3力量。",
+      "text_en": "You may destroy a Lightning Flow you control rather than pay this card's {r} cost.\nTarget Lightning attack gets -3{p}.",
+      "source": "https://cards.fabtcg.com/card/stormshatter/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "stormwhirl": {
+      "id": "stormwhirl",
+      "name_zh": "风暴旋涡",
+      "name_en": "Stormwhirl",
+      "type_zh": "闪电 瞬间",
+      "text_zh": "你可以摧毁你控制的一个闪电流转，而非支付此牌的费用。\n目标闪电攻击获得再动。",
+      "text_en": "You may destroy a Lightning Flow you control rather than pay this card's {r} cost.\nTarget Lightning attack gets go again.",
+      "source": "https://cards.fabtcg.com/card/stormwhirl/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "thunderous_retort": {
+      "id": "thunderous_retort",
+      "name_zh": "雷鸣反驳",
+      "name_en": "Thunderous Retort",
+      "type_zh": "闪电 瞬间·光环",
+      "text_zh": "在你的行动阶段开始时，摧毁此牌，然后你本回合的下一次攻击获得再动。\n秘法屏障3",
+      "text_en": "At the beginning of your action phase, destroy this, then your next attack this turn gets go again.\nArcane Barrier 3",
+      "source": "https://cards.fabtcg.com/card/thunderous_retort/",
+      "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "trip_the_light_fantastic": {
+      "id": "trip_the_light_fantastic",
+      "name_zh": "踏出流光",
+      "name_en": "Trip the Light Fantastic",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "瞬间——弃掉此牌：防止本回合接下来将对你造成的2点伤害。",
+      "text_en": "Instant - Discard this: Prevent the next 2 damage that would be dealt to you this turn.",
+      "source": "https://cards.fabtcg.com/card/trip_the_light_fantastic/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "visionary_of_orbits": {
+      "id": "visionary_of_orbits",
+      "name_zh": "轨道先知",
+      "name_en": "Visionary of Orbits",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "当此牌命中时，你可以将你坟场中的一张瞬间牌置于你的牌库底。",
+      "text_en": "When this hits, you may put an instant card from your graveyard on the bottom of your deck.",
+      "source": "https://cards.fabtcg.com/card/visionary_of_orbits/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        }
+      }
+    },
+    "volatile_fluxor": {
+      "id": "volatile_fluxor",
+      "name_zh": "易爆通量器",
+      "name_en": "Volatile Fluxor",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "若此链环中你使用过一张瞬间牌，此牌获得+3力量。\n当此牌命中时，创造一个闪电流转衍生物。\n再动",
+      "text_en": "If you've played an instant card this chain link, this gets +3{p}.\nWhen this hits, create a Lightning Flow token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/volatile_fluxor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "0",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "0",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "0",
+          "defense": "3"
+        }
+      }
+    },
+    "voltaris": {
+      "id": "voltaris",
+      "name_zh": "伏尔塔里斯",
+      "name_en": "Voltaris",
+      "type_zh": "闪电 资源·宝石",
+      "text_zh": "传奇\n当此牌被资源时，创造一个闪电流转衍生物。",
+      "text_en": "Legendary\nWhen this is pitched, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/voltaris/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "voltic_impact": {
+      "id": "voltic_impact",
+      "name_zh": "伏尔蒂克冲击",
+      "name_en": "Voltic Impact",
+      "type_zh": "闪电 行动·攻击",
+      "text_zh": "每回合两次瞬间——支付1点资源：此牌获得+1力量。\n当此牌命中时，创造一个闪电流转衍生物。",
+      "text_en": "Twice per Turn Instant - {r}: This gets +1{p}.\nWhen this hits, create a Lightning Flow token.",
+      "source": "https://cards.fabtcg.com/card/voltic_impact/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "weave_lightning": {
+      "id": "weave_lightning",
+      "name_zh": "编织闪电",
+      "name_en": "Weave Lightning",
+      "type_zh": "闪电 行动",
+      "text_zh": "本回合你使用的下一张闪电或元素攻击行动牌获得+3力量。若它已融合，它获得再动。\n再动",
+      "text_en": "The next Lightning or Elemental attack action card you play this turn gains +3{p}. If it's fused, it gains go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/weave_lightning/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    }
+  }
+}

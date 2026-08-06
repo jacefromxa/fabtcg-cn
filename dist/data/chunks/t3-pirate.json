@@ -1,0 +1,1762 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "angry_bones": {
+      "id": "angry_bones",
+      "name_zh": "愤怒骸骨",
+      "name_en": "Angry Bones",
+      "type_zh": "海盗 Necromancer 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一张牌或摧毁你牌库顶的一张牌。若该牌具有水葬，此牌获得+1力量。",
+      "text_en": "When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/angry_bones/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "anka_drag_under": {
+      "id": "anka_drag_under",
+      "name_zh": "安卡·拖入水下",
+      "name_en": "Anka, Drag Under",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——支付1点资源，横置此牌：攻击\n瞬间——横置此牌，弃一张具有水葬的牌：本行动阶段中对手下一次抽1张或更多牌时，该对手弃一张牌。\n水葬",
+      "text_en": "Action - {r}, {t}: Attack\nInstant - {t}, discard a card with watery grave: The next time an opponent draws one or more cards this action phase, they discard a card.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/anka_drag_under/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": null
+        }
+      }
+    },
+    "avast_ye": {
+      "id": "avast_ye",
+      "name_zh": "嘿，站住",
+      "name_en": "Avast Ye!",
+      "type_zh": "海盗 Necromancer 行动",
+      "text_zh": "你本回合的下一次海盗盟友攻击获得再动，以及“当此牌命中英雄时，创造一个金币衍生物。”\n再动",
+      "text_en": "Your next Pirate ally attack this turn gets go again and \"When this hits a hero, create a Gold token.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/avast_ye/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "barnacle": {
+      "id": "barnacle",
+      "name_zh": "藤壶",
+      "name_en": "Barnacle",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——横置此牌：攻击\n水葬",
+      "text_en": "Action - {t}: Attack\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/barnacle/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "battalion_barque": {
+      "id": "battalion_barque",
+      "name_zh": "营队帆船",
+      "name_en": "Battalion Barque",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "涨潮——若你资源区中有2张或更多蓝色牌，此牌获得+2力量。",
+      "text_en": "High Tide - If there are 2 or more blue cards in your pitch zone, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/battalion_barque/",
+      "status": "machine-draft",
+      "keywords": [
+        "High Tide"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "beneath_the_surface": {
+      "id": "beneath_the_surface",
+      "name_zh": "水面之下",
+      "name_en": "Beneath the Surface",
+      "type_zh": "海盗 Necromancer 防御反应",
+      "text_zh": "水葬\n当此牌防御时，当它从竞技场被置入你的坟场时，将其翻为牌面朝下。",
+      "text_en": "Watery Grave\nWhile this is defending, when it's put into your graveyard from the arena, turn it face-down.",
+      "source": "https://cards.fabtcg.com/card/beneath_the_surface/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
+    "blood_in_the_water": {
+      "id": "blood_in_the_water",
+      "name_zh": "水中的血",
+      "name_en": "Blood in the Water",
+      "type_zh": "海盗 Necromancer 防御反应",
+      "text_zh": "当此牌防御时，你可以弃一张牌或摧毁你牌库顶的一张牌。若该牌具有水葬，此牌获得+2防御。",
+      "text_en": "When this defends, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/blood_in_the_water/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "board_the_ship": {
+      "id": "board_the_ship",
+      "name_zh": "登船",
+      "name_en": "Board the Ship",
+      "type_zh": "海盗 Necromancer 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以横置你控制的一个盟友。若如此做，此牌获得压制。",
+      "text_en": "When this attacks, you may {t} an ally you control. If you do, this gets overpower.",
+      "source": "https://cards.fabtcg.com/card/board_the_ship/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "boo_resident_spook": {
+      "id": "boo_resident_spook",
+      "name_zh": "嘘·常驻幽灵",
+      "name_en": "Boo, Resident Spook",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——横置此牌：攻击\n若此牌未被横置，它获得法力虚空2。\n水葬",
+      "text_en": "Action - {t}: Attack\nIf this is untapped, it gets spellvoid 2.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/boo_resident_spook/",
+      "status": "machine-draft",
+      "keywords": [
+        "Spellvoid 2",
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "break_open_the_chests": {
+      "id": "break_open_the_chests",
+      "name_zh": "撬开宝箱",
+      "name_en": "Break Open the Chests!",
+      "type_zh": "海盗 行动",
+      "text_zh": "将所有军械库中的所有牌翻为正面朝上。然后若任意军械库中有一张正面朝上的黄色牌，创造2个金币衍生物。\n再动",
+      "text_en": "Turn all cards in all arsenals face-up. Then if there's a face-up yellow card in any arsenal, create 2 Gold tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/break_open_the_chests/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "bubba_lubba_run_aground": {
+      "id": "bubba_lubba_run_aground",
+      "name_zh": "巴布·卢巴·搁浅",
+      "name_en": "Bubba-Lubba, Run Aground",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "此牌进入竞技场时带有一个+1力量指示物。\n行动——支付1点资源，横置此牌：攻击\n行动——从你控制的一个盟友上移除一个+1力量指示物：摧毁一个光环衍生物。再动\n水葬",
+      "text_en": "This enters the arena with a +1{p} counter.\nAction - {r}, {t}: Attack\nAction - Remove a +1{p} counter from an ally you control: Destroy an aura token. Go again\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/bubba_lubba_run_aground/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "1",
+          "defense": "5"
+        }
+      }
+    },
+    "burly_bones": {
+      "id": "burly_bones",
+      "name_zh": "魁梧骸骨",
+      "name_en": "Burly Bones",
+      "type_zh": "海盗 Necromancer 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一张牌或摧毁你牌库顶的一张牌。若该牌具有水葬，此牌获得压制。",
+      "text_en": "When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets overpower.",
+      "source": "https://cards.fabtcg.com/card/burly_bones/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "chart_a_course": {
+      "id": "chart_a_course",
+      "name_zh": "规划航向",
+      "name_en": "Chart a Course",
+      "type_zh": "海盗 行动",
+      "text_zh": "你本回合的第一次攻击获得+3力量。\n你可以将一个金币指示物放在宝藏之岛上。\n再动",
+      "text_en": "Your first attack this turn gets +3{p}.\nYou may put a gold counter on Treasure Island.\nGo again",
+      "source": "https://cards.fabtcg.com/card/chart_a_course/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "chart_the_high_seas": {
+      "id": "chart_the_high_seas",
+      "name_zh": "绘制公海海图",
+      "name_en": "Chart the High Seas",
+      "type_zh": "",
+      "text_zh": "查看你牌库顶的2张牌。你可以从其中资源一张蓝色牌。将其余牌置入你的坟场。\n每有一张以此方式置入你的坟场的黄色牌，创造一个金币衍生物。\n再动",
+      "text_en": "Look at the top 2 cards of your deck. You may pitch a blue card from among them. Put the rest into your graveyard.\nCreate a Gold token for each yellow card put into your graveyard this way.\nGo again",
+      "source": "https://cards.fabtcg.com/card/chart_the_high_seas/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    },
+    "cheating_scoundrel": {
+      "id": "cheating_scoundrel",
+      "name_zh": "作弊的无赖",
+      "name_en": "Cheating Scoundrel",
+      "type_zh": "海盗 行动",
+      "text_zh": "本回合你使用的下一张攻击行动牌获得+3力量，以及“当此牌攻击时，与防御英雄下注。胜者创造一个金币衍生物。”\n本回合你下一次将输掉下注时，你可以改为弃一张牌。若如此做，你赢得该下注。\n再动",
+      "text_en": "The next attack action card you play this turn gets +3{p} and \"When this attacks, wager with the defending hero. The winner creates a Gold token.\"\nThe next time you would lose a wager this turn, instead you may discard a card. If you do, you win the wager.\nGo again",
+      "source": "https://cards.fabtcg.com/card/cheating_scoundrel/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "chowder_hearty_cook": {
+      "id": "chowder_hearty_cook",
+      "name_zh": "巧达·丰盛厨师",
+      "name_en": "Chowder, Hearty Cook",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——横置此牌：攻击\n瞬间——横置此牌：获得1点生命\n水葬",
+      "text_en": "Action - {t}: Attack\nInstant - {t}: Gain 1{h}\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/chowder_hearty_cook/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "chum_friendly_first_mate": {
+      "id": "chum_friendly_first_mate",
+      "name_zh": "丘姆·友善大副",
+      "name_en": "Chum, Friendly First Mate",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——横置此牌：攻击\n瞬间——横置此牌，弃一张具有水葬的牌：直到回合结束，若能够，对手必须选择此牌作为攻击的目标。\n水葬",
+      "text_en": "Action - {t}: Attack\nInstant - {t}, discard a card with watery grave: Until end of turn, opponents must choose this as the target of attacks if able.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/chum_friendly_first_mate/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "conqueror_of_the_high_seas": {
+      "id": "conqueror_of_the_high_seas",
+      "name_zh": "公海征服者",
+      "name_en": "Conqueror of the High Seas",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌命中英雄时，摧毁其军械库中的所有牌。每有一张以此方式摧毁的牌，创造一个金币衍生物。\n涨潮——若你资源区中有2张或更多蓝色牌，此牌获得+1力量和再动。",
+      "text_en": "When this hits a hero, destroy all cards in their arsenal. Create a Gold token for each card destroyed this way.\nHigh Tide - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and go again.",
+      "source": "https://cards.fabtcg.com/card/conqueror_of_the_high_seas/",
+      "status": "machine-draft",
+      "keywords": [
+        "High Tide",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "cutty_shark_quick_clip": {
+      "id": "cutty_shark_quick_clip",
+      "name_zh": "库提鲨·快剪",
+      "name_en": "Cutty Shark, Quick Clip",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——支付1点资源，横置此牌：攻击\n每回合一次行动——支付1点资源：你本回合的下一次盟友攻击获得+1力量。再动\n水葬",
+      "text_en": "Action - {r}, {t}: Attack\nOnce per Turn Action - {r}: Your next ally attack this turn gets +1{p}. Go again\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/cutty_shark_quick_clip/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "divvy_up": {
+      "id": "divvy_up",
+      "name_zh": "瓜分",
+      "name_en": "Divvy Up",
+      "type_zh": "海盗 行动",
+      "text_zh": "从宝藏之岛上移除一半的金币指示物（向上取整）。若你为盗贼，改为移除全部。\n创造与此方式移除的金币指示物数量相等的金币衍生物。",
+      "text_en": "Remove half the gold counters from Treasure Island, rounded up. If you are a Thief, instead remove all of them.\nCreate Gold tokens equal to the number of gold counters removed this way.",
+      "source": "https://cards.fabtcg.com/card/divvy_up/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "expedition_to_azuro_keys": {
+      "id": "expedition_to_azuro_keys",
+      "name_zh": "远征阿祖罗群岛",
+      "name_en": "Expedition to Azuro Keys",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将一个金币指示物放在宝藏之岛上。",
+      "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
+      "source": "https://cards.fabtcg.com/card/expedition_to_azuro_keys/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "expedition_to_blackwater_strait": {
+      "id": "expedition_to_blackwater_strait",
+      "name_zh": "远征黑水海峡",
+      "name_en": "Expedition to Blackwater Strait",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将一个金币指示物放在宝藏之岛上。",
+      "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
+      "source": "https://cards.fabtcg.com/card/expedition_to_blackwater_strait/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "expedition_to_dreadfall_reach": {
+      "id": "expedition_to_dreadfall_reach",
+      "name_zh": "远征恐惧落礁",
+      "name_en": "Expedition to Dreadfall Reach",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将一个金币指示物放在宝藏之岛上。",
+      "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
+      "source": "https://cards.fabtcg.com/card/expedition_to_dreadfall_reach/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "expedition_to_horizons_mantle": {
+      "id": "expedition_to_horizons_mantle",
+      "name_zh": "远征地平线之覆",
+      "name_en": "Expedition to Horizon's Mantle",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将一个金币指示物放在宝藏之岛上。",
+      "text_en": "When this attacks, you may put a gold counter on Treasure Island.",
+      "source": "https://cards.fabtcg.com/card/expedition_to_horizons_mantle/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        }
+      }
+    },
+    "gallow_end_of_the_line": {
+      "id": "gallow_end_of_the_line",
+      "name_zh": "绞架·穷途末路",
+      "name_en": "Gallow, End of the Line",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——支付1点资源，横置此牌：攻击\n瞬间——横置此牌，弃一张具有水葬的牌：直到回合结束，对手控制的效果在其攻击命中时不触发。\n水葬",
+      "text_en": "Action - {r}, {t}: Attack\nInstant - {t}, discard a card with watery grave: Until end of turn, effects controlled by opponents don't trigger when their attacks hit.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/gallow_end_of_the_line/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "give_no_quarter": {
+      "id": "give_no_quarter",
+      "name_zh": "毫不留情",
+      "name_en": "Give No Quarter",
+      "type_zh": "海盗 Necromancer 行动",
+      "text_zh": "本回合你使用的接下来2张具有水葬的盟友牌使用费用减少3点资源。\n再动",
+      "text_en": "The next 2 ally cards with watery grave you play this turn cost {r}{r}{r} less to play.\nGo again",
+      "source": "https://cards.fabtcg.com/card/give_no_quarter/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "gold_hunter_ketch": {
+      "id": "gold_hunter_ketch",
+      "name_zh": "淘金者双桅帆船",
+      "name_en": "Gold Hunter Ketch",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "若你控制的金币少于一位对手，此牌的使用费用减少2点资源。",
+      "text_en": "If you control less Gold than an opponent, this costs {r}{r} less to play.",
+      "source": "https://cards.fabtcg.com/card/gold_hunter_ketch/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "2"
+        }
+      }
+    },
+    "gold_hunter_lightsail": {
+      "id": "gold_hunter_lightsail",
+      "name_zh": "淘金者轻帆船",
+      "name_en": "Gold Hunter Lightsail",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，若你控制的金币少于一位对手，此牌获得再动。",
+      "text_en": "When this attacks, if you control less Gold than an opponent, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/gold_hunter_lightsail/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "gold_hunter_longboat": {
+      "id": "gold_hunter_longboat",
+      "name_zh": "淘金者长艇",
+      "name_en": "Gold Hunter Longboat",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "若你控制的金币少于一位对手，此牌获得+2力量。",
+      "text_en": "If you control less Gold than an opponent, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/gold_hunter_longboat/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "gold_hunter_marauder": {
+      "id": "gold_hunter_marauder",
+      "name_zh": "淘金者掠夺者",
+      "name_en": "Gold Hunter Marauder",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "若你控制的金币少于一位对手，此牌获得压制。",
+      "text_en": "If you control less Gold than an opponent, this gets overpower.",
+      "source": "https://cards.fabtcg.com/card/gold_hunter_marauder/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "golden_skull": {
+      "id": "golden_skull",
+      "name_zh": "黄金颅骨",
+      "name_en": "Golden Skull",
+      "type_zh": "海盗 Necromancer 行动·物品",
+      "text_zh": "再动\n此牌计为一个金币。\n水葬",
+      "text_en": "Go again\nThis counts as a Gold.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/golden_skull/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "golden_tipple": {
+      "id": "golden_tipple",
+      "name_zh": "黄金小酌",
+      "name_en": "Golden Tipple",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一张黄色牌。若如此做，抽一张牌并创造一个金币衍生物。\n再动",
+      "text_en": "When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/golden_tipple/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "heave_ho": {
+      "id": "heave_ho",
+      "name_zh": "用力拉",
+      "name_en": "Heave Ho!",
+      "type_zh": "海盗 Necromancer 行动",
+      "text_zh": "你本回合的下一次海盗盟友攻击获得压制，以及“当此牌命中英雄时，创造一个金币衍生物。”\n再动",
+      "text_en": "Your next Pirate ally attack this turn gets overpower and \"When this hits a hero, create a Gold token.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/heave_ho/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "hms_barracuda": {
+      "id": "hms_barracuda",
+      "name_zh": "皇家海军梭鱼号",
+      "name_en": "HMS Barracuda",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌命中英雄时，摧毁其控制的一个盟友。\n涨潮——若你资源区中有2张或更多蓝色牌，此牌获得+1力量和压制。",
+      "text_en": "When this hits a hero, destroy an ally they control.\nHigh Tide - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and overpower.",
+      "source": "https://cards.fabtcg.com/card/hms_barracuda/",
+      "status": "machine-draft",
+      "keywords": [
+        "High Tide",
+        "Overpower"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "hms_kraken": {
+      "id": "hms_kraken",
+      "name_zh": "皇家海军克拉肯号",
+      "name_en": "HMS Kraken",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌命中英雄时，摧毁其控制的一个物品。\n涨潮——若你资源区中有2张或更多蓝色牌，此牌获得+1力量和压制。",
+      "text_en": "When this hits a hero, destroy an item they control.\nHigh Tide - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and overpower.",
+      "source": "https://cards.fabtcg.com/card/hms_kraken/",
+      "status": "machine-draft",
+      "keywords": [
+        "High Tide",
+        "Overpower"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "hms_marlin": {
+      "id": "hms_marlin",
+      "name_zh": "皇家海军马林号",
+      "name_en": "HMS Marlin",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌命中英雄时，摧毁其牌库顶的一张牌。\n涨潮——若你资源区中有2张或更多蓝色牌，此牌获得+1力量和压制。",
+      "text_en": "When this hits a hero, destroy the top card of their deck.\nHigh Tide - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and overpower.",
+      "source": "https://cards.fabtcg.com/card/hms_marlin/",
+      "status": "machine-draft",
+      "keywords": [
+        "High Tide",
+        "Overpower"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "hoist_em_up": {
+      "id": "hoist_em_up",
+      "name_zh": "举起他们",
+      "name_en": "Hoist 'Em Up",
+      "type_zh": "海盗 Necromancer 阻挡",
+      "text_zh": "当此牌防御时，你可以横置你控制的一个盟友。若如此做，此牌获得+1防御。",
+      "text_en": "When this defends, you may {t} an ally you control. If you do, this gets +1{d}.",
+      "source": "https://cards.fabtcg.com/card/hoist_em_up/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "jittery_bones": {
+      "id": "jittery_bones",
+      "name_zh": "颤抖骸骨",
+      "name_en": "Jittery Bones",
+      "type_zh": "海盗 Necromancer 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一张牌或摧毁你牌库顶的一张牌。若该牌具有水葬，此牌获得再动。",
+      "text_en": "When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/jittery_bones/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "kelpie_tangled_mess": {
+      "id": "kelpie_tangled_mess",
+      "name_zh": "水鬼·纠缠乱麻",
+      "name_en": "Kelpie, Tangled Mess",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——横置此牌：攻击\n行动——支付1点资源，横置此牌：横置目标英雄或盟友。再动\n水葬",
+      "text_en": "Action - {t}: Attack\nAction - {r}, {t}: {t} target hero or ally. Go again\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/kelpie_tangled_mess/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "lighten_the_load": {
+      "id": "lighten_the_load",
+      "name_zh": "减轻负担",
+      "name_en": "Lighten the Load",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一张牌或摧毁你控制的一个物品。若如此做，此牌获得再动。",
+      "text_en": "When this attacks, you may discard a card or destroy an item you control. If you do, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/lighten_the_load/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "limpit_hop_a_long": {
+      "id": "limpit_hop_a_long",
+      "name_zh": "藤壶·跳跳爬",
+      "name_en": "Limpit, Hop-a-long",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——支付1点资源，横置此牌：攻击。再动\n水葬",
+      "text_en": "Action - {r}, {t}: Attack. Go again\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/limpit_hop_a_long/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "loan_shark": {
+      "id": "loan_shark",
+      "name_zh": "放贷鲨",
+      "name_en": "Loan Shark",
+      "type_zh": "海盗 行动·光环",
+      "text_zh": "再动\n当此牌进入竞技场时，创造2个金币衍生物。\n在你的结束阶段开始时，若本回合你尚未创造或偷取过金币，摧毁此牌，然后除非你弃一张牌，否则失去2点生命。",
+      "text_en": "Go again\nWhen this enters the arena, create 2 Gold tokens.\nAt the beginning of your end phase, if you haven't created or stolen a Gold this turn, destroy this, then lose 2{h} unless you discard a card.",
+      "source": "https://cards.fabtcg.com/card/loan_shark/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "loot_the_arsenal": {
+      "id": "loot_the_arsenal",
+      "name_zh": "洗劫军械库",
+      "name_en": "Loot the Arsenal",
+      "type_zh": "海盗 Necromancer 行动",
+      "text_zh": "你本回合的下一次海盗盟友攻击获得“当此牌命中英雄时，摧毁其军械库中的一张牌。若如此做，创造一个金币衍生物。”\n再动",
+      "text_en": "Your next Pirate ally attack this turn gets \"When this hits a hero, destroy a card in their arsenal. If you do, create a Gold token.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/loot_the_arsenal/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "loot_the_hold": {
+      "id": "loot_the_hold",
+      "name_zh": "洗劫货舱",
+      "name_en": "Loot the Hold",
+      "type_zh": "海盗 Necromancer 行动",
+      "text_zh": "你本回合的下一次海盗盟友攻击获得“当此牌命中英雄时，该英雄弃一张牌。若该英雄如此做，创造一个金币衍生物。”\n再动",
+      "text_en": "Your next Pirate ally attack this turn gets \"When this hits a hero, they discard a card. If they do, create a Gold token.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/loot_the_hold/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "lost_in_transit": {
+      "id": "lost_in_transit",
+      "name_zh": "运输途中丢失",
+      "name_en": "Lost in Transit",
+      "type_zh": "海盗 阻挡",
+      "text_zh": "当此牌防御时，你可以从宝藏之岛上移除一个金币指示物。若如此做且你为盗贼，创造一个金币衍生物。",
+      "text_en": "When this defends, you may remove a gold counter from Treasure Island. If you do and you are a Thief, create a Gold token.",
+      "source": "https://cards.fabtcg.com/card/lost_in_transit/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "man_overboard": {
+      "id": "man_overboard",
+      "name_zh": "落水者",
+      "name_en": "Man Overboard",
+      "type_zh": "海盗 Necromancer 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一个盟友。若如此做，此牌获得+1力量和再动。",
+      "text_en": "When this attacks, you may discard an ally. If you do, this gets +1{p} and go again.",
+      "source": "https://cards.fabtcg.com/card/man_overboard/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "moray_le_fay": {
+      "id": "moray_le_fay",
+      "name_zh": "海鳗·勒菲",
+      "name_en": "Moray le Fay",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——横置此牌：攻击\n瞬间——支付1点资源，横置此牌：在目标盟友上放置一个+1力量指示物。\n水葬",
+      "text_en": "Action - {t}: Attack\nInstant - {r}, {t}: Put a +1{p} counter on target ally.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/moray_le_fay/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "0",
+          "defense": null
+        }
+      }
+    },
+    "murderous_rabble": {
+      "id": "murderous_rabble",
+      "name_zh": "凶残乌合之众",
+      "name_en": "Murderous Rabble",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，展示你牌库顶的一张牌。此牌获得+X力量，X为以此方式展示的牌的资源数值。\n再动",
+      "text_en": "When this attacks, reveal the top card of your deck. This gets +X{p}, where X is the pitch value of the card revealed this way.\nGo again",
+      "source": "https://cards.fabtcg.com/card/murderous_rabble/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "0",
+          "defense": "3"
+        }
+      }
+    },
+    "mutiny_on_the_battalion_barque": {
+      "id": "mutiny_on_the_battalion_barque",
+      "name_zh": "营队帆船哗变",
+      "name_en": "Mutiny on the Battalion Barque",
+      "type_zh": "海盗 行动",
+      "text_zh": "为每位控制比你更多金币的英雄，偷取其控制的一个金币衍生物。\n若你以此方式获得1个或更多金币衍生物的控制权，你本回合的下一次攻击获得+2力量。\n再动",
+      "text_en": "For each hero that controls more Gold than you, steal a Gold token they control.\nIf you gain control of 1 or more Gold tokens this way, your next attack this turn gets +2{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/mutiny_on_the_battalion_barque/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Steal"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mutiny_on_the_nimbus_sovereign": {
+      "id": "mutiny_on_the_nimbus_sovereign",
+      "name_zh": "云虹君王哗变",
+      "name_en": "Mutiny on the Nimbus Sovereign",
+      "type_zh": "海盗 行动",
+      "text_zh": "为每位控制比你更多金币的英雄，偷取其控制的一个金币衍生物。\n若你以此方式获得1个或更多金币衍生物的控制权，你本回合的下一次攻击获得压制。\n再动",
+      "text_en": "For each hero that controls more Gold than you, steal a Gold token they control.\nIf you gain control of 1 or more Gold tokens this way, your next attack this turn gets overpower.\nGo again",
+      "source": "https://cards.fabtcg.com/card/mutiny_on_the_nimbus_sovereign/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Steal"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mutiny_on_the_swiftwater": {
+      "id": "mutiny_on_the_swiftwater",
+      "name_zh": "急流号哗变",
+      "name_en": "Mutiny on the Swiftwater",
+      "type_zh": "海盗 行动",
+      "text_zh": "为每位控制比你更多金币的英雄，偷取其控制的一个金币衍生物。\n若你以此方式获得1个或更多金币衍生物的控制权，你本回合的下一次攻击获得再动。\n再动",
+      "text_en": "For each hero that controls more Gold than you, steal a Gold token they control.\nIf you gain control of 1 or more Gold tokens this way, your next attack this turn gets go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/mutiny_on_the_swiftwater/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Steal"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "not_so_fast": {
+      "id": "not_so_fast",
+      "name_zh": "没那么快",
+      "name_en": "Not So Fast",
+      "type_zh": "海盗 瞬间",
+      "text_zh": "斯柯夫专精\n本回合对手下一次将因金币衍生物的效果抽牌时，改为你抽一张牌。",
+      "text_en": "Scurv Specialization\nThe next time an opponent would draw a card from the effect of a Gold token this turn, instead you draw a card.",
+      "source": "https://cards.fabtcg.com/card/not_so_fast/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "off_cuts": {
+      "id": "off_cuts",
+      "name_zh": "边角料",
+      "name_en": "Off Cuts",
+      "type_zh": "",
+      "text_zh": "弗兰基专精\n每位英雄摧毁其控制的一件装备。\n再动",
+      "text_en": "Frankie Specialization\nEach hero destroys an equipment they control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/off_cuts/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    },
+    "oysten_heart_of_gold": {
+      "id": "oysten_heart_of_gold",
+      "name_zh": "奥伊斯滕·黄金之心",
+      "name_en": "Oysten, Heart of Gold",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——横置此牌：攻击\n当此牌死亡时，创造一个金币衍生物。\n水葬",
+      "text_en": "Action - {t}: Attack\nWhen this dies, create a Gold token.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/oysten_heart_of_gold/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "paddle_faster": {
+      "id": "paddle_faster",
+      "name_zh": "划得更快",
+      "name_en": "Paddle Faster",
+      "type_zh": "海盗 Necromancer 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以横置你控制的一个盟友。若如此做，此牌获得再动。",
+      "text_en": "When this attacks, you may {t} an ally you control. If you do, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/paddle_faster/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "pilfer_the_wreck": {
+      "id": "pilfer_the_wreck",
+      "name_zh": "偷窃残骸",
+      "name_en": "Pilfer the Wreck",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌命中英雄时，你可以将其坟场中的一张牌翻为牌面朝下。若其为黄色，创造一个金币衍生物。",
+      "text_en": "When this hits a hero, you may turn a card in their graveyard face-down. If it's yellow, create a Gold token.",
+      "source": "https://cards.fabtcg.com/card/pilfer_the_wreck/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "portside_exchange": {
+      "id": "portside_exchange",
+      "name_zh": "左舷交易",
+      "name_en": "Portside Exchange",
+      "type_zh": "海盗 行动",
+      "text_zh": "弃一张牌，然后抽一张牌。若以此方式弃置的是黄色牌，创造一个金币衍生物。\n再动",
+      "text_en": "Discard a card, then draw a card. If a yellow card is discarded this way, create a Gold token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/portside_exchange/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "restless_bones": {
+      "id": "restless_bones",
+      "name_zh": "不安分骸骨",
+      "name_en": "Restless Bones",
+      "type_zh": "海盗 Necromancer 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一张牌或摧毁你牌库顶的一张牌。若该牌具有水葬，此牌获得再动。",
+      "text_en": "When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/restless_bones/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "riggermortis": {
+      "id": "riggermortis",
+      "name_zh": "索具僵死",
+      "name_en": "Riggermortis",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——支付1点资源，横置此牌：攻击\n水葬",
+      "text_en": "Action - {r}, {t}: Attack\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/riggermortis/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "saltwater_swell": {
+      "id": "saltwater_swell",
+      "name_zh": "咸水涌浪",
+      "name_en": "Saltwater Swell",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，展示你牌库顶的一张牌。若其为蓝色，资源它。\n再动",
+      "text_en": "When this attacks, reveal the top card of your deck. If it's blue, pitch it.\nGo again",
+      "source": "https://cards.fabtcg.com/card/saltwater_swell/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "sawbones_dock_hand": {
+      "id": "sawbones_dock_hand",
+      "name_zh": "外科医生码头工",
+      "name_en": "Sawbones, Dock Hand",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——支付1点资源，横置此牌：攻击\n瞬间——横置此牌：本回合你或你控制的海盗下一次将受到伤害时，防止其中1点伤害。\n水葬",
+      "text_en": "Action - {r}, {t}: Attack\nInstant - {t}: The next time you or a Pirate you control would be dealt damage this turn, prevent 1 of that damage.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/sawbones_dock_hand/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "scooba_salty_sea_dog": {
+      "id": "scooba_salty_sea_dog",
+      "name_zh": "斯库巴·咸水老水手",
+      "name_en": "Scooba, Salty Sea Dog",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——支付3点资源，横置此牌：攻击\n当此牌攻击时，你可以将某个坟场中的一张黄色牌置于其拥有者的牌库底。若如此做，创造一个金币衍生物。\n水葬",
+      "text_en": "Action - {r}{r}{r}, {t}: Attack\nWhen this attacks, you may put a yellow card from a graveyard on the bottom of its owner's deck. If you do, create a Gold token.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/scooba_salty_sea_dog/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "scrub_the_deck": {
+      "id": "scrub_the_deck",
+      "name_zh": "刷洗甲板",
+      "name_en": "Scrub the Deck",
+      "type_zh": "海盗 行动",
+      "text_zh": "摧毁目标英雄牌库顶的一张牌。若其为黄色，创造一个金币衍生物。\n再动",
+      "text_en": "Destroy the top card of target hero's deck. If it's yellow, create a Gold token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/scrub_the_deck/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sea_floor_salvage": {
+      "id": "sea_floor_salvage",
+      "name_zh": "海底打捞",
+      "name_en": "Sea Floor Salvage",
+      "type_zh": "海盗 行动",
+      "text_zh": "将某个坟场中的一张牌翻为牌面朝下。若其为黄色，创造一个金币衍生物。\n再动",
+      "text_en": "Turn a card in a graveyard face-down. If it's yellow, create a Gold token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/sea_floor_salvage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "shelly_hardened_traveler": {
+      "id": "shelly_hardened_traveler",
+      "name_zh": "雪莉·历练旅者",
+      "name_en": "Shelly, Hardened Traveler",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——支付3点资源，横置此牌：攻击\n瞬间——横置此牌：本回合你用于防御的下一张攻击行动牌获得+1防御。\n水葬",
+      "text_en": "Action - {r}{r}{r}, {t}: Attack\nInstant - {t}: The next attack action card you defend with this turn gets +1{d}.\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/shelly_hardened_traveler/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "shifting_tides": {
+      "id": "shifting_tides",
+      "name_zh": "转变的潮汐",
+      "name_en": "Shifting Tides",
+      "type_zh": "海盗 行动·光环",
+      "text_zh": "再动\n在你的回合开始时，资源你牌库顶的一张牌。若其为蓝色，将此牌置于其拥有者的牌库底。否则，摧毁此牌。",
+      "text_en": "Go again\nAt the start of your turn, pitch the top card of your deck. If it's blue, put this on the bottom of its owner's deck, otherwise destroy this.",
+      "source": "https://cards.fabtcg.com/card/shifting_tides/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "submerge": {
+      "id": "submerge",
+      "name_zh": "潜入水下",
+      "name_en": "Submerge",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，将你手牌中的一张牌放入你的牌库的从上往下第五张的位置。",
+      "text_en": "As an additional cost to play this, put a card from your hand into your deck fifth from the top.",
+      "source": "https://cards.fabtcg.com/card/submerge/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "sunken_treasure": {
+      "id": "sunken_treasure",
+      "name_zh": "沉没宝藏",
+      "name_en": "Sunken Treasure",
+      "type_zh": "海盗 阻挡",
+      "text_zh": "当此牌防御时，你可以将某个坟场中的一张牌翻为牌面朝下。若其为黄色，创造一个金币衍生物。",
+      "text_en": "When this defends, you may turn a card in a graveyard face-down. If it's yellow, create a Gold token.",
+      "source": "https://cards.fabtcg.com/card/sunken_treasure/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "swabbie": {
+      "id": "swabbie",
+      "name_zh": "见习水手",
+      "name_en": "Swabbie",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——支付2点资源，横置此牌：攻击\n水葬",
+      "text_en": "Action - {r}{r}, {t}: Attack\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/swabbie/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "7",
+          "defense": null
+        }
+      }
+    },
+    "swiftwater_sloop": {
+      "id": "swiftwater_sloop",
+      "name_zh": "急流单桅帆船",
+      "name_en": "Swiftwater Sloop",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "涨潮——若你资源区中有2张或更多蓝色牌，此牌获得再动。",
+      "text_en": "High Tide - If there are 2 or more blue cards in your pitch zone, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/swiftwater_sloop/",
+      "status": "machine-draft",
+      "keywords": [
+        "High Tide"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "swindlers_grift": {
+      "id": "swindlers_grift",
+      "name_zh": "骗子行径",
+      "name_en": "Swindler's Grift",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以弃一张黄色牌。若如此做，抽一张牌并创造一个金币衍生物。",
+      "text_en": "When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.",
+      "source": "https://cards.fabtcg.com/card/swindlers_grift/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "tentacular_toll": {
+      "id": "tentacular_toll",
+      "name_zh": "触手过路费",
+      "name_en": "Tentacular Toll",
+      "type_zh": "海盗 Necromancer 行动",
+      "text_zh": "将你坟场中的至多3张盟友牌翻为牌面朝下，然后创造等量的金币衍生物。\n再动",
+      "text_en": "Turn up to 3 ally cards in your graveyard face-down, then create that many Gold tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tentacular_toll/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "thievn_varmints": {
+      "id": "thievn_varmints",
+      "name_zh": "偷窃害虫",
+      "name_en": "Thiev'n Varmints",
+      "type_zh": "海盗 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以从宝藏之岛上移除一个金币指示物。若如此做且你为盗贼，创造一个金币衍生物。",
+      "text_en": "When this attacks, you may remove a gold counter from Treasure Island. If you do and you are a Thief, create a Gold token.",
+      "source": "https://cards.fabtcg.com/card/thievn_varmints/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "throw_caution_to_the_wind": {
+      "id": "throw_caution_to_the_wind",
+      "name_zh": "不顾一切",
+      "name_en": "Throw Caution to the Wind",
+      "type_zh": "海盗 瞬间",
+      "text_zh": "展示你牌库顶的一张牌。本回合接下来你将受到伤害时，防止其中X点伤害，X为以此方式展示的牌的资源数值。",
+      "text_en": "Reveal the top card of your deck. The next time you would be dealt damage this turn, prevent X of that damage, where X is the pitch value of the card revealed this way.",
+      "source": "https://cards.fabtcg.com/card/throw_caution_to_the_wind/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "tip_the_barkeep": {
+      "id": "tip_the_barkeep",
+      "name_zh": "打赏酒保",
+      "name_en": "Tip the Barkeep",
+      "type_zh": "海盗 行动",
+      "text_zh": "创造一个金吻朗姆酒衍生物。\n你可以将你控制的一个金币衍生物给予另一位英雄。若如此做，将此牌置于其拥有者的牌库底。\n再动",
+      "text_en": "Create a Goldkiss Rum token.\nYou may give a Gold token you control to another hero. If you do, put this on the bottom of its owner's deck.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tip_the_barkeep/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "wailer_humperdinck": {
+      "id": "wailer_humperdinck",
+      "name_zh": "哀嚎者·洪珀丁克",
+      "name_en": "Wailer Humperdinck",
+      "type_zh": "海盗 Necromancer 行动·Ally",
+      "text_zh": "行动——支付6点资源，横置此牌：攻击\n水葬",
+      "text_en": "Action - {r}{r}{r} {r}{r}{r}, {t}: Attack\nWatery Grave",
+      "source": "https://cards.fabtcg.com/card/wailer_humperdinck/",
+      "status": "machine-draft",
+      "keywords": [
+        "Watery Grave"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "6",
+          "power": "11",
+          "defense": null
+        }
+      }
+    },
+    "yo_ho_ho": {
+      "id": "yo_ho_ho",
+      "name_zh": "哟嚯嚯",
+      "name_en": "Yo Ho Ho!",
+      "type_zh": "海盗 Necromancer 行动",
+      "text_zh": "你本回合的下一次海盗盟友攻击获得+1力量，以及“当此牌命中英雄时，创造一个金币衍生物。”\n再动",
+      "text_en": "Your next Pirate ally attack this turn gets +1{p} and \"When this hits a hero, create a Gold token.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/yo_ho_ho/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    }
+  }
+}

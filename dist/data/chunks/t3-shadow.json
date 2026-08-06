@@ -1,0 +1,986 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "beseech_the_demigon": {
+      "id": "beseech_the_demigon",
+      "name_zh": "恳求半神",
+      "name_en": "Beseech the Demigon",
+      "type_zh": "暗影 行动",
+      "text_zh": "选择你放逐区中的一张攻击行动牌。它直到回合结束获得+3力量。\n再动",
+      "text_en": "Choose an attack action card in your banished zone. It gets +3{p} until end of turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/beseech_the_demigon/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "blasmophet_levia_consumed": {
+      "id": "blasmophet_levia_consumed",
+      "name_zh": "布拉兹莫菲特·被吞噬的莱维娅",
+      "name_en": "Blasmophet, Levia Consumed",
+      "type_zh": "暗影 Demi·英雄·Demon",
+      "text_zh": "传奇莱维娅专精\n当此牌在你物品栏中时，当血债将你的生命减至13时，你可以转化为布拉兹莫菲特·被吞噬的莱维娅。\n每回合一次，你可以从你的放逐区使用一张具有血债的牌。每当一张牌被置入你的放逐区时，将其翻为牌面朝下。若你将因血债失去生命，改为放逐牌库顶的一张牌。",
+      "text_en": "Legendary Levia Specialization\nWhile this is in your inventory, when blood debt reduces your {h} to 13, you may transform into Blasmophet, Levia Consumed.\nOnce each turn, you may play a card with blood debt from your banished zone. Whenever a card is put into your banished zone, turn it face-down. If you would lose {h} from blood debt, instead banish the top card of the deck.",
+      "source": "https://cards.fabtcg.com/card/blasmophet_levia_consumed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transform"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "blasmophet_the_soul_harvester": {
+      "id": "blasmophet_the_soul_harvester",
+      "name_zh": "灵魂收割者·布拉兹莫菲特",
+      "name_en": "Blasmophet, the Soul Harvester",
+      "type_zh": "暗影 衍生物·Demon Ally",
+      "text_zh": "每回合一次行动——费用0：攻击\n每当布拉兹莫菲特攻击时，你可以放逐你手牌中的一张暗影牌。若如此做，你可以放逐防御英雄灵魂中的一张牌。",
+      "text_en": "Once per Turn Action - 0: Attack\nWhenever Blasmophet attacks, you may banish a Shadow card from your hand. If you do, you may banish a card from the defending hero's soul.",
+      "source": "https://cards.fabtcg.com/card/blasmophet_the_soul_harvester/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "blood_tribute": {
+      "id": "blood_tribute",
+      "name_zh": "血之贡品",
+      "name_en": "Blood Tribute",
+      "type_zh": "暗影 瞬间",
+      "text_zh": "占卜3，然后放逐你牌库顶的一张牌。",
+      "text_en": "Opt 3, then banish the top card of your deck.",
+      "source": "https://cards.fabtcg.com/card/blood_tribute/",
+      "status": "machine-draft",
+      "keywords": [
+        "Opt 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "chains_of_mephetis": {
+      "id": "chains_of_mephetis",
+      "name_zh": "梅菲提斯之链",
+      "name_en": "Chains of Mephetis",
+      "type_zh": "暗影 行动·光环",
+      "text_zh": "你可以从你的放逐区使用此牌。若如此做，它进入竞技场时带有一个末日指示物。\n在你的回合开始时，除非你从此牌上移除一个末日指示物，否则摧毁它。\n若一位英雄将在行动阶段期间抽牌，改为该英雄放逐其牌库顶的一张牌，且本回合可以使用它。\n血债",
+      "text_en": "You may play this from your banished zone. If you do, it enters the arena with a doom counter.\nAt the start of your turn, destroy this unless you remove a doom counter from it.\nIf a hero would draw a card during an action phase, instead they banish the top card of their deck and may play it this turn.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/chains_of_mephetis/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "consuming_aftermath": {
+      "id": "consuming_aftermath",
+      "name_zh": "吞噬余波",
+      "name_en": "Consuming Aftermath",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "作为使用吞噬余波的额外费用，你可以放逐你手牌中的一张牌。若以此方式放逐的是一张暗影牌，吞噬余波获得支配。",
+      "text_en": "As an additional cost to play Consuming Aftermath, you may banish a card from your hand. If a Shadow card is banished this way, Consuming Aftermath gains dominate.",
+      "source": "https://cards.fabtcg.com/card/consuming_aftermath/",
+      "status": "machine-draft",
+      "keywords": [
+        "Dominate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "dabble_in_darkness": {
+      "id": "dabble_in_darkness",
+      "name_zh": "涉足黑暗",
+      "name_en": "Dabble in Darkness",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "当此牌攻击时，放逐你牌库顶的一张牌。此牌获得-X力量，X为以此方式放逐的牌的资源数值。\n血债",
+      "text_en": "When this attacks, banish the top card of your deck. This gets -X{p}, where X is the pitch value of the card banished this way.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/dabble_in_darkness/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "depths_of_despair": {
+      "id": "depths_of_despair",
+      "name_zh": "绝望深处",
+      "name_en": "Depths of Despair",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "当此牌防御时，当战斗链关闭时放逐它。\n血债",
+      "text_en": "When this defends, banish it when the combat chain closes.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/depths_of_despair/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "dimenxxional_vortex": {
+      "id": "dimenxxional_vortex",
+      "name_zh": "维度漩涡",
+      "name_en": "Dimenxxional Vortex",
+      "type_zh": "暗影 行动",
+      "text_zh": "你可以从你的放逐区使用此牌。若如此做，它的使用费用减少2点资源。\n每位英雄放逐其军械库中的一张牌。\n血债",
+      "text_en": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.\nEach hero banishes a card from their arsenal.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/dimenxxional_vortex/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "doomsday": {
+      "id": "doomsday",
+      "name_zh": "末日",
+      "name_en": "Doomsday",
+      "type_zh": "暗影 瞬间",
+      "text_zh": "传奇莱维娅专精\n仅当你放逐区中有6张或更多具有血债的牌时才能使用末日。\n创造一个灵魂收割者·布拉兹莫菲特衍生物。",
+      "text_en": "Legendary Levia Specialization\nPlay Doomsday only if there are 6 or more cards with blood debt in your banished zone.\nCreate a Blasmophet, the Soul Harvester token.",
+      "source": "https://cards.fabtcg.com/card/doomsday/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "eclipse": {
+      "id": "eclipse",
+      "name_zh": "日蚀",
+      "name_en": "Eclipse",
+      "type_zh": "暗影 瞬间",
+      "text_zh": "传奇查恩专精\n仅当本回合你使用过6张或更多具有血债的牌时才能使用日蚀。若你使用过，你可以从你的放逐区使用日蚀。\n创造一个灵魂收割者·乌苏尔衍生物。",
+      "text_en": "Legendary Chane Specialization\nPlay Eclipse only if you have played 6 or more cards with blood debt this turn. If you have, you may play Eclipse from your banished zone.\nCreate an Ursur, the Soul Reaper token.",
+      "source": "https://cards.fabtcg.com/card/eclipse/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "eclipse_existence": {
+      "id": "eclipse_existence",
+      "name_zh": "蚀灭存在",
+      "name_en": "Eclipse Existence",
+      "type_zh": "暗影 瞬间",
+      "text_zh": "直到回合结束，每当攻击命中光英雄时，你可以放逐其灵魂中的一张牌。若该英雄如此做，其失去1点生命。\n若你的生命高于一位对手光英雄，你可以放逐你坟场中的一张行动牌。",
+      "text_en": "Until end of turn, whenever an attack hits a Light hero, you may banish a card from their soul. If they do, they lose 1{h}.\nIf you have more {h} than an opposing Light hero, you may banish an action card from your graveyard.",
+      "source": "https://cards.fabtcg.com/card/eclipse_existence/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "embalm": {
+      "id": "embalm",
+      "name_zh": "防腐处理",
+      "name_en": "Embalm",
+      "type_zh": "暗影 行动",
+      "text_zh": "你可以从你的放逐区使用此牌。若如此做，它获得再动。\n将你坟场中一张具有血债的攻击行动牌置于你的牌库底。\n血债",
+      "text_en": "You may play this from your banished zone. If you do, it gets go again.\nPut an attack action card with blood debt from your graveyard on the bottom of your deck.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/embalm/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Blood Debt"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "engulfing_shadows": {
+      "id": "engulfing_shadows",
+      "name_zh": "吞噬暗影",
+      "name_en": "Engulfing Shadows",
+      "type_zh": "暗影 防御反应",
+      "text_zh": "若此牌将从任何区域置入你的坟场，改为放逐它。\n血债",
+      "text_en": "If this would be put into your graveyard from anywhere, instead banish it.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/engulfing_shadows/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "fasting_carcass": {
+      "id": "fasting_carcass",
+      "name_zh": "禁食尸骸",
+      "name_en": "Fasting Carcass",
+      "type_zh": "暗影 行动",
+      "text_zh": "本回合你使用的下一张红色行动牌获得再动。\n再动\n血债",
+      "text_en": "The next red action card you play this turn gets go again.\nGo again\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/fasting_carcass/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "gate_to_i_arathael": {
+      "id": "gate_to_i_arathael",
+      "name_zh": "通往伊阿拉塞尔之门",
+      "name_en": "Gate to íArathael",
+      "type_zh": "暗影 衍生物·光环",
+      "text_zh": "瞬间——支付1点资源，摧毁此牌：本回合你可以从你的放逐区使用目标具有血债的行动牌。",
+      "text_en": "Instant - {r}, destroy this: You may play target action card with blood debt from your banished zone this turn.",
+      "source": "https://cards.fabtcg.com/card/gate_to_i_arathael/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "gate_to_iarathael": {
+      "id": "gate_to_iarathael",
+      "name_zh": "通往伊阿拉塞尔之门",
+      "name_en": "Gate to íArathael",
+      "type_zh": "",
+      "text_zh": "瞬间——支付1点资源，摧毁此牌：本回合你可以从你的放逐区使用目标具有血债的行动牌。",
+      "text_en": "Instant - {r}, destroy this: You may play target action card with blood debt from your banished zone this turn.",
+      "source": "https://cards.fabtcg.com/card/gate_to_iarathael/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "ghostly_visit": {
+      "id": "ghostly_visit",
+      "name_zh": "幽灵造访",
+      "name_en": "Ghostly Visit",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "你可以从你的放逐区使用幽灵造访。\n血债",
+      "text_en": "You may play Ghostly Visit from your banished zone.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/ghostly_visit/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "grim_feast": {
+      "id": "grim_feast",
+      "name_zh": "阴森盛宴",
+      "name_en": "Grim Feast",
+      "type_zh": "暗影 行动",
+      "text_zh": "你可以从你的放逐区使用此牌。若如此做，它的使用费用减少2点资源。\n获得3点生命。\n血债",
+      "text_en": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.\nGain 3{h}\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/grim_feast/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "guardian_of_the_shadowrealm": {
+      "id": "guardian_of_the_shadowrealm",
+      "name_zh": "暗影界守护者",
+      "name_en": "Guardian of the Shadowrealm",
+      "type_zh": "暗影 防御反应",
+      "text_zh": "行动——支付2点资源：将你放逐区中的暗影界守护者移回你的手牌。仅当暗影界守护者在你放逐区中时才能启动此异能。\n血债",
+      "text_en": "Action - {r}{r}: Return Guardian of the Shadowrealm from your banished zone into your hand. Activate this ability only while Guardian of the Shadowrealm is in your banished zone.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/guardian_of_the_shadowrealm/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "6"
+        }
+      }
+    },
+    "howl_from_beyond": {
+      "id": "howl_from_beyond",
+      "name_zh": "来自彼方的嚎叫",
+      "name_en": "Howl from Beyond",
+      "type_zh": "暗影 行动",
+      "text_zh": "你可以从你的放逐区使用来自彼方的嚎叫。\n本回合你使用的下一张攻击行动牌获得+3力量。\n再动\n血债",
+      "text_en": "You may play Howl from Beyond from your banished zone.\nThe next attack action card you play this turn gains +3{p}.\nGo again\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/howl_from_beyond/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "hungering_demigon": {
+      "id": "hungering_demigon",
+      "name_zh": "饥饿半神",
+      "name_en": "Hungering Demigon",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "若一位对手英雄的灵魂中有1张或更多牌，你可以从你的放逐区使用此牌。\n当此牌命中英雄时，放逐其灵魂中的一张牌。\n血债",
+      "text_en": "If an opposing hero has 1 or more cards in their soul, you may play this from your banished zone.\nWhen this hits a hero, banish a card from their soul.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/hungering_demigon/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "levia_redeemed": {
+      "id": "levia_redeemed",
+      "name_zh": "被救赎的莱维娅",
+      "name_en": "Levia, Redeemed",
+      "type_zh": "暗影 Demi·英雄",
+      "text_zh": "传奇莱维娅专精\n行动——将你放逐区中的所有牌翻为牌面朝下：转化为被救赎的莱维娅。仅当此牌在你物品栏中且你放逐区中有13张或更多具有血债的牌时才能启动此异能。\n你拥有的牌失去血债。",
+      "text_en": "Legendary Levia Specialization\nAction - Turn all cards in your banished zone face-down: Transform into Levia, Redeemed. Activate this ability only while this is in your inventory and you have 13 or more cards with blood debt in your banished zone.\nCards you own lose blood debt.",
+      "source": "https://cards.fabtcg.com/card/levia_redeemed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "lunartide_plunderer": {
+      "id": "lunartide_plunderer",
+      "name_zh": "月潮掠夺者",
+      "name_en": "Lunartide Plunderer",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "若月潮掠夺者命中英雄，放逐它和该英雄灵魂中的一张牌。",
+      "text_en": "If Lunartide Plunderer hits a hero, banish it and a card from their soul.",
+      "source": "https://cards.fabtcg.com/card/lunartide_plunderer/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "mutated_mass": {
+      "id": "mutated_mass",
+      "name_zh": "突变团块",
+      "name_en": "Mutated Mass",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "你可以从你的放逐区使用突变团块。\n突变团块的力量和防御等于你资源区中具有不同费用的牌数量的两倍。\n血债",
+      "text_en": "You may play Mutated Mass from your banished zone.\nMutated Mass's {p} and {d} is equal to twice the number of cards in your pitch zone with different costs.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/mutated_mass/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "*",
+          "defense": "*"
+        }
+      }
+    },
+    "nasreth_the_soul_harrower": {
+      "id": "nasreth_the_soul_harrower",
+      "name_zh": "灵魂折磨者·纳塞斯",
+      "name_en": "Nasreth, the Soul Harrower",
+      "type_zh": "暗影 衍生物·Demon Ally",
+      "text_zh": "每回合一次行动——费用0：攻击\n当纳塞斯命中英雄时，放逐其灵魂中的一张牌。若以此方式放逐的是一张光牌，获得1点生命。",
+      "text_en": "Once per Turn Action - 0: Attack\nWhen Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{h}.",
+      "source": "https://cards.fabtcg.com/card/nasreth_the_soul_harrower/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "shadow_puppetry": {
+      "id": "shadow_puppetry",
+      "name_zh": "影傀儡术",
+      "name_en": "Shadow Puppetry",
+      "type_zh": "暗影 行动",
+      "text_zh": "本回合你使用的下一张攻击行动牌获得+1力量、再动，以及“若此攻击命中，查看你牌库顶的一张牌。你可以放逐它。”\n再动",
+      "text_en": "The next attack action card you play this turn gains +1 {p}, go again and \"If this attack hits, look at the top card of your deck. You may banish it.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/shadow_puppetry/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "slay": {
+      "id": "slay",
+      "name_zh": "诛杀",
+      "name_en": "Slay",
+      "type_zh": "暗影 瞬间",
+      "text_zh": "摧毁目标天使盟友。",
+      "text_en": "Destroy target angel ally.",
+      "source": "https://cards.fabtcg.com/card/slay/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "soul_butcher": {
+      "id": "soul_butcher",
+      "name_zh": "灵魂屠夫",
+      "name_en": "Soul Butcher",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "若防御英雄的灵魂中有1张或更多牌，此牌获得+2力量。\n血债",
+      "text_en": "If the defending hero has 1 or more cards in their soul, this gets +2{p}.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/soul_butcher/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "soul_cleaver": {
+      "id": "soul_cleaver",
+      "name_zh": "灵魂砍刀",
+      "name_en": "Soul Cleaver",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "若防御英雄的灵魂中有1张或更多牌，此牌获得再动。\n血债",
+      "text_en": "If the defending hero has 1 or more cards in their soul, this gets go again.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/soul_cleaver/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "soul_harvest": {
+      "id": "soul_harvest",
+      "name_zh": "灵魂收割",
+      "name_en": "Soul Harvest",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "传奇莱维娅专精\n作为使用灵魂收割的额外费用，放逐你坟场中的6张牌。每有一张以此方式放逐的具有血债的牌，它获得+1力量。\n若灵魂收割命中英雄，该英雄放逐其灵魂中的所有牌，并失去与此方式放逐的牌数量相等的生命。",
+      "text_en": "Legendary Levia Specialization\nAs an additional cost to play Soul Harvest, banish 6 cards from your graveyard. It gains +1{p} for each card with blood debt banished this way.\nIf Soul Harvest hits a hero, they banish all cards in their soul and lose {h} equal to the number of cards banished this way.",
+      "source": "https://cards.fabtcg.com/card/soul_harvest/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "6",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "soul_reaping": {
+      "id": "soul_reaping",
+      "name_zh": "灵魂收割",
+      "name_en": "Soul Reaping",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "传奇查恩专精\n你可以放逐你手牌中的1张或更多牌，而非支付灵魂收割的费用。若如此做，每有一张以此方式放逐的具有血债的牌，获得1点资源。\n当灵魂收割攻击灵魂中有1张或更多牌的英雄时，它具有再动。",
+      "text_en": "Legendary Chane Specialization\nYou may banish 1 or more cards from your hand rather than pay Soul Reaping's {r} cost. If you do, gain {r} for each card with blood debt banished this way.\nWhile Soul Reaping is attacking a hero with 1 or more cards in their soul, it has go again.",
+      "source": "https://cards.fabtcg.com/card/soul_reaping/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "spew_shadow": {
+      "id": "spew_shadow",
+      "name_zh": "喷吐暗影",
+      "name_en": "Spew Shadow",
+      "type_zh": "暗影 行动",
+      "text_zh": "选择你放逐区中一张费用为2或更低的攻击行动牌。本回合你可以使用它。若它攻击光英雄，它获得+2力量。\n再动",
+      "text_en": "Choose an attack action card with cost 2 or less in your banished zone. You may play it this turn. If it attacks a Light hero, it gains +2{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/spew_shadow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "tear_through_the_portal": {
+      "id": "tear_through_the_portal",
+      "name_zh": "撕裂门户",
+      "name_en": "Tear Through the Portal",
+      "type_zh": "暗影 行动",
+      "text_zh": "选择你放逐区中的一张红色行动牌。它直到回合结束获得再动。\n再动",
+      "text_en": "Choose a red action card in your banished zone. It gets go again until end of turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tear_through_the_portal/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "tome_of_torment": {
+      "id": "tome_of_torment",
+      "name_zh": "折磨之书",
+      "name_en": "Tome of Torment",
+      "type_zh": "暗影 行动",
+      "text_zh": "你可以从你的放逐区使用折磨之书。\n抽一张牌。\n血债",
+      "text_en": "You may play Tome of Torment from your banished zone.\nDraw a card.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/tome_of_torment/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "ursur_the_soul_reaper": {
+      "id": "ursur_the_soul_reaper",
+      "name_zh": "灵魂收割者·乌苏尔",
+      "name_en": "Ursur, the Soul Reaper",
+      "type_zh": "暗影 衍生物·Demon Ally",
+      "text_zh": "每回合一次行动——费用0：攻击\n当乌苏尔攻击灵魂中有1张或更多牌的英雄时，该攻击具有再动。",
+      "text_en": "Once per Turn Action - 0: Attack\nWhile Ursur is attacking a hero with 1 or more cards in their soul, the attack has go again.",
+      "source": "https://cards.fabtcg.com/card/ursur_the_soul_reaper/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "vile_inquisition": {
+      "id": "vile_inquisition",
+      "name_zh": "卑劣审讯",
+      "name_en": "Vile Inquisition",
+      "type_zh": "暗影 行动",
+      "text_zh": "你可以从你的放逐区使用此牌。若如此做，它的使用费用减少2点资源。\n目标英雄放逐其牌库顶的一张牌。若其为红色，该英雄失去1点生命。\n血债",
+      "text_en": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.\nTarget hero banishes the top card of their deck. If it's red, they lose 1{h}.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/vile_inquisition/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "void_wraith": {
+      "id": "void_wraith",
+      "name_zh": "虚空幽灵",
+      "name_en": "Void Wraith",
+      "type_zh": "暗影 行动·攻击",
+      "text_zh": "你可以从你的放逐区使用虚空幽灵。\n血债",
+      "text_en": "You may play Void Wraith from your banished zone.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/void_wraith/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    }
+  }
+}

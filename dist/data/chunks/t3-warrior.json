@@ -1,0 +1,5987 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "a_bit_off_the_side": {
+      "id": "a_bit_off_the_side",
+      "name_zh": "偏门一击",
+      "name_en": "A Bit off the Side",
+      "type_zh": "守护者·战士 行动",
+      "text_zh": "直到回合结束，你控制的斧获得“当此牌命中英雄时，该英雄弃一张牌。”\n再动",
+      "text_en": "Until end of turn, axes you control get \"When this hits a hero, they discard a card.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/a_bit_off_the_side/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "a_moments_peace": {
+      "id": "a_moments_peace",
+      "name_zh": "片刻宁静",
+      "name_en": "A Moment's Peace",
+      "type_zh": "战士 阻挡",
+      "text_zh": "当此牌防御剑攻击时，本回合该剑不能再次攻击你。",
+      "text_en": "When this defends a sword attack, you can't be attacked by the sword again this turn.",
+      "source": "https://cards.fabtcg.com/card/a_moments_peace/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "affirm_loyalty": {
+      "id": "affirm_loyalty",
+      "name_zh": "宣誓效忠",
+      "name_en": "Affirm Loyalty",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+2力量。若你控制两个或更多龙裔链环，创造一个效忠衍生物。",
+      "text_en": "Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, create a Fealty token.",
+      "source": "https://cards.fabtcg.com/card/affirm_loyalty/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "agile_engagement": {
+      "id": "agile_engagement",
+      "name_zh": "敏捷交锋",
+      "name_en": "Agile Engagement",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标战士攻击获得+3力量。若其被攻击行动牌防御，创造一个敏捷衍生物。",
+      "text_en": "Target Warrior attack gets +3{p}. If it's defended by an attack action card, create an Agility token.",
+      "source": "https://cards.fabtcg.com/card/agile_engagement/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "agile_windup": {
+      "id": "agile_windup",
+      "name_zh": "敏捷蓄势",
+      "name_en": "Agile Windup",
+      "type_zh": "蛮将·战士 行动·攻击",
+      "text_zh": "瞬间——弃掉此牌：创造一个敏捷衍生物。",
+      "text_en": "Instant - Discard this: Create an Agility token.",
+      "source": "https://cards.fabtcg.com/card/agile_windup/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "agility_stance": {
+      "id": "agility_stance",
+      "name_zh": "敏捷架势",
+      "name_en": "Agility Stance",
+      "type_zh": "战士 行动·光环",
+      "text_zh": "再动\n在你的回合开始时，摧毁此牌，然后本回合你的匕首攻击获得再动。",
+      "text_en": "Go again\nAt the start of your turn, destroy this, then your dagger attacks get go again this turn.",
+      "source": "https://cards.fabtcg.com/card/agility_stance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "all_in": {
+      "id": "all_in",
+      "name_zh": "孤注一掷",
+      "name_en": "All In",
+      "type_zh": "战士 行动",
+      "text_zh": "本回合你控制的一把剑下一次攻击时，摧毁你控制的所有金币。每有一个以此方式摧毁的金币，该攻击获得+2力量。当链环结算时，若攻击没有命中，你输掉游戏。\n再动",
+      "text_en": "The next time a sword you control attacks this turn, destroy all Gold you control. The attack gets +2{p} for each Gold destroyed this way. When the chain link resolves, if the attack didn't hit, you lose the game.\nGo again",
+      "source": "https://cards.fabtcg.com/card/all_in/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "and_again": {
+      "id": "and_again",
+      "name_zh": "再来一次",
+      "name_en": "And Again...",
+      "type_zh": "战士 行动",
+      "text_zh": "用目标已磨砺过且本回合你已用它攻击过的剑攻击。",
+      "text_en": "Attack with target sword that has been sharpened and you've attacked with this turn.",
+      "source": "https://cards.fabtcg.com/card/and_again/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "back_for_seconds": {
+      "id": "back_for_seconds",
+      "name_zh": "回头再来",
+      "name_en": "Back for Seconds",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得+2力量。若这是你本回合的第二次攻击，改为其获得+3力量。",
+      "text_en": "Target sword attack gets +2{p}. If it's your second attack this turn, instead it gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/back_for_seconds/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "backside_of_the_blade": {
+      "id": "backside_of_the_blade",
+      "name_zh": "刀背",
+      "name_en": "Backside of the Blade",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+1力量。若其具有再动，本回合你可以用该武器额外攻击一次。",
+      "text_en": "Target weapon attack gets +1{p}. If it has go again, you may attack an additional time with the weapon this turn.",
+      "source": "https://cards.fabtcg.com/card/backside_of_the_blade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "banneret_of_courage": {
+      "id": "banneret_of_courage",
+      "name_zh": "勇气小旗手",
+      "name_en": "Banneret of Courage",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，创造一个勇气衍生物。",
+      "text_en": "Solflare - When this is charged to your hero's soul, create a Courage token.",
+      "source": "https://cards.fabtcg.com/card/banneret_of_courage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Solflare"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "banneret_of_gallantry": {
+      "id": "banneret_of_gallantry",
+      "name_zh": "豪勇小旗手",
+      "name_en": "Banneret of Gallantry",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，创造一个加速衍生物。",
+      "text_en": "Solflare - When this is charged to your hero's soul, create a Quicken token.",
+      "source": "https://cards.fabtcg.com/card/banneret_of_gallantry/",
+      "status": "machine-draft",
+      "keywords": [
+        "Solflare"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "banneret_of_protection": {
+      "id": "banneret_of_protection",
+      "name_zh": "守护小旗手",
+      "name_en": "Banneret of Protection",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，创造一个法殁神盾衍生物。",
+      "text_en": "Solflare - When this is charged to your hero's soul, create a Spellbane Aegis token.",
+      "source": "https://cards.fabtcg.com/card/banneret_of_protection/",
+      "status": "machine-draft",
+      "keywords": [
+        "Solflare"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "banneret_of_resilience": {
+      "id": "banneret_of_resilience",
+      "name_zh": "坚韧小旗手",
+      "name_en": "Banneret of Resilience",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，本回合你用于防御的下一张行动牌获得+1防御。",
+      "text_en": "Solflare - When this is charged to your hero's soul, the next action card you defend with this turn gets +1{d}.",
+      "source": "https://cards.fabtcg.com/card/banneret_of_resilience/",
+      "status": "machine-draft",
+      "keywords": [
+        "Solflare"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "banneret_of_salvation": {
+      "id": "banneret_of_salvation",
+      "name_zh": "救赎小旗手",
+      "name_en": "Banneret of Salvation",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，本回合你下一次命中时，获得1点生命。",
+      "text_en": "Solflare - When this is charged to your hero's soul, the next time you hit this turn, gain 1{h}.",
+      "source": "https://cards.fabtcg.com/card/banneret_of_salvation/",
+      "status": "machine-draft",
+      "keywords": [
+        "Solflare"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "banneret_of_vigor": {
+      "id": "banneret_of_vigor",
+      "name_zh": "活力小旗手",
+      "name_en": "Banneret of Vigor",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，本回合你下一次命中时，获得1点资源。",
+      "text_en": "Solflare - When this is charged to your hero's soul, the next time you hit this turn, gain {r}.",
+      "source": "https://cards.fabtcg.com/card/banneret_of_vigor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Solflare"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "battlefield_beacon": {
+      "id": "battlefield_beacon",
+      "name_zh": "战场信标",
+      "name_en": "Battlefield Beacon",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "当此牌攻击时，为本战斗链中你从灵魂放逐的每张牌选择其一。你可以重复选择同一模式至多3次；\n- 创造一个勇气衍生物。\n- 创造一个坚韧衍生物。\n- 创造一个活力衍生物。",
+      "text_en": "When this attacks, choose 1 for each card you've banished from your soul this combat chain. You may choose the same mode up to 3 times;\n- Create a Courage token.\n- Create a Toughness token.\n- Create a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/battlefield_beacon/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "battlefield_blitz": {
+      "id": "battlefield_blitz",
+      "name_zh": "战场突袭",
+      "name_en": "Battlefield Blitz",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "若本回合你充能过，战场突袭获得再动。",
+      "text_en": "If you've charged this turn, Battlefield Blitz gains go again.",
+      "source": "https://cards.fabtcg.com/card/battlefield_blitz/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "beacon_of_victory": {
+      "id": "beacon_of_victory",
+      "name_zh": "胜利信标",
+      "name_en": "Beacon of Victory",
+      "type_zh": "光 战士 攻击反应",
+      "text_zh": "作为使用胜利信标的额外费用，从你的英雄的灵魂中放逐X张牌。X不能为0。\n目标攻击获得+X力量。\n若本回合你充能过，从你的牌库中搜寻一张费用为X或更低的行动牌，展示它，将其置入你的手牌，然后洗牌。",
+      "text_en": "As an additional cost to play Beacon of Victory, banish X cards from your hero's soul. X can't be 0.\nTarget attack gains +X{p}.\nIf you've charged this turn, search your deck for an action card with cost X or less, reveal it, put it into your hand, then shuffle your deck.",
+      "source": "https://cards.fabtcg.com/card/beacon_of_victory/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "beaming_blade": {
+      "id": "beaming_blade",
+      "name_zh": "耀光之剑",
+      "name_en": "Beaming Blade",
+      "type_zh": "光 战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n若本回合有黄色牌被置入你的英雄的灵魂，此牌获得+5力量。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nIf a yellow card has been put into your hero's soul this turn, this gets +5{p}.",
+      "source": "https://cards.fabtcg.com/card/beaming_blade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "0",
+          "defense": null
+        }
+      }
+    },
+    "beaming_bravado": {
+      "id": "beaming_bravado",
+      "name_zh": "耀光豪气",
+      "name_en": "Beaming Bravado",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，你可以为你的英雄的灵魂充能。\n若以此方式充能的是黄色牌，此牌获得+1力量。",
+      "text_en": "As an additional cost to play this, you may charge your hero's soul.\nIf a yellow card is charged this way, this gets +1{p}",
+      "source": "https://cards.fabtcg.com/card/beaming_bravado/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "beat_of_the_ironsong": {
+      "id": "beat_of_the_ironsong",
+      "name_zh": "铁歌节拍",
+      "name_en": "Beat of the Ironsong",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "选择X+1个模式，X为攻击中的黎明之刃上的+1力量指示物数量；\n- 目标黎明之刃攻击获得+1力量。\n- 目标黎明之刃攻击获得再动。\n- 防御目标黎明之刃攻击的牌不能获得防御。\n- 目标黎明之刃攻击将造成的伤害不能被防止。",
+      "text_en": "Choose X+1, where X is the number of +1{p} counters on an attacking Dawnblade;\n- Target Dawnblade attack gets +1{p}.\n- Target Dawnblade attack gets go again.\n- Cards defending target Dawnblade attack can't gain {d}.\n- Damage target Dawnblade attack would deal can't be prevented.",
+      "source": "https://cards.fabtcg.com/card/beat_of_the_ironsong/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "beckon_steel": {
+      "id": "beckon_steel",
+      "name_zh": "召唤钢铁",
+      "name_en": "Beckon Steel",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得“当此牌命中时，磨砺此剑。然后若此剑上有3个或更多+1力量指示物，用它攻击。”",
+      "text_en": "Target sword attack gets \"When this hits, sharpen this sword. Then if the sword has 3 or more +1{p} counters, attack with it.\"",
+      "source": "https://cards.fabtcg.com/card/beckon_steel/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "beckoning_light": {
+      "id": "beckoning_light",
+      "name_zh": "召唤光明",
+      "name_en": "Beckoning Light",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，你可以为你的英雄的灵魂充能。\n若以此方式充能的是黄色牌，本战斗链中每当攻击行动牌命中时，你可以将你坟场中的一张攻击行动牌置于你的牌库顶。",
+      "text_en": "As an additional cost to play this, you may charge your hero's soul.\nIf a yellow card is charged this way, whenever an attack action card hits this combat chain, you may put an attack action card from your graveyard on top of your deck.",
+      "source": "https://cards.fabtcg.com/card/beckoning_light/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "belly_buster": {
+      "id": "belly_buster",
+      "name_zh": "腹击",
+      "name_en": "Belly Buster",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次战士攻击获得+3力量，以及“当此牌攻击英雄时，你可以与该英雄下注。胜者创造一个勇气衍生物。”\n再动",
+      "text_en": "Your next Warrior attack this turn gets +3{p} and \"When this attacks a hero, you may wager with them. The winner creates a Courage token.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/belly_buster/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "below_the_belt": {
+      "id": "below_the_belt",
+      "name_zh": "下三路",
+      "name_en": "Below the Belt",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+4力量，以及“当此牌命中战士英雄时，摧毁其军械库中的一张牌。”\n再动",
+      "text_en": "Your next sword attack this turn gets +4{p} and \"When this hits a Warrior hero, destroy a card in their arsenal.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/below_the_belt/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "big_blinder": {
+      "id": "big_blinder",
+      "name_zh": "巨盲击",
+      "name_en": "Big Blinder",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得+4力量，并与防御英雄下注。胜者创造一个连击衍生物。",
+      "text_en": "Target sword attack gets +4{p} and wagers with the defending hero. The winner creates a Flurry token.",
+      "source": "https://cards.fabtcg.com/card/big_blinder/",
+      "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "big_slick": {
+      "id": "big_slick",
+      "name_zh": "王牌",
+      "name_en": "Big Slick",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+5力量，以及“当此牌攻击时，与防御英雄下注。胜者抽一张牌。”\n再动",
+      "text_en": "Your next sword attack this turn gets +5{p} and \"When this attacks, wager with the defending hero. The winner draws a card.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/big_slick/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "biting_blade": {
+      "id": "biting_blade",
+      "name_zh": "咬刃",
+      "name_en": "Biting Blade",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量。\n重演——若防御英雄在此链环中用手牌中的牌防御过，你控制的武器直到回合结束获得+1力量。",
+      "text_en": "Target weapon attack gains +3{p}.\nReprise - If the defending hero has defended with a card from their hand this chain link, weapons you control gain +1{p} until end of turn",
+      "source": "https://cards.fabtcg.com/card/biting_blade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blade_dance": {
+      "id": "blade_dance",
+      "name_zh": "剑舞",
+      "name_en": "Blade Dance",
+      "type_zh": "战士 衍生物·光环",
+      "text_zh": "当你启动武器攻击时，摧毁此牌，该攻击获得再动。",
+      "text_en": "When you activate a weapon attack, destroy this and the attack gets go again.",
+      "source": "https://cards.fabtcg.com/card/blade_dance/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "blade_flurry": {
+      "id": "blade_flurry",
+      "name_zh": "剑雨",
+      "name_en": "Blade Flurry",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+2力量。\n你本回合的下一次武器攻击获得+2力量。",
+      "text_en": "Target weapon attack gets +2{p}.\nYour next weapon attack this turn gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/blade_flurry/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blade_runner": {
+      "id": "blade_runner",
+      "name_zh": "剑刃奔跑者",
+      "name_en": "Blade Runner",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标单手武器攻击获得再动。\n你本回合的下一次武器攻击获得+3力量。",
+      "text_en": "Target 1H weapon attack gains go again.\nYour next weapon attack this turn gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/blade_runner/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blade_rush": {
+      "id": "blade_rush",
+      "name_zh": "剑刃冲刺",
+      "name_en": "Blade Rush",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的第一次剑攻击获得再动。\n你本回合的第二次剑攻击获得+1力量。\n再动",
+      "text_en": "Your first sword attack this turn gets go again.\nYour second sword attack this turn gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/blade_rush/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "blessing_of_steel": {
+      "id": "blessing_of_steel",
+      "name_zh": "钢铁祝福",
+      "name_en": "Blessing of Steel",
+      "type_zh": "战士 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁钢铁祝福，然后你本回合的下一次武器攻击获得+3力量。",
+      "text_en": "At the start of your turn, destroy Blessing of Steel then your next weapon attack this turn gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/blessing_of_steel/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blistering_blade": {
+      "id": "blistering_blade",
+      "name_zh": "炙灼之刃",
+      "name_en": "Blistering Blade",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+2力量。若你控制两个或更多龙裔链环，改为其获得+3力量。",
+      "text_en": "Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, instead it gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/blistering_blade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "blood_follows_blade": {
+      "id": "blood_follows_blade",
+      "name_zh": "血随剑行",
+      "name_en": "Blood Follows Blade",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "卡赛专精\n目标剑攻击获得再动，以及“当此牌命中时，创造一个辛塔里雇佣兵衍生物。”",
+      "text_en": "Kassai Specialization\nTarget sword attack gets go again and \"When this hits, create a Cintari Sellsword token.\"",
+      "source": "https://cards.fabtcg.com/card/blood_follows_blade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blood_on_her_hands": {
+      "id": "blood_on_her_hands",
+      "name_zh": "她手上的血",
+      "name_en": "Blood on Her Hands",
+      "type_zh": "战士 行动",
+      "text_zh": "卡赛专精\n作为使用她手上的血的额外费用，摧毁你控制的任意数量的铜币。选择等量的模式。每个模式你可以选择两次；\n目标单手武器的攻击本回合获得+1力量。\n目标单手武器的攻击本回合获得再动。\n目标单手武器本回合可以攻击两次。\n再动",
+      "text_en": "Kassai Specialization\nAs an additional cost to play Blood on Her Hands, destroy any number of Copper you control. Choose that many modes. You may choose each mode twice;\n\nTarget 1H weapon's attacks get +1{p} this turn.\nTarget 1H weapon's attacks get go again this turn.\nTarget 1H weapon may attack twice this turn.\n\nGo again",
+      "source": "https://cards.fabtcg.com/card/blood_on_her_hands/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "bluff_catcher": {
+      "id": "bluff_catcher",
+      "name_zh": "诈唬识破者",
+      "name_en": "Bluff Catcher",
+      "type_zh": "战士 行动",
+      "text_zh": "你可以摧毁你控制的一个金币，而非支付此牌的费用。\n你本回合的下一次剑攻击获得+3力量，以及“当此牌攻击时，与防御英雄下注。胜者在其下一个结束阶段期间获得+1智力。”\n再动",
+      "text_en": "You may destroy a Gold you control rather than pay this card's {r} cost.\nYour next sword attack this turn gets +3{p} and \"When this attacks, wager with the defending hero. The winner gets +1{i} during their next end phase.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/bluff_catcher/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blunten": {
+      "id": "blunten",
+      "name_zh": "钝化",
+      "name_en": "Blunten",
+      "type_zh": "战士 阻挡",
+      "text_zh": "当此牌防御武器攻击时，攻击英雄弃一张牌。",
+      "text_en": "When this defends a weapon attack, the attacking hero discards a card.",
+      "source": "https://cards.fabtcg.com/card/blunten/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "bolt_of_courage": {
+      "id": "bolt_of_courage",
+      "name_zh": "勇气之雷",
+      "name_en": "Bolt of Courage",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用勇气之雷的额外费用，你可以为你的英雄的灵魂充能。\n若本回合你充能过，勇气之雷获得“若此牌命中，抽一张牌。”",
+      "text_en": "As an additional cost to play Bolt of Courage, you may charge your hero's soul.\nIf you've charged this turn, Bolt of Courage gains \"If this hits, draw a card.\"",
+      "source": "https://cards.fabtcg.com/card/bolt_of_courage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "bolting_blade": {
+      "id": "bolting_blade",
+      "name_zh": "疾驰之刃",
+      "name_en": "Bolting Blade",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "你本回合每充能一次，疾驰之刃的使用费用减少2点资源。",
+      "text_en": "Bolting Blade costs {r}{r} less to play for each time you've charged this turn.",
+      "source": "https://cards.fabtcg.com/card/bolting_blade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "brimming_blade": {
+      "id": "brimming_blade",
+      "name_zh": "满盈之刃",
+      "name_en": "Brimming Blade",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑两次。\n再动",
+      "text_en": "Sharpen target sword you control twice.\nGo again",
+      "source": "https://cards.fabtcg.com/card/brimming_blade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "brothers_of_flame": {
+      "id": "brothers_of_flame",
+      "name_zh": "火焰兄弟",
+      "name_en": "Brothers of Flame",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "仅当你控制两个或更多龙裔链环时才能使用此牌。\n目标匕首攻击获得+4力量。",
+      "text_en": "Play this only if you control 2 or more Draconic chain links.\nTarget dagger attack gets +4{p}.",
+      "source": "https://cards.fabtcg.com/card/brothers_of_flame/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "carve_up": {
+      "id": "carve_up",
+      "name_zh": "切碎",
+      "name_en": "Carve Up",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得“当此牌命中英雄时，你可以从此武器上移除一个+1力量指示物。若如此做，摧毁其军械库中的一张牌。”",
+      "text_en": "Target weapon attack gets \"When this hits a hero, you may remove a +1{p} counter from this weapon. If you do, destroy a card in their arsenal.\"",
+      "source": "https://cards.fabtcg.com/card/carve_up/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "charge_of_the_light_brigade": {
+      "id": "charge_of_the_light_brigade",
+      "name_zh": "轻骑兵冲锋",
+      "name_en": "Charge of the Light Brigade",
+      "type_zh": "光 战士 行动",
+      "text_zh": "本回合你充能以使用的下一次攻击获得+3力量。\n再动",
+      "text_en": "The next attack you charge to play this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/charge_of_the_light_brigade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "check_raise": {
+      "id": "check_raise",
+      "name_zh": "加注",
+      "name_en": "Check-Raise",
+      "type_zh": "战士 行动",
+      "text_zh": "本回合你控制的攻击下一次下注时，它获得+4力量。\n再动",
+      "text_en": "The next time an attack you control wagers this turn, it gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/check_raise/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "chorus_of_ironsong": {
+      "id": "chorus_of_ironsong",
+      "name_zh": "铁歌合唱",
+      "name_en": "Chorus of Ironsong",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "多琳茜娅专精\n直到回合结束，目标黎明之刃获得+1力量，以及“此牌将造成的伤害不能被防止。”\n团结——当此牌与一张来自手牌的牌一起防御时，在任意数量英雄的控制下创造一个勇气衍生物。",
+      "text_en": "Dorinthea Specialization\nUntil end of turn, target Dawnblade gets +1{p} and \"Damage this would deal can't be prevented.\"\nUnity - When this defends together with a card from hand, create a Courage token under any number of heroes' control.",
+      "source": "https://cards.fabtcg.com/card/chorus_of_ironsong/",
+      "status": "machine-draft",
+      "keywords": [
+        "Unity"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "cintari_saber": {
+      "id": "cintari_saber",
+      "name_zh": "辛塔里军刀",
+      "name_en": "Cintari Saber",
+      "type_zh": "战士 武器·剑 （单手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n每当辛塔里军刀被1张或更多攻击行动牌防御时，它直到回合结束获得+1力量。",
+      "text_en": "Once per Turn Action - {r}: Attack\nWhenever Cintari Saber is defended by 1 or more attack action cards, it gains +1{p} until end of turn.",
+      "source": "https://cards.fabtcg.com/card/cintari_saber/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "cintari_sellsword": {
+      "id": "cintari_sellsword",
+      "name_zh": "辛塔里雇佣兵",
+      "name_en": "Cintari Sellsword",
+      "type_zh": "战士 衍生物·Mercenary Ally",
+      "text_zh": "每回合一次行动——支付1点资源：攻击。再动\n仅当本回合你用武器攻击过时，辛塔里雇佣兵才能攻击。",
+      "text_en": "Once per Turn Action - {r}: Attack. Go again\nCintari Sellsword can only attack if you've attacked with a weapon this turn.",
+      "source": "https://cards.fabtcg.com/card/cintari_sellsword/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "clash_of_agility": {
+      "id": "clash_of_agility",
+      "name_zh": "敏捷交锋",
+      "name_en": "Clash of Agility",
+      "type_zh": "蛮将·战士 行动·攻击",
+      "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个敏捷衍生物。",
+      "text_en": "When this defends, clash with the attacking hero. The winner creates an Agility token.",
+      "source": "https://cards.fabtcg.com/card/clash_of_agility/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "clash_of_vigor": {
+      "id": "clash_of_vigor",
+      "name_zh": "活力交锋",
+      "name_en": "Clash of Vigor",
+      "type_zh": "守护者·战士 行动·攻击",
+      "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个活力衍生物。",
+      "text_en": "When this defends, clash with the attacking hero. The winner creates a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/clash_of_vigor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "cleave": {
+      "id": "cleave",
+      "name_zh": "劈斩",
+      "name_en": "Cleave",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次斧攻击获得+4力量，以及“当此牌命中英雄或盟友时，你可以对同一英雄控制的另一个盟友造成等量伤害。”\n再动",
+      "text_en": "Your next axe attack this turn gains +4{p} and \"When this hits a hero or ally, you may deal that much damage to another ally controlled by the same hero.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/cleave/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "commanding_performance": {
+      "id": "commanding_performance",
+      "name_zh": "统帅表现",
+      "name_en": "Commanding Performance",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次战士攻击获得+3力量。\n直到回合结束，你的战士攻击获得“当此牌被1张或更多攻击行动牌防御时，摧毁防御英雄军械库中的一张牌。”\n再动",
+      "text_en": "Your next Warrior attack this turn gets +3{p}. \nUntil end of turn, your Warrior attacks get \"When this is defended by 1 or more attack action cards, destroy a card in the defending hero's arsenal.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/commanding_performance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "courageous_steelhand": {
+      "id": "courageous_steelhand",
+      "name_zh": "勇毅钢手",
+      "name_en": "Courageous Steelhand",
+      "type_zh": "光 战士 攻击反应",
+      "text_zh": "若本回合你充能过，目标攻击获得+3力量。",
+      "text_en": "If you've charged this turn, target attack gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/courageous_steelhand/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "crimson_waltz": {
+      "id": "crimson_waltz",
+      "name_zh": "绯红华尔兹",
+      "name_en": "Crimson Waltz",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+4力量。\n本回合你下一次用剑攻击时，抽一张牌，然后将你手牌中的一张牌置于你的牌库顶。\n再动",
+      "text_en": "Your next sword attack this turn gets +4{p}.\nThe next time you attack with a sword this turn, draw a card, then put a card from your hand on top of your deck.\nGo again",
+      "source": "https://cards.fabtcg.com/card/crimson_waltz/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "cross_the_line": {
+      "id": "cross_the_line",
+      "name_zh": "越过界限",
+      "name_en": "Cross the Line",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用越过界限的额外费用，你可以为你的英雄的灵魂充能。",
+      "text_en": "As an additional cost to play Cross the Line, you may charge your hero's soul.",
+      "source": "https://cards.fabtcg.com/card/cross_the_line/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "cut_deep": {
+      "id": "cut_deep",
+      "name_zh": "深割",
+      "name_en": "Cut Deep",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次匕首攻击获得+4力量。\n再动",
+      "text_en": "Your next dagger attack this turn gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/cut_deep/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "cut_from_the_same_cloth": {
+      "id": "cut_from_the_same_cloth",
+      "name_zh": "一丘之貉",
+      "name_en": "Cut from the Same Cloth",
+      "type_zh": "刺客·战士 行动",
+      "text_zh": "目标对手英雄展示其手牌。若以此方式展示的是攻击反应牌，标记该英雄。\n你本回合的下一次匕首攻击获得+4力量。\n再动",
+      "text_en": "Target opposing hero reveals their hand. If an attack reaction card is revealed this way, mark them.\nYour next dagger attack this turn gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/cut_from_the_same_cloth/",
+      "status": "machine-draft",
+      "keywords": [
+        "Mark",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "cut_n_carve": {
+      "id": "cut_n_carve",
+      "name_zh": "切与雕",
+      "name_en": "Cut n' Carve",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有1个或更多+1力量指示物，本回合它的下一次攻击获得支配。\n再动",
+      "text_en": "Sharpen target sword you control.\nIf it has 1 or more +1{p} counters, its next attack this turn gets dominate.\nGo again",
+      "source": "https://cards.fabtcg.com/card/cut_n_carve/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "cut_the_deck": {
+      "id": "cut_the_deck",
+      "name_zh": "切牌",
+      "name_en": "Cut the Deck",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标战士攻击获得+3力量。若其被攻击行动牌防御，抽一张牌，然后将你手牌或军械库中的一张牌置于你的牌库底。",
+      "text_en": "Target Warrior attack gets +3{p}. If it's defended by an attack action card, draw a card, then put a card from your hand or arsenal on the bottom of your deck.",
+      "source": "https://cards.fabtcg.com/card/cut_the_deck/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dauntless": {
+      "id": "dauntless",
+      "name_zh": "无所畏惧",
+      "name_en": "Dauntless",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量。\n本回合防御英雄使用的下一张防御反应牌费用额外增加1点资源。\n再动",
+      "text_en": "Your next weapon attack this turn gains +3{p}.\nThe next defense reaction card the defending hero plays this turn costs an additional {r} to play.\nGo again",
+      "source": "https://cards.fabtcg.com/card/dauntless/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dawnblade": {
+      "id": "dawnblade",
+      "name_zh": "黎明之刃",
+      "name_en": "Dawnblade",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n每回合第二次此牌命中时，在其上放置一个+1力量指示物。\n在你的结束阶段开始时，若本回合此牌没有命中过，从其上移除所有+1力量指示物。",
+      "text_en": "Once per Turn Action - {r}: Attack\nThe second time this hits each turn, put a +1{p} counter on it.\nAt the beginning of your end phase, if this hasn't hit this turn, remove all +1{p} counters from it.",
+      "source": "https://cards.fabtcg.com/card/dawnblade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "dawnblade_resplendent": {
+      "id": "dawnblade_resplendent",
+      "name_zh": "辉煌黎明之刃",
+      "name_en": "Dawnblade, Resplendent",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n每回合你第二次用此牌攻击时，它直到回合结束获得+1力量。",
+      "text_en": "Once per Turn Action - {r}: Attack\nThe second time you attack with this each turn, it gets +1{p} until end of turn.",
+      "source": "https://cards.fabtcg.com/card/dawnblade_resplendent/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "deadly_display": {
+      "id": "deadly_display",
+      "name_zh": "致命展示",
+      "name_en": "Deadly Display",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+2力量。若该武器本回合被磨砺过，该攻击获得“当此牌命中英雄时，创造一个连击衍生物。”",
+      "text_en": "Target weapon attack gets +2{p}. If the weapon has been sharpened this turn, the attack gets \"When this hits a hero, create a Flurry token.\"",
+      "source": "https://cards.fabtcg.com/card/deadly_display/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "decimator_great_axe": {
+      "id": "decimator_great_axe",
+      "name_zh": "屠灭巨斧",
+      "name_en": "Decimator Great Axe",
+      "type_zh": "战士 武器·斧 （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n每回合第一次此牌被非装备牌防御时，目标防御牌的基础防御减半（向上取整），直到回合结束。",
+      "text_en": "Once per Turn Action - {r}{r}{r}:  Attack\nThe first time this is defended by a non-equipment card each turn, halve the base {d} of target defending card, rounded up, until end of turn.",
+      "source": "https://cards.fabtcg.com/card/decimator_great_axe/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "den_of_the_spider": {
+      "id": "den_of_the_spider",
+      "name_zh": "蜘蛛巢穴",
+      "name_en": "Den of the Spider",
+      "type_zh": "刺客·战士 行动 防御反应·陷阱",
+      "text_zh": "当此牌防御力量大于其基础的攻击时，标记攻击英雄。",
+      "text_en": "When this defends an attack with {p} greater than its base, mark the attacking hero.",
+      "source": "https://cards.fabtcg.com/card/den_of_the_spider/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dice_up": {
+      "id": "dice_up",
+      "name_zh": "切碎",
+      "name_en": "Dice Up",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得“当此牌命中英雄时，你可以从此武器上移除一个+1力量指示物。若如此做，摧毁其控制的一个光环。”",
+      "text_en": "Target weapon attack gets \"When this hits a hero, you may remove a +1{p} counter from this weapon. If you do, destroy an aura they control.\"",
+      "source": "https://cards.fabtcg.com/card/dice_up/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "diced": {
+      "id": "diced",
+      "name_zh": "切丁",
+      "name_en": "Diced",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+1力量。\n你本回合的下一次匕首攻击获得+3力量。",
+      "text_en": "Target dagger attack gets +1{p}.\nYour next dagger attack this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/diced/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "display_of_artistry": {
+      "id": "display_of_artistry",
+      "name_zh": "技艺展示",
+      "name_en": "Display of Artistry",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量。若该武器本回合被磨砺过，该攻击获得“当防御此牌时，反应牌获得-1防御。”",
+      "text_en": "Target weapon attack gets +3{p}. If the weapon has been sharpened this turn, the attack gets \"Reaction cards get -1{d} while defending this.\"",
+      "source": "https://cards.fabtcg.com/card/display_of_artistry/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "display_of_craftsmanship": {
+      "id": "display_of_craftsmanship",
+      "name_zh": "工艺展示",
+      "name_en": "Display of Craftsmanship",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+4力量。若该武器本回合被磨砺过，在其上放置一个+1力量指示物。",
+      "text_en": "Target weapon attack gets +4{p}. If the weapon has been sharpened this turn, put a +1{p} counter on it.",
+      "source": "https://cards.fabtcg.com/card/display_of_craftsmanship/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "donkey": {
+      "id": "donkey",
+      "name_zh": "驴",
+      "name_en": "Donkey",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得+1力量，并与防御英雄下注。胜者摧毁自己军械库中的一张牌。",
+      "text_en": "Target sword attack gets +1{p} and wagers with the defending hero. The winner destroys a card in their own arsenal.",
+      "source": "https://cards.fabtcg.com/card/donkey/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "double_down": {
+      "id": "double_down",
+      "name_zh": "加倍下注",
+      "name_en": "Double Down",
+      "type_zh": "守护者·战士 行动",
+      "text_zh": "你可以摧毁你控制的一个金币，而非支付加倍下注的费用。\n本回合下一次下注的攻击获得+3力量和压制。\n若本回合一位英雄将因下注创造1个或更多衍生物，改为其创造数量加1的每种这些衍生物。\n再动",
+      "text_en": "You may destroy a Gold you control rather than pay Double Down's {r} cost.\nThe next attack that wagers this turn gets +3{p} and overpower.\nIf a hero would create 1 or more tokens from a wager this turn, instead they create that many plus 1 of each of those tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/double_down/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "downswing": {
+      "id": "downswing",
+      "name_zh": "下劈",
+      "name_en": "Downswing",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得+1力量，并与防御英雄下注。胜者失去1点生命。",
+      "text_en": "Target sword attack gets +1{p} and wagers with the defending hero. The winner loses 1{h}.",
+      "source": "https://cards.fabtcg.com/card/downswing/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "draw_swords": {
+      "id": "draw_swords",
+      "name_zh": "拔剑",
+      "name_en": "Draw Swords",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次战士攻击获得+3力量。\n抽一张牌。\n再动",
+      "text_en": "Your next Warrior attack this turn gets +3{p}.\nDraw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/draw_swords/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "drawing_dead": {
+      "id": "drawing_dead",
+      "name_zh": "摸到死牌",
+      "name_en": "Drawing Dead",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得+1力量，并与防御英雄下注。胜者弃一张牌。",
+      "text_en": "Target sword attack gets +1{p} and wagers with the defending hero. The winner discards a card.",
+      "source": "https://cards.fabtcg.com/card/drawing_dead/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "drawn_to_the_blade": {
+      "id": "drawn_to_the_blade",
+      "name_zh": "被刃吸引",
+      "name_en": "Drawn to the Blade",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有2个或更多+1力量指示物，本回合它下一次命中时，抽一张牌。\n再动",
+      "text_en": "Sharpen target sword you control.\nIf it has 2 or more +1{p} counters, the next time it hits this turn, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/drawn_to_the_blade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "driving_blade": {
+      "id": "driving_blade",
+      "name_zh": "驱动之刃",
+      "name_en": "Driving Blade",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量和再动。\n再动",
+      "text_en": "Your next weapon attack this turn gains +3{p} and go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/driving_blade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "durendal": {
+      "id": "durendal",
+      "name_zh": "杜伦达尔",
+      "name_en": "Durendal",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n若此牌上有+1力量指示物，当防御此牌时，反应牌获得-1防御。",
+      "text_en": "Once per Turn Action - {r}: Attack\nIf this has a +1{p} counter, reaction cards get -1{d} while defending it.",
+      "source": "https://cards.fabtcg.com/card/durendal/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "dusk_path_pilgrimage": {
+      "id": "dusk_path_pilgrimage",
+      "name_zh": "黄昏之路朝圣",
+      "name_en": "Dusk Path Pilgrimage",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量，以及“若此牌命中，本回合你可以用此武器额外攻击一次。”\n再动",
+      "text_en": "Your next weapon attack this turn gains +3{p} and \"If this hits, you may attack an additional time with this weapon this turn.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/dusk_path_pilgrimage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dynastic_dedication": {
+      "id": "dynastic_dedication",
+      "name_zh": "王朝奉献",
+      "name_en": "Dynastic Dedication",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n目标匕首攻击获得+3力量。",
+      "text_en": "This costs {r} less to play for each Draconic chain link you control.\nTarget dagger attack gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/dynastic_dedication/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "edge_ahead": {
+      "id": "edge_ahead",
+      "name_zh": "抢先一步",
+      "name_en": "Edge Ahead",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次战士攻击获得+3力量，以及“当此牌攻击英雄时，你可以与该英雄以一个敏捷衍生物下注。”\n再动",
+      "text_en": "Your next Warrior attack this turn gets +3{p} and \"When this attacks a hero, you may wager an Agility token with them.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/edge_ahead/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "edict_of_steel": {
+      "id": "edict_of_steel",
+      "name_zh": "钢铁敕令",
+      "name_en": "Edict of Steel",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有1个或更多+1力量指示物，创造一个连击衍生物。\n再动",
+      "text_en": "Sharpen target sword you control.\nIf it has 1 or more +1{p} counters, create a Flurry token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/edict_of_steel/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "emboldened_blade": {
+      "id": "emboldened_blade",
+      "name_zh": "鼓舞之刃",
+      "name_en": "Emboldened Blade",
+      "type_zh": "战士 行动",
+      "text_zh": "将任意军械库中的一张牌面朝下的牌翻为正面朝上。若其为防御反应，摧毁它，你本回合的下一次武器攻击获得+1力量。\n再动",
+      "text_en": "Turn a face-down card in any arsenal face-up. If it's a defense reaction, destroy it and your next weapon attack this turn gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/emboldened_blade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "en_garde": {
+      "id": "en_garde",
+      "name_zh": "摆出架势",
+      "name_en": "En Garde",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量。\n再动",
+      "text_en": "Your next weapon attack this turn gains +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/en_garde/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "endear_devotion": {
+      "id": "endear_devotion",
+      "name_zh": "彰显虔诚",
+      "name_en": "Endear Devotion",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+3力量。若你控制两个或更多龙裔链环，创造一个效忠衍生物。",
+      "text_en": "Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, create a Fealty token.",
+      "source": "https://cards.fabtcg.com/card/endear_devotion/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "engage_steel": {
+      "id": "engage_steel",
+      "name_zh": "接刃",
+      "name_en": "Engage Steel",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+3力量，以及“若此牌被战士牌防御，此牌获得+1力量。”\n再动",
+      "text_en": "Your next sword attack this turn gets +3{p} and \"If this is defended by a Warrior card, this gets +1{p}.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/engage_steel/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "engaged_swiftblade": {
+      "id": "engaged_swiftblade",
+      "name_zh": "缠斗快剑",
+      "name_en": "Engaged Swiftblade",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次战士攻击获得+3力量，以及“若此牌被攻击行动牌防御，此牌获得再动。”\n再动",
+      "text_en": "Your next Warrior attack this turn gets +3{p} and \"If this is defended by an attack action card, this gets Go again.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/engaged_swiftblade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "engulfing_light": {
+      "id": "engulfing_light",
+      "name_zh": "吞没之光",
+      "name_en": "Engulfing Light",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用吞没之光的额外费用，你可以为你的英雄的灵魂充能。\n若本回合你充能过，吞没之光获得“若此牌命中，将其置入你的英雄的灵魂。”",
+      "text_en": "As an additional cost to play Engulfing Light, you may charge your hero's soul.\nIf you've charged this turn, Engulfing Light gains \"If this hits, put it into your hero's soul.\"",
+      "source": "https://cards.fabtcg.com/card/engulfing_light/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "escalate_bloodshed": {
+      "id": "escalate_bloodshed",
+      "name_zh": "升级流血",
+      "name_en": "Escalate Bloodshed",
+      "type_zh": "战士 瞬间·光环",
+      "text_zh": "每当行动阶段期间一位英雄抽牌时，该英雄失去1点生命。\n在每位英雄的行动阶段开始时，该英雄抽一张牌。\n在每位英雄的结束阶段开始时，若本回合没有武器攻击过，摧毁此牌。",
+      "text_en": "Whenever a hero draws a card during an action phase, they lose 1{h}.\nAt the beginning of each hero's action phase, they draw a card.\nAt the beginning of each hero's end phase, if a weapon did not attack this turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/escalate_bloodshed/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "express_lightning": {
+      "id": "express_lightning",
+      "name_zh": "迅疾闪电",
+      "name_en": "Express Lightning",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用迅疾闪电的额外费用，你可以为你的英雄的灵魂充能。",
+      "text_en": "As an additional cost to play Express Lightning, you may charge your hero's soul.",
+      "source": "https://cards.fabtcg.com/card/express_lightning/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "fatal_engagement": {
+      "id": "fatal_engagement",
+      "name_zh": "致命交锋",
+      "name_en": "Fatal Engagement",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "仅当此链环中有攻击行动牌在防御时才能使用此牌。\n目标攻击获得+5力量。",
+      "text_en": "Play this only if an attack action card is defending this chain link.\nTarget attack gets +5{p}.",
+      "source": "https://cards.fabtcg.com/card/fatal_engagement/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "felling_swing": {
+      "id": "felling_swing",
+      "name_zh": "砍伐挥击",
+      "name_en": "Felling Swing",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次斧攻击获得+6力量。\n再动",
+      "text_en": "Your next axe attack this turn gains +6{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/felling_swing/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "fire_and_brimstone": {
+      "id": "fire_and_brimstone",
+      "name_zh": "烈火硫磺",
+      "name_en": "Fire and Brimstone",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "传奇\n每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n你控制的匕首获得+1力量，且本回合你可以用它们每把额外攻击一次。",
+      "text_en": "Legendary\nThis costs {r} less to play for each Draconic chain link you control.\nDaggers you control get +1{p} and you may attack with each of them an additional time this turn.",
+      "source": "https://cards.fabtcg.com/card/fire_and_brimstone/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "flurry": {
+      "id": "flurry",
+      "name_zh": "连击",
+      "name_en": "Flurry",
+      "type_zh": "战士 衍生物·光环",
+      "text_zh": "当你启动武器攻击时，摧毁此牌，本回合你可以用该武器攻击两次。",
+      "text_en": "When you activate a weapon attack, destroy this and you may attack with the weapon twice this turn.",
+      "source": "https://cards.fabtcg.com/card/flurry/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "flurry_foot_dance": {
+      "id": "flurry_foot_dance",
+      "name_zh": "连击步伐",
+      "name_en": "Flurry Foot Dance",
+      "type_zh": "战士 防御反应",
+      "text_zh": "当此牌防御时，若你控制一个连击衍生物，此牌获得+2防御。",
+      "text_en": "While this is defending, if you control a Flurry token, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/flurry_foot_dance/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "flurry_stance": {
+      "id": "flurry_stance",
+      "name_zh": "连击架势",
+      "name_en": "Flurry Stance",
+      "type_zh": "战士 行动·光环",
+      "text_zh": "再动\n在你的回合开始时，摧毁此牌，然后本回合你可以用你控制的每把匕首额外攻击一次。",
+      "text_en": "Go again\nAt the start of your turn, destroy this, then you may attack with each dagger you control an additional time this turn.",
+      "source": "https://cards.fabtcg.com/card/flurry_stance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "glaring_impact": {
+      "id": "glaring_impact",
+      "name_zh": "刺目冲击",
+      "name_en": "Glaring Impact",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，你可以为你的英雄的灵魂充能。\n若以此方式充能的是黄色牌，此牌获得压制。",
+      "text_en": "As an additional cost to play this, you may charge your hero's soul.\nIf a yellow card is charged this way, this gets overpower.",
+      "source": "https://cards.fabtcg.com/card/glaring_impact/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge",
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "gleam_of_the_blade": {
+      "id": "gleam_of_the_blade",
+      "name_zh": "剑刃微光",
+      "name_en": "Gleam of the Blade",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量。\n瞬间——弃掉此牌：创造一个连击衍生物。",
+      "text_en": "Target weapon attack gets +3{p}.\nInstant - Discard this: Create a Flurry token.",
+      "source": "https://cards.fabtcg.com/card/gleam_of_the_blade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "glint_the_quicksilver": {
+      "id": "glint_the_quicksilver",
+      "name_zh": "水银闪光",
+      "name_en": "Glint the Quicksilver",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得再动。\n重演——若防御英雄在此链环中用手牌中的牌防御过，抽一张牌。",
+      "text_en": "Target weapon attack gets go again.\nReprise - If the defending hero has defended with a card from their hand this chain link, draw a card.",
+      "source": "https://cards.fabtcg.com/card/glint_the_quicksilver/",
+      "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "glistening_steelblade": {
+      "id": "glistening_steelblade",
+      "name_zh": "闪耀钢刃",
+      "name_en": "Glistening Steelblade",
+      "type_zh": "战士 行动",
+      "text_zh": "多琳茜娅专精\n你本回合的下一次黎明之刃攻击获得再动。\n本回合每当黎明之刃命中英雄时，在其上放置一个+1力量指示物。\n再动",
+      "text_en": "Dorinthea Specialization\nYour next Dawnblade attack this turn has go again.\nWhenever Dawnblade hits a hero this turn, put a +1{p} counter on it.\nGo again",
+      "source": "https://cards.fabtcg.com/card/glistening_steelblade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "goblet_of_bloodrun_wine": {
+      "id": "goblet_of_bloodrun_wine",
+      "name_zh": "血涌酒之杯",
+      "name_en": "Goblet of Bloodrun Wine",
+      "type_zh": "战士 行动",
+      "text_zh": "创造一个敏捷和一个活力衍生物。\n再动",
+      "text_en": "Create an Agility and a Vigor token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/goblet_of_bloodrun_wine/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "golden_company": {
+      "id": "golden_company",
+      "name_zh": "黄金连队",
+      "name_en": "Golden Company",
+      "type_zh": "战士 防御反应",
+      "text_zh": "你可以摧毁你控制的一个金币，而非支付此牌的费用。",
+      "text_en": "You may destroy a Gold you control rather than pay this card's {r} cost.",
+      "source": "https://cards.fabtcg.com/card/golden_company/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "6"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "6"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "6"
+        }
+      }
+    },
+    "golden_grail": {
+      "id": "golden_grail",
+      "name_zh": "黄金圣杯",
+      "name_en": "Golden Grail",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付2点资源，或摧毁你控制的一个金币：攻击。若此攻击已下注，它获得+1力量。",
+      "text_en": "Once per Turn Action - {r}{r} or destroy a Gold you control: Attack. If this attack has wagered, it gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/golden_grail/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "gutshot": {
+      "id": "gutshot",
+      "name_zh": "腹部射击",
+      "name_en": "Gutshot",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+3力量，以及“当此牌攻击时，与防御英雄下注。胜者创造一个剑舞衍生物。”\n再动",
+      "text_en": "Your next sword attack this turn gets +3{p} and \"When this attacks, wager with the defending hero. The winner creates a Blade Dance token.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/gutshot/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Wager"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "hala_goldenhelm": {
+      "id": "hala_goldenhelm",
+      "name_zh": "哈拉·金盔",
+      "name_en": "Hala Goldenhelm",
+      "type_zh": "",
+      "text_zh": "当哈拉牌面朝下在军械库中时，在你的回合开始时，你可以将她翻为正面朝上。\n当哈拉正面朝上在军械库中时，每当你控制的剑攻击命中时，它获得再动，并在哈拉上放置一个课业指示物。然后若哈拉上有2个或更多课业指示物，放逐她，从你的牌库中搜寻闪耀钢刃，将其正面朝上放入军械库，然后洗牌。",
+      "text_en": "While Hala is face down in arsenal, at the start of your turn, you may turn her face up.\nWhile Hala is face up in arsenal, whenever a sword attack you control hits, it gains go again and put a lesson counter on Hala. Then if there are 2 or more lesson counters on Hala, banish her, search your deck for Glistening Steelblade, put it face up in arsenal, and shuffle.",
+      "source": "https://cards.fabtcg.com/card/hala_goldenhelm/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    },
+    "hatchet_of_body": {
+      "id": "hatchet_of_body",
+      "name_zh": "肉身之斧",
+      "name_en": "Hatchet of Body",
+      "type_zh": "战士 武器·斧 （单手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n每当你用肉身之斧攻击时，若心智之斧是本回合的最后一次攻击，肉身之斧直到回合结束获得+1力量。",
+      "text_en": "Once per Turn Action - {r}: Attack\nWhenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack this turn, Hatchet of Body gains +1{p} until end of turn.",
+      "source": "https://cards.fabtcg.com/card/hatchet_of_body/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "hatchet_of_mind": {
+      "id": "hatchet_of_mind",
+      "name_zh": "心智之斧",
+      "name_en": "Hatchet of Mind",
+      "type_zh": "战士 武器·斧 （单手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n每当你用心智之斧攻击时，若肉身之斧是本回合的最后一次攻击，心智之斧直到回合结束获得+1力量。",
+      "text_en": "Once per Turn Action - {r}: Attack\nWhenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack this turn, Hatchet of Mind gains +1{p} until end of turn.",
+      "source": "https://cards.fabtcg.com/card/hatchet_of_mind/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "heads_up": {
+      "id": "heads_up",
+      "name_zh": "抬头",
+      "name_en": "Heads Up",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+3力量，以及“当此牌攻击时，若它已下注，它获得支配。”\n再动",
+      "text_en": "Your next sword attack this turn gets +3{p} and \"When this attacks, if it wagered, it gets dominate.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/heads_up/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "hearty_block": {
+      "id": "hearty_block",
+      "name_zh": "强健格挡",
+      "name_en": "Hearty Block",
+      "type_zh": "守护者·战士 阻挡",
+      "text_zh": "当此牌防御时，若你控制一个活力衍生物，获得1点生命。",
+      "text_en": "When this defends, if you control a Vigor token, gain 1{h}.",
+      "source": "https://cards.fabtcg.com/card/hearty_block/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "heavy_swing": {
+      "id": "heavy_swing",
+      "name_zh": "重挥",
+      "name_en": "Heavy Swing",
+      "type_zh": "战士 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁此牌，你本回合的下一次剑攻击获得+3力量。",
+      "text_en": "At the start of your turn, destroy this and your next sword attack this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/heavy_swing/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "hit_and_run": {
+      "id": "hit_and_run",
+      "name_zh": "打了就跑",
+      "name_en": "Hit and Run",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得再动。\n若本回合你用武器攻击过，你本回合的下一次攻击获得+3力量。\n再动",
+      "text_en": "Your next weapon attack this turn gets go again.\nIf you've attacked with a weapon this turn, your next attack this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/hit_and_run/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "hold_em": {
+      "id": "hold_em",
+      "name_zh": "稳坐",
+      "name_en": "Hold 'em",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次战士攻击获得+3力量，以及“当此牌攻击英雄时，你可以与该英雄以一个活力衍生物下注。”\n再动",
+      "text_en": "Your next Warrior attack this turn gets +3{p} and \"When this attacks a hero, you may wager a Vigor token with them.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/hold_em/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Wager"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "honed_for_honor": {
+      "id": "honed_for_honor",
+      "name_zh": "为荣誉磨砺",
+      "name_en": "Honed for Honor",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有3个或更多+1力量指示物，你可以将你坟场中的一张攻击反应牌置于你的牌库顶。\n再动",
+      "text_en": "Sharpen target sword you control.\nIf it has 3 or more +1{p} counters, you may put an attack reaction card from your graveyard on top of your deck.\nGo again",
+      "source": "https://cards.fabtcg.com/card/honed_for_honor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "hot_streak": {
+      "id": "hot_streak",
+      "name_zh": "连胜",
+      "name_en": "Hot Streak",
+      "type_zh": "战士 武器·剑 （单手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n当此牌被1张或更多攻击行动牌防御时，本回合连胜的攻击获得再动。",
+      "text_en": "Once per Turn Action - {r}: Attack\nWhen this is defended by 1 or more attack action cards, Hot Streak's attacks get go again this turn.",
+      "source": "https://cards.fabtcg.com/card/hot_streak/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "hunt_a_killer": {
+      "id": "hunt_a_killer",
+      "name_zh": "追杀凶手",
+      "name_en": "Hunt a Killer",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次匕首攻击获得+4力量，以及“当此牌命中英雄时，标记该英雄。”\n再动",
+      "text_en": "Your next dagger attack this turn gets +4{p} and \"When this hits a hero, mark them.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/hunt_a_killer/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "hunts_end": {
+      "id": "hunts_end",
+      "name_zh": "狩猎终局",
+      "name_en": "Hunt's End",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "仅当你控制3个或更多效忠衍生物时才能使用此牌。\n目标匕首攻击获得+4力量。",
+      "text_en": "Play this only if you control 3 or more Fealty tokens.\nTarget dagger attack gets +4{p}.",
+      "source": "https://cards.fabtcg.com/card/hunts_end/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "imperial_intent": {
+      "id": "imperial_intent",
+      "name_zh": "帝国意图",
+      "name_en": "Imperial Intent",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n目标匕首攻击获得+2力量。",
+      "text_en": "This costs {r} less to play for each Draconic chain link you control.\nTarget dagger attack gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/imperial_intent/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "in_the_swing": {
+      "id": "in_the_swing",
+      "name_zh": "挥击之中",
+      "name_en": "In the Swing",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "仅当本回合你用武器攻击过两次或更多时才能使用此牌。\n目标武器攻击获得+3力量。",
+      "text_en": "Play this only if you've attacked 2 or more times with weapons this turn.\nTarget weapon attack gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/in_the_swing/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "incision": {
+      "id": "incision",
+      "name_zh": "切痕",
+      "name_en": "Incision",
+      "type_zh": "刺客·战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+3力量。",
+      "text_en": "Target dagger attack gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/incision/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "indefensibly_honed": {
+      "id": "indefensibly_honed",
+      "name_zh": "无可防御的磨砺",
+      "name_en": "Indefensibly Honed",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有3个或更多+1力量指示物，本回合你用它进行的下一次攻击获得“当此牌被1张或更多牌防御时，对防御英雄造成1点伤害。”再动",
+      "text_en": "Sharpen target sword you control.\nIf it has 3 or more +1{p} counters, your next attack with it this turn gets \"When this is defended by 1 or more cards, deal 1 damage to the defending hero.\" Go again",
+      "source": "https://cards.fabtcg.com/card/indefensibly_honed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "into_the_muck": {
+      "id": "into_the_muck",
+      "name_zh": "投入泥沼",
+      "name_en": "Into the Muck",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "仅当此链环中你已下注时才能使用此牌。\n放逐当前链环上的一张非装备防御牌。",
+      "text_en": "Play this only if you've wagered this chain link.\nBanish a non-equipment defending card on the active chain link.",
+      "source": "https://cards.fabtcg.com/card/into_the_muck/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ironsong_determination": {
+      "id": "ironsong_determination",
+      "name_zh": "铁歌决心",
+      "name_en": "Ironsong Determination",
+      "type_zh": "战士 行动",
+      "text_zh": "目标武器的攻击直到回合结束获得+1力量和支配。\n再动",
+      "text_en": "Target weapon's attacks get +1{p} and dominate until end of turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ironsong_determination/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ironsong_pride": {
+      "id": "ironsong_pride",
+      "name_zh": "铁歌骄傲",
+      "name_en": "Ironsong Pride",
+      "type_zh": "战士 瞬间·光环",
+      "text_zh": "当此牌进入竞技场时，在你控制的目标剑上放置一个+1力量指示物。\n当此牌离开竞技场时，从你控制的剑上移除所有+1力量指示物。\n在你的结束阶段开始时，若本回合没有剑命中过，摧毁此牌。",
+      "text_en": "When this enters the arena, put a +1{p} counter on target sword you control.\nWhen this leaves the arena, remove all +1{p} counters from swords you control.\nAt the beginning of your end phase, if a sword has not hit this turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/ironsong_pride/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "ironsong_response": {
+      "id": "ironsong_response",
+      "name_zh": "铁歌回应",
+      "name_en": "Ironsong Response",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "重演——若防御英雄在此链环中用手牌中的牌防御过，目标武器攻击获得+3力量。",
+      "text_en": "Reprise - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/ironsong_response/",
+      "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "jagged_edge": {
+      "id": "jagged_edge",
+      "name_zh": "锯齿利刃",
+      "name_en": "Jagged Edge",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量，以及“此牌将造成的伤害不能被防止。”",
+      "text_en": "Target weapon attack gets +3{p} and \"Damage this would deal can't be prevented.\"",
+      "source": "https://cards.fabtcg.com/card/jagged_edge/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "jive": {
+      "id": "jive",
+      "name_zh": "摇摆舞",
+      "name_en": "Jive",
+      "type_zh": "战士 行动",
+      "text_zh": "创造一个剑舞衍生物。",
+      "text_en": "Create a Blade Dance token.",
+      "source": "https://cards.fabtcg.com/card/jive/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "jubeel_spellbane": {
+      "id": "jubeel_spellbane",
+      "name_zh": "朱贝尔咒缚",
+      "name_en": "Jubeel, Spellbane",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n每当此牌命中英雄且你没有控制法殁神盾时，创造一个法殁神盾衍生物。",
+      "text_en": "Once per Turn Action - {r}: Attack\nWhenever this hits a hero and you don't control a Spellbane Aegis, create a Spellbane Aegis token.",
+      "source": "https://cards.fabtcg.com/card/jubeel_spellbane/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "knife_through_butter": {
+      "id": "knife_through_butter",
+      "name_zh": "热刀切黄油",
+      "name_en": "Knife Through Butter",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次匕首攻击获得+4力量。\n本回合每当你攻击被标记的英雄时，该攻击获得再动。\n再动",
+      "text_en": "Your next dagger attack this turn gets +4{p}.\nWhenever you attack a marked hero this turn, the attack gets go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/knife_through_butter/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "lead_with_heart": {
+      "id": "lead_with_heart",
+      "name_zh": "用心领导",
+      "name_en": "Lead with Heart",
+      "type_zh": "守护者·战士 行动",
+      "text_zh": "你本回合的下一次守护者或战士攻击获得+3力量。\n创造一个活力衍生物。\n再动",
+      "text_en": "Your next Guardian or Warrior attack this turn gets +3{p}.\nCreate a Vigor token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/lead_with_heart/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "lead_with_speed": {
+      "id": "lead_with_speed",
+      "name_zh": "用速领导",
+      "name_en": "Lead with Speed",
+      "type_zh": "蛮将·战士 行动",
+      "text_zh": "你本回合的下一次蛮将或战士攻击获得+3力量。\n创造一个敏捷衍生物。\n再动",
+      "text_en": "Your next Brute or Warrior attack this turn gets +3{p}.\nCreate an Agility token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/lead_with_speed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "lessons_learned": {
+      "id": "lessons_learned",
+      "name_zh": "吸取教训",
+      "name_en": "Lessons Learned",
+      "type_zh": "战士 瞬间",
+      "text_zh": "将你坟场中至多3张不同名称的攻击反应牌洗入你的牌库。",
+      "text_en": "Shuffle up to 3 attack reaction cards with different names from your graveyard into your deck.",
+      "source": "https://cards.fabtcg.com/card/lessons_learned/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "light_the_way": {
+      "id": "light_the_way",
+      "name_zh": "照亮前路",
+      "name_en": "Light the Way",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，你可以为你的英雄的灵魂充能。\n当此牌命中时，若以此方式充能的是黄色牌，此牌获得再动。",
+      "text_en": "As an additional cost to play this, you may charge your hero's soul.\nWhen this hits, if a yellow card was charged this way, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/light_the_way/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "long_whisker_loyalty": {
+      "id": "long_whisker_loyalty",
+      "name_zh": "长须忠诚",
+      "name_en": "Long Whisker Loyalty",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "为你控制的每个龙裔链环选择其一；\n目标匕首攻击获得+2力量。\n本回合你可以用目标匕首额外攻击一次。\n本回合目标匕首下一次命中英雄时，标记该英雄。",
+      "text_en": "For each Draconic chain link you control, choose 1;\n\nTarget dagger attack gains +2{p}.\nYou may attack with target dagger an additional time this turn.\nThe next time target dagger hits a hero this turn, mark them.",
+      "source": "https://cards.fabtcg.com/card/long_whisker_loyalty/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "lumina_ascension": {
+      "id": "lumina_ascension",
+      "name_zh": "卢米娜升阶",
+      "name_en": "Lumina Ascension",
+      "type_zh": "光 战士 行动",
+      "text_zh": "博尔廷专精\n直到回合结束，你控制的武器获得+1力量，以及“若此牌命中，展示你牌库顶的一张牌。若其为光牌，将其置入你的英雄的灵魂并获得1点生命，否则将其置于你的牌库底。”\n若本回合你充能过，你可以用你控制的每把武器额外攻击一次。\n再动",
+      "text_en": "Boltyn Specialization\nUntil end of turn, weapons you control gain +1{p} and \"If this hits, reveal the top card of your deck. If it's a Light card, put it into your hero's soul and gain 1{h}, otherwise put it on the bottom of your deck.\"\nIf you've charged this turn, you may attack an additional time with each weapon you control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/lumina_ascension/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "merciless_battleaxe": {
+      "id": "merciless_battleaxe",
+      "name_zh": "无情战斧",
+      "name_en": "Merciless Battleaxe",
+      "type_zh": "战士 武器·斧 （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n当此牌攻击时，若攻击的力量大于其基础的两倍，该攻击获得压制。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Atttack\nWhen this attacks, if the attack's {p} is greater than twice its base, the attack gets overpower.",
+      "source": "https://cards.fabtcg.com/card/merciless_battleaxe/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "minerva_themis": {
+      "id": "minerva_themis",
+      "name_zh": "米涅娃·忒弥斯",
+      "name_en": "Minerva Themis",
+      "type_zh": "",
+      "text_zh": "当米涅娃牌面朝下在军械库中时，在你的回合开始时，你可以将她翻为正面朝上。\n当米涅娃正面朝上在军械库中时，你控制的单手武器获得+1力量。每当你控制的武器命中时，在米涅娃上放置一个课业指示物。然后若其上有3个或更多课业指示物，放逐她，从你的牌库中搜寻一张专精牌，将其正面朝上放入军械库，然后洗牌。",
+      "text_en": "While Minerva is face down in arsenal, at the start of your turn, you may turn her face up.\nWhile Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever a weapon you control hits, put a lesson counter on Minerva. Then if there are 3 or more lesson counters on her, banish her, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
+      "source": "https://cards.fabtcg.com/card/minerva_themis/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    },
+    "morlock_hill": {
+      "id": "morlock_hill",
+      "name_zh": "莫洛克山丘",
+      "name_en": "Morlock Hill",
+      "type_zh": "战士 瞬间",
+      "text_zh": "本回合接下来你将受到致命伤害时，你可以从你的手牌或军械库中放逐米涅娃·忒弥斯以防止该伤害。",
+      "text_en": "The next time you would be dealt lethal damage this turn, you may banish Minerva Themis from your hand or arsenal to prevent that damage.",
+      "source": "https://cards.fabtcg.com/card/morlock_hill/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "natures_path_pilgrimage": {
+      "id": "natures_path_pilgrimage",
+      "name_zh": "自然之路朝圣",
+      "name_en": "Nature's Path Pilgrimage",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量，以及“当此牌命中且你军械库中没有牌时，展示你牌库顶的一张牌。若其为行动牌，将其牌面朝下放入你的军械库。”\n再动",
+      "text_en": "Your next weapon attack this turn gets +3{p} and \"When this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/natures_path_pilgrimage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "oath_of_steel": {
+      "id": "oath_of_steel",
+      "name_zh": "钢铁誓言",
+      "name_en": "Oath of Steel",
+      "type_zh": "战士 行动",
+      "text_zh": "本回合每当你用武器攻击时，在其上放置一个+1力量指示物。\n在你的结束阶段开始时，从你控制的武器上移除所有+1力量指示物。\n再动",
+      "text_en": "Whenever you attack with a weapon this turn, put a +1{p} counter on it.\nAt the beginning of your end phase, remove all +1{p} counters from weapons you control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/oath_of_steel/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "obsidian_fire_vein": {
+      "id": "obsidian_fire_vein",
+      "name_zh": "黑曜火脉",
+      "name_en": "Obsidian Fire Vein",
+      "type_zh": "龙裔 战士 武器·匕首 （单手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击。若此链环中你使用过龙裔牌，此攻击获得+1力量和再动。",
+      "text_en": "Once per Turn Action - {r}: Attack. If you've played a Draconic card this chain link, this attack gets +1{p} and go again.",
+      "source": "https://cards.fabtcg.com/card/obsidian_fire_vein/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "odds_on_favorite": {
+      "id": "odds_on_favorite",
+      "name_zh": "大热门",
+      "name_en": "Odds on Favorite",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得“当此牌攻击时，与防御英雄下注。胜者从牌库中搜寻一张牌，洗牌，然后将该牌置于牌库顶。”\n再动",
+      "text_en": "Your next sword attack this turn gets \"When this attacks, wager with the defending hero. The winner searches their deck for a card, shuffles, then puts that card on top.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/odds_on_favorite/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Wager"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "off_beat": {
+      "id": "off_beat",
+      "name_zh": "反拍",
+      "name_en": "Off Beat",
+      "type_zh": "战士 行动",
+      "text_zh": "摧毁至多1个剑舞和/或连击衍生物。每有一个以此方式摧毁的衍生物，磨砺你控制的目标剑一次。\n再动",
+      "text_en": "Destroy up to 1 Blade Dance and/or Flurry token. Sharpen target sword you control for each token destroyed this way.\nGo again",
+      "source": "https://cards.fabtcg.com/card/off_beat/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ole": {
+      "id": "ole",
+      "name_zh": "奥雷",
+      "name_en": "Olé",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "从目标攻击中的武器上移除一个+1力量指示物。若如此做，创造一个连击衍生物并抽一张牌。",
+      "text_en": "Remove a +1{p} counter from target attacking weapon. If you do, create a Flurry token and draw a card.",
+      "source": "https://cards.fabtcg.com/card/ole/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "out_for_blood": {
+      "id": "out_for_blood",
+      "name_zh": "见血方休",
+      "name_en": "Out for Blood",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量。\n重演——若防御英雄在此链环中用手牌中的牌防御过，你本回合的下一次攻击获得+1力量。",
+      "text_en": "Target weapon attack gains +3{p}.\nReprise - If the defending hero has defended with a card from their hand this chain link, your next attack this turn gains +1{p}.",
+      "source": "https://cards.fabtcg.com/card/out_for_blood/",
+      "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "outland_skirmish": {
+      "id": "outland_skirmish",
+      "name_zh": "边陲遭遇战",
+      "name_en": "Outland Skirmish",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次单手武器攻击获得+3力量。\n本回合武器下一次命中时，创造一个铜币衍生物。\n再动",
+      "text_en": "Your next 1H weapon attack this turn gains +3{p}.\nThe next time a weapon hits this turn, create a Copper token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/outland_skirmish/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "overpower": {
+      "id": "overpower",
+      "name_zh": "压制",
+      "name_en": "Overpower",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+4力量。\n重演——若防御英雄在此链环中用手牌中的牌防御过，改为其获得+6力量。",
+      "text_en": "Target weapon attack gains +4{p}\nReprise - If the defending hero has defended with a card from their hand this chain link, instead it gains +6{p}.",
+      "source": "https://cards.fabtcg.com/card/overpower/",
+      "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "overwhelming_swing": {
+      "id": "overwhelming_swing",
+      "name_zh": "压倒性挥击",
+      "name_en": "Overwhelming Swing",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "当前链环上每有一张防御牌，此牌的使用费用额外增加1点资源。\n目标武器攻击获得+X力量，X为其防御牌数量的两倍加1。",
+      "text_en": "This costs an additional {r} to play for each card defending on the active chain link.\nTarget weapon attack gets +X{p}, where X is twice the number of cards defending it plus 1.",
+      "source": "https://cards.fabtcg.com/card/overwhelming_swing/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "perforate": {
+      "id": "perforate",
+      "name_zh": "穿孔",
+      "name_en": "Perforate",
+      "type_zh": "刺客·战士 攻击反应",
+      "text_zh": "本回合你可以用目标匕首额外攻击一次，且其攻击启动费用减少1点资源。\n抽一张牌。",
+      "text_en": "You may attack with target dagger an additional time and its attacks cost you {r} less to activate this turn.\nDraw a card.",
+      "source": "https://cards.fabtcg.com/card/perforate/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "plow_through": {
+      "id": "plow_through",
+      "name_zh": "碾压前行",
+      "name_en": "Plow Through",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量，以及“若此武器被攻击行动牌防御，它直到回合结束获得+1力量。”\n再动",
+      "text_en": "Your next weapon attack this turn gains +3{p} and \"If this weapon is defended by an attack action card, it gains +1{p} until end of turn.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/plow_through/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "point_of_engagement": {
+      "id": "point_of_engagement",
+      "name_zh": "交锋点",
+      "name_en": "Point of Engagement",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次匕首攻击获得+3力量。\n直到回合结束，当你攻击被标记的英雄时，你的攻击获得+1力量。\n再动",
+      "text_en": "Your next dagger attack this turn gets +3{p}.\nUntil end of turn, your attacks get +1{p} while attacking a marked hero.\nGo again",
+      "source": "https://cards.fabtcg.com/card/point_of_engagement/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "point_of_escalation": {
+      "id": "point_of_escalation",
+      "name_zh": "升级点",
+      "name_en": "Point of Escalation",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "你本回合每用该剑攻击一次，目标剑攻击获得+2力量。",
+      "text_en": "Target sword attack gets +2{p} for each time you've attacked with the sword this turn.",
+      "source": "https://cards.fabtcg.com/card/point_of_escalation/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "polished_blade": {
+      "id": "polished_blade",
+      "name_zh": "抛光之刃",
+      "name_en": "Polished Blade",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "作为使用此牌的额外费用，从当前链环上的一把攻击中的剑上移除1个或更多+1力量指示物。选择等量加1个模式：\n- 该剑的攻击获得再动。\n- 本回合你可以用该剑额外攻击一次。\n- 本回合你用该剑进行的下一次攻击启动费用减少1点资源。",
+      "text_en": "As an additional cost to play this, remove 1 or more +1{p} counters from an attacking sword on the active chain link. Choose that many modes plus 1:\n- The sword's attack gets go again.\n- You may attack an additional time with the sword this turn.\n- Your next attack with the sword this turn costs {r} less to activate.",
+      "source": "https://cards.fabtcg.com/card/polished_blade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "power_stance": {
+      "id": "power_stance",
+      "name_zh": "力量架势",
+      "name_en": "Power Stance",
+      "type_zh": "战士 行动·光环",
+      "text_zh": "再动\n在你的回合开始时，摧毁此牌，然后本回合你的匕首攻击获得+1力量。",
+      "text_en": "Go again\nAt the start of your turn, destroy this, then your dagger attacks get +1{p} this turn.",
+      "source": "https://cards.fabtcg.com/card/power_stance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "prayer_of_bellona": {
+      "id": "prayer_of_bellona",
+      "name_zh": "贝洛娜祈祷",
+      "name_en": "Prayer of Bellona",
+      "type_zh": "光 战士 行动",
+      "text_zh": "你本回合的下一次攻击获得+2力量。\n展示你牌库顶的一张牌。若其为黄色，将其置入你的手牌，然后为你的英雄的灵魂充能。\n再动",
+      "text_en": "Your next attack this turn gets +2{p}.\nReveal the top card of your deck. If it's yellow, put it into your hand, then charge your hero's soul.\nGo again",
+      "source": "https://cards.fabtcg.com/card/prayer_of_bellona/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "precision_press": {
+      "id": "precision_press",
+      "name_zh": "精准压制",
+      "name_en": "Precision Press",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑或匕首攻击具有再动和穿透3。\n再动",
+      "text_en": "Your next sword or dagger attack this turn has go again and piercing 3.\nGo again",
+      "source": "https://cards.fabtcg.com/card/precision_press/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "provoke": {
+      "id": "provoke",
+      "name_zh": "挑衅",
+      "name_en": "Provoke",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "若你在此链环中用武器攻击，防御英雄展示其手牌中的一张牌。若其为行动牌，将其作为防御牌加入此链环，否则该英雄弃掉它。",
+      "text_en": "If you're attacking with a weapon this chain link, the defending hero reveals a card from their hand. If it's an action card, add it to this chain link as a defending card, otherwise they discard it.",
+      "source": "https://cards.fabtcg.com/card/provoke/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "puncture": {
+      "id": "puncture",
+      "name_zh": "刺穿",
+      "name_en": "Puncture",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑或匕首攻击获得+3力量和穿透1。",
+      "text_en": "Target sword or dagger attack gains +3{p} and piercing 1.",
+      "source": "https://cards.fabtcg.com/card/puncture/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "push_forward": {
+      "id": "push_forward",
+      "name_zh": "向前推进",
+      "name_en": "Push Forward",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量。\n若本回合你用武器攻击过，你本回合的下一次攻击获得支配。\n再动",
+      "text_en": "Your next weapon attack this turn gets +3{p}.\nIf you've attacked with a weapon this turn, your next attack this turn gets dominate.\nGo again",
+      "source": "https://cards.fabtcg.com/card/push_forward/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "quicksilver_dagger": {
+      "id": "quicksilver_dagger",
+      "name_zh": "水银匕首",
+      "name_en": "Quicksilver Dagger",
+      "type_zh": "战士 武器·匕首 （单手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n若本回合你控制的另一把武器获得过再动，此牌的攻击获得再动。",
+      "text_en": "Once per Turn Action - {r}: Attack\nIf another weapon you control has gained go again this turn, this card's attacks get go again.",
+      "source": "https://cards.fabtcg.com/card/quicksilver_dagger/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "quicksilver_dance": {
+      "id": "quicksilver_dance",
+      "name_zh": "水银之舞",
+      "name_en": "Quicksilver Dance",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "从目标攻击中的武器上移除一个+1力量指示物。若如此做，创造一个剑舞衍生物并抽一张牌。",
+      "text_en": "Remove a +1{p} counter from target attacking weapon. If you do, create a Blade Dance token and draw a card.",
+      "source": "https://cards.fabtcg.com/card/quicksilver_dance/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "raise_an_army": {
+      "id": "raise_an_army",
+      "name_zh": "招募军队",
+      "name_en": "Raise an Army",
+      "type_zh": "战士 行动",
+      "text_zh": "卡赛专精\n作为使用此牌的额外费用，摧毁你控制的X个金币。\n创造X个辛塔里雇佣兵衍生物。\n再动",
+      "text_en": "Kassai Specialization\nAs an additional cost to play this, destroy X Gold you control.\nCreate X Cintari Sellsword tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/raise_an_army/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "raise_blades": {
+      "id": "raise_blades",
+      "name_zh": "举刃",
+      "name_en": "Raise Blades",
+      "type_zh": "战士 行动",
+      "text_zh": "抽一张牌。将你手牌中的一张牌置于你的牌库顶。\n你本回合的下一次剑攻击获得+3力量。\n再动",
+      "text_en": "Draw a card. Put a card from your hand on top of your deck.\nYour next sword attack this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/raise_blades/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "rake_back": {
+      "id": "rake_back",
+      "name_zh": "耙回",
+      "name_en": "Rake Back",
+      "type_zh": "战士 行动",
+      "text_zh": "你可以摧毁你控制的一个金币，而非支付此牌的费用。\n你本回合的下一次剑攻击获得+2力量，以及“当此牌攻击时，与防御英雄下注。胜者可以装备其坟场中的一张装备牌。”\n再动",
+      "text_en": "You may destroy a Gold you control rather than pay this card's {r} cost.\nYour next sword attack this turn gets +2{p} and \"When this attacks, wager with the defending hero. The winner may equip an equipment card from their graveyard.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/rake_back/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "raydn_duskbane": {
+      "id": "raydn_duskbane",
+      "name_zh": "雷登·暮仇",
+      "name_en": "Raydn, Duskbane",
+      "type_zh": "光 战士 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——费用0：攻击\n若本回合你充能过，雷登获得+3力量。",
+      "text_en": "Once per Turn Action - 0: Attack\nIf you've charged this turn, Raydn gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/raydn_duskbane/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "0",
+          "defense": null
+        }
+      }
+    },
+    "rend_flesh": {
+      "id": "rend_flesh",
+      "name_zh": "撕裂血肉",
+      "name_en": "Rend Flesh",
+      "type_zh": "战士 行动",
+      "text_zh": "直到回合结束，每当你控制的剑命中英雄时，你可以从其上移除一个+1力量指示物。若如此做，该英雄失去2点生命。\n再动",
+      "text_en": "Until end of turn, whenever a sword you control hits a hero, you may remove a +1{p} counter from it. If you do, they lose 2{h}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/rend_flesh/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "resounding_courage": {
+      "id": "resounding_courage",
+      "name_zh": "回响勇气",
+      "name_en": "Resounding Courage",
+      "type_zh": "光 战士 攻击反应",
+      "text_zh": "目标光战士攻击获得+3力量。\n若本回合你充能过，创造一个勇气衍生物。",
+      "text_en": "Target Light Warrior attack gets +3{p}.\nIf you've charged this turn, create a Courage token.",
+      "source": "https://cards.fabtcg.com/card/resounding_courage/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "rest_before_battle": {
+      "id": "rest_before_battle",
+      "name_zh": "战前休整",
+      "name_en": "Rest Before Battle",
+      "type_zh": "战士 行动·光环",
+      "text_zh": "仅当本回合你用武器攻击过时才能使用此牌。\n在你的回合开始时，摧毁此牌并抽一张牌。",
+      "text_en": "Play this only if you've attacked with a weapon this turn.\nAt the start of your turn, destroy this and draw a card.",
+      "source": "https://cards.fabtcg.com/card/rest_before_battle/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "rising_energy": {
+      "id": "rising_energy",
+      "name_zh": "能量上升",
+      "name_en": "Rising Energy",
+      "type_zh": "守护者·战士 行动·攻击",
+      "text_zh": "若本回合你抽过牌，此牌的使用费用减少1点资源。",
+      "text_en": "If you've drawn a card this turn, this costs {r} less to play.",
+      "source": "https://cards.fabtcg.com/card/rising_energy/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "rising_speed": {
+      "id": "rising_speed",
+      "name_zh": "速度上升",
+      "name_en": "Rising Speed",
+      "type_zh": "蛮将·战士 行动·攻击",
+      "text_zh": "若本回合你抽过牌，此牌获得再动。",
+      "text_en": "If you've drawn a card this turn, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/rising_speed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "roaring_beam": {
+      "id": "roaring_beam",
+      "name_zh": "轰鸣光束",
+      "name_en": "Roaring Beam",
+      "type_zh": "光 战士 攻击反应",
+      "text_zh": "创造一个勇气衍生物。\n若你的灵魂中没有牌，将此牌移回其拥有者的手牌，然后为你的灵魂充能。",
+      "text_en": "Create a Courage token.\nIf there are no cards in your soul, return this to its owner's hand, then charge your soul.",
+      "source": "https://cards.fabtcg.com/card/roaring_beam/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "rout": {
+      "id": "rout",
+      "name_zh": "溃败",
+      "name_en": "Rout",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量。\n重演——若防御英雄在此链环中用手牌中的牌防御过，你可以将目标非装备防御牌移回其拥有者的手牌。",
+      "text_en": "Target weapon attack gains +3{p}.\nReprise - If the defending hero has defended with a card from their hand this chain link, you may return target non-equipment defending card to its owners hand.",
+      "source": "https://cards.fabtcg.com/card/rout/",
+      "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "run_into_trouble": {
+      "id": "run_into_trouble",
+      "name_zh": "惹上麻烦",
+      "name_en": "Run into Trouble",
+      "type_zh": "蛮将·战士 阻挡",
+      "text_zh": "当此牌防御时，若你控制一个敏捷衍生物，对攻击英雄造成伤害。",
+      "text_en": "When this defends, if you control an Agility token, deal damage to the attacking hero.",
+      "source": "https://cards.fabtcg.com/card/run_into_trouble/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "run_through": {
+      "id": "run_through",
+      "name_zh": "贯穿",
+      "name_en": "Run Through",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得再动。\n你本回合的下一次剑攻击获得+3力量。",
+      "text_en": "Target sword attack gets go again.\nYour next sword attack this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/run_through/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "runner_runner": {
+      "id": "runner_runner",
+      "name_zh": "连续得手",
+      "name_en": "Runner Runner",
+      "type_zh": "蛮将·战士 行动·攻击",
+      "text_zh": "当此牌攻击时，若其具有再动，创造一个敏捷衍生物。",
+      "text_en": "When this attacks, if it has go again, create an Agility token.",
+      "source": "https://cards.fabtcg.com/card/runner_runner/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "saving_grace": {
+      "id": "saving_grace",
+      "name_zh": "救命恩典",
+      "name_en": "Saving Grace",
+      "type_zh": "光 战士 防御反应",
+      "text_zh": "作为使用此牌的额外费用，你可以为你的英雄的灵魂充能。\n若本回合你充能过，目标攻击获得-2力量。",
+      "text_en": "As an additional cost to play this, you may charge your hero's soul.\nIf you've charged this turn, target attack gets -2{p}.",
+      "source": "https://cards.fabtcg.com/card/saving_grace/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "savor_bloodshed": {
+      "id": "savor_bloodshed",
+      "name_zh": "品味杀戮",
+      "name_en": "Savor Bloodshed",
+      "type_zh": "刺客·战士 行动",
+      "text_zh": "你本回合的下一次匕首攻击获得+4力量。\n本回合你下一次用匕首命中被标记的英雄时，抽一张牌。\n再动",
+      "text_en": "Your next dagger attack this turn gets +4{p}.\nThe next time you hit a marked hero with a dagger this turn, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/savor_bloodshed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "scalding_iron": {
+      "id": "scalding_iron",
+      "name_zh": "灼热铁块",
+      "name_en": "Scalding Iron",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+X力量，X为你控制的龙裔链环数量。",
+      "text_en": "Target dagger attack gets +X{p}, where X is the number of Draconic chain links you control.",
+      "source": "https://cards.fabtcg.com/card/scalding_iron/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "scar_tissue": {
+      "id": "scar_tissue",
+      "name_zh": "疤痕组织",
+      "name_en": "Scar Tissue",
+      "type_zh": "刺客·战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+3力量，以及“当此牌命中英雄时，标记该英雄。”",
+      "text_en": "Target dagger attack gets +3{p} and \"When this hits a hero, mark them.\"",
+      "source": "https://cards.fabtcg.com/card/scar_tissue/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "searing_gaze": {
+      "id": "searing_gaze",
+      "name_zh": "灼烧凝视",
+      "name_en": "Searing Gaze",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+2力量。若你控制两个或更多龙裔链环，它获得“当此牌命中英雄时，标记该英雄。”",
+      "text_en": "Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, it gets \"When this hits a hero, mark them.\"",
+      "source": "https://cards.fabtcg.com/card/searing_gaze/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "second_swing": {
+      "id": "second_swing",
+      "name_zh": "第二次挥击",
+      "name_en": "Second Swing",
+      "type_zh": "战士 行动",
+      "text_zh": "若本回合你用武器攻击过，你本回合的下一次攻击获得+4力量。\n再动",
+      "text_en": "If you've attacked with a weapon this turn, your next attack this turn gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/second_swing/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sharp_incline": {
+      "id": "sharp_incline",
+      "name_zh": "陡峭磨砺",
+      "name_en": "Sharp Incline",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有1个或更多+1力量指示物，本回合你用它的下一次攻击启动费用减少1点资源。\n再动",
+      "text_en": "Sharpen target sword you control.\nIf it has 1 or more +1{p} counters, your next attack with it this turn costs {r} less to activate.\nGo again",
+      "source": "https://cards.fabtcg.com/card/sharp_incline/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sharp_n_shine": {
+      "id": "sharp_n_shine",
+      "name_zh": "磨亮",
+      "name_en": "Sharp 'n Shine",
+      "type_zh": "战士 行动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有1个或更多+1力量指示物，创造一个剑舞衍生物。\n再动",
+      "text_en": "Sharpen target sword you control.\nIf it has 1 or more +1{p} counters, create a Blade Dance token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/sharp_n_shine/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sharpen_steel": {
+      "id": "sharpen_steel",
+      "name_zh": "磨钢",
+      "name_en": "Sharpen Steel",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量。\n再动",
+      "text_en": "Your next weapon attack this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/sharpen_steel/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sharpened_senses": {
+      "id": "sharpened_senses",
+      "name_zh": "敏锐感知",
+      "name_en": "Sharpened Senses",
+      "type_zh": "Warior 行动·光环",
+      "text_zh": "再动\n你的武器攻击获得+1力量。若其力量大于其基础的两倍，它们获得再动。\n在你的结束阶段开始时，摧毁此牌。",
+      "text_en": "Go again\nYour weapon attacks get +1{p}. If their {p} is greater than twice their base, they get go again.\nAt the beginning of your end phase, destroy this.",
+      "source": "https://cards.fabtcg.com/card/sharpened_senses/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sharpening_sparks": {
+      "id": "sharpening_sparks",
+      "name_zh": "磨砺火花",
+      "name_en": "Sharpening Sparks",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得+2力量，以及“当此牌命中时，磨砺此剑。”",
+      "text_en": "Target sword attack gets +2{p} and \"When this hits, sharpen this sword.\"",
+      "source": "https://cards.fabtcg.com/card/sharpening_sparks/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "shatter": {
+      "id": "shatter",
+      "name_zh": "粉碎",
+      "name_en": "Shatter",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "直到回合结束，目标双手武器获得“每当此牌将造成力量伤害时，你可以改为摧毁目标防御装备，其防御小于以此方式将造成的伤害。”",
+      "text_en": "Until end of turn, target 2H weapon gains \"Whenever this would deal {p} damage, instead you may destroy target defending equipment with {d} less than the damage that would be dealt this way.",
+      "source": "https://cards.fabtcg.com/card/shatter/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "shatter_the_weakpoint": {
+      "id": "shatter_the_weakpoint",
+      "name_zh": "击破弱点",
+      "name_en": "Shatter the Weakpoint",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+4力量，以及“当此牌命中战士英雄时，摧毁其控制的防御为0的一件装备。”\n再动",
+      "text_en": "Your next sword attack this turn gets +4{p} and \"When this hits a Warrior hero, destroy an equipment they control with 0{d}.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/shatter_the_weakpoint/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "shift_the_tide_of_battle": {
+      "id": "shift_the_tide_of_battle",
+      "name_zh": "扭转战局",
+      "name_en": "Shift the Tide of Battle",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标力量大于其基础的战士攻击获得再动。\n本回合对手英雄下一次受到伤害时，创造一个敏捷衍生物。",
+      "text_en": "Target Warrior attack with {p} greater than its base gets go again.\nThe next time an opposing hero is dealt damage this turn, create an Agility token.",
+      "source": "https://cards.fabtcg.com/card/shift_the_tide_of_battle/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "shimmer_of_the_blade": {
+      "id": "shimmer_of_the_blade",
+      "name_zh": "剑刃微光",
+      "name_en": "Shimmer of the Blade",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量。\n瞬间——弃掉此牌：创造一个剑舞衍生物。",
+      "text_en": "Target weapon attack gets +3{p}.\nInstant - Discard this: Create a Blade Dance token.",
+      "source": "https://cards.fabtcg.com/card/shimmer_of_the_blade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "shove_off": {
+      "id": "shove_off",
+      "name_zh": "推开",
+      "name_en": "Shove Off",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "选择一张防御你控制的剑攻击的非装备牌。将其移回其拥有者的手牌。",
+      "text_en": "Choose a non-equipment card defending a sword attack you control. Return it to its owner's hand.",
+      "source": "https://cards.fabtcg.com/card/shove_off/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "showdown": {
+      "id": "showdown",
+      "name_zh": "摊牌",
+      "name_en": "Showdown",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+3力量，以及“当此牌攻击时，与防御英雄下注。胜者创造一个连击衍生物。”\n再动",
+      "text_en": "Your next sword attack this turn gets +3{p} and \"When this attacks, wager with the defending hero. The winner creates a Flurry token.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/showdown/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "shuck": {
+      "id": "shuck",
+      "name_zh": "剥壳",
+      "name_en": "Shuck",
+      "type_zh": "战士 行动",
+      "text_zh": "创造一个连击衍生物。",
+      "text_en": "Create a Flurry token.",
+      "source": "https://cards.fabtcg.com/card/shuck/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "silverdrop_downpour": {
+      "id": "silverdrop_downpour",
+      "name_zh": "银珠倾泻",
+      "name_en": "Silverdrop Downpour",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+4力量。\n若该武器本回合被磨砺过，此牌的使用费用减少1点资源。",
+      "text_en": "Target weapon attack gets +4{p}.\nIf the weapon has been sharpened this turn, this costs {r} less to play.",
+      "source": "https://cards.fabtcg.com/card/silverdrop_downpour/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "singing_steelblade": {
+      "id": "singing_steelblade",
+      "name_zh": "歌唱钢刃",
+      "name_en": "Singing Steelblade",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "多琳茜娅专精\n目标武器攻击获得+1力量。\n重演——若防御英雄在此链环中用手牌中的牌防御过，从你的牌库中搜寻一张攻击反应牌，正面朝上放逐它，然后洗牌。此链环中你可以使用它。",
+      "text_en": "Dorinthea Specialization\nTarget weapon attack gains +1{p}.\nReprise - If the defending hero has defended with a card from hand this chain link, search your deck for an attack reaction card, banish it face up, then shuffle your deck. You may play it this chain link.",
+      "source": "https://cards.fabtcg.com/card/singing_steelblade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sisters_of_fire": {
+      "id": "sisters_of_fire",
+      "name_zh": "火焰姐妹",
+      "name_en": "Sisters of Fire",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "仅当你控制两个或更多龙裔链环时才能使用此牌。\n目标匕首攻击获得+3力量。",
+      "text_en": "Play this only if you control 2 or more Draconic chain links.\nTarget dagger attack gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/sisters_of_fire/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sizzling_steel": {
+      "id": "sizzling_steel",
+      "name_zh": "咝咝热铁",
+      "name_en": "Sizzling Steel",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+3力量。若你控制两个或更多龙裔链环，改为其获得+4力量。",
+      "text_en": "Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, instead it gets +4{p}.",
+      "source": "https://cards.fabtcg.com/card/sizzling_steel/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "slap_happy": {
+      "id": "slap_happy",
+      "name_zh": "拍手称快",
+      "name_en": "Slap-Happy",
+      "type_zh": "守护者·战士 瞬间",
+      "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。若如此做，创造一个活力衍生物。",
+      "text_en": "The next time you would be dealt damage this turn, prevent 2 of that damage. If you do, create a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/slap_happy/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "slice_and_dice": {
+      "id": "slice_and_dice",
+      "name_zh": "切片切丁",
+      "name_en": "Slice and Dice",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的第一次剑或匕首攻击获得+1力量。\n你本回合的第二次剑或匕首攻击获得+3力量。\n再动",
+      "text_en": "Your first sword or dagger attack this turn gets +1{p}.\nYour second sword or dagger attack this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/slice_and_dice/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "slice_up": {
+      "id": "slice_up",
+      "name_zh": "切片",
+      "name_en": "Slice Up",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得“当此牌命中英雄时，你可以从此武器上移除一个+1力量指示物。若如此做，该英雄弃一张牌。”",
+      "text_en": "Target weapon attack gets \"When this hits a hero, you may remove a +1{p} counter from this weapon. If you do, they discard a card.\"",
+      "source": "https://cards.fabtcg.com/card/slice_up/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "small_blinder": {
+      "id": "small_blinder",
+      "name_zh": "小盲击",
+      "name_en": "Small Blinder",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标剑攻击获得+4力量，并与防御英雄下注。胜者创造一个剑舞衍生物。",
+      "text_en": "Target sword attack gets +4{p} and wagers with the defending hero. The winner creates a Blade Dance token.",
+      "source": "https://cards.fabtcg.com/card/small_blinder/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "smoldering_steel": {
+      "id": "smoldering_steel",
+      "name_zh": "闷燃钢铁",
+      "name_en": "Smoldering Steel",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+1力量，以及“当此牌命中英雄时，对其造成1点伤害。”\n当此牌在你坟场中时，若1个或更多霜咬衍生物将在你的控制下被创造，你可以改为放逐此牌。",
+      "text_en": "Target dagger attack gets +1{p} and \"When this hits a hero, deal 1 damage to them.\"\nWhile this is in your graveyard, if 1 or more Frostbite tokens would be created under your control, instead you may banish this.",
+      "source": "https://cards.fabtcg.com/card/smoldering_steel/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "spill_blood": {
+      "id": "spill_blood",
+      "name_zh": "洒血",
+      "name_en": "Spill Blood",
+      "type_zh": "战士 行动",
+      "text_zh": "你控制的斧直到回合结束获得+2力量和支配。\n再动",
+      "text_en": "Axes you control gain +2{p} and dominate until end of turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/spill_blood/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "spirit_of_eirina": {
+      "id": "spirit_of_eirina",
+      "name_zh": "艾丽娜之灵",
+      "name_en": "Spirit of Eirina",
+      "type_zh": "光 战士 行动·物品",
+      "text_zh": "传奇\n若艾丽娜之灵将被置入你的灵魂，改为将其放入竞技场。\n你可以将卢米娜升阶当作瞬间使用。",
+      "text_en": "Legendary\nIf Spirit of Eirina would be put into your soul, instead put it into the arena.\nYou may play Lumina Ascension as though it were an instant.",
+      "source": "https://cards.fabtcg.com/card/spirit_of_eirina/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "spirit_of_war": {
+      "id": "spirit_of_war",
+      "name_zh": "战争之灵",
+      "name_en": "Spirit of War",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，你可以为你的英雄的灵魂充能。\n若以此方式充能的是黄色牌，本战斗链中每当攻击行动牌命中时，创造一个勇气衍生物。",
+      "text_en": "As an additional cost to play this, you may charge your hero's soul.\nIf a yellow card is charged this way, whenever an attack action card hits this combat chain, create a Courage token.",
+      "source": "https://cards.fabtcg.com/card/spirit_of_war/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "spoils_of_war": {
+      "id": "spoils_of_war",
+      "name_zh": "战利品",
+      "name_en": "Spoils of War",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+2力量和再动。\n本回合每当你控制的武器命中时，创造2个铜币衍生物。\n再动",
+      "text_en": "Your next weapon attack this turn gains +2{p} and go again.\nWhenever a weapon you control hits this turn, create 2 Copper tokens.\nGo again",
+      "source": "https://cards.fabtcg.com/card/spoils_of_war/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "stabbing_pain": {
+      "id": "stabbing_pain",
+      "name_zh": "刺痛",
+      "name_en": "Stabbing Pain",
+      "type_zh": "龙裔 战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+3力量。若你控制两个或更多龙裔链环，它获得“当此牌命中英雄时，标记该英雄。”",
+      "text_en": "Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, it gets \"When this hits a hero, mark them.\"",
+      "source": "https://cards.fabtcg.com/card/stabbing_pain/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "stand_tall": {
+      "id": "stand_tall",
+      "name_zh": "昂首挺立",
+      "name_en": "Stand Tall",
+      "type_zh": "战士 阻挡",
+      "text_zh": "当此牌防御时，此链环中每当攻击英雄使用或启动反应时，此牌获得+2力量。",
+      "text_en": "While this is defending, whenever the attacking hero plays or activates a reaction this chain link, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/stand_tall/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "steel_on_steel": {
+      "id": "steel_on_steel",
+      "name_zh": "钢对钢",
+      "name_en": "Steel on Steel",
+      "type_zh": "战士 防御反应",
+      "text_zh": "当此牌防御武器攻击时，此牌获得+1防御。",
+      "text_en": "While this is defending a weapon attack, this gets +1{d}.",
+      "source": "https://cards.fabtcg.com/card/steel_on_steel/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "steel_to_the_dome": {
+      "id": "steel_to_the_dome",
+      "name_zh": "当头一钢",
+      "name_en": "Steel to the Dome",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+4力量，以及“当此牌命中战士英雄时，该英雄弃一张牌。”\n再动",
+      "text_en": "Your next sword attack this turn gets +4{p} and \"When this hits a Warrior hero, they discard a card.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/steel_to_the_dome/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "steelblade_shunt": {
+      "id": "steelblade_shunt",
+      "name_zh": "钢刃分流",
+      "name_en": "Steelblade Shunt",
+      "type_zh": "战士 防御反应",
+      "text_zh": "若钢刃分流防御武器攻击，对攻击英雄造成1点伤害。",
+      "text_en": "If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.",
+      "source": "https://cards.fabtcg.com/card/steelblade_shunt/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "6"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "5"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "steelblade_supremacy": {
+      "id": "steelblade_supremacy",
+      "name_zh": "钢刃至高",
+      "name_en": "Steelblade Supremacy",
+      "type_zh": "战士 行动",
+      "text_zh": "多琳茜娅专精\n直到回合结束，目标武器获得+2力量，以及“每当此武器命中时，抽一张牌。”\n再动",
+      "text_en": "Dorinthea Specialization\nUntil end of turn, target weapon gains +2{p} and \"Whenever this weapon hits, draw a card.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/steelblade_supremacy/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "stroke_of_foresight": {
+      "id": "stroke_of_foresight",
+      "name_zh": "先见之击",
+      "name_en": "Stroke of Foresight",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量。\n重演——若防御英雄在此链环中用手牌中的牌防御过，抽一张牌，然后将你手牌中的一张牌置于你的牌库顶或底。",
+      "text_en": "Target weapon attack gains +3{p}.\nReprise - If the defending hero has defended with a card from their hand this chain link, draw a card, then put a card from your hand on the top or bottom of your deck.",
+      "source": "https://cards.fabtcg.com/card/stroke_of_foresight/",
+      "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "swordmasters_path": {
+      "id": "swordmasters_path",
+      "name_zh": "剑圣之路",
+      "name_en": "Swordmaster's Path",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+3力量。\n本回合你下一次将磨砺一把剑时，改为额外磨砺一次。\n再动",
+      "text_en": "Your next sword attack this turn gets +3{p}.\nThe next time you would sharpen a sword this turn, instead sharpen it an additional time.\nGo again",
+      "source": "https://cards.fabtcg.com/card/swordmasters_path/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "swordmasters_shine": {
+      "id": "swordmasters_shine",
+      "name_zh": "剑圣荣光",
+      "name_en": "Swordmaster's Shine",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "你控制的剑上每有一个+1力量指示物，此牌的使用费用减少1点资源。\n目标武器攻击获得+5力量。",
+      "text_en": "This costs {r} less to play for each +1{p} counter on swords you control.\nTarget weapon attack gets +5{p}.",
+      "source": "https://cards.fabtcg.com/card/swordmasters_shine/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "sworn_vengeance": {
+      "id": "sworn_vengeance",
+      "name_zh": "誓仇",
+      "name_en": "Sworn Vengeance",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次匕首攻击获得+3力量，以及“当此牌命中英雄时，标记该英雄。”\n再动",
+      "text_en": "Your next dagger attack this turn gets +3{p} and \"When this hits a hero, mark them.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/sworn_vengeance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "take_a_stab": {
+      "id": "take_a_stab",
+      "name_zh": "捅一刀",
+      "name_en": "Take a Stab",
+      "type_zh": "刺客·战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+3力量，以及“当此牌命中被标记的英雄时，本回合你可以用它额外攻击一次。”",
+      "text_en": "Target dagger attack gets +3{p} and \"When this hits a marked hero, you may attack with it an additional time this turn.\"",
+      "source": "https://cards.fabtcg.com/card/take_a_stab/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "take_flight": {
+      "id": "take_flight",
+      "name_zh": "起飞",
+      "name_en": "Take Flight",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "作为使用起飞的额外费用，你可以为你的英雄的灵魂充能。\n若本回合你充能过，起飞获得再动。",
+      "text_en": "As an additional cost to play Take Flight, you may charge your hero's soul.\nIf you've charged this turn, Take Flight gains go again.",
+      "source": "https://cards.fabtcg.com/card/take_flight/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "take_it_on_the_chin": {
+      "id": "take_it_on_the_chin",
+      "name_zh": "硬扛",
+      "name_en": "Take it on the Chin",
+      "type_zh": "蛮将·战士 瞬间",
+      "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。若如此做，创造一个敏捷衍生物。",
+      "text_en": "The next time you would be dealt damage this turn, prevent 2 of that damage. If you do, create an Agility token.",
+      "source": "https://cards.fabtcg.com/card/take_it_on_the_chin/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "take_the_lead": {
+      "id": "take_the_lead",
+      "name_zh": "领先",
+      "name_en": "Take the Lead",
+      "type_zh": "战士 瞬间",
+      "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。若你以此方式防止伤害，创造一个剑舞衍生物。",
+      "text_en": "The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Blade Dance token.",
+      "source": "https://cards.fabtcg.com/card/take_the_lead/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "take_the_upper_hand": {
+      "id": "take_the_upper_hand",
+      "name_zh": "占上风",
+      "name_en": "Take the Upper Hand",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "仅当此链环中你已下注时才能使用此牌。\n目标攻击获得+3力量。",
+      "text_en": "Play this only if you've wagered this chain link.\nTarget attack gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/take_the_upper_hand/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "terms_of_combat": {
+      "id": "terms_of_combat",
+      "name_zh": "战斗条款",
+      "name_en": "Terms of Combat",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+4力量，以及“此链环中每当防御反应被使用或启动时，抽一张牌。”\n再动",
+      "text_en": "Your next weapon attack this turn gets +4{p} and \"Whenever a defense reaction is played or activated this chain link, draw a card.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/terms_of_combat/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "test_of_agility": {
+      "id": "test_of_agility",
+      "name_zh": "敏捷考验",
+      "name_en": "Test of Agility",
+      "type_zh": "蛮将·战士 阻挡",
+      "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个敏捷衍生物。",
+      "text_en": "When this defends, clash with the attacking hero. The winner creates an Agility token.",
+      "source": "https://cards.fabtcg.com/card/test_of_agility/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "test_of_vigor": {
+      "id": "test_of_vigor",
+      "name_zh": "活力考验",
+      "name_en": "Test of Vigor",
+      "type_zh": "守护者·战士 阻挡",
+      "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个活力衍生物。",
+      "text_en": "When this defends, clash with the attacking hero. The winner creates a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/test_of_vigor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "to_the_point": {
+      "id": "to_the_point",
+      "name_zh": "直击要害",
+      "name_en": "To the Point",
+      "type_zh": "刺客·战士 攻击反应",
+      "text_zh": "目标匕首攻击获得+3力量。若防御英雄已被标记，改为其获得+4力量。",
+      "text_en": "Target dagger attack gets +3{p}. If the defending hero is marked, instead it gets +4{p}.",
+      "source": "https://cards.fabtcg.com/card/to_the_point/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "toe_the_line": {
+      "id": "toe_the_line",
+      "name_zh": "循规蹈矩",
+      "name_en": "Toe the Line",
+      "type_zh": "战士 瞬间",
+      "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。若你以此方式防止伤害，创造一个连击衍生物。",
+      "text_en": "The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Flurry token.",
+      "source": "https://cards.fabtcg.com/card/toe_the_line/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "twinning_blade": {
+      "id": "twinning_blade",
+      "name_zh": "孪生之刃",
+      "name_en": "Twinning Blade",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "本回合你可以用目标剑额外攻击一次。",
+      "text_en": "You may attack an additional time with target sword this turn.",
+      "source": "https://cards.fabtcg.com/card/twinning_blade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "twist_and_turn": {
+      "id": "twist_and_turn",
+      "name_zh": "迂回",
+      "name_en": "Twist and Turn",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次匕首攻击获得+4力量，以及“当此牌命中时，本回合你可以用它额外攻击一次。”\n再动",
+      "text_en": "Your next dagger attack this turn gets +4{p} and \"When this hits, you may attack with it an additional time this turn.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/twist_and_turn/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "unified_decree": {
+      "id": "unified_decree",
+      "name_zh": "统一法令",
+      "name_en": "Unified Decree",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标武器攻击获得+3力量。\n重演——若防御英雄在此链环中用手牌中的牌防御过，查看你牌库顶的一张牌。若其为攻击反应牌，你可以放逐它。若如此做，本战斗链中你可以使用它。",
+      "text_en": "Target weapon attack gains +3{p}.\nReprise - If the defending hero has defended with a card from their hand this chain link, look at the top card of your deck. If it's an attack reaction card, you may banish it. If you do, you may play it this combat chain.",
+      "source": "https://cards.fabtcg.com/card/unified_decree/",
+      "status": "machine-draft",
+      "keywords": [
+        "Reprise"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "unsheathed": {
+      "id": "unsheathed",
+      "name_zh": "出鞘",
+      "name_en": "Unsheathed",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次剑攻击获得+3力量，以及“当此牌攻击时，若其力量大于其基础的两倍，它获得再动。”\n再动",
+      "text_en": "Your next sword attack this turn gets +3{p} and \"When this attacks, if its {p} is greater than twice its base, it gets go again.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/unsheathed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "up_the_ante": {
+      "id": "up_the_ante",
+      "name_zh": "提高赌注",
+      "name_en": "Up the Ante",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "奥林匹亚专精\n选择X+1个；\n- 目标攻击与防御英雄以一个敏捷衍生物下注。\n- 目标攻击与防御英雄以一个金币衍生物下注。\n- 目标攻击与防御英雄以一个活力衍生物下注。\n- 目标攻击获得+Y力量，Y为其已下注的次数。",
+      "text_en": "Olympia Specialization\nChoose X+1;\n- Target attack wagers an Agility token with the defending hero.\n- Target attack wagers a Gold token with the defending hero.\n- Target attack wagers a Vigor token with the defending hero.\n- Target attack gets +Y{p}, where Y is the number of times it has wagered.",
+      "source": "https://cards.fabtcg.com/card/up_the_ante/",
+      "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "X",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "v_for_valor": {
+      "id": "v_for_valor",
+      "name_zh": "勇气的V",
+      "name_en": "V for Valor",
+      "type_zh": "光 战士 行动·光环",
+      "text_zh": "攻击反应——支付1点资源，摧毁此牌，为你的英雄的灵魂充能：目标攻击获得+3力量。",
+      "text_en": "Attack Reaction - {r}, destroy this, charge your hero's soul: Target attack gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/v_for_valor/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "v_of_the_vanguard": {
+      "id": "v_of_the_vanguard",
+      "name_zh": "先锋之V",
+      "name_en": "V of the Vanguard",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "博尔廷专精\n作为使用先锋之V的额外费用，你可以为你的英雄的灵魂充能任意次数。\n本战斗链上的攻击每有一张以此方式充能的光牌，获得+1力量。",
+      "text_en": "Boltyn Specialization\nAs an additional cost to play V of the Vanguard, you may charge your hero's soul any number of times.\nAttacks on this combat chain gain +1{p} for each Light card charged this way.",
+      "source": "https://cards.fabtcg.com/card/v_of_the_vanguard/",
+      "status": "machine-draft",
+      "keywords": [
+        "Charge"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "valiant_thrust": {
+      "id": "valiant_thrust",
+      "name_zh": "勇猛突刺",
+      "name_en": "Valiant Thrust",
+      "type_zh": "光 战士 行动·攻击",
+      "text_zh": "若本回合你充能过，勇猛突刺获得+3力量。",
+      "text_en": "If you've charged this turn, Valiant Thrust gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/valiant_thrust/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "vigorous_engagement": {
+      "id": "vigorous_engagement",
+      "name_zh": "强健交锋",
+      "name_en": "Vigorous Engagement",
+      "type_zh": "战士 攻击反应",
+      "text_zh": "目标战士攻击获得+3力量。若其被攻击行动牌防御，创造一个活力衍生物。",
+      "text_en": "Target Warrior attack gets +3{p}. If it's defended by an attack action card, create a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/vigorous_engagement/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "vigorous_windup": {
+      "id": "vigorous_windup",
+      "name_zh": "强健蓄势",
+      "name_en": "Vigorous Windup",
+      "type_zh": "守护者·战士 行动·攻击",
+      "text_zh": "瞬间——弃掉此牌：创造一个活力衍生物。",
+      "text_en": "Instant - Discard this: Create a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/vigorous_windup/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "visit_the_dawnsmith": {
+      "id": "visit_the_dawnsmith",
+      "name_zh": "拜访黎明铁匠",
+      "name_en": "Visit the Dawnsmith",
+      "type_zh": "战士 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁此牌并磨砺你控制的所有剑。",
+      "text_en": "At the start of your turn, destroy this and sharpen all swords you control.",
+      "source": "https://cards.fabtcg.com/card/visit_the_dawnsmith/",
+      "status": "machine-draft",
+      "keywords": [
+        "Sharpen"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "visit_the_golden_anvil": {
+      "id": "visit_the_golden_anvil",
+      "name_zh": "拜访金砧",
+      "name_en": "Visit the Golden Anvil",
+      "type_zh": "战士 行动",
+      "text_zh": "奥林匹亚专精\n作为使用此牌的额外费用，摧毁你控制的X个金币。\n从你的物品栏装备X件武器和/或装备。",
+      "text_en": "Olympia Specialization\nAs an additional cost to play this, destroy X Gold you control.\nEquip X weapons and/or equipment from your inventory.",
+      "source": "https://cards.fabtcg.com/card/visit_the_golden_anvil/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "visit_the_imperial_forge": {
+      "id": "visit_the_imperial_forge",
+      "name_zh": "拜访帝国熔炉",
+      "name_en": "Visit the Imperial Forge",
+      "type_zh": "战士 行动",
+      "text_zh": "本回合剑和匕首攻击具有穿透3。\n再动",
+      "text_en": "Sword and dagger attacks have piercing 3 this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/visit_the_imperial_forge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "visit_the_prize_room": {
+      "id": "visit_the_prize_room",
+      "name_zh": "拜访奖赏室",
+      "name_en": "Visit the Prize Room",
+      "type_zh": "战士 行动",
+      "text_zh": "奥林匹亚专精\n你可以摧毁你控制的一个金币。若如此做，从你的物品栏装备一件珍品头盔。\n创造一个活力和一个勇气衍生物。再动",
+      "text_en": "Olympia Specialization\nYou may destroy a Gold you control. If you do, equip a Prized Galea from your inventory.\nCreate a Vigor and a Courage token. Go again",
+      "source": "https://cards.fabtcg.com/card/visit_the_prize_room/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "wage_agility": {
+      "id": "wage_agility",
+      "name_zh": "押上敏捷",
+      "name_en": "Wage Agility",
+      "type_zh": "蛮将·战士 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，你可以与该英雄以一个敏捷衍生物下注。",
+      "text_en": "When this attacks a hero, you may wager an Agility token with them.",
+      "source": "https://cards.fabtcg.com/card/wage_agility/",
+      "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "wage_vigor": {
+      "id": "wage_vigor",
+      "name_zh": "押上活力",
+      "name_en": "Wage Vigor",
+      "type_zh": "守护者·战士 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，你可以与该英雄以一个活力衍生物下注。",
+      "text_en": "When this attacks a hero, you may wager a Vigor token with them.",
+      "source": "https://cards.fabtcg.com/card/wage_vigor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Wager"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "war_cry_of_bellona": {
+      "id": "war_cry_of_bellona",
+      "name_zh": "贝洛娜战吼",
+      "name_en": "War Cry of Bellona",
+      "type_zh": "光 战士 攻击反应",
+      "text_zh": "本回合目标雷登获得+2力量。\n瞬间——弃掉此牌，放逐你灵魂中的X张牌：本回合目标武器下一次对你造成X点或更少的伤害时，对其操控者造成等量伤害，且该伤害不能被防止。",
+      "text_en": "Target Raydn gets +2{p} this turn.\nInstant - Discard this, banish X cards from your soul: The next time target weapon deals X or less damage to you this turn, deal that much damage to its controller and that damage can't be prevented.",
+      "source": "https://cards.fabtcg.com/card/war_cry_of_bellona/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "warriors_valor": {
+      "id": "warriors_valor",
+      "name_zh": "战士之勇",
+      "name_en": "Warrior's Valor",
+      "type_zh": "战士 行动",
+      "text_zh": "你本回合的下一次武器攻击获得+3力量，以及“当此牌命中时，它获得再动。”\n再动",
+      "text_en": "Your next weapon attack this turn gets +3{p} and \"When this hits, it gets go again.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/warriors_valor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "zenith_blade": {
+      "id": "zenith_blade",
+      "name_zh": "天顶之刃",
+      "name_en": "Zenith Blade",
+      "type_zh": "战士 武器·剑 （双手）",
+      "text_zh": "哈拉专精\n每回合一次行动——支付1点资源：攻击\n若此牌本回合被磨砺过，本回合它的第一次攻击获得再动。",
+      "text_en": "Hala Specialization\nOnce per Turn Action - {r}: Attack\nIf this has been sharpened this turn, its first attack this turn gets go again.",
+      "source": "https://cards.fabtcg.com/card/zenith_blade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    }
+  }
+}

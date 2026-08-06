@@ -1,0 +1,4050 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "10_000_year_reunion": {
+      "id": "10_000_year_reunion",
+      "name_zh": "万年重聚",
+      "name_en": "10,000 Year Reunion",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "你可以从你控制的光环中移除三个+1力量指示物，而非支付万年重聚的费用。\n结界10",
+      "text_en": "You may remove three +1{p} counters from among auras you control rather than pay 10,000 Year Reunion's {r} cost.\nWard 10",
+      "source": "https://cards.fabtcg.com/card/10_000_year_reunion/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 10"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "8",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "aether_ashwing": {
+      "id": "aether_ashwing",
+      "name_zh": "以太灰翼",
+      "name_en": "Aether Ashwing",
+      "type_zh": "龙裔 幻术师 衍生物·Dragon Ally",
+      "text_zh": "秘法屏障1",
+      "text_en": "Arcane Barrier 1",
+      "source": "https://cards.fabtcg.com/card/aether_ashwing/",
+      "status": "machine-draft",
+      "keywords": [
+        "Arcane Barrier 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "angelic_attendant": {
+      "id": "angelic_attendant",
+      "name_zh": "天使侍从",
+      "name_en": "Angelic Attendant",
+      "type_zh": "光 幻术师 行动",
+      "text_zh": "唤醒你控制的目标幻象。\n将此牌置入你的灵魂。\n再动",
+      "text_en": "Awaken target figment you control.\nPut this into your soul.\nGo again",
+      "source": "https://cards.fabtcg.com/card/angelic_attendant/",
+      "status": "machine-draft",
+      "keywords": [
+        "Awaken",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "angelic_descent": {
+      "id": "angelic_descent",
+      "name_zh": "天使降临",
+      "name_en": "Angelic Descent",
+      "type_zh": "光 幻术师 瞬间",
+      "text_zh": "目标名称中含有先驱者的攻击行动牌获得再动。\n你本回合的下一次天使攻击获得+3力量。",
+      "text_en": "Target attack action card with Herald in its name gets go again.\nYour next angel attack this turn gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/angelic_descent/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "angelic_wrath": {
+      "id": "angelic_wrath",
+      "name_zh": "天使之怒",
+      "name_en": "Angelic Wrath",
+      "type_zh": "光 幻术师 瞬间",
+      "text_zh": "目标名称中含有先驱者的攻击行动牌获得+4力量。",
+      "text_en": "Target attack action card with Herald in its name gets +4{p}",
+      "source": "https://cards.fabtcg.com/card/angelic_wrath/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "aphrodias": {
+      "id": "aphrodias",
+      "name_zh": "阿佛洛狄亚",
+      "name_en": "Aphrodias",
+      "type_zh": "闪电 幻术师 武器·Orb （双手）",
+      "text_zh": "瞬间——支付1点资源，横置此牌：对目标英雄造成2点秘法伤害。仅当本回合有带全息指示物的光环在你控制下进入竞技场时才能启动此异能。",
+      "text_en": "Instant - {r}, {t}: Deal 2 arcane damage to target hero. Activate this only if an aura with a holo counter has entered the arena under your control this turn.",
+      "source": "https://cards.fabtcg.com/card/aphrodias/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "arc_light_sentinel": {
+      "id": "arc_light_sentinel",
+      "name_zh": "弧光哨兵",
+      "name_en": "Arc Light Sentinel",
+      "type_zh": "光 幻术师 瞬间·光环",
+      "text_zh": "棱镜专精\n若能够，对手必须选择此牌作为攻击的目标。\n幻尊",
+      "text_en": "Prism Specialization\nOpponents must choose this as the target of attacks if able.\nSpectra",
+      "source": "https://cards.fabtcg.com/card/arc_light_sentinel/",
+      "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "6",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "ash": {
+      "id": "ash",
+      "name_zh": "灰烬",
+      "name_en": "Ash",
+      "type_zh": "龙裔 幻术师 衍生物·Ash",
+      "text_zh": "材料——当灰烬位于某个物体之下时，该物体具有虚击。",
+      "text_en": "Material - While Ash is under an object, that object has phantasm.",
+      "source": "https://cards.fabtcg.com/card/ash/",
+      "status": "machine-draft",
+      "keywords": [
+        "Material"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "astral_etchings": {
+      "id": "astral_etchings",
+      "name_zh": "星界蚀刻",
+      "name_en": "Astral Etchings",
+      "type_zh": "幻术师 行动",
+      "text_zh": "在你控制的具有结界的目标光环上放置三个+1力量指示物。\n若你控制一个幻质护盾，你可以将此牌当作瞬间使用。",
+      "text_en": "Put three +1{p} counters on target aura with ward you control.\nIf you control a Spectral Shield, you may play this as though it were an instant.",
+      "source": "https://cards.fabtcg.com/card/astral_etchings/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "auric_shards": {
+      "id": "auric_shards",
+      "name_zh": "金色碎片",
+      "name_en": "Auric Shards",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌进入竞技场时，至多1个目标具有碎片的攻击获得+1力量。若此牌带有一个全息指示物，改为该攻击获得+4力量。\n结界1",
+      "text_en": "When this enters the arena, up to 1 target attack with fragment gets +1{p}. If this has a holo counter, instead the attack gets +4{p}.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/auric_shards/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "azvolai": {
+      "id": "azvolai",
+      "name_zh": "阿兹沃莱",
+      "name_en": "Azvolai",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "每当阿兹沃莱攻击时，你可以让他对至多任意2个目标各造成1点秘法伤害。",
+      "text_en": "Whenever Azvolai attacks, you may have him deal 1 arcane damage to up to any 2 targets.",
+      "source": "https://cards.fabtcg.com/card/azvolai/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "billowing_mirage": {
+      "id": "billowing_mirage",
+      "name_zh": "翻涌幻景",
+      "name_en": "Billowing Mirage",
+      "type_zh": "龙裔 幻术师 行动·攻击",
+      "text_zh": "当你用翻涌幻景攻击时，将你控制的至多1个灰烬转化为以太灰翼。\n再动",
+      "text_en": "When you attack with Billowing Mirage, transform up to 1 ash you control into an Aether Ashwing.\nGo again",
+      "source": "https://cards.fabtcg.com/card/billowing_mirage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "blessing_of_spirits": {
+      "id": "blessing_of_spirits",
+      "name_zh": "灵魂祝福",
+      "name_en": "Blessing of Spirits",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁灵魂祝福，然后创造3个幻质护盾衍生物。\n结界1",
+      "text_en": "At the start of your turn, destroy Blessing of Spirits then create 3 Spectral Shield tokens.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/blessing_of_spirits/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "blink_of_an_eye": {
+      "id": "blink_of_an_eye",
+      "name_zh": "眨眼之间",
+      "name_en": "Blink of an Eye",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "每当此牌碎片化时，你可以放逐你控制的一个没有全息指示物的闪电光环永久物，然后将其带有一个全息指示物地移回竞技场。\n碎片",
+      "text_en": "Whenever this fragments, you may banish a Lightning aura permanent you control with no holo counters, then return it to the arena with a holo counter.\nFragment",
+      "source": "https://cards.fabtcg.com/card/blink_of_an_eye/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "blur_reality": {
+      "id": "blur_reality",
+      "name_zh": "模糊现实",
+      "name_en": "Blur Reality",
+      "type_zh": "闪电, 幻术师, 瞬间",
+      "text_zh": "放逐你控制的一个没有全息指示物的闪电光环永久物，然后将其带有一个全息指示物地移回竞技场。",
+      "text_en": "Banish a Lightning aura permanent you control with no holo counters, then return it to the arena with a holo counter.",
+      "source": "https://cards.fabtcg.com/card/blur_reality/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "burn_them_all": {
+      "id": "burn_them_all",
+      "name_zh": "焚尽一切",
+      "name_en": "Burn Them All",
+      "type_zh": "龙裔 幻术师 行动·光环",
+      "text_zh": "再动\n每回合一次，当你控制的龙攻击时，它对每位对手英雄造成1点秘法伤害。\n在你的结束阶段开始时，在焚尽一切上放置一个焚毁指示物，然后除非你为其上的每个焚毁指示物将一张红色牌从你的坟场放逐，否则摧毁它。",
+      "text_en": "Go again\nOnce per turn, when a dragon you control attacks, it deals 1 arcane damage to each opposing hero.\nAt the beginning of your end phase, put a raze counter on Burn Them All then destroy it unless you banish red card from your graveyard for each raze counter on it.",
+      "source": "https://cards.fabtcg.com/card/burn_them_all/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "celestial_reprimand": {
+      "id": "celestial_reprimand",
+      "name_zh": "天界训斥",
+      "name_en": "Celestial Reprimand",
+      "type_zh": "光 幻术师 瞬间",
+      "text_zh": "本战斗链中目标防御一张名称中含有先驱者的攻击的牌获得-3力量。",
+      "text_en": "Target card defending an attack with Herald in its name gets -3{p} this combat chain.",
+      "source": "https://cards.fabtcg.com/card/celestial_reprimand/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "celestial_resolve": {
+      "id": "celestial_resolve",
+      "name_zh": "天界决心",
+      "name_en": "Celestial Resolve",
+      "type_zh": "光 幻术师 瞬间",
+      "text_zh": "目标名称中含有先驱者的攻击行动牌获得+5防御。",
+      "text_en": "Target attack action card with Herald in its name gets +5{d}.",
+      "source": "https://cards.fabtcg.com/card/celestial_resolve/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "circular_flowtide": {
+      "id": "circular_flowtide",
+      "name_zh": "环形流转",
+      "name_en": "Circular Flowtide",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌离开竞技场时，创造一个闪电流转衍生物。\n结界2",
+      "text_en": "When this leaves the arena, create a Lightning Flow token.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/circular_flowtide/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "clear_conscience": {
+      "id": "clear_conscience",
+      "name_zh": "问心无愧",
+      "name_en": "Clear Conscience",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "当此牌命中英雄时，每位英雄将手牌中的一张牌置于其牌库底并创造一个沉思衍生物。\n碎片",
+      "text_en": "When this hits a hero, each hero puts a card from their hand on the bottom of their deck and creates a Ponder token.\nFragment",
+      "source": "https://cards.fabtcg.com/card/clear_conscience/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "coalescence_mirage": {
+      "id": "coalescence_mirage",
+      "name_zh": "凝聚幻景",
+      "name_en": "Coalescence Mirage",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "虚击\n当凝聚幻景被摧毁时，你可以将你手牌中一张费用为0的幻术师光环牌放入竞技场。",
+      "text_en": "Phantasm\nWhen Coalescence Mirage is destroyed, you may put an Illusionist aura card with cost 0 from your hand into the arena.",
+      "source": "https://cards.fabtcg.com/card/coalescence_mirage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "corrosive_space_dust": {
+      "id": "corrosive_space_dust",
+      "name_zh": "腐蚀星尘",
+      "name_en": "Corrosive Space Dust",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌离开竞技场时，对目标英雄造成1点秘法伤害。\n结界X，若此牌带有一个全息指示物，X为4。否则，X为1。",
+      "text_en": "When this leaves the arena, deal 1 arcane damage to target hero.\nWard X, where X is 4 if this has a holo counter. Otherwise, X is 1.",
+      "source": "https://cards.fabtcg.com/card/corrosive_space_dust/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward X"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "cosmic_duality": {
+      "id": "cosmic_duality",
+      "name_zh": "宇宙二元性",
+      "name_en": "Cosmic Duality",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "瞬间——支付1点资源，弃掉此牌：对目标英雄造成1点秘法伤害。创造一个闪电流转衍生物。\n碎片",
+      "text_en": "Instant - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.\nFragment",
+      "source": "https://cards.fabtcg.com/card/cosmic_duality/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "cosmo_scroll_of_ancestral_tapestry": {
+      "id": "cosmo_scroll_of_ancestral_tapestry",
+      "name_zh": "先祖织锦宇宙卷轴",
+      "name_en": "Cosmo, Scroll of Ancestral Tapestry",
+      "type_zh": "幻术师 武器·Scroll （双手）",
+      "text_zh": "在你的回合期间，你控制的具有结界的光环为武器，其基础力量等于其结界，且具有每回合一次行动——支付1点资源：攻击。\n你的具有一个或更多+1力量指示物的光环攻击获得再动。",
+      "text_en": "During your turn, auras you control with ward are weapons with base {p} equal to their ward and Once per Turn Action - {r}: Attack\nYour aura attacks with one or more +1{p} counters get go again.",
+      "source": "https://cards.fabtcg.com/card/cosmo_scroll_of_ancestral_tapestry/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "crackle_from_afar": {
+      "id": "crackle_from_afar",
+      "name_zh": "远处噼啪声",
+      "name_en": "Crackle from Afar",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌进入竞技场时，至多1个目标攻击获得+1力量。\n结界1",
+      "text_en": "When this enters the arena, up to 1 target attack gets +1{p}.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/crackle_from_afar/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "cromai": {
+      "id": "cromai",
+      "name_zh": "克罗迈",
+      "name_en": "Cromai",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "每回合一次，当克罗迈攻击或离开竞技场时，获得1个行动点。",
+      "text_en": "Once per turn, when Cromai attacks or leaves the arena, gain 1 action point.",
+      "source": "https://cards.fabtcg.com/card/cromai/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "dissolve_reality": {
+      "id": "dissolve_reality",
+      "name_zh": "溶解现实",
+      "name_en": "Dissolve Reality",
+      "type_zh": "幻术师 行动",
+      "text_zh": "每位英雄将其军械库中的所有牌置于其牌库底并创造一个沉思衍生物。\n再动",
+      "text_en": "Each hero puts all cards in their arsenal on the bottom of their deck and creates a Ponder token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/dissolve_reality/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dominia": {
+      "id": "dominia",
+      "name_zh": "多米尼亚",
+      "name_en": "Dominia",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "每当多米尼亚攻击英雄时，展示你牌库顶的一张牌。若其为红色牌，查看该英雄的手牌并从其中放逐一张牌。",
+      "text_en": "Whenever Dominia attacks a hero, reveal the top card of your deck. If it's a red card, look at their hand and banish a card from it.",
+      "source": "https://cards.fabtcg.com/card/dominia/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "dracona_optimai": {
+      "id": "dracona_optimai",
+      "name_zh": "德拉科娜·奥普提迈",
+      "name_en": "Dracona Optimai",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "每当德拉科娜·奥普提迈攻击英雄时，展示你牌库顶的3张牌。他对该英雄或其控制的一个盟友造成与此方式展示的红色牌数量两倍相等的秘法伤害。",
+      "text_en": "Whenever Dracona Optimai attacks a hero, reveal the top 3 cards of your deck. He deals arcane damage equal to twice the number of red cards revealed this way to them or an ally they control.",
+      "source": "https://cards.fabtcg.com/card/dracona_optimai/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "dunebreaker_cenipai": {
+      "id": "dunebreaker_cenipai",
+      "name_zh": "破沙之蜃",
+      "name_en": "Dunebreaker Cenipai",
+      "type_zh": "龙裔 幻术师 行动·攻击",
+      "text_zh": "虚击\n当破沙之蜃被摧毁时，创造一个灰烬衍生物。\n再动",
+      "text_en": "Phantasm\nWhen Dunebreaker Cenipai is destroyed, create an Ash token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/dunebreaker_cenipai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_stillwater_shrine": {
+      "id": "dust_from_stillwater_shrine",
+      "name_zh": "静水祠之尘",
+      "name_en": "Dust from Stillwater Shrine",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于米拉盖以外的某个永久物之下时，该永久物具有虚击。",
+      "text_en": "Material - While this is under a permanent other than Miragai, that permanent has phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_stillwater_shrine/",
+      "status": "machine-draft",
+      "keywords": [
+        "Material"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_the_chrome_caverns": {
+      "id": "dust_from_the_chrome_caverns",
+      "name_zh": "铬色洞穴之尘",
+      "name_en": "Dust from the Chrome Caverns",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于克罗迈以外的某个永久物之下时，该永久物具有虚击。",
+      "text_en": "Material - While this is under a permanent other than Cromai, that permanent has phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_the_chrome_caverns/",
+      "status": "machine-draft",
+      "keywords": [
+        "Material"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_the_fertile_fields": {
+      "id": "dust_from_the_fertile_fields",
+      "name_zh": "沃野之尘",
+      "name_en": "Dust from the Fertile Fields",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于欧维亚以外的某个永久物之下时，该永久物获得虚击。",
+      "text_en": "Material - While this is under a permanent other than Ouvia, that permanent gets phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_the_fertile_fields/",
+      "status": "machine-draft",
+      "keywords": [
+        "Material"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_the_golden_plains": {
+      "id": "dust_from_the_golden_plains",
+      "name_zh": "金色平原之尘",
+      "name_en": "Dust from the Golden Plains",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于泰迈以外的某个永久物之下时，该永久物具有虚击。",
+      "text_en": "Material - While this is under a permanent other than Themai, that permanent has phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_the_golden_plains/",
+      "status": "machine-draft",
+      "keywords": [
+        "Material"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_the_red_desert": {
+      "id": "dust_from_the_red_desert",
+      "name_zh": "红色沙漠之尘",
+      "name_en": "Dust from the Red Desert",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于文塞拉凯以外的某个永久物之下时，该永久物具有虚击。",
+      "text_en": "Material - While this is under a permanent other than Vynserakai, that permanent has phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_the_red_desert/",
+      "status": "machine-draft",
+      "keywords": [
+        "Material"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dust_from_the_shadow_crypts": {
+      "id": "dust_from_the_shadow_crypts",
+      "name_zh": "暗影墓穴之尘",
+      "name_en": "Dust from the Shadow Crypts",
+      "type_zh": "龙裔 幻术师 行动·Ash",
+      "text_zh": "材料——当此牌位于内克里亚以外的某个永久物之下时，该永久物具有虚击。",
+      "text_en": "Material - While this is under a permanent other than Nekria, that permanent has phantasm.",
+      "source": "https://cards.fabtcg.com/card/dust_from_the_shadow_crypts/",
+      "status": "machine-draft",
+      "keywords": [
+        "Material"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "dustup": {
+      "id": "dustup",
+      "name_zh": "尘土飞扬",
+      "name_en": "Dustup",
+      "type_zh": "龙裔 幻术师 行动·攻击",
+      "text_zh": "当尘土飞扬命中时，创造一个灰烬衍生物，然后将你控制的至多1个灰烬转化为以太灰翼。",
+      "text_en": "When Dustup hits, create an Ash token, then transform up to 1 ash you control into an Aether Ashwing.",
+      "source": "https://cards.fabtcg.com/card/dustup/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "ebbing_arcstride": {
+      "id": "ebbing_arcstride",
+      "name_zh": "退潮弧形步",
+      "name_en": "Ebbing Arcstride",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "每当此牌碎片化时，它获得再动。\n碎片",
+      "text_en": "Whenever this fragments, it gets go again.\nFragment",
+      "source": "https://cards.fabtcg.com/card/ebbing_arcstride/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "elliptical_conflux": {
+      "id": "elliptical_conflux",
+      "name_zh": "椭圆汇流",
+      "name_en": "Elliptical Conflux",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌离开竞技场时，创造一个闪电化身衍生物。\n结界2",
+      "text_en": "When this leaves the arena, create an Embodiment of Lightning token.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/elliptical_conflux/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "embermaw_cenipai": {
+      "id": "embermaw_cenipai",
+      "name_zh": "烬口之蜃",
+      "name_en": "Embermaw Cenipai",
+      "type_zh": "龙裔 幻术师 行动·攻击",
+      "text_zh": "虚击\n当烬口之蜃被摧毁时，创造一个灰烬衍生物。",
+      "text_en": "Phantasm\nWhen Embermaw Cenipai is destroyed, create an Ash token.",
+      "source": "https://cards.fabtcg.com/card/embermaw_cenipai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "enigma_chimera": {
+      "id": "enigma_chimera",
+      "name_zh": "谜团奇美拉",
+      "name_en": "Enigma Chimera",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "虚击",
+      "text_en": "Phantasm",
+      "source": "https://cards.fabtcg.com/card/enigma_chimera/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "erode_authority": {
+      "id": "erode_authority",
+      "name_zh": "侵蚀权威",
+      "name_en": "Erode Authority",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "支配\n碎片",
+      "text_en": "Dominate\nFragment",
+      "source": "https://cards.fabtcg.com/card/erode_authority/",
+      "status": "machine-draft",
+      "keywords": [
+        "Dominate",
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "essence_of_ancestry_body": {
+      "id": "essence_of_ancestry_body",
+      "name_zh": "先祖之躯精华",
+      "name_en": "Essence of Ancestry: Body",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌离开竞技场时，若你没有控制幻术师光环，本回合你下一次将受到红色来源造成的伤害时，防止它。\n结界2",
+      "text_en": "When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a red source this turn, prevent it.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/essence_of_ancestry_body/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "essence_of_ancestry_mind": {
+      "id": "essence_of_ancestry_mind",
+      "name_zh": "先祖之心精华",
+      "name_en": "Essence of Ancestry: Mind",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌离开竞技场时，若你没有控制幻术师光环，本回合你下一次将受到蓝色来源造成的伤害时，防止它。\n结界2",
+      "text_en": "When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a blue source this turn, prevent it.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/essence_of_ancestry_mind/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "essence_of_ancestry_soul": {
+      "id": "essence_of_ancestry_soul",
+      "name_zh": "先祖之魂精华",
+      "name_en": "Essence of Ancestry: Soul",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌离开竞技场时，若你没有控制幻术师光环，本回合你下一次将受到黄色来源造成的伤害时，防止它。\n结界2",
+      "text_en": "When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a yellow source this turn, prevent it.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/essence_of_ancestry_soul/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "figment_of_erudition": {
+      "id": "figment_of_erudition",
+      "name_zh": "博学幻象",
+      "name_en": "Figment of Erudition",
+      "type_zh": "光 幻术师 瞬间·Figment",
+      "text_zh": "传奇\n当此牌进入竞技场时，创造一个沉思衍生物。",
+      "text_en": "Legendary\nWhen this enters the arena, create a Ponder token.",
+      "source": "https://cards.fabtcg.com/card/figment_of_erudition/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "figment_of_judgment": {
+      "id": "figment_of_judgment",
+      "name_zh": "审判幻象",
+      "name_en": "Figment of Judgment",
+      "type_zh": "光 幻术师 瞬间·Figment",
+      "text_zh": "传奇\n当此牌进入竞技场时，你可以将任意放逐区中的一张牌翻为牌面朝下。",
+      "text_en": "Legendary\nWhen this enters the arena, you may turn a card in any banished zone face-down.",
+      "source": "https://cards.fabtcg.com/card/figment_of_judgment/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "figment_of_protection": {
+      "id": "figment_of_protection",
+      "name_zh": "守护幻象",
+      "name_en": "Figment of Protection",
+      "type_zh": "光 幻术师 瞬间·Figment",
+      "text_zh": "传奇\n当此牌进入竞技场时，创造一个幻质护盾衍生物。",
+      "text_en": "Legendary\nWhen this enters the arena, create a Spectral Shield token.",
+      "source": "https://cards.fabtcg.com/card/figment_of_protection/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "figment_of_ravages": {
+      "id": "figment_of_ravages",
+      "name_zh": "蹂躏幻象",
+      "name_en": "Figment of Ravages",
+      "type_zh": "光 幻术师 瞬间·Figment",
+      "text_zh": "传奇\n当此牌进入竞技场时，对任意目标造成1点秘法伤害。",
+      "text_en": "Legendary\nWhen this enters the arena, deal 1 arcane damage to any target.",
+      "source": "https://cards.fabtcg.com/card/figment_of_ravages/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "figment_of_rebirth": {
+      "id": "figment_of_rebirth",
+      "name_zh": "重生幻象",
+      "name_en": "Figment of Rebirth",
+      "type_zh": "光 幻术师 瞬间·Figment",
+      "text_zh": "传奇\n当此牌进入竞技场时，你可以将你坟场中的一张黄色行动牌置于你的牌库顶。",
+      "text_en": "Legendary\nWhen this enters the arena, you may put a yellow action card from your graveyard on top of your deck.",
+      "source": "https://cards.fabtcg.com/card/figment_of_rebirth/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "figment_of_tenacity": {
+      "id": "figment_of_tenacity",
+      "name_zh": "坚韧幻象",
+      "name_en": "Figment of Tenacity",
+      "type_zh": "光 幻术师 瞬间·Figment",
+      "text_zh": "传奇\n当此牌进入竞技场时，你本回合的下一次攻击获得支配。",
+      "text_en": "Legendary\nWhen this enters the arena, your next attack this turn gets dominate.",
+      "source": "https://cards.fabtcg.com/card/figment_of_tenacity/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "figment_of_triumph": {
+      "id": "figment_of_triumph",
+      "name_zh": "胜利幻象",
+      "name_en": "Figment of Triumph",
+      "type_zh": "光 幻术师 瞬间·Figment",
+      "text_zh": "传奇\n当此牌进入竞技场时，本回合你对手控制的攻击行动牌获得-1力量。",
+      "text_en": "Legendary\nWhen this enters the arena, attack action cards your opponents control get -1{p} this turn.",
+      "source": "https://cards.fabtcg.com/card/figment_of_triumph/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "figment_of_war": {
+      "id": "figment_of_war",
+      "name_zh": "战争幻象",
+      "name_en": "Figment of War",
+      "type_zh": "光 幻术师 瞬间·Figment",
+      "text_zh": "传奇\n当此牌进入竞技场时，创造一个勇气衍生物。",
+      "text_en": "Legendary\nWhen this enters the arena, create a Courage token.",
+      "source": "https://cards.fabtcg.com/card/figment_of_war/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "fleeing_starbreeze": {
+      "id": "fleeing_starbreeze",
+      "name_zh": "逃逸的星风",
+      "name_en": "Fleeing Starbreeze",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌进入竞技场时，至多1个目标攻击获得再动。\n结界1",
+      "text_en": "When this enters the arena, up to 1 target attack gets go again.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/fleeing_starbreeze/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "flicker_reality": {
+      "id": "flicker_reality",
+      "name_zh": "闪烁现实",
+      "name_en": "Flicker Reality",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌离开竞技场时，你可以放逐你控制的一个没有全息指示物的另一个闪电光环永久物，然后将其带有一个全息指示物地移回竞技场。\n结界1",
+      "text_en": "When this leaves the arena, you may banish another Lightning aura permanent you control with no holo counters, then return it to the arena with a holo counter.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/flicker_reality/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "flicker_trick": {
+      "id": "flicker_trick",
+      "name_zh": "闪烁戏法",
+      "name_en": "Flicker Trick",
+      "type_zh": "幻术师 防御反应",
+      "text_zh": "幻景",
+      "text_en": "Mirage",
+      "source": "https://cards.fabtcg.com/card/flicker_trick/",
+      "status": "machine-draft",
+      "keywords": [
+        "Mirage"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
+    "fractal_creation": {
+      "id": "fractal_creation",
+      "name_zh": "分形创造",
+      "name_en": "Fractal Creation",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "当此牌命中时，你可以创造一个你控制的光环的衍生物复制品。\n碎片",
+      "text_en": "When this hits, you may create a token copy of an aura you control.\nFragment",
+      "source": "https://cards.fabtcg.com/card/fractal_creation/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "fractal_replication": {
+      "id": "fractal_replication",
+      "name_zh": "分形复制",
+      "name_en": "Fractal Replication",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "当你使用或防御分形复制时，它获得战斗链上所有幻术师攻击行动牌的基础异能。\n分形复制的力量等于战斗链上幻术师攻击行动牌中最高的基础力量。\n分形复制的防御等于战斗链上幻术师攻击行动牌中最高的基础防御。",
+      "text_en": "When you play or defend with Fractal Replication, it gains the base abilities of all Illusionist attack action cards on the combat chain.\nFractal Replication's {p} is equal to the greatest base {p} among Illusionist attack action cards on the combat chain.\nFractal Replication's {d} is equal to the greatest base {d} among Illusionist attack action cards on the combat chain.",
+      "source": "https://cards.fabtcg.com/card/fractal_replication/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "*",
+          "defense": "*"
+        }
+      }
+    },
+    "fraying_lifeforce": {
+      "id": "fraying_lifeforce",
+      "name_zh": "磨损的生命力",
+      "name_en": "Fraying Lifeforce",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "每当此牌碎片化时，获得1点生命。\n碎片",
+      "text_en": "Whenever this fragments, gain 1{h}.\nFragment",
+      "source": "https://cards.fabtcg.com/card/fraying_lifeforce/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "frightmare": {
+      "id": "frightmare",
+      "name_zh": "恐惧梦魇",
+      "name_en": "Frightmare",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "仅当本回合你控制的幻术师攻击行动牌被虚击摧毁过时才能使用恐惧梦魇。\n虚击",
+      "text_en": "Play Frightmare only if an Illusionist attack action card you control has been destroyed by phantasm this turn.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/frightmare/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "13",
+          "defense": null
+        }
+      }
+    },
+    "genesis": {
+      "id": "genesis",
+      "name_zh": "创世纪",
+      "name_en": "Genesis",
+      "type_zh": "光 幻术师 瞬间·光环",
+      "text_zh": "在你的回合开始时，你可以将你手牌中的一张牌置入你的灵魂。若其为幻术师牌，创造一个幻质护盾衍生物。若其为光牌，抽一张牌。\n幻尊",
+      "text_en": "At the start of your turn, you may put a card from your hand into your soul. If it's an Illusionist card, create a Spectral Shield token. If it's a Light card, draw a card.\nSpectra",
+      "source": "https://cards.fabtcg.com/card/genesis/",
+      "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "haboob": {
+      "id": "haboob",
+      "name_zh": "沙暴",
+      "name_en": "Haboob",
+      "type_zh": "龙裔 幻术师 行动·光环",
+      "text_zh": "再动\n在每个回合开始时，在此牌上放置一个风暴指示物，然后除非你为其上的每个风暴指示物摧毁你控制的一个灰烬，否则摧毁它。\n攻击行动牌在攻击或防御时获得-1力量。",
+      "text_en": "Go again\nAt the start of each turn, put a storm counter on this, then destroy it unless you destroy an ash you control for each storm counter on it.\nAttack action cards get -1{p} while attacking or defending.",
+      "source": "https://cards.fabtcg.com/card/haboob/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "haunting_specter": {
+      "id": "haunting_specter",
+      "name_zh": "萦绕的幽灵",
+      "name_en": "Haunting Specter",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌离开竞技场时，创造一个幻质护盾衍生物，然后若你没有控制其他幻术师光环，在其上放置一个+1力量指示物。\n结界4",
+      "text_en": "When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.\nWard 4",
+      "source": "https://cards.fabtcg.com/card/haunting_specter/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "haze_bending": {
+      "id": "haze_bending",
+      "name_zh": "雾霭弯曲",
+      "name_en": "Haze Bending",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "每回合一次，当此牌或你控制的幻术师非衍生物光环被摧毁时，创造一个幻质护盾衍生物。\n幻尊",
+      "text_en": "Once per turn, when this or an Illusionist non-token aura you control is destroyed, create a Spectral Shield token.\nSpectra",
+      "source": "https://cards.fabtcg.com/card/haze_bending/",
+      "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "haze_shelter": {
+      "id": "haze_shelter",
+      "name_zh": "雾霭庇护",
+      "name_en": "Haze Shelter",
+      "type_zh": "秘法 幻术师 瞬间·光环",
+      "text_zh": "结界X，若本回合你资源过一张蓝色牌，X为4。否则，X为1。",
+      "text_en": "Ward X, where X is 4 if you've pitched a blue card this turn, otherwise X is 1.",
+      "source": "https://cards.fabtcg.com/card/haze_shelter/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward X"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "herald_of_erudition": {
+      "id": "herald_of_erudition",
+      "name_zh": "博学先驱",
+      "name_en": "Herald of Erudition",
+      "type_zh": "光 幻术师 行动·攻击",
+      "text_zh": "当此牌命中时，将其置入你的灵魂并抽2张牌。\n支配\n虚击",
+      "text_en": "When this hits, put it into your soul and draw 2 cards.\nDominate\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/herald_of_erudition/",
+      "status": "machine-draft",
+      "keywords": [
+        "Dominate",
+        "Phantasm"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "herald_of_judgment": {
+      "id": "herald_of_judgment",
+      "name_zh": "审判先驱",
+      "name_en": "Herald of Judgment",
+      "type_zh": "光 幻术师 行动·攻击",
+      "text_zh": "棱镜专精\n当此牌命中时，将其置入你的英雄的灵魂，且防御英雄在其下一个行动阶段期间不能从其放逐区使用牌。\n虚击",
+      "text_en": "Prism Specialization\nWhen this hits, put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/herald_of_judgment/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "herald_of_protection": {
+      "id": "herald_of_protection",
+      "name_zh": "守护先驱",
+      "name_en": "Herald of Protection",
+      "type_zh": "光 幻术师 行动·攻击",
+      "text_zh": "当此牌命中时，将其置入你的灵魂并创造一个幻质护盾衍生物。\n虚击",
+      "text_en": "When this hits, put it into your soul and create a Spectral Shield token.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/herald_of_protection/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "herald_of_ravages": {
+      "id": "herald_of_ravages",
+      "name_zh": "蹂躏先驱",
+      "name_en": "Herald of Ravages",
+      "type_zh": "光 幻术师 行动·攻击",
+      "text_zh": "当此牌命中时，将其置入你的英雄的灵魂并对目标英雄造成1点秘法伤害。\n虚击",
+      "text_en": "When this hits, put it into your hero's soul and deal 1 arcane damage to target hero.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/herald_of_ravages/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "herald_of_rebirth": {
+      "id": "herald_of_rebirth",
+      "name_zh": "重生先驱",
+      "name_en": "Herald of Rebirth",
+      "type_zh": "光 幻术师 行动·攻击",
+      "text_zh": "当此牌命中时，将其置入你的英雄的灵魂，并将你坟场中的至多1张具有虚击的牌置于你的牌库顶。\n虚击",
+      "text_en": "When this hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/herald_of_rebirth/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "herald_of_sekem": {
+      "id": "herald_of_sekem",
+      "name_zh": "塞凯姆先驱",
+      "name_en": "Herald of Sekem",
+      "type_zh": "光 幻术师 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将你手牌中的一张黄色牌置入你的灵魂。若如此做，对任意目标造成2点秘法伤害。\n虚击",
+      "text_en": "When this attacks, you may put a yellow card from your hand into your soul. If you do, deal 2 arcane damage to any target.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/herald_of_sekem/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "herald_of_tenacity": {
+      "id": "herald_of_tenacity",
+      "name_zh": "坚韧先驱",
+      "name_en": "Herald of Tenacity",
+      "type_zh": "光 幻术师 行动·攻击",
+      "text_zh": "支配\n当此牌命中时，将其置入你的英雄的灵魂。\n虚击",
+      "text_en": "Dominate\nWhen this hits, put it into your hero's soul.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/herald_of_tenacity/",
+      "status": "machine-draft",
+      "keywords": [
+        "Dominate",
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "herald_of_triumph": {
+      "id": "herald_of_triumph",
+      "name_zh": "胜利先驱",
+      "name_en": "Herald of Triumph",
+      "type_zh": "光 幻术师 行动·攻击",
+      "text_zh": "当防御此牌时，攻击行动牌获得-1力量。\n当此牌命中时，将其置入你的英雄的灵魂。\n虚击",
+      "text_en": "Attack action cards have -1{p} while defending this.\nWhen this hits, put it into your hero's soul.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/herald_of_triumph/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "herald_of_victoria": {
+      "id": "herald_of_victoria",
+      "name_zh": "维多利亚先驱",
+      "name_en": "Herald of Victoria",
+      "type_zh": "光 幻术师 行动·攻击",
+      "text_zh": "瞬间——弃掉此牌：直到回合结束，你对手控制的攻击行动牌在攻击和防御时获得-1力量。\n虚击",
+      "text_en": "Instant - Discard this: Until end of turn, attack action cards your opponents control get -1{p} while attacking and defending.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/herald_of_victoria/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "holo_shield": {
+      "id": "holo_shield",
+      "name_zh": "全息护盾",
+      "name_en": "Holo Shield",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "结界X，若此牌带有一个全息指示物，X为4。否则，X为1。",
+      "text_en": "Ward X, where X is 4 if this has a holo counter. Otherwise, X is 1.",
+      "source": "https://cards.fabtcg.com/card/holo_shield/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward X"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "invoke_azvolai": {
+      "id": "invoke_azvolai",
+      "name_zh": "召唤阿兹沃莱",
+      "name_en": "Invoke Azvolai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为阿兹沃莱。再动",
+      "text_en": "Transform target ash you control into Azvolai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_azvolai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_cromai": {
+      "id": "invoke_cromai",
+      "name_zh": "召唤克罗迈",
+      "name_en": "Invoke Cromai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为克罗迈。再动",
+      "text_en": "Transform target ash you control into Cromai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_cromai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_dominia": {
+      "id": "invoke_dominia",
+      "name_zh": "召唤多米尼亚",
+      "name_en": "Invoke Dominia",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "传奇\n将你控制的目标灰烬转化为多米尼亚。再动",
+      "text_en": "Legendary\nTransform target ash you control into Dominia. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_dominia/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "4",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_dracona_optimai": {
+      "id": "invoke_dracona_optimai",
+      "name_zh": "召唤德拉科娜·奥普提迈",
+      "name_en": "Invoke Dracona Optimai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "传奇\n将你控制的目标灰烬转化为德拉科娜·奥普提迈。再动",
+      "text_en": "Legendary\nTransform target ash you control into Dracona Optimai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_dracona_optimai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_kyloria": {
+      "id": "invoke_kyloria",
+      "name_zh": "召唤凯洛里亚",
+      "name_en": "Invoke Kyloria",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为凯洛里亚。再动",
+      "text_en": "Transform target ash you control into Kyloria. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_kyloria/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_miragai": {
+      "id": "invoke_miragai",
+      "name_zh": "召唤米拉盖",
+      "name_en": "Invoke Miragai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为米拉盖。再动",
+      "text_en": "Transform target ash you control into Miragai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_miragai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_nekria": {
+      "id": "invoke_nekria",
+      "name_zh": "召唤内克里亚",
+      "name_en": "Invoke Nekria",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为内克里亚。再动",
+      "text_en": "Transform target ash you control into Nekria. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_nekria/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_ouvia": {
+      "id": "invoke_ouvia",
+      "name_zh": "召唤欧维亚",
+      "name_en": "Invoke Ouvia",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为欧维亚。再动",
+      "text_en": "Transform target ash you control into Ouvia. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_ouvia/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_suraya": {
+      "id": "invoke_suraya",
+      "name_zh": "召唤苏拉娅",
+      "name_en": "Invoke Suraya",
+      "type_zh": "光 幻术师 行动·Invocation",
+      "text_zh": "传奇\n将你控制的目标幻质护盾转化为苏拉娅，秘法先驱。\n再动",
+      "text_en": "Legendary\nTransform target Spectral Shield you control into Suraya, Arcane Herald.\nGo again",
+      "source": "https://cards.fabtcg.com/card/invoke_suraya/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_themai": {
+      "id": "invoke_themai",
+      "name_zh": "召唤泰迈",
+      "name_en": "Invoke Themai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为泰迈。再动",
+      "text_en": "Transform target ash you control into Themai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_themai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_tomeltai": {
+      "id": "invoke_tomeltai",
+      "name_zh": "召唤托梅尔泰",
+      "name_en": "Invoke Tomeltai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "传奇\n将你控制的目标灰烬转化为托梅尔泰。再动",
+      "text_en": "Legendary\nTransform target ash you control into Tomeltai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_tomeltai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "5",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_vynserakai": {
+      "id": "invoke_vynserakai",
+      "name_zh": "召唤文塞拉凯",
+      "name_en": "Invoke Vynserakai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为文塞拉凯。再动",
+      "text_en": "Transform target ash you control into Vynserakai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_vynserakai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "invoke_yendurai": {
+      "id": "invoke_yendurai",
+      "name_zh": "召唤延杜莱",
+      "name_en": "Invoke Yendurai",
+      "type_zh": "龙裔 幻术师 行动·Invocation",
+      "text_zh": "将你控制的目标灰烬转化为延杜莱。再动",
+      "text_en": "Transform target ash you control into Yendurai. Go again",
+      "source": "https://cards.fabtcg.com/card/invoke_yendurai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "iris_of_reality": {
+      "id": "iris_of_reality",
+      "name_zh": "现实之虹",
+      "name_en": "Iris of Reality",
+      "type_zh": "幻术师 武器·Orb （双手）",
+      "text_zh": "在你的行动阶段期间，你控制的幻术师光环为武器，具有4点力量，以及每回合一次行动——支付3点资源：攻击。再动",
+      "text_en": "During your action phase, Illusionist auras you control are weapons with 4{p} and Once per Turn Action - {r}{r}{r}: Attack. Go again",
+      "source": "https://cards.fabtcg.com/card/iris_of_reality/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "kyloria": {
+      "id": "kyloria",
+      "name_zh": "凯洛里亚",
+      "name_en": "Kyloria",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "每当凯洛里亚命中英雄时，获得其控制的一个物品的控制权。若你没有以此方式获得物品的控制权，抽一张牌。",
+      "text_en": "Whenever Kyloria hits a hero, gain control of an item they control. If you don't gain control of an item this way, draw a card.",
+      "source": "https://cards.fabtcg.com/card/kyloria/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "lost_in_thought": {
+      "id": "lost_in_thought",
+      "name_zh": "陷入沉思",
+      "name_en": "Lost in Thought",
+      "type_zh": "幻术师 行动",
+      "text_zh": "查看目标英雄的手牌。选择一张攻击行动牌并展示它。若如此做，该英雄将其置于其牌库底并创造一个沉思衍生物。\n再动",
+      "text_en": "Look at target hero's hand. Choose an attack action card and reveal it. If you do, they put it on the bottom of their deck and create a Ponder token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/lost_in_thought/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "luminaris": {
+      "id": "luminaris",
+      "name_zh": "卢米纳里斯",
+      "name_en": "Luminaris",
+      "type_zh": "光 幻术师 武器·Scepter （双手）",
+      "text_zh": "在你的行动阶段期间，你控制的幻术师光环为武器，具有1点基础力量和“每回合一次行动——费用0：攻击”。\n若你资源区中有一张黄色牌，你的幻术师攻击获得再动。",
+      "text_en": "During your action phase, Illusionist auras you control are weapons with 1 base {p} and \"Once per Turn Action - 0: Attack\"\nIf there is a yellow card in your pitch zone, your Illusionist attacks get go again.",
+      "source": "https://cards.fabtcg.com/card/luminaris/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "luminaris_angels_glow": {
+      "id": "luminaris_angels_glow",
+      "name_zh": "卢米纳里斯·天使之辉",
+      "name_en": "Luminaris, Angel's Glow",
+      "type_zh": "光 幻术师 武器·Scepter （双手）",
+      "text_zh": "若你资源区中有一张黄色牌，你每回合使用的第一张名称中含有先驱者的攻击行动牌和你每回合的第一次天使攻击获得再动。",
+      "text_en": "If there is a yellow card in your pitch zone, the first attack action card with Herald in its name you play each turn and your first angel attack each turn get go again.",
+      "source": "https://cards.fabtcg.com/card/luminaris_angels_glow/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "luminaris_celestial_fury": {
+      "id": "luminaris_celestial_fury",
+      "name_zh": "卢米纳里斯·天界之怒",
+      "name_en": "Luminaris, Celestial Fury",
+      "type_zh": "光 幻术师 武器·Scepter （双手）",
+      "text_zh": "每回合一次瞬间——支付2点资源：目标天使攻击或名称中含有先驱者的攻击行动牌获得再动。",
+      "text_en": "Once per Turn Instant - {r}{r}: Target angel attack or attack action card with Herald in its name gets go again.",
+      "source": "https://cards.fabtcg.com/card/luminaris_celestial_fury/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "lunar_mirage": {
+      "id": "lunar_mirage",
+      "name_zh": "月之幻景",
+      "name_en": "Lunar Mirage",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "当一张力量为6或更高的攻击行动牌防御此牌时，此牌成为那张牌的复制品。\n再动\n幻景",
+      "text_en": "When an attack action card with 6 or more {p} defends this, this becomes a copy of that card.\nGo again\nMirage",
+      "source": "https://cards.fabtcg.com/card/lunar_mirage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Mirage"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "manifestation_of_miragai": {
+      "id": "manifestation_of_miragai",
+      "name_zh": "米拉盖的显化",
+      "name_en": "Manifestation of Miragai",
+      "type_zh": "秘法 幻术师 瞬间·光环",
+      "text_zh": "此牌进入竞技场时带有两个+1力量指示物。若你为使用此牌资源过一张气，改为此牌进入竞技场时带有四个+1力量指示物。\n结界X，X为此牌上的+1力量指示物数量。",
+      "text_en": "This enters the arena with two +1{p} counters. If a Chi was pitched to play this, instead this enters the arena with four +1{p} counters.\nWard X, where X is the number of +1{p} counters on this.",
+      "source": "https://cards.fabtcg.com/card/manifestation_of_miragai/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward X"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "merciful_retribution": {
+      "id": "merciful_retribution",
+      "name_zh": "仁慈的报复",
+      "name_en": "Merciful Retribution",
+      "type_zh": "光 幻术师 瞬间·光环",
+      "text_zh": "每当你控制的攻击行动牌被摧毁时，对目标英雄造成1点秘法伤害。若其为非衍生物光牌，将其置入你的灵魂。\n幻尊",
+      "text_en": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your soul.\nSpectra",
+      "source": "https://cards.fabtcg.com/card/merciful_retribution/",
+      "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mind_meets_might": {
+      "id": "mind_meets_might",
+      "name_zh": "心智与力量相遇",
+      "name_en": "Mind Meets Might",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "当此牌命中英雄时，该英雄展示其手牌并弃掉所有力量为6或更高的牌，然后抽等量的牌。\n幻景",
+      "text_en": "When this hits a hero, they reveal their hand and discard all cards with 6 or more {p}, then they draw that many cards.\nMirage",
+      "source": "https://cards.fabtcg.com/card/mind_meets_might/",
+      "status": "machine-draft",
+      "keywords": [
+        "Mirage"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "miragai": {
+      "id": "miragai",
+      "name_zh": "米拉盖",
+      "name_en": "Miragai",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "你每回合的第一次龙攻击失去且不能获得虚击。",
+      "text_en": "Your first dragon attack each turn loses and can't gain phantasm.",
+      "source": "https://cards.fabtcg.com/card/miragai/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "miraging_metamorph": {
+      "id": "miraging_metamorph",
+      "name_zh": "幻景变形者",
+      "name_en": "Miraging Metamorph",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "虚击\n当幻景变形者被摧毁时，创造一个你控制的光环的复制品衍生物。",
+      "text_en": "Phantasm\nWhen Miraging Metamorph is destroyed, create a token that's a copy of an aura you control.",
+      "source": "https://cards.fabtcg.com/card/miraging_metamorph/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "moon_chakra": {
+      "id": "moon_chakra",
+      "name_zh": "月脉轮",
+      "name_en": "Moon Chakra",
+      "type_zh": "秘法 幻术师 瞬间",
+      "text_zh": "本回合接下来你将受到伤害时，防止其中3点伤害。若本回合你超越过，改为防止5点。",
+      "text_en": "The next time you would be dealt damage this turn, prevent 3 of that damage. If you've transcended this turn, instead prevent 5.",
+      "source": "https://cards.fabtcg.com/card/moon_chakra/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "nebulus_cycle": {
+      "id": "nebulus_cycle",
+      "name_zh": "星云循环",
+      "name_en": "Nebulus Cycle",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌离开竞技场时，创造一个沉思衍生物。\n结界2",
+      "text_en": "When this leaves the arena, create a Ponder token.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/nebulus_cycle/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "nekria": {
+      "id": "nekria",
+      "name_zh": "内克里亚",
+      "name_en": "Nekria",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "每当内克里亚造成或受到伤害时，在其上放置一个-1生命指示物并创造一个灰烬衍生物。",
+      "text_en": "Whenever Nekria deals or is dealt damage, put a -1{h} counter on her and create an Ash token.",
+      "source": "https://cards.fabtcg.com/card/nekria/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "nourishing_glow": {
+      "id": "nourishing_glow",
+      "name_zh": "滋养光辉",
+      "name_en": "Nourishing Glow",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌进入竞技场时，获得1点生命。\n结界1",
+      "text_en": "When this enters the arena, gain 1{h}.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/nourishing_glow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "ode_to_wrath": {
+      "id": "ode_to_wrath",
+      "name_zh": "怒之颂",
+      "name_en": "Ode to Wrath",
+      "type_zh": "光 幻术师 瞬间·光环",
+      "text_zh": "每当你控制的来源对对手造成伤害时，该对手失去1点生命。\n你控制的幻术师攻击行动牌获得再动。\n幻尊",
+      "text_en": "Whenever a source you control deals damage to an opponent, they lose 1 {h}.\nIllusionist attack action cards you control get go again.\nSpectra",
+      "source": "https://cards.fabtcg.com/card/ode_to_wrath/",
+      "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "ouvia": {
+      "id": "ouvia",
+      "name_zh": "欧维亚",
+      "name_en": "Ouvia",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "在你的回合开始时或当欧维亚进入竞技场时，将你控制的至多1个灰烬转化为以太灰翼。",
+      "text_en": "At the start of your turn or when Ouvia enters the arena, transform up to 1 ash you control into an Aether Ashwing.",
+      "source": "https://cards.fabtcg.com/card/ouvia/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "parable_of_humility": {
+      "id": "parable_of_humility",
+      "name_zh": "谦逊寓言",
+      "name_en": "Parable of Humility",
+      "type_zh": "光 幻术师 瞬间·光环",
+      "text_zh": "你对手控制的攻击行动牌在攻击和防御时获得-1力量。\n幻尊",
+      "text_en": "Attack action cards your opponents control get -1{p} while attacking and defending.\nSpectra",
+      "source": "https://cards.fabtcg.com/card/parable_of_humility/",
+      "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "passing_mirage": {
+      "id": "passing_mirage",
+      "name_zh": "掠过的幻景",
+      "name_en": "Passing Mirage",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "你每回合的第一次幻术师攻击失去且不能获得虚击。\n幻尊",
+      "text_en": "Your first Illusionist attack each turn loses and can't get phantasm.\nSpectra",
+      "source": "https://cards.fabtcg.com/card/passing_mirage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "phantasmaclasm": {
+      "id": "phantasmaclasm",
+      "name_zh": "虚击崩裂",
+      "name_en": "Phantasmaclasm",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "查看防御英雄的手牌并选择一张牌。该英雄将其置于其牌库底，然后抽一张牌。\n虚击",
+      "text_en": "Look at the defending hero's hand and choose a card. They put it on the bottom of their deck then draw a card.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/phantasmaclasm/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "9",
+          "defense": "3"
+        }
+      }
+    },
+    "phantasmal_haze": {
+      "id": "phantasmal_haze",
+      "name_zh": "虚击雾霭",
+      "name_en": "Phantasmal Haze",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "虚击\n当虚击雾霭被摧毁时，创造一个幻质护盾衍生物。",
+      "text_en": "Phantasm\nWhen Phantasmal Haze is destroyed, create a Spectral Shield token.",
+      "source": "https://cards.fabtcg.com/card/phantasmal_haze/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "phantasmal_symbiosis": {
+      "id": "phantasmal_symbiosis",
+      "name_zh": "虚击共生",
+      "name_en": "Phantasmal Symbiosis",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "当此牌攻击时，说出一张牌名。直到回合结束，具有该名称的牌视为幻术师。\n虚击",
+      "text_en": "When this attacks, name a card.  Cards with that name are Illusionist until end of turn.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/phantasmal_symbiosis/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "phantasmify": {
+      "id": "phantasmify",
+      "name_zh": "虚击化",
+      "name_en": "Phantasmify",
+      "type_zh": "幻术师 行动",
+      "text_zh": "本回合你使用的下一张攻击行动牌除其原有职业类别外还视为幻术师，并获得+5力量和虚击。\n再动",
+      "text_en": "The next attack action card you play this turn is Illusionist in addition to its other class types, and gains +5{p} and phantasm.\nGo again",
+      "source": "https://cards.fabtcg.com/card/phantasmify/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "phantom_tidemaw": {
+      "id": "phantom_tidemaw",
+      "name_zh": "幻影潮口",
+      "name_en": "Phantom Tidemaw",
+      "type_zh": "",
+      "text_zh": "每当你控制的幻术师牌被摧毁时，在此牌上放置一个+1力量指示物。\n虚击\n结界1",
+      "text_en": "Whenever an Illusionist card you control is destroyed, put a +1{p} counter on this.\nPhantasm\nWard 1",
+      "source": "https://cards.fabtcg.com/card/phantom_tidemaw/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm",
+        "Ward 1"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "pierce_reality": {
+      "id": "pierce_reality",
+      "name_zh": "刺穿现实",
+      "name_en": "Pierce Reality",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "你每回合使用的第一张幻术师攻击行动牌获得+2力量。\n幻尊",
+      "text_en": "Your first Illusionist attack action card you play each turn gets +2{p}.\nSpectra",
+      "source": "https://cards.fabtcg.com/card/pierce_reality/",
+      "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "polarus_pulse_ray": {
+      "id": "polarus_pulse_ray",
+      "name_zh": "北极脉冲射线",
+      "name_en": "Polarus Pulse Ray",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "每当此牌碎片化时，对防御英雄造成1点秘法伤害。\n碎片",
+      "text_en": "Whenever this fragments, deal 1 arcane damage to the defending hero.\nFragment",
+      "source": "https://cards.fabtcg.com/card/polarus_pulse_ray/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "power_of_make_believe": {
+      "id": "power_of_make_believe",
+      "name_zh": "假想之力",
+      "name_en": "Power of Make Believe",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "每有一张力量为6或更高的牌防御此牌，此牌获得+1力量。\n幻景",
+      "text_en": "This gets +1{p} for each card with 6 or more {p} defending it.\nMirage",
+      "source": "https://cards.fabtcg.com/card/power_of_make_believe/",
+      "status": "machine-draft",
+      "keywords": [
+        "Mirage"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "prismatic_shield": {
+      "id": "prismatic_shield",
+      "name_zh": "棱彩护盾",
+      "name_en": "Prismatic Shield",
+      "type_zh": "幻术师 瞬间",
+      "text_zh": "创造3个幻质护盾衍生物。",
+      "text_en": "Create 3 Spectral Shield tokens.",
+      "source": "https://cards.fabtcg.com/card/prismatic_shield/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "pulsing_cardia": {
+      "id": "pulsing_cardia",
+      "name_zh": "搏动的心之核心",
+      "name_en": "Pulsing Cardia",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "每当此牌碎片化时，获得1点资源。\n碎片",
+      "text_en": "Whenever this fragments, gain {r}.\nFragment",
+      "source": "https://cards.fabtcg.com/card/pulsing_cardia/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "rage_specter": {
+      "id": "rage_specter",
+      "name_zh": "暴怒幽灵",
+      "name_en": "Rage Specter",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌进入竞技场时，若你没有控制其他幻术师光环，获得1个行动点。\n在你的回合期间，此牌具有结界6。否则，此牌具有结界1。",
+      "text_en": "When this enters the arena, if you control no other Illusionist auras, gain 1 action point.\nDuring your turn, this has ward 6. Otherwise, this has ward 1.",
+      "source": "https://cards.fabtcg.com/card/rage_specter/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1",
+        "Ward 6"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "rake_the_embers": {
+      "id": "rake_the_embers",
+      "name_zh": "耙动余烬",
+      "name_en": "Rake the Embers",
+      "type_zh": "龙裔 幻术师 行动",
+      "text_zh": "创造一个灰烬衍生物，然后将你控制的至多3个灰烬转化为以太灰翼。\n再动",
+      "text_en": "Create an Ash token, then transform up to 3 ash you control into Aether Ashwings.\nGo again",
+      "source": "https://cards.fabtcg.com/card/rake_the_embers/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "reality_refractor": {
+      "id": "reality_refractor",
+      "name_zh": "现实折射器",
+      "name_en": "Reality Refractor",
+      "type_zh": "幻术师 武器·Orb （双手）",
+      "text_zh": "你控制的幻术师光环为武器，具有5点基础力量和“每回合一次行动——支付2点资源：攻击”。",
+      "text_en": "Illusionist auras you control are weapons with 5 base {p} and \"Once per Turn Action - {r]{r}: Attack\"",
+      "source": "https://cards.fabtcg.com/card/reality_refractor/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "restless_coalescence": {
+      "id": "restless_coalescence",
+      "name_zh": "不安的凝聚",
+      "name_en": "Restless Coalescence",
+      "type_zh": "幻术师 瞬间·光环",
+      "text_zh": "当此牌进入竞技场时，将任意数量的+1力量指示物从你控制的光环移到此牌上。\n每回合一次瞬间——从此牌上移除一个+1力量指示物：创造一个幻质护盾衍生物。\n结界2",
+      "text_en": "When this enters the arena, move any number of +1{p} counters from auras you control onto this.\nOnce per Turn Instant - Remove a +1{p} counter from this: Create a Spectral Shield token.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/restless_coalescence/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sacred_art_immortal_lunar_shrine": {
+      "id": "sacred_art_immortal_lunar_shrine",
+      "name_zh": "秘法·不朽月之圣殿",
+      "name_en": "Sacred Art: Immortal Lunar Shrine",
+      "type_zh": "秘法 幻术师 瞬间",
+      "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 创造2个幻质护盾衍生物。\n- 在你控制的每个具有结界的光环上放置一个+1力量指示物。\n- 超越",
+      "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create 2 Spectral Shield tokens.\n- Put a +1{p} counter on each aura with ward you control.\n- Transcend",
+      "source": "https://cards.fabtcg.com/card/sacred_art_immortal_lunar_shrine/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "sand_cover": {
+      "id": "sand_cover",
+      "name_zh": "沙幕",
+      "name_en": "Sand Cover",
+      "type_zh": "龙裔 幻术师 瞬间",
+      "text_zh": "目标你控制的灰烬直到回合结束获得结界4。",
+      "text_en": "Target ash you control gains ward 4 until end of turn.",
+      "source": "https://cards.fabtcg.com/card/sand_cover/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "scattering_conflux": {
+      "id": "scattering_conflux",
+      "name_zh": "散逸汇流",
+      "name_en": "Scattering Conflux",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "每当此牌碎片化时，创造一个闪电化身衍生物。\n碎片",
+      "text_en": "Whenever this fragments, create an Embodiment of Lightning token.\nFragment",
+      "source": "https://cards.fabtcg.com/card/scattering_conflux/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        }
+      }
+    },
+    "semblance": {
+      "id": "semblance",
+      "name_zh": "表象",
+      "name_en": "Semblance",
+      "type_zh": "幻术师 瞬间",
+      "text_zh": "无效你控制的幻术师攻击的所有虚击触发效果。该攻击失去且不能获得虚击。",
+      "text_en": "Negate all phantasm triggered effects of target Illusionist attack you control. The attack loses and can't gain phantasm.",
+      "source": "https://cards.fabtcg.com/card/semblance/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "shattering_flowtide": {
+      "id": "shattering_flowtide",
+      "name_zh": "碎裂的流转",
+      "name_en": "Shattering Flowtide",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "每当此牌碎片化时，创造一个闪电流转衍生物。\n碎片",
+      "text_en": "Whenever this fragments, create a Lightning Flow token.\nFragment",
+      "source": "https://cards.fabtcg.com/card/shattering_flowtide/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "shattering_stardust": {
+      "id": "shattering_stardust",
+      "name_zh": "碎裂的星尘",
+      "name_en": "Shattering Stardust",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "每当此牌碎片化时，增幅1。\n当此牌命中英雄时，你可以放逐你控制的一个没有全息指示物的闪电光环永久物，然后将其带有一个全息指示物地移回竞技场。\n碎片",
+      "text_en": "Whenever this fragments, amp 1.\nWhen this hits a hero, you may banish a lightning aura permanent you control with no holo counters, then return it to the arena with a holo counter.\nFragment",
+      "source": "https://cards.fabtcg.com/card/shattering_stardust/",
+      "status": "machine-draft",
+      "keywords": [
+        "Amp 1",
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "shimmering_mirage": {
+      "id": "shimmering_mirage",
+      "name_zh": "微光幻景",
+      "name_en": "Shimmering Mirage",
+      "type_zh": "幻术师 防御反应",
+      "text_zh": "当此牌防御时，当此链环结算时，放逐此牌。本战斗链中你可以使用它。\n幻景",
+      "text_en": "While this is defending, when this chain link resolves, banish this. You may play it this combat chain.\nMirage",
+      "source": "https://cards.fabtcg.com/card/shimmering_mirage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Mirage"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "shimmering_specter": {
+      "id": "shimmering_specter",
+      "name_zh": "微光幽灵",
+      "name_en": "Shimmering Specter",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "当此牌攻击或防御且离开竞技场时，创造一个幻质护盾衍生物。\n幻景",
+      "text_en": "While this is attacking or defending, when this leaves the arena, create a Spectral Shield token.\nMirage",
+      "source": "https://cards.fabtcg.com/card/shimmering_specter/",
+      "status": "machine-draft",
+      "keywords": [
+        "Mirage"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "shimmers_of_silver": {
+      "id": "shimmers_of_silver",
+      "name_zh": "银光闪烁",
+      "name_en": "Shimmers of Silver",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "每回合一次，当你用幻术师光环武器攻击时，在其上放置一个+1力量指示物。\n幻尊",
+      "text_en": "Once per turn, when you attack with an Illusionist aura weapon, put a +1{p} counter on it.\nSpectra",
+      "source": "https://cards.fabtcg.com/card/shimmers_of_silver/",
+      "status": "machine-draft",
+      "keywords": [
+        "Spectra"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "sigil_of_solitude": {
+      "id": "sigil_of_solitude",
+      "name_zh": "孤寂印记",
+      "name_en": "Sigil of Solitude",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "在你的回合开始时，若你控制另一个幻术师光环，摧毁此牌。\n结界4",
+      "text_en": "At the start of your turn, if you control another Illusionist aura, destroy this.\nWard 4",
+      "source": "https://cards.fabtcg.com/card/sigil_of_solitude/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "single_minded_determination": {
+      "id": "single_minded_determination",
+      "name_zh": "一心一意的决心",
+      "name_en": "Single Minded Determination",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌进入竞技场时，若你没有控制其他幻术师光环，在此牌上放置三个+1力量指示物。\n结界2",
+      "text_en": "When this enters the arena, if you control no other Illusionist auras, put three +1{p} counters on this.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/single_minded_determination/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 2"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "skittering_sands": {
+      "id": "skittering_sands",
+      "name_zh": "飞掠的沙粒",
+      "name_en": "Skittering Sands",
+      "type_zh": "龙裔 幻术师 行动",
+      "text_zh": "将你控制的目标灰烬转化为以太灰翼。它直到回合结束获得+3力量。\n再动",
+      "text_en": "Transform target ash you control into an Aether Ashwing. It gains +3{p} until end of turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/skittering_sands/",
+      "status": "machine-draft",
+      "keywords": [
+        "Transform",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "solitary_companion": {
+      "id": "solitary_companion",
+      "name_zh": "孤独的同伴",
+      "name_en": "Solitary Companion",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌进入竞技场时，若你没有控制其他幻术师光环，创造一个幻质护盾衍生物。\n结界1",
+      "text_en": "When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/solitary_companion/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "spears_of_surreality": {
+      "id": "spears_of_surreality",
+      "name_zh": "超现实之矛",
+      "name_en": "Spears of Surreality",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "虚击\n再动",
+      "text_en": "Phantasm\nGo again",
+      "source": "https://cards.fabtcg.com/card/spears_of_surreality/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "spectral_manifestations": {
+      "id": "spectral_manifestations",
+      "name_zh": "幻质显现",
+      "name_en": "Spectral Manifestations",
+      "type_zh": "幻术师 行动",
+      "text_zh": "创造一个幻质护盾衍生物，然后若你没有控制其他幻术师光环，在其上放置三个+1力量指示物。\n再动",
+      "text_en": "Create a Spectral Shield token, then if you control no other Illusionist auras, put three +1{p} counters on it.\nGo again",
+      "source": "https://cards.fabtcg.com/card/spectral_manifestations/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "spectral_procession": {
+      "id": "spectral_procession",
+      "name_zh": "幻质队列",
+      "name_en": "Spectral Procession",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "幻质队列的力量等于你控制的幻质护盾数量。\n虚击",
+      "text_en": "Spectral Procession's {p} is equal to the number of Spectral Shields you control.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/spectral_procession/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "*",
+          "defense": "3"
+        }
+      }
+    },
+    "spectral_prowler": {
+      "id": "spectral_prowler",
+      "name_zh": "幻质潜行者",
+      "name_en": "Spectral Prowler",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "当你使用幻质潜行者时，若你控制一个幻质护盾，此牌获得再动。\n虚击",
+      "text_en": "When you play Spectral Prowler, if you control a Spectral Shield, this gains go again.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/spectral_prowler/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "spectral_rider": {
+      "id": "spectral_rider",
+      "name_zh": "幻质骑士",
+      "name_en": "Spectral Rider",
+      "type_zh": "幻术师 行动·攻击",
+      "text_zh": "当你使用幻质骑士时，若你控制一个幻质护盾，此牌获得压制。\n虚击",
+      "text_en": "When you play Spectral Rider, if you control a Spectral Shield, this gains overpower.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/spectral_rider/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower",
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "spectral_shield": {
+      "id": "spectral_shield",
+      "name_zh": "幻质护盾",
+      "name_en": "Spectral Shield",
+      "type_zh": "幻术师 衍生物·光环",
+      "text_zh": "结界1",
+      "text_en": "Ward 1",
+      "source": "https://cards.fabtcg.com/card/spectral_shield/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "stardust_spike": {
+      "id": "stardust_spike",
+      "name_zh": "星尘之刺",
+      "name_en": "Stardust Spike",
+      "type_zh": "闪电 幻术师 瞬间·光环",
+      "text_zh": "当此牌离开竞技场时，获得1点资源并增幅1。\n结界2",
+      "text_en": "When this leaves the arena, gain {r} and amp 1.\nWard 2",
+      "source": "https://cards.fabtcg.com/card/stardust_spike/",
+      "status": "machine-draft",
+      "keywords": [
+        "Amp 1",
+        "Ward 2"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "storm_of_sandikai": {
+      "id": "storm_of_sandikai",
+      "name_zh": "桑迪凯风暴",
+      "name_en": "Storm of Sandikai",
+      "type_zh": "龙裔 幻术师 武器·Scepter （双手）",
+      "text_zh": "你控制的龙盟友具有“每回合一次行动——费用0：攻击”。",
+      "text_en": "Dragon allies you control have \"Once per Turn Action - 0: Attack\".",
+      "source": "https://cards.fabtcg.com/card/storm_of_sandikai/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "suraya_archangel_of_knowledge": {
+      "id": "suraya_archangel_of_knowledge",
+      "name_zh": "苏拉娅·知识大天使",
+      "name_en": "Suraya, Archangel of Knowledge",
+      "type_zh": "光 幻术师·Angel Ally",
+      "text_zh": "每回合一次行动——支付力量：攻击。每当苏拉娅攻击时，你可以放逐你的英雄的灵魂中的一张光牌。若如此做，苏拉娅对任意目标造成1点秘法伤害。\n每当苏拉娅造成伤害时，你获得等量生命。\n结界4",
+      "text_en": "Once per Turn Action - {p}{p}: Attack. Whenever Suraya attacks, you may banish a Light card from your hero's soul. If you do, Suraya deals 1 arcane damage to any target.\nWhenever Suraya deals damage, you gain that much {h}.\nWard 4",
+      "source": "https://cards.fabtcg.com/card/suraya_archangel_of_knowledge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 4"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "sweeping_blow": {
+      "id": "sweeping_blow",
+      "name_zh": "横扫一击",
+      "name_en": "Sweeping Blow",
+      "type_zh": "龙裔 幻术师 行动·攻击",
+      "text_zh": "当你用横扫一击攻击时，创造一个灰烬衍生物。\n再动",
+      "text_en": "When you attack with Sweeping Blow, create an Ash token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/sweeping_blow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "the_librarian": {
+      "id": "the_librarian",
+      "name_zh": "图书管理员",
+      "name_en": "The Librarian",
+      "type_zh": "",
+      "text_zh": "当图书管理员牌面朝下在军械库中时，在你的回合开始时，你可以将他翻为正面朝上。\n当图书管理员正面朝上在军械库中时，每回合一次，当你创造幻质护盾衍生物时，抽一张牌，并在图书管理员上放置一个课业指示物。然后若其上有3个或更多课业指示物，放逐他，从你的牌库中搜寻一张专精牌，将其正面朝上放入军械库，然后洗牌。",
+      "text_en": "While The Librarian is face down in arsenal, at the start of your turn, you may turn him face up.\nWhile The Librarian is face up in arsenal, once per turn when you create a Spectral Shield token, draw a card and put a lesson counter on The Librarian. Then if there are 3 or more lesson counters on him, banish him, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
+      "source": "https://cards.fabtcg.com/card/the_librarian/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    },
+    "themai": {
+      "id": "themai",
+      "name_zh": "泰迈",
+      "name_en": "Themai",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "在你的回合期间，对手不能使用牌或启动异能。",
+      "text_en": "Opponents can't play cards or activate abilities during your turn.",
+      "source": "https://cards.fabtcg.com/card/themai/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "three_visits": {
+      "id": "three_visits",
+      "name_zh": "三次拜访",
+      "name_en": "Three Visits",
+      "type_zh": "秘法 幻术师 瞬间·光环",
+      "text_zh": "结界X，X为本回合你资源过的蓝色牌数量的三倍。",
+      "text_en": "Ward X, where X is three times the number of blue cards you've pitched this turn.",
+      "source": "https://cards.fabtcg.com/card/three_visits/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward X"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "tome_of_aeo": {
+      "id": "tome_of_aeo",
+      "name_zh": "埃欧之书",
+      "name_en": "Tome of Aeo",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "在你的行动阶段开始时，摧毁埃欧之书，然后抽一张牌。\n结界1",
+      "text_en": "At the beginning of your action phase, destroy Tome of Aeo then draw a card.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/tome_of_aeo/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "tomeltai": {
+      "id": "tomeltai",
+      "name_zh": "托梅尔泰",
+      "name_en": "Tomeltai",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "每当托梅尔泰攻击英雄时，展示你牌库顶的2张牌。若以此方式展示了1张或更多红色牌，在其控制的一件装备上放置等量的-1防御指示物，然后若其防御为0，摧毁它。",
+      "text_en": "Whenever Tomeltai attacks a hero, reveal the top 2 cards of your deck. If 1 or more red cards are revealed this way, put that many -1{d} counters on an equipment they control, then if it has 0{d}, destroy it.",
+      "source": "https://cards.fabtcg.com/card/tomeltai/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "5",
+          "defense": null
+        }
+      }
+    },
+    "tranquil_passing": {
+      "id": "tranquil_passing",
+      "name_zh": "宁静消逝",
+      "name_en": "Tranquil Passing",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当宁静消逝进入竞技场时，你可以放逐对手控制的目标费用为3或更低的光环衍生物或光环永久物，直到宁静消逝离开竞技场。\n结界1",
+      "text_en": "When Tranquil Passing enters the arena, you may banish target aura token or aura permanent with cost 3 or less controlled by an opponent until Tranquil Passing leaves the arena.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/tranquil_passing/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "transmogrify": {
+      "id": "transmogrify",
+      "name_zh": "变形术",
+      "name_en": "Transmogrify",
+      "type_zh": "幻术师 行动",
+      "text_zh": "本回合你使用的下一张攻击行动牌视为幻术师，具有8点基础力量，并获得虚击。\n再动",
+      "text_en": "The next attack action card you play this turn is Illusionist, has 8 base {p}, and gains phantasm.\nGo again",
+      "source": "https://cards.fabtcg.com/card/transmogrify/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "unwinding_finality": {
+      "id": "unwinding_finality",
+      "name_zh": "松解的终局",
+      "name_en": "Unwinding Finality",
+      "type_zh": "闪电 幻术师 行动·攻击",
+      "text_zh": "当此牌命中时，抽一张牌。\n每当此牌碎片化时，你可以将你坟场中的一张闪电瞬间牌置于你的牌库顶。\n碎片",
+      "text_en": "When this hits, draw a card.\nWhenever this fragments, you may put a Lightning instant card from your graveyard on top of your deck.\nFragment",
+      "source": "https://cards.fabtcg.com/card/unwinding_finality/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "veiled_intentions": {
+      "id": "veiled_intentions",
+      "name_zh": "隐藏的意图",
+      "name_en": "Veiled Intentions",
+      "type_zh": "幻术师 行动",
+      "text_zh": "再动\n本回合你使用的下一张攻击行动牌除其原有类别外还视为幻术师，并获得+4力量、虚击，以及“当此牌被摧毁时，抽一张牌。”",
+      "text_en": "Go again\nThe next attack action card you play this turn is Illusionist in addition to its other card, and gains +4{p}, phantasm, and \"When this is destroyed, draw a card.\"",
+      "source": "https://cards.fabtcg.com/card/veiled_intentions/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "vengeful_apparition": {
+      "id": "vengeful_apparition",
+      "name_zh": "复仇幻影",
+      "name_en": "Vengeful Apparition",
+      "type_zh": "幻术师 行动·光环",
+      "text_zh": "当此牌离开竞技场时，若你没有控制幻术师光环，本回合你可以将你的下一张费用为2或更低的光环当作瞬间使用。若如此做，它进入竞技场时带有一个+1力量指示物。\n结界1",
+      "text_en": "When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 2 or less this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.\nWard 1",
+      "source": "https://cards.fabtcg.com/card/vengeful_apparition/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "vynserakai": {
+      "id": "vynserakai",
+      "name_zh": "文塞拉凯",
+      "name_en": "Vynserakai",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "每当文塞拉凯命中英雄时，他对该英雄造成3点秘法伤害。",
+      "text_en": "Whenever Vynserakai hits a hero, he deals 3 arcane damage to them.",
+      "source": "https://cards.fabtcg.com/card/vynserakai/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "waning_vengeance": {
+      "id": "waning_vengeance",
+      "name_zh": "渐弱的复仇",
+      "name_en": "Waning Vengeance",
+      "type_zh": "秘法 幻术师 瞬间·光环",
+      "text_zh": "当此牌离开竞技场时，若本回合你资源过一张蓝色牌，创造一个幻质护盾衍生物。\n结界3",
+      "text_en": "When this leaves the arena, if you've pitched a blue card this turn, create a Spectral Shield token.\nWard 3",
+      "source": "https://cards.fabtcg.com/card/waning_vengeance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "war_cry_of_themis": {
+      "id": "war_cry_of_themis",
+      "name_zh": "忒弥斯战吼",
+      "name_en": "War Cry of Themis",
+      "type_zh": "光 幻术师 行动",
+      "text_zh": "你本回合的下一次天使攻击获得+4力量。\n再动\n瞬间——弃掉此牌，放逐你灵魂中的X张牌：将某个放逐区中的X张目标牌翻为牌面朝下。",
+      "text_en": "Your next angel attack this turn gets +4{p}.\nGo again\nInstant - Discard this, banish X cards from your soul: Turn X target cards in a banished zone face-down.",
+      "source": "https://cards.fabtcg.com/card/war_cry_of_themis/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "wartune_herald": {
+      "id": "wartune_herald",
+      "name_zh": "战调先驱",
+      "name_en": "Wartune Herald",
+      "type_zh": "光 幻术师 行动·攻击",
+      "text_zh": "当此牌命中时，将其置入你的灵魂。\n虚击",
+      "text_en": "When this hits, put it into your soul.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/wartune_herald/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "water_glow_lanterns": {
+      "id": "water_glow_lanterns",
+      "name_zh": "水光灯笼",
+      "name_en": "Water Glow Lanterns",
+      "type_zh": "幻术师 行动",
+      "text_zh": "展示你牌库顶的一张牌。若其为红色，创造一个幻质护盾衍生物。\n再动",
+      "text_en": "Reveal the top card of your deck. If it's red, create a Spectral Shield token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/water_glow_lanterns/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "wax_and_wane": {
+      "id": "wax_and_wane",
+      "name_zh": "盈虚之间",
+      "name_en": "Wax and Wane",
+      "type_zh": "秘法 幻术师 瞬间",
+      "text_zh": "选择其一或全部：\n- 在你控制的蓝色光环上放置一个+1力量指示物。\n- 在你控制的具有结界的光环上放置一个+1力量指示物。\n若你选择全部，从你的牌库中搜寻一张内息，展示它，洗牌，然后将其置于你的牌库顶。",
+      "text_en": "Choose 1 or both:\n- Put a +1{p} counter on target blue aura you control.\n- Put a +1{p} counter on target aura with ward you control.\nIf you choose both, search your deck for an Inner Chi, reveal it, shuffle, then put it on top of your deck.",
+      "source": "https://cards.fabtcg.com/card/wax_and_wane/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "waxing_specter": {
+      "id": "waxing_specter",
+      "name_zh": "渐盈的幽灵",
+      "name_en": "Waxing Specter",
+      "type_zh": "秘法 幻术师 瞬间·光环",
+      "text_zh": "若本回合你资源过一张蓝色牌，此牌进入竞技场时带有一个+1力量指示物。\n结界3",
+      "text_en": "If you've pitched a blue card this turn, this enters the arena with a +1{p} counter.\nWard 3",
+      "source": "https://cards.fabtcg.com/card/waxing_specter/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "yendurai": {
+      "id": "yendurai",
+      "name_zh": "延杜莱",
+      "name_en": "Yendurai",
+      "type_zh": "龙裔 幻术师·Dragon Ally",
+      "text_zh": "延杜莱进入竞技场时带有一个耐力指示物。\n若延杜莱将受到伤害，从其上移除一个耐力指示物以防止其中3点伤害。",
+      "text_en": "Yendurai enters the arena with an endurance counter on him.\nIf Yendurai would be dealt damage, remove an endurance counter from him to prevent 3 of that damage.",
+      "source": "https://cards.fabtcg.com/card/yendurai/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    }
+  }
+}

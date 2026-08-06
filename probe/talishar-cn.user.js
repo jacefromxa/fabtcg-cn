@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.10
+// @version      0.7.11
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
@@ -17,7 +17,7 @@
   'use strict';
 
   const root = window;
-  const PRODUCTION_DATA_BASE_URL = 'https://raw.githubusercontent.com/jacefromxa/talishar-cn-data/main';
+  const PRODUCTION_DATA_BASE_URL = 'https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/dist/data';
   const LOCAL_DATA_BASE_URL = 'http://127.0.0.1:4173/data';
   const CACHE_PREFIX = 'fab-cn-card-data-v1';
 

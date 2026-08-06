@@ -1,0 +1,3633 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "aggressive_pounce": {
+      "id": "aggressive_pounce",
+      "name_zh": "凶悍扑击",
+      "name_en": "Aggressive Pounce",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若本回合你威吓过一位对手，此牌获得再动。",
+      "text_en": "If you've intimidated an opponent this turn, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/aggressive_pounce/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "alpha_instinct": {
+      "id": "alpha_instinct",
+      "name_zh": "阿尔法本能",
+      "name_en": "Alpha Instinct",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "里纳尔专精\n当此牌被弃置以捶胸时，创造一个力量衍生物。",
+      "text_en": "Rhinar Specialization\nWhen this is discard to beat chest, create a Might token.",
+      "source": "https://cards.fabtcg.com/card/alpha_instinct/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "6",
+          "defense": "0"
+        }
+      }
+    },
+    "alpha_rampage": {
+      "id": "alpha_rampage",
+      "name_zh": "阿尔法狂暴",
+      "name_en": "Alpha Rampage",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "里纳尔专精\n作为使用阿尔法狂暴的额外费用，随机弃一张牌。\n当你用阿尔法狂暴攻击时，威吓。",
+      "text_en": "Rhinar Specialization\nAs an additional cost to play Alpha Rampage, discard a random card.\nWhen you attack with Alpha Rampage, intimidate.",
+      "source": "https://cards.fabtcg.com/card/alpha_rampage/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "9",
+          "defense": "3"
+        }
+      }
+    },
+    "argh_smash": {
+      "id": "argh_smash",
+      "name_zh": "啊呀砸碎",
+      "name_en": "Argh... Smash!",
+      "type_zh": "蛮将 行动",
+      "text_zh": "掷一枚六面骰。摧毁至多X个物品，X为掷出数字的一半（向下取整）。\n再动",
+      "text_en": "Roll a 6 sided die. Destroy up to X items, where X is half the number rolled, rounded down.\nGo again",
+      "source": "https://cards.fabtcg.com/card/argh_smash/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "asking_for_trouble": {
+      "id": "asking_for_trouble",
+      "name_zh": "自找麻烦",
+      "name_en": "Asking for Trouble",
+      "type_zh": "蛮将 阻挡",
+      "text_zh": "当此牌防御时，在攻击英雄的控制下创造一个活力衍生物。",
+      "text_en": "When this defends, create a Vigor token under the attacking hero's control.",
+      "source": "https://cards.fabtcg.com/card/asking_for_trouble/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "assault_and_battery": {
+      "id": "assault_and_battery",
+      "name_zh": "攻击与殴击",
+      "name_en": "Assault and Battery",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "捶胸\n当此牌攻击时，若本回合你捶胸过，创造一个敏捷衍生物。",
+      "text_en": "Beat Chest\nWhen this attacks, if you've beaten chest this turn, create an Agility token.",
+      "source": "https://cards.fabtcg.com/card/assault_and_battery/",
+      "status": "machine-draft",
+      "keywords": [
+        "Beat Chest"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "awakening_bellow": {
+      "id": "awakening_bellow",
+      "name_zh": "觉醒怒吼",
+      "name_en": "Awakening Bellow",
+      "type_zh": "蛮将 行动",
+      "text_zh": "本回合你使用的下一张蛮将攻击行动牌获得+3力量。\n威吓\n再动",
+      "text_en": "The next Brute attack action card you play this turn gains +3{p}.\nIntimidate\nGo again",
+      "source": "https://cards.fabtcg.com/card/awakening_bellow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "bad_beats": {
+      "id": "bad_beats",
+      "name_zh": "坏牌",
+      "name_en": "Bad Beats",
+      "type_zh": "蛮将 行动",
+      "text_zh": "掷一枚六面骰。若掷出4、5或6，本回合你使用的下一张蛮将攻击行动牌获得+5力量。\n再动",
+      "text_en": "Roll a 6 sided die. If the number rolled is a 4, 5, or 6, the next Brute attack action card you play this turn gains +5{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/bad_beats/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ball_breaker": {
+      "id": "ball_breaker",
+      "name_zh": "碎球连枷",
+      "name_en": "Ball Breaker",
+      "type_zh": "蛮将 武器·Flail （单手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n若本回合你弃置过一张力量为6或更高的牌，此牌获得+1力量。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nIf you've discarded a card with 6 or more {p} this turn, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/ball_breaker/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "bam_bam": {
+      "id": "bam_bam",
+      "name_zh": "邦邦",
+      "name_en": "Bam Bam",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌命中英雄时，摧毁其控制的一个物品。\n瞬间——弃掉此牌：本回合你的棒攻击获得“当此牌命中英雄时，摧毁其控制的一个物品。”",
+      "text_en": "When this hits a hero, destroy an item they control.\nInstant - Discard this: Your club attacks this turn get \"When this hits a hero, destroy an item they control.\"",
+      "source": "https://cards.fabtcg.com/card/bam_bam/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "bare_destruction": {
+      "id": "bare_destruction",
+      "name_zh": "赤裸毁灭",
+      "name_en": "Bare Destruction",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "捶胸\n当此牌攻击时，若本回合你捶胸过且你没有控制胸部装备，此牌获得再动，且本回合你使用的下一张蛮将攻击行动牌获得+2力量。",
+      "text_en": "Beat Chest\nWhen this attacks, if you've beaten chest this turn and you don't control a chest equipment, this gets go again and the next Brute attack action card you play this turn gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/bare_destruction/",
+      "status": "machine-draft",
+      "keywords": [
+        "Beat Chest",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "bare_fangs": {
+      "id": "bare_fangs",
+      "name_zh": "獠牙毕露",
+      "name_en": "Bare Fangs",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，獠牙毕露获得+2力量。",
+      "text_en": "When this attacks, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Bare Fangs gains +2{p}.",
+      "source": "https://cards.fabtcg.com/card/bare_fangs/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "bare_swing": {
+      "id": "bare_swing",
+      "name_zh": "赤裸挥击",
+      "name_en": "Bare Swing",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "捶胸\n当此牌攻击时，若本回合你捶胸过且你没有控制胸部装备，此牌获得+2力量。",
+      "text_en": "Beat Chest\nWhen this attacks, if you've beaten chest this turn and you don't control a chest equipment, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/bare_swing/",
+      "status": "machine-draft",
+      "keywords": [
+        "Beat Chest"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "bark_obscenities": {
+      "id": "bark_obscenities",
+      "name_zh": "喝骂粗言",
+      "name_en": "Bark Obscenities",
+      "type_zh": "蛮将 行动",
+      "text_zh": "本回合你的下一次以守护者英雄为目标的攻击获得+4力量。\n再动",
+      "text_en": "Your next attack that targets a Guardian hero this turn gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/bark_obscenities/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "barraging_beatdown": {
+      "id": "barraging_beatdown",
+      "name_zh": "连续痛打",
+      "name_en": "Barraging Beatdown",
+      "type_zh": "蛮将 行动",
+      "text_zh": "你本回合的下一次蛮将攻击获得“当此攻击被少于2张非装备牌防御时，它获得+4力量。”\n威吓\n再动",
+      "text_en": "Your next Brute attack this turn gains \"While this attack is defended by less than 2 non-equipment cards, it has +4{p}.\"\nIntimidate\nGo again",
+      "source": "https://cards.fabtcg.com/card/barraging_beatdown/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "barraging_big_horn": {
+      "id": "barraging_big_horn",
+      "name_zh": "连续大角",
+      "name_en": "Barraging Big Horn",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "作为使用连续大角的额外费用，随机弃一张牌。\n当连续大角被少于2张非装备牌防御时，它获得再动。",
+      "text_en": "As an additional cost to play Barraging Big Horn, discard a random card.\nWhile Barraging Big Horn is defended by less than 2 non-equipment cards, it has go again.",
+      "source": "https://cards.fabtcg.com/card/barraging_big_horn/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "bash_guardian": {
+      "id": "bash_guardian",
+      "name_zh": "痛击守护者",
+      "name_en": "Bash Guardian",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若此牌被守护者牌防御，此牌获得+1力量。\n当此牌命中守护者英雄时，摧毁其控制的一个光环衍生物。",
+      "text_en": "If this is defended by a Guardian card, this gets +1{p}.\nWhen this hits a Guardian hero, destroy an aura token they control.",
+      "source": "https://cards.fabtcg.com/card/bash_guardian/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "battlefield_breaker": {
+      "id": "battlefield_breaker",
+      "name_zh": "战场破坏者",
+      "name_en": "Battlefield Breaker",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "若本回合你放逐过一张力量为6或更高的牌，此牌获得+1力量。\n血债",
+      "text_en": "If you've banished a card with 6 or more {p} this turn, this gets +1{p}.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/battlefield_breaker/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "bear_hug": {
+      "id": "bear_hug",
+      "name_zh": "熊抱",
+      "name_en": "Bear Hug",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "仅当本回合你资源过一张力量为6或更高的牌时才能使用此牌。",
+      "text_en": "Play this only if you've pitched a card with 6 or more {p} this turn.",
+      "source": "https://cards.fabtcg.com/card/bear_hug/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "beast_mode": {
+      "id": "beast_mode",
+      "name_zh": "野兽模式",
+      "name_en": "Beast Mode",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若本回合你威吓过，此牌获得+2力量。",
+      "text_en": "If you've intimidated this turn, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/beast_mode/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "beast_within": {
+      "id": "beast_within",
+      "name_zh": "内在野兽",
+      "name_en": "Beast Within",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若野兽之魂从战斗链以外的任何区域被置入坟场，放逐你牌库顶的一张牌并失去1点生命。若其力量为6或更高，将其置入你的手牌。否则，重复此过程。",
+      "text_en": "If Beast Within is put into a graveyard from anywhere other than the combat chain, banish the top card of your deck and lose 1{h}. If it has 6 or more {p}, put it into your hand, otherwise, repeat this process.",
+      "source": "https://cards.fabtcg.com/card/beast_within/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "berserk": {
+      "id": "berserk",
+      "name_zh": "狂暴",
+      "name_en": "Berserk",
+      "type_zh": "",
+      "text_zh": "直到回合结束，每当你随机弃置一张力量为6或更高的牌时，放逐它。若如此做，展示你牌库顶的3张牌。你可以使用一张以此方式展示且力量为6或更高的牌。\n再动",
+      "text_en": "Until end of turn, whenever you discard a random card with 6 or more {p}, banish it. If you do, reveal the top card of your deck. If it has 6 or more {p}, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/berserk/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    },
+    "big_bully": {
+      "id": "big_bully",
+      "name_zh": "大恶霸",
+      "name_en": "Big Bully",
+      "type_zh": "憎恶 蛮将 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，若你的生命高于该英雄，观众为你喝倒彩。\n若本回合你被喝倒彩过，此牌的基础力量翻倍。",
+      "text_en": "When this attacks a hero, if you have more {h} than them, the crowd boos you.\nIf you've been booed this turn, this card's base {p} is doubled.",
+      "source": "https://cards.fabtcg.com/card/big_bully/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Boos"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "blessing_of_savagery": {
+      "id": "blessing_of_savagery",
+      "name_zh": "野蛮祝福",
+      "name_en": "Blessing of Savagery",
+      "type_zh": "蛮将 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁野蛮祝福，然后本回合你的下一次基础力量为6或更高的攻击获得+3力量。",
+      "text_en": "At the start of your turn, destroy Blessing of Savagery then your next attack with 6 or more base {p} this turn gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/blessing_of_savagery/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blood_dripping_frenzy": {
+      "id": "blood_dripping_frenzy",
+      "name_zh": "滴血狂乱",
+      "name_en": "Blood Dripping Frenzy",
+      "type_zh": "暗影 蛮将 行动",
+      "text_zh": "作为使用此牌的额外费用，放逐你的手牌。\n每有一张以此方式放逐的具有血债的牌，抽一张牌。\n本回合你的蛮将和暗影攻击获得+X力量，X为以此方式放逐的力量为6或更高的牌数量。\n再动",
+      "text_en": "As an additional cost to play this, banish your hand.\nDraw a card for each card with blood debt banished this way.\nYour Brute and Shadow attacks get +X{p} this turn where X is the number of cards with 6 or more {p} banished this way.\nGo again",
+      "source": "https://cards.fabtcg.com/card/blood_dripping_frenzy/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "bloodrush_bellow": {
+      "id": "bloodrush_bellow",
+      "name_zh": "血涌怒吼",
+      "name_en": "Bloodrush Bellow",
+      "type_zh": "蛮将 行动",
+      "text_zh": "作为使用血涌怒吼的额外费用，随机弃一张牌。\n本回合你的蛮将攻击获得+2力量。\n若被弃置的牌力量为6或更高，抽2张牌且血涌怒吼获得再动。",
+      "text_en": "As an additional cost to play Bloodrush Bellow, discard a random card.\nYour Brute attacks gain +2{p} this turn.\nIf the discarded card has 6 or more {p}, draw 2 cards and Bloodrush Bellow gains go again.",
+      "source": "https://cards.fabtcg.com/card/bloodrush_bellow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "bone_basher": {
+      "id": "bone_basher",
+      "name_zh": "碎骨棒",
+      "name_en": "Bone Basher",
+      "type_zh": "蛮将 武器·Club （双手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击",
+      "text_en": "Once per Turn Action - {r}{r}: Attack",
+      "source": "https://cards.fabtcg.com/card/bone_basher/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "bone_head_barrier": {
+      "id": "bone_head_barrier",
+      "name_zh": "骨头脑屏障",
+      "name_en": "Bone Head Barrier",
+      "type_zh": "蛮将 瞬间",
+      "text_zh": "掷一枚六面骰。防止本回合接下来将对你的英雄造成的X点伤害，X为掷出的数字。",
+      "text_en": "Roll a 6 sided die. Prevent the next X damage that would be dealt to your hero this turn, where X is the number rolled.",
+      "source": "https://cards.fabtcg.com/card/bone_head_barrier/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "bonebreaker_bellow": {
+      "id": "bonebreaker_bellow",
+      "name_zh": "碎骨怒吼",
+      "name_en": "Bonebreaker Bellow",
+      "type_zh": "蛮将 行动",
+      "text_zh": "捶胸\n你本回合的下一次蛮将攻击获得+3力量。若本回合你捶胸过，改为它获得+5力量。\n再动",
+      "text_en": "Beat Chest\nYour next Brute attack this turn gains +3{p}. If you've beaten chest this turn, instead it gains +5{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/bonebreaker_bellow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Beat Chest",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "boneyard_marauder": {
+      "id": "boneyard_marauder",
+      "name_zh": "骸骨场掠夺者",
+      "name_en": "Boneyard Marauder",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用骸骨场掠夺者的额外费用，随机放逐你坟场中的3张牌。\n血债",
+      "text_en": "As an additional cost to play Boneyard Marauder, banish 3 random cards from your graveyard.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/boneyard_marauder/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "breakneck_battery": {
+      "id": "breakneck_battery",
+      "name_zh": "极速猛击",
+      "name_en": "Breakneck Battery",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "作为使用极速猛击的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，极速猛击获得再动。",
+      "text_en": "As an additional cost to play Breakneck Battery, discard a random card.\nIf the discarded card has 6 or more {p}, Breakneck Battery gains go again.",
+      "source": "https://cards.fabtcg.com/card/breakneck_battery/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "buckwild": {
+      "id": "buckwild",
+      "name_zh": "狂野不羁",
+      "name_en": "Buckwild",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若你资源区中有一张力量为6或更高的牌，此牌获得再动。",
+      "text_en": "If there is a card with 6 or more {p} in your pitch zone, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/buckwild/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "cast_bones": {
+      "id": "cast_bones",
+      "name_zh": "掷骨占卜",
+      "name_en": "Cast Bones",
+      "type_zh": "蛮将 行动",
+      "text_zh": "展示你牌库顶的6张牌。每有一张以此方式展示的力量为6或更高的牌，创造一个力量衍生物。将展示的牌以随机顺序置于你的牌库顶。\n若你控制6个或更多力量衍生物，创造一个敏捷衍生物。",
+      "text_en": "Reveal the top 6 cards of your deck. Create a Might token for each card with 6 or more {p} revealed this way. Put the revealed cards on top of your deck in a random order.\nIf you control 6 or more Might tokens, create an Agility token.",
+      "source": "https://cards.fabtcg.com/card/cast_bones/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "chain_of_brutality": {
+      "id": "chain_of_brutality",
+      "name_zh": "暴虐之链",
+      "name_en": "Chain of Brutality",
+      "type_zh": "憎恶 蛮将 行动·攻击",
+      "text_zh": "若此牌的力量为6或更高，它获得再动，以及“当此牌命中英雄时，本回合你使用的下一张攻击行动牌具有6点基础力量。”",
+      "text_en": "If this has 6 or more {p}, it gets go again and \"When this hits a hero, the next attack action card you play this turn has 6 base {p}.\"",
+      "source": "https://cards.fabtcg.com/card/chain_of_brutality/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "challenge_the_alpha": {
+      "id": "challenge_the_alpha",
+      "name_zh": "挑战阿尔法",
+      "name_en": "Challenge the Alpha",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击蛮将英雄时，此牌获得+2力量。\n当此牌命中蛮将英雄时，该英雄弃一张牌。若其力量为6或更高，你失去2点生命。",
+      "text_en": "When this attacks a Brute hero, this gets +2{p}.\nWhen this hits a Brute hero, they discard a card. If it has 6 or more {p}, you lose 2{h}.",
+      "source": "https://cards.fabtcg.com/card/challenge_the_alpha/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "cheaters_charm": {
+      "id": "cheaters_charm",
+      "name_zh": "作弊者护符",
+      "name_en": "Cheater's Charm",
+      "type_zh": "憎恶 蛮将 瞬间",
+      "text_zh": "选择任意数量；\n- 偷取一个自信或坚韧衍生物。\n- 观众为你喝倒彩。\n- 若你控制一个力量为6或更高的攻击，对目标英雄造成2点伤害，除非其弃一张牌。",
+      "text_en": "Choose any number;\n- Steal a Confidence or Toughness token.\n- The crowd boos you.\n- If you control an attack with 6 or more {p}, deal 2 damage to target hero unless they discard a card.",
+      "source": "https://cards.fabtcg.com/card/cheaters_charm/",
+      "status": "machine-draft",
+      "keywords": [
+        "Steal",
+        "The Crowd Boos"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "chief_rukutan": {
+      "id": "chief_rukutan",
+      "name_zh": "首领鲁库坦",
+      "name_en": "Chief Ruk'utan",
+      "type_zh": "",
+      "text_zh": "当鲁库坦牌面朝下在军械库中时，在你的回合开始时，你可以将他翻为正面朝上。\n当鲁库坦正面朝上在军械库中时，每当你使用一张力量为6或更高的牌时，威吓，并在其上放置一个课业指示物。然后若鲁库坦上有2个或更多课业指示物，放逐他，从你的牌库中搜寻阿尔法狂暴，将其正面朝上放入军械库，然后洗牌。",
+      "text_en": "While Ruk'utan is face down in arsenal, at the start of your turn, you may turn him face up.\nWhile Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p}, intimidate, and put a lesson counter on him. Then if there are 2 or more lesson counters on Ruk'utan, banish him, search your deck for Alpha Rampage, put it face up in arsenal, and shuffle.",
+      "source": "https://cards.fabtcg.com/card/chief_rukutan/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    },
+    "clearing_bellow": {
+      "id": "clearing_bellow",
+      "name_zh": "清场怒吼",
+      "name_en": "Clearing Bellow",
+      "type_zh": "蛮将 行动",
+      "text_zh": "威吓\n再动",
+      "text_en": "Intimidate\nGo again",
+      "source": "https://cards.fabtcg.com/card/clearing_bellow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate",
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "convulsions_from_the_bellows_of_hell": {
+      "id": "convulsions_from_the_bellows_of_hell",
+      "name_zh": "地狱风箱痉挛",
+      "name_en": "Convulsions from the Bellows of Hell",
+      "type_zh": "暗影 蛮将 行动",
+      "text_zh": "作为使用地狱风箱痉挛的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，本回合你使用的下一张攻击行动牌获得+3力量和支配。\n再动",
+      "text_en": "As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +3{p} and dominate.\nGo again",
+      "source": "https://cards.fabtcg.com/card/convulsions_from_the_bellows_of_hell/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "deadwood_rumbler": {
+      "id": "deadwood_rumbler",
+      "name_zh": "枯木轰隆者",
+      "name_en": "Deadwood Rumbler",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，从某个坟场中放逐一张牌。\n血债",
+      "text_en": "Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/deadwood_rumbler/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "8",
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "7",
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "deep_rooted_evil": {
+      "id": "deep_rooted_evil",
+      "name_zh": "深植的邪恶",
+      "name_en": "Deep Rooted Evil",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，你可以从你的放逐区使用深植的邪恶。\n血债",
+      "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, you may play Deep Rooted Evil from your banished zone.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/deep_rooted_evil/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "diabolic_offering": {
+      "id": "diabolic_offering",
+      "name_zh": "恶魔献祭",
+      "name_en": "Diabolic Offering",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，恶魔献祭的力量和防御为6。否则，它们为0。\n血债",
+      "text_en": "If a card with 6 ore more {p} has been put into your banished zone this turn, Daibolic Offering's {p} and {d} are 6, otherwise they are 0.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/diabolic_offering/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "*",
+          "defense": "*"
+        }
+      }
+    },
+    "dig_up_dinner": {
+      "id": "dig_up_dinner",
+      "name_zh": "挖出晚餐",
+      "name_en": "Dig Up Dinner",
+      "type_zh": "蛮将 行动",
+      "text_zh": "选择你坟场中的3张随机牌。将以此方式选择的所有力量为6或更高的攻击行动牌洗入你的牌库，然后获得等量生命。放逐此牌。\n再动",
+      "text_en": "Choose 3 random cards in your graveyard. Shuffle all attack action cards with 6 or more {p} chosen this way into your deck, then gain that much {h}. Banish this.\nGo again",
+      "source": "https://cards.fabtcg.com/card/dig_up_dinner/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "disturb_the_peace": {
+      "id": "disturb_the_peace",
+      "name_zh": "扰乱和平",
+      "name_en": "Disturb the Peace",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "此牌不能被守护者光环防御。\n当此牌命中守护者英雄时，摧毁其控制的一个光环。",
+      "text_en": "This can't be defended by Guardian auras.\nWhen this hits a Guardian hero, destroy an aura they control.",
+      "source": "https://cards.fabtcg.com/card/disturb_the_peace/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "dread_screamer": {
+      "id": "dread_screamer",
+      "name_zh": "恐惧尖叫者",
+      "name_en": "Dread Screamer",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用恐惧尖叫者的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，恐惧尖叫者获得再动。\n血债",
+      "text_en": "As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard\nIf a card with 6 or more {p} is banished this way, Dread Screamer gains go again.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/dread_screamer/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "endless_maw": {
+      "id": "endless_maw",
+      "name_zh": "无尽巨口",
+      "name_en": "Endless Maw",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用无尽巨口的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，无尽巨口获得+3力量。\n血债",
+      "text_en": "As an additional cost to play Endless Maw, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/endless_maw/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "energetic_impact": {
+      "id": "energetic_impact",
+      "name_zh": "强力冲击",
+      "name_en": "Energetic Impact",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌与一张力量为6或更高的牌一起防御时，创造一个活力衍生物。",
+      "text_en": "When this defends together with a card with 6 or more {p}, create a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/energetic_impact/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "expendable_limbs": {
+      "id": "expendable_limbs",
+      "name_zh": "可弃的肢体",
+      "name_en": "Expendable Limbs",
+      "type_zh": "暗影 蛮将 防御反应",
+      "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，在你的下一个行动阶段期间你可以从你的放逐区使用它。",
+      "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, you may play it from your banished zone during your next action phase.",
+      "source": "https://cards.fabtcg.com/card/expendable_limbs/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "familiar_stench": {
+      "id": "familiar_stench",
+      "name_zh": "熟悉的恶臭",
+      "name_en": "Familiar Stench",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当1张或更多蛮将牌防御此牌时，创造一个活力衍生物。",
+      "text_en": "When 1 or more Brute cards defend this, create a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/familiar_stench/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        }
+      }
+    },
+    "feral_instinct": {
+      "id": "feral_instinct",
+      "name_zh": "野性本能",
+      "name_en": "Feral Instinct",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若本回合你威吓过一位对手，此牌的使用费用减少3点资源。",
+      "text_en": "If you've intimidated an opponent this turn, this costs {r}{r}{r} less to play.",
+      "source": "https://cards.fabtcg.com/card/feral_instinct/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "flex_speed": {
+      "id": "flex_speed",
+      "name_zh": "屈伸速度",
+      "name_en": "Flex Speed",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若此牌的力量为6或更高，它获得再动。",
+      "text_en": "If this has 6 or more {p}, it gets go again.",
+      "source": "https://cards.fabtcg.com/card/flex_speed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "flex_strength": {
+      "id": "flex_strength",
+      "name_zh": "屈伸力量",
+      "name_en": "Flex Strength",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若此牌的力量为6或更高，它获得+3力量。",
+      "text_en": "If this has 6 or more {p}, it gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/flex_strength/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "give_em_a_piece_of_your_mind": {
+      "id": "give_em_a_piece_of_your_mind",
+      "name_zh": "教训他们一顿",
+      "name_en": "Give 'Em a Piece of Your Mind",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当战斗链关闭时，若此牌没有命中，防御英雄创造一个活力衍生物。",
+      "text_en": "When the combat chain closes, if this didn't hit, the defending hero creates a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/give_em_a_piece_of_your_mind/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "good_natured_brutality": {
+      "id": "good_natured_brutality",
+      "name_zh": "善意暴行",
+      "name_en": "Good Natured Brutality",
+      "type_zh": "崇敬 蛮将 行动·攻击",
+      "text_zh": "当此牌防御时，若你手牌中没有牌，它获得+6防御，且观众为你欢呼。",
+      "text_en": "When this defends, if you have no cards in hand, it gets +6{d} and the crowd cheers you.",
+      "source": "https://cards.fabtcg.com/card/good_natured_brutality/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "0"
+        }
+      }
+    },
+    "graveling_growl": {
+      "id": "graveling_growl",
+      "name_zh": "碎石低吼",
+      "name_en": "Graveling Growl",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "仅当本回合有一张力量为6或更高的牌被置入你的放逐区时才能使用碎石低吼。\n血债",
+      "text_en": "Play Graveling Growl only if a card with 6 or more {p} has been put into your banished zone this turn.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/graveling_growl/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "hell_hammer": {
+      "id": "hell_hammer",
+      "name_zh": "地狱之锤",
+      "name_en": "Hell Hammer",
+      "type_zh": "暗影 蛮将 武器·锤 （双手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n当战斗链关闭时，若此牌攻击过，放逐它。\n血债",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen the combat chain closes, if this attacked, banish it.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/hell_hammer/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "hexagore_the_death_hydra": {
+      "id": "hexagore_the_death_hydra",
+      "name_zh": "六首死亡九头蛇·赫克萨戈尔",
+      "name_en": "Hexagore, the Death Hydra",
+      "type_zh": "暗影 蛮将 武器·Flail （双手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n每当你用赫克萨戈尔攻击时，它对你造成6减去你放逐区中具有血债的牌数量的伤害。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nWhenever you attack with Hexagore, it deals damage to you equal to 6 minus the number of cards with blood debt in your banished zone.",
+      "source": "https://cards.fabtcg.com/card/hexagore_the_death_hydra/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "high_pitched_howl": {
+      "id": "high_pitched_howl",
+      "name_zh": "尖啸",
+      "name_en": "High Pitched Howl",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击时，若你资源区中有一张力量为6或更高的牌，创造一个活力衍生物。",
+      "text_en": "When this attacks, if there is a card with 6 or more {p} in your pitch zone, create a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/high_pitched_howl/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "high_roller": {
+      "id": "high_roller",
+      "name_zh": "豪赌者",
+      "name_en": "High Roller",
+      "type_zh": "蛮将 行动",
+      "text_zh": "威吓\n若本回合你掷骰掷出过4、5或6，改为威吓两次。\n再动",
+      "text_en": "Intimidate\nIf you have rolled a 4, 5, or 6 on a die this turn, instead intimidate twice.\nGo again",
+      "source": "https://cards.fabtcg.com/card/high_roller/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "hungering_slaughterbeast": {
+      "id": "hungering_slaughterbeast",
+      "name_zh": "饥饿屠戮兽",
+      "name_en": "Hungering Slaughterbeast",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用饥饿屠戮兽的额外费用，随机放逐你坟场中的3张牌。\n血债",
+      "text_en": "As an additional cost to play Hungering Slaughterbeast, banish 3 random cards from your graveyard.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/hungering_slaughterbeast/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "jaws_of_victory": {
+      "id": "jaws_of_victory",
+      "name_zh": "胜利之颚",
+      "name_en": "Jaws of Victory",
+      "type_zh": "崇敬 蛮将 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，若你的生命低于该英雄，观众为你欢呼。\n若本回合你被欢呼过，此牌获得再动。",
+      "text_en": "When this attacks a hero, if you have less {h} than them, the crowd cheers you.\nIf you've been cheered this turn, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/jaws_of_victory/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "lady_barthimont": {
+      "id": "lady_barthimont",
+      "name_zh": "巴希蒙特女士",
+      "name_en": "Lady Barthimont",
+      "type_zh": "",
+      "text_zh": "当巴希蒙特牌面朝下在军械库中时，在你的回合开始时，你可以将她翻为正面朝上。\n当巴希蒙特正面朝上在军械库中时，每当你使用攻击行动牌时，放逐你牌库顶的一张牌。若被放逐的牌力量为6或更高，该攻击获得支配，并在巴希蒙特上放置一个课业指示物。然后若她上有2个或更多课业指示物，放逐她，从你的牌库中搜寻一张专精牌，将其正面朝上放入军械库，然后洗牌。",
+      "text_en": "While Barthimont is face down in arsenal, at the start of your turn, you may turn her face up.\nWhile Barthimont is face up in arsenal, whenever you play an attack action card, banish the top card of your deck. If the banished card has 6 or more {p}, the attack gains dominate and put a lesson counter on Barthimont. Then if there are 2 or more lesson counters on her, banish her, search your deck for a specialization card, put it face up into arsenal, and shuffle.",
+      "source": "https://cards.fabtcg.com/card/lady_barthimont/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    },
+    "lay_down_the_challenge": {
+      "id": "lay_down_the_challenge",
+      "name_zh": "提出挑战",
+      "name_en": "Lay Down the Challenge",
+      "type_zh": "蛮将 行动",
+      "text_zh": "威吓目标英雄，然后若其手牌比你多，抽一张牌。\n再动",
+      "text_en": "Intimidate target hero, then if they have more cards in hand than you, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/lay_down_the_challenge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "madcap_charger": {
+      "id": "madcap_charger",
+      "name_zh": "莽撞冲锋者",
+      "name_en": "Madcap Charger",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "作为使用莽撞冲锋者的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞冲锋者具有再动。",
+      "text_en": "As an additional cost to play Madcap Charger, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Charger has go again.",
+      "source": "https://cards.fabtcg.com/card/madcap_charger/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "madcap_muscle": {
+      "id": "madcap_muscle",
+      "name_zh": "莽撞肌肉",
+      "name_en": "Madcap Muscle",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "作为使用莽撞肌肉的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞肌肉获得+3力量。",
+      "text_en": "As an additional cost to play Madcap Muscle, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.",
+      "source": "https://cards.fabtcg.com/card/madcap_muscle/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "mandible_claw": {
+      "id": "mandible_claw",
+      "name_zh": "下颚之爪",
+      "name_en": "Mandible Claw",
+      "type_zh": "蛮将 武器·爪 （单手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n若本回合你弃置过一张力量为6或更高的牌，此牌的攻击获得再动。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nIf you have discarded a card with 6 or more {p} this turn, this card's attacks go again.",
+      "source": "https://cards.fabtcg.com/card/mandible_claw/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "mark_of_the_beast": {
+      "id": "mark_of_the_beast",
+      "name_zh": "野兽印记",
+      "name_en": "Mark of the Beast",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "若野兽印记将从任何区域置入你的坟场，改为放逐它。\n血债",
+      "text_en": "If Mark of the Beast would be put into your graveyard from anywhere, instead banish it.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/mark_of_the_beast/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "massacre": {
+      "id": "massacre",
+      "name_zh": "大屠杀",
+      "name_en": "Massacre",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当你用大屠杀攻击时，若本回合你弃置过一张力量为6或更高的牌，大屠杀获得+2力量和威吓。\n若大屠杀被弃置以支付蛮将攻击行动牌的费用，威吓。",
+      "text_en": "When you attack with Massacre, if you have discarded a card with 6 or more {p} this turn, Massacre gains +2{p} and intimidate.\nIf Massacre is discarded to pay the cost of a Brute attack action card, intimidate.",
+      "source": "https://cards.fabtcg.com/card/massacre/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "mini_meataxe": {
+      "id": "mini_meataxe",
+      "name_zh": "迷你肉斧",
+      "name_en": "Mini Meataxe",
+      "type_zh": "蛮将 武器·斧 （单手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n当此牌攻击时，抽一张牌，然后随机弃一张牌。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen this attacks, draw a card then discard a random card.",
+      "source": "https://cards.fabtcg.com/card/mini_meataxe/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "no_fear": {
+      "id": "no_fear",
+      "name_zh": "无所畏惧",
+      "name_en": "No Fear",
+      "type_zh": "蛮将 瞬间",
+      "text_zh": "作为使用此牌的额外费用，放逐你手牌中的任意数量力量为6或更高的牌。在结束阶段开始时，将它们移回你的手牌。\n本回合接下来你将受到伤害时，防止其中X点伤害，X为2加上为使用此牌而放逐的牌数量。",
+      "text_en": "As an additional cost to play this, banish any number of cards with 6 or more {p} from your hand. At the beginning of the end phase, return them to your hand.\nThe next time you would be dealt damage this turn, prevent X of that damage, where X is 2 plus the number of cards banished to play this.",
+      "source": "https://cards.fabtcg.com/card/no_fear/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "numbskull": {
+      "id": "numbskull",
+      "name_zh": "愚钝",
+      "name_en": "Numbskull",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌在任意区域时，其使用费用、力量和防御不能被修改。",
+      "text_en": "While this is in any zone, its {r} cost to play, {p}, and {d} can't be modified.",
+      "source": "https://cards.fabtcg.com/card/numbskull/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "numbskull_charm": {
+      "id": "numbskull_charm",
+      "name_zh": "愚钝护符",
+      "name_en": "Numbskull Charm",
+      "type_zh": "崇敬 蛮将 瞬间",
+      "text_zh": "选择任意数量；\n- 摧毁一个自信或力量衍生物。\n- 观众为你欢呼。\n- 资源你牌库顶的一张牌。若其力量为6或更高，创造一个活力衍生物。",
+      "text_en": "Choose any number;\n- Destroy a Confidence or Might token.\n- The crowd cheers you.\n- Pitch the top card of your deck. If it has 6 or more {p}, create a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/numbskull_charm/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "offensive_behavior": {
+      "id": "offensive_behavior",
+      "name_zh": "冒犯行为",
+      "name_en": "Offensive Behavior",
+      "type_zh": "憎恶 蛮将 行动·攻击",
+      "text_zh": "若你控制一个力量或活力衍生物，此牌获得+1力量。\n当此牌命中英雄时，创造一个力量和一个活力衍生物。",
+      "text_en": "If you control a Might or Vigor token, this gets +1{p}.\nWhen this hits a hero, create a Might and a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/offensive_behavior/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "old_leather_and_vim": {
+      "id": "old_leather_and_vim",
+      "name_zh": "陈皮革与活力",
+      "name_en": "Old Leather and Vim",
+      "type_zh": "崇敬 蛮将 行动·攻击",
+      "text_zh": "若你控制一个坚韧或活力衍生物，此牌获得+1力量。\n当此牌命中英雄时，创造一个坚韧和一个活力衍生物。",
+      "text_en": "If you control a Toughness or Vigor token, this gets +1{p}.\nWhen this hits a hero, create a Toughness and a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/old_leather_and_vim/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "outside_interference": {
+      "id": "outside_interference",
+      "name_zh": "外部干扰",
+      "name_en": "Outside Interference",
+      "type_zh": "憎恶 蛮将 行动·攻击",
+      "text_zh": "瞬间——弃掉此牌：你可以展示你物品栏中的一张憎恶攻击行动牌并将其置入你的手牌。",
+      "text_en": "Instant - Discard this: You may reveal a Reviled attack action card from your inventory and put it into your hand.",
+      "source": "https://cards.fabtcg.com/card/outside_interference/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "6",
+          "defense": "0"
+        }
+      }
+    },
+    "pack_call": {
+      "id": "pack_call",
+      "name_zh": "兽群召唤",
+      "name_en": "Pack Call",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌防御时，展示你牌库顶的一张牌。若其力量为6或更高，将其置于牌库顶。否则，将其置于牌库底。",
+      "text_en": "When this defends, reveal the top card of your deck. If it has 6 or more {p}, put it on top. Otherwise, put it on the bottom.",
+      "source": "https://cards.fabtcg.com/card/pack_call/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "pack_hunt": {
+      "id": "pack_hunt",
+      "name_zh": "群体狩猎",
+      "name_en": "Pack Hunt",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击时，威吓。",
+      "text_en": "When this attacks, intimidate.",
+      "source": "https://cards.fabtcg.com/card/pack_hunt/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "pound_of_flesh": {
+      "id": "pound_of_flesh",
+      "name_zh": "血肉代价",
+      "name_en": "Pound of Flesh",
+      "type_zh": "暗影 蛮将 行动",
+      "text_zh": "每位英雄放逐其手牌中的一张牌。每位没有以此方式放逐力量为6或更高的牌的英雄失去1点生命。\n再动",
+      "text_en": "Each hero banishes a card from their hand. Each hero who didn't banish a card with 6 or more {p} this way loses 1{h}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/pound_of_flesh/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "pound_town": {
+      "id": "pound_town",
+      "name_zh": "猛击镇",
+      "name_en": "Pound Town",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "捶胸\n当此牌攻击时，若本回合你捶胸过，创造一个力量衍生物。",
+      "text_en": "Beat Chest\nWhen this attacks, if you've beaten chest this turn, create a Might token.",
+      "source": "https://cards.fabtcg.com/card/pound_town/",
+      "status": "machine-draft",
+      "keywords": [
+        "Beat Chest"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "predatory_assault": {
+      "id": "predatory_assault",
+      "name_zh": "掠食突袭",
+      "name_en": "Predatory Assault",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若本回合你弃置过一张力量为6或更高的牌，掠食突袭获得支配。",
+      "text_en": "If you have discarded a card with 6 or more {p} this turn, Predatory Assault gains dominate.",
+      "source": "https://cards.fabtcg.com/card/predatory_assault/",
+      "status": "machine-draft",
+      "keywords": [
+        "Dominate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "primeval_bellow": {
+      "id": "primeval_bellow",
+      "name_zh": "原始怒吼",
+      "name_en": "Primeval Bellow",
+      "type_zh": "蛮将 行动",
+      "text_zh": "作为使用原始怒吼的额外费用，随机弃一张牌。\n你本回合的下一次蛮将攻击获得+5力量。\n再动",
+      "text_en": "As an additional cost to play Primeval Bellow, discard a random card.\nYour next Brute attack this turn gains +5{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/primeval_bellow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "pulping": {
+      "id": "pulping",
+      "name_zh": "捣成浆糊",
+      "name_en": "Pulping",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，此牌获得支配。\n若此牌被少于2张非装备牌防御，它获得再动。",
+      "text_en": "When this attacks, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, this gets dominate.\nIf this is defended by fewer than 2 non-equipment cards, it gets go again.",
+      "source": "https://cards.fabtcg.com/card/pulping/",
+      "status": "machine-draft",
+      "keywords": [
+        "Dominate",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "ram_raider": {
+      "id": "ram_raider",
+      "name_zh": "冲撞劫掠者",
+      "name_en": "Ram Raider",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。若以此方式放逐的是一张力量为6或更高的牌，此牌获得再动。\n血债",
+      "text_en": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets go again.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/ram_raider/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "ravenous_meataxe": {
+      "id": "ravenous_meataxe",
+      "name_zh": "贪婪肉斧",
+      "name_en": "Ravenous Meataxe",
+      "type_zh": "蛮将 武器·斧 （双手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n每当你用贪婪肉斧攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，贪婪肉斧直到回合结束获得+2力量。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nWhenever you attack with Ravenous Meataxe, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Ravenous Meataxe gains +2{p} until end of turn.",
+      "source": "https://cards.fabtcg.com/card/ravenous_meataxe/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "rawhide_rumble": {
+      "id": "rawhide_rumble",
+      "name_zh": "生皮轰隆",
+      "name_en": "Rawhide Rumble",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "捶胸\n当此牌攻击英雄时，若本回合你捶胸过，威吓该英雄。",
+      "text_en": "Beat Chest\nWhen this attacks a hero, if you've beaten chest this turn, intimidate them.",
+      "source": "https://cards.fabtcg.com/card/rawhide_rumble/",
+      "status": "machine-draft",
+      "keywords": [
+        "Beat Chest",
+        "Intimidate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "ready_to_roll": {
+      "id": "ready_to_roll",
+      "name_zh": "准备掷骰",
+      "name_en": "Ready to Roll",
+      "type_zh": "蛮将 行动",
+      "text_zh": "卡约专精\n若本回合你将掷1个或更多骰子，改为掷多1个骰子并忽略最低的掷出结果。\n再动",
+      "text_en": "Kayo Specialization\nIf you would roll 1 or more dice this turn, instead roll that many dice plus 1 and ignore the lowest roll.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ready_to_roll/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "reckless_arithmetic": {
+      "id": "reckless_arithmetic",
+      "name_zh": "鲁莽算术",
+      "name_en": "Reckless Arithmetic",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击时，掷一枚六面骰。此牌获得+X力量，X为掷出的数字。",
+      "text_en": "When this attacks, roll a 6 sided die. This gets +X{p}, where X is the number rolled.",
+      "source": "https://cards.fabtcg.com/card/reckless_arithmetic/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "reckless_charge": {
+      "id": "reckless_charge",
+      "name_zh": "鲁莽冲锋",
+      "name_en": "Reckless Charge",
+      "type_zh": "蛮将 行动",
+      "text_zh": "卡约专精\n掷一枚六面骰。获得等于掷出数字一半（向下取整）的行动点。\n若本回合你掷骰掷出过6，抽一张牌。",
+      "text_en": "Kayo Specialization\nRoll a 6 sided die. Gain action points equal to half the number rolled, rounded down.\nIf you've rolled a 6 on a die this turn, draw a card.",
+      "source": "https://cards.fabtcg.com/card/reckless_charge/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "reckless_stampede": {
+      "id": "reckless_stampede",
+      "name_zh": "鲁莽奔逃",
+      "name_en": "Reckless Stampede",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "每当牌防御此牌时，与防御英雄交锋。胜者对每位其他英雄造成1点伤害。每位英雄可以将其展示的牌置于其拥有者的牌库底。",
+      "text_en": "Whenever a card defends this, clash with the defending hero. The winner deals 1 damage to each other hero. Each hero may put their revealed card on the bottom of its owner's deck.",
+      "source": "https://cards.fabtcg.com/card/reckless_stampede/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": "0"
+        }
+      }
+    },
+    "reckless_swing": {
+      "id": "reckless_swing",
+      "name_zh": "鲁莽挥击",
+      "name_en": "Reckless Swing",
+      "type_zh": "蛮将 防御反应",
+      "text_zh": "作为使用鲁莽挥击的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，对攻击英雄造成2点伤害。",
+      "text_en": "As an additional cost to play Reckless Swing, discard a random card.\nIf the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.",
+      "source": "https://cards.fabtcg.com/card/reckless_swing/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "4"
+        }
+      }
+    },
+    "reincarnate": {
+      "id": "reincarnate",
+      "name_zh": "转世重生",
+      "name_en": "Reincarnate",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌被随机弃置时，将其置于其拥有者的牌库底。",
+      "text_en": "When this is discarded at random, put it on the bottom of its owner's deck.",
+      "source": "https://cards.fabtcg.com/card/reincarnate/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "riled_up": {
+      "id": "riled_up",
+      "name_zh": "激怒",
+      "name_en": "Riled Up",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若本回合你弃置过一张力量为6或更高的牌，此牌获得+1力量。",
+      "text_en": "If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/riled_up/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "rip_off_the_top": {
+      "id": "rip_off_the_top",
+      "name_zh": "撕开顶部",
+      "name_en": "Rip Off the Top",
+      "type_zh": "蛮将 行动",
+      "text_zh": "抽一张牌，然后随机资源你手牌中的一张牌。若其力量为6或更高，你本回合的下一次攻击获得+3力量。\n再动",
+      "text_en": "Draw a card, then pitch a random card from your hand. If it has 6 or more {p}, your next attack this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/rip_off_the_top/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "rok": {
+      "id": "rok",
+      "name_zh": "岩块",
+      "name_en": "Rok",
+      "type_zh": "蛮将 武器·Rock （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：攻击\n仅当你手牌中没有牌时才能启动岩块。\n岩块将造成的伤害不能被防止。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Attack\nActivate Rok only if you have no cards in hand.\nDamage that would be dealt by Rok can't be prevented.",
+      "source": "https://cards.fabtcg.com/card/rok/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "7",
+          "defense": null
+        }
+      }
+    },
+    "rolling_thunder": {
+      "id": "rolling_thunder",
+      "name_zh": "滚滚惊雷",
+      "name_en": "Rolling Thunder",
+      "type_zh": "蛮将 行动",
+      "text_zh": "掷一枚六面骰。你本回合的下一次蛮将攻击获得+X力量，X为掷出的数字。\n再动",
+      "text_en": "Roll a 6 sided die. Your next Brute attack this turn gains +X{p}, where X the number rolled.\nGo again",
+      "source": "https://cards.fabtcg.com/card/rolling_thunder/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "romping_club": {
+      "id": "romping_club",
+      "name_zh": "欢闹之棒",
+      "name_en": "Romping Club",
+      "type_zh": "蛮将 武器·Club （双手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n每回合一次效果——当你弃置一张力量为6或更高的牌时，欢闹之棒直到回合结束获得+1力量。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nOnce per Turn Effect - When you discard a card with 6 or more {p}, Romping Club gains +1{p} until end of turn.",
+      "source": "https://cards.fabtcg.com/card/romping_club/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "rough_up": {
+      "id": "rough_up",
+      "name_zh": "粗暴对待",
+      "name_en": "Rough Up",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击时，若你资源区中有一张力量为6或更高的牌，此牌获得+1力量。",
+      "text_en": "When this attacks, if there is a card with 6 or more {p} in your pitch zone, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/rough_up/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "rugged_roller": {
+      "id": "rugged_roller",
+      "name_zh": "粗犷滚筒",
+      "name_en": "Rugged Roller",
+      "type_zh": "蛮将 武器·Club （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n仅当本回合你掷骰掷出过6时才能启动粗犷滚筒。",
+      "text_en": "Once per Turn Action - {r}: Attack\nActivate Rugged Roller only if you've rolled a 6 on a die this turn.",
+      "source": "https://cards.fabtcg.com/card/rugged_roller/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "rumble_grunting": {
+      "id": "rumble_grunting",
+      "name_zh": "轰隆闷哼",
+      "name_en": "Rumble Grunting",
+      "type_zh": "蛮将 行动",
+      "text_zh": "仅当本回合你弃置过一张力量为6或更高的牌时才能使用轰隆闷哼。\n你本回合的下一次蛮将攻击获得+4力量。\n再动",
+      "text_en": "Play Rumble Grunting only if you've discarded a card with 6 or more {p} this turn.\nYour next Brute attack this turn gains +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/rumble_grunting/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "run_roughshod": {
+      "id": "run_roughshod",
+      "name_zh": "横行践踏",
+      "name_en": "Run Roughshod",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "仅当本回合你弃置过一张力量为6或更高的牌时才能使用此牌。",
+      "text_en": "Play this only if you've discarded a card with 6 or more {p} this turn.",
+      "source": "https://cards.fabtcg.com/card/run_roughshod/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "sand_sketched_plan": {
+      "id": "sand_sketched_plan",
+      "name_zh": "沙画计划",
+      "name_en": "Sand Sketched Plan",
+      "type_zh": "蛮将 行动",
+      "text_zh": "里纳尔专精\n从你的牌库中搜寻一张牌，将其置入你的手牌，随机弃一张牌，然后洗牌。\n若被弃置的牌力量为6或更高，获得2个行动点。",
+      "text_en": "Rhinar Specialization\nSearch your deck for a card, put it into your hand, discard a random card, then shuffle your deck.\nIf the discarded card has 6 or more {p}, gain 2 action points.",
+      "source": "https://cards.fabtcg.com/card/sand_sketched_plan/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "savage_beatdown": {
+      "id": "savage_beatdown",
+      "name_zh": "野蛮痛打",
+      "name_en": "Savage Beatdown",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "仅当本回合你弃置过一张力量为6或更高的牌时才能使用此牌。\n作为使用此牌的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，此牌获得+6力量。",
+      "text_en": "Play this only if you've discarded a card with 6 or more {p} this turn.\nAs an additional cost to play this, discard a random card.\nIf the discarded card has 6 or more {p}, this gets +6{p}.",
+      "source": "https://cards.fabtcg.com/card/savage_beatdown/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "savage_claw": {
+      "id": "savage_claw",
+      "name_zh": "野蛮之爪",
+      "name_en": "Savage Claw",
+      "type_zh": "蛮将 武器·爪 （单手）",
+      "text_zh": "行动——支付2点资源，横置此牌：攻击\n若你为用此牌攻击资源过一张力量为6或更高的牌，该攻击获得+1力量。",
+      "text_en": "Action - {r}{r}, {t}: Attack\nIf a card with 6 or more {p} was pitched to attack with this, the attack gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/savage_claw/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "savage_feast": {
+      "id": "savage_feast",
+      "name_zh": "野蛮盛宴",
+      "name_en": "Savage Feast",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "作为使用野蛮盛宴的额外费用，随机弃一张牌。\n当你用野蛮盛宴攻击时，若为使用此牌而作为额外费用弃置的是一张力量为6或更高的牌，抽一张牌。",
+      "text_en": "As an additional cost to play Savage Feast discard a random card.\nWhen you attack with Savage Feast, if a card with 6 or more {p} was discarded as an additional cost to play it, draw a card.",
+      "source": "https://cards.fabtcg.com/card/savage_feast/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "savage_swing": {
+      "id": "savage_swing",
+      "name_zh": "野蛮挥击",
+      "name_en": "Savage Swing",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "作为使用野蛮挥击的额外费用，随机弃一张牌。",
+      "text_en": "As an additional cost to play Savage Swing, discard a random card.",
+      "source": "https://cards.fabtcg.com/card/savage_swing/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "send_packing": {
+      "id": "send_packing",
+      "name_zh": "打发走人",
+      "name_en": "Send Packing",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，放逐其军械库中的一张牌。当链环结算时，若此牌没有命中，将被放逐的牌移回其拥有者的手牌。",
+      "text_en": "When this attacks a hero, banish a card from their arsenal. When the chain link resolves, if this didn't hit, return the banished card to its owner's hand.",
+      "source": "https://cards.fabtcg.com/card/send_packing/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "shaden_death_hydra": {
+      "id": "shaden_death_hydra",
+      "name_zh": "沙登·死亡九头蛇",
+      "name_en": "Shaden Death Hydra",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "当此牌攻击时，它对你造成X点伤害，X为13减去你放逐区中具有血债的牌数量。\n血债",
+      "text_en": "When this attacks, it deals X damage to you, where X is 13 minus the number of cards with blood debt in your banished zone.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/shaden_death_hydra/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "6",
+          "power": "13",
+          "defense": "3"
+        }
+      }
+    },
+    "shaden_scream": {
+      "id": "shaden_scream",
+      "name_zh": "沙登之啸",
+      "name_en": "Shaden Scream",
+      "type_zh": "暗影 蛮将 行动",
+      "text_zh": "作为使用此牌的额外费用，随机放逐手牌中的一张牌。\n你本回合的下一次蛮将或暗影攻击获得+5力量。\n再动",
+      "text_en": "As an additional cost to play this, banish a random card from hand.\nYour next Brute or Shadow attack this turn gets +5{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/shaden_scream/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "shaden_swing": {
+      "id": "shaden_swing",
+      "name_zh": "沙登挥击",
+      "name_en": "Shaden Swing",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n血债",
+      "text_en": "As an additional cost to play this, banish a random card from your hand.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/shaden_swing/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "shadow_of_blasmophet": {
+      "id": "shadow_of_blasmophet",
+      "name_zh": "布拉兹莫菲特之影",
+      "name_en": "Shadow of Blasmophet",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，从你的牌库中搜寻一张具有血债的牌，放逐它，然后洗牌。\n血债",
+      "text_en": "Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, search your deck for a card with blood debt, banish it, then shuffle your deck.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/shadow_of_blasmophet/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "shadowrealm_horror": {
+      "id": "shadowrealm_horror",
+      "name_zh": "暗影界恐怖",
+      "name_en": "Shadowrealm Horror",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐了1张或更多力量为6或更高的牌，此牌获得+1力量。2张或更多，此牌获得再动。3张或更多，本回合你可以使用一张以此方式放逐的牌。\n血债",
+      "text_en": "As an additional cost to play this, banish 3 random cards in your graveyard.\nIf 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 or more, this gets go again. 3 or more, you may play a card banished this way this turn.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/shadowrealm_horror/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "show_no_mercy": {
+      "id": "show_no_mercy",
+      "name_zh": "毫不留情",
+      "name_en": "Show No Mercy",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "里纳尔专精\n当此牌攻击英雄时，威吓该英雄。\n若防御英雄手牌中没有牌，此牌获得+3力量。",
+      "text_en": "Rhinar Specialization\nWhen this attacks a hero, intimidate them.\nIf the defending hero has no cards in hand, this gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/show_no_mercy/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "show_of_strength": {
+      "id": "show_of_strength",
+      "name_zh": "展示力量",
+      "name_en": "Show of Strength",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "每有一张力量为6或更高的牌防御此牌，此牌获得-1力量。",
+      "text_en": "This gets -1{p} for each card with 6 or more {p} defending it.",
+      "source": "https://cards.fabtcg.com/card/show_of_strength/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "skull_crack": {
+      "id": "skull_crack",
+      "name_zh": "颅骨裂纹",
+      "name_en": "Skull Crack",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当颅骨裂纹被随机弃置时，获得1点资源。",
+      "text_en": "When Skull Crack is discarded at random, gain {r}.",
+      "source": "https://cards.fabtcg.com/card/skull_crack/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "slithering_shadowpede": {
+      "id": "slithering_shadowpede",
+      "name_zh": "蜿蜒暗影虫",
+      "name_en": "Slithering Shadowpede",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "若本回合此牌从你的手牌被放逐，你可以从你的放逐区使用它。\n血债",
+      "text_en": "If this was banished from your hand this turn, you may play it from your banished zone.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/slithering_shadowpede/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "smash_instinct": {
+      "id": "smash_instinct",
+      "name_zh": "猛砸本能",
+      "name_en": "Smash Instinct",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击时，威吓。",
+      "text_en": "When this attacks, intimidate.",
+      "source": "https://cards.fabtcg.com/card/smash_instinct/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "smash_with_big_rock": {
+      "id": "smash_with_big_rock",
+      "name_zh": "用大石头砸",
+      "name_en": "Smash with Big Rock",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "防御此牌的牌不能获得防御。",
+      "text_en": "Cards defending this can't gain {d}.",
+      "source": "https://cards.fabtcg.com/card/smash_with_big_rock/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "0"
+        }
+      }
+    },
+    "smash_with_big_tree": {
+      "id": "smash_with_big_tree",
+      "name_zh": "用大树砸",
+      "name_en": "Smash with Big Tree",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "",
+      "text_en": "",
+      "source": "https://cards.fabtcg.com/card/smash_with_big_tree/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "7",
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "5",
+          "defense": null
+        }
+      }
+    },
+    "smashback_alehorn": {
+      "id": "smashback_alehorn",
+      "name_zh": "碰杯酒角",
+      "name_en": "Smashback Alehorn",
+      "type_zh": "蛮将 行动",
+      "text_zh": "创造一个敏捷和一个力量衍生物。\n再动",
+      "text_en": "Create an Agility and a Might token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/smashback_alehorn/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "smashing_ground": {
+      "id": "smashing_ground",
+      "name_zh": "轰碎大地",
+      "name_en": "Smashing Ground",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "若此牌的力量为6或更高，它获得“当此牌命中英雄时，摧毁其军械库中的一张牌。”",
+      "text_en": "If this has 6 or more {p}, it gets \"When this hits a hero, destroy a card in their arsenal.\"",
+      "source": "https://cards.fabtcg.com/card/smashing_ground/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "smashing_performance": {
+      "id": "smashing_performance",
+      "name_zh": "轰碎表演",
+      "name_en": "Smashing Performance",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，摧毁竞技场中的一个随机物品。",
+      "text_en": "When this attacks draw a card, then discard a random card. If a card with 6 or more {p} is discarded this way, destroy a random item in the arena.",
+      "source": "https://cards.fabtcg.com/card/smashing_performance/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "smell_fear": {
+      "id": "smell_fear",
+      "name_zh": "嗅到恐惧",
+      "name_en": "Smell Fear",
+      "type_zh": "蛮将 行动",
+      "text_zh": "捶胸\n若本回合你捶胸过，威吓。\n你本回合的下一次蛮将攻击获得“若本回合你威吓过两次或更多，此牌获得+3力量。”\n再动",
+      "text_en": "Beat Chest\nIf you've beaten chest this turn, intimidate.\nYour next Brute attack this turn gets \"If you've intimidated 2 or more times this turn, this gets +3{p}.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/smell_fear/",
+      "status": "machine-draft",
+      "keywords": [
+        "Beat Chest",
+        "Go again",
+        "Intimidate"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "song_of_sinew": {
+      "id": "song_of_sinew",
+      "name_zh": "筋腱之歌",
+      "name_en": "Song of Sinew",
+      "type_zh": "蛮将 行动",
+      "text_zh": "展示你牌库顶的4张牌。你本回合的下一次攻击获得+X力量，X为以此方式展示的力量为6或更高的牌数量。将它们以任意顺序放回。\n再动",
+      "text_en": "Reveal the top 4 cards of your deck. Your next attack this turn gets +X{p}, where X is the number of cards with 6 or more {p} revealed this way. Put them back in any order.\nGo again",
+      "source": "https://cards.fabtcg.com/card/song_of_sinew/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "splatter_skull": {
+      "id": "splatter_skull",
+      "name_zh": "碎裂颅骨",
+      "name_en": "Splatter Skull",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌命中英雄时，选择其放逐区中一张本回合被威吓放逐的牌面朝下的牌。将其置入其坟场。",
+      "text_en": "When this hits a hero, choose a face-down card in their banished zone that was banished by intimidate this turn. Put it into their graveyard.",
+      "source": "https://cards.fabtcg.com/card/splatter_skull/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "steal_victory": {
+      "id": "steal_victory",
+      "name_zh": "窃取胜利",
+      "name_en": "Steal Victory",
+      "type_zh": "憎恶 蛮将 阻挡",
+      "text_zh": "当此牌防御时，偷取攻击英雄控制的一个光环衍生物。",
+      "text_en": "When this defends, steal an aura token the attacking hero controls.",
+      "source": "https://cards.fabtcg.com/card/steal_victory/",
+      "status": "machine-draft",
+      "keywords": [
+        "Steal"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "strength_rules_all": {
+      "id": "strength_rules_all",
+      "name_zh": "力量主宰一切",
+      "name_en": "Strength Rules All",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌命中英雄时，将其军械库中的一张牌翻为正面朝上，然后放逐其军械库中一张力量小于以此方式造成的伤害的攻击行动牌。",
+      "text_en": "When this hits a hero, turn a card in their arsenal face-up, then banish an attack action card in their arsenal with {p} less than the damage dealt this way.",
+      "source": "https://cards.fabtcg.com/card/strength_rules_all/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "strongest_survive": {
+      "id": "strongest_survive",
+      "name_zh": "强者生存",
+      "name_en": "Strongest Survive",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌命中英雄时，该英雄弃一张牌，除非其展示其手牌中一张力量大于以此方式造成的伤害的牌。",
+      "text_en": "When this hits a hero, they discard a card unless they reveal a card from their hand with {p} greater than the damage dealt this way.",
+      "source": "https://cards.fabtcg.com/card/strongest_survive/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "swing_big": {
+      "id": "swing_big",
+      "name_zh": "大力挥击",
+      "name_en": "Swing Big",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当战斗链关闭时，若此牌没有命中，防御英雄创造一个加速衍生物。",
+      "text_en": "When the combat chain closes, if this didn't hit, the defending hero creates a Quicken token.",
+      "source": "https://cards.fabtcg.com/card/swing_big/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "8",
+          "defense": "3"
+        }
+      }
+    },
+    "swing_fist_think_later": {
+      "id": "swing_fist_think_later",
+      "name_zh": "先挥拳后思考",
+      "name_en": "Swing Fist, Think Later",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "作为使用先挥拳后思考的额外费用，随机弃一张牌。\n再动",
+      "text_en": "As an additional cost to play Swing Fist, Think Later, discard a random card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/swing_fist_think_later/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "tear_limb_from_limb": {
+      "id": "tear_limb_from_limb",
+      "name_zh": "五马分尸",
+      "name_en": "Tear Limb from Limb",
+      "type_zh": "蛮将 行动",
+      "text_zh": "抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，本回合你使用的下一张蛮将攻击行动牌获得+X力量，X为其基础力量。\n再动",
+      "text_en": "Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, the next Brute attack action card you play this turn gains +X{p}, where X is its base {p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tear_limb_from_limb/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "thick_hide_hunter": {
+      "id": "thick_hide_hunter",
+      "name_zh": "厚皮猎人",
+      "name_en": "Thick Hide Hunter",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击或防御时，随机弃一张牌。",
+      "text_en": "When this attacks or defends, discard a random card.",
+      "source": "https://cards.fabtcg.com/card/thick_hide_hunter/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "6"
+        }
+      }
+    },
+    "tough_as_a_rok": {
+      "id": "tough_as_a_rok",
+      "name_zh": "硬如岩块",
+      "name_en": "Tough as a Rok",
+      "type_zh": "崇敬 蛮将 行动·攻击",
+      "text_zh": "若你的生命低于其他每位英雄，此牌的基础力量为6。否则，它为0。",
+      "text_en": "If you have less {h} than each other hero, this card's base {p} is 6, otherwise it's 0.",
+      "source": "https://cards.fabtcg.com/card/tough_as_a_rok/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "*",
+          "defense": "3"
+        }
+      }
+    },
+    "tribute_to_demolition": {
+      "id": "tribute_to_demolition",
+      "name_zh": "向拆毁致敬",
+      "name_en": "Tribute to Demolition",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，此牌获得+2力量。\n血债",
+      "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, this gets +2{p}.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/tribute_to_demolition/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "tribute_to_the_legions_of_doom": {
+      "id": "tribute_to_the_legions_of_doom",
+      "name_zh": "向厄运军团致敬",
+      "name_en": "Tribute to the Legions of Doom",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，此牌获得+2力量。\n血债",
+      "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, this gets +2{p}.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/tribute_to_the_legions_of_doom/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "unexpected_backhand": {
+      "id": "unexpected_backhand",
+      "name_zh": "出其不意的反手",
+      "name_en": "Unexpected Backhand",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当你展示此牌并赢得交锋时，对另一位英雄造成1点伤害。",
+      "text_en": "When you win a clash revealing this, deal 1 damage to the other hero.",
+      "source": "https://cards.fabtcg.com/card/unexpected_backhand/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "unworldly_bellow": {
+      "id": "unworldly_bellow",
+      "name_zh": "超凡怒吼",
+      "name_en": "Unworldly Bellow",
+      "type_zh": "暗影 蛮将 行动",
+      "text_zh": "作为使用超凡怒吼的额外费用，随机放逐你坟场中的3张牌。\n本回合你使用的下一张蛮将或暗影攻击行动牌获得+4力量。\n再动",
+      "text_en": "As an additional cost to play Unworldly Bellow, banish 3 random cards from your graveyard.\nThe next Brute or Shadow attack action card you play this turn gains +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/unworldly_bellow/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "vigorous_roar": {
+      "id": "vigorous_roar",
+      "name_zh": "雄壮咆哮",
+      "name_en": "Vigorous Roar",
+      "type_zh": "蛮将 行动",
+      "text_zh": "你本回合的下一次攻击获得+3力量。\n若你资源区中有一张力量为6或更高的牌，创造一个活力衍生物。\n再动",
+      "text_en": "Your next attack this turn gets +3{p}.\nIf there is a card with 6 or more {p} in your pitch zone, create a Vigor token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/vigorous_roar/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "vigorous_smashup": {
+      "id": "vigorous_smashup",
+      "name_zh": "雄壮猛砸",
+      "name_en": "Vigorous Smashup",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个活力衍生物。你可以将你展示的牌置于其拥有者的牌库底。",
+      "text_en": "When this defends, clash with the attacking hero. The winner creates a Vigor token. You may put your revealed card on the bottom of its owner's deck.",
+      "source": "https://cards.fabtcg.com/card/vigorous_smashup/",
+      "status": "machine-draft",
+      "keywords": [
+        "Clash"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "visit_the_boneyard": {
+      "id": "visit_the_boneyard",
+      "name_zh": "拜访骸骨场",
+      "name_en": "Visit the Boneyard",
+      "type_zh": "蛮将 瞬间",
+      "text_zh": "将你坟场中一张力量为6或更高的牌置于你的牌库顶。\n创造一个活力衍生物。",
+      "text_en": "Put a card with 6 or more {p} from your graveyard on top of your deck.\nCreate a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/visit_the_boneyard/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "wall_breaker": {
+      "id": "wall_breaker",
+      "name_zh": "破墙者",
+      "name_en": "Wall Breaker",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "若本回合你放逐过一张力量为6或更高的牌，此牌获得压制。\n血债",
+      "text_en": "If you've banished a card with 6 or more {p} this turn, this gets overpower.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/wall_breaker/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower",
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "wild_ride": {
+      "id": "wild_ride",
+      "name_zh": "狂野骑行",
+      "name_en": "Wild Ride",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当此牌攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，此牌获得再动。",
+      "text_en": "When this attacks, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/wild_ride/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": null
+        }
+      }
+    },
+    "wind_up_the_crowd": {
+      "id": "wind_up_the_crowd",
+      "name_zh": "煽动人群",
+      "name_en": "Wind Up the Crowd",
+      "type_zh": "崇敬 蛮将 行动·攻击",
+      "text_zh": "瞬间——弃掉此牌：创造一个坚韧和一个活力衍生物。",
+      "text_en": "Instant - Discard this: Create a Toughness and a Vigor token.",
+      "source": "https://cards.fabtcg.com/card/wind_up_the_crowd/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "6",
+          "defense": "0"
+        }
+      }
+    },
+    "wrecker_romp": {
+      "id": "wrecker_romp",
+      "name_zh": "破坏者嬉闹",
+      "name_en": "Wrecker Romp",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "作为使用此牌的额外费用，随机弃一张牌。",
+      "text_en": "As an additional cost to play this, discard a random card.",
+      "source": "https://cards.fabtcg.com/card/wrecker_romp/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "8",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "7",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "wrecking_ball": {
+      "id": "wrecking_ball",
+      "name_zh": "破坏球",
+      "name_en": "Wrecking Ball",
+      "type_zh": "蛮将 行动·攻击",
+      "text_zh": "当你用破坏球攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，威吓。",
+      "text_en": "When you attack with Wrecking Ball, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, intimidate.",
+      "source": "https://cards.fabtcg.com/card/wrecking_ball/",
+      "status": "machine-draft",
+      "keywords": [
+        "Intimidate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": null
+        }
+      }
+    },
+    "writhing_beast_hulk": {
+      "id": "writhing_beast_hulk",
+      "name_zh": "扭动的野兽巨躯",
+      "name_en": "Writhing Beast Hulk",
+      "type_zh": "暗影 蛮将 行动·攻击",
+      "text_zh": "作为使用扭动的野兽巨躯的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，扭动的野兽巨躯获得支配。\n血债",
+      "text_en": "As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains dominate.\nBlood Debt",
+      "source": "https://cards.fabtcg.com/card/writhing_beast_hulk/",
+      "status": "machine-draft",
+      "keywords": [
+        "Dominate",
+        "Blood Debt"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    }
+  }
+}

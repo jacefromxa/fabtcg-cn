@@ -43,7 +43,7 @@
   - 卡名橙色粗体，类别细体斜体加下划线。
 - 当前最近一次验证结果：64 项测试通过，用户脚本版本为 `0.7.10`。
 - **已支持 FaBrary（2026-08-05）**：用户脚本新增 `@match https://fabrary.net/*`。FaBrary 卡图 `src` 用印刷 ID（如 `PEN313.webp`），新增 `data/talishar-card-aliases.json`（`scripts/build-card-aliases.mjs` 从英文源 `printings` 生成，`印刷ID → {slug, pitch}`，9,247 条）随构建发布到 `dist/data/aliases.json`；用户脚本在 FaBrary 上按"印刷 ID 别名 + alt 卡名交叉消解"，红黄蓝同名卡可精确区分 pitch。同一份数据层/缓存/浮窗两站共用，Talishar 行为不变。
-- **数据发布（2026-08-06 已解决）**：`dist/data/` 已发布到独立数据仓库 `jacefromxa/talishar-cn-data`，默认数据地址为 `https://raw.githubusercontent.com/jacefromxa/talishar-cn-data/main/`。manifest / index / chunks / aliases / keywords.json 线上均可正常加载（已实测）。
+- **数据发布（2026-08-06 已解决）**：数据随源码仓库一并发布，默认地址为 `https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/dist/data`（不再使用独立数据仓库）。manifest / index / chunks / aliases / keywords.json 线上均可正常加载（已实测）。
 
 ## 3. P0：先完成本地化部署
 
@@ -395,28 +395,26 @@ dist/data/                  可发布产物
 
 不要把 `data/source/english/card.json` 这种大型源文件放进用户脚本或发布给浏览器下载。
 
-### 8.1 双仓库架构（2026-08-05 部署）
+### 8.1 单仓库发布（2026-08-06 起，取代原双仓库）
 
-项目采用双仓库分离管理：
+数据随源码仓库一并发布，不再维护独立数据仓库：
 
 | 仓库 | 可见性 | 内容 | 地址 |
 |------|--------|------|------|
-| **源码仓库** | Public | 翻译源文件、构建脚本、用户脚本、测试 | `github.com/jacefromxa/talishar-cn` |
-| **数据仓库** | Public | 仅 `dist/data/` 构建产物 | `github.com/jacefromxa/talishar-cn-data` |
+| **源码仓库** | Public | 翻译源文件、构建脚本、用户脚本、测试、`dist/data/` 构建产物 | `github.com/jacefromxa/talishar-cn` |
 
-本地开发目录 = 源码仓库。`dist/data/` 在源码仓库中保留（本地 dev 服务器使用），
-但线上数据服务由数据仓库提供（用户脚本默认从 `jacefromxa/talishar-cn-data` 的 GitHub Raw URL 加载）。
+用户脚本默认从源码仓库的 GitHub Raw 加载数据：`https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/dist/data`。
+`dist/data/` 分片按翻译批次命名（`chunks/<批次>.json`），改哪个批次一眼可知影响的 chunk。
 
 **维护流程：**
 
 1. 在本地修改 `data/translations/<批次>.json`
-2. `npm run build`（别名表 + 卡牌数据 + 用户脚本）
-3. 提交源码仓库：`git add -A && git commit -m "..." && git push`
-4. 同步数据仓库：将 `dist/data/*` 拷贝到本地数据仓库 clone 目录，提交并推送
+2. `npm run build`（别名表 + 卡牌数据）
+3. 提交并推送源码仓库：`git add -A && git commit -m "..." && git push`（`dist/data/` 随发布生效）
 
 **本地开发数据源切换：**
 
-用户脚本默认连接数据仓库。本地开发时，在浏览器控制台执行：
+用户脚本默认连接生产地址。本地开发时，在浏览器控制台执行：
 
 ```js
 localStorage.setItem('fab-cn-data-base-url', 'http://127.0.0.1:4173/data')
@@ -485,8 +483,8 @@ localStorage.removeItem('fab-cn-data-base-url')
 
 ## 12. 交接给下一 Agent 的最小任务描述
 
-> 请在 `/Users/Zhuanz/CCDeep/talishar-cn` 继续工作。原交接中的 P0（本地数据服务器、缓存版本失效、数据发布）**均已完成**：`dist/data/` 已发布到 `jacefromxa/talishar-cn-data`，线上脚本正常加载。全卡翻译（3163 卡）、关键词释义库接线、变身叠放卡识别均已落地。当前剩余事项：
+> 请在 `/Users/Zhuanz/CCDeep/talishar-cn` 继续工作。原交接中的 P0（本地数据服务器、缓存版本失效、数据发布）**均已完成**：`dist/data/` 随源码仓库发布（单仓库），线上脚本正常加载。全卡翻译（3163 卡）、关键词释义库接线、变身叠放卡识别均已落地。当前剩余事项：
 > 1. **已知历史遗留**：`t3-other`（生成器兜底批次名）与 `t4-remaining.json`（实际文件名）命名不一致，`isT4RemainingCard` 过滤器为空；收敛批次命名时一并处理（见 HANDOFF §5.5 注记）。
-> 2. 常规维护：改 `data/translations/*.json` 后 `cd probe && npm run build:data`，提交源码仓库并手动同步 `dist/data/` 到数据仓库。
+> 2. 常规维护：改 `data/translations/*.json` 后 `cd probe && npm run build:data`，提交并推送源码仓库（`dist/data/` 随发布生效，无独立数据仓库）。
 > 3. 英雄名翻译在 `heroes.json` 手工维护（明确不做机制性强制）。
 > 4. 本机 github.com 访问不稳定，git push 需 `GIT_HTTP_LOW_SPEED_LIMIT=1000 GIT_HTTP_LOW_SPEED_TIME=90` 或多次重试。不要未经确认推送 GitHub。

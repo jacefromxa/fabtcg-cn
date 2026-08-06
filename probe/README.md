@@ -77,10 +77,10 @@ node /Users/Zhuanz/CCDeep/talishar-cn/scripts/import-fab-cards.mjs
 用户脚本默认从以下地址读取静态卡库：
 
 ```text
-https://raw.githubusercontent.com/jacefromxa/CCDeep/main/talishar-cn/dist/data
+https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/dist/data
 ```
 
-因此需要把 `dist/data/` 发布到该 GitHub 仓库的 `main` 分支。发布后，用户只需安装 `talishar-cn.user.js`，不需要把卡牌 JSON 手工复制进用户脚本。
+`dist/data/` 随源码仓库提交推送即完成发布，无需独立数据仓库。发布后，用户只需安装 `talishar-cn.user.js`，不需要把卡牌 JSON 手工复制进用户脚本。
 
 如果以后更换静态地址，修改 `probe/talishar-cn.user.js` 顶部的数据地址常量，然后重新运行 `npm run build`。
 

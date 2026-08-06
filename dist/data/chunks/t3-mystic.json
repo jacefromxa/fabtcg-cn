@@ -1,0 +1,775 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "a_drop_in_the_ocean": {
+      "id": "a_drop_in_the_ocean",
+      "name_zh": "沧海一粟",
+      "name_en": "A Drop in the Ocean",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "传奇\n目标攻击获得-1力量。\n若本回合你使用过另一张蓝色牌，超越。",
+      "text_en": "Legendary\nTarget attack gets -1{p}.\nIf you've played another blue card this turn, transcend.",
+      "source": "https://cards.fabtcg.com/card/a_drop_in_the_ocean/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "attune_with_cosmic_vibrations": {
+      "id": "attune_with_cosmic_vibrations",
+      "name_zh": "与宇宙共鸣调谐",
+      "name_en": "Attune with Cosmic Vibrations",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "当此牌攻击英雄或防御英雄的攻击时，展示该英雄牌库顶的一张牌。若被展示的牌为蓝色，此牌获得+3力量和+3防御。",
+      "text_en": "When this attacks a hero or defends a hero's attack, reveal the top card of their deck. If the revealed card is blue, this gets +3{p} and +3{d}.",
+      "source": "https://cards.fabtcg.com/card/attune_with_cosmic_vibrations/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "big_blue_sky": {
+      "id": "big_blue_sky",
+      "name_zh": "蔚蓝天空",
+      "name_en": "Big Blue Sky",
+      "type_zh": "秘法 防御反应",
+      "text_zh": "本回合你每资源过一张蓝色牌，此牌获得+1防御。",
+      "text_en": "This gets +1{d} for each blue card you've pitched this turn.",
+      "source": "https://cards.fabtcg.com/card/big_blue_sky/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "billowing_mist": {
+      "id": "billowing_mist",
+      "name_zh": "翻涌迷雾",
+      "name_en": "Billowing Mist",
+      "type_zh": "秘法 行动",
+      "text_zh": "你本回合的下一次攻击获得+1力量。\n本回合你下一次将创造具有短暂的牌时，改为创造等量加1张。\n再动",
+      "text_en": "Your next attack this turn gets +1{p}.\nThe next time you would create a card with ephemeral this turn, instead create that many plus 1.\nGo again",
+      "source": "https://cards.fabtcg.com/card/billowing_mist/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "cosmic_awakening": {
+      "id": "cosmic_awakening",
+      "name_zh": "宇宙觉醒",
+      "name_en": "Cosmic Awakening",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若你为使用此牌资源过1张气，宇宙觉醒的力量为10。\n若你为使用此牌资源过2张气，宇宙觉醒的力量为15。\n若你为使用此牌资源过3张或更多气，宇宙觉醒的力量为20。",
+      "text_en": "If 1 Chi was pitched to play this, Cosmic Awakening's {p} is 10.\nIf 2 Chi were pitched to play this, Cosmic Awakening's {p} is 15.\nIf 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.",
+      "source": "https://cards.fabtcg.com/card/cosmic_awakening/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "9",
+          "power": "*",
+          "defense": "3"
+        }
+      }
+    },
+    "deep_blue_sea": {
+      "id": "deep_blue_sea",
+      "name_zh": "深蓝之海",
+      "name_en": "Deep Blue Sea",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "本回合你每资源过一张蓝色牌，此牌获得+1力量。",
+      "text_en": "This gets +1{p} for each blue card you've pitched this turn.",
+      "source": "https://cards.fabtcg.com/card/deep_blue_sea/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "dense_blue_mist": {
+      "id": "dense_blue_mist",
+      "name_zh": "浓蓝迷雾",
+      "name_en": "Dense Blue Mist",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "本回合以你为目标的攻击获得-1力量。\n若你为使用此牌资源过一张气，本回合攻击命中你时效果不触发。",
+      "text_en": "Attacks that target you this turn get -1{p}.\nIf a Chi was pitched to play this, effects don't trigger if an attack hits you this turn.",
+      "source": "https://cards.fabtcg.com/card/dense_blue_mist/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "droplet": {
+      "id": "droplet",
+      "name_zh": "水滴",
+      "name_en": "Droplet",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你使用过另一张蓝色牌，此牌获得+2力量。",
+      "text_en": "If you've played another blue card this turn, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/droplet/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "first_tenet_of_chi_moon": {
+      "id": "first_tenet_of_chi_moon",
+      "name_zh": "气之第一要义·月",
+      "name_en": "First Tenet of Chi: Moon",
+      "type_zh": "秘法 行动",
+      "text_zh": "你本回合的下一次蓝色攻击获得“当此牌攻击时，抽一张牌。”\n再动",
+      "text_en": "Your next blue attack this turn gets \"When this attacks, draw a card.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/first_tenet_of_chi_moon/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "first_tenet_of_chi_tide": {
+      "id": "first_tenet_of_chi_tide",
+      "name_zh": "气之第一要义·潮",
+      "name_en": "First Tenet of Chi: Tide",
+      "type_zh": "秘法 行动",
+      "text_zh": "你本回合的下一次蓝色攻击获得+2力量。\n再动",
+      "text_en": "Your next blue attack this turn gets +2{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/first_tenet_of_chi_tide/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "first_tenet_of_chi_wind": {
+      "id": "first_tenet_of_chi_wind",
+      "name_zh": "气之第一要义·风",
+      "name_en": "First Tenet of Chi: Wind",
+      "type_zh": "秘法 行动",
+      "text_zh": "本回合你使用的下一张蓝色行动牌获得再动。\n再动",
+      "text_en": "The next blue action card you play this turn gets go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/first_tenet_of_chi_wind/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "fluid_motion": {
+      "id": "fluid_motion",
+      "name_zh": "流畅动作",
+      "name_en": "Fluid Motion",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你创造过一张牌，此牌获得再动。",
+      "text_en": "If you've created a card this turn, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/fluid_motion/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "homage_to_ancestors": {
+      "id": "homage_to_ancestors",
+      "name_zh": "致敬先祖",
+      "name_en": "Homage to Ancestors",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "传奇\n获得1点生命。\n若本回合你使用过另一张蓝色牌，超越。",
+      "text_en": "Legendary\nGain 1{h}\nIf you've played another blue card this turn, transcend.",
+      "source": "https://cards.fabtcg.com/card/homage_to_ancestors/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "inner_chi": {
+      "id": "inner_chi",
+      "name_zh": "内息",
+      "name_en": "Inner Chi",
+      "type_zh": "秘法 资源·Chi",
+      "text_zh": "",
+      "text_en": "",
+      "source": "https://cards.fabtcg.com/card/inner_chi/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "levels_of_enlightenment": {
+      "id": "levels_of_enlightenment",
+      "name_zh": "觉悟层次",
+      "name_en": "Levels of Enlightenment",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "当此牌攻击时，为本回合你资源过的每张蓝色牌选择其一；\n- 抽一张牌。\n- 此牌获得+2力量。\n- 此牌获得再动。",
+      "text_en": "When this attacks, choose 1 for each blue card you've pitched this turn;\n- Draw a card.\n- This gets +2{p}.\n- This gets go again.",
+      "source": "https://cards.fabtcg.com/card/levels_of_enlightenment/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "look_within": {
+      "id": "look_within",
+      "name_zh": "内观",
+      "name_en": "Look Within",
+      "type_zh": "秘法 行动",
+      "text_zh": "从你的牌库中搜寻一张气，展示它，洗牌，然后将其置于牌库顶。\n再动",
+      "text_en": "Search your deck for a Chi, reveal it, shuffle, then put it on top.\nGo again",
+      "source": "https://cards.fabtcg.com/card/look_within/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "manifest_muscle": {
+      "id": "manifest_muscle",
+      "name_zh": "具现肌肉",
+      "name_en": "Manifest Muscle",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你创造过一张牌，此牌获得+1力量。",
+      "text_en": "If you've created a card this turn, this gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/manifest_muscle/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "mistborn_protector": {
+      "id": "mistborn_protector",
+      "name_zh": "雾生守护者",
+      "name_en": "Mistborn Protector",
+      "type_zh": "秘法 防御反应",
+      "text_zh": "当此牌防御时，若本回合你创造过一张牌，此牌获得+1防御。",
+      "text_en": "While this is defending, if you've created a card this turn, this gets +1{d}.",
+      "source": "https://cards.fabtcg.com/card/mistborn_protector/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "mistcloak_gully": {
+      "id": "mistcloak_gully",
+      "name_zh": "雾披风峡谷",
+      "name_en": "Mistcloak Gully",
+      "type_zh": "秘法 瞬间·地标",
+      "text_zh": "传奇\n每回合第一次以你为目标的攻击获得-1力量。\n在每个结束阶段开始时，除非本回合你资源过、使用过或用一张蓝色牌防御过，否则摧毁此牌。若本回合你资源过、使用过且用蓝色牌防御过，超越。",
+      "text_en": "Legendary\nThe first attack that targets you each turn gets -1{p}.\nAt the beginning of each end phase, destroy this unless you've pitched, played, or defended with a blue card this turn. If you've pitched, played, and defended with a blue card this turn, transcend.",
+      "source": "https://cards.fabtcg.com/card/mistcloak_gully/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "1",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "orihon_of_mystic_tenets": {
+      "id": "orihon_of_mystic_tenets",
+      "name_zh": "秘法要义折本",
+      "name_en": "Orihon of Mystic Tenets",
+      "type_zh": "",
+      "text_zh": "传奇\n抽2张牌。若为使用此牌资源过一张气，改为抽3张牌。",
+      "text_en": "Legendary\nDraw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",
+      "source": "https://cards.fabtcg.com/card/orihon_of_mystic_tenets/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "4",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "pass_over": {
+      "id": "pass_over",
+      "name_zh": "超度",
+      "name_en": "Pass Over",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "传奇\n放逐一位对手英雄坟场中的目标牌。\n若本回合你使用过另一张蓝色牌，超越。",
+      "text_en": "Legendary\nBanish target card from an opposing hero's graveyard.\nIf you've played another blue card this turn, transcend.",
+      "source": "https://cards.fabtcg.com/card/pass_over/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "path_well_traveled": {
+      "id": "path_well_traveled",
+      "name_zh": "常走之路",
+      "name_en": "Path Well Traveled",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "传奇\n目标攻击获得再动。\n若本回合你使用过另一张蓝色牌，超越。",
+      "text_en": "Legendary\nTarget attack gets go again.\nIf you've played another blue card this turn, transcend.",
+      "source": "https://cards.fabtcg.com/card/path_well_traveled/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "preserve_tradition": {
+      "id": "preserve_tradition",
+      "name_zh": "恪守传统",
+      "name_en": "Preserve Tradition",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "传奇\n将你坟场中的目标行动牌置于你的牌库底。\n若本回合你使用过另一张蓝色牌，超越。",
+      "text_en": "Legendary\nPut target action card from your graveyard on the bottom of your deck.\nIf you've played another blue card this turn, transcend.",
+      "source": "https://cards.fabtcg.com/card/preserve_tradition/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "recede_to_mistform": {
+      "id": "recede_to_mistform",
+      "name_zh": "隐入雾形",
+      "name_en": "Recede to Mistform",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "选择X件你已装备的具有翳装的装备。将它们翻为牌面朝下。",
+      "text_en": "Choose X equipment with cloaked you have equipped. Turn them face-down.",
+      "source": "https://cards.fabtcg.com/card/recede_to_mistform/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "X",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "rising_sun_setting_moon": {
+      "id": "rising_sun_setting_moon",
+      "name_zh": "升起的太阳，落下的月亮",
+      "name_en": "Rising Sun, Setting Moon",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "传奇\n抽一张牌，然后将你手牌中的一张牌置于你的牌库底。\n若本回合你使用过另一张蓝色牌，超越。",
+      "text_en": "Legendary\nDraw a card, then put a card from your hand on the bottom of your deck.\nIf you've played another blue card this turn, transcend.",
+      "source": "https://cards.fabtcg.com/card/rising_sun_setting_moon/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "rising_tide": {
+      "id": "rising_tide",
+      "name_zh": "涨潮",
+      "name_en": "Rising Tide",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你使用过另一张蓝色牌，此牌获得+2力量。",
+      "text_en": "If you've played another blue card this turn, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/rising_tide/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "second_tenet_of_chi_moon": {
+      "id": "second_tenet_of_chi_moon",
+      "name_zh": "气之第二要义·月",
+      "name_en": "Second Tenet of Chi: Moon",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你超越过，此牌获得“当此链环结算时，抽一张牌。”",
+      "text_en": "If you've transcended this turn, this gets \"When this chain link resolves, draw a card.\"",
+      "source": "https://cards.fabtcg.com/card/second_tenet_of_chi_moon/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "second_tenet_of_chi_tide": {
+      "id": "second_tenet_of_chi_tide",
+      "name_zh": "气之第二要义·潮",
+      "name_en": "Second Tenet of Chi: Tide",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你超越过，此牌获得+2力量。",
+      "text_en": "If you've transcended this turn, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/second_tenet_of_chi_tide/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "second_tenet_of_chi_wind": {
+      "id": "second_tenet_of_chi_wind",
+      "name_zh": "气之第二要义·风",
+      "name_en": "Second Tenet of Chi: Wind",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你超越过，此牌获得再动。",
+      "text_en": "If you've transcended this turn, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/second_tenet_of_chi_wind/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "spillover": {
+      "id": "spillover",
+      "name_zh": "溢出",
+      "name_en": "Spillover",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你使用过另一张蓝色牌，此牌获得+2力量。",
+      "text_en": "If you've played another blue card this turn, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/spillover/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "spreading_mist": {
+      "id": "spreading_mist",
+      "name_zh": "弥漫迷雾",
+      "name_en": "Spreading Mist",
+      "type_zh": "秘法 行动",
+      "text_zh": "你本回合的下一次攻击获得再动。\n本回合你下一次将创造具有短暂的牌时，改为创造等量加1张。\n再动",
+      "text_en": "Your next attack this turn gets go again.\nThe next time you would create a card with ephemeral this turn, instead create that many plus 1.\nGo again",
+      "source": "https://cards.fabtcg.com/card/spreading_mist/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "stir_the_pot": {
+      "id": "stir_the_pot",
+      "name_zh": "搅动局面",
+      "name_en": "Stir the Pot",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "传奇\n洗牌。\n若本回合你使用过另一张蓝色牌，超越。",
+      "text_en": "Legendary\nShuffle.\nIf you've played another blue card this turn, transcend.",
+      "source": "https://cards.fabtcg.com/card/stir_the_pot/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "the_grain_that_tips_the_scale": {
+      "id": "the_grain_that_tips_the_scale",
+      "name_zh": "压垮天平的一粒麦",
+      "name_en": "The Grain that Tips the Scale",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "传奇\n目标攻击获得+1力量。\n若本回合你使用过另一张蓝色牌，超越。",
+      "text_en": "Legendary\nTarget attack gets +1{p}.\nIf you've played another blue card this turn, transcend.",
+      "source": "https://cards.fabtcg.com/card/the_grain_that_tips_the_scale/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "tidal_surge": {
+      "id": "tidal_surge",
+      "name_zh": "潮汐奔涌",
+      "name_en": "Tidal Surge",
+      "type_zh": "秘法 行动·攻击",
+      "text_zh": "若本回合你使用过另一张蓝色牌，此牌获得+2力量。",
+      "text_en": "If you've played another blue card this turn, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/tidal_surge/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
+        }
+      }
+    },
+    "unravel_aggression": {
+      "id": "unravel_aggression",
+      "name_zh": "解开侵略",
+      "name_en": "Unravel Aggression",
+      "type_zh": "秘法 防御反应",
+      "text_zh": "若你为使用此牌资源过一张气，抽一张牌。",
+      "text_en": "If a Chi was pitched to play this, draw a card.",
+      "source": "https://cards.fabtcg.com/card/unravel_aggression/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": "5"
+        }
+      }
+    },
+    "wash_away": {
+      "id": "wash_away",
+      "name_zh": "冲刷殆尽",
+      "name_en": "Wash Away",
+      "type_zh": "秘法 防御反应",
+      "text_zh": "若本回合你使用过另一张蓝色牌，此牌获得+2防御。",
+      "text_en": "If you've played another blue card this turn, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/wash_away/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "whispering_mist": {
+      "id": "whispering_mist",
+      "name_zh": "低语之雾",
+      "name_en": "Whispering Mist",
+      "type_zh": "秘法 瞬间",
+      "text_zh": "直到回合结束，蓝色攻击和具有短暂的攻击获得+1力量。",
+      "text_en": "Until end of turn, blue attacks and attacks with ephemeral get +1{p}.",
+      "source": "https://cards.fabtcg.com/card/whispering_mist/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "wide_blue_yonder": {
+      "id": "wide_blue_yonder",
+      "name_zh": "浩瀚蓝天",
+      "name_en": "Wide Blue Yonder",
+      "type_zh": "秘法 攻击反应",
+      "text_zh": "本回合你每资源过一张蓝色牌，目标攻击获得+1力量。",
+      "text_en": "Target attack gets +1{p} for each blue card you've pitched this turn.",
+      "source": "https://cards.fabtcg.com/card/wide_blue_yonder/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    }
+  }
+}

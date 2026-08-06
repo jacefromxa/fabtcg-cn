@@ -1,0 +1,4100 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "ancestral_empowerment": {
+      "id": "ancestral_empowerment",
+      "name_zh": "先祖赋能",
+      "name_en": "Ancestral Empowerment",
+      "type_zh": "忍者 攻击反应",
+      "text_zh": "目标忍者攻击行动牌获得+1力量。\n抽一张牌。",
+      "text_en": "Target Ninja attack action card gains +1{p}.\nDraw a card.",
+      "source": "https://cards.fabtcg.com/card/ancestral_empowerment/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ancestral_harmony": {
+      "id": "ancestral_harmony",
+      "name_zh": "先祖和谐",
+      "name_en": "Ancestral Harmony",
+      "type_zh": "忍者 行动",
+      "text_zh": "本回合你的具有连击的攻击获得+1力量。\n放逐你牌库顶的一张牌。若其具有连击，本回合你可以使用它。\n再动",
+      "text_en": "Your attacks with combo get +1{p} this turn.\nBanish the top card of your deck. If it has combo, you may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ancestral_harmony/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "art_of_the_dragon_blood": {
+      "id": "art_of_the_dragon_blood",
+      "name_zh": "龙血之艺",
+      "name_en": "Art of the Dragon: Blood",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，若其为龙裔，它获得再动，且本回合你使用的接下来3张龙裔牌使用费用减少1点资源。",
+      "text_en": "When this attacks, if it is Draconic, it gets go again and the next 3 Draconic cards you play this turn cost {r} less to play.",
+      "source": "https://cards.fabtcg.com/card/art_of_the_dragon_blood/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "art_of_the_dragon_claw": {
+      "id": "art_of_the_dragon_claw",
+      "name_zh": "龙爪之艺",
+      "name_en": "Art of the Dragon: Claw",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，若其为龙裔，它获得“当此牌命中英雄时，摧毁其军械库中的所有牌。”",
+      "text_en": "When this attacks, if it is Draconic, it gets \"When this hits a hero, destroy all cards in their arsenal.\"",
+      "source": "https://cards.fabtcg.com/card/art_of_the_dragon_claw/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "art_of_the_dragon_fire": {
+      "id": "art_of_the_dragon_fire",
+      "name_zh": "龙火之艺",
+      "name_en": "Art of the Dragon: Fire",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，若其为龙裔，对任意目标造成2点伤害。",
+      "text_en": "When this attacks, if it is Draconic, deal 2 damage to any target.",
+      "source": "https://cards.fabtcg.com/card/art_of_the_dragon_fire/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "art_of_the_dragon_scale": {
+      "id": "art_of_the_dragon_scale",
+      "name_zh": "龙鳞之艺",
+      "name_en": "Art of the Dragon: Scale",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，若其为龙裔，它获得“当此牌命中英雄时，在其控制的一件装备上放置一个-1防御指示物。然后若其防御为0，摧毁它。”",
+      "text_en": "When this attacks, if it is Draconic, it gets \"When this hits a hero, put a -1{d} counter on an equipment they control. Then if it has 0{d}, destroy it.\"",
+      "source": "https://cards.fabtcg.com/card/art_of_the_dragon_scale/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "aspect_of_tiger_body": {
+      "id": "aspect_of_tiger_body",
+      "name_zh": "虎身之相",
+      "name_en": "Aspect of Tiger: Body",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——当此牌攻击时，若一张红色攻击行动牌是本战斗链的最后一次攻击，此牌获得再动，并在你的放逐区中创造一张卧虎。本回合你可以使用它。",
+      "text_en": "Combo - When this attacks, if a red attack action card was the last attack this combat chain, this gets go again and create a Crouching Tiger in your banished zone. You may play it this turn.",
+      "source": "https://cards.fabtcg.com/card/aspect_of_tiger_body/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "aspect_of_tiger_mind": {
+      "id": "aspect_of_tiger_mind",
+      "name_zh": "虎心之相",
+      "name_en": "Aspect of Tiger: Mind",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——当此牌攻击时，若一张蓝色攻击行动牌是本战斗链的最后一次攻击，此牌获得再动，并在你的放逐区中创造一张卧虎。本回合你可以使用它。",
+      "text_en": "Combo - When this attacks, if a blue attack action card was the last attack this combat chain, this gets go again and create a Crouching Tiger in your banished zone. You may play it this turn.",
+      "source": "https://cards.fabtcg.com/card/aspect_of_tiger_mind/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "aspect_of_tiger_soul": {
+      "id": "aspect_of_tiger_soul",
+      "name_zh": "虎魂之相",
+      "name_en": "Aspect of Tiger: Soul",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——当此牌攻击时，若一张黄色攻击行动牌是本战斗链的最后一次攻击，此牌获得再动，并在你的放逐区中创造一张卧虎。本回合你可以使用它。",
+      "text_en": "Combo - When this attacks, if a yellow attack action card was the last attack this combat chain, this gets go again and create a Crouching Tiger in your banished zone. You may play it this turn.",
+      "source": "https://cards.fabtcg.com/card/aspect_of_tiger_soul/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "back_heel_kick": {
+      "id": "back_heel_kick",
+      "name_zh": "后跟踢",
+      "name_en": "Back Heel Kick",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若双旋风是本战斗链的最后一次攻击，当此牌在任意区域正面朝上且将获得力量时，改为其获得等量加1的力量。",
+      "text_en": "Combo - If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.",
+      "source": "https://cards.fabtcg.com/card/back_heel_kick/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "be_like_water": {
+      "id": "be_like_water",
+      "name_zh": "如水",
+      "name_en": "Be Like Water",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中时，你可以支付1点资源。若如此做，选择刺拳、激涌打击或双旋风。此牌获得所选名称。\n再动",
+      "text_en": "When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.\nGo again",
+      "source": "https://cards.fabtcg.com/card/be_like_water/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "become_the_bottle": {
+      "id": "become_the_bottle",
+      "name_zh": "成为瓶子",
+      "name_en": "Become the Bottle",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，选择战斗链上的一张牌。此牌获得所选牌的名称。\n再动",
+      "text_en": "When this attacks, choose a card on the combat chain. This gets the chosen card's name.\nGo again",
+      "source": "https://cards.fabtcg.com/card/become_the_bottle/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "become_the_cup": {
+      "id": "become_the_cup",
+      "name_zh": "成为杯子",
+      "name_en": "Become the Cup",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当你使用此牌时，选择一种颜色。此牌获得所选颜色。\n再动",
+      "text_en": "As you play this, choose a color. This gets the chosen color.\nGo again",
+      "source": "https://cards.fabtcg.com/card/become_the_cup/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "biting_breeze": {
+      "id": "biting_breeze",
+      "name_zh": "刺骨微风",
+      "name_en": "Biting Breeze",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中时，在你的放逐区中创造一张卧虎。本回合你可以使用它。\n再动",
+      "text_en": "When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/biting_breeze/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "bittering_thorns": {
+      "id": "bittering_thorns",
+      "name_zh": "苦涩荆棘",
+      "name_en": "Bittering Thorns",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中时，你本回合的下一次攻击获得+1力量。\n再动",
+      "text_en": "When this hits, your next attack this turn gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/bittering_thorns/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "blackout_kick": {
+      "id": "blackout_kick",
+      "name_zh": "失明踢",
+      "name_en": "Blackout Kick",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若升膝突是本战斗链的最后一次攻击，失明踢获得+3力量。",
+      "text_en": "Combo - If Rising Knee Thrust was the last attack this combat chain, Blackout Kick gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/blackout_kick/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "bleed_out": {
+      "id": "bleed_out",
+      "name_zh": "放血",
+      "name_en": "Bleed Out",
+      "type_zh": "刺客·忍者 行动·攻击",
+      "text_zh": "此牌的使用费用减少X点资源，X为本战斗链中你用匕首造成的伤害总量。\n再动",
+      "text_en": "Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.\nGo again",
+      "source": "https://cards.fabtcg.com/card/bleed_out/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "blessing_of_qi": {
+      "id": "blessing_of_qi",
+      "name_zh": "气之祝福",
+      "name_en": "Blessing of Qi",
+      "type_zh": "忍者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁此牌，然后在你的放逐区中创造一张卧虎。它获得+3力量，且本回合你可以使用它。",
+      "text_en": "At the start of your turn, destroy this, then create a Crouching Tiger in your banished zone. It gains +3{p} and you may play it this turn.",
+      "source": "https://cards.fabtcg.com/card/blessing_of_qi/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "blood_drop": {
+      "id": "blood_drop",
+      "name_zh": "血滴",
+      "name_en": "Blood Drop",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n再动",
+      "text_en": "This costs {r} less to play for each Draconic chain link you control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/blood_drop/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "blood_line": {
+      "id": "blood_line",
+      "name_zh": "血脉",
+      "name_en": "Blood Line",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n再动",
+      "text_en": "This costs {r} less to play for each Draconic chain link you control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/blood_line/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "blood_runs_deep": {
+      "id": "blood_runs_deep",
+      "name_zh": "血浓于水",
+      "name_en": "Blood Runs Deep",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n当此牌攻击英雄时，你控制的每把匕首对其造成1点伤害。若以此方式造成伤害，该匕首视为命中。摧毁这些匕首。\n再动",
+      "text_en": "This costs {r} less to play for each Draconic chain link you control.\nWhen this attacks a hero, each dagger you control deals 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the daggers.\nGo again",
+      "source": "https://cards.fabtcg.com/card/blood_runs_deep/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "bonds_of_ancestry": {
+      "id": "bonds_of_ancestry",
+      "name_zh": "先祖纽带",
+      "name_en": "Bonds of Ancestry",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若一张名称中含有阵风波的牌是本战斗链的最后一次攻击，此牌的使用费用减少2点资源，并获得再动，以及“当此牌攻击时，你可以放逐你坟场中一张具有连击的牌。若如此做，从你的牌库中搜寻一张同名的牌，放逐它，然后洗牌。本战斗链中你可以使用它。”",
+      "text_en": "Combo - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has go again and \"When this attacks, you may banish a card with combo from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain.\"",
+      "source": "https://cards.fabtcg.com/card/bonds_of_ancestry/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "brand_with_cinderclaw": {
+      "id": "brand_with_cinderclaw",
+      "name_zh": "余烬爪烙印",
+      "name_en": "Brand with Cinderclaw",
+      "type_zh": "",
+      "text_zh": "本战斗链中你的下一次攻击除其原有类别外还视为龙裔。\n再动",
+      "text_en": "Your next attack this combat chain is Draconic in addition to its other card types.\nGo again",
+      "source": "https://cards.fabtcg.com/card/brand_with_cinderclaw/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "break_tide": {
+      "id": "break_tide",
+      "name_zh": "破潮",
+      "name_en": "Break Tide",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若激流冲或力量洪流是本战斗链的最后一次攻击，破潮获得+3力量、支配，以及“若破潮命中，放逐你牌库顶的一张牌。直到你的下一个回合结束，你可以使用它。”",
+      "text_en": "Combo - If Rushing River or Flood of Force was the last attack this combat chain, Break Tide gains +3{p}, dominate, and \"If Break Tide hits, banish the top card of your deck. Until the end of your next turn, you may play it.\"",
+      "source": "https://cards.fabtcg.com/card/break_tide/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Dominate"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "breed_anger": {
+      "id": "breed_anger",
+      "name_zh": "滋生怒火",
+      "name_en": "Breed Anger",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——当此牌攻击时，若卧虎是本战斗链的最后一次攻击，此牌获得再动，并在你的放逐区中创造一张卧虎。本回合你可以使用它。",
+      "text_en": "Combo - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets go again and create a Crouching Tiger in your banished zone. You may play it this turn.",
+      "source": "https://cards.fabtcg.com/card/breed_anger/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "burning_blade_dance": {
+      "id": "burning_blade_dance",
+      "name_zh": "炽燃剑舞",
+      "name_en": "Burning Blade Dance",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制2个或更多龙裔链环，此牌获得再动，以及“当此牌命中英雄时，你可以让你控制的目标匕首对其造成1点伤害。若以此方式造成伤害，该匕首视为命中。摧毁该匕首。”",
+      "text_en": "If you control 2 or more Draconic chain links, this gets go again and \"When this hits a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.\"",
+      "source": "https://cards.fabtcg.com/card/burning_blade_dance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "chase_the_tail": {
+      "id": "chase_the_tail",
+      "name_zh": "追尾",
+      "name_en": "Chase the Tail",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——当此牌攻击时，若卧虎是本战斗链的最后一次攻击，此牌获得再动，且本战斗链中你使用的下一张卧虎获得+3力量。",
+      "text_en": "Combo - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets go again and the next Crouching Tiger you play this combat chain gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/chase_the_tail/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "cinderskin_devotion": {
+      "id": "cinderskin_devotion",
+      "name_zh": "烬皮虔诚",
+      "name_en": "Cinderskin Devotion",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制2个或更多龙裔链环，此牌获得再动。",
+      "text_en": "If you control 2 or more Draconic chain links, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/cinderskin_devotion/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "combustion_point": {
+      "id": "combustion_point",
+      "name_zh": "燃点",
+      "name_en": "Combustion Point",
+      "type_zh": "龙裔 忍者 攻击反应",
+      "text_zh": "目标龙裔或忍者攻击行动牌获得+1力量。\n你可以放逐一张防御小于你控制的龙裔链环数量的非装备防御牌。",
+      "text_en": "Target Draconic or Ninja attack action card gains +1{p}.\nYou may banish a non-equipment defending card with {d} less than the number of Draconic chain links you control.",
+      "source": "https://cards.fabtcg.com/card/combustion_point/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "companion_of_the_claw": {
+      "id": "companion_of_the_claw",
+      "name_zh": "利爪同伴",
+      "name_en": "Companion of the Claw",
+      "type_zh": "秘法 忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，若本回合你资源过一张蓝色牌，在你的手牌中创造一张卧虎。\n再动",
+      "text_en": "When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.\nGo again",
+      "source": "https://cards.fabtcg.com/card/companion_of_the_claw/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "concealed_blade": {
+      "id": "concealed_blade",
+      "name_zh": "隐蔽之刃",
+      "name_en": "Concealed Blade",
+      "type_zh": "刺客·忍者 攻击反应",
+      "text_zh": "目标刺客或忍者攻击行动牌获得+1力量，以及“当此牌命中时，从你的物品栏装备一把匕首。”",
+      "text_en": "Target Assassin or Ninja attack action card gains +1{p} and \"When this hits, equip a dagger from your inventory.\"",
+      "source": "https://cards.fabtcg.com/card/concealed_blade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "crane_dance": {
+      "id": "crane_dance",
+      "name_zh": "鹤舞",
+      "name_en": "Crane Dance",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若魂珠打击是本战斗链的最后一次攻击，鹤舞获得+1力量、再动，且不能被基础力量大于你控制的链环数量的攻击行动牌防御。",
+      "text_en": "Combo - If Soulbead Strike was the last attack this combat chain, Crane Dance gains +1{p}, go again, and it can't be defended by attack action cards with base {p} greater than the number of chain links you control.",
+      "source": "https://cards.fabtcg.com/card/crane_dance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "crouching_tiger": {
+      "id": "crouching_tiger",
+      "name_zh": "卧虎",
+      "name_en": "Crouching Tiger",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "短暂\n再动",
+      "text_en": "Ephemeral\nGo again",
+      "source": "https://cards.fabtcg.com/card/crouching_tiger/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ephemeral",
+        "Go again"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "0",
+          "power": "0",
+          "defense": null
+        }
+      }
+    },
+    "cut_through": {
+      "id": "cut_through",
+      "name_zh": "切开",
+      "name_en": "Cut Through",
+      "type_zh": "刺客·忍者 行动·攻击",
+      "text_zh": "若本战斗链中你用匕首命中过，此牌获得+1力量和再动。",
+      "text_en": "If you've hit with a dagger this combat chain, this gets +1{p} and go again.",
+      "source": "https://cards.fabtcg.com/card/cut_through/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "cyclone_roundhouse": {
+      "id": "cyclone_roundhouse",
+      "name_zh": "旋风回旋踢",
+      "name_en": "Cyclone Roundhouse",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若旋转轮踢是本战斗链的最后一次攻击，此牌获得“在反应步骤开始时，从每个链环放逐一张随机防御牌。”",
+      "text_en": "Combo - If Spinning Wheel Kick was the last attack this combat chain, this has \"At the beginning of the reaction step, banish a random defending card from each chain link.\"",
+      "source": "https://cards.fabtcg.com/card/cyclone_roundhouse/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "deadly_duo": {
+      "id": "deadly_duo",
+      "name_zh": "致命双人组",
+      "name_en": "Deadly Duo",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中时，本战斗链中你使用的下一张基础力量为2或更低的攻击行动牌获得+2力量。\n再动",
+      "text_en": "When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/deadly_duo/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "demonstrate_devotion": {
+      "id": "demonstrate_devotion",
+      "name_zh": "彰显虔诚",
+      "name_en": "Demonstrate Devotion",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制2个或更多龙裔链环，此牌获得再动，以及“当此牌攻击英雄时，创造一个效忠衍生物。”",
+      "text_en": "If you control 2 or more Draconic chain links, this gets go again and \"When this attacks a hero, create a Fealty token.\"",
+      "source": "https://cards.fabtcg.com/card/demonstrate_devotion/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "descendent_gustwave": {
+      "id": "descendent_gustwave",
+      "name_zh": "后继阵风波",
+      "name_en": "Descendent Gustwave",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若激涌打击是本战斗链的最后一次攻击，此牌的使用费用减少1点资源并获得+2力量。\n再动",
+      "text_en": "Combo - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/descendent_gustwave/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "devotion_never_dies": {
+      "id": "devotion_never_dies",
+      "name_zh": "虔诚永存",
+      "name_en": "Devotion Never Dies",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中时，若一张龙裔攻击是本战斗链的最后一次攻击，放逐此牌。若如此做，本回合你可以使用它。\n再动",
+      "text_en": "When this hits, if a Draconic attack was the last attack this combat chain, banish this. If you do, you may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/devotion_never_dies/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
+    "dishonor": {
+      "id": "dishonor",
+      "name_zh": "耻辱",
+      "name_en": "Dishonor",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若先祖纽带是本战斗链的最后一次攻击，此牌获得+2力量。\n当此牌命中英雄时，若你控制激涌打击、后继阵风波和先祖纽带，该英雄在剩余游戏中失去所有异能。",
+      "text_en": "Combo - If Bonds of Ancestry was the last attack this combat chain, this has +2{p}.\nWhen this hits a hero, if you control Surging Strike, Descendent Gustwave, and Bonds of Ancestry, that hero loses all abilities for the rest of the game.",
+      "source": "https://cards.fabtcg.com/card/dishonor/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "display_loyalty": {
+      "id": "display_loyalty",
+      "name_zh": "展示忠诚",
+      "name_en": "Display Loyalty",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制2个或更多龙裔链环，此牌获得再动，以及“当此牌攻击英雄时，创造一个效忠衍生物。”",
+      "text_en": "If you control 2 or more Draconic chain links, this gets go again and \"When this attacks a hero, create a Fealty token.\"",
+      "source": "https://cards.fabtcg.com/card/display_loyalty/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "double_strike": {
+      "id": "double_strike",
+      "name_zh": "双重打击",
+      "name_en": "Double Strike",
+      "type_zh": "Nina 行动·攻击",
+      "text_zh": "当双重打击的链环结算时，放逐它。本战斗链中你可以使用它。若如此做，它失去此异能。\n再动",
+      "text_en": "When Double Strike's chain link resolves, banish it. You may play it this combat chain. If you do, it loses this ability.\nGo again",
+      "source": "https://cards.fabtcg.com/card/double_strike/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "dragon_power": {
+      "id": "dragon_power",
+      "name_zh": "龙之力",
+      "name_en": "Dragon Power",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，若其为龙裔，它获得+3力量。",
+      "text_en": "When this attacks, if it is Draconic, it gets +3{p}.",
+      "source": "https://cards.fabtcg.com/card/dragon_power/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "dust_runner_outlaw": {
+      "id": "dust_runner_outlaw",
+      "name_zh": "尘行亡命徒",
+      "name_en": "Dust Runner Outlaw",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "再动",
+      "text_en": "Go again",
+      "source": "https://cards.fabtcg.com/card/dust_runner_outlaw/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "edge_of_autumn": {
+      "id": "edge_of_autumn",
+      "name_zh": "秋之刃",
+      "name_en": "Edge of Autumn",
+      "type_zh": "忍者 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击。再动",
+      "text_en": "Once per Turn Action - {r}: Attack. Go again",
+      "source": "https://cards.fabtcg.com/card/edge_of_autumn/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "enact_vengeance": {
+      "id": "enact_vengeance",
+      "name_zh": "执行复仇",
+      "name_en": "Enact Vengeance",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若秋之刃或一张名称中含有复仇的牌是本战斗链的最后一次攻击，此牌获得“当此牌命中英雄时，摧毁其军械库中的所有牌。”",
+      "text_en": "Combo - If Edge of Autumn or a card with Vengeance in its name was the last attack this combat chain, this gets \"When this hits a hero, destroy all cards in their arsenal.\"",
+      "source": "https://cards.fabtcg.com/card/enact_vengeance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
+    "enflame_the_firebrand": {
+      "id": "enflame_the_firebrand",
+      "name_zh": "点燃火种",
+      "name_en": "Enflame the Firebrand",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，若你控制2个或更多龙裔链环，此牌获得再动；控制3个或更多，本战斗链中你的攻击视为龙裔；控制4个或更多，此牌获得+2力量。",
+      "text_en": "When this attacks, if you control 2 or more Draconic chain links, this gets go again, 3 or more, your attacks are Draconic this combat chain, 4 or more, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/enflame_the_firebrand/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "engulfing_flamewave": {
+      "id": "engulfing_flamewave",
+      "name_zh": "吞噬火焰浪",
+      "name_en": "Engulfing Flamewave",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当吞噬火焰浪命中时，展示你牌库顶的一张牌。若其为费用小于你控制的龙裔链环数量的攻击行动牌，放逐它。本回合你可以使用它。\n再动",
+      "text_en": "When Engulfing Flamewave hits, reveal the top card of your deck. If it's an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/engulfing_flamewave/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "evasive_nageboshi": {
+      "id": "evasive_nageboshi",
+      "name_zh": "闪避投石",
+      "name_en": "Evasive Nageboshi",
+      "type_zh": "忍者 瞬间·Shuriken 物品",
+      "text_zh": "传奇\n行动——支付1点资源，横置此牌，当战斗链关闭时摧毁此牌：攻击。再动\n此牌不能被装备或反应牌防御。",
+      "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nThis can't be defended by equipment or reaction cards.",
+      "source": "https://cards.fabtcg.com/card/evasive_nageboshi/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "feign_vengeance": {
+      "id": "feign_vengeance",
+      "name_zh": "佯装复仇",
+      "name_en": "Feign Vengeance",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此链环结算时，若有牌防御此牌，抽一张牌。\n再动",
+      "text_en": "When this chain link resolves, if there is a card defending this, draw a card.\nGo again",
+      "source": "https://cards.fabtcg.com/card/feign_vengeance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "0",
+          "defense": "3"
+        }
+      }
+    },
+    "find_center": {
+      "id": "find_center",
+      "name_zh": "寻找中心",
+      "name_en": "Find Center",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若鹤舞是本战斗链的最后一次攻击，寻真中心不能被费用少于你控制的链环数量的牌防御，并获得“若此牌命中，创造一个禅定衍生物。”",
+      "text_en": "Combo - If Crane Dance was the last attack this combat chain, Find Center can't be defended by cards with {r} cost less than the number of chain links you control, and it gains \"If this hits, create a Zen State token.\"",
+      "source": "https://cards.fabtcg.com/card/find_center/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "fire_tenet_strike_first": {
+      "id": "fire_tenet_strike_first",
+      "name_zh": "火之信条·先发制人",
+      "name_en": "Fire Tenet: Strike First",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，本战斗链中你的下一次龙裔攻击获得+1力量。\n再动",
+      "text_en": "When this attacks, your next Draconic attack this combat chain gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/fire_tenet_strike_first/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "flex_claws": {
+      "id": "flex_claws",
+      "name_zh": "伸展利爪",
+      "name_en": "Flex Claws",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中时，在你的放逐区中创造一张卧虎。本回合你可以使用它。\n再动",
+      "text_en": "When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/flex_claws/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "flic_flak": {
+      "id": "flic_flak",
+      "name_zh": "连环弹",
+      "name_en": "Flic Flak",
+      "type_zh": "忍者 防御反应",
+      "text_zh": "若本回合你用于防御的下一张牌具有连击，它获得+2防御。",
+      "text_en": "If the next card you defend with this turn is a card with combo, it gains +2{d}.",
+      "source": "https://cards.fabtcg.com/card/flic_flak/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "4"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "flood_of_force": {
+      "id": "flood_of_force",
+      "name_zh": "力量洪流",
+      "name_en": "Flood of Force",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若激流冲或力量洪流是本战斗链的最后一次攻击，当你用力量洪流攻击时，展示你牌库顶的一张牌。若其具有连击，将其置入你的手牌，然后力量洪流获得+3力量和再动。",
+      "text_en": "Combo - If Rushing River or Flood of Force was the last attack this combat chain, when you attack with Flood of Force, reveal the top card of your deck. If it's a card with combo, put it into your hand then Flood of Force gains +3{p} and go again.",
+      "source": "https://cards.fabtcg.com/card/flood_of_force/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "fluster_fist": {
+      "id": "fluster_fist",
+      "name_zh": "慌乱之拳",
+      "name_en": "Fluster Fist",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若打开中心是本战斗链的最后一次攻击，每有一张本战斗链中命中过的攻击，慌乱之拳获得+1力量。",
+      "text_en": "Combo - If Open the Center was the last attack this combat chain, Fluster Fist gains +1{p} for each attack that has hit this combat chain.",
+      "source": "https://cards.fabtcg.com/card/fluster_fist/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "flying_kick": {
+      "id": "flying_kick",
+      "name_zh": "飞踢",
+      "name_en": "Flying Kick",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "若此牌是作为链环3或更高使用的，它获得+2力量。",
+      "text_en": "If this was played as chain link 3 or higher, it gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/flying_kick/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "gentle_breeze": {
+      "id": "gentle_breeze",
+      "name_zh": "和风",
+      "name_en": "Gentle Breeze",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "你的其他攻击具有1点基础力量。\n再动",
+      "text_en": "Your other attacks have 1 base {p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/gentle_breeze/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "grow_claws": {
+      "id": "grow_claws",
+      "name_zh": "生长利爪",
+      "name_en": "Grow Claws",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "若一张龙裔攻击是本战斗链的最后一次攻击，此牌获得+1力量。\n再动",
+      "text_en": "If a Draconic attack was the last attack this combat chain, this gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/grow_claws/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "grow_wings": {
+      "id": "grow_wings",
+      "name_zh": "生长双翼",
+      "name_en": "Grow Wings",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "若一张龙裔攻击是本战斗链的最后一次攻击，此牌获得再动。",
+      "text_en": "If a Draconic attack was the last attack this combat chain, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/grow_wings/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "growl": {
+      "id": "growl",
+      "name_zh": "低吼",
+      "name_en": "Growl",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，本战斗链中你使用的下一张卧虎获得+1力量。\n再动",
+      "text_en": "When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/growl/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "gustwave_of_the_second_wind": {
+      "id": "gustwave_of_the_second_wind",
+      "name_zh": "第二阵风波",
+      "name_en": "Gustwave of the Second Wind",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若激涌打击是本战斗链的最后一次攻击，此牌获得再动。",
+      "text_en": "Combo - If Surging Strike was the last attack this combat chain, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/gustwave_of_the_second_wind/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "harmonized_kodachi": {
+      "id": "harmonized_kodachi",
+      "name_zh": "和谐小太刀",
+      "name_en": "Harmonized Kodachi",
+      "type_zh": "忍者 武器·匕首 （单手）",
+      "text_zh": "每回合一次行动——支付1点资源：攻击\n若你资源区中有一张费用为0的牌，此牌的攻击获得再动。",
+      "text_en": "Once per Turn Action - {r}: Attack\nIf you have a card in your pitch zone with cost 0, this card's attacks get go again.",
+      "source": "https://cards.fabtcg.com/card/harmonized_kodachi/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "harmony_of_the_hunt": {
+      "id": "harmony_of_the_hunt",
+      "name_zh": "狩猎和谐",
+      "name_en": "Harmony of the Hunt",
+      "type_zh": "秘法 忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，若本回合你资源过一张蓝色牌，在你的手牌中创造一张卧虎。\n再动",
+      "text_en": "When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.\nGo again",
+      "source": "https://cards.fabtcg.com/card/harmony_of_the_hunt/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "head_jab": {
+      "id": "head_jab",
+      "name_zh": "刺拳",
+      "name_en": "Head Jab",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "再动",
+      "text_en": "Go again",
+      "source": "https://cards.fabtcg.com/card/head_jab/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "head_leads_the_tail": {
+      "id": "head_leads_the_tail",
+      "name_zh": "头引尾随",
+      "name_en": "Head Leads the Tail",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，说出另一张牌名。本战斗链中具有该名称的攻击行动牌获得+1力量。\n再动",
+      "text_en": "When this attacks, name another card. Attack action cards with that name have +1{p} this combat chain.\nGo again",
+      "source": "https://cards.fabtcg.com/card/head_leads_the_tail/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "herons_flight": {
+      "id": "herons_flight",
+      "name_zh": "苍鹭之翔",
+      "name_en": "Heron's Flight",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若鹤舞是本战斗链的最后一次攻击，当你用苍鹭之翔攻击时，它获得+2力量，且你选择其一；\n苍鹭之翔只能被攻击行动牌防御。\n苍鹭之翔只能被“非攻击”行动牌防御。",
+      "text_en": "Combo - If Crane Dance was the last attack this combat chain, when you attack with Heron's Flight, it gains +2{p} and you choose 1;\n\nHeron's flight can only be defended by attack action cards.\nHeron's flight can only be defended by 'non-attack' action cards.",
+      "source": "https://cards.fabtcg.com/card/herons_flight/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "hot_on_their_heels": {
+      "id": "hot_on_their_heels",
+      "name_zh": "紧随其后",
+      "name_en": "Hot on Their Heels",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制2个或更多龙裔链环，此牌获得再动，以及“当此牌命中英雄时，标记该英雄。”",
+      "text_en": "If you control 2 or more Draconic chain links, this gets go again and \"When this hits a hero, mark them.\"",
+      "source": "https://cards.fabtcg.com/card/hot_on_their_heels/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Mark"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "hundred_winds": {
+      "id": "hundred_winds",
+      "name_zh": "百风",
+      "name_en": "Hundred Winds",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若百风是本战斗链的最后一次攻击，本战斗链中你每控制一张另一张名为百风的牌，此攻击获得+1力量。\n再动",
+      "text_en": "Combo - If Hundred Winds was the last attack this combat chain, this attack gains +1{p} for each other card named Hundred Winds you control on this combat chain.\nGo again",
+      "source": "https://cards.fabtcg.com/card/hundred_winds/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "hurl": {
+      "id": "hurl",
+      "name_zh": "投掷",
+      "name_en": "Hurl",
+      "type_zh": "刺客·忍者 行动·攻击",
+      "text_zh": "作为使用投掷的额外费用，你可以支付1点资源。当你如此做时，它获得“当此牌攻击时，你控制的目标匕首对目标英雄造成1点伤害。若以此方式造成伤害，该匕首视为命中。摧毁该匕首。”\n再动",
+      "text_en": "As an additional cost to play Hurl, you may pay {r}. When you do, it gains \"When this attacks, target dagger you control deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/hurl/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "hurricane_technique": {
+      "id": "hurricane_technique",
+      "name_zh": "飓风技法",
+      "name_en": "Hurricane Technique",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若升膝突是本战斗链的最后一次攻击，飓风技法获得+1力量、再动，以及“若飓风技法命中，将其置入你的手牌。”",
+      "text_en": "Combo - If Rising Knee Thrust was the last attack this combat chain, Hurricane Technique gains +1{p}, go again, and \"If Hurricane Technique hits, put it into your hand.\"",
+      "source": "https://cards.fabtcg.com/card/hurricane_technique/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "ignite": {
+      "id": "ignite",
+      "name_zh": "点燃",
+      "name_en": "Ignite",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，本战斗链中你使用或启动的下一张龙裔牌使用或启动费用减少1点资源。\n再动",
+      "text_en": "When this attacks, the next Draconic card you play or activate this combat chain costs {r} less to play or activate.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ignite/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "knives_out": {
+      "id": "knives_out",
+      "name_zh": "亮出匕首",
+      "name_en": "Knives Out",
+      "type_zh": "刺客·忍者 攻击反应",
+      "text_zh": "本回合你的匕首获得+1力量。",
+      "text_en": "Your daggers gain +1{p} this turn.",
+      "source": "https://cards.fabtcg.com/card/knives_out/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "kunai_of_retribution": {
+      "id": "kunai_of_retribution",
+      "name_zh": "天罚苦无",
+      "name_en": "Kunai of Retribution",
+      "type_zh": "龙裔 忍者 武器·匕首 （单手）",
+      "text_zh": "每回合一次行动——支付1点资源，当战斗链关闭时摧毁此牌：攻击。再动",
+      "text_en": "Once per Turn Action - {r}, destroy this when the combat chain closes: Attack. Go again",
+      "source": "https://cards.fabtcg.com/card/kunai_of_retribution/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "lair_of_the_spider": {
+      "id": "lair_of_the_spider",
+      "name_zh": "蜘蛛巢穴",
+      "name_en": "Lair of the Spider",
+      "type_zh": "刺客·忍者 行动 防御反应·陷阱",
+      "text_zh": "当此牌防御具有再动的攻击时，标记攻击英雄。",
+      "text_en": "When this defends an attack with go again, mark the attacking hero.",
+      "source": "https://cards.fabtcg.com/card/lair_of_the_spider/",
+      "status": "machine-draft",
+      "keywords": [
+        "Mark"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "lava_vein_loyalty": {
+      "id": "lava_vein_loyalty",
+      "name_zh": "熔岩脉忠诚",
+      "name_en": "Lava Vein Loyalty",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制2个或更多龙裔链环，此牌获得再动。",
+      "text_en": "If you control 2 or more Draconic chain links, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/lava_vein_loyalty/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "leg_tap": {
+      "id": "leg_tap",
+      "name_zh": "扫腿",
+      "name_en": "Leg Tap",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "再动",
+      "text_en": "Go again",
+      "source": "https://cards.fabtcg.com/card/leg_tap/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "legacy_of_ikaru": {
+      "id": "legacy_of_ikaru",
+      "name_zh": "伊卡鲁的传承",
+      "name_en": "Legacy of Ikaru",
+      "type_zh": "忍者 攻击反应",
+      "text_zh": "目标忍者攻击获得+1力量，以及“当此牌命中时，若秋之刃是本战斗链的最后一次攻击，抽一张牌。”",
+      "text_en": "Target Ninja attack gets +1{p} and \"When this hits, if Edge of Autumn was the last attack this combat chain, draw a card.\"",
+      "source": "https://cards.fabtcg.com/card/legacy_of_ikaru/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "lord_of_wind": {
+      "id": "lord_of_wind",
+      "name_zh": "风之领主",
+      "name_en": "Lord of Wind",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "卡兹专精\n连击——若无限之师：解放是本战斗链的最后一次攻击，作为使用风之领主的额外费用，你可以支付任意数量的资源。若如此做，将你坟场中相应数量的名为激涌打击、汹涌阵风波和/或无限之师：解放的目标牌洗入你的牌库，然后风之领主获得等量力量。",
+      "text_en": "Katsu Specialization\nCombo - If Mugenshi: RELEASE was the last attack this combat chain, as an additional cost to play Lord of Wind, you may pay any amount of {r}. If you do, shuffle that many target cards named Surging Strike, Whelming Gustwave and/or Mugenshi: RELEASE from your graveyard into your deck, then Lord of Wind gains that much {p}.",
+      "source": "https://cards.fabtcg.com/card/lord_of_wind/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "mark_with_magma": {
+      "id": "mark_with_magma",
+      "name_zh": "岩浆标记",
+      "name_en": "Mark with Magma",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制2个或更多龙裔链环，此牌获得再动，以及“当此牌命中英雄时，标记该英雄。”",
+      "text_en": "If you control 2 or more Draconic chain links, this gets go again and \"When this hits a hero, mark them.\"",
+      "source": "https://cards.fabtcg.com/card/mark_with_magma/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Mark"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "maul": {
+      "id": "maul",
+      "name_zh": "撕裂",
+      "name_en": "Maul",
+      "type_zh": "忍者 攻击反应",
+      "text_zh": "选择其一或全部；\n- 目标基础力量为1或更低的攻击行动牌获得+3力量。\n- 目标卧虎获得“当此牌命中时，在你的放逐区中创造2张卧虎。本回合你可以使用它们。”",
+      "text_en": "Choose 1 or both;\n- Target attack action card with 1 or less base {p} gets +3{p}.\n- Target Crouching Tiger gets \"When this hits, create 2 Crouching Tigers in your banished zone. You may play them this turn.\"",
+      "source": "https://cards.fabtcg.com/card/maul/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "mauling_qi": {
+      "id": "mauling_qi",
+      "name_zh": "狂暴之气",
+      "name_en": "Mauling Qi",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——当此牌命中时，若卧虎是本战斗链的最后一次攻击，对每位对手英雄造成1点伤害。",
+      "text_en": "Combo - When this hits, if Crouching Tiger was the last attack this combat chain, deal 1 damage to each opposing hero.",
+      "source": "https://cards.fabtcg.com/card/mauling_qi/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "mindstate_of_tiger": {
+      "id": "mindstate_of_tiger",
+      "name_zh": "虎之心境",
+      "name_en": "Mindstate of Tiger",
+      "type_zh": "忍者 行动·光环",
+      "text_zh": "在你的回合开始时，摧毁虎之心境，然后在你的手牌中创造一张卧虎。",
+      "text_en": "At the start of your turn, destroy Mindstate of Tiger then create a Crouching Tiger in your hand.",
+      "source": "https://cards.fabtcg.com/card/mindstate_of_tiger/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "mounting_anger": {
+      "id": "mounting_anger",
+      "name_zh": "攀升的怒火",
+      "name_en": "Mounting Anger",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当攀升的怒火命中时，你可以放逐你手牌中一张费用小于你控制的龙裔链环数量的攻击行动牌。若如此做，它获得+1力量，且本回合你可以使用它。\n再动",
+      "text_en": "When Mounting Anger hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it gains +1{p} and you may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/mounting_anger/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "mugenshi_release": {
+      "id": "mugenshi_release",
+      "name_zh": "无限之师：解放",
+      "name_en": "Mugenshi: RELEASE",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "卡兹专精\n连击——若汹涌阵风波是本战斗链的最后一次攻击，无限之师：解放获得+1力量、再动，以及“若此牌命中，从你的牌库中搜寻任意数量的名为风之领主的牌，展示它们，将其置入你的手牌，然后洗牌。”",
+      "text_en": "Katsu Specialization\nCombo - If Whelming Gustwave was the last attack this combat chain, Mugenshi: RELEASE gains +1{p}, go again, and \"If this hits, search your deck for any number of cards named Lord of Wind, reveal them, put them into your hand, then shuffle your deck.\"",
+      "source": "https://cards.fabtcg.com/card/mugenshi_release/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "one_two_punch": {
+      "id": "one_two_punch",
+      "name_zh": "一二连击",
+      "name_en": "One-Two Punch",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若刺拳是本战斗链的最后一次攻击，此牌获得“当此牌命中英雄时，对其造成2点伤害。”",
+      "text_en": "Combo - If Head Jab was the last attack this combat chain, this has \"When this hits a hero, deal 2 damage to them.\"",
+      "source": "https://cards.fabtcg.com/card/one_two_punch/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "open_the_center": {
+      "id": "open_the_center",
+      "name_zh": "打开中心",
+      "name_en": "Open the Center",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若刺拳是本战斗链的最后一次攻击，打开中心获得+1力量、再动和支配。",
+      "text_en": "Combo - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, go again, and dominate.",
+      "source": "https://cards.fabtcg.com/card/open_the_center/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again",
+        "Dominate"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "pain_in_the_backside": {
+      "id": "pain_in_the_backside",
+      "name_zh": "后顾之忧",
+      "name_en": "Pain in the Backside",
+      "type_zh": "刺客·忍者 行动·攻击",
+      "text_zh": "当此牌命中英雄时，你控制的目标匕首对其造成1点伤害。若以此方式造成伤害，该匕首视为命中。\n再动",
+      "text_en": "When this hits a hero, target dagger you control deals 1 damage to them. If damage is dealt this way, the dagger has hit.\nGo again",
+      "source": "https://cards.fabtcg.com/card/pain_in_the_backside/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "phoenix_form": {
+      "id": "phoenix_form",
+      "name_zh": "凤凰形态",
+      "name_en": "Phoenix Form",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "若你控制1张或更多凤凰烈焰，凤凰形态具有再动。若你控制2张或更多，它获得+2力量。若你控制3张或更多，它获得“当此牌命中英雄时，抽3张牌。”",
+      "text_en": "If you control 1 or more Phoenix Flames, Phoenix Form has go again. If you control 2 or more, it has +2{p}. If you control 3 or more, it has \"When this hits a hero, draw 3 cards.\"",
+      "source": "https://cards.fabtcg.com/card/phoenix_form/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "pick_up_the_point": {
+      "id": "pick_up_the_point",
+      "name_zh": "拾起刀尖",
+      "name_en": "Pick Up the Point",
+      "type_zh": "刺客·忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以从你的坟场中回收一把匕首。\n再动",
+      "text_en": "When this attacks, you may retrieve a dagger from your graveyard.\nGo again",
+      "source": "https://cards.fabtcg.com/card/pick_up_the_point/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Retrieve"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "plunge": {
+      "id": "plunge",
+      "name_zh": "猛扎",
+      "name_en": "Plunge",
+      "type_zh": "刺客·忍者 行动·攻击",
+      "text_zh": "当此牌命中时，你本回合的下一次匕首攻击获得+1力量。\n再动",
+      "text_en": "When this hits, your next dagger attack this turn gains +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/plunge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "poisoned_blade": {
+      "id": "poisoned_blade",
+      "name_zh": "淬毒之刃",
+      "name_en": "Poisoned Blade",
+      "type_zh": "刺客·忍者 行动·攻击",
+      "text_zh": "本战斗链中每当你拥有的匕首命中英雄时，该英雄失去1点生命。\n再动",
+      "text_en": "Whenever a dagger you own hits a hero this combat chain, they lose 1{h}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/poisoned_blade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "pouncing_qi": {
+      "id": "pouncing_qi",
+      "name_zh": "猛扑之气",
+      "name_en": "Pouncing Qi",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若卧虎是本战斗链的最后一次攻击，此牌获得+1力量和再动。",
+      "text_en": "Combo - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and go again.",
+      "source": "https://cards.fabtcg.com/card/pouncing_qi/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "pounding_gale": {
+      "id": "pounding_gale",
+      "name_zh": "重击阵风",
+      "name_en": "Pounding Gale",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若打开中心是本战斗链的最后一次攻击，重击阵风获得“若重击阵风将对英雄造成伤害，改为其造成两倍伤害。”",
+      "text_en": "Combo - If Open the Center was the last attack this combat chain, Pounding Gale gains \"If Pounding Gale would deal damage to a hero, instead it deals double that much damage\"",
+      "source": "https://cards.fabtcg.com/card/pounding_gale/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "preach_modesty": {
+      "id": "preach_modesty",
+      "name_zh": "宣扬谦逊",
+      "name_en": "Preach Modesty",
+      "type_zh": "忍者 行动·光环",
+      "text_zh": "此牌进入竞技场时带有一个平衡指示物。在你的行动阶段开始时，除非你从此牌上移除一个平衡指示物，否则摧毁它。\n英雄异能不能创造牌。",
+      "text_en": "This enters the arena with a balance counter. At the beginning of your action phase, destroy this unless you remove a balance counter from it.\nHero abilities can't create cards.",
+      "source": "https://cards.fabtcg.com/card/preach_modesty/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "predatory_streak": {
+      "id": "predatory_streak",
+      "name_zh": "掠食连击",
+      "name_en": "Predatory Streak",
+      "type_zh": "忍者 行动",
+      "text_zh": "在你的放逐区中创造3张卧虎。本回合你可以使用它们。\n再动",
+      "text_en": "Create 3 Crouching Tigers in your banished zone. You may play them this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/predatory_streak/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "prowess_of_agility": {
+      "id": "prowess_of_agility",
+      "name_zh": "敏捷之勇",
+      "name_en": "Prowess of Agility",
+      "type_zh": "忍者 行动·光环",
+      "text_zh": "当你在一个回合中第四次攻击时，你可以摧毁此牌。若如此做，抽一张牌。\n在你的结束阶段开始时，若本回合你攻击少于3次，摧毁此牌。",
+      "text_en": "When you attack for the fourth time during a turn, you may destroy this. If you do, draw a card.\nAt the beginning of your end phase, if you've attacked less than 3 times this turn, destroy this.",
+      "source": "https://cards.fabtcg.com/card/prowess_of_agility/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "qi_unleashed": {
+      "id": "qi_unleashed",
+      "name_zh": "气之释放",
+      "name_en": "Qi Unleashed",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若卧虎是本战斗链的最后一次攻击，此牌获得+4力量。",
+      "text_en": "Combo - If Crouching Tiger was the last attack this combat chain, this gets +4{p}.",
+      "source": "https://cards.fabtcg.com/card/qi_unleashed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "rapid_reflex": {
+      "id": "rapid_reflex",
+      "name_zh": "迅捷反应",
+      "name_en": "Rapid Reflex",
+      "type_zh": "忍者 攻击反应",
+      "text_zh": "目标费用为0的攻击行动牌获得+3力量。",
+      "text_en": "Target attack action card with cost 0 gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/rapid_reflex/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "razor_ring": {
+      "id": "razor_ring",
+      "name_zh": "剃刀之环",
+      "name_en": "Razor Ring",
+      "type_zh": "忍者 瞬间·Shuriken 物品",
+      "text_zh": "传奇\n行动——支付1点资源，横置此牌，当战斗链关闭时摧毁此牌：攻击。再动\n当此牌命中英雄时，本战斗链中该英雄用于防御的下一张行动牌直到回合结束获得-1防御。",
+      "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nWhen this hits a hero, the next action card they defend with this combat chain gets -1{d} until end of turn.",
+      "source": "https://cards.fabtcg.com/card/razor_ring/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "rebellious_rush": {
+      "id": "rebellious_rush",
+      "name_zh": "叛逆冲刺",
+      "name_en": "Rebellious Rush",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "再动",
+      "text_en": "Go again",
+      "source": "https://cards.fabtcg.com/card/rebellious_rush/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "recoil": {
+      "id": "recoil",
+      "name_zh": "后坐力",
+      "name_en": "Recoil",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若刺拳是本战斗链的最后一次攻击，此牌获得“当此牌命中英雄时，该英雄将手牌中的一张牌置于其牌库顶。”",
+      "text_en": "Combo - If Head Jab was the last attack this combat chain, this has \"When this hits a hero, they put a card from their hand on top of their deck.\"",
+      "source": "https://cards.fabtcg.com/card/recoil/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "retrace_the_past": {
+      "id": "retrace_the_past",
+      "name_zh": "回溯过往",
+      "name_en": "Retrace the Past",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "卡兹专精\n连击——当此牌攻击时，若一张名称中含有阵风波的牌是本战斗链的最后一次攻击，说出一张牌名，然后此牌获得该名称、+2力量和再动。",
+      "text_en": "Katsu Specialization\nCombo - When this attacks, if a card with Gustwave in its name was the last attack this combat chain, name a card, then this gets that name, +2{p}, and go again.",
+      "source": "https://cards.fabtcg.com/card/retrace_the_past/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "ride_the_tailwind": {
+      "id": "ride_the_tailwind",
+      "name_zh": "乘顺风",
+      "name_en": "Ride the Tailwind",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当乘顺风命中时，本战斗链中你使用的下一张基础力量为2或更低的攻击行动牌获得再动。\n再动",
+      "text_en": "When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ride_the_tailwind/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "rise_from_the_ashes": {
+      "id": "rise_from_the_ashes",
+      "name_zh": "浴火重生",
+      "name_en": "Rise from the Ashes",
+      "type_zh": "龙裔 忍者 行动",
+      "text_zh": "本回合你使用的下一张龙裔或忍者攻击行动牌获得+3力量。\n你可以将你坟场中的一张凤凰烈焰移回你的手牌。\n再动",
+      "text_en": "The next Draconic or Ninja attack action card you play this turn gains +3{p}.\nYou may return a Phoenix Flame from your graveyard to your hand.\nGo again",
+      "source": "https://cards.fabtcg.com/card/rise_from_the_ashes/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "rising_knee_thrust": {
+      "id": "rising_knee_thrust",
+      "name_zh": "升膝突",
+      "name_en": "Rising Knee Thrust",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若扫腿是本战斗链的最后一次攻击，升膝突获得+2力量和再动。",
+      "text_en": "Combo - If Leg Tap was the last attack this combat chain, Rising Knee Thrust gains +2{p} and go again.",
+      "source": "https://cards.fabtcg.com/card/rising_knee_thrust/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "rising_resentment": {
+      "id": "rising_resentment",
+      "name_zh": "攀升的怨恨",
+      "name_en": "Rising Resentment",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当攀升的怨恨命中时，你可以放逐你手牌中一张费用小于你控制的龙裔链环数量的攻击行动牌。若如此做，它的使用费用减少1点资源，且本回合你可以使用它。\n再动",
+      "text_en": "When Rising Resentment hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it costs {r} less to play and you may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/rising_resentment/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "roar_of_the_tiger": {
+      "id": "roar_of_the_tiger",
+      "name_zh": "虎啸",
+      "name_en": "Roar of the Tiger",
+      "type_zh": "忍者 行动",
+      "text_zh": "在你的手牌中创造一张卧虎。\n本回合你控制的卧虎获得+1力量。\n再动",
+      "text_en": "Create a Crouching Tiger in your hand.\nCrouching Tigers you control gain +1{p} this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/roar_of_the_tiger/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "ronin_renegade": {
+      "id": "ronin_renegade",
+      "name_zh": "浪人叛徒",
+      "name_en": "Ronin Renegade",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "再动",
+      "text_en": "Go again",
+      "source": "https://cards.fabtcg.com/card/ronin_renegade/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "rushing_river": {
+      "id": "rushing_river",
+      "name_zh": "激流冲",
+      "name_en": "Rushing River",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若节奏洪流是本战斗链的最后一次攻击，激流冲获得+1力量、再动，以及“若激流冲命中，抽X张牌，然后将你手牌中的X张牌以任意顺序置于你的牌库顶，X为本战斗链中命中过的攻击数量。”",
+      "text_en": "Combo - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, go again, and \"If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain.\"",
+      "source": "https://cards.fabtcg.com/card/rushing_river/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "sacred_art_jade_tiger_domain": {
+      "id": "sacred_art_jade_tiger_domain",
+      "name_zh": "秘法·玉虎领域",
+      "name_en": "Sacred Art: Jade Tiger Domain",
+      "type_zh": "秘法 忍者 瞬间",
+      "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 在你的手牌中创造2张卧虎。\n- 本回合你的卧虎获得+1力量。\n- 超越",
+      "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create 2 Crouching Tigers in your hand.\n- Your Crouching Tigers get +1{p} this turn.\n- Transcend",
+      "source": "https://cards.fabtcg.com/card/sacred_art_jade_tiger_domain/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Transcend"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "salt_the_wound": {
+      "id": "salt_the_wound",
+      "name_zh": "往伤口撒盐",
+      "name_en": "Salt the Wound",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "本战斗链中每有一张命中过的攻击，此牌获得+1力量。",
+      "text_en": "This gets +1{p} for each attack that has hit this combat chain.",
+      "source": "https://cards.fabtcg.com/card/salt_the_wound/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "searing_emberblade": {
+      "id": "searing_emberblade",
+      "name_zh": "灼热余烬之刃",
+      "name_en": "Searing Emberblade",
+      "type_zh": "龙裔 忍者 武器·剑 （双手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击\n若你控制2个或更多龙裔链环，此牌的攻击获得再动。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nIf you control 2 or more Draconic chain links, this card's attacks get go again.",
+      "source": "https://cards.fabtcg.com/card/searing_emberblade/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "seek_vengeance": {
+      "id": "seek_vengeance",
+      "name_zh": "寻求复仇",
+      "name_en": "Seek Vengeance",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若秋之刃是本战斗链的最后一次攻击，此牌获得再动。",
+      "text_en": "Combo - If Edge of Autumn was the last attack this combat chain, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/seek_vengeance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "shapeless_form": {
+      "id": "shapeless_form",
+      "name_zh": "无形之形",
+      "name_en": "Shapeless Form",
+      "type_zh": "秘法 忍者 行动·攻击",
+      "text_zh": "每当你使用具有短暂的攻击行动牌时，选择一个名称。它获得所选名称。\n再动",
+      "text_en": "Whenever you play an attack action card with ephemeral, choose a name. It gets the chosen name.\nGo again",
+      "source": "https://cards.fabtcg.com/card/shapeless_form/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "shifting_winds_of_the_mystic_beast": {
+      "id": "shifting_winds_of_the_mystic_beast",
+      "name_zh": "神兽之变风",
+      "name_en": "Shifting Winds of the Mystic Beast",
+      "type_zh": "秘法 忍者 行动",
+      "text_zh": "本回合每当你使用卧虎时，说出一张牌名。它获得该名称。\n若你为使用此牌资源过一张气，在你的手牌中创造2张卧虎。\n再动",
+      "text_en": "Whenever you play a Crouching Tiger this turn, name a card. It gets that name.\nIf a Chi was pitched to play this, create 2 Crouching Tigers in your hand.\nGo again",
+      "source": "https://cards.fabtcg.com/card/shifting_winds_of_the_mystic_beast/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "short_and_sharp": {
+      "id": "short_and_sharp",
+      "name_zh": "短而利",
+      "name_en": "Short and Sharp",
+      "type_zh": "刺客·忍者 攻击反应",
+      "text_zh": "选择其一；\n- 目标匕首攻击获得+3力量。\n- 目标基础力量为2或更低的攻击行动牌获得+3力量。",
+      "text_en": "Choose 1;\n- Target dagger attack gains +3{p}.\n- Target attack action card with 2 or less base {p} gains +3{p}.",
+      "source": "https://cards.fabtcg.com/card/short_and_sharp/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "silver_talons": {
+      "id": "silver_talons",
+      "name_zh": "银爪",
+      "name_en": "Silver Talons",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，若其为龙裔，你可以让你控制的目标匕首对其造成1点伤害。若以此方式造成伤害，该匕首视为命中。摧毁该匕首。",
+      "text_en": "When this attacks a hero, if it is Draconic, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.",
+      "source": "https://cards.fabtcg.com/card/silver_talons/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "silverwind_shuriken": {
+      "id": "silverwind_shuriken",
+      "name_zh": "银风手里剑",
+      "name_en": "Silverwind Shuriken",
+      "type_zh": "忍者 行动·Shuriken 物品",
+      "text_zh": "攻击反应——摧毁银风手里剑：目标具有连击的攻击行动牌获得+1力量。",
+      "text_en": "Attack Reaction - Destroy Silverwind Shuriken: Target attack action card with combo gains +1{p}.",
+      "source": "https://cards.fabtcg.com/card/silverwind_shuriken/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "soaring_strike": {
+      "id": "soaring_strike",
+      "name_zh": "翱翔打击",
+      "name_en": "Soaring Strike",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当翱翔打击命中时，你可以放逐你手牌中一张费用小于你控制的龙裔链环数量的攻击行动牌。若如此做，它获得再动，且本回合你可以使用它。\n再动",
+      "text_en": "When Soaring Strike hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it gains go again and you may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/soaring_strike/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "soulbead_strike": {
+      "id": "soulbead_strike",
+      "name_zh": "魂珠打击",
+      "name_en": "Soulbead Strike",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中时，它获得再动。",
+      "text_en": "When this hits, it gets go again.",
+      "source": "https://cards.fabtcg.com/card/soulbead_strike/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "spinning_wheel_kick": {
+      "id": "spinning_wheel_kick",
+      "name_zh": "旋转轮踢",
+      "name_en": "Spinning Wheel Kick",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若双旋风或旋转轮踢是本战斗链的最后一次攻击，此牌获得+1力量，以及“当此牌命中时，将其置于其拥有者的牌库底。”\n再动",
+      "text_en": "Combo - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and \"When this hits, put it on the bottom of its owner's deck.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/spinning_wheel_kick/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "spreading_flames": {
+      "id": "spreading_flames",
+      "name_zh": "蔓延的烈焰",
+      "name_en": "Spreading Flames",
+      "type_zh": "龙裔 忍者 行动·攻击",
+      "text_zh": "当你控制的龙裔攻击的基础力量小于你控制的龙裔链环数量时，它们获得+1力量。\n再动",
+      "text_en": "Draconic attacks you control have +1{p} while their base {p} is less than the number of Draconic chain links you control.\nGo again",
+      "source": "https://cards.fabtcg.com/card/spreading_flames/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "spring_tidings": {
+      "id": "spring_tidings",
+      "name_zh": "春日喜讯",
+      "name_en": "Spring Tidings",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "本吉专精\n当春日喜讯命中时，你控制的战斗链上每有一张另一张基础力量为2或更低的攻击行动牌，抽一张牌。\n再动",
+      "text_en": "Benji Specialization\nWhen Spring Tidings hits, draw a card for each other attack action card with 2 or less base {p} you control on the combat chain.\nGo again",
+      "source": "https://cards.fabtcg.com/card/spring_tidings/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "stab_wound": {
+      "id": "stab_wound",
+      "name_zh": "刺伤",
+      "name_en": "Stab Wound",
+      "type_zh": "刺客·忍者 行动·攻击",
+      "text_zh": "当此牌命中英雄时，该英雄失去X点生命，X为本战斗链中匕首命中过的次数。",
+      "text_en": "When this hits a hero, they lose X{h}, where X is the number of times a dagger has hit this combat chain.",
+      "source": "https://cards.fabtcg.com/card/stab_wound/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "stun_star": {
+      "id": "stun_star",
+      "name_zh": "眩晕星",
+      "name_en": "Stun Star",
+      "type_zh": "忍者 瞬间·Shuriken 物品",
+      "text_zh": "传奇\n行动——支付1点资源，横置此牌，当战斗链关闭时摧毁此牌：攻击。再动\n当此牌命中英雄时，横置该英雄。",
+      "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nWhen this hits a hero, {t} them.",
+      "source": "https://cards.fabtcg.com/card/stun_star/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "surging_strike": {
+      "id": "surging_strike",
+      "name_zh": "激涌打击",
+      "name_en": "Surging Strike",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "再动",
+      "text_en": "Go again",
+      "source": "https://cards.fabtcg.com/card/surging_strike/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "swift_pickup": {
+      "id": "swift_pickup",
+      "name_zh": "迅捷拾取",
+      "name_en": "Swift Pickup",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以将你坟场中的一个手里剑物品置于你的牌库底。若如此做，此牌获得+1力量。\n再动",
+      "text_en": "When this attacks, you may put a shuriken item from your graveyard on the bottom of your deck. If you do, this gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/swift_pickup/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "tag_the_target": {
+      "id": "tag_the_target",
+      "name_zh": "标记目标",
+      "name_en": "Tag the Target",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中英雄时，标记该英雄。\n再动",
+      "text_en": "When this hits a hero, mark them.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tag_the_target/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Mark"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "take_the_tempo": {
+      "id": "take_the_tempo",
+      "name_zh": "掌握节奏",
+      "name_en": "Take the Tempo",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当掌握节奏命中时，若本战斗链中你命中过3次或更多，放逐你牌库顶的一张牌。若其为攻击行动牌，直到你的下一个回合结束你可以使用它。",
+      "text_en": "When Take the Tempo hits, if you've hit 3 or more times this combat chain, banish the top card of your deck. If it's an attack action card, you may play it until the end of your next turn.",
+      "source": "https://cards.fabtcg.com/card/take_the_tempo/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "tempest_palm_gustwave": {
+      "id": "tempest_palm_gustwave",
+      "name_zh": "风暴掌阵风波",
+      "name_en": "Tempest Palm Gustwave",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若激涌打击是本战斗链的最后一次攻击，此牌获得+2力量。\n若此牌作为链环3或更高使用，此牌获得再动。",
+      "text_en": "Combo - If Surging Strike was the last attack this combat chain, this gets +2{p}.\nIf this is played at chain link 3 or higher, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/tempest_palm_gustwave/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "territorial_domain": {
+      "id": "territorial_domain",
+      "name_zh": "领域",
+      "name_en": "Territorial Domain",
+      "type_zh": "忍者 防御反应",
+      "text_zh": "当此牌防御时，若本回合你创造过一张卧虎，此牌获得+3防御。",
+      "text_en": "While this is defending, if you've created a Crouching Tiger this turn, this gets +3{d}.",
+      "source": "https://cards.fabtcg.com/card/territorial_domain/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "throw_dagger": {
+      "id": "throw_dagger",
+      "name_zh": "投掷匕首",
+      "name_en": "Throw Dagger",
+      "type_zh": "刺客·忍者 攻击反应",
+      "text_zh": "你控制的、不在当前链环上的目标匕首对防御英雄造成1点伤害。若以此方式造成伤害，该匕首视为命中，你抽一张牌。摧毁该匕首。",
+      "text_en": "Target dagger you control that isn't on the active chain link deals 1 damage to the defending hero. If damage is dealt this way, the dagger has hit and you draw a card. Destroy the dagger.",
+      "source": "https://cards.fabtcg.com/card/throw_dagger/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "throw_yourself_at_them": {
+      "id": "throw_yourself_at_them",
+      "name_zh": "扑向他们",
+      "name_en": "Throw Yourself at Them",
+      "type_zh": "刺客·忍者 行动·攻击",
+      "text_zh": "当此牌攻击英雄时，你可以让你控制的目标匕首对其造成1点伤害。若以此方式造成伤害，该匕首视为命中。摧毁该匕首。\n再动",
+      "text_en": "When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.\nGo again",
+      "source": "https://cards.fabtcg.com/card/throw_yourself_at_them/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "tiger_eye_reflex": {
+      "id": "tiger_eye_reflex",
+      "name_zh": "虎眼反应",
+      "name_en": "Tiger Eye Reflex",
+      "type_zh": "忍者 阻挡",
+      "text_zh": "伏击\n当此牌防御时，在你的放逐区中创造一张卧虎。在你的下一个回合期间你可以使用它。",
+      "text_en": "Ambush\nWhen this defends, create a Crouching Tiger in your banished zone. You may play it during your next turn.",
+      "source": "https://cards.fabtcg.com/card/tiger_eye_reflex/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ambush"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "tiger_form_incantation": {
+      "id": "tiger_form_incantation",
+      "name_zh": "虎形咒语",
+      "name_en": "Tiger Form Incantation",
+      "type_zh": "秘法 忍者 行动",
+      "text_zh": "本回合你使用的下一张卧虎获得+3力量。\n若本回合你资源过一张蓝色牌，在你的手牌中创造一张卧虎。\n再动",
+      "text_en": "The next Crouching Tiger you play this turn gets +3{p}.\nIf you've pitched a blue card this turn, create a Crouching Tiger in your hand.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tiger_form_incantation/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "tiger_swipe": {
+      "id": "tiger_swipe",
+      "name_zh": "虎爪挥击",
+      "name_en": "Tiger Swipe",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若卧虎是本战斗链的最后一次攻击，此牌获得+2力量、再动，以及“当此牌命中时，在你的放逐区中创造X张卧虎，X为你控制的卧虎数量。本回合你可以使用它们。”",
+      "text_en": "Combo - If Crouching Tiger was the last attack this combat chain, this has +2{p}, go again and \"When this hits, create X Crouching Tigers in your banished zone, where X is the number of Crouching Tigers you control. You may play them this turn.\"",
+      "source": "https://cards.fabtcg.com/card/tiger_swipe/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "tiger_taming_khakkara": {
+      "id": "tiger_taming_khakkara",
+      "name_zh": "驯虎法杖",
+      "name_en": "Tiger Taming Khakkara",
+      "type_zh": "忍者 武器·法杖 （双手）",
+      "text_zh": "每回合一次行动——支付2点资源：攻击。再动\n当此牌攻击时，本战斗链中你使用的下一张卧虎获得+1力量。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack. Go again\nWhen this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.",
+      "source": "https://cards.fabtcg.com/card/tiger_taming_khakkara/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "tigrine_reflex": {
+      "id": "tigrine_reflex",
+      "name_zh": "虎之反应",
+      "name_en": "Tigrine Reflex",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若卧虎是本战斗链的最后一次攻击，此牌获得+1力量和再动。\n攻击反应——弃掉此牌：目标忍者攻击获得+1力量。在你的手牌中创造一张卧虎。",
+      "text_en": "Combo - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and go again.\nAttack Reaction - Discard this: Target Ninja attack gets +1{p}. Create a Crouching Tiger in your hand.",
+      "source": "https://cards.fabtcg.com/card/tigrine_reflex/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "tooth_and_claw": {
+      "id": "tooth_and_claw",
+      "name_zh": "爪牙并施",
+      "name_en": "Tooth and Claw",
+      "type_zh": "秘法 忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，你可以展示你手牌中的任意数量卧虎。若你展示1张或更多，此牌获得再动。2张或更多，此牌获得+1力量。3张或更多，抽一张牌。",
+      "text_en": "When this attacks, you may reveal any number of Crouching Tigers from your hand. If you reveal 1 or more, this gets go again. 2 or more, this gets +1{p}. 3 or more, draw a card.",
+      "source": "https://cards.fabtcg.com/card/tooth_and_claw/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "torrent_of_tempo": {
+      "id": "torrent_of_tempo",
+      "name_zh": "节奏洪流",
+      "name_en": "Torrent of Tempo",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中时，它获得再动。",
+      "text_en": "When this hits, it gets go again.",
+      "source": "https://cards.fabtcg.com/card/torrent_of_tempo/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "trap_and_release": {
+      "id": "trap_and_release",
+      "name_zh": "诱捕释放",
+      "name_en": "Trap and Release",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌命中英雄时，标记该英雄。\n再动",
+      "text_en": "When this hits a hero, mark them.\nGo again",
+      "source": "https://cards.fabtcg.com/card/trap_and_release/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Mark"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "twin_twisters": {
+      "id": "twin_twisters",
+      "name_zh": "双旋风",
+      "name_en": "Twin Twisters",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "选择其一：\n双旋风获得“当此牌命中时，本战斗链中你的下一次攻击获得+1力量。”\n双旋风获得+1力量。\n再动",
+      "text_en": "Choose 1:\n\nTwin Twisters gains \"When this hits, your next attack this combat chain gains +1{p}.\"\nTwin Twisters gains +1{p}.\n\nGo again",
+      "source": "https://cards.fabtcg.com/card/twin_twisters/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
+    "untamed": {
+      "id": "untamed",
+      "name_zh": "不羁",
+      "name_en": "Untamed",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "当此牌攻击时，本战斗链中你使用的下一张卧虎获得+1力量。\n再动",
+      "text_en": "When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/untamed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "up_sticks_and_run": {
+      "id": "up_sticks_and_run",
+      "name_zh": "卷铺盖走人",
+      "name_en": "Up Sticks and Run",
+      "type_zh": "刺客·忍者 行动",
+      "text_zh": "你可以从你的坟场中回收一把匕首。\n你本回合的下一次匕首攻击获得+4力量。\n再动",
+      "text_en": "You may retrieve a dagger from your graveyard.\nYour next dagger attack this turn gets +4{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/up_sticks_and_run/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again",
+        "Retrieve"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "vengeance_never_rests": {
+      "id": "vengeance_never_rests",
+      "name_zh": "复仇永不停歇",
+      "name_en": "Vengeance Never Rests",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若秋之刃是本战斗链的最后一次攻击，此牌获得再动，以及“当此牌命中英雄时，放逐它。本回合你可以使用它。”",
+      "text_en": "Combo - If Edge of Autumn was the last attack this combat chain, this gets go again and \"When this hits a hero, banish it. You may play it this turn.\"",
+      "source": "https://cards.fabtcg.com/card/vengeance_never_rests/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "visit_the_floating_dojo": {
+      "id": "visit_the_floating_dojo",
+      "name_zh": "拜访浮空道场",
+      "name_en": "Visit the Floating Dojo",
+      "type_zh": "忍者 瞬间",
+      "text_zh": "卡兹专精\n将你坟场中的一张激涌打击和一张具有连击的牌置于你的牌库顶和/或底。",
+      "text_en": "Katsu Specialization\nPut a Surging Strike and a card with combo from your graveyard on the top and/or bottom of your deck.",
+      "source": "https://cards.fabtcg.com/card/visit_the_floating_dojo/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "wander_with_purpose": {
+      "id": "wander_with_purpose",
+      "name_zh": "有目的地游走",
+      "name_en": "Wander With Purpose",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "本吉专精\n当此牌命中时，你可以弃一张费用为0的牌。若如此做，从你的牌库中搜寻一张具有连击的牌，放逐它，然后洗牌。本回合你可以使用它。\n再动",
+      "text_en": "Benji Specialization\nWhen this hits, you may discard a card with cost 0. If you do, search your deck for a card with combo, banish it, then shuffle. You may play it this turn.\nGo again",
+      "source": "https://cards.fabtcg.com/card/wander_with_purpose/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "wax_off": {
+      "id": "wax_off",
+      "name_zh": "撤防",
+      "name_en": "Wax Off",
+      "type_zh": "忍者 防御反应",
+      "text_zh": "若本回合你使用过上防，创造一个禅定衍生物。",
+      "text_en": "If you've played Wax On this turn, create a Zen State token.",
+      "source": "https://cards.fabtcg.com/card/wax_off/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "wax_on": {
+      "id": "wax_on",
+      "name_zh": "上防",
+      "name_en": "Wax On",
+      "type_zh": "忍者 防御反应",
+      "text_zh": "当上防防御费用为0的攻击行动牌时，它获得+2防御。",
+      "text_en": "While Wax On is defending an attack action card with cost 0, it gains +2{d}.",
+      "source": "https://cards.fabtcg.com/card/wax_on/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "whelming_gustwave": {
+      "id": "whelming_gustwave",
+      "name_zh": "汹涌阵风波",
+      "name_en": "Whelming Gustwave",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若激涌打击是本战斗链的最后一次攻击，汹涌阵风波获得+1力量、再动，以及“若此牌命中，抽一张牌。”",
+      "text_en": "Combo - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, go again, and \"If this hits, draw a card.\"",
+      "source": "https://cards.fabtcg.com/card/whelming_gustwave/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "whirling_mist_blossom": {
+      "id": "whirling_mist_blossom",
+      "name_zh": "旋转雾之花",
+      "name_en": "Whirling Mist Blossom",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "伊拉专精\n当此牌命中且它是连续第二个或更高链环命中时，抽2张牌。\n再动",
+      "text_en": "Ira Specialization\nWhen this hits and it's the second or higher chain link in a row to hit, draw 2 cards.\nGo again",
+      "source": "https://cards.fabtcg.com/card/whirling_mist_blossom/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "2",
+          "defense": "2"
+        }
+      }
+    },
+    "wind_chakra": {
+      "id": "wind_chakra",
+      "name_zh": "风脉轮",
+      "name_en": "Wind Chakra",
+      "type_zh": "秘法 忍者 行动",
+      "text_zh": "本回合你使用的下一张卧虎获得+3力量。若本回合你超越过，改为它获得+5力量。\n再动",
+      "text_en": "The next Crouching Tiger you play this turn gets +3{p}. If you've transcended this turn, instead it gets +5{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/wind_chakra/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "winds_of_eternity": {
+      "id": "winds_of_eternity",
+      "name_zh": "永恒之风",
+      "name_en": "Winds of Eternity",
+      "type_zh": "忍者 行动·攻击",
+      "text_zh": "连击——若永恒之风是本战斗链的最后一次攻击，永恒之风获得+2力量，以及“若此牌命中，将你在本战斗链上控制的所有名为百风的牌洗入你的牌库。”",
+      "text_en": "Combo - If Winds of Eternity was the last attack this combat chain, Winds of Eternity gains +2{p} and \"If this hits, shuffle all cards named Hundred Winds you control on this combat chain into your deck.\"",
+      "source": "https://cards.fabtcg.com/card/winds_of_eternity/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "wrath_of_retribution": {
+      "id": "wrath_of_retribution",
+      "name_zh": "报复之怒",
+      "name_en": "Wrath of Retribution",
+      "type_zh": "",
+      "text_zh": "传奇\n每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n当此牌攻击时，你控制的匕首获得+1力量且本战斗链中启动费用减少1点资源。\n再动",
+      "text_en": "Legendary\nThis costs {r} less to play for each Draconic chain link you control.\nWhen this attacks, daggers you control get +1{p} and cost {r} less to activate this combat chain.\nGo again",
+      "source": "https://cards.fabtcg.com/card/wrath_of_retribution/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "3",
+          "defense": "3"
+        }
+      }
+    },
+    "zen_state": {
+      "id": "zen_state",
+      "name_zh": "禅定",
+      "name_en": "Zen State",
+      "type_zh": "忍者 衍生物·光环",
+      "text_zh": "此牌进入竞技场时带有一个平衡指示物。在你的行动阶段开始时，除非你从此牌上移除一个平衡指示物，否则摧毁它。\n若你将受到伤害，防止其中1点伤害。",
+      "text_en": "This enters the arena with a balance counter. At the beginning of your action phase, destroy this unless you remove a balance counter from it.\nIf you would be dealt damage, prevent 1 of that damage.",
+      "source": "https://cards.fabtcg.com/card/zen_state/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "zephyr_needle": {
+      "id": "zephyr_needle",
+      "name_zh": "微风针",
+      "name_en": "Zephyr Needle",
+      "type_zh": "",
+      "text_zh": "每回合一次行动——支付1点资源：攻击。再动\n当此牌被一张防御大于此武器攻击力量的牌防御时，当战斗链关闭时摧毁此牌。",
+      "text_en": "Once per Turn Action - {r}: Attack. Go again\nWhen this is defended by a card with {d} greater than this weapon attack's {p}, destroy this when the combat chain closes.",
+      "source": "https://cards.fabtcg.com/card/zephyr_needle/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "2",
+          "defense": ""
+        }
+      }
+    }
+  }
+}

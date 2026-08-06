@@ -1,0 +1,298 @@
+{
+  "schema_version": 2,
+  "version": "925b2d38969c",
+  "cards": {
+    "crowd_control": {
+      "id": "crowd_control",
+      "name_zh": "控场",
+      "name_en": "Crowd Control",
+      "type_zh": "Bard 阻挡",
+      "text_zh": "当此牌防御时，你可以支付3点资源。若如此做，每有一位对手英雄，它获得+1防御。",
+      "text_en": "When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.",
+      "source": "https://cards.fabtcg.com/card/crowd_control/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "4"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "encore": {
+      "id": "encore",
+      "name_zh": "安可",
+      "name_en": "Encore",
+      "type_zh": "Bard 行动",
+      "text_zh": "将你坟场中的一张吟游诗人攻击行动牌移回你的手牌。\n再动",
+      "text_en": "Return a Bard attack action card from your graveyard to your hand.\nGo again",
+      "source": "https://cards.fabtcg.com/card/encore/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "final_act": {
+      "id": "final_act",
+      "name_zh": "终幕",
+      "name_en": "Final Act",
+      "type_zh": "Bard 行动·攻击",
+      "text_zh": "当此牌攻击时，它获得+X力量，X为所有资源区中牌数量的两倍。",
+      "text_en": "When this attacks, it gets +X{p}, where X is twice the number of cards in all pitch zones.",
+      "source": "https://cards.fabtcg.com/card/final_act/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "hummingbird_call_of_adventure": {
+      "id": "hummingbird_call_of_adventure",
+      "name_zh": "蜂鸟·冒险呼唤",
+      "name_en": "Hummingbird, Call of Adventure",
+      "type_zh": "",
+      "text_zh": "在你的回合开始时，选择其一；\n- 每位英雄创造一个加速衍生物。\n- 每位英雄抽一张牌。\n- 每位英雄获得1点生命。",
+      "text_en": "At the start of your turn, choose 1;\n- Each hero creates a Quicken token.\n- Each hero draws a card.\n- Each hero gains 1{h}.",
+      "source": "https://cards.fabtcg.com/card/hummingbird_call_of_adventure/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "",
+          "power": "",
+          "defense": ""
+        }
+      }
+    },
+    "interlude": {
+      "id": "interlude",
+      "name_zh": "间奏",
+      "name_en": "Interlude",
+      "type_zh": "Bard 瞬间",
+      "text_zh": "选择一位英雄。本回合该英雄下一次将受到伤害时，防止其中3点伤害。若你以此方式防止另一位英雄的伤害，创造一个铜币衍生物。",
+      "text_en": "Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.",
+      "source": "https://cards.fabtcg.com/card/interlude/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "jinglewood_smash_hit": {
+      "id": "jinglewood_smash_hit",
+      "name_zh": "叮铃木热门单曲",
+      "name_en": "Jinglewood, Smash Hit",
+      "type_zh": "Bard 武器·Fiddle （双手）",
+      "text_zh": "每回合一次行动——支付3点资源：目标对手英雄选择并创造一个力量、加速或活力衍生物。你创造一个铜币衍生物。再动\n行动——费用0：攻击。当此牌命中时，摧毁它。",
+      "text_en": "Once per Turn Action - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. Go again\nAction - 0: Attack. When this hits, destroy it.",
+      "source": "https://cards.fabtcg.com/card/jinglewood_smash_hit/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
+        }
+      }
+    },
+    "song_of_jack_be_quick": {
+      "id": "song_of_jack_be_quick",
+      "name_zh": "杰克快跑之歌",
+      "name_en": "Song of Jack-be-Quick",
+      "type_zh": "Bard 行动·Song",
+      "text_zh": "在每位其他英雄的控制下创造一个加速衍生物。",
+      "text_en": "Create a Quicken token under each other hero's control.",
+      "source": "https://cards.fabtcg.com/card/song_of_jack_be_quick/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "song_of_larinkmorth_white": {
+      "id": "song_of_larinkmorth_white",
+      "name_zh": "拉林莫斯白色之歌",
+      "name_en": "Song of Larinkmorth White",
+      "type_zh": "Bard 行动·Song",
+      "text_zh": "在每位其他英雄的控制下创造一个霜咬衍生物。",
+      "text_en": "Create a Frostbite token under each other hero's control.",
+      "source": "https://cards.fabtcg.com/card/song_of_larinkmorth_white/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "song_of_sweet_nectar": {
+      "id": "song_of_sweet_nectar",
+      "name_zh": "甜蜜花蜜之歌",
+      "name_en": "Song of Sweet Nectar",
+      "type_zh": "Bard 行动·Song",
+      "text_zh": "每位其他英雄获得1点生命。",
+      "text_en": "Each other hero gains 1{h}.",
+      "source": "https://cards.fabtcg.com/card/song_of_sweet_nectar/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "song_of_the_rosen_matador": {
+      "id": "song_of_the_rosen_matador",
+      "name_zh": "蔷薇斗牛士之歌",
+      "name_en": "Song of the Rosen Matador",
+      "type_zh": "Bard 行动·Song",
+      "text_zh": "在每位其他英雄的控制下创造一个活力衍生物。",
+      "text_en": "Create a Vigor token under each other hero's control.",
+      "source": "https://cards.fabtcg.com/card/song_of_the_rosen_matador/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "song_of_the_shining_knight": {
+      "id": "song_of_the_shining_knight",
+      "name_zh": "闪耀骑士之歌",
+      "name_en": "Song of the Shining Knight",
+      "type_zh": "Bard 行动·Song",
+      "text_zh": "在每位其他英雄的控制下创造一个力量衍生物。",
+      "text_en": "Create a Might token under each other hero's control.",
+      "source": "https://cards.fabtcg.com/card/song_of_the_shining_knight/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "song_of_the_wandering_mind": {
+      "id": "song_of_the_wandering_mind",
+      "name_zh": "游荡心智之歌",
+      "name_en": "Song of the Wandering Mind",
+      "type_zh": "Bard 行动·Song",
+      "text_zh": "每位其他英雄抽一张牌。",
+      "text_en": "Each other hero draws a card.",
+      "source": "https://cards.fabtcg.com/card/song_of_the_wandering_mind/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "song_of_yesteryears": {
+      "id": "song_of_yesteryears",
+      "name_zh": "往昔之歌",
+      "name_en": "Song of Yesteryears",
+      "type_zh": "Bard 行动·Song",
+      "text_zh": "每位其他英雄将其坟场中的一张攻击行动牌置于其牌库底。",
+      "text_en": "Each other hero puts an attack action card from their graveyard on the bottom of their deck.",
+      "source": "https://cards.fabtcg.com/card/song_of_yesteryears/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "tales_of_adventure": {
+      "id": "tales_of_adventure",
+      "name_zh": "冒险故事",
+      "name_en": "Tales of Adventure",
+      "type_zh": "",
+      "text_zh": "约里克专精\n每位其他英雄选择并创造一个尚未被选择的衍生物；以太灰翼、大地化身、闪电化身、沉思、加速、符文吟唱、地震涌动、灵魂枷锁、幻质护盾、禅定。\n你创造一个铜币、银币和金币。",
+      "text_en": "Yorick Specialization\nEach other hero chooses and creates a token that hasn't been chosen; Aether Ashwing, Embodiment of Earth, Embodiment of Lightning, Ponder, Quicken, Runechant, Seismic Surge, Soul Shackle, Spectral Shield, Zen State.\nYou create a Copper, Silver, and Gold.",
+      "source": "https://cards.fabtcg.com/card/tales_of_adventure/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "",
+          "defense": "3"
+        }
+      }
+    }
+  }
+}
