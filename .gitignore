@@ -7,3 +7,7 @@ node_modules/
 # English source is large and rarely changes — keep it but don't include the
 # 23MB raw dump if a smaller cards.en.json is sufficient for reference.
 # data/source/english/card.json   ← tracked (needed by build)
+
+# Agent tool state (x-reader MCP inbox / content-hub output) — not project docs
+output/
+unified_inbox.json

@@ -23,7 +23,7 @@
 # 安装依赖（仅需 Node.js ≥18）
 cd probe
 
-# 构建全部产物（别名表 + 卡牌数据 + 用户脚本）
+# 构建全部产物（别名表 + 卡牌数据；用户脚本直接编辑、无构建步骤）
 npm run build
 
 # 启动本地数据服务器
@@ -64,7 +64,7 @@ talishar-cn/
 ├── probe/
 │   ├── talishar-cn.user.js         ← 用户脚本（直接编辑，安装对象）
 │   ├── package.json
-│   └── test/                       ← 61项自动化测试
+│   └── test/                       ← 64项自动化测试
 ├── scripts/
 │   ├── build-card-aliases.mjs      ← 印刷ID别名表生成
 │   ├── build-card-data.mjs         ← 卡牌数据分片构建
@@ -76,7 +76,7 @@ talishar-cn/
 
 ## 翻译覆盖
 
-翻译覆盖 **3,164 / 3,158 唯一卡名（100%）**，含 4,941 个条目（含红黄蓝 pitch 变体）。
+翻译覆盖 **3,163 唯一卡名（100%）**，含红黄蓝 pitch 变体共 4,941 个条目。
 详见 `data/translations/` 下的分批模块文件。
 
 ## 翻译维护
@@ -85,7 +85,7 @@ talishar-cn/
 
 ```bash
 npm run build     # 一键构建：别名表 → 卡牌数据
-npm test          # 运行全部测试（51项）
+npm test          # 运行全部测试（64项）
 ```
 
 构建完成后提交并推送源码仓库，然后将 `dist/data/` 同步到数据仓库。

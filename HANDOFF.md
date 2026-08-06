@@ -41,20 +41,9 @@
   - 自动限制在视口内；
   - 只显示卡名、类别、正文；
   - 卡名橙色粗体，类别细体斜体加下划线。
-- 当前最近一次验证结果：42 项测试通过，用户脚本版本为 `0.6.0`。
-- **已支持 FaBrary（2026-08-05）**：用户脚本新增 `@match https://fabrary.net/*`。FaBrary 卡图 `src` 用印刷 ID（如 `PEN313.webp`），新增 `data/talishar-card-aliases.json`（`scripts/build-card-aliases.mjs` 从英文源 `printings` 生成，`印刷ID → {slug, pitch}`，9,207 条）随构建发布到 `dist/data/aliases.json`；用户脚本在 FaBrary 上按"印刷 ID 别名 + alt 卡名交叉消解"，红黄蓝同名卡可精确区分 pitch。同一份数据层/缓存/浮窗两站共用，Talishar 行为不变。
-
-### 当前阻塞
-
-用户脚本中的默认数据地址是：
-
-```text
-https://raw.githubusercontent.com/jacefromxa/CCDeep/main/talishar-cn/dist/data
-```
-
-该地址依赖后续把 `dist/data/` 发布到 GitHub 仓库。当前仓库尚未完成这个发布动作，因此线上脚本加载 manifest 时会失败。
-
-本地 `dist/data/` 已经生成，但不能直接用 `file://` 访问，也不能默认假设普通静态服务器会正确提供跨域响应。
+- 当前最近一次验证结果：64 项测试通过，用户脚本版本为 `0.7.10`。
+- **已支持 FaBrary（2026-08-05）**：用户脚本新增 `@match https://fabrary.net/*`。FaBrary 卡图 `src` 用印刷 ID（如 `PEN313.webp`），新增 `data/talishar-card-aliases.json`（`scripts/build-card-aliases.mjs` 从英文源 `printings` 生成，`印刷ID → {slug, pitch}`，9,247 条）随构建发布到 `dist/data/aliases.json`；用户脚本在 FaBrary 上按"印刷 ID 别名 + alt 卡名交叉消解"，红黄蓝同名卡可精确区分 pitch。同一份数据层/缓存/浮窗两站共用，Talishar 行为不变。
+- **数据发布（2026-08-06 已解决）**：`dist/data/` 已发布到独立数据仓库 `jacefromxa/talishar-cn-data`，默认数据地址为 `https://raw.githubusercontent.com/jacefromxa/talishar-cn-data/main/`。manifest / index / chunks / aliases / keywords.json 线上均可正常加载（已实测）。
 
 ## 3. P0：先完成本地化部署
 
@@ -496,4 +485,8 @@ localStorage.removeItem('fab-cn-data-base-url')
 
 ## 12. 交接给下一 Agent 的最小任务描述
 
-> 请在 `/Users/Zhuanz/CCDeep/talishar-cn` 继续工作。当前用户脚本 `probe/talishar-cn.user.js` 默认从尚未发布的 GitHub Raw 地址加载卡库，导致线上信息获取失败。不要先翻译更多卡牌。请先增加一个仅提供 `dist/data/` 的本地 Node 静态服务器，设置 CORS，并加入本地数据地址配置或 `build:local`。修复 Cache Storage 的版本失效问题，确保当前 Jarl 牌组的 37 张中文卡牌可以在 Talishar 页面本机加载。运行现有测试并补充本地服务器、缓存版本和实机加载测试。完成后再进入全卡翻译、术语表、Talishar 图片 ID 映射和批量质量校验工作。不要未经确认推送 GitHub。
+> 请在 `/Users/Zhuanz/CCDeep/talishar-cn` 继续工作。原交接中的 P0（本地数据服务器、缓存版本失效、数据发布）**均已完成**：`dist/data/` 已发布到 `jacefromxa/talishar-cn-data`，线上脚本正常加载。全卡翻译（3163 卡）、关键词释义库接线、变身叠放卡识别均已落地。当前剩余事项：
+> 1. **已知历史遗留**：`t3-other`（生成器兜底批次名）与 `t4-remaining.json`（实际文件名）命名不一致，`isT4RemainingCard` 过滤器为空；收敛批次命名时一并处理（见 HANDOFF §5.5 注记）。
+> 2. 常规维护：改 `data/translations/*.json` 后 `cd probe && npm run build:data`，提交源码仓库并手动同步 `dist/data/` 到数据仓库。
+> 3. 英雄名翻译在 `heroes.json` 手工维护（明确不做机制性强制）。
+> 4. 本机 github.com 访问不稳定，git push 需 `GIT_HTTP_LOW_SPEED_LIMIT=1000 GIT_HTTP_LOW_SPEED_TIME=90` 或多次重试。不要未经确认推送 GitHub。
