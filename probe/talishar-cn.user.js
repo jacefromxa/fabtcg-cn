@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.14
+// @version      0.7.15
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
@@ -861,14 +861,31 @@
 
     var dragHandle = doc.createElement('div');
     dragHandle.className = 'fab-cn-drag-handle';
+    dragHandle.title = '按住拖动可移动窗格';
+    dragHandle.textContent = '⠿ ⠿ ⠿';
     dragHandle.style.cssText = [
       'display:none',
-      'height:8px',
-      'cursor:move',
-      'margin:-9px -11px 4px -11px',
+      'height:20px',
+      'cursor:grab',
+      'margin:-9px -11px 6px -11px',
       'border-radius:6px 6px 0 0',
-      'background:rgba(255,255,255,0.08)',
+      'background:rgba(255,255,255,0.06)',
+      'color:rgba(255,255,255,0.45)',
+      'text-align:center',
+      'font-size:11px',
+      'line-height:20px',
+      'letter-spacing:4px',
+      'user-select:none',
+      '-webkit-user-select:none',
     ].join(';');
+    dragHandle.addEventListener('mouseenter', function () {
+      dragHandle.style.background = 'rgba(255,255,255,0.14)';
+      dragHandle.style.color = 'rgba(255,255,255,0.8)';
+    });
+    dragHandle.addEventListener('mouseleave', function () {
+      dragHandle.style.background = 'rgba(255,255,255,0.06)';
+      dragHandle.style.color = 'rgba(255,255,255,0.45)';
+    });
     panel.insertBefore(dragHandle, panel.firstChild);
 
     // --- Drag state ---------------------------------------------------------
@@ -877,10 +894,11 @@
 
     function onDragMouseDown(e) {
       if (settings.panelMode !== 'fixed') return;
-      // Only respond to mousedown on the drag handle area
-      if (e.target !== dragHandle && e.offsetY > 8) return;
+      // Only the header bar (the visible drag area) starts a drag.
+      if (e.target !== dragHandle) return;
       if (e.button !== 0) return;
       e.preventDefault();
+      dragHandle.style.cursor = 'grabbing';
       dragState = {
         startX: e.clientX,
         startY: e.clientY,
@@ -902,6 +920,7 @@
       doc.removeEventListener('mousemove', onDragMouseMove);
       doc.removeEventListener('mouseup', onDragMouseUp);
       dragState = null;
+      dragHandle.style.cursor = 'grab';
       settings.panelPosition = {
         left: parseInt(panel.style.left, 10) || 0,
         top: parseInt(panel.style.top, 10) || 0,
@@ -1205,8 +1224,9 @@
     function togglePanelMode() {
       var newMode = settings.panelMode === 'follow' ? 'fixed' : 'follow';
       updatePanelMode(newMode);
+      refreshPanelModeMenu();
       if (newMode === 'fixed') {
-        showModeToast('浮窗已固定 — 拖住顶部手柄可移动');
+        showModeToast('浮窗已固定 — 拖住顶部抓手可移动');
       } else {
         showModeToast('已切换为跟随卡牌模式');
       }
@@ -1221,6 +1241,7 @@
         if (on) root.localStorage.removeItem('fab-cn-debug');
         else root.localStorage.setItem('fab-cn-debug', '1');
       } catch (_) { /* localStorage unavailable */ }
+      refreshDebugMenu();
       showModeToast(on ? '调试模式已关闭' : '调试模式已开启 — 悬停卡牌，按 F12 查看控制台');
     }
 
@@ -1564,15 +1585,48 @@
       doc.body.appendChild(settingsOverlay);
     }
 
-    // --- Register menu commands ---------------------------------------------
+    // --- Register menu commands (toggle-style, in-place label update) --------
+    //
+    // Tampermonkey ≥5.0.6189 and Violentmonkey ≥2.16.0 update an existing menu
+    // item in place when GM_registerMenuCommand is called again with the same
+    // `id`. Stable string ids let each toggle re-render its own row (☑/☐)
+    // without creating duplicates; the style item keeps a gear glyph.
 
-    try {
-      if (typeof GM_registerMenuCommand === 'function') {
-        GM_registerMenuCommand('切换固定/跟随模式', togglePanelMode);
-        GM_registerMenuCommand('设置样式…', openSettingsDialog);
-        GM_registerMenuCommand('调试模式', toggleDebugMode);
-      }
-    } catch (_) { /* GM menu not available */ }
+    var menuCommandIds = {
+      pin: 'fab-cn-menu-pin',
+      debug: 'fab-cn-menu-debug',
+      style: 'fab-cn-menu-style',
+    };
+
+    function registerMenuCommand(label, handler, id, autoClose) {
+      if (typeof GM_registerMenuCommand !== 'function') return;
+      try {
+        GM_registerMenuCommand(label, handler, {
+          id: id,
+          autoClose: autoClose !== false,
+        });
+      } catch (_) { /* GM menu not available */ }
+    }
+
+    function refreshPanelModeMenu() {
+      var on = settings.panelMode === 'fixed';
+      registerMenuCommand((on ? '☑ ' : '☐ ') + '固定模式', togglePanelMode, menuCommandIds.pin, false);
+    }
+
+    function refreshDebugMenu() {
+      var on = isDebugEnabled();
+      registerMenuCommand((on ? '☑ ' : '☐ ') + '调试模式', toggleDebugMode, menuCommandIds.debug, false);
+    }
+
+    function registerGmMenu() {
+      try {
+        refreshPanelModeMenu();
+        refreshDebugMenu();
+        registerMenuCommand('⚙ 设置样式…', openSettingsDialog, menuCommandIds.style);
+      } catch (_) { /* GM menu not available */ }
+    }
+
+    registerGmMenu();
 
     // --- Event listeners ----------------------------------------------------
 
