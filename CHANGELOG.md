@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.17（2026-08-06）
+
+### 变更
+
+- **用户脚本头部新增 `@author`（jacefromxa）**：Violentmonkey / Tampermonkey 插件列表页显示作者标签与自动生成的首字母头像
+
 ## v0.7.16（2026-08-06）
 
 ### 变更

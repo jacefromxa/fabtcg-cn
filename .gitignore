@@ -15,6 +15,7 @@ unified_inbox.json
 # Internal maintenance docs — keep local-only, not for the public repo
 CLAUDE.md
 HANDOFF.md
+TRANSLATION-WORKFLOW.md
 
 # Internal production-process docs/scripts from the 2026-08 name reviews — local-only
 equipment-name-localization.md

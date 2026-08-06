@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         Talishar / FaBrary 简体中文卡牌浮窗
 // @namespace    https://talishar.net/
-// @version      0.7.16
+// @version      0.7.17
 // @description  在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
+// @author       jacefromxa
 // @match        https://talishar.net/*
 // @match        https://fabrary.net/*
 // @run-at       document-idle
