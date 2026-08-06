@@ -35,5 +35,5 @@ npm test            # 运行测试
 
 ## 许可
 
-翻译文本按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可。
+用户脚本代码按 [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html) 许可；翻译文本按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可。
 本项目与 Legend Story Studios® 无关联。Flesh and Blood™ 是 Legend Story Studios 的注册商标。
