@@ -170,7 +170,7 @@
     "status": "deck-translation-draft"
   },
   "command_and_conquer": {
-    "name_zh": "指挥与征服",
+    "name_zh": "命令与征服",
     "name_en": "Command and Conquer",
     "type_zh": "通用行动·攻击",
     "power": 6,
@@ -1839,7 +1839,7 @@
   },
   "sacred_art_undercurrent_desires__3": {
     "name_en": "Sacred Art: Undercurrent Desires",
-    "name_zh": "潜念断神诀",
+    "name_zh": "神功：潜念断神诀",
     "type_zh": "秘法 刺客 瞬间",
     "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create a Fang Strike and Slither in your hand.\n- Banish up to 2 cards in an opposing hero's graveyard.\n- Transcend",
     "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 在你的手牌中创造一张獠牙突袭和滑行。\n- 放逐一位对手英雄坟场中的至多2张牌。\n- 超越",
@@ -1852,7 +1852,7 @@
   },
   "sacred_art_immortal_lunar_shrine__3": {
     "name_en": "Sacred Art: Immortal Lunar Shrine",
-    "name_zh": "太阴镇魂功",
+    "name_zh": "神功：太阴镇魂功",
     "type_zh": "秘法 幻术师 瞬间",
     "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create 2 Spectral Shield tokens.\n- Put a +1{p} counter on each aura with ward you control.\n- Transcend",
     "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 创造2个幻质护盾衍生物。\n- 在你控制的每个具有结界的光环上放置一个+1力量指示物。\n- 超越",
@@ -1865,7 +1865,7 @@
   },
   "sacred_art_jade_tiger_domain__3": {
     "name_en": "Sacred Art: Jade Tiger Domain",
-    "name_zh": "玉虎摧朽劲",
+    "name_zh": "神功：玉虎摧朽劲",
     "type_zh": "秘法 忍者 瞬间",
     "text_en": "Legendary\nIf you've played another blue card this turn, choose 3. Otherwise, choose 1;\n- Create 2 Crouching Tigers in your hand.\n- Your Crouching Tigers get +1{p} this turn.\n- Transcend",
     "text_zh": "传奇\n若本回合你使用过另一张蓝色牌，选择3个。否则，选择1个；\n- 在你的手牌中创造2张卧虎。\n- 本回合你的卧虎获得+1力量。\n- 超越",
