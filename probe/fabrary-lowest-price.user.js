@@ -252,6 +252,148 @@
     return { load, destroy };
   }
 
+  function createPriceBadge(doc, image) {
+    const badge = doc.createElement('span');
+    badge.setAttribute('data-fab-price-badge', '1');
+    badge.textContent = '…';
+    Object.assign(badge.style, {
+      position: 'absolute',
+      top: '4px',
+      right: '4px',
+      zIndex: '20',
+      pointerEvents: 'none',
+      padding: '2px 5px',
+      borderRadius: '4px',
+      background: 'rgba(0, 0, 0, 0.82)',
+      color: '#fff',
+      font: '700 12px/1.2 sans-serif',
+      whiteSpace: 'nowrap',
+    });
+
+    const wrapper = image && image.parentElement;
+    if (wrapper && typeof wrapper.appendChild === 'function') {
+      if (wrapper.style && !wrapper.style.position) wrapper.style.position = 'relative';
+      wrapper.appendChild(badge);
+    }
+    return badge;
+  }
+
+  function installPriceOverlay(doc, browserRoot, options) {
+    const runtime = browserRoot || root;
+    const settings = options || {};
+    if (runtime.top !== runtime || !doc || !doc.body) {
+      return { scan() {}, destroy() {} };
+    }
+
+    const loader = settings.loader || createPriceLoader(doc, runtime, settings);
+    const imageStates = new WeakMap();
+    const badgesByUrl = new Map();
+    const requestedUrls = new Set();
+    const resolvedPrices = new Map();
+    const allBadges = new Set();
+    let mutationObserver = null;
+    let intersectionObserver = null;
+    let destroyed = false;
+
+    function setBadgePrice(badge, value) {
+      if (badge) badge.textContent = formatPrice(value);
+    }
+
+    function updateUrlBadges(url, value) {
+      const badges = badgesByUrl.get(url);
+      if (!badges) return;
+      badges.forEach((badge) => setBadgePrice(badge, value));
+    }
+
+    function requestUrl(url) {
+      if (requestedUrls.has(url)) return;
+      requestedUrls.add(url);
+      Promise.resolve(loader.load(url))
+        .then((value) => {
+          resolvedPrices.set(url, value == null ? null : value);
+          updateUrlBadges(url, value);
+        })
+        .catch(() => {
+          resolvedPrices.set(url, null);
+          updateUrlBadges(url, null);
+        });
+    }
+
+    function registerImage(image) {
+      if (destroyed || !image) return;
+      const baseHref = runtime.location?.href || 'https://fabrary.net/';
+      const url = findCardUrlForImage(image, baseHref);
+      if (!url) return;
+
+      let state = imageStates.get(image);
+      if (!state) {
+        const badge = createPriceBadge(doc, image);
+        state = { url, badge };
+        imageStates.set(image, state);
+        allBadges.add(badge);
+        if (!badgesByUrl.has(url)) badgesByUrl.set(url, new Set());
+        badgesByUrl.get(url).add(badge);
+      }
+
+      if (resolvedPrices.has(url)) {
+        setBadgePrice(state.badge, resolvedPrices.get(url));
+        return;
+      }
+      requestUrl(url);
+    }
+
+    function scan() {
+      if (destroyed || typeof doc.querySelectorAll !== 'function') return;
+      let images;
+      try {
+        images = doc.querySelectorAll('img');
+      } catch (_) {
+        return;
+      }
+      Array.from(images || []).forEach((image) => {
+        if (intersectionObserver && typeof intersectionObserver.observe === 'function') {
+          if (!imageStates.has(image)) intersectionObserver.observe(image);
+          return;
+        }
+        registerImage(image);
+      });
+    }
+
+    if (typeof runtime.IntersectionObserver === 'function') {
+      intersectionObserver = new runtime.IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting || entry.intersectionRatio > 0) registerImage(entry.target);
+        });
+      }, { rootMargin: '200px' });
+    }
+
+    if (typeof runtime.MutationObserver === 'function') {
+      mutationObserver = new runtime.MutationObserver(() => scan());
+      mutationObserver.observe(doc.body, { childList: true, subtree: true });
+    }
+
+    function destroy() {
+      if (destroyed) return;
+      destroyed = true;
+      if (mutationObserver) mutationObserver.disconnect();
+      if (intersectionObserver) intersectionObserver.disconnect();
+      if (loader && typeof loader.destroy === 'function') loader.destroy();
+      allBadges.forEach((badge) => {
+        if (badge && typeof badge.remove === 'function') {
+          badge.remove();
+        } else if (badge && badge.parentNode && typeof badge.parentNode.removeChild === 'function') {
+          badge.parentNode.removeChild(badge);
+        }
+      });
+      allBadges.clear();
+      badgesByUrl.clear();
+    }
+
+    const controller = { scan, destroy };
+    scan();
+    return controller;
+  }
+
   root.FabPriceProbe = {
     parseDollarAmount,
     findLowestDollarPrice,
@@ -261,5 +403,11 @@
     findCardUrlForImage,
     extractPricesFromDetailDocument,
     createPriceLoader,
+    createPriceBadge,
+    installPriceOverlay,
   };
+
+  if (root.top === root && root.document && !root.__fabPriceOverlayInstalled) {
+    root.__fabPriceOverlayInstalled = installPriceOverlay(root.document, root);
+  }
 }());

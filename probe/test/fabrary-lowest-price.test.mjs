@@ -152,3 +152,78 @@ test('createPriceLoader reuses an in-flight and completed URL result', async () 
   assert.deepEqual(navigations, ['https://fabrary.net/cards/example']);
   loader.destroy();
 });
+
+test('createPriceBadge renders a non-interactive top-right badge', () => {
+  const createPriceBadge = helper('createPriceBadge');
+  const image = {
+    parentElement: {
+      appendChild(node) {
+        this.child = node;
+      },
+    },
+  };
+  const doc = {
+    createElement() {
+      return { style: {}, dataset: {}, textContent: '', setAttribute() {} };
+    },
+  };
+  const badge = createPriceBadge(doc, image);
+  assert.equal(badge.textContent, '…');
+  assert.equal(badge.style.pointerEvents, 'none');
+  assert.equal(badge.style.position, 'absolute');
+  assert.equal(badge.style.top, '4px');
+  assert.equal(badge.style.right, '4px');
+});
+
+test('installPriceOverlay deduplicates one card URL across repeated scans', async () => {
+  const installPriceOverlay = helper('installPriceOverlay');
+  const firstWrapper = {
+    appendChild(node) { this.child = node; },
+  };
+  const secondWrapper = {
+    appendChild(node) { this.child = node; },
+  };
+  const images = [
+    { alt: 'Blacktek Whisperers', parentElement: firstWrapper },
+    { alt: 'Blacktek Whisperers', parentElement: secondWrapper },
+  ];
+  const loaderCalls = [];
+  const loader = {
+    load(url) {
+      loaderCalls.push(url);
+      return Promise.resolve(1.25);
+    },
+    destroy() {
+      this.destroyed = true;
+    },
+  };
+  const doc = {
+    body: { appendChild() {} },
+    querySelectorAll(selector) {
+      assert.equal(selector, 'img');
+      return images;
+    },
+    createElement(tag) {
+      assert.equal(tag, 'span');
+      return {
+        style: {},
+        dataset: {},
+        textContent: '',
+        setAttribute() {},
+      };
+    },
+  };
+  const root = { top: null };
+  root.top = root;
+  const overlay = installPriceOverlay(doc, root, { loader });
+
+  overlay.scan();
+  overlay.scan();
+  await new Promise((resolve) => setImmediate(resolve));
+
+  assert.deepEqual(loaderCalls, ['https://fabrary.net/cards/blacktek-whisperers']);
+  assert.equal(firstWrapper.child.textContent, '$1.25');
+  assert.equal(secondWrapper.child.textContent, '$1.25');
+  overlay.destroy();
+  assert.equal(loader.destroyed, true);
+});
