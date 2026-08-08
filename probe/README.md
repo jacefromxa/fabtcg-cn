@@ -26,6 +26,27 @@ cd /Users/Zhuanz/CCDeep/talishar-cn/probe
 npm test
 ```
 
+## 本地译名校对台
+
+启动一个只监听本机的校对页面：
+
+```bash
+cd /Users/Zhuanz/CCDeep/talishar-cn/probe
+npm run review
+```
+
+然后打开 `http://127.0.0.1:4174/`。页面按现有翻译批次分页，展示英文卡名、现译名和更新译名；悬停卡名可预览卡图。同一基础卡名的 pitch 版本合并展示，但各版本正文、费用、力量和防御保持独立。
+
+点击提交后，修改会写入项目内的 `data/review-submissions/pending/`，不会直接修改正式翻译文件。应用待处理提交并重新构建数据：
+
+```bash
+node ../scripts/apply-translation-submissions.mjs
+npm run build:data
+npm test
+```
+
+应用流程会校验提交时的旧译名快照；发生冲突时整份提交保留在 `pending/`，不会覆盖当前文件。工具不使用或改变翻译条目的 `status`，提交只更新 `name_zh`。
+
 ## 生成可安装用户脚本
 
 中文翻译源按批次存放在：

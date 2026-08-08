@@ -28,10 +28,26 @@ cd probe
 npm install         # 需 Node.js ≥18
 npm run build       # 构建别名表 + 卡牌数据到 dist/data
 npm run serve:data  # 本地数据服务器 http://127.0.0.1:4173/data
+npm run review      # 启动本地译名校对台 http://127.0.0.1:4174
 npm test            # 运行测试
 ```
 
 翻译源按批次维护于 `data/translations/`，构建产物 `dist/data/` 分片与翻译批次同名，随源码一并发布。
+
+### 本地译名校对台
+
+校对台按批次分页展示英文卡名、现译名和更新译名；悬停英文卡名可预览卡图。同一张卡的 pitch 版本合并为一行，但正文和数值仍按版本独立保留。
+
+```bash
+cd probe
+npm run review
+# 在 http://127.0.0.1:4174 修改译名并提交
+node ../scripts/apply-translation-submissions.mjs
+npm run build:data
+npm test
+```
+
+浏览器提交只会生成 `data/review-submissions/pending/` 下的 JSON，不会直接改动翻译源。应用命令会先校验提交时的旧译名快照，确认无冲突后才只修改对应条目的 `name_zh`，成功记录会移到 `processed/`。
 
 ## 许可
 
