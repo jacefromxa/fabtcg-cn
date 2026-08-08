@@ -375,6 +375,38 @@ test('findCardAnchor ignores a descendant image the pointer is not over', () => 
   assert.equal(findCardAnchor(container, fakeDocument, 100, 100), image);
 });
 
+test('findCardAnchor ignores a signal-bearing ancestor whose card image is elsewhere', () => {
+  // A card-list row / wrapper carries its own card signal (a title or data-*
+  // attribute), so the pointer probe settles on it directly. Its first card
+  // image, though, is elsewhere on screen. Empty space inside the row must not
+  // resolve to that image, or the list's first card tooltip stays stuck while
+  // the mouse is not pointing at any card.
+  const image = {
+    tagName: 'IMG',
+    src: 'https://content.fabrary.net/cards/SUP021.webp',
+    attributes: [{ name: 'src', value: 'https://content.fabrary.net/cards/SUP021.webp' }],
+    getBoundingClientRect() {
+      return { left: 100, top: 100, right: 300, bottom: 400, width: 200, height: 300 };
+    },
+  };
+  const row = {
+    tagName: 'DIV',
+    title: 'Fyendal\'s Spring Tunic',
+    attributes: [{ name: 'title', value: 'Fyendal\'s Spring Tunic' }],
+    querySelector(selector) {
+      return selector === 'img' ? image : null;
+    },
+    parentElement: null,
+    parentNode: null,
+  };
+  const fakeDocument = { body: {} };
+
+  // Pointer in the row's empty space, below where the card image sits → no anchor
+  assert.equal(findCardAnchor(row, fakeDocument, 200, 600), null);
+  // Pointer over the card image itself → the image is the anchor
+  assert.equal(findCardAnchor(row, fakeDocument, 200, 200), image);
+});
+
 test('findCardPreviewImage returns a large image inside a fixed container', () => {
   const previewImg = {
     tagName: 'IMG',

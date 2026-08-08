@@ -3,7 +3,7 @@
 // @name:zh-CN     Talishar / FaBrary 简体中文卡牌浮窗
 // @name:en        Talishar / FaBrary Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.22
+// @version        0.7.23
 // @description    在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @description:zh-CN 在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @description:en Show Simplified Chinese card info on hover for Talishar and FaBrary — card name, type, rules text, and keyword explanations.
@@ -568,12 +568,20 @@
   function findCardAnchor(target, doc, clientX, clientY) {
     const detected = findProbeTarget(target, doc, clientX, clientY);
     if (!detected) return null;
-    if (String(detected.tagName || '').toLowerCase() === 'img') return detected;
-    if (typeof detected.querySelector === 'function') {
+    let anchor = detected;
+    if (String(detected.tagName || '').toLowerCase() !== 'img' &&
+        typeof detected.querySelector === 'function') {
       const image = detected.querySelector('img');
-      if (image) return image;
+      if (image) anchor = image;
     }
-    return detected;
+    // Whatever element the pointer probe settled on, the card image it maps to
+    // must actually be under the pointer. Without this last check, a signal
+    // carried by an ancestor — a card-list wrapper or row with its own title /
+    // data-* attributes — turns any empty space inside it into "the first card
+    // of the list", keeping the tooltip stuck on that card while the mouse sits
+    // on whitespace.
+    if (!imageUnderPointer(anchor, clientX, clientY)) return null;
+    return anchor;
   }
 
   // Talishar renders its full-card hover preview through a React portal: a
