@@ -80,3 +80,75 @@ test('findCardUrlForImage prefers an ancestor card link and falls back to alt te
     'https://fabrary.net/cards/titans-fist',
   );
 });
+
+test('extractPricesFromDetailDocument reads only TCGplayer dollar links', () => {
+  const extractPricesFromDetailDocument = helper('extractPricesFromDetailDocument');
+  const doc = {
+    querySelectorAll(selector) {
+      assert.equal(selector, 'a[href*="tcgplayer.com"]');
+      return [
+        {
+          textContent: '$4.50',
+          getAttribute() { return 'https://www.tcgplayer.com/product/1'; },
+        },
+        {
+          textContent: '€0.20',
+          getAttribute() { return 'https://www.tcgplayer.com/product/2'; },
+        },
+        {
+          textContent: '$1.25',
+          getAttribute() { return 'https://www.tcgplayer.com/product/3'; },
+        },
+      ];
+    },
+  };
+  assert.equal(extractPricesFromDetailDocument(doc), 1.25);
+});
+
+test('createPriceLoader reuses an in-flight and completed URL result', async () => {
+  const createPriceLoader = helper('createPriceLoader');
+  const navigations = [];
+  let onload = null;
+  const detailDocument = {
+    querySelectorAll() {
+      return [{ textContent: '$2.00' }];
+    },
+  };
+  const iframe = {
+    style: {},
+    setAttribute() {},
+    addEventListener(type, callback) {
+      if (type === 'load') onload = callback;
+    },
+    set src(value) {
+      navigations.push(value);
+      this.contentDocument = detailDocument;
+    },
+  };
+  const doc = {
+    body: { appendChild() {} },
+    createElement(tag) {
+      assert.equal(tag, 'iframe');
+      return iframe;
+    },
+  };
+  const timers = [];
+  const root = {
+    setTimeout(callback) {
+      timers.push(callback);
+      return timers.length;
+    },
+    clearTimeout() {},
+  };
+  const loader = createPriceLoader(doc, root, { timeoutMs: 100 });
+
+  const first = loader.load('https://fabrary.net/cards/example');
+  const second = loader.load('https://fabrary.net/cards/example');
+  onload();
+  assert.deepEqual(await Promise.all([first, second]), [2, 2]);
+  assert.deepEqual(navigations, ['https://fabrary.net/cards/example']);
+
+  assert.equal(await loader.load('https://fabrary.net/cards/example'), 2);
+  assert.deepEqual(navigations, ['https://fabrary.net/cards/example']);
+  loader.destroy();
+});
