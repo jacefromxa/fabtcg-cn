@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "07f55bee7dc2",
+  "version": "72b706b0884c",
   "cards": {
     "achilles_accelerator": {
       "id": "achilles_accelerator",
@@ -985,7 +985,7 @@
     },
     "braveforge_bracers": {
       "id": "braveforge_bracers",
-      "name_zh": "勇者锻造护腕",
+      "name_zh": "勇锻腕甲",
       "name_en": "Braveforge Bracers",
       "type_zh": "战士 装备·手臂",
       "text_zh": "每回合一次行动——支付1点资源：你本回合的下一次武器攻击获得+1力量。仅当本回合你控制的武器命中过时才能启动此异能。再动\n战痕",
@@ -3879,7 +3879,7 @@
       "name_zh": "欢愉礼帽",
       "name_en": "Good Time Chapeau",
       "type_zh": "守护者 装备·头部",
-      "text_zh": "贝特西专精\n行动——摧毁你控制的一个金币：你本回合的下一次攻击获得“当此牌攻击英雄时，与该英雄以力量和活力衍生物下注。”再动\n淬炼",
+      "text_zh": "贝琪专精\n行动——摧毁你控制的一个金币：你本回合的下一次攻击获得“当此牌攻击英雄时，与该英雄以力量和活力衍生物下注。”再动\n淬炼",
       "text_en": "Betsy Specialization\nAction - Destroy a Gold you control: Your next attack this turn gets \"When this attacks a hero, wager a Might and a Vigor token with them.\" Go again\nTemper",
       "source": "https://cards.fabtcg.com/card/good_time_chapeau/",
       "status": "human-reviewed",
@@ -5307,7 +5307,7 @@
       "name_zh": "长剑腿甲",
       "name_en": "Longsword Leggings",
       "type_zh": "战士 装备·腿部",
-      "text_zh": "行动——摧毁此牌：创造一个剑舞或连击衍生物。\n战痕",
+      "text_zh": "行动——摧毁此牌：创造一个剑舞或乱舞衍生物。\n战痕",
       "text_en": "Action - Destroy this: Create a Blade Dance or Flurry token.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/longsword_leggings/",
       "status": "machine-draft",
@@ -7572,7 +7572,7 @@
       "name_zh": "银步闪避靴",
       "name_en": "Silverstride Dodgers",
       "type_zh": "战士 装备·腿部",
-      "text_zh": "若你控制一个连击衍生物，此牌获得+1防御。\n淬炼",
+      "text_zh": "若你控制一个乱舞衍生物，此牌获得+1防御。\n淬炼",
       "text_en": "If you control a Flurry token, this gets +1{d}.\nTemper",
       "source": "https://cards.fabtcg.com/card/silverstride_dodgers/",
       "status": "machine-draft",

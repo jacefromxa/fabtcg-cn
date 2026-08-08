@@ -1,7 +1,7 @@
 {
   "adrenaline_rush__1": {
     "name_en": "Adrenaline Rush",
-    "name_zh": "肾上腺素冲刺",
+    "name_zh": "激素爆冲",
     "type_zh": "通用 行动·攻击",
     "text_en": "When you play this, if you have less {h} than an opposing hero, this gets +3{p}.",
     "text_zh": "当你使用此牌时，若你的生命低于一位对手英雄，此牌获得+3力量。",
@@ -14,7 +14,7 @@
   },
   "adrenaline_rush__2": {
     "name_en": "Adrenaline Rush",
-    "name_zh": "肾上腺素冲刺",
+    "name_zh": "激素爆冲",
     "type_zh": "通用 行动·攻击",
     "text_en": "When you play this, if you have less {h} than an opposing hero, this gets +3{p}.",
     "text_zh": "当你使用此牌时，若你的生命低于一位对手英雄，此牌获得+3力量。",
@@ -27,7 +27,7 @@
   },
   "adrenaline_rush__3": {
     "name_en": "Adrenaline Rush",
-    "name_zh": "肾上腺素冲刺",
+    "name_zh": "激素爆冲",
     "type_zh": "通用 行动·攻击",
     "text_en": "When you play this, if you have less {h} than an opposing hero, this gets +3{p}.",
     "text_zh": "当你使用此牌时，若你的生命低于一位对手英雄，此牌获得+3力量。",
@@ -677,7 +677,7 @@
   },
   "brothers_in_arms__1": {
     "name_en": "Brothers in Arms",
-    "name_zh": "战友兄弟",
+    "name_zh": "袍泽同心",
     "type_zh": "通用 行动·攻击",
     "text_en": "When this defends, you may pay {r}. If you do, it gets +2{d}.",
     "text_zh": "当此牌防御时，你可以支付1点资源。若如此做，它获得+2防御。",
@@ -690,7 +690,7 @@
   },
   "brothers_in_arms__2": {
     "name_en": "Brothers in Arms",
-    "name_zh": "战友兄弟",
+    "name_zh": "袍泽同心",
     "type_zh": "通用 行动·攻击",
     "text_en": "When this defends, you may pay {r}. If you do, it gets +2{d}.",
     "text_zh": "当此牌防御时，你可以支付1点资源。若如此做，它获得+2防御。",
@@ -703,7 +703,7 @@
   },
   "brothers_in_arms__3": {
     "name_en": "Brothers in Arms",
-    "name_zh": "战友兄弟",
+    "name_zh": "袍泽同心",
     "type_zh": "通用 行动·攻击",
     "text_en": "When this defends, you may pay {r}. If you do, it gets +2{d}.",
     "text_zh": "当此牌防御时，你可以支付1点资源。若如此做，它获得+2防御。",
@@ -1886,7 +1886,7 @@
   },
   "enlightened_strike__1": {
     "name_en": "Enlightened Strike",
-    "name_zh": "开悟打击",
+    "name_zh": "开天一击",
     "type_zh": "通用 行动·攻击",
     "text_en": "As an additional cost to play Enlightened Strike, put a card from your hand on the bottom of your deck.\nChoose 1;\n- When you attack with Enlightened Strike, draw a card.\n- Enlightened Strike gains +2{p}.\n- Enlightened Strike gains go again.",
     "text_zh": "作为使用开悟打击的额外费用，将你手牌中的一张牌置于牌库底。\n选择其一；\n- 当你用开悟打击攻击时，抽一张牌。\n- 开悟打击获得+2力量。\n- 开悟打击获得再动。",
@@ -2211,7 +2211,7 @@
   },
   "fiddlers_green__2": {
     "name_en": "Fiddler's Green",
-    "name_zh": "提琴手之绿",
+    "name_zh": "吟游乐土",
     "type_zh": "通用 阻挡",
     "text_en": "When this is put into your graveyard from anywhere, gain 2{h}.",
     "text_zh": "当此牌从任何区域置入你的坟场时，获得3点生命。",
@@ -2224,7 +2224,7 @@
   },
   "fiddlers_green__3": {
     "name_en": "Fiddler's Green",
-    "name_zh": "提琴手之绿",
+    "name_zh": "吟游乐土",
     "type_zh": "通用 阻挡",
     "text_en": "When this is put into your graveyard from anywhere, gain 1{h}.",
     "text_zh": "当此牌从任何区域置入你的坟场时，获得3点生命。",
@@ -3199,7 +3199,7 @@
   },
   "imperial_seal_of_command__1": {
     "name_en": "Imperial Seal of Command",
-    "name_zh": "帝国军令印",
+    "name_zh": "帝国军印",
     "type_zh": "通用 行动·物品",
     "text_en": "Legendary\nAction - Destroy this: Defense reaction cards can't be played this turn. If you are Royal, the next time you hit a hero this turn, destroy all cards in their arsenal. Go again",
     "text_zh": "传奇\n行动——摧毁此牌：本回合防御反应牌不能被使用。若你为皇族，本回合你下一次命中英雄时，摧毁其军械库中的所有牌。再动",
@@ -3927,7 +3927,7 @@
   },
   "nasty_surprise__3": {
     "name_en": "Nasty Surprise",
-    "name_zh": "恶意惊喜",
+    "name_zh": "糟糕惊喜",
     "type_zh": "通用 行动·攻击",
     "text_en": "When an opponent's effect puts this into your graveyard from anywhere, create an Agility, Might, and Vigor token.",
     "text_zh": "当对手的效果将此牌从任何区域置入你的坟场时，创造敏捷、力量、活力衍生物各一个。",
@@ -7411,7 +7411,7 @@
   },
   "trot_along__3": {
     "name_en": "Trot Along",
-    "name_zh": "快走",
+    "name_zh": "慢打不急",
     "type_zh": "通用 行动",
     "text_en": "Your next attack with 3 or less base {p} this turn gets go again.\nGo again",
     "text_zh": "你本回合的下一次基础力量为3或更低的攻击获得再动。\n再动",
@@ -7710,7 +7710,7 @@
   },
   "warmongers_diplomacy__3": {
     "name_en": "Warmonger's Diplomacy",
-    "name_zh": "好战者的外交",
+    "name_zh": "武力外交",
     "type_zh": "通用 行动",
     "text_en": "Starting with the hero to your left, each hero chooses war or peace.\nIf they choose war, the only actions they may play or activate during their next turn are weapon and attack actions.\nIf they choose peace, the only actions they may play or activate during their next turn are non-weapon non-attack actions.",
     "text_zh": "从你左边的英雄开始，每位英雄选择战争或和平。\n若他们选择战争，其下一个回合期间他们只能使用或启动武器和攻击行动。\n若他们选择和平，其下一个回合期间他们只能使用或启动非武器非攻击行动。",
@@ -8599,7 +8599,7 @@
     "status": "human-reviewed"
   },
   "fiddlers_green": {
-    "name_zh": "提琴手之绿",
+    "name_zh": "吟游乐土",
     "name_en": "Fiddler's Green",
     "type_zh": "通用·防御牌",
     "power": null,

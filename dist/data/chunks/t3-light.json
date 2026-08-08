@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "07f55bee7dc2",
+  "version": "72b706b0884c",
   "cards": {
     "aegis_archangel_of_protection": {
       "id": "aegis_archangel_of_protection",
@@ -897,7 +897,7 @@
       "name_zh": "团结则立",
       "name_en": "United We Stand",
       "type_zh": "光 行动·攻击",
-      "text_zh": "团结——当此牌与一张来自手牌的牌一起防御时，若博尔廷在你的队伍中，在其控制下创造一个勇气衍生物。然后对布拉沃和地震涌动、布里亚和大地化身、多琳希雅和勇气、莱克西和闪电化身、奥德希姆和法殁神盾、棱镜和幻质护盾、希亚娜和雄辩各重复一次。",
+      "text_zh": "团结——当此牌与一张来自手牌的牌一起防御时，若博尔廷在你的队伍中，在其控制下创造一个勇气衍生物。然后对布拉沃和地震涌动、布里亚和大地化身、多林茜娅和勇气、莱克西和闪电化身、奥德希姆和法殁神盾、棱镜和幻质护盾、希亚娜和雄辩各重复一次。",
       "text_en": "Unity - When this defends together with a card from hand, if Boltyn is in your party, create a Courage token under his control. Then repeat for Bravo and Seismic Surge, Briar and Embodiment of Earth, Dorinthea and Courage, Lexi and Embodiment of Lightning, Oldhim and Spellbane Aegis, Prism and Spectral Shield, and Shiyana and Eloquence.",
       "source": "https://cards.fabtcg.com/card/united_we_stand/",
       "status": "machine-draft",

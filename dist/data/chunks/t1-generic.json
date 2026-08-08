@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "version": "07f55bee7dc2",
+  "version": "72b706b0884c",
   "cards": {
     "adrenaline_rush": {
       "id": "adrenaline_rush",
-      "name_zh": "肾上腺素冲刺",
+      "name_zh": "激素爆冲",
       "name_en": "Adrenaline Rush",
       "type_zh": "通用 行动·攻击",
       "text_zh": "当你使用此牌时，若你的生命低于一位对手英雄，此牌获得+3力量。",
@@ -949,7 +949,7 @@
     },
     "brothers_in_arms": {
       "id": "brothers_in_arms",
-      "name_zh": "战友兄弟",
+      "name_zh": "袍泽同心",
       "name_en": "Brothers in Arms",
       "type_zh": "通用 行动·攻击",
       "text_zh": "当此牌防御时，你可以支付1点资源。若如此做，它获得+2防御。",
@@ -2463,7 +2463,7 @@
     },
     "enlightened_strike": {
       "id": "enlightened_strike",
-      "name_zh": "开悟打击",
+      "name_zh": "开天一击",
       "name_en": "Enlightened Strike",
       "type_zh": "通用 行动·攻击",
       "text_zh": "作为使用开悟打击的额外费用，将你手牌中的一张牌置于牌库底。\n选择其一；\n- 当你用开悟打击攻击时，抽一张牌。\n- 开悟打击获得+2力量。\n- 开悟打击获得再动。",
@@ -2905,7 +2905,7 @@
     },
     "fiddlers_green": {
       "id": "fiddlers_green",
-      "name_zh": "提琴手之绿",
+      "name_zh": "吟游乐土",
       "name_en": "Fiddler's Green",
       "type_zh": "通用·防御牌",
       "text_zh": "当此牌从任何区域置入你的坟场时，获得3点生命。",
@@ -4155,7 +4155,7 @@
     },
     "imperial_seal_of_command": {
       "id": "imperial_seal_of_command",
-      "name_zh": "帝国军令印",
+      "name_zh": "帝国军印",
       "name_en": "Imperial Seal of Command",
       "type_zh": "通用 行动·物品",
       "text_zh": "传奇\n行动——摧毁此牌：本回合防御反应牌不能被使用。若你为皇族，本回合你下一次命中英雄时，摧毁其军械库中的所有牌。再动",
@@ -4999,7 +4999,7 @@
     },
     "nasty_surprise": {
       "id": "nasty_surprise",
-      "name_zh": "恶意惊喜",
+      "name_zh": "糟糕惊喜",
       "name_en": "Nasty Surprise",
       "type_zh": "通用 行动·攻击",
       "text_zh": "当对手的效果将此牌从任何区域置入你的坟场时，创造敏捷、力量、活力衍生物各一个。",
@@ -9385,7 +9385,7 @@
     },
     "trot_along": {
       "id": "trot_along",
-      "name_zh": "快走",
+      "name_zh": "慢打不急",
       "name_en": "Trot Along",
       "type_zh": "通用 行动",
       "text_zh": "你本回合的下一次基础力量为3或更低的攻击获得再动。\n再动",
@@ -9757,7 +9757,7 @@
     },
     "warmongers_diplomacy": {
       "id": "warmongers_diplomacy",
-      "name_zh": "好战者的外交",
+      "name_zh": "武力外交",
       "name_en": "Warmonger's Diplomacy",
       "type_zh": "通用 行动",
       "text_zh": "从你左边的英雄开始，每位英雄选择战争或和平。\n若他们选择战争，其下一个回合期间他们只能使用或启动武器和攻击行动。\n若他们选择和平，其下一个回合期间他们只能使用或启动非武器非攻击行动。",

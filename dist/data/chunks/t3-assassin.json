@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "07f55bee7dc2",
+  "version": "72b706b0884c",
   "cards": {
     "already_dead": {
       "id": "already_dead",
@@ -755,7 +755,7 @@
       "name_zh": "熄灭烈焰",
       "name_en": "Extinguish the Flames",
       "type_zh": "刺客 行动·攻击",
-      "text_zh": "隐匿\n契约——你受契约束缚以命中一位名为辛德拉的被标记英雄。每当你完成此契约时，抽一张牌。",
+      "text_zh": "隐匿\n契约——你受契约束缚以命中一位名为欣卓的被标记英雄。每当你完成此契约时，抽一张牌。",
       "text_en": "Stealth\nContract - You are contracted to hit a marked hero named Cindra. Whenever you complete this contract, draw a card.",
       "source": "https://cards.fabtcg.com/card/extinguish_the_flames/",
       "status": "machine-draft",
