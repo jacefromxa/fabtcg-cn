@@ -3,7 +3,7 @@
 // @name:zh-CN     Talishar / FaBrary 简体中文卡牌浮窗
 // @name:en        Talishar / FaBrary Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.21
+// @version        0.7.22
 // @description    在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @description:zh-CN 在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @description:en Show Simplified Chinese card info on hover for Talishar and FaBrary — card name, type, rules text, and keyword explanations.
@@ -233,7 +233,26 @@
     );
   }
 
-  function findProbeTarget(target, doc) {
+  // An image found by scanning an ancestor's descendants is only accepted as
+  // the hovered card when the pointer is actually over it. Without this, a
+  // pointer resting on whitespace inside a large card-holding container (a card
+  // grid gap, a game-board header, the space between hands) resolves to the
+  // first card image in that container and keeps the tooltip stuck on a card
+  // the user is not hovering. A few px of slack lets a pointer sitting on a
+  // card's thin border / edge still count as hovering it.
+  function imageUnderPointer(image, clientX, clientY) {
+    if (clientX == null || clientY == null) return true; // no coords — structural match only
+    let rect = null;
+    try {
+      if (typeof image.getBoundingClientRect === 'function') rect = image.getBoundingClientRect();
+    } catch (_) { /* layout unavailable */ }
+    if (!rect) return false;
+    const tolerance = Math.max(8, Math.round((rect.width || 0) * 0.06));
+    return clientX >= rect.left - tolerance && clientX <= rect.right + tolerance &&
+           clientY >= rect.top - tolerance && clientY <= rect.bottom + tolerance;
+  }
+
+  function findProbeTarget(target, doc, clientX, clientY) {
     let current = target;
     let depth = 0;
 
@@ -243,7 +262,10 @@
 
       if (typeof current.querySelector === 'function') {
         const image = current.querySelector('img');
-        if (image && hasCandidateSignals(collectCandidates(image))) return image;
+        if (image && hasCandidateSignals(collectCandidates(image)) &&
+            imageUnderPointer(image, clientX, clientY)) {
+          return image;
+        }
       }
 
       current = current.parentElement || current.parentNode;
@@ -543,8 +565,8 @@
 
   // --- UI helpers ---------------------------------------------------------
 
-  function findCardAnchor(target, doc) {
-    const detected = findProbeTarget(target, doc);
+  function findCardAnchor(target, doc, clientX, clientY) {
+    const detected = findProbeTarget(target, doc, clientX, clientY);
     if (!detected) return null;
     if (String(detected.tagName || '').toLowerCase() === 'img') return detected;
     if (typeof detected.querySelector === 'function') {
@@ -1637,7 +1659,8 @@
     // --- Event listeners ----------------------------------------------------
 
     var onPointerOver = function (event) {
-      var anchor = findCardAnchor(event && event.target, doc);
+      var anchor = findCardAnchor(event && event.target, doc,
+        event ? event.clientX : null, event ? event.clientY : null);
       if (!anchor) {
         // Follow mode: hide. Fixed mode: keep the pinned panel as-is.
         if (settings.panelMode !== 'fixed') hidePanel();

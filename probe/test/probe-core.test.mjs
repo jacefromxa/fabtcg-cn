@@ -343,6 +343,38 @@ test('findCardAnchor prefers the image inside the detected card container', () =
   assert.equal(findCardAnchor(container, fakeDocument), image);
 });
 
+test('findCardAnchor ignores a descendant image the pointer is not over', () => {
+  // A card-grid gap / container whitespace: the element under the pointer has
+  // no card signals of its own, but an ancestor contains a card <img> that is
+  // elsewhere on screen. Without a pointer hit-test this resolves to that far
+  // card and keeps the tooltip stuck while the mouse sits on empty space.
+  const image = {
+    tagName: 'IMG',
+    src: 'https://content.fabrary.net/cards/SUP021.webp',
+    attributes: [{ name: 'src', value: 'https://content.fabrary.net/cards/SUP021.webp' }],
+    getBoundingClientRect() {
+      return { left: 100, top: 100, right: 300, bottom: 400, width: 200, height: 300 };
+    },
+  };
+  const container = {
+    tagName: 'DIV',
+    querySelector(selector) {
+      return selector === 'img' ? image : null;
+    },
+    attributes: [],
+    parentElement: null,
+    parentNode: null,
+  };
+  const fakeDocument = { body: {} };
+
+  // Pointer in the whitespace below the card → no anchor
+  assert.equal(findCardAnchor(container, fakeDocument, 200, 600), null);
+  // Pointer over the card image → the image is the anchor
+  assert.equal(findCardAnchor(container, fakeDocument, 200, 200), image);
+  // Pointer within the edge slack (a few px off the image) still counts
+  assert.equal(findCardAnchor(container, fakeDocument, 100, 100), image);
+});
+
 test('findCardPreviewImage returns a large image inside a fixed container', () => {
   const previewImg = {
     tagName: 'IMG',
