@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>卡名翻译校对台</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">TALISHAR / FABRARY · LOCAL TOOL</p>
+          <h1>卡名翻译校对台</h1>
+          <p class="subtitle">按批次检查英文卡名与中文译名，修改结果会进入项目待处理队列。</p>
+        </div>
+        <div class="header-actions">
+          <label class="search-box" for="search-input">
+            <span>搜索卡名</span>
+            <input id="search-input" type="search" placeholder="英文名或现译名" autocomplete="off">
+          </label>
+          <span id="connection-status" class="connection-status" aria-live="polite">连接中…</span>
+        </div>
+      </header>
+
+      <nav id="batch-tabs" class="batch-tabs" aria-label="翻译批次" role="tablist"></nav>
+
+      <section class="table-toolbar" aria-label="列表工具栏">
+        <div>
+          <span id="batch-title" class="batch-title">加载中…</span>
+          <span id="row-count" class="row-count"></span>
+        </div>
+        <button id="refresh-button" class="quiet-button" type="button">刷新</button>
+      </section>
+
+      <section class="table-card" aria-live="polite">
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">卡名</th>
+                <th scope="col">现译名</th>
+                <th scope="col">更新译名</th>
+              </tr>
+            </thead>
+            <tbody id="card-table-body"></tbody>
+          </table>
+        </div>
+        <div id="empty-state" class="empty-state" hidden>没有找到卡牌。</div>
+      </section>
+
+      <nav class="pagination" aria-label="卡牌分页">
+        <button id="previous-page" class="quiet-button" type="button">上一页</button>
+        <span id="page-summary">第 — 页</span>
+        <button id="next-page" class="quiet-button" type="button">下一页</button>
+      </nav>
+    </main>
+
+    <footer class="submit-bar">
+      <div>
+        <strong id="edit-summary">尚未修改</strong>
+        <span id="message" class="message" aria-live="polite"></span>
+      </div>
+      <button id="submit-button" class="submit-button" type="button" disabled>提交修改</button>
+    </footer>
+
+    <div id="card-preview" class="card-preview" role="tooltip" hidden>
+      <div id="preview-title" class="preview-title"></div>
+      <img id="preview-image" class="preview-image" alt="">
+      <div id="preview-fallback" class="preview-fallback" hidden>卡图暂时无法加载</div>
+      <a id="preview-link" class="preview-link" target="_blank" rel="noreferrer">查看卡牌来源</a>
+    </div>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
