@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "version": "07f55bee7dc2",
+  "version": "72b706b0884c",
   "cards": {
     "a_bit_off_the_side": {
       "id": "a_bit_off_the_side",
-      "name_zh": "偏门一击",
+      "name_zh": "偏锋一击",
       "name_en": "A Bit off the Side",
       "type_zh": "守护者·战士 行动",
       "text_zh": "直到回合结束，你控制的斧获得“当此牌命中英雄时，该英雄弃一张牌。”\n再动",
@@ -63,7 +63,7 @@
     },
     "agile_engagement": {
       "id": "agile_engagement",
-      "name_zh": "敏捷交锋",
+      "name_zh": "迅疾出击",
       "name_en": "Agile Engagement",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标战士攻击获得+3力量。若其被攻击行动牌防御，创造一个敏捷衍生物。",
@@ -125,7 +125,7 @@
     },
     "agility_stance": {
       "id": "agility_stance",
-      "name_zh": "敏捷架势",
+      "name_zh": "疾剑势",
       "name_en": "Agility Stance",
       "type_zh": "战士 行动·光环",
       "text_zh": "再动\n在你的回合开始时，摧毁此牌，然后本回合你的匕首攻击获得再动。",
@@ -167,7 +167,7 @@
     },
     "and_again": {
       "id": "and_again",
-      "name_zh": "再来一次",
+      "name_zh": "连击不息",
       "name_en": "And Again...",
       "type_zh": "战士 行动",
       "text_zh": "用目标已磨砺过且本回合你已用它攻击过的剑攻击。",
@@ -186,7 +186,7 @@
     },
     "back_for_seconds": {
       "id": "back_for_seconds",
-      "name_zh": "回头再来",
+      "name_zh": "稍后回来",
       "name_en": "Back for Seconds",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标剑攻击获得+2力量。若这是你本回合的第二次攻击，改为其获得+3力量。",
@@ -224,7 +224,7 @@
     },
     "banneret_of_courage": {
       "id": "banneret_of_courage",
-      "name_zh": "勇气小旗手",
+      "name_zh": "勇气旗手",
       "name_en": "Banneret of Courage",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，创造一个勇气衍生物。",
@@ -245,7 +245,7 @@
     },
     "banneret_of_gallantry": {
       "id": "banneret_of_gallantry",
-      "name_zh": "豪勇小旗手",
+      "name_zh": "英豪旗手",
       "name_en": "Banneret of Gallantry",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，创造一个加速衍生物。",
@@ -266,7 +266,7 @@
     },
     "banneret_of_protection": {
       "id": "banneret_of_protection",
-      "name_zh": "守护小旗手",
+      "name_zh": "守护旗手",
       "name_en": "Banneret of Protection",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，创造一个法殁神盾衍生物。",
@@ -287,7 +287,7 @@
     },
     "banneret_of_resilience": {
       "id": "banneret_of_resilience",
-      "name_zh": "坚韧小旗手",
+      "name_zh": "坚韧旗手",
       "name_en": "Banneret of Resilience",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，本回合你用于防御的下一张行动牌获得+1防御。",
@@ -308,7 +308,7 @@
     },
     "banneret_of_salvation": {
       "id": "banneret_of_salvation",
-      "name_zh": "救赎小旗手",
+      "name_zh": "救赎旗手",
       "name_en": "Banneret of Salvation",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，本回合你下一次命中时，获得1点生命。",
@@ -329,7 +329,7 @@
     },
     "banneret_of_vigor": {
       "id": "banneret_of_vigor",
-      "name_zh": "活力小旗手",
+      "name_zh": "活力骑手",
       "name_en": "Banneret of Vigor",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "日耀——当此牌被充能至你的英雄的灵魂时，本回合你下一次命中时，获得1点资源。",
@@ -440,7 +440,7 @@
     },
     "beaming_bravado": {
       "id": "beaming_bravado",
-      "name_zh": "耀光豪气",
+      "name_zh": "辉耀战意",
       "name_en": "Beaming Bravado",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "作为使用此牌的额外费用，你可以为你的英雄的灵魂充能。\n若以此方式充能的是黄色牌，此牌获得+1力量。",
@@ -473,7 +473,7 @@
     },
     "beat_of_the_ironsong": {
       "id": "beat_of_the_ironsong",
-      "name_zh": "铁歌节拍",
+      "name_zh": "铁歌战律",
       "name_en": "Beat of the Ironsong",
       "type_zh": "战士 攻击反应",
       "text_zh": "选择X+1个模式，X为攻击中的黎明之刃上的+1力量指示物数量；\n- 目标黎明之刃攻击获得+1力量。\n- 目标黎明之刃攻击获得再动。\n- 防御目标黎明之刃攻击的牌不能获得防御。\n- 目标黎明之刃攻击将造成的伤害不能被防止。",
@@ -511,7 +511,7 @@
     },
     "beckoning_light": {
       "id": "beckoning_light",
-      "name_zh": "召唤光明",
+      "name_zh": "召现光明",
       "name_en": "Beckoning Light",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "作为使用此牌的额外费用，你可以为你的英雄的灵魂充能。\n若以此方式充能的是黄色牌，本战斗链中每当攻击行动牌命中时，你可以将你坟场中的一张攻击行动牌置于你的牌库顶。",
@@ -559,7 +559,7 @@
     },
     "below_the_belt": {
       "id": "below_the_belt",
-      "name_zh": "下三路",
+      "name_zh": "攻他下路",
       "name_en": "Below the Belt",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的下一次剑攻击获得+4力量，以及“当此牌命中战士英雄时，摧毁其军械库中的一张牌。”\n再动",
@@ -580,10 +580,10 @@
     },
     "big_blinder": {
       "id": "big_blinder",
-      "name_zh": "巨盲击",
+      "name_zh": "大盲重击",
       "name_en": "Big Blinder",
       "type_zh": "战士 攻击反应",
-      "text_zh": "目标剑攻击获得+4力量，并与防御英雄下注。胜者创造一个连击衍生物。",
+      "text_zh": "目标剑攻击获得+4力量，并与防御英雄下注。胜者创造一个乱舞衍生物。",
       "text_en": "Target sword attack gets +4{p} and wagers with the defending hero. The winner creates a Flurry token.",
       "source": "https://cards.fabtcg.com/card/big_blinder/",
       "status": "machine-draft",
@@ -613,7 +613,7 @@
     },
     "big_slick": {
       "id": "big_slick",
-      "name_zh": "王牌",
+      "name_zh": "绝手狠牌",
       "name_en": "Big Slick",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的下一次剑攻击获得+5力量，以及“当此牌攻击时，与防御英雄下注。胜者抽一张牌。”\n再动",
@@ -646,7 +646,7 @@
     },
     "biting_blade": {
       "id": "biting_blade",
-      "name_zh": "咬刃",
+      "name_zh": "压刃入身",
       "name_en": "Biting Blade",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标武器攻击获得+3力量。\n重演——若防御英雄在此链环中用手牌中的牌防御过，你控制的武器直到回合结束获得+1力量。",
@@ -698,7 +698,7 @@
     },
     "blade_flurry": {
       "id": "blade_flurry",
-      "name_zh": "剑雨",
+      "name_zh": "乱剑劈斩",
       "name_en": "Blade Flurry",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标武器攻击获得+2力量。\n你本回合的下一次武器攻击获得+2力量。",
@@ -717,7 +717,7 @@
     },
     "blade_runner": {
       "id": "blade_runner",
-      "name_zh": "剑刃奔跑者",
+      "name_zh": "追刀",
       "name_en": "Blade Runner",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标单手武器攻击获得再动。\n你本回合的下一次武器攻击获得+3力量。",
@@ -748,7 +748,7 @@
     },
     "blade_rush": {
       "id": "blade_rush",
-      "name_zh": "剑刃冲刺",
+      "name_zh": "刀锋冲袭",
       "name_en": "Blade Rush",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的第一次剑攻击获得再动。\n你本回合的第二次剑攻击获得+1力量。\n再动",
@@ -838,7 +838,7 @@
     },
     "blood_on_her_hands": {
       "id": "blood_on_her_hands",
-      "name_zh": "她手上的血",
+      "name_zh": "血手伊人",
       "name_en": "Blood on Her Hands",
       "type_zh": "战士 行动",
       "text_zh": "卡赛专精\n作为使用她手上的血的额外费用，摧毁你控制的任意数量的铜币。选择等量的模式。每个模式你可以选择两次；\n目标单手武器的攻击本回合获得+1力量。\n目标单手武器的攻击本回合获得再动。\n目标单手武器本回合可以攻击两次。\n再动",
@@ -857,7 +857,7 @@
     },
     "bluff_catcher": {
       "id": "bluff_catcher",
-      "name_zh": "诈唬识破者",
+      "name_zh": "识破诈唬",
       "name_en": "Bluff Catcher",
       "type_zh": "战士 行动",
       "text_zh": "你可以摧毁你控制的一个金币，而非支付此牌的费用。\n你本回合的下一次剑攻击获得+3力量，以及“当此牌攻击时，与防御英雄下注。胜者在其下一个结束阶段期间获得+1智力。”\n再动",
@@ -878,7 +878,7 @@
     },
     "blunten": {
       "id": "blunten",
-      "name_zh": "钝化",
+      "name_zh": "卸劲",
       "name_en": "Blunten",
       "type_zh": "战士 阻挡",
       "text_zh": "当此牌防御武器攻击时，攻击英雄弃一张牌。",
@@ -897,7 +897,7 @@
     },
     "bolt_of_courage": {
       "id": "bolt_of_courage",
-      "name_zh": "勇气之雷",
+      "name_zh": "英勇如雷",
       "name_en": "Bolt of Courage",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "作为使用勇气之雷的额外费用，你可以为你的英雄的灵魂充能。\n若本回合你充能过，勇气之雷获得“若此牌命中，抽一张牌。”",
@@ -930,7 +930,7 @@
     },
     "bolting_blade": {
       "id": "bolting_blade",
-      "name_zh": "疾驰之刃",
+      "name_zh": "雷霆一斩",
       "name_en": "Bolting Blade",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "你本回合每充能一次，疾驰之刃的使用费用减少2点资源。",
@@ -949,7 +949,7 @@
     },
     "brimming_blade": {
       "id": "brimming_blade",
-      "name_zh": "满盈之刃",
+      "name_zh": "充盈剑刃",
       "name_en": "Brimming Blade",
       "type_zh": "战士 行动",
       "text_zh": "磨砺你控制的目标剑两次。\n再动",
@@ -971,7 +971,7 @@
     },
     "brothers_of_flame": {
       "id": "brothers_of_flame",
-      "name_zh": "火焰兄弟",
+      "name_zh": "烈焰手足",
       "name_en": "Brothers of Flame",
       "type_zh": "龙裔 战士 攻击反应",
       "text_zh": "仅当你控制两个或更多龙裔链环时才能使用此牌。\n目标匕首攻击获得+4力量。",
@@ -990,7 +990,7 @@
     },
     "carve_up": {
       "id": "carve_up",
-      "name_zh": "切碎",
+      "name_zh": "斩裂",
       "name_en": "Carve Up",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标武器攻击获得“当此牌命中英雄时，你可以从此武器上移除一个+1力量指示物。若如此做，摧毁其军械库中的一张牌。”",
@@ -1042,7 +1042,7 @@
     },
     "check_raise": {
       "id": "check_raise",
-      "name_zh": "加注",
+      "name_zh": "先骗后杀",
       "name_en": "Check-Raise",
       "type_zh": "战士 行动",
       "text_zh": "本回合你控制的攻击下一次下注时，它获得+4力量。\n再动",
@@ -1075,7 +1075,7 @@
     },
     "chorus_of_ironsong": {
       "id": "chorus_of_ironsong",
-      "name_zh": "铁歌合唱",
+      "name_zh": "铁歌和声",
       "name_en": "Chorus of Ironsong",
       "type_zh": "战士 攻击反应",
       "text_zh": "多琳茜娅专精\n直到回合结束，目标黎明之刃获得+1力量，以及“此牌将造成的伤害不能被防止。”\n团结——当此牌与一张来自手牌的牌一起防御时，在任意数量英雄的控制下创造一个勇气衍生物。",
@@ -1134,7 +1134,7 @@
     },
     "clash_of_agility": {
       "id": "clash_of_agility",
-      "name_zh": "敏捷交锋",
+      "name_zh": "迅疾交锋",
       "name_en": "Clash of Agility",
       "type_zh": "蛮将·战士 行动·攻击",
       "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个敏捷衍生物。",
@@ -1167,7 +1167,7 @@
     },
     "clash_of_vigor": {
       "id": "clash_of_vigor",
-      "name_zh": "活力交锋",
+      "name_zh": "酣战交锋",
       "name_en": "Clash of Vigor",
       "type_zh": "守护者·战士 行动·攻击",
       "text_zh": "当此牌防御时，与攻击英雄交锋。胜者创造一个活力衍生物。",
@@ -1273,7 +1273,7 @@
     },
     "crimson_waltz": {
       "id": "crimson_waltz",
-      "name_zh": "绯红华尔兹",
+      "name_zh": "血色华尔兹",
       "name_en": "Crimson Waltz",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的下一次剑攻击获得+4力量。\n本回合你下一次用剑攻击时，抽一张牌，然后将你手牌中的一张牌置于你的牌库顶。\n再动",
@@ -1294,7 +1294,7 @@
     },
     "cross_the_line": {
       "id": "cross_the_line",
-      "name_zh": "越过界限",
+      "name_zh": "越界",
       "name_en": "Cross the Line",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "作为使用越过界限的额外费用，你可以为你的英雄的灵魂充能。",
@@ -1327,7 +1327,7 @@
     },
     "cut_deep": {
       "id": "cut_deep",
-      "name_zh": "深割",
+      "name_zh": "深斩",
       "name_en": "Cut Deep",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的下一次匕首攻击获得+4力量。\n再动",
@@ -1360,7 +1360,7 @@
     },
     "cut_from_the_same_cloth": {
       "id": "cut_from_the_same_cloth",
-      "name_zh": "一丘之貉",
+      "name_zh": "师出同门",
       "name_en": "Cut from the Same Cloth",
       "type_zh": "刺客·战士 行动",
       "text_zh": "目标对手英雄展示其手牌。若以此方式展示的是攻击反应牌，标记该英雄。\n你本回合的下一次匕首攻击获得+4力量。\n再动",
@@ -1394,7 +1394,7 @@
     },
     "cut_n_carve": {
       "id": "cut_n_carve",
-      "name_zh": "切与雕",
+      "name_zh": "连切带削",
       "name_en": "Cut n' Carve",
       "type_zh": "战士 行动",
       "text_zh": "磨砺你控制的目标剑。\n若其上有1个或更多+1力量指示物，本回合它的下一次攻击获得支配。\n再动",
@@ -1530,10 +1530,10 @@
     },
     "deadly_display": {
       "id": "deadly_display",
-      "name_zh": "致命展示",
+      "name_zh": "致命绝活",
       "name_en": "Deadly Display",
       "type_zh": "战士 攻击反应",
-      "text_zh": "目标武器攻击获得+2力量。若该武器本回合被磨砺过，该攻击获得“当此牌命中英雄时，创造一个连击衍生物。”",
+      "text_zh": "目标武器攻击获得+2力量。若该武器本回合被磨砺过，该攻击获得“当此牌命中英雄时，创造一个乱舞衍生物。”",
       "text_en": "Target weapon attack gets +2{p}. If the weapon has been sharpened this turn, the attack gets \"When this hits a hero, create a Flurry token.\"",
       "source": "https://cards.fabtcg.com/card/deadly_display/",
       "status": "machine-draft",
@@ -1580,7 +1580,7 @@
     },
     "den_of_the_spider": {
       "id": "den_of_the_spider",
-      "name_zh": "蜘蛛巢穴",
+      "name_zh": "蜘蛛巢窟",
       "name_en": "Den of the Spider",
       "type_zh": "刺客·战士 行动 防御反应·陷阱",
       "text_zh": "当此牌防御力量大于其基础的攻击时，标记攻击英雄。",
@@ -1618,7 +1618,7 @@
     },
     "diced": {
       "id": "diced",
-      "name_zh": "切丁",
+      "name_zh": "千刀万剐",
       "name_en": "Diced",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标匕首攻击获得+1力量。\n你本回合的下一次匕首攻击获得+3力量。",
@@ -1711,7 +1711,7 @@
     },
     "donkey": {
       "id": "donkey",
-      "name_zh": "驴",
+      "name_zh": "菜鱼互啄",
       "name_en": "Donkey",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标剑攻击获得+1力量，并与防御英雄下注。胜者摧毁自己军械库中的一张牌。",
@@ -1730,7 +1730,7 @@
     },
     "double_down": {
       "id": "double_down",
-      "name_zh": "加倍下注",
+      "name_zh": "再抬一手",
       "name_en": "Double Down",
       "type_zh": "守护者·战士 行动",
       "text_zh": "你可以摧毁你控制的一个金币，而非支付加倍下注的费用。\n本回合下一次下注的攻击获得+3力量和压制。\n若本回合一位英雄将因下注创造1个或更多衍生物，改为其创造数量加1的每种这些衍生物。\n再动",
@@ -1751,7 +1751,7 @@
     },
     "downswing": {
       "id": "downswing",
-      "name_zh": "下劈",
+      "name_zh": "胜败俱伤",
       "name_en": "Downswing",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标剑攻击获得+1力量，并与防御英雄下注。胜者失去1点生命。",
@@ -1803,7 +1803,7 @@
     },
     "drawing_dead": {
       "id": "drawing_dead",
-      "name_zh": "摸到死牌",
+      "name_zh": "败局已定",
       "name_en": "Drawing Dead",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标剑攻击获得+1力量，并与防御英雄下注。胜者弃一张牌。",
@@ -1822,7 +1822,7 @@
     },
     "drawn_to_the_blade": {
       "id": "drawn_to_the_blade",
-      "name_zh": "被刃吸引",
+      "name_zh": "沉溺兵戈",
       "name_en": "Drawn to the Blade",
       "type_zh": "战士 行动",
       "text_zh": "磨砺你控制的目标剑。\n若其上有2个或更多+1力量指示物，本回合它下一次命中时，抽一张牌。\n再动",
@@ -1844,7 +1844,7 @@
     },
     "driving_blade": {
       "id": "driving_blade",
-      "name_zh": "驱动之刃",
+      "name_zh": "刀刀紧逼",
       "name_en": "Driving Blade",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的下一次武器攻击获得+3力量和再动。\n再动",
@@ -1896,7 +1896,7 @@
     },
     "dusk_path_pilgrimage": {
       "id": "dusk_path_pilgrimage",
-      "name_zh": "黄昏之路朝圣",
+      "name_zh": "朝圣黄昏之路",
       "name_en": "Dusk Path Pilgrimage",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的下一次武器攻击获得+3力量，以及“若此牌命中，本回合你可以用此武器额外攻击一次。”\n再动",
@@ -1929,7 +1929,7 @@
     },
     "dynastic_dedication": {
       "id": "dynastic_dedication",
-      "name_zh": "王朝奉献",
+      "name_zh": "命献山河",
       "name_en": "Dynastic Dedication",
       "type_zh": "龙裔 战士 攻击反应",
       "text_zh": "每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n目标匕首攻击获得+3力量。",
@@ -1981,10 +1981,10 @@
     },
     "edict_of_steel": {
       "id": "edict_of_steel",
-      "name_zh": "钢铁敕令",
+      "name_zh": "磨铁为律",
       "name_en": "Edict of Steel",
       "type_zh": "战士 行动",
-      "text_zh": "磨砺你控制的目标剑。\n若其上有1个或更多+1力量指示物，创造一个连击衍生物。\n再动",
+      "text_zh": "磨砺你控制的目标剑。\n若其上有1个或更多+1力量指示物，创造一个乱舞衍生物。\n再动",
       "text_en": "Sharpen target sword you control.\nIf it has 1 or more +1{p} counters, create a Flurry token.\nGo again",
       "source": "https://cards.fabtcg.com/card/edict_of_steel/",
       "status": "machine-draft",
@@ -2015,7 +2015,7 @@
     },
     "emboldened_blade": {
       "id": "emboldened_blade",
-      "name_zh": "鼓舞之刃",
+      "name_zh": "振威一刀",
       "name_en": "Emboldened Blade",
       "type_zh": "战士 行动",
       "text_zh": "将任意军械库中的一张牌面朝下的牌翻为正面朝上。若其为防御反应，摧毁它，你本回合的下一次武器攻击获得+1力量。\n再动",
@@ -2057,7 +2057,7 @@
     },
     "endear_devotion": {
       "id": "endear_devotion",
-      "name_zh": "彰显虔诚",
+      "name_zh": "丹心相奉",
       "name_en": "Endear Devotion",
       "type_zh": "龙裔 战士 攻击反应",
       "text_zh": "目标匕首攻击获得+3力量。若你控制两个或更多龙裔链环，创造一个效忠衍生物。",
@@ -2076,7 +2076,7 @@
     },
     "engage_steel": {
       "id": "engage_steel",
-      "name_zh": "接刃",
+      "name_zh": "执钢迎战",
       "name_en": "Engage Steel",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的下一次剑攻击获得+3力量，以及“若此牌被战士牌防御，此牌获得+1力量。”\n再动",
@@ -2109,7 +2109,7 @@
     },
     "engaged_swiftblade": {
       "id": "engaged_swiftblade",
-      "name_zh": "缠斗快剑",
+      "name_zh": "疾剑交锋",
       "name_en": "Engaged Swiftblade",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的下一次战士攻击获得+3力量，以及“若此牌被攻击行动牌防御，此牌获得再动。”\n再动",
@@ -2142,7 +2142,7 @@
     },
     "engulfing_light": {
       "id": "engulfing_light",
-      "name_zh": "吞没之光",
+      "name_zh": "辉光笼罩",
       "name_en": "Engulfing Light",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "作为使用吞没之光的额外费用，你可以为你的英雄的灵魂充能。\n若本回合你充能过，吞没之光获得“若此牌命中，将其置入你的英雄的灵魂。”",
@@ -2175,7 +2175,7 @@
     },
     "escalate_bloodshed": {
       "id": "escalate_bloodshed",
-      "name_zh": "升级流血",
+      "name_zh": "血战愈狂",
       "name_en": "Escalate Bloodshed",
       "type_zh": "战士 瞬间·光环",
       "text_zh": "每当行动阶段期间一位英雄抽牌时，该英雄失去1点生命。\n在每位英雄的行动阶段开始时，该英雄抽一张牌。\n在每位英雄的结束阶段开始时，若本回合没有武器攻击过，摧毁此牌。",
@@ -2194,7 +2194,7 @@
     },
     "express_lightning": {
       "id": "express_lightning",
-      "name_zh": "迅疾闪电",
+      "name_zh": "电迸急袭",
       "name_en": "Express Lightning",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "作为使用迅疾闪电的额外费用，你可以为你的英雄的灵魂充能。",
@@ -2258,7 +2258,7 @@
     },
     "felling_swing": {
       "id": "felling_swing",
-      "name_zh": "砍伐挥击",
+      "name_zh": "轰劈",
       "name_en": "Felling Swing",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的下一次斧攻击获得+6力量。\n再动",
@@ -2291,7 +2291,7 @@
     },
     "fire_and_brimstone": {
       "id": "fire_and_brimstone",
-      "name_zh": "烈火硫磺",
+      "name_zh": "硫火连斩",
       "name_en": "Fire and Brimstone",
       "type_zh": "龙裔 战士 攻击反应",
       "text_zh": "传奇\n每当你控制一个龙裔链环，此牌的使用费用减少1点资源。\n你控制的匕首获得+1力量，且本回合你可以用它们每把额外攻击一次。",
@@ -2312,7 +2312,7 @@
     },
     "flurry": {
       "id": "flurry",
-      "name_zh": "连击",
+      "name_zh": "乱舞",
       "name_en": "Flurry",
       "type_zh": "战士 衍生物·光环",
       "text_zh": "当你启动武器攻击时，摧毁此牌，本回合你可以用该武器攻击两次。",
@@ -2331,10 +2331,10 @@
     },
     "flurry_foot_dance": {
       "id": "flurry_foot_dance",
-      "name_zh": "连击步伐",
+      "name_zh": "乱剑步",
       "name_en": "Flurry Foot Dance",
       "type_zh": "战士 防御反应",
-      "text_zh": "当此牌防御时，若你控制一个连击衍生物，此牌获得+2防御。",
+      "text_zh": "当此牌防御时，若你控制一个乱舞衍生物，此牌获得+2防御。",
       "text_en": "While this is defending, if you control a Flurry token, this gets +2{d}.",
       "source": "https://cards.fabtcg.com/card/flurry_foot_dance/",
       "status": "machine-draft",
@@ -2350,7 +2350,7 @@
     },
     "flurry_stance": {
       "id": "flurry_stance",
-      "name_zh": "连击架势",
+      "name_zh": "乱剑势",
       "name_en": "Flurry Stance",
       "type_zh": "战士 行动·光环",
       "text_zh": "再动\n在你的回合开始时，摧毁此牌，然后本回合你可以用你控制的每把匕首额外攻击一次。",
@@ -2371,7 +2371,7 @@
     },
     "glaring_impact": {
       "id": "glaring_impact",
-      "name_zh": "刺目冲击",
+      "name_zh": "夺目重击",
       "name_en": "Glaring Impact",
       "type_zh": "光 战士 行动·攻击",
       "text_zh": "作为使用此牌的额外费用，你可以为你的英雄的灵魂充能。\n若以此方式充能的是黄色牌，此牌获得压制。",
@@ -2405,10 +2405,10 @@
     },
     "gleam_of_the_blade": {
       "id": "gleam_of_the_blade",
-      "name_zh": "剑刃微光",
+      "name_zh": "拔刀剑影",
       "name_en": "Gleam of the Blade",
       "type_zh": "战士 攻击反应",
-      "text_zh": "目标武器攻击获得+3力量。\n瞬间——弃掉此牌：创造一个连击衍生物。",
+      "text_zh": "目标武器攻击获得+3力量。\n瞬间——弃掉此牌：创造一个乱舞衍生物。",
       "text_en": "Target weapon attack gets +3{p}.\nInstant - Discard this: Create a Flurry token.",
       "source": "https://cards.fabtcg.com/card/gleam_of_the_blade/",
       "status": "machine-draft",
@@ -2424,7 +2424,7 @@
     },
     "glint_the_quicksilver": {
       "id": "glint_the_quicksilver",
-      "name_zh": "水银闪光",
+      "name_zh": "流银一闪",
       "name_en": "Glint the Quicksilver",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标武器攻击获得再动。\n重演——若防御英雄在此链环中用手牌中的牌防御过，抽一张牌。",
@@ -2687,7 +2687,7 @@
     },
     "hit_and_run": {
       "id": "hit_and_run",
-      "name_zh": "打了就跑",
+      "name_zh": "连跑带打",
       "name_en": "Hit and Run",
       "type_zh": "战士 行动",
       "text_zh": "你本回合的下一次武器攻击获得再动。\n若本回合你用武器攻击过，你本回合的下一次攻击获得+3力量。\n再动",
@@ -2930,7 +2930,7 @@
     },
     "indefensibly_honed": {
       "id": "indefensibly_honed",
-      "name_zh": "无可防御的磨砺",
+      "name_zh": "锋刃难敌",
       "name_en": "Indefensibly Honed",
       "type_zh": "战士 行动",
       "text_zh": "磨砺你控制的目标剑。\n若其上有3个或更多+1力量指示物，本回合你用它进行的下一次攻击获得“当此牌被1张或更多牌防御时，对防御英雄造成1点伤害。”再动",
@@ -3450,7 +3450,7 @@
       "name_zh": "反拍",
       "name_en": "Off Beat",
       "type_zh": "战士 行动",
-      "text_zh": "摧毁至多1个剑舞和/或连击衍生物。每有一个以此方式摧毁的衍生物，磨砺你控制的目标剑一次。\n再动",
+      "text_zh": "摧毁至多1个剑舞和/或乱舞衍生物。每有一个以此方式摧毁的衍生物，磨砺你控制的目标剑一次。\n再动",
       "text_en": "Destroy up to 1 Blade Dance and/or Flurry token. Sharpen target sword you control for each token destroyed this way.\nGo again",
       "source": "https://cards.fabtcg.com/card/off_beat/",
       "status": "machine-draft",
@@ -3472,7 +3472,7 @@
       "name_zh": "噢嘞！",
       "name_en": "Olé",
       "type_zh": "战士 攻击反应",
-      "text_zh": "从目标攻击中的武器上移除一个+1力量指示物。若如此做，创造一个连击衍生物并抽一张牌。",
+      "text_zh": "从目标攻击中的武器上移除一个+1力量指示物。若如此做，创造一个乱舞衍生物并抽一张牌。",
       "text_en": "Remove a +1{p} counter from target attacking weapon. If you do, create a Flurry token and draw a card.",
       "source": "https://cards.fabtcg.com/card/ole/",
       "status": "machine-draft",
@@ -3729,7 +3729,7 @@
     },
     "power_stance": {
       "id": "power_stance",
-      "name_zh": "力量架势",
+      "name_zh": "劲剑势",
       "name_en": "Power Stance",
       "type_zh": "战士 行动·光环",
       "text_zh": "再动\n在你的回合开始时，摧毁此牌，然后本回合你的匕首攻击获得+1力量。",
@@ -4641,7 +4641,7 @@
       "name_zh": "摊牌",
       "name_en": "Showdown",
       "type_zh": "战士 行动",
-      "text_zh": "你本回合的下一次剑攻击获得+3力量，以及“当此牌攻击时，与防御英雄下注。胜者创造一个连击衍生物。”\n再动",
+      "text_zh": "你本回合的下一次剑攻击获得+3力量，以及“当此牌攻击时，与防御英雄下注。胜者创造一个乱舞衍生物。”\n再动",
       "text_en": "Your next sword attack this turn gets +3{p} and \"When this attacks, wager with the defending hero. The winner creates a Flurry token.\"\nGo again",
       "source": "https://cards.fabtcg.com/card/showdown/",
       "status": "machine-draft",
@@ -4674,7 +4674,7 @@
       "name_zh": "剥壳",
       "name_en": "Shuck",
       "type_zh": "战士 行动",
-      "text_zh": "创造一个连击衍生物。",
+      "text_zh": "创造一个乱舞衍生物。",
       "text_en": "Create a Flurry token.",
       "source": "https://cards.fabtcg.com/card/shuck/",
       "status": "machine-draft",
@@ -4851,7 +4851,7 @@
     },
     "small_blinder": {
       "id": "small_blinder",
-      "name_zh": "小盲击",
+      "name_zh": "小盲重击",
       "name_en": "Small Blinder",
       "type_zh": "战士 攻击反应",
       "text_zh": "目标剑攻击获得+4力量，并与防御英雄下注。胜者创造一个剑舞衍生物。",
@@ -5075,7 +5075,7 @@
     },
     "steelblade_shunt": {
       "id": "steelblade_shunt",
-      "name_zh": "钢刃分流",
+      "name_zh": "拨刀防反",
       "name_en": "Steelblade Shunt",
       "type_zh": "战士 防御反应",
       "text_zh": "若钢刃分流防御武器攻击，对攻击英雄造成1点伤害。",
@@ -5473,10 +5473,10 @@
     },
     "toe_the_line": {
       "id": "toe_the_line",
-      "name_zh": "循规蹈矩",
+      "name_zh": "寸步毋进",
       "name_en": "Toe the Line",
       "type_zh": "战士 瞬间",
-      "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。若你以此方式防止伤害，创造一个连击衍生物。",
+      "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。若你以此方式防止伤害，创造一个乱舞衍生物。",
       "text_en": "The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Flurry token.",
       "source": "https://cards.fabtcg.com/card/toe_the_line/",
       "status": "machine-draft",

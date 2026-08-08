@@ -70,7 +70,7 @@
     "status": "machine-draft"
   },
   "arakni_web_of_deceit": {
-    "name_zh": "阿拉克尼·欺诈天罗",
+    "name_zh": "阿拉克尼·诡诈天罗",
     "name_en": "Arakni, Web of Deceit",
     "type_zh": "",
     "type_en": "Chaos Assassin Hero - Young",
@@ -84,7 +84,7 @@
     "status": "machine-draft"
   },
   "aurora": {
-    "name_zh": "奥罗拉",
+    "name_zh": "欧若拉",
     "name_en": "Aurora",
     "type_zh": "",
     "type_en": "Elemental Runeblade Hero - Young",
@@ -98,7 +98,7 @@
     "status": "machine-draft"
   },
   "aurora_emissary_of_lightning": {
-    "name_zh": "奥罗拉·闪电使者",
+    "name_zh": "欧若拉·闪电来使",
     "name_en": "Aurora, Emissary of Lightning",
     "type_zh": "",
     "type_en": "Lightning Runeblade Hero - Young",
@@ -112,7 +112,7 @@
     "status": "machine-draft"
   },
   "aurora_legacy_of_tempest": {
-    "name_zh": "奥罗拉·风暴后裔",
+    "name_zh": "欧若拉·风暴后裔",
     "name_en": "Aurora, Legacy of Tempest",
     "type_zh": "",
     "type_en": "Lightning Runeblade Hero",
@@ -126,7 +126,7 @@
     "status": "machine-draft"
   },
   "aurora_shooting_star": {
-    "name_zh": "奥罗拉·流星",
+    "name_zh": "欧若拉·流星",
     "name_en": "Aurora, Shooting Star",
     "type_zh": "",
     "type_en": "Elemental Runeblade Hero",
@@ -154,7 +154,7 @@
     "status": "machine-draft"
   },
   "azalea_ace_in_the_hole": {
-    "name_zh": "阿泽利亚·隐藏王牌",
+    "name_zh": "阿泽利亚·伏杀王牌",
     "name_en": "Azalea, Ace in the Hole",
     "type_zh": "",
     "type_en": "Ranger Hero",
@@ -196,7 +196,7 @@
     "status": "machine-draft"
   },
   "betsy": {
-    "name_zh": "贝特西",
+    "name_zh": "贝琪",
     "name_en": "Betsy",
     "type_zh": "",
     "type_en": "Guardian Hero - Young",
@@ -210,7 +210,7 @@
     "status": "machine-draft"
   },
   "betsy_skin_in_the_game": {
-    "name_zh": "贝特西·以身入局",
+    "name_zh": "贝琪·以身入局",
     "name_en": "Betsy, Skin in the Game",
     "type_zh": "",
     "type_en": "Guardian Hero",
@@ -392,7 +392,7 @@
     "status": "machine-draft"
   },
   "chane_bound_by_shadow": {
-    "name_zh": "查恩·受缚于暗影",
+    "name_zh": "查恩·深缚暗影",
     "name_en": "Chane, Bound by Shadow",
     "type_zh": "",
     "type_en": "Shadow Runeblade Hero",
@@ -406,7 +406,7 @@
     "status": "machine-draft"
   },
   "cindra": {
-    "name_zh": "辛德拉",
+    "name_zh": "欣卓",
     "name_en": "Cindra",
     "type_zh": "",
     "type_en": "Royal Draconic Ninja Hero - Young",
@@ -420,7 +420,7 @@
     "status": "machine-draft"
   },
   "cindra_dracai_of_retribution": {
-    "name_zh": "辛德拉·天罚之龙",
+    "name_zh": "欣卓·天罚之龙",
     "name_en": "Cindra, Dracai of Retribution",
     "type_zh": "",
     "type_en": "Royal Draconic Ninja Hero",
@@ -504,7 +504,7 @@
     "status": "machine-draft"
   },
   "dorinthea": {
-    "name_zh": "多琳希雅",
+    "name_zh": "多林茜娅",
     "name_en": "Dorinthea",
     "type_zh": "",
     "type_en": "Warrior Hero - Young",
@@ -518,7 +518,7 @@
     "status": "machine-draft"
   },
   "dorinthea_ironsong": {
-    "name_zh": "多琳希雅·铁歌",
+    "name_zh": "多林茜娅·铁歌",
     "name_en": "Dorinthea Ironsong",
     "type_zh": "",
     "type_en": "Warrior Hero",
@@ -532,7 +532,7 @@
     "status": "machine-draft"
   },
   "dorinthea_quicksilver_prodigy": {
-    "name_zh": "多琳希雅·水银神童",
+    "name_zh": "多林茜娅·银影剑星",
     "name_en": "Dorinthea, Quicksilver Prodigy",
     "type_zh": "",
     "type_en": "Warrior Hero - Young",
@@ -546,7 +546,7 @@
     "status": "machine-draft"
   },
   "dromai": {
-    "name_zh": "德罗迈",
+    "name_zh": "卓魅",
     "name_en": "Dromai",
     "type_zh": "",
     "type_en": "Draconic Illusionist Hero - Young",
@@ -560,7 +560,7 @@
     "status": "machine-draft"
   },
   "dromai_ash_artist": {
-    "name_zh": "德罗迈·灰烬艺术家",
+    "name_zh": "卓魅·炎烬绘师",
     "name_en": "Dromai, Ash Artist",
     "type_zh": "",
     "type_en": "Draconic Illusionist Hero",
@@ -588,7 +588,7 @@
     "status": "machine-draft"
   },
   "enigma": {
-    "name_zh": "伊妮格玛",
+    "name_zh": "恩妮格玛",
     "name_en": "Enigma",
     "type_zh": "",
     "type_en": "Mystic Illusionist Hero - Young",
@@ -602,7 +602,7 @@
     "status": "machine-draft"
   },
   "enigma_ledger_of_ancestry": {
-    "name_zh": "伊妮格玛·先祖遗录",
+    "name_zh": "恩妮格玛·先祖遗录",
     "name_en": "Enigma, Ledger of Ancestry",
     "type_zh": "",
     "type_en": "Mystic Illusionist Hero",
@@ -616,7 +616,7 @@
     "status": "machine-draft"
   },
   "enigma_new_moon": {
-    "name_zh": "伊妮格玛·新月",
+    "name_zh": "恩妮格玛·新月才俊",
     "name_en": "Enigma, New Moon",
     "type_zh": "",
     "type_en": "Mystic Illusionist Hero - Young",
@@ -644,7 +644,7 @@
     "status": "machine-draft"
   },
   "fai_rising_rebellion": {
-    "name_zh": "法伊·崛行叛焰",
+    "name_zh": "法伊·腾袭叛焰",
     "name_en": "Fai, Rising Rebellion",
     "type_zh": "",
     "type_en": "Draconic Ninja Hero",
@@ -728,7 +728,7 @@
     "status": "machine-draft"
   },
   "frankie_make_ends_meat": {
-    "name_zh": "弗兰基·混口肉吃",
+    "name_zh": "弗兰姬·混口肉吃",
     "name_en": "Frankie, Make Ends Meat",
     "type_zh": "",
     "type_en": "Necromancer Hero - Young",
@@ -770,7 +770,7 @@
     "status": "machine-draft"
   },
   "gravy_bones_shipwrecked_looter": {
-    "name_zh": "格雷维·伯恩斯，掠船劫客",
+    "name_zh": "格雷维·伯恩斯，破舰大劫客",
     "name_en": "Gravy Bones, Shipwrecked Looter",
     "type_zh": "",
     "type_en": "Pirate Necromancer Hero",
@@ -840,7 +840,7 @@
     "status": "machine-draft"
   },
   "ira_scarlet_revenger": {
-    "name_zh": "伊拉·猩红仇敌",
+    "name_zh": "伊拉·绯红仇敌",
     "name_en": "Ira, Scarlet Revenger",
     "type_zh": "",
     "type_en": "Ninja Hero",
@@ -980,7 +980,7 @@
     "status": "machine-draft"
   },
   "katsu_the_wanderer": {
-    "name_zh": "浪行客卡兹",
+    "name_zh": "卡兹·放浪行客",
     "name_en": "Katsu, the Wanderer",
     "type_zh": "",
     "type_en": "Ninja Hero",
@@ -1582,7 +1582,7 @@
     "status": "machine-draft"
   },
   "scurv_stowaway": {
-    "name_zh": "斯柯夫·偷渡者",
+    "name_zh": "斯柯夫·匿航船客",
     "name_en": "Scurv, Stowaway",
     "type_zh": "",
     "type_en": "Pirate Thief Hero - Young",
@@ -1680,7 +1680,7 @@
     "status": "machine-draft"
   },
   "teklovossen_esteemed_magnate": {
-    "name_zh": "泰克洛沃森·赫威巨擘",
+    "name_zh": "泰克洛沃森·奇械巨擘",
     "name_en": "Teklovossen, Esteemed Magnate",
     "type_zh": "",
     "type_en": "Mechanologist Hero",
@@ -1750,7 +1750,7 @@
     "status": "machine-draft"
   },
   "tuffnut_bumbling_hulkster": {
-    "name_zh": "塔夫纳特·笨拙猛将",
+    "name_zh": "塔夫纳特·憨蛮猛将",
     "name_en": "Tuffnut, Bumbling Hulkster",
     "type_zh": "",
     "type_en": "Revered Brute Hero",

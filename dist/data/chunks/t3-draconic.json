@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "07f55bee7dc2",
+  "version": "72b706b0884c",
   "cards": {
     "art_of_the_phoenix_war": {
       "id": "art_of_the_phoenix_war",
@@ -489,7 +489,7 @@
     },
     "loyalty_beyond_the_grave": {
       "id": "loyalty_beyond_the_grave",
-      "name_zh": "超越坟墓的忠诚",
+      "name_zh": "生为龙臣·死为龙魂",
       "name_en": "Loyalty Beyond the Grave",
       "type_zh": "龙裔, 防御反应",
       "text_zh": "当此牌在你坟场中时，在你的回合开始时，你可以放逐你坟场中的2张名为超越坟墓的忠诚的牌。若如此做，抽一张牌。",
@@ -508,7 +508,7 @@
     },
     "march_of_loyalty": {
       "id": "march_of_loyalty",
-      "name_zh": "忠诚进军",
+      "name_zh": "忠魂赴征",
       "name_en": "March of Loyalty",
       "type_zh": "龙裔 行动·攻击",
       "text_zh": "若本回合你创造过效忠衍生物，此牌获得再动。",
@@ -529,7 +529,7 @@
     },
     "oath_of_loyalty": {
       "id": "oath_of_loyalty",
-      "name_zh": "忠诚誓言",
+      "name_zh": "忠誓奉龙",
       "name_en": "Oath of Loyalty",
       "type_zh": "龙裔 行动·攻击",
       "text_zh": "仅当这是你回合的第一个行动时才能使用此牌。\n当此牌被使用时，直到回合结束，你只能使用龙裔牌。\n再动",
@@ -740,7 +740,7 @@
       "name_zh": "炽红",
       "name_en": "Red Hot",
       "type_zh": "龙裔 行动·攻击",
-      "text_zh": "德罗迈或法伊专精\n破裂——若炽红是作为链环4或更高使用的，它获得“当你用此牌攻击时，展示你牌库顶的X张牌，X为你控制的龙裔链环数量。对任意目标造成与此方式展示的红色牌数量相等的伤害，然后洗牌。”",
+      "text_zh": "卓魅或法伊专精\n破裂——若炽红是作为链环4或更高使用的，它获得“当你用此牌攻击时，展示你牌库顶的X张牌，X为你控制的龙裔链环数量。对任意目标造成与此方式展示的红色牌数量相等的伤害，然后洗牌。”",
       "text_en": "Dromai or Fai Specialization\nRupture - If Red Hot is played as chain link 4 or higher, it has \"When you attack with this, reveal the top X cards of your deck, where X is the number of Draconic chain links you control. Deal damage equal to the number of red cards revealed this way to any target, then shuffle.\"",
       "source": "https://cards.fabtcg.com/card/red_hot/",
       "status": "machine-draft",
@@ -761,7 +761,7 @@
       "name_zh": "奋起",
       "name_en": "Rise Up",
       "type_zh": "龙裔 行动·攻击",
-      "text_zh": "德罗迈或法伊专精\n破裂——若奋起是作为链环4或更高使用的，它获得支配和+X力量，X为你控制的凤凰烈焰数量的两倍。",
+      "text_zh": "卓魅或法伊专精\n破裂——若奋起是作为链环4或更高使用的，它获得支配和+X力量，X为你控制的凤凰烈焰数量的两倍。",
       "text_en": "Dromai or Fai Specialization\nRupture - If Rise Up is played as chain link 4 or higher, it has dominate and +X{p}, where X is twice the number of Phoenix Flames you control.",
       "source": "https://cards.fabtcg.com/card/rise_up/",
       "status": "machine-draft",

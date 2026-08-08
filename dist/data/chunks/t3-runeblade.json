@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "07f55bee7dc2",
+  "version": "72b706b0884c",
   "cards": {
     "aether_slash": {
       "id": "aether_slash",
@@ -88,7 +88,7 @@
       "name_zh": "弧状闪电",
       "name_en": "Arc Lightning",
       "type_zh": "闪电 符文剑士 行动",
-      "text_zh": "奥罗拉专精\n本回合每当你获得再动时，对任意目标造成1点奥术伤害。\n本回合你使用的下一张行动牌获得再动。\n再动",
+      "text_zh": "欧若拉专精\n本回合每当你获得再动时，对任意目标造成1点奥术伤害。\n本回合你使用的下一张行动牌获得再动。\n再动",
       "text_en": "Aurora Specialization\nWhenever you go again this turn, deal 1 arcane damage to any target.\nThe next action card you play this turn gets go again.\nGo again",
       "source": "https://cards.fabtcg.com/card/arc_lightning/",
       "status": "machine-draft",

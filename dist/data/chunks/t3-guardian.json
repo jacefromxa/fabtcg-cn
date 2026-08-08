@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "07f55bee7dc2",
+  "version": "72b706b0884c",
   "cards": {
     "act_of_glory": {
       "id": "act_of_glory",
@@ -233,7 +233,7 @@
       "name_zh": "下大注",
       "name_en": "Bet Big",
       "type_zh": "守护者 行动·攻击",
-      "text_zh": "贝特西专精\n当此牌攻击英雄时，你可以与该英雄以金币、力量和活力衍生物下注。",
+      "text_zh": "贝琪专精\n当此牌攻击英雄时，你可以与该英雄以金币、力量和活力衍生物下注。",
       "text_en": "Betsy Specialization\nWhen this attacks a hero, you may wager a Gold, Might, and Vigor token with them.",
       "source": "https://cards.fabtcg.com/card/bet_big/",
       "status": "machine-draft",
@@ -1422,7 +1422,7 @@
       "name_zh": "灌醉他们",
       "name_en": "Drink 'Em Under the Table",
       "type_zh": "守护者 行动·攻击",
-      "text_zh": "贝特西专精\n当此牌攻击英雄时，你可以与该英雄下注。胜者抽一张牌，另一位英雄弃一张牌。",
+      "text_zh": "贝琪专精\n当此牌攻击英雄时，你可以与该英雄下注。胜者抽一张牌，另一位英雄弃一张牌。",
       "text_en": "Betsy Specialization\nWhen this attacks a hero, you may wager with them. The winner draws a card, and the other hero discards a card.",
       "source": "https://cards.fabtcg.com/card/drink_em_under_the_table/",
       "status": "machine-draft",
@@ -2704,7 +2704,7 @@
       "name_zh": "打桩机",
       "name_en": "Pile Driver",
       "type_zh": "守护者 武器·Log （双手）",
-      "text_zh": "贝特西专精\n行动——支付4点资源，横置此牌：攻击\n当此牌攻击时，你可以与防御英雄以一个金币衍生物下注。",
+      "text_zh": "贝琪专精\n行动——支付4点资源，横置此牌：攻击\n当此牌攻击时，你可以与防御英雄以一个金币衍生物下注。",
       "text_en": "Betsy Specialization\nAction - {r}{r}{r}{r}, {t}: Attack\nWhen this attacks, you may wager a Gold token with the defending hero.",
       "source": "https://cards.fabtcg.com/card/pile_driver/",
       "status": "machine-draft",

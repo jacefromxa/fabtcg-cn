@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "07f55bee7dc2",
+  "version": "72b706b0884c",
   "cards": {
     "arakni": {
       "id": "arakni",
@@ -99,7 +99,7 @@
     },
     "arakni_web_of_deceit": {
       "id": "arakni_web_of_deceit",
-      "name_zh": "阿拉克尼·欺诈天罗",
+      "name_zh": "阿拉克尼·诡诈天罗",
       "name_en": "Arakni, Web of Deceit",
       "type_zh": "",
       "text_zh": "你的正在攻击被标记的英雄的具有隐匿的攻击获得+1力量，以及\"当此牌命中时，此牌获得再动。\"\n在你的结束阶段开始时，若一位对手已被标记，你成为一名随机的混沌特工。",
@@ -118,7 +118,7 @@
     },
     "aurora": {
       "id": "aurora",
-      "name_zh": "奥罗拉",
+      "name_zh": "欧若拉",
       "name_en": "Aurora",
       "type_zh": "",
       "text_zh": "每回合一次瞬间——支付2点资源：创造一个闪电化身衍生物。仅当本回合你使用过一张闪电牌时才能启动此异能。\n闪电精华",
@@ -139,7 +139,7 @@
     },
     "aurora_emissary_of_lightning": {
       "id": "aurora_emissary_of_lightning",
-      "name_zh": "奥罗拉·闪电使者",
+      "name_zh": "欧若拉·闪电来使",
       "name_en": "Aurora, Emissary of Lightning",
       "type_zh": "",
       "text_zh": "瞬间——支付2点资源，横置此牌，摧毁你控制的一个闪电流转：创造一个闪电化身衍生物。",
@@ -158,7 +158,7 @@
     },
     "aurora_legacy_of_tempest": {
       "id": "aurora_legacy_of_tempest",
-      "name_zh": "奥罗拉·风暴后裔",
+      "name_zh": "欧若拉·风暴后裔",
       "name_en": "Aurora, Legacy of Tempest",
       "type_zh": "",
       "text_zh": "瞬间——支付2点资源，横置此牌，摧毁你控制的一个闪电流转：创造一个闪电化身衍生物。",
@@ -177,7 +177,7 @@
     },
     "aurora_shooting_star": {
       "id": "aurora_shooting_star",
-      "name_zh": "奥罗拉·流星",
+      "name_zh": "欧若拉·流星",
       "name_en": "Aurora, Shooting Star",
       "type_zh": "",
       "text_zh": "每回合一次瞬间——支付2点资源：创造一个闪电化身衍生物。仅当本回合你使用过一张闪电牌时才能启动此异能。\n闪电精华",
@@ -217,7 +217,7 @@
     },
     "azalea_ace_in_the_hole": {
       "id": "azalea_ace_in_the_hole",
-      "name_zh": "阿泽利亚·隐藏王牌",
+      "name_zh": "阿泽利亚·伏杀王牌",
       "name_en": "Azalea, Ace in the Hole",
       "type_zh": "",
       "text_zh": "每回合一次行动——费用0：将你军械库中的一张牌置于你的牌库底。若如此做，将你牌库顶的一张牌正面朝上放入你的军械库。若其为箭矢牌，它直到回合结束获得支配。再动",
@@ -274,7 +274,7 @@
     },
     "betsy": {
       "id": "betsy",
-      "name_zh": "贝特西",
+      "name_zh": "贝琪",
       "name_en": "Betsy",
       "type_zh": "",
       "text_zh": "每当你控制的攻击下注时，你可以支付2点资源。若如此做，该攻击获得+1力量和压制。",
@@ -293,7 +293,7 @@
     },
     "betsy_skin_in_the_game": {
       "id": "betsy_skin_in_the_game",
-      "name_zh": "贝特西·以身入局",
+      "name_zh": "贝琪·以身入局",
       "name_en": "Betsy, Skin in the Game",
       "type_zh": "",
       "text_zh": "每当你控制的攻击下注时，你可以支付2点资源。若如此做，该攻击获得+1力量和压制。",
@@ -548,7 +548,7 @@
     },
     "chane_bound_by_shadow": {
       "id": "chane_bound_by_shadow",
-      "name_zh": "查恩·受缚于暗影",
+      "name_zh": "查恩·深缚暗影",
       "name_en": "Chane, Bound by Shadow",
       "type_zh": "",
       "text_zh": "每回合一次行动——创造一个灵魂枷锁衍生物：本回合你的下一次符文剑士或暗影行动获得再动。再动",
@@ -567,7 +567,7 @@
     },
     "cindra": {
       "id": "cindra",
-      "name_zh": "辛德拉",
+      "name_zh": "欣卓",
       "name_en": "Cindra",
       "type_zh": "",
       "text_zh": "每当你命中被标记的英雄时，创造一个效忠衍生物。\n每回合一次瞬间——支付3点资源：从你的坟场中装备至多2把龙裔匕首。每当你控制一个龙裔链环，此异能启动费用减少1点资源。",
@@ -586,7 +586,7 @@
     },
     "cindra_dracai_of_retribution": {
       "id": "cindra_dracai_of_retribution",
-      "name_zh": "辛德拉·天罚之龙",
+      "name_zh": "欣卓·天罚之龙",
       "name_en": "Cindra, Dracai of Retribution",
       "type_zh": "",
       "text_zh": "每当你命中被标记的英雄时，创造一个效忠衍生物。\n每回合一次瞬间——支付3点资源：从你的坟场中装备至多2把龙裔匕首。每当你控制一个龙裔链环，此异能启动费用减少1点资源。",
@@ -700,7 +700,7 @@
     },
     "dorinthea": {
       "id": "dorinthea",
-      "name_zh": "多琳希雅",
+      "name_zh": "多林茜娅",
       "name_en": "Dorinthea",
       "type_zh": "",
       "text_zh": "每回合一次效果——当你控制的武器命中时，本回合你可以用该武器额外攻击一次。",
@@ -719,7 +719,7 @@
     },
     "dorinthea_ironsong": {
       "id": "dorinthea_ironsong",
-      "name_zh": "多琳希雅·铁歌",
+      "name_zh": "多林茜娅·铁歌",
       "name_en": "Dorinthea Ironsong",
       "type_zh": "",
       "text_zh": "每回合一次效果——当你控制的武器命中时，本回合你可以用该武器额外攻击一次。",
@@ -738,7 +738,7 @@
     },
     "dorinthea_quicksilver_prodigy": {
       "id": "dorinthea_quicksilver_prodigy",
-      "name_zh": "多琳希雅·水银神童",
+      "name_zh": "多林茜娅·银影剑星",
       "name_en": "Dorinthea, Quicksilver Prodigy",
       "type_zh": "",
       "text_zh": "每回合你的辉煌黎明之刃的攻击第一次获得再动时，本回合你可以用它额外攻击一次。",
@@ -757,7 +757,7 @@
     },
     "dromai": {
       "id": "dromai",
-      "name_zh": "德罗迈",
+      "name_zh": "卓魅",
       "name_en": "Dromai",
       "type_zh": "",
       "text_zh": "每当你资源一张红色牌时，创造一个灰烬衍生物。\n若本回合你使用过一张红色牌，你控制的龙在攻击时具有再动。",
@@ -776,7 +776,7 @@
     },
     "dromai_ash_artist": {
       "id": "dromai_ash_artist",
-      "name_zh": "德罗迈·灰烬艺术家",
+      "name_zh": "卓魅·炎烬绘师",
       "name_en": "Dromai, Ash Artist",
       "type_zh": "",
       "text_zh": "每当你资源一张红色牌时，创造一个灰烬衍生物。\n若本回合你使用过一张红色牌，你控制的龙在攻击时具有再动。",
@@ -814,7 +814,7 @@
     },
     "enigma": {
       "id": "enigma",
-      "name_zh": "伊妮格玛",
+      "name_zh": "恩妮格玛",
       "name_en": "Enigma",
       "type_zh": "",
       "text_zh": "你每回合的第一次幻质护盾攻击启动费用减少1点资源。\n每回合一次瞬间——支付3点资源：创造一个带有一个+1力量指示物的幻质护盾衍生物。",
@@ -833,7 +833,7 @@
     },
     "enigma_ledger_of_ancestry": {
       "id": "enigma_ledger_of_ancestry",
-      "name_zh": "伊妮格玛·先祖遗录",
+      "name_zh": "恩妮格玛·先祖遗录",
       "name_en": "Enigma, Ledger of Ancestry",
       "type_zh": "",
       "text_zh": "你每回合的第一次幻质护盾攻击启动费用减少1点资源。\n每回合一次瞬间——支付3点资源：创造一个带有一个+1力量指示物的幻质护盾衍生物。",
@@ -852,7 +852,7 @@
     },
     "enigma_new_moon": {
       "id": "enigma_new_moon",
-      "name_zh": "伊妮格玛·新月",
+      "name_zh": "恩妮格玛·新月才俊",
       "name_en": "Enigma, New Moon",
       "type_zh": "",
       "text_zh": "你拥有的装备获得翳装。\n瞬间——支付3点资源：将目标你已装备的牌面朝下的装备翻为正面朝上。若其具有结界，创造3个幻质护盾衍生物。",
@@ -890,7 +890,7 @@
     },
     "fai_rising_rebellion": {
       "id": "fai_rising_rebellion",
-      "name_zh": "法伊·崛行叛焰",
+      "name_zh": "法伊·腾袭叛焰",
       "name_en": "Fai, Rising Rebellion",
       "type_zh": "",
       "text_zh": "你可以以坟场中一张凤凰烈焰开始游戏。\n每回合一次瞬间——支付3点资源：将你坟场中的一张凤凰烈焰移回你的手牌。每当你控制一个龙裔链环，此异能费用减少1点资源。",
@@ -1008,7 +1008,7 @@
     },
     "frankie_make_ends_meat": {
       "id": "frankie_make_ends_meat",
-      "name_zh": "弗兰基·混口肉吃",
+      "name_zh": "弗兰姬·混口肉吃",
       "name_en": "Frankie, Make Ends Meat",
       "type_zh": "",
       "text_zh": "每当你控制的装备将被置入坟场时，改为放逐它。\n行动——支付3点资源，横置此牌：装备坟场中的一件装备。再动",
@@ -1065,7 +1065,7 @@
     },
     "gravy_bones_shipwrecked_looter": {
       "id": "gravy_bones_shipwrecked_looter",
-      "name_zh": "格雷维·伯恩斯，掠船劫客",
+      "name_zh": "格雷维·伯恩斯，破舰大劫客",
       "name_en": "Gravy Bones, Shipwrecked Looter",
       "type_zh": "",
       "text_zh": "瞬间——横置此牌，摧毁你控制的一个金币：抽一张牌，然后弃一张牌。\n若本回合有一张蓝色牌被置入你的坟场，你可以从你的坟场中使用具有水葬的牌。",
@@ -1162,7 +1162,7 @@
     },
     "ira_scarlet_revenger": {
       "id": "ira_scarlet_revenger",
-      "name_zh": "伊拉·猩红仇敌",
+      "name_zh": "伊拉·绯红仇敌",
       "name_en": "Ira, Scarlet Revenger",
       "type_zh": "",
       "text_zh": "你每回合的第二次攻击获得+1力量。",
@@ -1358,7 +1358,7 @@
     },
     "katsu_the_wanderer": {
       "id": "katsu_the_wanderer",
-      "name_zh": "浪行客卡兹",
+      "name_zh": "卡兹·放浪行客",
       "name_en": "Katsu, the Wanderer",
       "type_zh": "",
       "text_zh": "每回合第一次你控制的攻击行动牌命中时，你可以弃一张费用为0的牌。若如此做，从你的牌库中搜寻一张具有连击的牌，正面朝上放逐它，然后洗牌。本回合你可以使用它。",
@@ -2191,7 +2191,7 @@
     },
     "scurv_stowaway": {
       "id": "scurv_stowaway",
-      "name_zh": "斯柯夫·偷渡者",
+      "name_zh": "斯柯夫·匿航船客",
       "name_en": "Scurv, Stowaway",
       "type_zh": "",
       "text_zh": "行动——横置此牌，摧毁你控制的一个金币：创造一个金吻朗姆酒衍生物。再动\n每当你启动金吻朗姆酒时，获得1点资源。",
@@ -2326,7 +2326,7 @@
     },
     "teklovossen_esteemed_magnate": {
       "id": "teklovossen_esteemed_magnate",
-      "name_zh": "泰克洛沃森·赫威巨擘",
+      "name_zh": "泰克洛沃森·奇械巨擘",
       "name_en": "Teklovossen, Esteemed Magnate",
       "type_zh": "",
       "text_zh": "你可以从你的放逐区使用进化牌。\n每回合一次瞬间——支付3点资源：本回合你可以将你的下一张进化牌当作瞬间使用。当你如此做时，抽一张牌。",
@@ -2425,7 +2425,7 @@
     },
     "tuffnut_bumbling_hulkster": {
       "id": "tuffnut_bumbling_hulkster",
-      "name_zh": "塔夫纳特·笨拙猛将",
+      "name_zh": "塔夫纳特·憨蛮猛将",
       "name_en": "Tuffnut, Bumbling Hulkster",
       "type_zh": "",
       "text_zh": "瞬间——横置此牌：资源你牌库顶的一张牌。若其力量为6或更高，观众为你欢呼。\n每当观众为你欢呼时，创造一个坚韧衍生物。",
