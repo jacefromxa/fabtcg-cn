@@ -3394,5 +3394,57 @@
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/lady_barthimont/",
     "status": "machine-draft"
+  },
+  "beckoning_hunger__1": {
+    "name_en": "Beckoning Hunger",
+    "name_zh": "",
+    "type_zh": "暗影 蛮将 行动·攻击",
+    "text_en": "When this attacks, banish the top card of your deck.\nWhen this hits, create a Blasmophet, the Insatiable Hunger token.\nBlood Debt",
+    "text_zh": "",
+    "pitch": "1",
+    "cost": "3",
+    "power": "7",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/beckoning_hunger/",
+    "status": "machine-draft"
+  },
+  "beckoning_hunger__2": {
+    "name_en": "Beckoning Hunger",
+    "name_zh": "",
+    "type_zh": "暗影 蛮将 行动·攻击",
+    "text_en": "When this attacks, banish the top card of your deck.\nWhen this hits, create a Blasmophet, the Insatiable Hunger token.\nBlood Debt",
+    "text_zh": "",
+    "pitch": "2",
+    "cost": "3",
+    "power": "6",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/beckoning_hunger/",
+    "status": "machine-draft"
+  },
+  "beckoning_hunger__3": {
+    "name_en": "Beckoning Hunger",
+    "name_zh": "",
+    "type_zh": "暗影 蛮将 行动·攻击",
+    "text_en": "When this attacks, banish the top card of your deck.\nWhen this hits, create a Blasmophet, the Insatiable Hunger token.\nBlood Debt",
+    "text_zh": "",
+    "pitch": "3",
+    "cost": "3",
+    "power": "5",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/beckoning_hunger/",
+    "status": "machine-draft"
+  },
+  "blood_harvest": {
+    "name_en": "Blood Harvest",
+    "name_zh": "",
+    "type_zh": "暗影 蛮将 行动·攻击",
+    "text_en": "Instant - Banish this from your hand: Gain {r}{r}{r}\nBlood Debt",
+    "text_zh": "",
+    "pitch": null,
+    "cost": "3",
+    "power": "6",
+    "defense": "0",
+    "source": "https://cards.fabtcg.com/card/blood_harvest/",
+    "status": "machine-draft"
   }
 }

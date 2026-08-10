@@ -6001,5 +6001,83 @@
     "defense": "1",
     "source": "https://cards.fabtcg.com/card/wayfinders_crest/",
     "status": "human-reviewed"
+  },
+  "appalling_bearers": {
+    "name_en": "Appalling Bearers",
+    "name_zh": "",
+    "type_zh": "暗影 Necromancer 装备·手臂",
+    "text_en": "Instant - Discard a zombie, destroy this: Prevent the next 2 damage that would be dealt to you this turn.",
+    "text_zh": "",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "source": "https://cards.fabtcg.com/card/appalling_bearers/",
+    "status": "machine-draft"
+  },
+  "grasp_of_the_darknight": {
+    "name_en": "Grasp of the Darknight",
+    "name_zh": "",
+    "type_zh": "暗影 符文剑士 装备·手臂",
+    "text_en": "Action - {r}, destroy this: Opt 1, then create a Runechant token. Go again",
+    "text_zh": "",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "source": "https://cards.fabtcg.com/card/grasp_of_the_darknight/",
+    "status": "machine-draft"
+  },
+  "grille_of_repentance": {
+    "name_en": "Grille of Repentance",
+    "name_zh": "",
+    "type_zh": "暗影 装备·头部",
+    "text_en": "Instant - Destroy this: Turn a card with blood debt in your banished zone face-down.",
+    "text_zh": "",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "source": "https://cards.fabtcg.com/card/grille_of_repentance/",
+    "status": "machine-draft"
+  },
+  "hex_gauntlet": {
+    "name_en": "Hex Gauntlet",
+    "name_zh": "",
+    "type_zh": "暗影 蛮将 装备·手臂",
+    "text_en": "Instant - Banish this: Turn a card with blood debt in your banished zone face-down.\nBlood Debt",
+    "text_zh": "",
+    "pitch": null,
+    "cost": null,
+    "power": "6",
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/hex_gauntlet/",
+    "status": "machine-draft"
+  },
+  "path_of_repentance": {
+    "name_en": "Path of Repentance",
+    "name_zh": "",
+    "type_zh": "暗影 装备·腿部",
+    "text_en": "Instant - Destroy this: Turn a card with blood debt in your banished zone face-down.",
+    "text_zh": "",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "source": "https://cards.fabtcg.com/card/path_of_repentance/",
+    "status": "machine-draft"
+  },
+  "robe_of_repentance": {
+    "name_en": "Robe of Repentance",
+    "name_zh": "",
+    "type_zh": "暗影 装备·胸部",
+    "text_en": "Instant - Destroy this: Turn a card with blood debt in your banished zone face-down.",
+    "text_zh": "",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "source": "https://cards.fabtcg.com/card/robe_of_repentance/",
+    "status": "machine-draft"
   }
 }

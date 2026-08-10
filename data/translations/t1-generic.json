@@ -1,7 +1,7 @@
 {
   "adrenaline_rush__1": {
     "name_en": "Adrenaline Rush",
-    "name_zh": "激素爆冲",
+    "name_zh": "激扬爆冲",
     "type_zh": "通用 行动·攻击",
     "text_en": "When you play this, if you have less {h} than an opposing hero, this gets +3{p}.",
     "text_zh": "当你使用此牌时，若你的生命低于一位对手英雄，此牌获得+3力量。",
@@ -14,7 +14,7 @@
   },
   "adrenaline_rush__2": {
     "name_en": "Adrenaline Rush",
-    "name_zh": "激素爆冲",
+    "name_zh": "激扬爆冲",
     "type_zh": "通用 行动·攻击",
     "text_en": "When you play this, if you have less {h} than an opposing hero, this gets +3{p}.",
     "text_zh": "当你使用此牌时，若你的生命低于一位对手英雄，此牌获得+3力量。",
@@ -27,7 +27,7 @@
   },
   "adrenaline_rush__3": {
     "name_en": "Adrenaline Rush",
-    "name_zh": "激素爆冲",
+    "name_zh": "激扬爆冲",
     "type_zh": "通用 行动·攻击",
     "text_en": "When you play this, if you have less {h} than an opposing hero, this gets +3{p}.",
     "text_zh": "当你使用此牌时，若你的生命低于一位对手英雄，此牌获得+3力量。",
@@ -573,7 +573,7 @@
   },
   "blossom_of_spring": {
     "name_en": "Blossom of Spring",
-    "name_zh": "春华",
+    "name_zh": "春色绽衣",
     "type_zh": "通用 装备·胸部",
     "text_en": "Action - Destroy this: Gain {r}. Go again",
     "text_zh": "行动——摧毁此牌：获得1点资源。再动",
@@ -7502,7 +7502,7 @@
   },
   "unyielding_grip": {
     "name_en": "Unyielding Grip",
-    "name_zh": "死不松手",
+    "name_zh": "不屈握甲",
     "type_zh": "通用 装备·手臂",
     "text_en": "If you have no cards in your hand, this gets +3{d}.\nBlade Break",
     "text_zh": "若你手牌中没有牌，此牌获得+3防御。\n刃碎",
@@ -8206,7 +8206,7 @@
     "name_en": "Fabric of Blossoms",
     "type_zh": "",
     "type_en": "Generic Action - Construct",
-    "text_zh": "装备春华。若你没有，此牌无效。",
+    "text_zh": "装备春色绽衣。若你没有，此牌无效。",
     "text_en": "Equip Blossom of Spring. If you don't, negate this.",
     "pitch": "3",
     "cost": "0",
@@ -8662,5 +8662,18 @@
     "text_en": "Instant - Discard this: If an action card effect would create 1 or more tokens this turn, instead it creates that many minus 1 of each of those tokens.",
     "source": "https://cards.fabtcg.com/card/ripple-away/",
     "status": "human-reviewed"
+  },
+  "circlet_of_eternal_end": {
+    "name_en": "Circlet of Eternal End",
+    "name_zh": "",
+    "type_zh": "通用 装备·头部",
+    "text_en": "When this defends, turn a card in the attacking hero's banished zone face-down.\nBlade Break",
+    "text_zh": "",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "2",
+    "source": "https://cards.fabtcg.com/card/circlet_of_eternal_end/",
+    "status": "machine-draft"
   }
 }

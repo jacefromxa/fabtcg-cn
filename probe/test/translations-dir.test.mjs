@@ -5,7 +5,7 @@ import path from 'node:path';
 import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { loadZhTranslations } from '../../scripts/build-card-data.mjs';
-import { mergeMachineDrafts, getT3BatchName, isT1GenericCard, isT2EquipmentCard, isHeroCard } from '../../scripts/build-translation-drafts.mjs';
+import { mergeMachineDrafts, mergeMissingDrafts, getT3BatchName, isT1GenericCard, isT2EquipmentCard, isHeroCard } from '../../scripts/build-translation-drafts.mjs';
 import { slugifyCardName, loadGlossary } from '../../scripts/translate-helper.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -86,6 +86,15 @@ test('the t4-remaining catch-all never captures Generic, Equipment or Hero cards
     assert.ok(!card.types.includes('Generic'), `${card.name} should be t1, not t4-remaining`);
     assert.ok(!card.types.includes('Equipment'), `${card.name} should be t2, not t4-remaining`);
     assert.ok(!card.types.includes('Hero'), `${card.name} should live in heroes.json, not t4-remaining`);
+  }
+});
+
+test('Generic Equipment cards stay in the Generic batch instead of duplicating Equipment', () => {
+  const cards = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/source/english/card.json'), 'utf8'));
+  const overlaps = cards.filter((card) => card.types.includes('Generic') && card.types.includes('Equipment'));
+  for (const card of overlaps) {
+    assert.equal(isT1GenericCard(card), true, `${card.name} should be assigned to t1-generic`);
+    assert.equal(isT2EquipmentCard(card), false, `${card.name} must not also be assigned to t2-equipment`);
   }
 });
 
@@ -197,4 +206,35 @@ test('batch generator preserves existing entries when re-run (merge, not rebuild
   assert.equal(result['concoct_disorder__1'].name_zh, '制造混乱', 'existing name preserved');
   assert.ok(result['seed_of_agony__1'], 'human-reviewed entry preserved');
   assert.equal(result['seed_of_agony__1'].status, 'human-reviewed', 'confirmed status untouched');
+});
+
+test('missing-only batch generator never rewrites an existing entry', () => {
+  const cards = [
+    { name: 'Existing Machine Draft', pitch: '1', types: ['Generic'] },
+    { name: 'Existing Human Translation', pitch: '2', types: ['Generic'] },
+    { name: 'New Spoiler Card', pitch: '3', types: ['Generic'] },
+  ];
+  const existing = {
+    existing_machine_draft__1: {
+      name_en: 'Existing Machine Draft',
+      name_zh: '旧机器草稿',
+      text_zh: '保留这段正文',
+      status: 'machine-draft',
+      custom_marker: 'must-survive',
+    },
+    existing_human_translation__2: {
+      name_en: 'Existing Human Translation',
+      name_zh: '人工修订译名',
+      status: 'human-reviewed',
+    },
+  };
+
+  const before = JSON.parse(JSON.stringify(existing));
+  const { result, added, skippedExisting } = mergeMissingDrafts(existing, cards, isT1GenericCard);
+
+  assert.equal(added, 1, 'only the new spoiler card should be added');
+  assert.equal(skippedExisting, 2, 'both existing entries should be skipped');
+  assert.deepEqual(result.existing_machine_draft__1, before.existing_machine_draft__1);
+  assert.deepEqual(result.existing_human_translation__2, before.existing_human_translation__2);
+  assert.ok(result.new_spoiler_card__3, 'new spoiler card should receive a draft');
 });

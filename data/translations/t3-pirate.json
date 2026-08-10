@@ -1365,5 +1365,57 @@
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/off_cuts/",
     "status": "machine-draft"
+  },
+  "bridge_of_damnation__3": {
+    "name_en": "Bridge of Damnation",
+    "name_zh": "",
+    "type_zh": "暗影 Necromancer 行动·光环",
+    "text_en": "Go again\nAt the start of each turn, destroy this unless you put a zombie from your banished zone into your graveyard.",
+    "text_zh": "",
+    "pitch": "3",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/bridge_of_damnation/",
+    "status": "machine-draft"
+  },
+  "corrupted_corpse": {
+    "name_en": "Corrupted Corpse",
+    "name_zh": "",
+    "type_zh": "暗影 Necromancer 行动·Zombie Ally",
+    "text_en": "Incarnate\nThis card's attacks get go again.\nBlood Debt",
+    "text_zh": "",
+    "pitch": null,
+    "cost": "2",
+    "power": "3",
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/corrupted_corpse/",
+    "status": "machine-draft"
+  },
+  "restless_magister__1": {
+    "name_en": "Restless Magister",
+    "name_zh": "",
+    "type_zh": "暗影 Necromancer 行动·Zombie Ally",
+    "text_en": "When this hits a hero, they banish a card from their hand.\nDecay",
+    "text_zh": "",
+    "pitch": "1",
+    "cost": "0",
+    "power": "3",
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/restless_magister/",
+    "status": "machine-draft"
+  },
+  "vox_necropolis": {
+    "name_en": "Vox Necropolis",
+    "name_zh": "",
+    "type_zh": "暗影 Necromancer 武器·法杖 （双手）",
+    "text_en": "During your action phase, zombies you've played from a graveyard or banished zone enter the arena tapped and get \"When this enteres the arena, attack with it.\"\nZombies you control get \"Action - {r}, {t}: Attack\"",
+    "text_zh": "",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/vox_necropolis/",
+    "status": "machine-draft"
   }
 }

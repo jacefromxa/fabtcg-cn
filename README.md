@@ -32,7 +32,10 @@ npm run review      # 启动本地译名校对台 http://127.0.0.1:4174
 npm test            # 运行测试
 ```
 
+英文卡牌源的人工更新流程见 [`docs/data-update-policy.md`](docs/data-update-policy.md)。
+
 翻译源按批次维护于 `data/translations/`，构建产物 `dist/data/` 分片与翻译批次同名，随源码一并发布。
+当前英文源基线包含上游 `usurp-the-shadow-throne` spoiler；新增 spoiler 只通过 `--only-missing` 补入，不会覆盖已有译名或人工修订。
 
 ### 本地译名校对台
 

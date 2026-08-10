@@ -4174,5 +4174,57 @@
     "defense": "",
     "source": "https://cards.fabtcg.com/card/reaping_blade/",
     "status": "machine-draft"
+  },
+  "become_the_shadow_lord__3": {
+    "name_en": "Become the Shadow Lord",
+    "name_zh": "",
+    "type_zh": "暗影 符文剑士 行动",
+    "text_en": "Banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, create a Gate to i'Arathael token.\nGo again",
+    "text_zh": "",
+    "pitch": "3",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/become_the_shadow_lord/",
+    "status": "machine-draft"
+  },
+  "demonbound_gloomblade__1": {
+    "name_en": "Demonbound Gloomblade",
+    "name_zh": "",
+    "type_zh": "暗影 符文剑士 行动·攻击",
+    "text_en": "You may play this from your banished zone.\nUsurp\nBlood Debt",
+    "text_zh": "",
+    "pitch": "1",
+    "cost": "0",
+    "power": "3",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/demonbound_gloomblade/",
+    "status": "machine-draft"
+  },
+  "seven_sin_nebula": {
+    "name_en": "Seven Sin Nebula",
+    "name_zh": "",
+    "type_zh": "暗影 符文剑士 武器·剑 （双手）",
+    "text_en": "Action - {r}, {t}: Attack. Activate this only if you've played a card from a banished zone this turn.\nWhen this hits a hero, create a Runechant token.",
+    "text_zh": "",
+    "pitch": null,
+    "cost": null,
+    "power": "3",
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/seven_sin_nebula/",
+    "status": "machine-draft"
+  },
+  "sinspeaker_gloomblade__1": {
+    "name_en": "Sinspeaker Gloomblade",
+    "name_zh": "",
+    "type_zh": "暗影 符文剑士 行动·攻击",
+    "text_en": "You may play this from your banished zone.\nUsurp\nIf this was played from your banished zone, it gets \"When this attacks, you may search your deck for an aura with Runechant in its name, put it into the arena, then shuffle.\"\nBlood Debt",
+    "text_zh": "",
+    "pitch": "1",
+    "cost": "0",
+    "power": "2",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/sinspeaker_gloomblade/",
+    "status": "machine-draft"
   }
 }

@@ -3,7 +3,7 @@
 // @name:zh-CN     Talishar / FaBrary 简体中文卡牌浮窗
 // @name:en        Talishar / FaBrary Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.24
+// @version        0.7.25
 // @description    在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @description:zh-CN 在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
 // @description:en Show Simplified Chinese card info on hover for Talishar and FaBrary — card name, type, rules text, and keyword explanations.

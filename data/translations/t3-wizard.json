@@ -677,7 +677,7 @@
   },
   "comet_storm_shock__1": {
     "name_en": "Comet Storm // Shock",
-    "name_zh": "彗星风暴冲击",
+    "name_zh": "彗星风暴 // 冲击",
     "type_zh": "法师 行动·闪电 瞬间",
     "text_en": "Meld\nDeal 5 arcane damage to any target.\n//\nDeal 1 arcane damage to any target.",
     "text_zh": "凝合\n对任意目标造成5点奥术伤害。\n//\n对任意目标造成1点奥术伤害。",
@@ -3095,7 +3095,7 @@
   },
   "volzar_meteor_storm": {
     "name_en": "Volzar, Meteor Storm",
-    "name_zh": "沃尔扎尔流星风暴",
+    "name_zh": "沃扎·流星暴",
     "type_zh": "闪电 法师 武器·法杖 （双手）",
     "text_en": "Instant - {t}: Amp 1. Activate this only if an instant card has been put into your graveyard this turn.",
     "text_zh": "瞬间——横置此牌：增幅1。仅当本回合有一张瞬间牌被置入你的坟场时才能启动此异能。",
@@ -3186,7 +3186,7 @@
     "status": "machine-draft"
   },
   "volzar_the_lightning_rod": {
-    "name_zh": "沃尔扎尔·避雷针",
+    "name_zh": "沃扎·引雷法杖",
     "name_en": "Volzar, the Lightning Rod",
     "type_zh": "",
     "type_en": "Lightning Wizard Weapon - Staff (2H)",
