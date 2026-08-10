@@ -79,7 +79,7 @@
   },
   "arakni_funnel_web": {
     "name_en": "Arakni, Funnel Web",
-    "name_zh": "阿拉克尼·漏斗网",
+    "name_zh": "阿拉克尼·漏斗网蛛",
     "type_zh": "混沌 刺客 Demi·英雄",
     "text_en": "Once per Turn Attack Reaction - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has stealth, it gets \"When this hits a hero, banish a card in their arsenal.\"\nAt the beginning of your end phase, return to the brood.",
     "text_zh": "每回合一次攻击反应——弃一张刺客牌：目标刺客攻击获得+3力量。若其具有隐匿，它获得“当此牌命中英雄时，放逐其军械库中的一张牌。”\n在你的结束阶段开始时，回归巢群。",
@@ -95,7 +95,7 @@
     "name_zh": "阿拉克尼·圆网蛛",
     "type_zh": "混沌 刺客 Demi·英雄",
     "text_en": "Graphene Chelicerae cost you {r} less to activate.\nOnce per Turn Instant - Discard an Assassin card: Equip a Graphene Chelicera token. Your next attack with stealth this turn gets +3{p}.\nAt the beginning of your end phase, return to the brood.",
-    "text_zh": "石墨烯螯肢的启动费用减少1点资源。\n每回合一次瞬间——弃一张刺客牌：装备一个石墨烯螯肢衍生物。本回合你的下一次具有隐匿的攻击获得+3力量。\n在你的结束阶段开始时，回归巢群。",
+    "text_zh": "黑金螯刺的启动费用减少1点资源。\n每回合一次瞬间——弃一张刺客牌：装备一个黑金螯刺衍生物。本回合你的下一次具有隐匿的攻击获得+3力量。\n在你的结束阶段开始时，回归巢群。",
     "pitch": null,
     "cost": null,
     "power": null,
@@ -131,7 +131,7 @@
   },
   "arakni_trap_door": {
     "name_en": "Arakni, Trap-Door",
-    "name_zh": "阿拉克尼·陷阱门蛛",
+    "name_zh": "阿拉克尼·陷门蛛",
     "type_zh": "混沌 刺客 Demi·英雄",
     "text_en": "When you become this, you may search your deck for a card, banish it face-down, then shuffle. If it's a trap, you may play it until the start of your next turn.\nAt the beginning of your end phase, return to the brood.",
     "text_zh": "当你成为此牌时，你可以从你的牌库中搜寻一张牌，牌面朝下放逐它，然后洗牌。若其为陷阱，直到你的下一个回合开始你可以使用它。\n在你的结束阶段开始时，回归巢群。",
@@ -365,7 +365,7 @@
   },
   "codex_of_bloodrot__2": {
     "name_en": "Codex of Bloodrot",
-    "name_zh": "血腐法典",
+    "name_zh": "血腐秘典",
     "type_zh": "刺客·游侠 行动",
     "text_en": "Each hero puts a card from their hand face-down into their arsenal.\nCreate a Ponder token under your control and a Bloodrot Pox token under each opponent's control.\nGo again",
     "text_zh": "每位英雄将手牌中的一张牌牌面朝下放入其军械库。\n在你控制下创造一个沉思衍生物，并在每位对手的控制下创造一个血腐疫病衍生物。\n再动",
@@ -378,7 +378,7 @@
   },
   "codex_of_frailty__2": {
     "name_en": "Codex of Frailty",
-    "name_zh": "虚弱法典",
+    "name_zh": "虚弱秘典",
     "type_zh": "刺客·游侠 行动",
     "text_en": "Each hero puts an attack action card from their graveyard face down into their arsenal. Each hero that does, discards a card.\nCreate a Ponder token under your control and a Frailty token under each opponent's control.\nGo again",
     "text_zh": "每位英雄将其坟场中的一张攻击行动牌牌面朝下放入其军械库。每位以此方式做法的英雄弃一张牌。\n在你控制下创造一个沉思衍生物，并在每位对手的控制下创造一个虚弱衍生物。\n再动",
@@ -391,7 +391,7 @@
   },
   "codex_of_inertia__2": {
     "name_en": "Codex of Inertia",
-    "name_zh": "惰性法典",
+    "name_zh": "惯流秘典",
     "type_zh": "刺客·游侠 行动",
     "text_en": "Each hero puts the top card of their deck face down into their arsenal. Each hero that does, discards a card.\nCreate a Ponder token under your control and an Inertia token under each opponent's control.\nGo again",
     "text_zh": "每位英雄将其牌库顶的一张牌牌面朝下放入其军械库。每位以此方式做法的英雄弃一张牌。\n在你控制下创造一个沉思衍生物，并在每位对手的控制下创造一个惰性衍生物。\n再动",
@@ -404,7 +404,7 @@
   },
   "coercive_tendency__3": {
     "name_en": "Coercive Tendency",
-    "name_zh": "胁迫倾向",
+    "name_zh": "威势逼人",
     "type_zh": "刺客 攻击反应",
     "text_en": "Arakni Specialization\nLook at the top 3 cards of the defending hero's deck. Put them back in any order, then banish the top card of their deck.\nIf you complete a contract this way, your Assassin attacks get go again this combat chain.",
     "text_zh": "阿拉克尼专精\n查看防御英雄牌库顶的3张牌。以任意顺序放回，然后放逐其牌库顶的一张牌。\n若你以此方式完成一份契约，本战斗链中你的刺客攻击获得再动。",
@@ -599,7 +599,7 @@
   },
   "eradicate__2": {
     "name_en": "Eradicate",
-    "name_zh": "根除",
+    "name_zh": "铲除",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Contract - You are contracted to banish opponents' yellow cards. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top X cards of their deck, where X is the damage dealt by Eradicate.",
     "text_zh": "契约——你受契约束缚以放逐对手的黄色牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的X张牌，X为根除造成的伤害。",
@@ -677,7 +677,7 @@
   },
   "fleece_the_frail__1": {
     "name_en": "Fleece the Frail",
-    "name_zh": "压榨虚弱者",
+    "name_zh": "劫弱",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Contract - You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
     "text_zh": "契约——你受契约束缚以放逐对手的防御为2或更低的牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的一张牌。",
@@ -690,7 +690,7 @@
   },
   "fleece_the_frail__2": {
     "name_en": "Fleece the Frail",
-    "name_zh": "压榨虚弱者",
+    "name_zh": "劫弱",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Contract - You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
     "text_zh": "契约——你受契约束缚以放逐对手的防御为2或更低的牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的一张牌。",
@@ -703,7 +703,7 @@
   },
   "fleece_the_frail__3": {
     "name_en": "Fleece the Frail",
-    "name_zh": "压榨虚弱者",
+    "name_zh": "劫弱",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Contract - You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
     "text_zh": "契约——你受契约束缚以放逐对手的防御为2或更低的牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的一张牌。",
@@ -729,7 +729,7 @@
   },
   "gorgons_gaze__2": {
     "name_en": "Gorgon's Gaze",
-    "name_zh": "美杜莎凝视",
+    "name_zh": "蛇发鬼凝视",
     "type_zh": "秘法 刺客 攻击反应",
     "text_en": "Create a Slither in your hand.\nBanish all defending attack action cards on the combat chain. If a Chi was pitched to play this, you may play the banished cards this combat chain without paying their {r} cost.",
     "text_zh": "在你的手牌中创造一张滑行。\n放逐战斗链上的所有防御攻击行动牌。若你为使用此牌资源过一张气，本战斗链中你可以不支付费用使用被放逐的牌。",
@@ -742,7 +742,7 @@
   },
   "graphene_chelicera": {
     "name_en": "Graphene Chelicera",
-    "name_zh": "石墨烯螯肢",
+    "name_zh": "黑金螯刺",
     "type_zh": "刺客 衍生物 武器·匕首 （单手）",
     "text_en": "Stealth\nOnce per Turn Action - {r}: Attack\nWhen this attacks a marked hero, the attack gets go again.",
     "text_zh": "隐匿\n每回合一次行动——支付1点资源：攻击\n当此牌攻击被标记的英雄时，该攻击获得再动。",
@@ -755,7 +755,7 @@
   },
   "graven_call": {
     "name_en": "Graven Call",
-    "name_zh": "铭刻召唤",
+    "name_zh": "刻魂召刃",
     "type_zh": "刺客 武器·匕首 （单手）",
     "text_en": "Once per Turn Action - {r}{r}: Attack. Go again\nPiercing 1\nInstant - Destroy 2 Silver you control: Equip this with a +1{p} counter. Activate this ability only while this is in your graveyard.",
     "text_zh": "每回合一次行动——支付2点资源：攻击。再动\n穿透1\n瞬间——摧毁你控制的2个银币：带有一个+1力量指示物地装备此牌。仅当此牌在你坟场中时才能启动此异能。",
@@ -807,7 +807,7 @@
   },
   "horrors_of_the_past__2": {
     "name_en": "Horrors of the Past",
-    "name_zh": "过往的恐怖",
+    "name_zh": "往昔怖景",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this attacks, it gets the base abilities of the last attack action card with stealth you control on the combat chain.",
     "text_zh": "隐匿\n当此牌攻击时，它获得你控制的战斗链上最后一张具有隐匿的攻击行动牌的基础异能。",
@@ -820,7 +820,7 @@
   },
   "hunted_or_hunter__1": {
     "name_en": "Hunted or Hunter",
-    "name_zh": "被猎或猎手",
+    "name_zh": "猎手，或猎物",
     "type_zh": "刺客 防御反应·陷阱",
     "text_en": "When this defends and the attacking hero has played or activated an attack reaction this chain link, they lose 1{h}.",
     "text_zh": "当此牌防御且攻击英雄在此链环中使用或启动过攻击反应时，该英雄失去1点生命。",
@@ -833,7 +833,7 @@
   },
   "hunter_or_hunted__3": {
     "name_en": "Hunter or Hunted?",
-    "name_zh": "猎手或被猎",
+    "name_zh": "猎物，或猎手",
     "type_zh": "刺客 防御反应",
     "text_en": "When this defends, name a card. The attacking hero reveals the top card of their deck. If it's the named card, banish it, search their hand, deck, and arsenal for up to 3 cards with that name and banish them, then they shuffle.\nContract - While this is defending, you are contracted to banish opponents' cards with the chosen name. Whenever you complete this contract, create a Silver token.",
     "text_zh": "当此牌防御时，说出一张牌名。攻击英雄展示其牌库顶的一张牌。若其为被说出的牌，放逐它，搜寻其手牌、牌库和军械库中至多3张具有该名称的牌并放逐它们，然后该英雄洗牌。\n契约——当此牌防御时，你受契约束缚以放逐对手的具有所选名称的牌。每当你完成此契约时，创造一个银币衍生物。",
@@ -1041,7 +1041,7 @@
   },
   "just_a_nick__1": {
     "name_en": "Just a Nick",
-    "name_zh": "只是小伤",
+    "name_zh": "区区小伤",
     "type_zh": "刺客 攻击反应",
     "text_en": "Choose 1 or both;\n- Target attack action card with 1 or less base {p} gets +5{p}.\n- Target attack with stealth gets \"When this hits a hero, banish the top card of their deck.\"",
     "text_zh": "选择其一或全部；\n- 目标基础力量为1或更低的攻击行动牌获得+5力量。\n- 目标具有隐匿的攻击获得“当此牌命中英雄时，放逐其牌库顶的一张牌。”",
@@ -1434,7 +1434,7 @@
     "name_zh": "圆网蛛吐丝器",
     "type_zh": "刺客 行动",
     "text_en": "Equip a Graphene Chelicera token.\nYour next attack with stealth this turn gets +3{p}.\nGo again",
-    "text_zh": "装备一个石墨烯螯肢衍生物。\n本回合你的下一次具有隐匿的攻击获得+3力量。\n再动",
+    "text_zh": "装备一个黑金螯刺衍生物。\n本回合你的下一次具有隐匿的攻击获得+3力量。\n再动",
     "pitch": "1",
     "cost": "0",
     "power": null,
@@ -1470,7 +1470,7 @@
   },
   "persuasive_prognosis__3": {
     "name_en": "Persuasive Prognosis",
-    "name_zh": "说服性预后",
+    "name_zh": "料敌先机",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this hits a hero, banish the top card of their deck. Then look at their hand and banish a card with the same color as the banished card.\nWhenever this banishes an action card, gain 1{h}.",
     "text_zh": "隐匿\n当此牌命中英雄时，放逐其牌库顶的一张牌。然后查看其手牌并放逐一张与被放逐的牌同色的牌。\n每当此牌放逐一张行动牌时，获得1点生命。",
@@ -1535,7 +1535,7 @@
   },
   "plunder_the_poor__1": {
     "name_en": "Plunder the Poor",
-    "name_zh": "掠夺穷人",
+    "name_zh": "掠夺贫者",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Contract - You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
     "text_zh": "契约——你受契约束缚以放逐对手的费用为1或更低的牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的一张牌。",
@@ -1548,7 +1548,7 @@
   },
   "plunder_the_poor__2": {
     "name_en": "Plunder the Poor",
-    "name_zh": "掠夺穷人",
+    "name_zh": "掠夺贫者",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Contract - You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
     "text_zh": "契约——你受契约束缚以放逐对手的费用为1或更低的牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的一张牌。",
@@ -1561,7 +1561,7 @@
   },
   "plunder_the_poor__3": {
     "name_en": "Plunder the Poor",
-    "name_zh": "掠夺穷人",
+    "name_zh": "掠夺贫者",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Contract - You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
     "text_zh": "契约——你受契约束缚以放逐对手的费用为1或更低的牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的一张牌。",
@@ -1574,7 +1574,7 @@
   },
   "plunge_the_prospect__1": {
     "name_en": "Plunge the Prospect",
-    "name_zh": "投身前景",
+    "name_zh": "天降杀机",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nIf this is attacking a marked hero, this gets +1{p}.",
     "text_zh": "隐匿\n若此牌正在攻击被标记的英雄，此牌获得+1力量。",
@@ -1587,7 +1587,7 @@
   },
   "plunge_the_prospect__2": {
     "name_en": "Plunge the Prospect",
-    "name_zh": "投身前景",
+    "name_zh": "天降杀机",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nIf this is attacking a marked hero, this gets +1{p}.",
     "text_zh": "隐匿\n若此牌正在攻击被标记的英雄，此牌获得+1力量。",
@@ -1600,7 +1600,7 @@
   },
   "plunge_the_prospect__3": {
     "name_en": "Plunge the Prospect",
-    "name_zh": "投身前景",
+    "name_zh": "天降杀机",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nIf this is attacking a marked hero, this gets +1{p}.",
     "text_zh": "隐匿\n若此牌正在攻击被标记的英雄，此牌获得+1力量。",
@@ -1782,7 +1782,7 @@
   },
   "sack_the_shifty__1": {
     "name_en": "Sack the Shifty",
-    "name_zh": "洗劫诡诈者",
+    "name_zh": "扑杀诡徒",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Contract - You are contracted to banish opponents' cards with base go again. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
     "text_zh": "契约——你受契约束缚以放逐对手的具有基础再动的牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的一张牌。",
@@ -1795,7 +1795,7 @@
   },
   "sack_the_shifty__2": {
     "name_en": "Sack the Shifty",
-    "name_zh": "洗劫诡诈者",
+    "name_zh": "扑杀诡徒",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Contract - You are contracted to banish opponents' cards with base go again. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
     "text_zh": "契约——你受契约束缚以放逐对手的具有基础再动的牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的一张牌。",
@@ -1808,7 +1808,7 @@
   },
   "sack_the_shifty__3": {
     "name_en": "Sack the Shifty",
-    "name_zh": "洗劫诡诈者",
+    "name_zh": "扑杀诡徒",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Contract - You are contracted to banish opponents' cards with base go again. Whenever you complete this contract, create a Silver token.\nWhen this hits a hero, banish the top card of their deck.",
     "text_zh": "契约——你受契约束缚以放逐对手的具有基础再动的牌。每当你完成此契约时，创造一个银币衍生物。\n当此牌命中英雄时，放逐其牌库顶的一张牌。",
@@ -1834,7 +1834,7 @@
   },
   "scuttle_the_canal__1": {
     "name_en": "Scuttle the Canal",
-    "name_zh": "凿沉运河",
+    "name_zh": "蛛行暗渠",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this attacks a marked hero, this gets go again.",
     "text_zh": "隐匿\n当此牌攻击被标记的英雄时，此牌获得再动。",
@@ -1847,7 +1847,7 @@
   },
   "scuttle_the_canal__2": {
     "name_en": "Scuttle the Canal",
-    "name_zh": "凿沉运河",
+    "name_zh": "蛛行暗渠",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this attacks a marked hero, this gets go again.",
     "text_zh": "隐匿\n当此牌攻击被标记的英雄时，此牌获得再动。",
@@ -1860,7 +1860,7 @@
   },
   "scuttle_the_canal__3": {
     "name_en": "Scuttle the Canal",
-    "name_zh": "凿沉运河",
+    "name_zh": "蛛行暗渠",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this attacks a marked hero, this gets go again.",
     "text_zh": "隐匿\n当此牌攻击被标记的英雄时，此牌获得再动。",
@@ -1912,7 +1912,7 @@
   },
   "seeker_kunai__1": {
     "name_en": "Seeker Kunai",
-    "name_zh": "追寻者苦无",
+    "name_zh": "追命苦无",
     "type_zh": "刺客 瞬间·物品",
     "text_en": "Attack Reaction - {r}, destroy this: Target Assassin attack action card gets +1{p}.\nWhile this is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, return this to the arena.",
     "text_zh": "攻击反应——支付1点资源，摧毁此牌：目标刺客攻击行动牌获得+1力量。\n当此牌在你坟场中时，在你的回合开始时，你可以摧毁你控制的2个银币。若如此做，将此牌移回竞技场。",
@@ -1938,7 +1938,7 @@
   },
   "shake_down__1": {
     "name_en": "Shake Down",
-    "name_zh": "敲诈勒索",
+    "name_zh": "榨干",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Uzuri Specialization\nIf you've played or activated an attack reaction this chain link, Shake Down has \"When this hits a hero, choose red, yellow, or blue. They reveal their hand. Banish a card of the chosen color.\"",
     "text_zh": "乌祖里专精\n若此链环中你使用或启动过攻击反应，敲诈勒索获得“当此牌命中英雄时，选择红色、黄色或蓝色。该英雄展示其手牌。放逐一张所选颜色的牌。”",
@@ -2276,7 +2276,7 @@
   },
   "toxicity__1": {
     "name_en": "Toxicity",
-    "name_zh": "毒性",
+    "name_zh": "淬毒",
     "type_zh": "刺客·游侠 行动",
     "text_en": "The next Assassin or Ranger attack action card you play this turn gains \"When this hits a hero, they lose 5{h}.\"\nGo again",
     "text_zh": "本回合你使用的下一张刺客或游侠攻击行动牌获得“当此牌命中英雄时，该英雄失去5点生命。”\n再动",
@@ -2289,7 +2289,7 @@
   },
   "toxicity__2": {
     "name_en": "Toxicity",
-    "name_zh": "毒性",
+    "name_zh": "淬毒",
     "type_zh": "刺客·游侠 行动",
     "text_en": "The next Assassin or Ranger attack action card you play this turn gains \"When this hits a hero, they lose 4{h}.\"\nGo again",
     "text_zh": "本回合你使用的下一张刺客或游侠攻击行动牌获得“当此牌命中英雄时，该英雄失去5点生命。”\n再动",
@@ -2302,7 +2302,7 @@
   },
   "toxicity__3": {
     "name_en": "Toxicity",
-    "name_zh": "毒性",
+    "name_zh": "淬毒",
     "type_zh": "刺客·游侠 行动",
     "text_en": "The next Assassin or Ranger attack action card you play this turn gains \"When this hits a hero, they lose 3{h}.\"\nGo again",
     "text_zh": "本回合你使用的下一张刺客或游侠攻击行动牌获得“当此牌命中英雄时，该英雄失去5点生命。”\n再动",
@@ -2315,7 +2315,7 @@
   },
   "two_sides_to_the_blade__1": {
     "name_en": "Two Sides to the Blade",
-    "name_zh": "刃有两面",
+    "name_zh": "一刃两面",
     "type_zh": "刺客 攻击反应",
     "text_en": "Choose 1;\n- Target dagger attack gets +3{p}.\n- Target attack action card with stealth gets +3{p} and \"When this hits a hero, mark them.\"",
     "text_zh": "选择其一；\n- 目标匕首攻击获得+3力量。\n- 目标具有隐匿的攻击行动牌获得+3力量，以及“当此牌命中英雄时，标记该英雄。”",
@@ -2328,7 +2328,7 @@
   },
   "under_the_trap_door__3": {
     "name_en": "Under the Trap-Door",
-    "name_zh": "陷阱门之下",
+    "name_zh": "陷阱门下",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nInstant - Discard this: Banish target trap from your graveyard. If you do, you may play it this turn and if it would be put into the graveyard this turn, instead banish it.",
     "text_zh": "隐匿\n瞬间——弃掉此牌：放逐你坟场中的目标陷阱。若如此做，本回合你可以使用它，且若本回合它将置入坟场，改为放逐它。",
@@ -2341,7 +2341,7 @@
   },
   "undercover_acquisition__1": {
     "name_en": "Undercover Acquisition",
-    "name_zh": "卧底夺取",
+    "name_zh": "卧底轻取",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this hits a hero, steal an item they control.",
     "text_zh": "隐匿\n当此牌命中英雄时，偷取其控制的一个物品。",
@@ -2354,7 +2354,7 @@
   },
   "unmake_the_underlings__3": {
     "name_en": "Unmake the Underlings",
-    "name_zh": "瓦解下属",
+    "name_zh": "上克下",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this attacks a hero, turn an ally in their graveyard face-down.\nWhen this hits an ally, destroy that ally.",
     "text_zh": "隐匿\n当此牌攻击英雄时，将其坟场中的一个盟友翻为牌面朝下。\n当此牌命中盟友时，摧毁该盟友。",
@@ -2406,7 +2406,7 @@
   },
   "virulent_touch__1": {
     "name_en": "Virulent Touch",
-    "name_zh": "剧毒之触",
+    "name_zh": "致命接触",
     "type_zh": "刺客·游侠 行动·攻击",
     "text_en": "Virulent Touch can't be played from hand.\nWhen this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.",
     "text_zh": "剧毒之触不能从手牌使用。\n当此链环结算时，若剧毒之触被一张来自手牌的牌防御，在防御英雄的控制下创造一个血腐疫病衍生物。",
@@ -2419,7 +2419,7 @@
   },
   "virulent_touch__2": {
     "name_en": "Virulent Touch",
-    "name_zh": "剧毒之触",
+    "name_zh": "致命接触",
     "type_zh": "刺客·游侠 行动·攻击",
     "text_en": "Virulent Touch can't be played from hand.\nWhen this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.",
     "text_zh": "剧毒之触不能从手牌使用。\n当此链环结算时，若剧毒之触被一张来自手牌的牌防御，在防御英雄的控制下创造一个血腐疫病衍生物。",
@@ -2432,7 +2432,7 @@
   },
   "virulent_touch__3": {
     "name_en": "Virulent Touch",
-    "name_zh": "剧毒之触",
+    "name_zh": "致命接触",
     "type_zh": "刺客·游侠 行动·攻击",
     "text_en": "Virulent Touch can't be played from hand.\nWhen this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.",
     "text_zh": "剧毒之触不能从手牌使用。\n当此链环结算时，若剧毒之触被一张来自手牌的牌防御，在防御英雄的控制下创造一个血腐疫病衍生物。",
@@ -2448,7 +2448,7 @@
     "name_zh": "削骨成刃",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this attacks a marked hero, equip a Graphene Chelicera token.",
-    "text_zh": "隐匿\n当此牌攻击被标记的英雄时，装备一个石墨烯螯肢衍生物。",
+    "text_zh": "隐匿\n当此牌攻击被标记的英雄时，装备一个黑金螯刺衍生物。",
     "pitch": "1",
     "cost": "0",
     "power": "3",
@@ -2461,7 +2461,7 @@
     "name_zh": "削骨成刃",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this attacks a marked hero, equip a Graphene Chelicera token.",
-    "text_zh": "隐匿\n当此牌攻击被标记的英雄时，装备一个石墨烯螯肢衍生物。",
+    "text_zh": "隐匿\n当此牌攻击被标记的英雄时，装备一个黑金螯刺衍生物。",
     "pitch": "2",
     "cost": "0",
     "power": "2",
@@ -2474,7 +2474,7 @@
     "name_zh": "削骨成刃",
     "type_zh": "刺客 行动·攻击",
     "text_en": "Stealth\nWhen this attacks a marked hero, equip a Graphene Chelicera token.",
-    "text_zh": "隐匿\n当此牌攻击被标记的英雄时，装备一个石墨烯螯肢衍生物。",
+    "text_zh": "隐匿\n当此牌攻击被标记的英雄时，装备一个黑金螯刺衍生物。",
     "pitch": "3",
     "cost": "0",
     "power": "1",
@@ -2523,7 +2523,7 @@
   },
   "orb_weaver_spinneret__2": {
     "name_en": "Orb-Weaver Spinneret",
-    "name_zh": "",
+    "name_zh": "圆网蛛吐丝器",
     "type_zh": "刺客 行动",
     "text_en": "Equip a Graphene Chelicera token.\nYour next attack with stealth this turn gets +2{p}.\nGo again",
     "text_zh": "",
@@ -2536,7 +2536,7 @@
   },
   "orb_weaver_spinneret__3": {
     "name_en": "Orb-Weaver Spinneret",
-    "name_zh": "",
+    "name_zh": "圆网蛛吐丝器",
     "type_zh": "刺客 行动",
     "text_en": "Equip a Graphene Chelicera token.\nYour next attack with stealth this turn gets +1{p}.\nGo again",
     "text_zh": "",
