@@ -42,6 +42,7 @@ function normalizeCard(cardId, entries) {
     name_zh: first.name_zh || '',
     name_en: first.name_en || '',
     type_zh: first.type_zh || '',
+    type_en: first.type_en || '',
     text_zh: first.text_zh || '',
     text_en: first.text_en || '',
     source: first.source || '',

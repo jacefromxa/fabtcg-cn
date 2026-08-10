@@ -951,6 +951,10 @@
     "slug": "apocalypse_automaton",
     "pitch": "1"
   },
+  "IAR056": {
+    "slug": "appalling_bearers",
+    "pitch": null
+  },
   "LGS277": {
     "slug": "aqua_laps",
     "pitch": null
@@ -1460,6 +1464,10 @@
     "pitch": "1"
   },
   "CRU000": {
+    "slug": "arknight_shard",
+    "pitch": "3"
+  },
+  "IAR001": {
     "slug": "arknight_shard",
     "pitch": "3"
   },
@@ -2761,6 +2769,18 @@
     "slug": "beckoning_haunt",
     "pitch": null
   },
+  "IAR017": {
+    "slug": "beckoning_hunger",
+    "pitch": "1"
+  },
+  "IAR018": {
+    "slug": "beckoning_hunger",
+    "pitch": "2"
+  },
+  "IAR019": {
+    "slug": "beckoning_hunger",
+    "pitch": "3"
+  },
   "DTD051": {
     "slug": "beckoning_light",
     "pitch": "1"
@@ -2819,6 +2839,10 @@
   },
   "PEN042": {
     "slug": "become_the_cup",
+    "pitch": "3"
+  },
+  "IAR113": {
+    "slug": "become_the_shadow_lord",
     "pitch": "3"
   },
   "MON266": {
@@ -3421,6 +3445,10 @@
       "pitch": null
     }
   ],
+  "IAR221": {
+    "slug": "blasmophet_the_insatiable_hunger",
+    "pitch": null
+  },
   "FAB021": {
     "slug": "blasmophet_the_soul_harvester",
     "pitch": null
@@ -3832,6 +3860,10 @@
   "SUP252": {
     "slug": "blood_follows_blade",
     "pitch": "2"
+  },
+  "IAR005": {
+    "slug": "blood_harvest",
+    "pitch": null
   },
   "HNT063": {
     "slug": "blood_line",
@@ -4950,6 +4982,10 @@
   "XXX011": {
     "slug": "briar_warden_of_thorns",
     "pitch": null
+  },
+  "IAR058": {
+    "slug": "bridge_of_damnation",
+    "pitch": "3"
   },
   "AHA011": {
     "slug": "brimming_blade",
@@ -6157,6 +6193,10 @@
     "slug": "cintari_sellsword",
     "pitch": null
   },
+  "IAR223": {
+    "slug": "circlet_of_eternal_end",
+    "pitch": null
+  },
   "AZS018": {
     "slug": "circular_flowtide",
     "pitch": "2"
@@ -7236,6 +7276,14 @@
   "OMN014": {
     "slug": "corrosive_space_dust",
     "pitch": "3"
+  },
+  "IAR164": {
+    "slug": "corrupt_and_conquer",
+    "pitch": "1"
+  },
+  "IAR090": {
+    "slug": "corrupted_corpse",
+    "pitch": null
   },
   "MST076": {
     "slug": "cosmic_awakening",
@@ -8715,6 +8763,10 @@
   },
   "FAB174": {
     "slug": "demolition_protocol",
+    "pitch": "1"
+  },
+  "IAR126": {
+    "slug": "demonbound_gloomblade",
     "pitch": "1"
   },
   "GEM011": {
@@ -13546,11 +13598,7 @@
     "pitch": "3"
   },
   "IAR222": {
-    "slug": "gate_to_i_arathael",
-    "pitch": null
-  },
-  "gate_to_iarathael": {
-    "slug": "gate_to_i_arathael",
+    "slug": "gate_to_iarathael",
     "pitch": null
   },
   "MPG007": {
@@ -14325,6 +14373,10 @@
     "slug": "grasp_of_the_arknight",
     "pitch": null
   },
+  "IAR109": {
+    "slug": "grasp_of_the_darknight",
+    "pitch": null
+  },
   "FAB342": {
     "slug": "gravekeeping",
     "pitch": "1"
@@ -14415,6 +14467,10 @@
   },
   "MON000": {
     "slug": "great_library_of_solana",
+    "pitch": null
+  },
+  "IAR161": {
+    "slug": "grille_of_repentance",
     "pitch": null
   },
   "DTD175": {
@@ -15285,6 +15341,10 @@
     "slug": "hell_hammer",
     "pitch": null
   },
+  "IAR003": {
+    "slug": "hell_hammer",
+    "pitch": null
+  },
   "LGS164": {
     "slug": "hell_hammer",
     "pitch": null
@@ -15708,6 +15768,10 @@
   "CRU056": {
     "slug": "herons_flight",
     "pitch": "1"
+  },
+  "IAR004": {
+    "slug": "hex_gauntlet",
+    "pitch": null
   },
   "FAB186": {
     "slug": "hexagore_the_death_hydra",
@@ -18907,6 +18971,10 @@
     "slug": "levia",
     "pitch": null
   },
+  "IAR002": {
+    "slug": "levia",
+    "pitch": null
+  },
   "LEV001": {
     "slug": "levia",
     "pitch": null
@@ -19784,6 +19852,14 @@
   "ROS132": {
     "slug": "malefic_incantation",
     "pitch": "3"
+  },
+  "IAR054": {
+    "slug": "malice",
+    "pitch": null
+  },
+  "IAR053": {
+    "slug": "malice_domina_of_the_dead",
+    "pitch": null
   },
   "ARA010": {
     "slug": "malign",
@@ -22001,6 +22077,10 @@
     "slug": "open_the_flood_gates",
     "pitch": "3"
   },
+  "IAR166": {
+    "slug": "open_the_gate_to_iarathael",
+    "pitch": "1"
+  },
   "1HP219": {
     "slug": "optekal_monocle",
     "pitch": "3"
@@ -22589,6 +22669,10 @@
   },
   "SEA096": {
     "slug": "patch_the_hole",
+    "pitch": null
+  },
+  "IAR163": {
+    "slug": "path_of_repentance",
     "pitch": null
   },
   "GEM155": {
@@ -24154,6 +24238,18 @@
   "SEA001": {
     "slug": "puffin_hightail",
     "pitch": null
+  },
+  "IAR212": {
+    "slug": "pull_from_beyond",
+    "pitch": "1"
+  },
+  "IAR213": {
+    "slug": "pull_from_beyond",
+    "pitch": "2"
+  },
+  "IAR214": {
+    "slug": "pull_from_beyond",
+    "pitch": "3"
   },
   "AKO010": {
     "slug": "pulping",
@@ -25809,6 +25905,10 @@
     "slug": "restless_coalescence",
     "pitch": "2"
   },
+  "IAR064": {
+    "slug": "restless_magister",
+    "pitch": "1"
+  },
   "PEN325": {
     "slug": "restvine_elixir",
     "pitch": "1"
@@ -26523,6 +26623,10 @@
   },
   "ARC117": {
     "slug": "robe_of_rapture",
+    "pitch": null
+  },
+  "IAR162": {
+    "slug": "robe_of_repentance",
     "pitch": null
   },
   "PEN108": {
@@ -28479,6 +28583,10 @@
     "slug": "settle_the_bill",
     "pitch": "1"
   },
+  "IAR108": {
+    "slug": "seven_sin_nebula",
+    "pitch": null
+  },
   "DTD108": {
     "slug": "shaden_death_hydra",
     "pitch": "2"
@@ -28519,9 +28627,21 @@
     "slug": "shadow_of_ursur",
     "pitch": "3"
   },
+  "IAR174": {
+    "slug": "shadowrealm_harrower",
+    "pitch": "3"
+  },
+  "IAR175": {
+    "slug": "shadowrealm_harvester",
+    "pitch": "1"
+  },
   "MST236": {
     "slug": "shadowrealm_horror",
     "pitch": "1"
+  },
+  "IAR176": {
+    "slug": "shadowrealm_reaper",
+    "pitch": "2"
   },
   "OUT013": {
     "slug": "shake_down",
@@ -29625,6 +29745,10 @@
     "slug": "sinker",
     "pitch": "3"
   },
+  "IAR112": {
+    "slug": "sinspeaker_gloomblade",
+    "pitch": "1"
+  },
   "MST009": {
     "slug": "sirens_call",
     "pitch": "1"
@@ -30552,6 +30676,14 @@
   "MON063": {
     "slug": "soul_shield",
     "pitch": "2"
+  },
+  "IAR000": {
+    "slug": "soul_of_existence",
+    "pitch": "4"
+  },
+  "IAR666": {
+    "slug": "soul_of_existence",
+    "pitch": "4"
   },
   "1HP122": {
     "slug": "soulbead_strike",
@@ -34450,29 +34582,15 @@
     "pitch": null
   },
   "MON254": {
-    "slug": "tremor_of_i_arathael",
+    "slug": "tremor_of_iarathael",
     "pitch": "1"
   },
-  "tremor_of_iarathael": [
-    {
-      "slug": "tremor_of_i_arathael",
-      "pitch": "1"
-    },
-    {
-      "slug": "tremor_of_i_arathael",
-      "pitch": "2"
-    },
-    {
-      "slug": "tremor_of_i_arathael",
-      "pitch": "3"
-    }
-  ],
   "MON255": {
-    "slug": "tremor_of_i_arathael",
+    "slug": "tremor_of_iarathael",
     "pitch": "2"
   },
   "MON256": {
-    "slug": "tremor_of_i_arathael",
+    "slug": "tremor_of_iarathael",
     "pitch": "3"
   },
   "HNT247": {
@@ -34798,6 +34916,10 @@
   "twofaced": {
     "slug": "two_faced",
     "pitch": null
+  },
+  "IAR178": {
+    "slug": "unbound_by_shadow",
+    "pitch": "1"
   },
   "EVO216": {
     "slug": "under_loop",
@@ -35687,6 +35809,16 @@
     "slug": "viserai",
     "pitch": null
   },
+  "IAR107": [
+    {
+      "slug": "viserai_between_worlds",
+      "pitch": null
+    },
+    {
+      "slug": "viserai_usurper",
+      "pitch": null
+    }
+  ],
   "1HP258": {
     "slug": "viserai_rune_blood",
     "pitch": null
@@ -35719,6 +35851,16 @@
     "slug": "viserai_rune_blood",
     "pitch": null
   },
+  "IAR106": [
+    {
+      "slug": "viserai_usurper",
+      "pitch": null
+    },
+    {
+      "slug": "viserai_the_forsaken",
+      "pitch": null
+    }
+  ],
   "OMN151": {
     "slug": "visionary_of_orbits",
     "pitch": "1"
@@ -35937,6 +36079,10 @@
   },
   "HNT144": {
     "slug": "vow_of_vengeance",
+    "pitch": null
+  },
+  "IAR055": {
+    "slug": "vox_necropolis",
     "pitch": null
   },
   "DTD134": {

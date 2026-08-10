@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "72b706b0884c",
+  "version": "bcd7fd0f3941",
   "cards": {
     "10_000_year_reunion": {
       "id": "10_000_year_reunion",
@@ -325,6 +325,10 @@
     "apocalypse_automaton": {
       "id": "apocalypse_automaton",
       "chunk": "chunks/t3-mechanologist.json"
+    },
+    "appalling_bearers": {
+      "id": "appalling_bearers",
+      "chunk": "chunks/t2-equipment.json"
     },
     "aqua_laps": {
       "id": "aqua_laps",
@@ -914,6 +918,10 @@
       "id": "beckoning_haunt",
       "chunk": "chunks/t2-equipment.json"
     },
+    "beckoning_hunger": {
+      "id": "beckoning_hunger",
+      "chunk": "chunks/t3-brute.json"
+    },
     "beckoning_light": {
       "id": "beckoning_light",
       "chunk": "chunks/t3-warrior.json"
@@ -933,6 +941,10 @@
     "become_the_cup": {
       "id": "become_the_cup",
       "chunk": "chunks/t3-ninja.json"
+    },
+    "become_the_shadow_lord": {
+      "id": "become_the_shadow_lord",
+      "chunk": "chunks/t3-runeblade.json"
     },
     "belittle": {
       "id": "belittle",
@@ -1122,6 +1134,10 @@
       "id": "blasmophet_levia_consumed",
       "chunk": "chunks/t3-shadow.json"
     },
+    "blasmophet_the_insatiable_hunger": {
+      "id": "blasmophet_the_insatiable_hunger",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "blasmophet_the_soul_harvester": {
       "id": "blasmophet_the_soul_harvester",
       "chunk": "chunks/t3-shadow.json"
@@ -1269,6 +1285,10 @@
     "blood_follows_blade": {
       "id": "blood_follows_blade",
       "chunk": "chunks/t3-warrior.json"
+    },
+    "blood_harvest": {
+      "id": "blood_harvest",
+      "chunk": "chunks/t3-brute.json"
     },
     "blood_in_the_water": {
       "id": "blood_in_the_water",
@@ -1613,6 +1633,10 @@
     "briar_warden_of_thorns": {
       "id": "briar_warden_of_thorns",
       "chunk": "chunks/heroes.json"
+    },
+    "bridge_of_damnation": {
+      "id": "bridge_of_damnation",
+      "chunk": "chunks/t3-pirate.json"
     },
     "brimming_blade": {
       "id": "brimming_blade",
@@ -2050,6 +2074,10 @@
       "id": "cintari_sellsword",
       "chunk": "chunks/t3-warrior.json"
     },
+    "circlet_of_eternal_end": {
+      "id": "circlet_of_eternal_end",
+      "chunk": "chunks/t1-generic.json"
+    },
     "circular_flowtide": {
       "id": "circular_flowtide",
       "chunk": "chunks/t3-illusionist.json"
@@ -2453,6 +2481,14 @@
     "corrosive_space_dust": {
       "id": "corrosive_space_dust",
       "chunk": "chunks/t3-illusionist.json"
+    },
+    "corrupt_and_conquer": {
+      "id": "corrupt_and_conquer",
+      "chunk": "chunks/t3-shadow.json"
+    },
+    "corrupted_corpse": {
+      "id": "corrupted_corpse",
+      "chunk": "chunks/t3-pirate.json"
     },
     "cosmic_awakening": {
       "id": "cosmic_awakening",
@@ -2885,6 +2921,10 @@
     "demolition_protocol": {
       "id": "demolition_protocol",
       "chunk": "chunks/t3-mechanologist.json"
+    },
+    "demonbound_gloomblade": {
+      "id": "demonbound_gloomblade",
+      "chunk": "chunks/t3-runeblade.json"
     },
     "demonstrate_devotion": {
       "id": "demonstrate_devotion",
@@ -4950,6 +4990,10 @@
       "id": "grasp_of_the_arknight",
       "chunk": "chunks/t2-equipment.json"
     },
+    "grasp_of_the_darknight": {
+      "id": "grasp_of_the_darknight",
+      "chunk": "chunks/t2-equipment.json"
+    },
     "gravekeeping": {
       "id": "gravekeeping",
       "chunk": "chunks/t1-generic.json"
@@ -4997,6 +5041,10 @@
     "great_library_of_solana": {
       "id": "great_library_of_solana",
       "chunk": "chunks/t3-light.json"
+    },
+    "grille_of_repentance": {
+      "id": "grille_of_repentance",
+      "chunk": "chunks/t2-equipment.json"
     },
     "grim_feast": {
       "id": "grim_feast",
@@ -5393,6 +5441,10 @@
     "herons_flight": {
       "id": "herons_flight",
       "chunk": "chunks/t3-ninja.json"
+    },
+    "hex_gauntlet": {
+      "id": "hex_gauntlet",
+      "chunk": "chunks/t2-equipment.json"
     },
     "hexagore_the_death_hydra": {
       "id": "hexagore_the_death_hydra",
@@ -6634,6 +6686,14 @@
       "id": "malefic_incantation",
       "chunk": "chunks/t3-runeblade.json"
     },
+    "malice": {
+      "id": "malice",
+      "chunk": "chunks/heroes.json"
+    },
+    "malice_domina_of_the_dead": {
+      "id": "malice_domina_of_the_dead",
+      "chunk": "chunks/heroes.json"
+    },
     "malign": {
       "id": "malign",
       "chunk": "chunks/t3-assassin.json"
@@ -7390,6 +7450,10 @@
       "id": "open_the_flood_gates",
       "chunk": "chunks/t3-wizard.json"
     },
+    "open_the_gate_to_iarathael": {
+      "id": "open_the_gate_to_iarathael",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "optekal_monocle": {
       "id": "optekal_monocle",
       "chunk": "chunks/t3-mechanologist.json"
@@ -7580,6 +7644,10 @@
     },
     "patch_the_hole": {
       "id": "patch_the_hole",
+      "chunk": "chunks/t2-equipment.json"
+    },
+    "path_of_repentance": {
+      "id": "path_of_repentance",
       "chunk": "chunks/t2-equipment.json"
     },
     "path_of_same_ends": {
@@ -8170,6 +8238,10 @@
       "id": "puffin_hightail",
       "chunk": "chunks/heroes.json"
     },
+    "pull_from_beyond": {
+      "id": "pull_from_beyond",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "pulping": {
       "id": "pulping",
       "chunk": "chunks/t3-brute.json"
@@ -8694,6 +8766,10 @@
       "id": "restless_coalescence",
       "chunk": "chunks/t3-illusionist.json"
     },
+    "restless_magister": {
+      "id": "restless_magister",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "restvine_elixir": {
       "id": "restvine_elixir",
       "chunk": "chunks/t1-generic.json"
@@ -8912,6 +8988,10 @@
     },
     "robe_of_rapture": {
       "id": "robe_of_rapture",
+      "chunk": "chunks/t2-equipment.json"
+    },
+    "robe_of_repentance": {
+      "id": "robe_of_repentance",
       "chunk": "chunks/t2-equipment.json"
     },
     "robe_of_resourcefulness": {
@@ -9514,6 +9594,10 @@
       "id": "settle_the_bill",
       "chunk": "chunks/t3-ranger.json"
     },
+    "seven_sin_nebula": {
+      "id": "seven_sin_nebula",
+      "chunk": "chunks/t3-runeblade.json"
+    },
     "shaden_death_hydra": {
       "id": "shaden_death_hydra",
       "chunk": "chunks/t3-brute.json"
@@ -9538,9 +9622,21 @@
       "id": "shadow_puppetry",
       "chunk": "chunks/t3-shadow.json"
     },
+    "shadowrealm_harrower": {
+      "id": "shadowrealm_harrower",
+      "chunk": "chunks/t3-shadow.json"
+    },
+    "shadowrealm_harvester": {
+      "id": "shadowrealm_harvester",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "shadowrealm_horror": {
       "id": "shadowrealm_horror",
       "chunk": "chunks/t3-brute.json"
+    },
+    "shadowrealm_reaper": {
+      "id": "shadowrealm_reaper",
+      "chunk": "chunks/t3-shadow.json"
     },
     "shake_down": {
       "id": "shake_down",
@@ -9942,6 +10038,10 @@
       "id": "sinker",
       "chunk": "chunks/t3-ranger.json"
     },
+    "sinspeaker_gloomblade": {
+      "id": "sinspeaker_gloomblade",
+      "chunk": "chunks/t3-runeblade.json"
+    },
     "sirens_call": {
       "id": "sirens_call",
       "chunk": "chunks/t3-assassin.json"
@@ -10268,6 +10368,10 @@
     },
     "soul_harvest": {
       "id": "soul_harvest",
+      "chunk": "chunks/t3-shadow.json"
+    },
+    "soul_of_existence__4": {
+      "id": "soul_of_existence__4",
       "chunk": "chunks/t3-shadow.json"
     },
     "soul_reaping": {
@@ -11854,6 +11958,10 @@
       "id": "two_steps_forward",
       "chunk": "chunks/t2-equipment.json"
     },
+    "unbound_by_shadow": {
+      "id": "unbound_by_shadow",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "under_loop": {
       "id": "under_loop",
       "chunk": "chunks/t3-mechanologist.json"
@@ -12150,8 +12258,20 @@
       "id": "viserai",
       "chunk": "chunks/heroes.json"
     },
+    "viserai_between_worlds": {
+      "id": "viserai_between_worlds",
+      "chunk": "chunks/heroes.json"
+    },
     "viserai_rune_blood": {
       "id": "viserai_rune_blood",
+      "chunk": "chunks/heroes.json"
+    },
+    "viserai_the_forsaken": {
+      "id": "viserai_the_forsaken",
+      "chunk": "chunks/heroes.json"
+    },
+    "viserai_usurper": {
+      "id": "viserai_usurper",
       "chunk": "chunks/heroes.json"
     },
     "visionary_of_orbits": {
@@ -12253,6 +12373,10 @@
     "vow_of_vengeance": {
       "id": "vow_of_vengeance",
       "chunk": "chunks/t2-equipment.json"
+    },
+    "vox_necropolis": {
+      "id": "vox_necropolis",
+      "chunk": "chunks/t3-pirate.json"
     },
     "vynnset": {
       "id": "vynnset",

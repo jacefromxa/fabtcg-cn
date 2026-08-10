@@ -4015,6 +4015,34 @@
       }
     ]
   },
+  "appalling_bearers": {
+    "source_unique_id": "jCfWzCbzWDBKmcPThjMcq",
+    "name_en": "Appalling Bearers",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "types": [
+      "Shadow",
+      "Necromancer",
+      "Equipment",
+      "Arms"
+    ],
+    "text_en": "Instant - Discard a zombie, destroy this: Prevent the next 2 damage that would be dealt to you this turn.",
+    "type_en": "Shadow Necromancer Equipment - Arms",
+    "printings": [
+      {
+        "id": "IAR056",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR056.webp"
+      },
+      {
+        "id": "IAR056",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR056-CF.webp"
+      }
+    ]
+  },
   "aqua_laps": {
     "source_unique_id": "gJg89dTHTbjhQPnnfkMpP",
     "name_en": "Aqua Laps",
@@ -5968,7 +5996,7 @@
       "Resource",
       "Gem"
     ],
-    "text_en": "Legendary Viserai Specialization\nWhen you pitch Arknight Shard, create a Runechant token.",
+    "text_en": "Legendary Viserai Specialization\nWhen this is pitched, create a Runechant token.",
     "type_en": "Runeblade Resource - Gem",
     "printings": [
       {
@@ -5980,6 +6008,11 @@
         "id": "CRU000",
         "set_id": "CRU",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU000-RF.webp"
+      },
+      {
+        "id": "IAR001",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR001.webp"
       }
     ]
   },
@@ -7867,6 +7900,11 @@
     "text_en": "Whenever you pitch a card, banish it.\nAttack action cards played from your banished zone get +3{p}.",
     "type_en": "Shadow Hero - Young Demon",
     "printings": [
+      {
+        "id": "IAR159",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR159-RF.webp"
+      },
       {
         "id": "IAR159",
         "set_id": "IAR",
@@ -11449,6 +11487,90 @@
       }
     ]
   },
+  "beckoning_hunger": {
+    "source_unique_id": "H6MhWPLLWJpTPmd7twtgC",
+    "name_en": "Beckoning Hunger",
+    "pitch": "1",
+    "cost": "3",
+    "power": "7",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Brute",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "When this attacks, banish the top card of your deck.\nWhen this hits, create a Blasmophet, the Insatiable Hunger token.\nBlood Debt",
+    "type_en": "Shadow Brute Action - Attack",
+    "printings": [
+      {
+        "id": "IAR017",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR017.webp"
+      },
+      {
+        "id": "IAR017",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR017.webp"
+      }
+    ]
+  },
+  "beckoning_hunger__2": {
+    "source_unique_id": "GKj9BJrLnJDb8cdQ6Dkc9",
+    "name_en": "Beckoning Hunger",
+    "pitch": "2",
+    "cost": "3",
+    "power": "6",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Brute",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "When this attacks, banish the top card of your deck.\nWhen this hits, create a Blasmophet, the Insatiable Hunger token.\nBlood Debt",
+    "type_en": "Shadow Brute Action - Attack",
+    "printings": [
+      {
+        "id": "IAR018",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR018.webp"
+      },
+      {
+        "id": "IAR018",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR018.webp"
+      }
+    ]
+  },
+  "beckoning_hunger__3": {
+    "source_unique_id": "FnptrgNbzKQRGnFK8rWwj",
+    "name_en": "Beckoning Hunger",
+    "pitch": "3",
+    "cost": "3",
+    "power": "5",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Brute",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "When this attacks, banish the top card of your deck.\nWhen this hits, create a Blasmophet, the Insatiable Hunger token.\nBlood Debt",
+    "type_en": "Shadow Brute Action - Attack",
+    "printings": [
+      {
+        "id": "IAR019",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR019.webp"
+      },
+      {
+        "id": "IAR019",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR019.webp"
+      }
+    ]
+  },
   "beckoning_light": {
     "source_unique_id": "KHpc7bwPqmLjMF977CjcR",
     "name_en": "Beckoning Light",
@@ -11726,6 +11848,33 @@
         "id": "PEN042",
         "set_id": "PEN",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN042.webp"
+      }
+    ]
+  },
+  "become_the_shadow_lord": {
+    "source_unique_id": "9DgdMqPdzCbJkLcqJKpNT",
+    "name_en": "Become the Shadow Lord",
+    "pitch": "3",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Runeblade",
+      "Action"
+    ],
+    "text_en": "Banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, create a Gate to i'Arathael token.\nGo again",
+    "type_en": "Shadow Runeblade Action",
+    "printings": [
+      {
+        "id": "IAR113",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR113.webp"
+      },
+      {
+        "id": "IAR113",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR113-MV.webp"
       }
     ]
   },
@@ -14328,6 +14477,34 @@
       }
     ]
   },
+  "blasmophet_the_insatiable_hunger": {
+    "source_unique_id": "FnQHkwDkfJcRFcrRDtPtT",
+    "name_en": "Blasmophet, the Insatiable Hunger",
+    "pitch": null,
+    "cost": null,
+    "power": "6",
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Token",
+      "Demon",
+      "Ally"
+    ],
+    "text_en": "Unique\nOnce per turn, you may play an action card with blood debt from your banished zone.\nAt the beginning of each end phase, you may banish a card from your hand. Then if you haven't banished a card with blood debt this turn, destroy this.",
+    "type_en": "Shadow Token - Demon Ally",
+    "printings": [
+      {
+        "id": "IAR221",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR221.webp"
+      },
+      {
+        "id": "IAR221",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR221-MV.webp"
+      }
+    ]
+  },
   "blasmophet_the_soul_harvester": {
     "source_unique_id": "qJ8HCWnpHbPRGRGpt86Cb",
     "name_en": "Blasmophet, the Soul Harvester",
@@ -16566,6 +16743,34 @@
         "id": "SUP252",
         "set_id": "SUP",
         "image_url": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SUP252.webp"
+      }
+    ]
+  },
+  "blood_harvest": {
+    "source_unique_id": "HKQMBnGq8PCKJTdrjmfGk",
+    "name_en": "Blood Harvest",
+    "pitch": null,
+    "cost": "3",
+    "power": "6",
+    "defense": "0",
+    "types": [
+      "Shadow",
+      "Brute",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "Instant - Banish this from your hand: Gain {r}{r}{r}\nBlood Debt",
+    "type_en": "Shadow Brute Action - Attack",
+    "printings": [
+      {
+        "id": "IAR005",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR005.webp"
+      },
+      {
+        "id": "IAR005",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR005.webp"
       }
     ]
   },
@@ -21109,6 +21314,34 @@
         "id": "XXX011",
         "set_id": "XXX",
         "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX011.png"
+      }
+    ]
+  },
+  "bridge_of_damnation": {
+    "source_unique_id": "f8mDBJ8bNgcpnGCTTCLj6",
+    "name_en": "Bridge of Damnation",
+    "pitch": "3",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Necromancer",
+      "Action",
+      "Aura"
+    ],
+    "text_en": "Go again\nAt the start of each turn, destroy this unless you put a zombie from your banished zone into your graveyard.",
+    "type_en": "Shadow Necromancer Action - Aura",
+    "printings": [
+      {
+        "id": "IAR058",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR058.webp"
+      },
+      {
+        "id": "IAR058",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR058.webp"
       }
     ]
   },
@@ -26628,6 +26861,33 @@
       }
     ]
   },
+  "circlet_of_eternal_end": {
+    "source_unique_id": "GPGfcbccKmqwfKtGPfbRM",
+    "name_en": "Circlet of Eternal End",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "2",
+    "types": [
+      "Generic",
+      "Equipment",
+      "Head"
+    ],
+    "text_en": "When this defends, turn a card in the attacking hero's banished zone face-down.\nBlade Break",
+    "type_en": "Generic Equipment - Head",
+    "printings": [
+      {
+        "id": "IAR223",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR223-RF.webp"
+      },
+      {
+        "id": "IAR223",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR223-RF.webp"
+      }
+    ]
+  },
   "circular_flowtide": {
     "source_unique_id": "FgRQdMbgkGgJ6RwGjwgHr",
     "name_en": "Circular Flowtide",
@@ -31819,6 +32079,57 @@
         "id": "OMN014",
         "set_id": "OMN",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN014.webp"
+      }
+    ]
+  },
+  "corrupt_and_conquer": {
+    "source_unique_id": "kQL7bQNCrdwfDnp8jbwzP",
+    "name_en": "Corrupt and Conquer",
+    "pitch": "1",
+    "cost": "2",
+    "power": "6",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "If this was played from your banished zone, it gets \"Defense reaction cards can't be played this chain link.\nWhen this hits a hero, banish all cards in their arsenal.\nBlood Debt",
+    "type_en": "Shadow Action - Attack",
+    "printings": [
+      {
+        "id": "IAR164",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR164.webp"
+      },
+      {
+        "id": "IAR164",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR164.webp"
+      }
+    ]
+  },
+  "corrupted_corpse": {
+    "source_unique_id": "qmC78MP6bjTHcDChc6RMJ",
+    "name_en": "Corrupted Corpse",
+    "pitch": null,
+    "cost": "2",
+    "power": "3",
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Necromancer",
+      "Action",
+      "Zombie",
+      "Ally"
+    ],
+    "text_en": "Incarnate\nThis card's attacks get go again.\nBlood Debt",
+    "type_en": "Shadow Necromancer Action - Zombie Ally",
+    "printings": [
+      {
+        "id": "IAR090",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR090.webp"
       }
     ]
   },
@@ -38003,6 +38314,34 @@
         "id": "FAB174",
         "set_id": "FAB",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB174-RF.webp"
+      }
+    ]
+  },
+  "demonbound_gloomblade": {
+    "source_unique_id": "jWcCz7DRFHRbkqHBhCKRr",
+    "name_en": "Demonbound Gloomblade",
+    "pitch": "1",
+    "cost": "0",
+    "power": "3",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Runeblade",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "You may play this from your banished zone.\nUsurp\nBlood Debt",
+    "type_en": "Shadow Runeblade Action - Attack",
+    "printings": [
+      {
+        "id": "IAR126",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR126.webp"
+      },
+      {
+        "id": "IAR126",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR126.webp"
       }
     ]
   },
@@ -60309,9 +60648,9 @@
       }
     ]
   },
-  "gate_to_i_arathael": {
+  "gate_to_iarathael": {
     "source_unique_id": "JtkWt6Kzpgz9qpPLPp8Ff",
-    "name_en": "Gate to íArathael",
+    "name_en": "Gate to i'Arathael",
     "pitch": null,
     "cost": null,
     "power": null,
@@ -63771,6 +64110,34 @@
       }
     ]
   },
+  "grasp_of_the_darknight": {
+    "source_unique_id": "jrMzQzBmGK9LjRhQmPhCw",
+    "name_en": "Grasp of the Darknight",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "types": [
+      "Shadow",
+      "Runeblade",
+      "Equipment",
+      "Arms"
+    ],
+    "text_en": "Action - {r}, destroy this: Opt 1, then create a Runechant token. Go again",
+    "type_en": "Shadow Runeblade Equipment - Arms",
+    "printings": [
+      {
+        "id": "IAR109",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR109.webp"
+      },
+      {
+        "id": "IAR109",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR109-CF.webp"
+      }
+    ]
+  },
   "gravekeeping": {
     "source_unique_id": "wGPRkjkMdNTdwLQPPb9JK",
     "name_en": "Gravekeeping",
@@ -64270,6 +64637,33 @@
         "id": "MON000",
         "set_id": "MON",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON000-RF.webp"
+      }
+    ]
+  },
+  "grille_of_repentance": {
+    "source_unique_id": "pKjKMPTQr6TQMMkrnwDBp",
+    "name_en": "Grille of Repentance",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "types": [
+      "Shadow",
+      "Equipment",
+      "Head"
+    ],
+    "text_en": "Instant - Destroy this: Turn a card with blood debt in your banished zone face-down.",
+    "type_en": "Shadow Equipment - Head",
+    "printings": [
+      {
+        "id": "IAR161",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR161.webp"
+      },
+      {
+        "id": "IAR161",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR161.webp"
       }
     ]
   },
@@ -68060,13 +68454,18 @@
       "Hammer",
       "2H"
     ],
-    "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen the combat chain closes, if this attacked, banish it.\nBlood Debt",
+    "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen the combat chain closes, if you've attacked with this, banish it.\nBlood Debt",
     "type_en": "Shadow Brute Weapon - Hammer (2H)",
     "printings": [
       {
         "id": "DTD105",
         "set_id": "DTD",
         "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2023-DTD/EN/DTD105.png"
+      },
+      {
+        "id": "IAR003",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR003.webp"
       },
       {
         "id": "LGS164",
@@ -69649,6 +70048,34 @@
         "id": "CRU056",
         "set_id": "CRU",
         "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU056.png"
+      }
+    ]
+  },
+  "hex_gauntlet": {
+    "source_unique_id": "zMHH8DntNfcWwFMNrPNnQ",
+    "name_en": "Hex Gauntlet",
+    "pitch": null,
+    "cost": null,
+    "power": "6",
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Brute",
+      "Equipment",
+      "Arms"
+    ],
+    "text_en": "Instant - Banish this: Turn a card with blood debt in your banished zone face-down.\nBlood Debt",
+    "type_en": "Shadow Brute Equipment - Arms",
+    "printings": [
+      {
+        "id": "IAR004",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR004.webp"
+      },
+      {
+        "id": "IAR004",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR004.webp"
       }
     ]
   },
@@ -82066,7 +82493,7 @@
       "Hero",
       "Young"
     ],
-    "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose blood debt during the end phase.",
+    "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, you don't lose {h} from blood debt during the end phase.",
     "type_en": "Shadow Brute Hero - Young",
     "printings": [
       {
@@ -82078,6 +82505,21 @@
         "id": "HER036",
         "set_id": "HER",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER036-CF.webp"
+      },
+      {
+        "id": "IAR002",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR002.webp"
+      },
+      {
+        "id": "IAR002",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR002-MV.webp"
+      },
+      {
+        "id": "IAR002",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR002-MV_BACK.webp"
       },
       {
         "id": "LEV001",
@@ -82134,7 +82576,7 @@
       "Brute",
       "Hero"
     ],
-    "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose blood debt during the end phase.",
+    "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, you don't lose {h} from blood debt during the end phase.",
     "type_en": "Shadow Brute Hero",
     "printings": [
       {
@@ -85817,6 +86259,61 @@
         "id": "ROS132",
         "set_id": "ROS",
         "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS132.png"
+      }
+    ]
+  },
+  "malice": {
+    "source_unique_id": "rrJg7Bntjp9WzWNcnJcjw",
+    "name_en": "Malice",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Necromancer",
+      "Hero",
+      "Young"
+    ],
+    "text_en": "Action - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. Go again\nWhenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished Zone.",
+    "type_en": "Shadow Necromancer Hero - Young",
+    "printings": [
+      {
+        "id": "IAR054",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR054.webp"
+      },
+      {
+        "id": "IAR054",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR054-MV.webp"
+      },
+      {
+        "id": "IAR054",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR054-MV_BACK.webp"
+      }
+    ]
+  },
+  "malice_domina_of_the_dead": {
+    "source_unique_id": "cz8FPm7Rjjndfgb8jQBcT",
+    "name_en": "Malice, Domina of the Dead",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Necromancer",
+      "Hero"
+    ],
+    "text_en": "Action - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. Go again\nWhenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished Zone.",
+    "type_en": "Shadow Necromancer Hero",
+    "printings": [
+      {
+        "id": "IAR053",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR053.webp"
       }
     ]
   },
@@ -94872,6 +95369,33 @@
       }
     ]
   },
+  "open_the_gate_to_iarathael": {
+    "source_unique_id": "KjbHhphRQNpDQRbjNJh9f",
+    "name_en": "Open the Gate to i'Arathael",
+    "pitch": "1",
+    "cost": "0",
+    "power": "4",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "When this hits or is banished from hand or deck, create a Gate to i'Arathael token.\nBlood Debt",
+    "type_en": "Shadow Action - Attack",
+    "printings": [
+      {
+        "id": "IAR166",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR166.webp"
+      },
+      {
+        "id": "IAR166",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR166.webp"
+      }
+    ]
+  },
   "optekal_monocle": {
     "source_unique_id": "6Wcpcb7DQ8GMGMTwjdQTR",
     "name_en": "Optekal Monocle",
@@ -97776,6 +98300,33 @@
         "id": "NUU027",
         "set_id": "NUU",
         "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2024-MST-NUU/EN/NUU027.png"
+      }
+    ]
+  },
+  "path_of_repentance": {
+    "source_unique_id": "D8mWttQzTTrJH6twkGRw6",
+    "name_en": "Path of Repentance",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "types": [
+      "Shadow",
+      "Equipment",
+      "Legs"
+    ],
+    "text_en": "Instant - Destroy this: Turn a card with blood debt in your banished zone face-down.",
+    "type_en": "Shadow Equipment - Legs",
+    "printings": [
+      {
+        "id": "IAR163",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR163.webp"
+      },
+      {
+        "id": "IAR163",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR163.webp"
       }
     ]
   },
@@ -105353,6 +105904,84 @@
       }
     ]
   },
+  "pull_from_beyond": {
+    "source_unique_id": "RwBNCgjbQdncGdqP7MJjR",
+    "name_en": "Pull from Beyond",
+    "pitch": "1",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Action"
+    ],
+    "text_en": "Opt 2\nBanish the top card of your deck. If it's red, create a Gate to i'Arathael token. Go again",
+    "type_en": "Shadow Action",
+    "printings": [
+      {
+        "id": "IAR212",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR212.webp"
+      },
+      {
+        "id": "IAR212",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR212.webp"
+      }
+    ]
+  },
+  "pull_from_beyond__2": {
+    "source_unique_id": "cwGdHMhbQbQHMkR7hWwhp",
+    "name_en": "Pull from Beyond",
+    "pitch": "2",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Action"
+    ],
+    "text_en": "Opt 2\nBanish the top card of your deck. If it's yellow, create a Gate to i'Arathael token. Go again",
+    "type_en": "Shadow Action",
+    "printings": [
+      {
+        "id": "IAR213",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR213.webp"
+      },
+      {
+        "id": "IAR213",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR213.webp"
+      }
+    ]
+  },
+  "pull_from_beyond__3": {
+    "source_unique_id": "mJcpckWTBQMjHzQz8KRmq",
+    "name_en": "Pull from Beyond",
+    "pitch": "3",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Action"
+    ],
+    "text_en": "Opt 2\nBanish the top card of your deck. If it's blue, create a Gate to i'Arathael token. Go again",
+    "type_en": "Shadow Action",
+    "printings": [
+      {
+        "id": "IAR214",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR214.webp"
+      },
+      {
+        "id": "IAR214",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR214.webp"
+      }
+    ]
+  },
   "pulping": {
     "source_unique_id": "Hpdjj6RbkDfKMmNqQmwTR",
     "name_en": "Pulping",
@@ -112756,6 +113385,35 @@
       }
     ]
   },
+  "restless_magister": {
+    "source_unique_id": "PRfhDbJzRtJD66DTGcccM",
+    "name_en": "Restless Magister",
+    "pitch": "1",
+    "cost": "0",
+    "power": "3",
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Necromancer",
+      "Action",
+      "Zombie",
+      "Ally"
+    ],
+    "text_en": "When this hits a hero, they banish a card from their hand.\nDecay",
+    "type_en": "Shadow Necromancer Action - Zombie Ally",
+    "printings": [
+      {
+        "id": "IAR064",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR064.webp"
+      },
+      {
+        "id": "IAR064",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR064-MV.webp"
+      }
+    ]
+  },
   "restvine_elixir": {
     "source_unique_id": "JMzGFRDF8qTWJCLPRfQgH",
     "name_en": "Restvine Elixir",
@@ -116310,6 +116968,33 @@
         "id": "ARC117",
         "set_id": "ARC",
         "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC117.png"
+      }
+    ]
+  },
+  "robe_of_repentance": {
+    "source_unique_id": "8MHFrHBN9mLtggwpbCphD",
+    "name_en": "Robe of Repentance",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "types": [
+      "Shadow",
+      "Equipment",
+      "Chest"
+    ],
+    "text_en": "Instant - Destroy this: Turn a card with blood debt in your banished zone face-down.",
+    "type_en": "Shadow Equipment - Chest",
+    "printings": [
+      {
+        "id": "IAR162",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR162.webp"
+      },
+      {
+        "id": "IAR162",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR162.webp"
       }
     ]
   },
@@ -124744,6 +125429,30 @@
       }
     ]
   },
+  "seven_sin_nebula": {
+    "source_unique_id": "6NCKgNWRrD7cqzzhw6Qtz",
+    "name_en": "Seven Sin Nebula",
+    "pitch": null,
+    "cost": null,
+    "power": "3",
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Runeblade",
+      "Weapon",
+      "Sword",
+      "2H"
+    ],
+    "text_en": "Action - {r}, {t}: Attack. Activate this only if you've played a card from a banished zone this turn.\nWhen this hits a hero, create a Runechant token.",
+    "type_en": "Shadow Runeblade Weapon - Sword (2H)",
+    "printings": [
+      {
+        "id": "IAR108",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR108.webp"
+      }
+    ]
+  },
   "shaden_death_hydra": {
     "source_unique_id": "JzbrzpFDKnwQJfD7h8CkQ",
     "name_en": "Shaden Death Hydra",
@@ -125049,6 +125758,60 @@
       }
     ]
   },
+  "shadowrealm_harrower": {
+    "source_unique_id": "7KrF7PMWwdWRrDcdFqcj8",
+    "name_en": "Shadowrealm Harrower",
+    "pitch": "3",
+    "cost": "2",
+    "power": "4",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "If this was played from your banished zone, it gets +1{p} and \"When this hits a hero, gain {h} equal to the damage dealt this way.\"\nBlood Debt",
+    "type_en": "Shadow Action - Attack",
+    "printings": [
+      {
+        "id": "IAR174",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR174.webp"
+      },
+      {
+        "id": "IAR174",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR174.webp"
+      }
+    ]
+  },
+  "shadowrealm_harvester": {
+    "source_unique_id": "LrcHgbDdwcTGFmhJbnrbc",
+    "name_en": "Shadowrealm Harvester",
+    "pitch": "1",
+    "cost": "2",
+    "power": "6",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "If this was played from your banished zone, it gets +1{p} and overpower.\nBlood Debt",
+    "type_en": "Shadow Action - Attack",
+    "printings": [
+      {
+        "id": "IAR175",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR175.webp"
+      },
+      {
+        "id": "IAR175",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR175.webp"
+      }
+    ]
+  },
   "shadowrealm_horror": {
     "source_unique_id": "q9rhJWLhqmFgpRdrb6LGM",
     "name_en": "Shadowrealm Horror",
@@ -125074,6 +125837,33 @@
         "id": "MST236",
         "set_id": "MST",
         "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST236.png"
+      }
+    ]
+  },
+  "shadowrealm_reaper": {
+    "source_unique_id": "6pbQC8JDw9F6rGhpbrgtt",
+    "name_en": "Shadowrealm Reaper",
+    "pitch": "2",
+    "cost": "2",
+    "power": "5",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "If this was played from your banished zone, it gets +1{p} and go again.\nBlood Debt",
+    "type_en": "Shadow Action - Attack",
+    "printings": [
+      {
+        "id": "IAR176",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR176.webp"
+      },
+      {
+        "id": "IAR176",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR176.webp"
       }
     ]
   },
@@ -127009,7 +127799,7 @@
       "Warrior",
       "Action"
     ],
-    "text_en": "Your next sword attack this turn gets +3{p} and \"When this attacks, wager with the defending hero. The winner creates a Flurry token.\"\nGo again",
+    "text_en": "Your next sword attack this turn gets +3{p} and \"When this attacks, wager with the defending hero. The winner creates a Flurry token.\nGo again",
     "type_en": "Warrior Action",
     "printings": [
       {
@@ -127035,7 +127825,7 @@
       "Warrior",
       "Action"
     ],
-    "text_en": "Your next sword attack this turn gets +2{p} and \"When this attacks, wager with the defending hero. The winner creates a Flurry token.\"\nGo again",
+    "text_en": "Your next sword attack this turn gets +2{p} and \"When this attacks, wager with the defending hero. The winner creates a Flurry token.\nGo again",
     "type_en": "Warrior Action",
     "printings": [
       {
@@ -127061,7 +127851,7 @@
       "Warrior",
       "Action"
     ],
-    "text_en": "Your next sword attack this turn gets +1{p} and \"When this attacks, wager with the defending hero. The winner creates a Flurry token.\"\nGo again",
+    "text_en": "Your next sword attack this turn gets +1{p} and \"When this attacks, wager with the defending hero. The winner creates a Flurry token.\nGo again",
     "type_en": "Warrior Action",
     "printings": [
       {
@@ -130115,6 +130905,34 @@
         "id": "SEA105",
         "set_id": "SEA",
         "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA105.png"
+      }
+    ]
+  },
+  "sinspeaker_gloomblade": {
+    "source_unique_id": "cPH6KbH6PDWmjq68jdFjb",
+    "name_en": "Sinspeaker Gloomblade",
+    "pitch": "1",
+    "cost": "0",
+    "power": "2",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Runeblade",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "You may play this from your banished zone.\nUsurp\nIf this was played from your banished zone, it gets \"When this attacks, you may search your deck for an aura with Runechant in its name, put it into the arena, then shuffle.\"\nBlood Debt",
+    "type_en": "Shadow Runeblade Action - Attack",
+    "printings": [
+      {
+        "id": "IAR112",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR112.webp"
+      },
+      {
+        "id": "IAR112",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR112.webp"
       }
     ]
   },
@@ -134508,6 +135326,33 @@
         "id": "MON063",
         "set_id": "MON",
         "image_url": "https://storage.googleapis.com/fabmaster/media/images/U-MON063.width-450.png"
+      }
+    ]
+  },
+  "soul_of_existence": {
+    "source_unique_id": "d8hLNTfQcKDtKNrWDm7dF",
+    "name_en": "Soul of Existence",
+    "pitch": "4",
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Resource",
+      "Gem"
+    ],
+    "text_en": "Legendary\nWhen this is pitched, lose 1{h}.",
+    "type_en": "Shadow Resource - Gem",
+    "printings": [
+      {
+        "id": "IAR000",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR000-RF.webp"
+      },
+      {
+        "id": "IAR666",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR666-MV.webp"
       }
     ]
   },
@@ -152479,9 +153324,9 @@
       }
     ]
   },
-  "tremor_of_i_arathael": {
+  "tremor_of_iarathael": {
     "source_unique_id": "hwndKRTjTJtn9FwFhMNWK",
-    "name_en": "Tremor of íArathael",
+    "name_en": "Tremor of i'Arathael",
     "pitch": "1",
     "cost": "1",
     "power": "4",
@@ -152491,7 +153336,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.",
+    "text_en": "If a card has been put into your banished zone this turn, Tremor of i'Arathael gains +2{p}.",
     "type_en": "Generic Action - Attack",
     "printings": [
       {
@@ -152516,9 +153361,9 @@
       }
     ]
   },
-  "tremor_of_i_arathael__2": {
+  "tremor_of_iarathael__2": {
     "source_unique_id": "6mmfrKtTWkcBJDcphpLdc",
-    "name_en": "Tremor of íArathael",
+    "name_en": "Tremor of i'Arathael",
     "pitch": "2",
     "cost": "1",
     "power": "3",
@@ -152528,7 +153373,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.",
+    "text_en": "If a card has been put into your banished zone this turn, Tremor of i'Arathael gains +2{p}.",
     "type_en": "Generic Action - Attack",
     "printings": [
       {
@@ -152553,9 +153398,9 @@
       }
     ]
   },
-  "tremor_of_i_arathael__3": {
+  "tremor_of_iarathael__3": {
     "source_unique_id": "gpbqrrjM8cpnFbm8dLcKz",
-    "name_en": "Tremor of íArathael",
+    "name_en": "Tremor of i'Arathael",
     "pitch": "3",
     "cost": "1",
     "power": "2",
@@ -152565,7 +153410,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.",
+    "text_en": "If a card has been put into your banished zone this turn, Tremor of i'Arathael gains +2{p}.",
     "type_en": "Generic Action - Attack",
     "printings": [
       {
@@ -154141,6 +154986,33 @@
         "id": "PEN299",
         "set_id": "PEN",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN299.webp"
+      }
+    ]
+  },
+  "unbound_by_shadow": {
+    "source_unique_id": "nQhMbB7nzRmc99mPFqkrD",
+    "name_en": "Unbound by Shadow",
+    "pitch": "1",
+    "cost": "0",
+    "power": "4",
+    "defense": "3",
+    "types": [
+      "Shadow",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "When this attacks, if it was played from your banished zone, create a Gate to i'Arathael token.\nBlood Debt",
+    "type_en": "Shadow Action - Attack",
+    "printings": [
+      {
+        "id": "IAR178",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR178.webp"
+      },
+      {
+        "id": "IAR178",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR178.webp"
       }
     ]
   },
@@ -158255,6 +159127,34 @@
       }
     ]
   },
+  "viserai_between_worlds": {
+    "source_unique_id": "zggWCkTJQgBjj7FCDTwmQ",
+    "name_en": "Viserai, Between Worlds",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Runeblade",
+      "Hero",
+      "Young"
+    ],
+    "text_en": "Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, traverse.",
+    "type_en": "Shadow Runeblade Hero - Young",
+    "printings": [
+      {
+        "id": "IAR107",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR107.webp"
+      },
+      {
+        "id": "IAR107",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR107-MV.webp"
+      }
+    ]
+  },
   "viserai_rune_blood": {
     "source_unique_id": "TKbRWjjBLJThMmLkTFb6q",
     "name_en": "Viserai, Rune Blood",
@@ -158318,6 +159218,71 @@
         "id": "WIN007",
         "set_id": "WIN",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/WIN007-CF.webp"
+      }
+    ]
+  },
+  "viserai_usurper": {
+    "source_unique_id": "QMGnHJqg6fhcKLfmpRQLz",
+    "name_en": "Viserai, Usurper",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Runeblade",
+      "Hero",
+      "Demon"
+    ],
+    "text_en": "The first attack action card with blood debt you play each turn gets go again.\nAt the beginning of each end phase, if you've created or activated a Gate to i'Arathael this turn, you may traverse.",
+    "type_en": "Shadow Runeblade Hero - Demon",
+    "printings": [
+      {
+        "id": "IAR106",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR106_BACK.webp"
+      },
+      {
+        "id": "IAR106",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR106-MV_BACK.webp"
+      },
+      {
+        "id": "IAR107",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR107_BACK.webp"
+      },
+      {
+        "id": "IAR107",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR107-MV_BACK.webp"
+      }
+    ]
+  },
+  "viserai_the_forsaken": {
+    "source_unique_id": "RLJggjWTcq6NK9PD9zQGh",
+    "name_en": "Viserai, the Forsaken",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Runeblade",
+      "Hero"
+    ],
+    "text_en": "Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, traverse.",
+    "type_en": "Shadow Runeblade Hero",
+    "printings": [
+      {
+        "id": "IAR106",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR106.webp"
+      },
+      {
+        "id": "IAR106",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR106-MV.webp"
       }
     ]
   },
@@ -159412,6 +160377,30 @@
         "id": "HNT144",
         "set_id": "HNT",
         "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT144.png"
+      }
+    ]
+  },
+  "vox_necropolis": {
+    "source_unique_id": "PjHzdFtkjKpqTrDkwkJGK",
+    "name_en": "Vox Necropolis",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Shadow",
+      "Necromancer",
+      "Weapon",
+      "Staff",
+      "2H"
+    ],
+    "text_en": "During your action phase, zombies you've played from a graveyard or banished zone enter the arena tapped and get \"When this enteres the arena, attack with it.\"\nZombies you control get \"Action - {r}, {t}: Attack\"",
+    "type_en": "Shadow Necromancer Weapon - Staff (2H)",
+    "printings": [
+      {
+        "id": "IAR055",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR055.webp"
       }
     ]
   },

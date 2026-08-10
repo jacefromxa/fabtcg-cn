@@ -42,6 +42,93 @@ function validateQueueDocument(document) {
   }
 }
 
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function englishNamePattern(name) {
+  if (typeof name !== 'string' || !name.trim()) return null;
+  return new RegExp(`(^|[^A-Za-z0-9])${escapeRegExp(name.trim())}(?=$|[^A-Za-z0-9])`, 'i');
+}
+
+function loadAllTranslationSources(translationsDir) {
+  const root = path.resolve(translationsDir);
+  const sources = new Map();
+  for (const file of fs.readdirSync(root).filter((item) => item.endsWith('.json')).sort()) {
+    const batch = file.replace(/\.json$/, '');
+    sources.set(batch, {
+      path: path.join(root, file),
+      data: readJson(path.join(root, file)),
+    });
+  }
+  return sources;
+}
+
+function buildNameChanges(updatesByBatch, sourceByBatch) {
+  const changes = [];
+  for (const [batch, updates] of updatesByBatch) {
+    const source = sourceByBatch.get(batch);
+    for (const update of updates) {
+      for (const variant of update.variants) {
+        const entry = source?.[variant.key];
+        const nameEn = typeof entry?.name_en === 'string' ? entry.name_en : '';
+        const oldNameZh = typeof variant.current_name_zh === 'string' ? variant.current_name_zh : '';
+        if (!nameEn.trim() || !oldNameZh.trim() || oldNameZh === update.newName) continue;
+        changes.push({
+          cardId: update.cardId,
+          nameEn: nameEn.trim(),
+          oldNameZh,
+          newNameZh: update.newName,
+          pattern: englishNamePattern(nameEn),
+        });
+      }
+    }
+  }
+
+  const unique = new Map();
+  for (const change of changes) {
+    const identity = `${change.nameEn}\u0000${change.oldNameZh}`;
+    const previous = unique.get(identity);
+    if (previous && previous.newNameZh !== change.newNameZh) {
+      throw new ReviewApplyError('Conflicting translation names in submission', [
+        { card_id: change.cardId, reason: `same English/old Chinese name maps to both ${previous.newNameZh} and ${change.newNameZh}` },
+      ]);
+    }
+    unique.set(identity, change);
+  }
+  return [...unique.values()];
+}
+
+function propagateNameChanges(workingByBatch, nameChanges, changedBatches) {
+  const propagatedTargets = [];
+  for (const [batch, entries] of workingByBatch) {
+    for (const [key, entry] of Object.entries(entries)) {
+      if (!entry || typeof entry.text_en !== 'string' || typeof entry.text_zh !== 'string') continue;
+      const targetCardId = baseCardId(key);
+      let nextText = entry.text_zh;
+      for (const change of nameChanges) {
+        if (targetCardId === change.cardId || !change.pattern?.test(entry.text_en) || !nextText.includes(change.oldNameZh)) continue;
+        const replaced = nextText.split(change.oldNameZh).join(change.newNameZh);
+        if (replaced === nextText) continue;
+        propagatedTargets.push({
+          batch,
+          key,
+          card_id: targetCardId,
+          name_en: change.nameEn,
+          from: change.oldNameZh,
+          to: change.newNameZh,
+        });
+        nextText = replaced;
+      }
+      if (nextText !== entry.text_zh) {
+        entry.text_zh = nextText;
+        changedBatches.add(batch);
+      }
+    }
+  }
+  return propagatedTargets;
+}
+
 export function applySubmissionFile(filePath, {
   translationsDir = defaultTranslationsDir,
   processedDir = defaultProcessedDir,
@@ -92,7 +179,9 @@ export function applySubmissionFile(filePath, {
         continue;
       }
       seenVariants.add(variant.key);
-      if (!source[variant.key] || source[variant.key].name_zh !== variant.current_name_zh) {
+      if (!source[variant.key]
+        || (source[variant.key].name_zh !== variant.current_name_zh
+          && source[variant.key].name_zh !== change.new_name_zh.trim())) {
         details.push({ card_id: cardId, reason: `stale name snapshot for ${variant.key}` });
       }
     }
@@ -102,34 +191,50 @@ export function applySubmissionFile(filePath, {
 
   if (details.length) throw new ReviewApplyError('Translation review submission conflicts with current source', details);
 
-  const updatedByBatch = new Map();
-  for (const [batch, updates] of updatesByBatch) {
-    const updated = structuredClone(sourceByBatch.get(batch));
-    for (const update of updates) {
-      for (const variant of update.variants) updated[variant.key].name_zh = update.newName;
-    }
-    updatedByBatch.set(batch, updated);
-  }
-  for (const [batch, updated] of updatedByBatch) writeJsonAtomic(pathByBatch.get(batch), updated);
-
-  fs.mkdirSync(processedDir, { recursive: true });
   const processedPath = path.join(processedDir, path.basename(filePath));
   if (fs.existsSync(processedPath)) {
     throw new ReviewApplyError('Processed submission already exists', [
       { card_id: '(document)', reason: processedPath },
     ]);
   }
+
+  const allSources = loadAllTranslationSources(translationsDir);
+  const workingByBatch = new Map([...allSources.entries()]
+    .map(([batch, source]) => [batch, structuredClone(source.data)]));
+  const changedBatches = new Set();
+  for (const [batch, updates] of updatesByBatch) {
+    const updated = workingByBatch.get(batch);
+    for (const update of updates) {
+      for (const variant of update.variants) updated[variant.key].name_zh = update.newName;
+    }
+    changedBatches.add(batch);
+  }
+  const propagatedTargets = propagateNameChanges(
+    workingByBatch,
+    buildNameChanges(updatesByBatch, sourceByBatch),
+    changedBatches,
+  );
+  for (const batch of changedBatches) {
+    const source = allSources.get(batch);
+    writeJsonAtomic(source?.path || pathByBatch.get(batch), workingByBatch.get(batch));
+  }
+
+  fs.mkdirSync(processedDir, { recursive: true });
   fs.renameSync(filePath, processedPath);
   const processedTime = now();
   const processedDocument = {
     ...document,
     processed_at: (processedTime instanceof Date ? processedTime : new Date(processedTime)).toISOString(),
+    propagated_count: propagatedTargets.length,
+    propagated_targets: propagatedTargets,
   };
   writeJsonAtomic(processedPath, processedDocument);
 
   return {
     cardCount: document.changes.length,
     variantCount: document.changes.reduce((sum, change) => sum + change.variants.length, 0),
+    propagatedCount: propagatedTargets.length,
+    propagatedTargets,
     processedPath,
   };
 }

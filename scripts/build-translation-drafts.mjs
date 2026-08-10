@@ -29,7 +29,9 @@ export function isT1GenericCard(card) {
 // T2: Equipment and weapons. High reuse across heroes.
 export function isT2EquipmentCard(card) {
   return !isHeroCard(card)
-    && Boolean(Array.isArray(card.types) && card.types.includes('Equipment'));
+    && Boolean(Array.isArray(card.types)
+      && card.types.includes('Equipment')
+      && !card.types.includes('Generic'));
 }
 
 // Batch names double as the per-batch translation file name (minus .json), so
@@ -132,10 +134,35 @@ export function mergeMachineDrafts(existingZh, englishCards, filter) {
   return { result, added, skippedExisting };
 }
 
+// Add drafts only for cards that do not already have a translation entry.
+// This is the safe mode for importing a newer upstream snapshot: an existing
+// machine draft may be stale, but it is still user-owned state and must not be
+// regenerated behind the translator's back.
+export function mergeMissingDrafts(existingZh, englishCards, filter) {
+  const result = { ...existingZh };
+  let added = 0;
+  let skippedExisting = 0;
+
+  for (const card of englishCards) {
+    if (!filter(card)) continue;
+    const key = buildEntryKey(card);
+    if (!key) continue;
+    if (Object.prototype.hasOwnProperty.call(result, key)) {
+      skippedExisting++;
+      continue;
+    }
+    result[key] = translateCard(card);
+    added++;
+  }
+
+  return { result, added, skippedExisting };
+}
+
 // --- CLI --------------------------------------------------------------------
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const batchName = process.argv[2] || 't1-generic';
+  const onlyMissing = process.argv.includes('--only-missing');
   let filter = BATCH_FILTERS[batchName];
 
   if (!filter && isT3Batch(batchName)) {
@@ -165,11 +192,12 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     ? JSON.parse(fs.readFileSync(batchFile, 'utf8'))
     : {};
 
-  const { result, added, skippedExisting } = mergeMachineDrafts(existingBatch, englishCards, filter);
+  const merge = onlyMissing ? mergeMissingDrafts : mergeMachineDrafts;
+  const { result, added, skippedExisting } = merge(existingBatch, englishCards, filter);
 
   fs.writeFileSync(batchFile, `${JSON.stringify(result, null, 2)}\n`, 'utf8');
-  console.log(`Merged batch "${batchName}" machine drafts into ${batchFile}`);
+  console.log(`Merged batch "${batchName}" ${onlyMissing ? 'missing-only' : 'machine'} drafts into ${batchFile}`);
   console.log(`  added: ${added}`);
-  console.log(`  kept non-machine-draft entries: ${skippedExisting}`);
+  console.log(`  kept existing entries: ${skippedExisting}`);
   console.log(`  total entries in batch file: ${Object.keys(result).length}`);
 }

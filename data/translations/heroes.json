@@ -14,7 +14,7 @@
     "status": "machine-draft"
   },
   "arakni_5l_p3d_7hru_7h3_cr4x": {
-    "name_zh": "阿拉克尼·滑脱裂界",
+    "name_zh": "阿拉克尼·遁隙潜影",
     "name_en": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
     "type_zh": "",
     "type_en": "Chaos Assassin Hero",
@@ -1161,6 +1161,34 @@
     "source": "https://cards.fabtcg.com/card/lyath_goldmane_vile_savant/",
     "status": "machine-draft"
   },
+  "malice": {
+    "name_zh": "玛莉丝",
+    "name_en": "Malice",
+    "type_zh": "",
+    "type_en": "Shadow Necromancer Hero - Young",
+    "text_zh": "",
+    "text_en": "Action - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. Go again\nWhenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished Zone.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/malice/",
+    "status": "machine-draft"
+  },
+  "malice_domina_of_the_dead": {
+    "name_zh": "玛莉丝，亡者女王",
+    "name_en": "Malice, Domina of the Dead",
+    "type_zh": "",
+    "type_en": "Shadow Necromancer Hero",
+    "text_zh": "",
+    "text_en": "Action - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. Go again\nWhenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished Zone.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/malice_domina_of_the_dead/",
+    "status": "machine-draft"
+  },
   "marlynn": {
     "name_zh": "玛琳",
     "name_en": "Marlynn",
@@ -1903,6 +1931,20 @@
     "source": "https://cards.fabtcg.com/card/viserai/",
     "status": "machine-draft"
   },
+  "viserai_between_worlds": {
+    "name_zh": "维塞莱，世界之间",
+    "name_en": "Viserai, Between Worlds",
+    "type_zh": "",
+    "type_en": "Shadow Runeblade Hero - Young",
+    "text_zh": "",
+    "text_en": "Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, traverse.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/viserai_between_worlds/",
+    "status": "machine-draft"
+  },
   "viserai_rune_blood": {
     "name_zh": "维塞莱·符文之血",
     "name_en": "Viserai, Rune Blood",
@@ -1915,6 +1957,34 @@
     "power": null,
     "defense": null,
     "source": "https://cards.fabtcg.com/card/viserai_rune_blood/",
+    "status": "machine-draft"
+  },
+  "viserai_the_forsaken": {
+    "name_zh": "维塞莱，被遗弃者",
+    "name_en": "Viserai, the Forsaken",
+    "type_zh": "",
+    "type_en": "Shadow Runeblade Hero",
+    "text_zh": "",
+    "text_en": "Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, traverse.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/viserai_the_forsaken/",
+    "status": "machine-draft"
+  },
+  "viserai_usurper": {
+    "name_zh": "维塞莱，篡位者",
+    "name_en": "Viserai, Usurper",
+    "type_zh": "",
+    "type_en": "Shadow Runeblade Hero - Demon",
+    "text_zh": "",
+    "text_en": "The first attack action card with blood debt you play each turn gets go again.\nAt the beginning of each end phase, if you've created or activated a Gate to i'Arathael this turn, you may traverse.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/viserai_usurper/",
     "status": "machine-draft"
   },
   "vynnset": {

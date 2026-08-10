@@ -42,6 +42,24 @@ test('buildCardArtifacts falls back to a misc chunk when batch info is missing',
   assert.equal(result.index.cards.foo.chunk, 'chunks/_.json');
 });
 
+test('buildCardArtifacts preserves the English category for hero cards', () => {
+  const result = buildCardArtifacts({
+    malice: {
+      name_zh: '玛莉丝',
+      name_en: 'Malice',
+      type_zh: '',
+      type_en: 'Shadow Necromancer Hero - Young',
+      text_zh: '',
+      text_en: 'Action - {r}, {t}: ...',
+      status: 'machine-draft',
+    },
+  }, { malice: 'heroes' });
+
+  const card = result.chunks['chunks/heroes.json'].cards.malice;
+  assert.equal(card.type_zh, '');
+  assert.equal(card.type_en, 'Shadow Necromancer Hero - Young');
+});
+
 test('buildCardArtifacts prefers a human-reviewed entry over an empty machine draft', () => {
   // A confirmed bare key can sit after its empty machine-draft pitch variants in
   // the batch file; the published card must still carry the confirmed text.

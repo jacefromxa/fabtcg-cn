@@ -124,6 +124,76 @@ test('applies a submission spanning multiple batches after validating all change
   assert.equal(warrior.tiger_tilt__1.name_zh, '虎倾斩');
 });
 
+test('accepts an idempotent resubmission when the requested name is already applied', () => {
+  const env = fixture();
+  const guardianPath = path.join(env.translationsDir, 't3-guardian.json');
+  const guardian = JSON.parse(fs.readFileSync(guardianPath));
+  guardian.boulder_drop__1.name_zh = '巨石坠击';
+  guardian.boulder_drop__2.name_zh = '巨石坠击';
+  fs.writeFileSync(guardianPath, `${JSON.stringify(guardian, null, 2)}\n`);
+  const queuePath = writeSubmission(env.pendingDir, [{
+    card_id: 'boulder_drop',
+    batch: 't3-guardian',
+    name_en: 'Boulder Drop',
+    new_name_zh: '巨石坠击',
+    variants: [
+      { key: 'boulder_drop__1', current_name_zh: '巨石一击' },
+      { key: 'boulder_drop__2', current_name_zh: '巨石二击' },
+    ],
+  }]);
+
+  const result = applySubmissionFile(queuePath, {
+    translationsDir: env.translationsDir,
+    processedDir: env.processedDir,
+  });
+
+  assert.equal(result.cardCount, 1);
+  assert.equal(result.propagatedCount, 0);
+  assert.equal(fs.existsSync(result.processedPath), true);
+});
+
+test('aligns matching card names in rules text without changing unrelated text', () => {
+  const env = fixture();
+  const warriorPath = path.join(env.translationsDir, 't3-warrior.json');
+  const warrior = JSON.parse(fs.readFileSync(warriorPath));
+  warrior.tiger_tilt__1.text_en = 'When you defend with Boulder Drop, gain 1.';
+  warrior.tiger_tilt__1.text_zh = '当你以巨石一击防御时，获得1点。';
+  warrior.unrelated_english__1 = {
+    name_en: 'Unrelated English', name_zh: '无关牌',
+    text_en: 'When you defend with Boulder Drop, gain 1.',
+    text_zh: '当你防御时，获得1点。',
+    pitch: '1', cost: '0', power: '2', defense: '3',
+  };
+  warrior.unrelated_chinese__1 = {
+    name_en: 'Unrelated Chinese', name_zh: '无关牌',
+    text_en: 'When you defend with Tiger Tilt, gain 1.',
+    text_zh: '当你以巨石一击防御时，获得1点。',
+    pitch: '1', cost: '0', power: '2', defense: '3',
+  };
+  fs.writeFileSync(warriorPath, `${JSON.stringify(warrior, null, 2)}\n`);
+  const queuePath = writeSubmission(env.pendingDir, [{
+    card_id: 'boulder_drop',
+    batch: 't3-guardian',
+    name_en: 'Boulder Drop',
+    new_name_zh: '巨石坠击',
+    variants: [
+      { key: 'boulder_drop__1', current_name_zh: '巨石一击' },
+      { key: 'boulder_drop__2', current_name_zh: '巨石二击' },
+    ],
+  }]);
+
+  const result = applySubmissionFile(queuePath, {
+    translationsDir: env.translationsDir,
+    processedDir: env.processedDir,
+  });
+  const updatedWarrior = JSON.parse(fs.readFileSync(warriorPath));
+
+  assert.equal(result.propagatedCount, 1);
+  assert.equal(updatedWarrior.tiger_tilt__1.text_zh, '当你以巨石坠击防御时，获得1点。');
+  assert.equal(updatedWarrior.unrelated_english__1.text_zh, '当你防御时，获得1点。');
+  assert.equal(updatedWarrior.unrelated_chinese__1.text_zh, '当你以巨石一击防御时，获得1点。');
+});
+
 test('rejects a stale snapshot without changing any batch or moving the queue file', () => {
   const env = fixture();
   const guardianPath = path.join(env.translationsDir, 't3-guardian.json');
