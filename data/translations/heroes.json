@@ -1932,7 +1932,7 @@
     "status": "machine-draft"
   },
   "viserai_between_worlds": {
-    "name_zh": "维塞莱，世界之间",
+    "name_zh": "维塞莱·异界行客",
     "name_en": "Viserai, Between Worlds",
     "type_zh": "",
     "type_en": "Shadow Runeblade Hero - Young",
@@ -1946,7 +1946,7 @@
     "status": "machine-draft"
   },
   "viserai_rune_blood": {
-    "name_zh": "维塞莱·符文之血",
+    "name_zh": "维塞莱·以符为血",
     "name_en": "Viserai, Rune Blood",
     "type_zh": "",
     "type_en": "Runeblade Hero",
@@ -1960,7 +1960,7 @@
     "status": "machine-draft"
   },
   "viserai_the_forsaken": {
-    "name_zh": "维塞莱，被遗弃者",
+    "name_zh": "维塞莱·天弃暗徒",
     "name_en": "Viserai, the Forsaken",
     "type_zh": "",
     "type_en": "Shadow Runeblade Hero",
@@ -1974,7 +1974,7 @@
     "status": "machine-draft"
   },
   "viserai_usurper": {
-    "name_zh": "维塞莱，篡位者",
+    "name_zh": "维塞莱·篡位者",
     "name_en": "Viserai, Usurper",
     "type_zh": "",
     "type_en": "Shadow Runeblade Hero - Demon",

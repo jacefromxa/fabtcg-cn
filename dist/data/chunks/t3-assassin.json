@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "bcd7fd0f3941",
+  "version": "77515ba70d1c",
   "cards": {
     "already_dead": {
       "id": "already_dead",
@@ -100,7 +100,7 @@
     },
     "arakni_funnel_web": {
       "id": "arakni_funnel_web",
-      "name_zh": "阿拉克尼·漏斗网",
+      "name_zh": "阿拉克尼·漏斗网蛛",
       "name_en": "Arakni, Funnel Web",
       "type_zh": "混沌 刺客 Demi·英雄",
       "type_en": "",
@@ -124,7 +124,7 @@
       "name_en": "Arakni, Orb-Weaver",
       "type_zh": "混沌 刺客 Demi·英雄",
       "type_en": "",
-      "text_zh": "石墨烯螯肢的启动费用减少1点资源。\n每回合一次瞬间——弃一张刺客牌：装备一个石墨烯螯肢衍生物。本回合你的下一次具有隐匿的攻击获得+3力量。\n在你的结束阶段开始时，回归巢群。",
+      "text_zh": "黑金螯刺的启动费用减少1点资源。\n每回合一次瞬间——弃一张刺客牌：装备一个黑金螯刺衍生物。本回合你的下一次具有隐匿的攻击获得+3力量。\n在你的结束阶段开始时，回归巢群。",
       "text_en": "Graphene Chelicerae cost you {r} less to activate.\nOnce per Turn Instant - Discard an Assassin card: Equip a Graphene Chelicera token. Your next attack with stealth this turn gets +3{p}.\nAt the beginning of your end phase, return to the brood.",
       "source": "https://cards.fabtcg.com/card/arakni_orb_weaver/",
       "status": "machine-draft",
@@ -180,7 +180,7 @@
     },
     "arakni_trap_door": {
       "id": "arakni_trap_door",
-      "name_zh": "阿拉克尼·陷阱门蛛",
+      "name_zh": "阿拉克尼·陷门蛛",
       "name_en": "Arakni, Trap-Door",
       "type_zh": "混沌 刺客 Demi·英雄",
       "type_en": "",
@@ -464,7 +464,7 @@
     },
     "codex_of_bloodrot": {
       "id": "codex_of_bloodrot",
-      "name_zh": "血腐法典",
+      "name_zh": "血腐秘典",
       "name_en": "Codex of Bloodrot",
       "type_zh": "刺客·游侠 行动",
       "type_en": "",
@@ -486,7 +486,7 @@
     },
     "codex_of_frailty": {
       "id": "codex_of_frailty",
-      "name_zh": "虚弱法典",
+      "name_zh": "虚弱秘典",
       "name_en": "Codex of Frailty",
       "type_zh": "刺客·游侠 行动",
       "type_en": "",
@@ -508,7 +508,7 @@
     },
     "codex_of_inertia": {
       "id": "codex_of_inertia",
-      "name_zh": "惰性法典",
+      "name_zh": "惯流秘典",
       "name_en": "Codex of Inertia",
       "type_zh": "刺客·游侠 行动",
       "type_en": "",
@@ -530,7 +530,7 @@
     },
     "coercive_tendency": {
       "id": "coercive_tendency",
-      "name_zh": "胁迫倾向",
+      "name_zh": "威势逼人",
       "name_en": "Coercive Tendency",
       "type_zh": "刺客 攻击反应",
       "type_en": "",
@@ -727,7 +727,7 @@
     },
     "eradicate": {
       "id": "eradicate",
-      "name_zh": "根除",
+      "name_zh": "铲除",
       "name_en": "Eradicate",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -828,7 +828,7 @@
     },
     "fleece_the_frail": {
       "id": "fleece_the_frail",
-      "name_zh": "压榨虚弱者",
+      "name_zh": "劫弱",
       "name_en": "Fleece the Frail",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -882,7 +882,7 @@
     },
     "gorgons_gaze": {
       "id": "gorgons_gaze",
-      "name_zh": "美杜莎凝视",
+      "name_zh": "蛇发鬼凝视",
       "name_en": "Gorgon's Gaze",
       "type_zh": "秘法 刺客 攻击反应",
       "type_en": "",
@@ -902,7 +902,7 @@
     },
     "graphene_chelicera": {
       "id": "graphene_chelicera",
-      "name_zh": "石墨烯螯肢",
+      "name_zh": "黑金螯刺",
       "name_en": "Graphene Chelicera",
       "type_zh": "刺客 衍生物 武器·匕首 （单手）",
       "type_en": "",
@@ -925,7 +925,7 @@
     },
     "graven_call": {
       "id": "graven_call",
-      "name_zh": "铭刻召唤",
+      "name_zh": "刻魂召刃",
       "name_en": "Graven Call",
       "type_zh": "刺客 武器·匕首 （单手）",
       "type_en": "",
@@ -979,7 +979,7 @@
     },
     "horrors_of_the_past": {
       "id": "horrors_of_the_past",
-      "name_zh": "过往的恐怖",
+      "name_zh": "往昔怖景",
       "name_en": "Horrors of the Past",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -1001,7 +1001,7 @@
     },
     "hunted_or_hunter": {
       "id": "hunted_or_hunter",
-      "name_zh": "被猎或猎手",
+      "name_zh": "猎手，或猎物",
       "name_en": "Hunted or Hunter",
       "type_zh": "刺客 防御反应·陷阱",
       "type_en": "",
@@ -1021,7 +1021,7 @@
     },
     "hunter_or_hunted": {
       "id": "hunter_or_hunted",
-      "name_zh": "猎手或被猎",
+      "name_zh": "猎物，或猎手",
       "name_en": "Hunter or Hunted?",
       "type_zh": "刺客 防御反应",
       "type_en": "",
@@ -1243,7 +1243,7 @@
     },
     "just_a_nick": {
       "id": "just_a_nick",
-      "name_zh": "只是小伤",
+      "name_zh": "区区小伤",
       "name_en": "Just a Nick",
       "type_zh": "刺客 攻击反应",
       "type_en": "",
@@ -1681,7 +1681,7 @@
       "name_en": "Orb-Weaver Spinneret",
       "type_zh": "刺客 行动",
       "type_en": "",
-      "text_zh": "装备一个石墨烯螯肢衍生物。\n本回合你的下一次具有隐匿的攻击获得+3力量。\n再动",
+      "text_zh": "装备一个黑金螯刺衍生物。\n本回合你的下一次具有隐匿的攻击获得+3力量。\n再动",
       "text_en": "Equip a Graphene Chelicera token.\nYour next attack with stealth this turn gets +3{p}.\nGo again",
       "source": "https://cards.fabtcg.com/card/orb_weaver_spinneret/",
       "status": "machine-draft",
@@ -1753,7 +1753,7 @@
     },
     "persuasive_prognosis": {
       "id": "persuasive_prognosis",
-      "name_zh": "说服性预后",
+      "name_zh": "料敌先机",
       "name_en": "Persuasive Prognosis",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -1831,7 +1831,7 @@
     },
     "plunder_the_poor": {
       "id": "plunder_the_poor",
-      "name_zh": "掠夺穷人",
+      "name_zh": "掠夺贫者",
       "name_en": "Plunder the Poor",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -1865,7 +1865,7 @@
     },
     "plunge_the_prospect": {
       "id": "plunge_the_prospect",
-      "name_zh": "投身前景",
+      "name_zh": "天降杀机",
       "name_en": "Plunge the Prospect",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -2055,7 +2055,7 @@
     },
     "sack_the_shifty": {
       "id": "sack_the_shifty",
-      "name_zh": "洗劫诡诈者",
+      "name_zh": "扑杀诡徒",
       "name_en": "Sack the Shifty",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -2134,7 +2134,7 @@
     },
     "scuttle_the_canal": {
       "id": "scuttle_the_canal",
-      "name_zh": "凿沉运河",
+      "name_zh": "蛛行暗渠",
       "name_en": "Scuttle the Canal",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -2203,7 +2203,7 @@
     },
     "seeker_kunai": {
       "id": "seeker_kunai",
-      "name_zh": "追寻者苦无",
+      "name_zh": "追命苦无",
       "name_en": "Seeker Kunai",
       "type_zh": "刺客 瞬间·物品",
       "type_en": "",
@@ -2245,7 +2245,7 @@
     },
     "shake_down": {
       "id": "shake_down",
-      "name_zh": "敲诈勒索",
+      "name_zh": "榨干",
       "name_en": "Shake Down",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -2633,7 +2633,7 @@
     },
     "toxicity": {
       "id": "toxicity",
-      "name_zh": "毒性",
+      "name_zh": "淬毒",
       "name_en": "Toxicity",
       "type_zh": "刺客·游侠 行动",
       "type_en": "",
@@ -2667,7 +2667,7 @@
     },
     "two_sides_to_the_blade": {
       "id": "two_sides_to_the_blade",
-      "name_zh": "刃有两面",
+      "name_zh": "一刃两面",
       "name_en": "Two Sides to the Blade",
       "type_zh": "刺客 攻击反应",
       "type_en": "",
@@ -2687,7 +2687,7 @@
     },
     "under_the_trap_door": {
       "id": "under_the_trap_door",
-      "name_zh": "陷阱门之下",
+      "name_zh": "陷阱门下",
       "name_en": "Under the Trap-Door",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -2709,7 +2709,7 @@
     },
     "undercover_acquisition": {
       "id": "undercover_acquisition",
-      "name_zh": "卧底夺取",
+      "name_zh": "卧底轻取",
       "name_en": "Undercover Acquisition",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -2732,7 +2732,7 @@
     },
     "unmake_the_underlings": {
       "id": "unmake_the_underlings",
-      "name_zh": "瓦解下属",
+      "name_zh": "上克下",
       "name_en": "Unmake the Underlings",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
@@ -2786,7 +2786,7 @@
     },
     "virulent_touch": {
       "id": "virulent_touch",
-      "name_zh": "剧毒之触",
+      "name_zh": "致命接触",
       "name_en": "Virulent Touch",
       "type_zh": "刺客·游侠 行动·攻击",
       "type_en": "",
@@ -2822,7 +2822,7 @@
       "name_en": "Whittle from Bone",
       "type_zh": "刺客 行动·攻击",
       "type_en": "",
-      "text_zh": "隐匿\n当此牌攻击被标记的英雄时，装备一个石墨烯螯肢衍生物。",
+      "text_zh": "隐匿\n当此牌攻击被标记的英雄时，装备一个黑金螯刺衍生物。",
       "text_en": "Stealth\nWhen this attacks a marked hero, equip a Graphene Chelicera token.",
       "source": "https://cards.fabtcg.com/card/whittle_from_bone/",
       "status": "machine-draft",
