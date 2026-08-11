@@ -21,6 +21,7 @@ const {
   findCardPreviewImage,
   renderCardPanel,
   installProbe,
+  shouldInstallProbe,
   SETTINGS_DEFAULTS,
   loadSettings,
 } = probe;
@@ -40,6 +41,32 @@ test('userscript entry does not depend on globalThis', () => {
 
 test('userscript matches Fablazing pages', () => {
   assert.match(source, /^\/\/ @match\s+https:\/\/fablazing\.com\/\*$/m);
+});
+
+test('userscript matches Felt Table pages', () => {
+  assert.match(source, /^\/\/ @match\s+https:\/\/felttable\.com\/\*$/m);
+});
+
+test('userscript matches TCGplayer content pages', () => {
+  assert.match(source, /^\/\/ @match\s+https:\/\/www\.tcgplayer\.com\/content\/\*$/m);
+});
+
+test('shouldInstallProbe enables only FAB content on TCGplayer', () => {
+  const fabArticle = {
+    location: { hostname: 'www.tcgplayer.com' },
+    querySelector(selector) {
+      return selector.includes('/content/flesh-and-blood') ? {} : null;
+    },
+  };
+  const otherTcgContent = {
+    location: { hostname: 'www.tcgplayer.com' },
+    querySelector() { return null; },
+  };
+  const talisharPage = { location: { hostname: 'talishar.net' } };
+
+  assert.equal(shouldInstallProbe(fabArticle), true);
+  assert.equal(shouldInstallProbe(otherTcgContent), false);
+  assert.equal(shouldInstallProbe(talisharPage), true);
 });
 
 test('extractImageTokens returns filename and path tokens', () => {
@@ -72,6 +99,23 @@ test('collectCandidates reads image metadata and data attributes', () => {
   const result = collectCandidates(fakeElement);
   assert.deepEqual(Array.from(result.attributes['data-card-id']), ['wtr001']);
   assert.deepEqual(Array.from(result.imageUrls), ['https://cdn.example/cards/WTR001.jpg']);
+});
+
+test('collectCandidates reads Felt Table background card images', () => {
+  const card = {
+    tagName: 'DIV',
+    style: {
+      backgroundImage: 'url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/HVY/HVY092.jpg")',
+    },
+    attributes: [{
+      name: 'style',
+      value: 'background-image: url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/HVY/HVY092.jpg")',
+    }],
+  };
+  const result = collectCandidates(card);
+  assert.deepEqual(Array.from(result.imageUrls), [
+    'https://d1n2ba7uw8bkm1.cloudfront.net/fab/HVY/HVY092.jpg',
+  ]);
 });
 
 function createFakeDocument() {
@@ -155,6 +199,78 @@ test('installProbe registers a listener and cleans up its panel', () => {
 
   assert.equal(fakeDocument.listeners.has('pointerover'), false);
   assert.equal(fakeDocument.body.children.length, 0);
+});
+
+test('userscript keeps listening when TCGplayer FAB content mounts after document-idle', () => {
+  const earlyDocument = createFakeDocument();
+  earlyDocument.location = { hostname: 'www.tcgplayer.com' };
+  earlyDocument.querySelector = () => null;
+  const earlySandbox = { URL, document: earlyDocument };
+  earlySandbox.window = earlySandbox;
+
+  runInNewContext(source, earlySandbox, { filename: sourcePath });
+
+  assert.equal(earlyDocument.listeners.has('pointerover'), true);
+  earlySandbox.FabCnProbeInstance.destroy();
+});
+
+test('pointerover ignores non-FAB TCGplayer content after early installation', () => {
+  const fakeDocument = createFakeDocument();
+  fakeDocument.location = { hostname: 'www.tcgplayer.com' };
+  fakeDocument.querySelector = () => null;
+  const instance = installProbe(fakeDocument, {
+    titans_fist: { name_zh: '泰坦之拳', text_zh: '每回合一次行动：攻击。' },
+  });
+  const cardImage = {
+    tagName: 'IMG',
+    src: 'https://images.talishar.net/public/cardsquares/english/titans_fist.webp',
+    attributes: [{ name: 'src', value: 'https://images.talishar.net/public/cardsquares/english/titans_fist.webp' }],
+  };
+
+  fakeDocument.listeners.get('pointerover')({ target: cardImage });
+
+  assert.equal(fakeDocument.body.children[0].style.display, 'none');
+  instance.destroy();
+});
+
+test('pointerover keeps a TCGplayer card translation visible when its native preview takes the pointer', () => {
+  const fakeDocument = createFakeDocument();
+  fakeDocument.location = { hostname: 'www.tcgplayer.com' };
+  fakeDocument.querySelector = (selector) => (
+    selector === 'a[href="/content/flesh-and-blood"]' ? {} : null
+  );
+  const instance = installProbe(fakeDocument, {
+    scar_for_a_scar: {
+      name_zh: '以疤还疤',
+      text_zh: '当此牌被使用时，它获得再动。',
+    },
+  });
+  const cardEmbed = {
+    tagName: 'SPAN',
+    className: 'card-hover-link',
+    name: 'Scar for a Scar (Red)',
+    attributes: [
+      { name: 'data-embed', value: 'card-hover' },
+      { name: 'name', value: 'Scar for a Scar (Red)' },
+    ],
+  };
+  const nativePreviewTitle = {
+    tagName: 'H2',
+    textContent: 'Scar For A Scar (Red)',
+    attributes: [],
+    closest(selector) {
+      return selector === '.card-spotlight' ? {} : null;
+    },
+  };
+
+  fakeDocument.listeners.get('pointerover')({ target: cardEmbed });
+  fakeDocument.listeners.get('pointerover')({ target: nativePreviewTitle });
+
+  const panel = fakeDocument.body.children[0];
+  assert.equal(panel.style.display, 'block');
+  assert.equal(panel.children[0].textContent, '以疤还疤');
+
+  instance.destroy();
 });
 
 test('pointerover hides the panel when no Chinese card data is available', () => {
@@ -359,6 +475,66 @@ test('findCardAnchor accepts a Fablazing text card link', () => {
     parentNode: null,
   };
   assert.equal(findCardAnchor(anchor, { body: {} }, 180, 112), anchor);
+});
+
+test('findCardAnchor accepts a Felt Table background card', () => {
+  const card = {
+    tagName: 'DIV',
+    style: {
+      backgroundImage: 'url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/HVY/HVY092.jpg")',
+    },
+    attributes: [{
+      name: 'style',
+      value: 'background-image: url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/HVY/HVY092.jpg")',
+    }],
+    querySelector() {
+      return null;
+    },
+    getBoundingClientRect() {
+      return { left: 100, top: 100, right: 232, bottom: 200, width: 132, height: 100 };
+    },
+    parentElement: null,
+    parentNode: null,
+  };
+  assert.equal(findCardAnchor(card, { body: {} }, 160, 150), card);
+});
+
+test('findCardAnchor reaches Felt Table background art through an interaction overlay', () => {
+  const upper = {
+    tagName: 'DIV',
+    style: { backgroundImage: 'url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/WTR/WTR003.jpg")' },
+    attributes: [{ name: 'style', value: 'background-image: url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/WTR/WTR003.jpg")' }],
+    getBoundingClientRect() {
+      return { left: 100, top: 100, right: 220, bottom: 190, width: 120, height: 90 };
+    },
+  };
+  const lower = {
+    tagName: 'DIV',
+    style: { backgroundImage: 'url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/WTR/WTR003.jpg")' },
+    attributes: [{ name: 'style', value: 'background-image: url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/WTR/WTR003.jpg")' }],
+    getBoundingClientRect() {
+      return { left: 100, top: 190, right: 220, bottom: 212, width: 120, height: 22 };
+    },
+  };
+  const card = {
+    tagName: 'DIV',
+    attributes: [],
+    querySelector() { return null; },
+    querySelectorAll() { return [upper, lower]; },
+    parentElement: null,
+    parentNode: null,
+  };
+  const interactiveOverlay = {
+    tagName: 'DIV',
+    className: 'card_bonusArea common_newExpButtonGreen',
+    attributes: [],
+    querySelector() { return null; },
+    parentElement: card,
+    parentNode: card,
+  };
+
+  assert.equal(findCardAnchor(interactiveOverlay, { body: {} }, 160, 150), upper);
+  assert.equal(findCardAnchor(interactiveOverlay, { body: {} }, 160, 202), lower);
 });
 
 test('findCardAnchor ignores a descendant image the pointer is not over', () => {

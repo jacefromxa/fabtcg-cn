@@ -1,23 +1,27 @@
 // ==UserScript==
-// @name           Talishar / FaBrary / Fablazing 简体中文卡牌浮窗
-// @name:zh-CN     Talishar / FaBrary / Fablazing 简体中文卡牌浮窗
-// @name:en        Talishar / FaBrary / Fablazing Simplified Chinese Card Tooltip
+// @name           Talishar / FaBrary / Fablazing / Felt Table / TCGplayer 简体中文卡牌浮窗
+// @name:zh-CN     Talishar / FaBrary / Fablazing / Felt Table / TCGplayer 简体中文卡牌浮窗
+// @name:en        Talishar / FaBrary / Fablazing / Felt Table / TCGplayer Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.26
-// @description    在 Talishar / FaBrary / Fablazing 悬停卡牌时显示简体中文卡牌信息
-// @description:zh-CN 在 Talishar / FaBrary / Fablazing 悬停卡牌时显示简体中文卡牌信息
-// @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, and Fablazing — card name, type, rules text, and keyword explanations.
+// @version        0.7.29
+// @description    在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer 悬停卡牌时显示简体中文卡牌信息
+// @description:zh-CN 在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer 悬停卡牌时显示简体中文卡牌信息
+// @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, Fablazing, Felt Table, and TCGplayer — card name, type, rules text, and keyword explanations.
 // @author         jacefromxa
 // @license        GPL-3.0
 // @match          https://talishar.net/*
 // @match          https://fabrary.net/*
 // @match          https://fablazing.com/*
+// @match          https://felttable.com/*
+// @match          https://www.tcgplayer.com/content/*
 // @run-at         document-idle
 // @updateURL      https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
 // @downloadURL    https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
 // @grant          GM_registerMenuCommand
 // @grant          GM_getValue
 // @grant          GM_setValue
+// @grant          GM_xmlhttpRequest
+// @connect        raw.githubusercontent.com
 // ==/UserScript==
 
 (function () {
@@ -214,6 +218,77 @@
     }));
   }
 
+  function parseTcgplayerCardName(rawName) {
+    const normalizedName = String(rawName || '').trim();
+    const match = normalizedName.match(/^(.*?)(?:\s+\((red|yellow|blue)\))?$/i);
+    if (!match || !match[1].trim()) return null;
+    const slug = slugifyCardName(match[1]);
+    if (!slug) return null;
+    const color = match[2] && match[2].toLowerCase();
+    const pitch = color ? { red: '1', yellow: '2', blue: '3' }[color] : null;
+    return { slug: slug, pitch: pitch };
+  }
+
+  // TCGplayer's FAB articles mark native card previews as
+  // <span class="card-hover-link" data-embed="card-hover" name="Card (Red)">.
+  // This deliberately requires the full, site-owned signature rather than
+  // scanning prose or arbitrary name attributes for potential card names.
+  function extractTcgplayerCardEmbed(element) {
+    if (String(element?.tagName || '').toLowerCase() !== 'span') return null;
+    const classes = String(element?.className || '').split(/\s+/);
+    if (!classes.includes('card-hover-link')) return null;
+    const knownEntries = new Map(attributeEntries(element).map(({ name, value }) => [name, value]));
+    if (String(knownEntries.get('data-embed') || '').toLowerCase() !== 'card-hover') return null;
+    return parseTcgplayerCardName(element?.name || knownEntries.get('name'));
+  }
+
+  // A deck embed uses regular links for card rows instead of card-hover-link.
+  // The exact row + data-testid signature keeps title and author links out of
+  // the candidate set while letting the card-name text serve as the key.
+  function extractTcgplayerDeckCardEmbed(element) {
+    if (typeof element?.closest !== 'function') return null;
+    let row;
+    try {
+      row = element.closest('.martech-deck-embed .list__item');
+    } catch (_) {
+      return null;
+    }
+    if (!row || typeof row.querySelector !== 'function') return null;
+    const cardLink = row.querySelector('a[data-testid="BaseTransition__base-link"]');
+    if (!cardLink) return null;
+    return parseTcgplayerCardName(cardLink.textContent);
+  }
+
+  // Card showcase images carry the precise English card name in alt text.
+  // Their product image URLs only contain marketplace ids, so accept alt text
+  // only when it belongs to TCGplayer's dedicated showcase link component.
+  function extractTcgplayerShowcaseCardEmbed(element) {
+    if (String(element?.tagName || '').toLowerCase() !== 'img') return null;
+    const classes = String(element?.className || '').split(/\s+/);
+    if (!classes.includes('is-card') || !classes.includes('card-image')) return null;
+    if (typeof element?.closest !== 'function') return null;
+    let showcaseLink;
+    try {
+      showcaseLink = element.closest('[data-testid="CardShowcaseCard__base-link"]');
+    } catch (_) {
+      return null;
+    }
+    if (!showcaseLink) return null;
+    return parseTcgplayerCardName(element?.alt);
+  }
+
+  function extractCssImageUrls(value) {
+    if (typeof value !== 'string' || !value.trim()) return [];
+    const urls = [];
+    const pattern = /url\(\s*(?:"([^"]*)"|'([^']*)'|([^)]*))\s*\)/gi;
+    let match;
+    while ((match = pattern.exec(value))) {
+      const url = String(match[1] || match[2] || match[3] || '').trim();
+      if (url && !urls.includes(url)) urls.push(url);
+    }
+    return urls;
+  }
+
   function collectCandidates(element) {
     const result = {
       tagName: String(element?.tagName || '').toLowerCase(),
@@ -221,6 +296,7 @@
       attributes: {},
       imageUrls: [],
       linkUrls: [],
+      embeddedCards: [],
       textHints: [],
     };
 
@@ -243,9 +319,22 @@
     };
 
     addImageUrl(element?.src || knownEntries.get('src'));
+    const backgroundImage = element?.style?.backgroundImage || knownEntries.get('style');
+    for (const url of extractCssImageUrls(backgroundImage)) addImageUrl(url);
     addLinkUrl(element?.href || knownEntries.get('href'));
     addTextHint(element?.alt || knownEntries.get('alt'));
     addTextHint(element?.title || knownEntries.get('title'));
+    const tcgplayerCards = [
+      extractTcgplayerCardEmbed(element),
+      extractTcgplayerDeckCardEmbed(element),
+      extractTcgplayerShowcaseCardEmbed(element),
+    ];
+    for (const tcgplayerCard of tcgplayerCards) {
+      if (tcgplayerCard && !result.embeddedCards.some((card) =>
+        card.slug === tcgplayerCard.slug && card.pitch === tcgplayerCard.pitch)) {
+        result.embeddedCards.push(tcgplayerCard);
+      }
+    }
 
     for (const { name, value } of entries) {
       if (!name.startsWith('data-')) continue;
@@ -264,18 +353,19 @@
     return Boolean(
       candidate.imageUrls.length ||
         candidate.linkUrls.length ||
+        candidate.embeddedCards.length ||
         candidate.textHints.length ||
         Object.keys(candidate.attributes).length,
     );
   }
 
-  // An image found by scanning an ancestor's descendants is only accepted as
-  // the hovered card when the pointer is actually over it. Without this, a
-  // pointer resting on whitespace inside a large card-holding container (a card
-  // grid gap, a game-board header, the space between hands) resolves to the
-  // first card image in that container and keeps the tooltip stuck on a card
-  // the user is not hovering. A few px of slack lets a pointer sitting on a
-  // card's thin border / edge still count as hovering it.
+  // An image or CSS-background card found by scanning an ancestor's descendants
+  // is only accepted as the hovered card when the pointer is actually over it.
+  // Without this, a pointer resting on whitespace inside a large card-holding
+  // container (a card grid gap, a game-board header, the space between hands)
+  // resolves to the first card image in that container and keeps the tooltip
+  // stuck on a card the user is not hovering. A few px of slack lets a pointer
+  // sitting on a card's thin border / edge still count as hovering it.
   function imageUnderPointer(image, clientX, clientY) {
     if (clientX == null || clientY == null) return true; // no coords — structural match only
     let rect = null;
@@ -288,6 +378,32 @@
            clientY >= rect.top - tolerance && clientY <= rect.bottom + tolerance;
   }
 
+  // Felt Table puts the card art on CSS-background child nodes, while status
+  // and playable-card overlays receive pointer events above them. Search the
+  // current card container for an image-bearing descendant under the pointer;
+  // the rectangle check keeps this safe for ordinary multi-card containers.
+  function findImageCandidateUnderPointer(container, clientX, clientY) {
+    if (!container) return null;
+    if (typeof container.querySelectorAll !== 'function') {
+      const image = typeof container.querySelector === 'function' && container.querySelector('img');
+      return image && collectCandidates(image).imageUrls.length &&
+        imageUnderPointer(image, clientX, clientY) ? image : null;
+    }
+    let descendants;
+    try {
+      descendants = container.querySelectorAll('*');
+    } catch (_) {
+      return null;
+    }
+    for (let i = 0; i < descendants.length; i++) {
+      const descendant = descendants[i];
+      const candidate = collectCandidates(descendant);
+      if (!candidate.imageUrls.length) continue;
+      if (imageUnderPointer(descendant, clientX, clientY)) return descendant;
+    }
+    return null;
+  }
+
   function findProbeTarget(target, doc, clientX, clientY) {
     let current = target;
     let depth = 0;
@@ -296,13 +412,8 @@
       const directCandidate = collectCandidates(current);
       if (hasCandidateSignals(directCandidate)) return current;
 
-      if (typeof current.querySelector === 'function') {
-        const image = current.querySelector('img');
-        if (image && hasCandidateSignals(collectCandidates(image)) &&
-            imageUnderPointer(image, clientX, clientY)) {
-          return image;
-        }
-      }
+      const imageCandidate = findImageCandidateUnderPointer(current, clientX, clientY);
+      if (imageCandidate) return imageCandidate;
 
       current = current.parentElement || current.parentNode;
       depth += 1;
@@ -359,7 +470,8 @@
   // overlay resolves to the transformed card via its image, hovering the
   // underlying original resolves to the original via its own image.
   // Priority:
-  //   1. Image-stem aliases (FaBrary printing ids + Talishar transliterated
+  //   1. Explicit TCGplayer / image-stem candidates (TCGplayer card embeds,
+  //      FaBrary printing ids + Talishar transliterated
   //      stems / slug stems), cross-checked against alt/title text
   //   2. alt/title card-name text -> slug (secondary; resolves when the image
   //      has a variant or printing-id form the alias table cannot cover)
@@ -373,6 +485,14 @@
     const altSlug = candidate.textHints
       .map(slugifyCardName)
       .find((slug) => slug && slug.length > 1);
+
+    // TCGplayer card embeds supply the canonical English name and an optional
+    // pitch color even though they do not include a card image. The published
+    // data groups pitches below the base slug, so retain pitch in the
+    // candidate while routing the lookup through that grouped key.
+    for (const embeddedCard of candidate.embeddedCards || []) {
+      push(embeddedCard.slug);
+    }
 
     // 1. Image-stem aliases. Ambiguous ids keep an array of candidates; the
     // alt name picks the right one. Also, Talishar names pitched / variant /
@@ -429,6 +549,55 @@
       return !browserRoot.caches || typeof browserRoot.caches.open !== 'function' || isLocal;
     }
 
+    // Some sites (notably TCGplayer) block page-context fetches to our GitHub
+    // data host through their CSP. Preserve the normal fetch/cache path where
+    // it works, then use the userscript manager's explicitly granted cross-
+    // origin request API as a narrow fallback.
+    function gmRequestJson(url) {
+      if (typeof GM_xmlhttpRequest !== 'function') return null;
+      return new Promise(function (resolve, reject) {
+        try {
+          GM_xmlhttpRequest({
+            method: 'GET',
+            url: url,
+            responseType: 'text',
+            onload: function (response) {
+              if (!response || response.status < 200 || response.status >= 300) {
+                reject(new Error('卡库请求失败：' + url));
+                return;
+              }
+              try {
+                resolve(JSON.parse(response.responseText));
+              } catch (_) {
+                reject(new Error('卡库响应不是有效 JSON：' + url));
+              }
+            },
+            onerror: function () { reject(new Error('卡库请求失败：' + url)); },
+            ontimeout: function () { reject(new Error('卡库请求超时：' + url)); },
+          });
+        } catch (error) {
+          reject(error);
+        }
+      });
+    }
+
+    async function requestJson(url) {
+      let fetchError = null;
+      if (typeof browserRoot.fetch === 'function') {
+        try {
+          const response = await browserRoot.fetch(url);
+          if (!response || response.ok === false) throw new Error('卡库请求失败：' + url);
+          return { data: await response.json(), response: response };
+        } catch (error) {
+          fetchError = error;
+        }
+      }
+      const fallback = gmRequestJson(url);
+      if (fallback) return { data: await fallback, response: null };
+      if (fetchError) throw fetchError;
+      throw new Error('当前环境不支持远程卡库加载。');
+    }
+
     async function cleanOldCaches(currentName) {
       if (!browserRoot.caches || typeof browserRoot.caches.keys !== 'function') return;
       try {
@@ -446,17 +615,10 @@
       if (loaderState) return loaderState;
 
       const manifestUrl = joinDataUrl(normalizedBaseUrl, 'manifest.json');
-      let manifest;
-
       // Manifest is always fetched network-first so we detect version bumps.
-      if (typeof browserRoot.fetch !== 'function') {
-        throw new Error('当前环境不支持远程卡库加载。');
-      }
-      const manifestResponse = await browserRoot.fetch(manifestUrl);
-      if (!manifestResponse || manifestResponse.ok === false) {
-        throw new Error('卡库请求失败：' + manifestUrl);
-      }
-      manifest = await manifestResponse.json();
+      const manifestResult = await requestJson(manifestUrl);
+      const manifest = manifestResult.data;
+      const manifestResponse = manifestResult.response;
 
       let cacheName = null;
       let cache = null;
@@ -465,7 +627,7 @@
         cacheName = CACHE_PREFIX + '-' + (manifest.version || 'unknown');
         cache = await browserRoot.caches.open(cacheName).catch(function () { return null; });
         // Cache the manifest itself so the version persists across restarts.
-        if (cache && typeof cache.put === 'function' && typeof manifestResponse.clone === 'function') {
+        if (cache && manifestResponse && typeof cache.put === 'function' && typeof manifestResponse.clone === 'function') {
           try {
             await cache.put(manifestUrl, manifestResponse.clone());
           } catch (_) { /* quota */ }
@@ -490,16 +652,11 @@
         if (cachedResponse) return cachedResponse.json();
       }
 
-      if (typeof browserRoot.fetch !== 'function') {
-        throw new Error('当前环境不支持远程卡库加载。');
-      }
-      var response = await browserRoot.fetch(url);
-      if (!response || response.ok === false) {
-        throw new Error('卡库请求失败：' + url);
-      }
-      var data = await response.json();
+      var result = await requestJson(url);
+      var response = result.response;
+      var data = result.data;
 
-      if (state.cache && typeof state.cache.put === 'function' && typeof response.clone === 'function') {
+      if (state.cache && response && typeof state.cache.put === 'function' && typeof response.clone === 'function') {
         try {
           await state.cache.put(url, response.clone());
         } catch (_) {
@@ -836,6 +993,34 @@
 
   // --- Main install -------------------------------------------------------
 
+  // The metadata match must cover TCGplayer's generic content URL prefix.
+  // Limit the actual installation to FAB pages through the stable content
+  // breadcrumb so MTG, Pokémon, and other TCGplayer articles remain untouched.
+  function shouldInstallProbe(doc) {
+    const hostname = String(doc?.location?.hostname || root.location?.hostname || '').toLowerCase();
+    if (hostname !== 'www.tcgplayer.com') return true;
+    if (!doc || typeof doc.querySelector !== 'function') return false;
+    try {
+      return Boolean(doc.querySelector('a[href="/content/flesh-and-blood"]'));
+    } catch (_) {
+      return false;
+    }
+  }
+
+  // TCGplayer opens its native card spotlight directly beneath the pointer.
+  // That spotlight immediately emits a second pointerover for its own DOM,
+  // which must not replace or hide the translation that the article card
+  // embed just started loading.
+  function isTcgplayerNativeCardPreviewTarget(target, doc) {
+    const hostname = String(doc?.location?.hostname || root.location?.hostname || '').toLowerCase();
+    if (hostname !== 'www.tcgplayer.com' || typeof target?.closest !== 'function') return false;
+    try {
+      return Boolean(target.closest('.card-spotlight'));
+    } catch (_) {
+      return false;
+    }
+  }
+
   function installProbe(doc, cardData) {
     if (!doc || !doc.body || typeof doc.createElement !== 'function') {
       return { destroy: function () {} };
@@ -879,7 +1064,7 @@
         (isLocalDataUrl(resolvedBaseUrl) ? ' (本地)' : ' (远程)'));
     }
 
-    var remoteLoader = (!cardData && typeof root.fetch === 'function')
+    var remoteLoader = (!cardData && (typeof root.fetch === 'function' || typeof GM_xmlhttpRequest === 'function'))
       ? createCardDataLoader(root, resolvedBaseUrl)
       : null;
     var hoverSerial = 0;
@@ -1711,6 +1896,14 @@
     // --- Event listeners ----------------------------------------------------
 
     var onPointerOver = function (event) {
+      // TCGplayer renders its article body after document-idle. Keep this
+      // listener alive for the late FAB breadcrumb, but do not display a card
+      // panel on any other TCGplayer content category.
+      if (!shouldInstallProbe(doc)) {
+        hidePanel();
+        return;
+      }
+      if (isTcgplayerNativeCardPreviewTarget(event && event.target, doc)) return;
       var anchor = findCardAnchor(event && event.target, doc,
         event ? event.clientX : null, event ? event.clientY : null);
       if (!anchor) {
@@ -1814,6 +2007,7 @@
     extractImageTokens: extractImageTokens,
     extractPrintingId: extractPrintingId,
     extractFablazingCardLink: extractFablazingCardLink,
+    extractTcgplayerCardEmbed: extractTcgplayerCardEmbed,
     normalizeStem: normalizeStem,
     slugifyCardName: slugifyCardName,
     resolveCardKeys: resolveCardKeys,
@@ -1822,11 +2016,15 @@
     lookupCard: lookupCard,
     normalizeCandidate: normalizeCandidate,
     renderCardPanel: renderCardPanel,
+    shouldInstallProbe: shouldInstallProbe,
     installProbe: installProbe,
   };
 
   root.FabCnProbe = api;
 
+  // TCGplayer mounts article breadcrumbs asynchronously, often after the
+  // userscript's document-idle start. Installation must not depend on that
+  // first render; onPointerOver applies the FAB-only gate against live DOM.
   if (root.document) {
     root.FabCnProbeInstance = installProbe(root.document);
   }

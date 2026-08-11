@@ -75,3 +75,68 @@ test('remote loader fetches the manifest, index, and only the matching chunk', a
     'https://data.example/chunks/t.json',
   ]);
 });
+
+test('remote loader falls back to the userscript request API when page fetch is blocked', async () => {
+  const requests = [];
+  let cachePuts = 0;
+  const responses = {
+    'https://data.example/manifest.json': {
+      schema_version: 1,
+      version: 'abc123',
+      index_file: 'index.json',
+    },
+    'https://data.example/index.json': {
+      schema_version: 1,
+      version: 'abc123',
+      cards: {
+        titans_fist: { id: 'titans_fist', chunk: 'chunks/t.json' },
+      },
+    },
+    'https://data.example/chunks/t.json': {
+      schema_version: 1,
+      version: 'abc123',
+      cards: {
+        titans_fist: { id: 'titans_fist', name_zh: '泰坦之拳' },
+      },
+    },
+  };
+  const fallbackSandbox = {
+    URL,
+    GM_xmlhttpRequest(options) {
+      requests.push(options.url);
+      queueMicrotask(() => options.onload({
+        status: 200,
+        responseText: JSON.stringify(responses[options.url]),
+      }));
+    },
+  };
+  fallbackSandbox.window = fallbackSandbox;
+  runInNewContext(source, fallbackSandbox, { filename: sourcePath });
+
+  const loader = fallbackSandbox.FabCnProbe.createCardDataLoader({
+    fetch: async () => { throw new TypeError('Failed to fetch'); },
+    caches: {
+      async open() {
+        return {
+          async match() { return undefined; },
+          async put() { cachePuts += 1; },
+        };
+      },
+      async keys() { return []; },
+    },
+  }, 'https://data.example');
+  const result = await loader.loadCardForElement({
+    tagName: 'IMG',
+    src: 'https://images.example/cards/titans_fist.webp',
+    attributes: [{ name: 'src', value: 'https://images.example/cards/titans_fist.webp' }],
+  });
+
+  assert.equal(result.key, 'titans_fist');
+  assert.equal(result.card.name_zh, '泰坦之拳');
+  assert.deepEqual(requests, [
+    'https://data.example/manifest.json',
+    'https://data.example/index.json',
+    'https://data.example/chunks/t.json',
+  ]);
+  assert.equal(cachePuts, 0, 'GM responses have no Fetch Response clone to cache');
+});

@@ -53,6 +53,7 @@ const {
   extractPrintingId,
   normalizeStem,
   extractFablazingCardLink,
+  extractTcgplayerCardEmbed,
   collectCandidates,
 } = browserSandbox.FabCnProbe;
 
@@ -163,6 +164,103 @@ test('collectCandidates ignores ordinary Fablazing links', () => {
     attributes: [{ name: 'href', value: '/hero/olympia-prized-fighter' }],
   };
   assert.deepEqual(Array.from(collectCandidates(anchor).linkUrls), []);
+});
+
+test('extractTcgplayerCardEmbed parses a card-hover name and its pitch', () => {
+  const embed = {
+    tagName: 'SPAN',
+    className: 'card-hover-link',
+    attributes: [
+      { name: 'data-embed', value: 'card-hover' },
+      { name: 'name', value: 'Scar for a Scar (Red)' },
+    ],
+  };
+
+  assert.deepEqual(
+    { ...extractTcgplayerCardEmbed(embed) },
+    { slug: 'scar_for_a_scar', pitch: '1' },
+  );
+  const candidate = collectCandidates(embed);
+  assert.deepEqual(
+    Array.from(candidate.embeddedCards, (card) => ({ ...card })),
+    [{ slug: 'scar_for_a_scar', pitch: '1' }],
+  );
+  assert.ok(resolveCardKeys(candidate, null).includes('scar_for_a_scar'));
+});
+
+test('extractTcgplayerCardEmbed ignores an ordinary named span', () => {
+  const ordinarySpan = {
+    tagName: 'SPAN',
+    className: 'card-hover-link',
+    attributes: [{ name: 'name', value: 'Scar for a Scar (Red)' }],
+  };
+
+  assert.equal(extractTcgplayerCardEmbed(ordinarySpan), null);
+  assert.deepEqual(Array.from(collectCandidates(ordinarySpan).embeddedCards), []);
+});
+
+test('resolveCardKeys recognizes a TCGplayer deck-list card row by its scoped card link text', () => {
+  const cardLink = {
+    tagName: 'A',
+    textContent: 'Adaptive Alpha Mold',
+    attributes: [{ name: 'data-testid', value: 'BaseTransition__base-link' }],
+  };
+  const deckRow = {
+    tagName: 'LI',
+    className: 'list__item',
+    attributes: [],
+    querySelector(selector) {
+      return selector === 'a[data-testid="BaseTransition__base-link"]' ? cardLink : null;
+    },
+  };
+  cardLink.closest = (selector) => (
+    selector === '.martech-deck-embed .list__item' ? deckRow : null
+  );
+
+  const keys = keysFor(cardLink, null);
+
+  assert.ok(keys.includes('adaptive_alpha_mold'), JSON.stringify(keys));
+});
+
+test('resolveCardKeys recognizes a TCGplayer showcase image and removes its pitch suffix', () => {
+  const showcaseLink = {
+    tagName: 'A',
+    attributes: [{ name: 'data-testid', value: 'CardShowcaseCard__base-link' }],
+  };
+  const image = {
+    tagName: 'IMG',
+    className: 'is-card card-image card-corners',
+    src: 'https://tcgplayer-cdn.tcgplayer.com/product/271203_in_600x600.jpg',
+    alt: 'Sink Below (Red)',
+    attributes: [
+      { name: 'src', value: 'https://tcgplayer-cdn.tcgplayer.com/product/271203_in_600x600.jpg' },
+      { name: 'alt', value: 'Sink Below (Red)' },
+      { name: 'class', value: 'is-card card-image card-corners' },
+    ],
+    closest(selector) {
+      return selector === '[data-testid="CardShowcaseCard__base-link"]' ? showcaseLink : null;
+    },
+  };
+
+  const keys = keysFor(image, null);
+
+  assert.ok(keys.includes('sink_below'), JSON.stringify(keys));
+});
+
+test('resolveCardKeys resolves a Felt Table background card image', () => {
+  const card = {
+    tagName: 'DIV',
+    style: {
+      backgroundImage: 'url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/HVY/HVY092.jpg")',
+    },
+    attributes: [{
+      name: 'style',
+      value: 'background-image: url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/HVY/HVY092.jpg")',
+    }],
+  };
+  const aliases = { HVY092: { slug: 'olympia_prized_fighter', pitch: null } };
+  const candidate = collectCandidates(card);
+  assert.ok(resolveCardKeys(candidate, aliases).includes('olympia_prized_fighter'));
 });
 
 test('card-square URL resolves by its own image first (point at a card, see it)', () => {
