@@ -47,7 +47,14 @@ const source = readFileSync(sourcePath, 'utf8');
 const browserSandbox = { URL };
 browserSandbox.window = browserSandbox;
 runInNewContext(source, browserSandbox, { filename: sourcePath });
-const { resolveCardKeys, slugifyCardName, extractPrintingId, normalizeStem, collectCandidates } = browserSandbox.FabCnProbe;
+const {
+  resolveCardKeys,
+  slugifyCardName,
+  extractPrintingId,
+  normalizeStem,
+  extractFablazingCardLink,
+  collectCandidates,
+} = browserSandbox.FabCnProbe;
 
 function fakeElement(src, alt, title) {
   const attributes = [];
@@ -117,6 +124,45 @@ test('normalizeStem strips color, cropped, and printing-variant suffixes', () =>
   assert.equal(normalizeStem('arcbane_grasp_blue_equip'), 'arcbane_grasp');
   assert.equal(normalizeStem('cogwerx_base_chest_equip'), 'cogwerx_base_chest');
   assert.equal(normalizeStem('evo_beta_base_chest_equip'), 'evo_beta_base_chest');
+});
+
+test('extractFablazingCardLink parses card slug and pitch color', () => {
+  assert.deepEqual(
+    { ...extractFablazingCardLink('https://fablazing.com/card/up-the-ante-blue') },
+    { slug: 'up_the_ante', pitch: '3' },
+  );
+  assert.deepEqual(
+    { ...extractFablazingCardLink('/card/hold-em-red') },
+    { slug: 'hold_em', pitch: '1' },
+  );
+  assert.deepEqual(
+    { ...extractFablazingCardLink('/card/hold-em-yellow') },
+    { slug: 'hold_em', pitch: '2' },
+  );
+  assert.deepEqual(
+    extractFablazingCardLink('https://fablazing.com/hero/olympia-prized-fighter'),
+    null,
+  );
+});
+
+test('resolveCardKeys resolves a Fablazing card link to its grouped slug', () => {
+  const anchor = {
+    tagName: 'A',
+    href: 'https://fablazing.com/card/up-the-ante-blue',
+    attributes: [{ name: 'href', value: '/card/up-the-ante-blue' }],
+  };
+  const candidate = collectCandidates(anchor);
+  assert.deepEqual(Array.from(candidate.linkUrls), ['https://fablazing.com/card/up-the-ante-blue']);
+  assert.ok(resolveCardKeys(candidate, null).includes('up_the_ante'));
+});
+
+test('collectCandidates ignores ordinary Fablazing links', () => {
+  const anchor = {
+    tagName: 'A',
+    href: 'https://fablazing.com/hero/olympia-prized-fighter',
+    attributes: [{ name: 'href', value: '/hero/olympia-prized-fighter' }],
+  };
+  assert.deepEqual(Array.from(collectCandidates(anchor).linkUrls), []);
 });
 
 test('card-square URL resolves by its own image first (point at a card, see it)', () => {

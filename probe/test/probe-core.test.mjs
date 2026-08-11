@@ -38,6 +38,10 @@ test('userscript entry does not depend on globalThis', () => {
   assert.doesNotMatch(source, /\bglobalThis\b/);
 });
 
+test('userscript matches Fablazing pages', () => {
+  assert.match(source, /^\/\/ @match\s+https:\/\/fablazing\.com\/\*$/m);
+});
+
 test('extractImageTokens returns filename and path tokens', () => {
   const tokens = extractImageTokens('https://cdn.example/cards/WTR001.jpg?v=2');
   assert.deepEqual(Array.from(tokens), ['wtr001', '2']);
@@ -341,6 +345,20 @@ test('findCardAnchor prefers the image inside the detected card container', () =
   const fakeDocument = { body: {} };
 
   assert.equal(findCardAnchor(container, fakeDocument), image);
+});
+
+test('findCardAnchor accepts a Fablazing text card link', () => {
+  const anchor = {
+    tagName: 'A',
+    href: 'https://fablazing.com/card/up-the-ante-blue',
+    attributes: [{ name: 'href', value: '/card/up-the-ante-blue' }],
+    getBoundingClientRect() {
+      return { left: 100, top: 100, right: 260, bottom: 124, width: 160, height: 24 };
+    },
+    parentElement: null,
+    parentNode: null,
+  };
+  assert.equal(findCardAnchor(anchor, { body: {} }, 180, 112), anchor);
 });
 
 test('findCardAnchor ignores a descendant image the pointer is not over', () => {

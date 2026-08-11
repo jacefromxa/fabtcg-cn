@@ -1,16 +1,17 @@
 // ==UserScript==
-// @name           Talishar / FaBrary 简体中文卡牌浮窗
-// @name:zh-CN     Talishar / FaBrary 简体中文卡牌浮窗
-// @name:en        Talishar / FaBrary Simplified Chinese Card Tooltip
+// @name           Talishar / FaBrary / Fablazing 简体中文卡牌浮窗
+// @name:zh-CN     Talishar / FaBrary / Fablazing 简体中文卡牌浮窗
+// @name:en        Talishar / FaBrary / Fablazing Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.25
-// @description    在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
-// @description:zh-CN 在 Talishar / FaBrary 悬停卡牌时显示简体中文卡牌信息
-// @description:en Show Simplified Chinese card info on hover for Talishar and FaBrary — card name, type, rules text, and keyword explanations.
+// @version        0.7.26
+// @description    在 Talishar / FaBrary / Fablazing 悬停卡牌时显示简体中文卡牌信息
+// @description:zh-CN 在 Talishar / FaBrary / Fablazing 悬停卡牌时显示简体中文卡牌信息
+// @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, and Fablazing — card name, type, rules text, and keyword explanations.
 // @author         jacefromxa
 // @license        GPL-3.0
 // @match          https://talishar.net/*
 // @match          https://fabrary.net/*
+// @match          https://fablazing.com/*
 // @run-at         document-idle
 // @updateURL      https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
 // @downloadURL    https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
@@ -163,6 +164,33 @@
       .replace(/^_+|_+$/g, '');
   }
 
+  // Fablazing's analysis tables link to pitch-specific card pages such as
+  // "/card/up-the-ante-blue" without rendering a card image. Keep the pitch
+  // hint alongside the grouped slug so the link remains unambiguous even
+  // though the current tooltip only renders the grouped card record.
+  function extractFablazingCardLink(value) {
+    if (typeof value !== 'string' || !value.trim()) return null;
+    let parsed;
+    try {
+      parsed = new URL(value, root.location?.href || 'https://fablazing.com/');
+    } catch {
+      return null;
+    }
+    if (parsed.hostname !== 'fablazing.com' || !parsed.pathname.startsWith('/card/')) return null;
+    const rawSlug = parsed.pathname.slice('/card/'.length).replace(/\/$/, '');
+    const match = rawSlug.match(/^(.*?)-(red|yellow|blue)$/i);
+    if (!match || !match[1]) return null;
+    let cardName;
+    try {
+      cardName = decodeURIComponent(match[1].replace(/-/g, ' '));
+    } catch {
+      return null;
+    }
+    const pitch = { red: '1', yellow: '2', blue: '3' }[match[2].toLowerCase()];
+    const slug = slugifyCardName(cardName);
+    return slug ? { slug: slug, pitch: pitch } : null;
+  }
+
   // FaBrary card images use printing ids as filenames (e.g. "PEN313.webp").
   // The exact stem (PEN313) is the key into the printing-id alias table.
   function extractPrintingId(value) {
@@ -192,6 +220,7 @@
       className: String(element?.className || ''),
       attributes: {},
       imageUrls: [],
+      linkUrls: [],
       textHints: [],
     };
 
@@ -201,6 +230,11 @@
       if (typeof value !== 'string' || !value.trim()) return;
       if (!result.imageUrls.includes(value)) result.imageUrls.push(value);
     };
+    const addLinkUrl = (value) => {
+      if (typeof value !== 'string' || !value.trim()) return;
+      if (!extractFablazingCardLink(value)) return;
+      if (!result.linkUrls.includes(value)) result.linkUrls.push(value);
+    };
     const addTextHint = (value) => {
       const normalized = normalizeCandidate(value);
       if (normalized && !result.textHints.includes(normalized)) {
@@ -209,6 +243,7 @@
     };
 
     addImageUrl(element?.src || knownEntries.get('src'));
+    addLinkUrl(element?.href || knownEntries.get('href'));
     addTextHint(element?.alt || knownEntries.get('alt'));
     addTextHint(element?.title || knownEntries.get('title'));
 
@@ -228,6 +263,7 @@
   function hasCandidateSignals(candidate) {
     return Boolean(
       candidate.imageUrls.length ||
+        candidate.linkUrls.length ||
         candidate.textHints.length ||
         Object.keys(candidate.attributes).length,
     );
@@ -358,6 +394,14 @@
           : targets;
         for (const target of (matched.length ? matched : targets)) push(target.slug);
       }
+    }
+
+    // Fablazing card table links carry a canonical card slug and pitch color
+    // even when no card image is present. The grouped slug is the published
+    // index key; the parser retains pitch metadata for deterministic routing.
+    for (const url of candidate.linkUrls || []) {
+      const link = extractFablazingCardLink(url);
+      if (link) push(link.slug);
     }
 
     // 2. Card-name text (alt / title) as slug.
@@ -1769,6 +1813,7 @@
     isLocalDataUrl: isLocalDataUrl,
     extractImageTokens: extractImageTokens,
     extractPrintingId: extractPrintingId,
+    extractFablazingCardLink: extractFablazingCardLink,
     normalizeStem: normalizeStem,
     slugifyCardName: slugifyCardName,
     resolveCardKeys: resolveCardKeys,
