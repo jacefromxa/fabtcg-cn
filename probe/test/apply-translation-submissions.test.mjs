@@ -194,6 +194,34 @@ test('aligns matching card names in rules text without changing unrelated text',
   assert.equal(updatedWarrior.unrelated_chinese__1.text_zh, '当你以巨石一击防御时，获得1点。');
 });
 
+test('aligns a card name in its own rules text', () => {
+  const env = fixture();
+  const guardianPath = path.join(env.translationsDir, 't3-guardian.json');
+  const guardian = JSON.parse(fs.readFileSync(guardianPath));
+  guardian.boulder_drop__1.text_en = 'If Boulder Drop defends, gain 1.';
+  guardian.boulder_drop__1.text_zh = '若巨石一击防御，获得1点。';
+  fs.writeFileSync(guardianPath, `${JSON.stringify(guardian, null, 2)}\n`);
+  const queuePath = writeSubmission(env.pendingDir, [{
+    card_id: 'boulder_drop',
+    batch: 't3-guardian',
+    name_en: 'Boulder Drop',
+    new_name_zh: '巨石坠击',
+    variants: [
+      { key: 'boulder_drop__1', current_name_zh: '巨石一击' },
+      { key: 'boulder_drop__2', current_name_zh: '巨石二击' },
+    ],
+  }]);
+
+  const result = applySubmissionFile(queuePath, {
+    translationsDir: env.translationsDir,
+    processedDir: env.processedDir,
+  });
+  const updatedGuardian = JSON.parse(fs.readFileSync(guardianPath));
+
+  assert.equal(result.propagatedCount, 1);
+  assert.equal(updatedGuardian.boulder_drop__1.text_zh, '若巨石坠击防御，获得1点。');
+});
+
 test('rejects a stale snapshot without changing any batch or moving the queue file', () => {
   const env = fixture();
   const guardianPath = path.join(env.translationsDir, 't3-guardian.json');

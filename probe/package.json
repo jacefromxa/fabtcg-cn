@@ -6,6 +6,7 @@
     "build:aliases": "node ../scripts/build-card-aliases.mjs",
     "build:data": "node ../scripts/build-card-data.mjs",
     "build": "npm run build:aliases && npm run build:data",
+    "audit:translation-names": "node ../scripts/audit-translation-name-consistency.mjs",
     "serve:data": "node ../scripts/dev-data-server.mjs",
     "review": "node ../scripts/translation-review-server.mjs"
   }

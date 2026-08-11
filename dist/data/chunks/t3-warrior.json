@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "77515ba70d1c",
+  "version": "6748488dfe80",
   "cards": {
     "a_bit_off_the_side": {
       "id": "a_bit_off_the_side",
@@ -5288,7 +5288,7 @@
       "name_en": "Steelblade Shunt",
       "type_zh": "战士 防御反应",
       "type_en": "",
-      "text_zh": "若钢刃分流防御武器攻击，对攻击英雄造成1点伤害。",
+      "text_zh": "若拨刀防反防御武器攻击，对攻击英雄造成1点伤害。",
       "text_en": "If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.",
       "source": "https://cards.fabtcg.com/card/steelblade_shunt/",
       "status": "machine-draft",

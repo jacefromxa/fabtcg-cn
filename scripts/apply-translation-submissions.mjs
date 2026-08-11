@@ -107,7 +107,7 @@ function propagateNameChanges(workingByBatch, nameChanges, changedBatches) {
       const targetCardId = baseCardId(key);
       let nextText = entry.text_zh;
       for (const change of nameChanges) {
-        if (targetCardId === change.cardId || !change.pattern?.test(entry.text_en) || !nextText.includes(change.oldNameZh)) continue;
+        if (!change.pattern?.test(entry.text_en) || !nextText.includes(change.oldNameZh)) continue;
         const replaced = nextText.split(change.oldNameZh).join(change.newNameZh);
         if (replaced === nextText) continue;
         propagatedTargets.push({

@@ -123,10 +123,10 @@ data/cards.en.json 只能由导入脚本生成，不能手工补卡或修字段�
 内部校对台产生的 `data/review-submissions/pending/` 是翻译源更新的输入，不属于线上发布内容。处理顺序固定为：
 
 ~~~
-启动 review -> 提交 pending -> node scripts/apply-translation-submissions.mjs -> 检查处理记录 -> npm run build
+启动 review -> 提交 pending -> node scripts/apply-translation-submissions.mjs -> npm run audit:translation-names -> 检查处理记录 -> npm run build
 ~~~
 
-应用提交前会校验旧译名快照；通过后修改对应批次的 `name_zh`，并把正文中引用该英文牌名且命中旧中文译名的表述同步为新译名。处理后的审计文件留在 `processed/`，`pending/` 和 `processed/` 均不得发布到线上。该手动更新步骤与英文源更新同属翻译流程，但不会自动运行，也不会改变 `status` 作为“是否还能修改”的判断。
+应用提交前会校验旧译名快照；通过后修改对应批次的 `name_zh`，并把正文中引用该英文牌名且命中旧中文译名的表述同步为新译名，包括正文引用自身的条目。`npm run audit:translation-names` 只读扫描所有 pitch 变体，把可能漏同步的自引用和跨卡引用列为人工复核候选，不自动改写正文。处理后的审计文件留在 `processed/`，`pending/` 和 `processed/` 均不得发布到线上。该手动更新步骤与英文源更新同属翻译流程，但不会自动运行，也不会改变 `status` 作为“是否还能修改”的判断。
 
 ### 步骤六：构建发布数据
 

@@ -47,10 +47,13 @@ npm run review
 # 在 http://127.0.0.1:4174 修改译名并提交
 node ../scripts/apply-translation-submissions.mjs
 npm run build:data
+npm run audit:translation-names
 npm test
 ```
 
 浏览器提交只会生成 `data/review-submissions/pending/` 下的 JSON，不会直接改动翻译源。应用命令会先校验提交时的旧译名快照，确认无冲突后才只修改对应条目的 `name_zh`，成功记录会移到 `processed/`。
+
+`npm run audit:translation-names` 是只读审计：它逐 pitch 检查英文正文命中的牌名是否在中文正文中仍使用当前译名，并把结果区分为自引用和跨卡引用。审计结果只是人工复核候选，不会自动改写正文；普通英文短语误命中会尽量过滤。
 
 ## 许可
 
