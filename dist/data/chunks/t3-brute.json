@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "version": "6748488dfe80",
+  "version": "95f79efbd501",
   "cards": {
     "aggressive_pounce": {
       "id": "aggressive_pounce",
-      "name_zh": "凶悍扑击",
+      "name_zh": "悍猛扑击",
       "name_en": "Aggressive Pounce",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -38,7 +38,7 @@
     },
     "alpha_instinct": {
       "id": "alpha_instinct",
-      "name_zh": "阿尔法本能",
+      "name_zh": "战首本能",
       "name_en": "Alpha Instinct",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -58,11 +58,11 @@
     },
     "alpha_rampage": {
       "id": "alpha_rampage",
-      "name_zh": "阿尔法狂暴",
+      "name_zh": "战首狂袭",
       "name_en": "Alpha Rampage",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
-      "text_zh": "里纳尔专精\n作为使用阿尔法狂暴的额外费用，随机弃一张牌。\n当你用阿尔法狂暴攻击时，威吓。",
+      "text_zh": "里纳尔专精\n作为使用战首狂袭的额外费用，随机弃一张牌。\n当你用战首狂袭攻击时，威吓。",
       "text_en": "Rhinar Specialization\nAs an additional cost to play Alpha Rampage, discard a random card.\nWhen you attack with Alpha Rampage, intimidate.",
       "source": "https://cards.fabtcg.com/card/alpha_rampage/",
       "status": "machine-draft",
@@ -80,7 +80,7 @@
     },
     "argh_smash": {
       "id": "argh_smash",
-      "name_zh": "啊呀砸碎",
+      "name_zh": "啊……砸！",
       "name_en": "Argh... Smash!",
       "type_zh": "蛮将 行动",
       "type_en": "",
@@ -122,7 +122,7 @@
     },
     "assault_and_battery": {
       "id": "assault_and_battery",
-      "name_zh": "攻击与殴击",
+      "name_zh": "强袭打砸",
       "name_en": "Assault and Battery",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -191,7 +191,7 @@
     },
     "bad_beats": {
       "id": "bad_beats",
-      "name_zh": "坏牌",
+      "name_zh": "爆冷反杀",
       "name_en": "Bad Beats",
       "type_zh": "蛮将 行动",
       "type_en": "",
@@ -245,7 +245,7 @@
     },
     "bam_bam": {
       "id": "bam_bam",
-      "name_zh": "邦邦",
+      "name_zh": "邦邦两拳",
       "name_en": "Bam Bam",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -370,7 +370,7 @@
     },
     "barraging_beatdown": {
       "id": "barraging_beatdown",
-      "name_zh": "连续痛打",
+      "name_zh": "连环痛殴",
       "name_en": "Barraging Beatdown",
       "type_zh": "蛮将 行动",
       "type_en": "",
@@ -405,11 +405,11 @@
     },
     "barraging_big_horn": {
       "id": "barraging_big_horn",
-      "name_zh": "连续大角",
+      "name_zh": "连环角撞",
       "name_en": "Barraging Big Horn",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
-      "text_zh": "作为使用连续大角的额外费用，随机弃一张牌。\n当连续大角被少于2张非装备牌防御时，它获得再动。",
+      "text_zh": "作为使用连环角撞的额外费用，随机弃一张牌。\n当连环角撞被少于2张非装备牌防御时，它获得再动。",
       "text_en": "As an additional cost to play Barraging Big Horn, discard a random card.\nWhile Barraging Big Horn is defended by less than 2 non-equipment cards, it has go again.",
       "source": "https://cards.fabtcg.com/card/barraging_big_horn/",
       "status": "machine-draft",
@@ -439,7 +439,7 @@
     },
     "bash_guardian": {
       "id": "bash_guardian",
-      "name_zh": "痛击守护者",
+      "name_zh": "痛扁守卫",
       "name_en": "Bash Guardian",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -459,7 +459,7 @@
     },
     "battlefield_breaker": {
       "id": "battlefield_breaker",
-      "name_zh": "战场破坏者",
+      "name_zh": "破阵狂袭",
       "name_en": "Battlefield Breaker",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -557,7 +557,7 @@
     },
     "beast_within": {
       "id": "beast_within",
-      "name_zh": "内在野兽",
+      "name_zh": "心有凶兽",
       "name_en": "Beast Within",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -577,7 +577,7 @@
     },
     "beckoning_hunger": {
       "id": "beckoning_hunger",
-      "name_zh": "",
+      "name_zh": "饥渴召临",
       "name_en": "Beckoning Hunger",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -633,7 +633,7 @@
     },
     "big_bully": {
       "id": "big_bully",
-      "name_zh": "大恶霸",
+      "name_zh": "大坏蛋",
       "name_en": "Big Bully",
       "type_zh": "憎恶 蛮将 行动·攻击",
       "type_en": "",
@@ -709,7 +709,7 @@
     },
     "blood_harvest": {
       "id": "blood_harvest",
-      "name_zh": "",
+      "name_zh": "聚血获丰",
       "name_en": "Blood Harvest",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -972,7 +972,7 @@
     },
     "challenge_the_alpha": {
       "id": "challenge_the_alpha",
-      "name_zh": "挑战阿尔法",
+      "name_zh": "挑战首领",
       "name_en": "Challenge the Alpha",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -992,7 +992,7 @@
     },
     "cheaters_charm": {
       "id": "cheaters_charm",
-      "name_zh": "作弊者护符",
+      "name_zh": "诈客护符",
       "name_en": "Cheater's Charm",
       "type_zh": "憎恶 蛮将 瞬间",
       "type_en": "",
@@ -1019,7 +1019,7 @@
       "name_en": "Chief Ruk'utan",
       "type_zh": "",
       "type_en": "Brute Mentor",
-      "text_zh": "当鲁库坦牌面朝下在军械库中时，在你的回合开始时，你可以将他翻为正面朝上。\n当鲁库坦正面朝上在军械库中时，每当你使用一张力量为6或更高的牌时，威吓，并在其上放置一个课业指示物。然后若鲁库坦上有2个或更多课业指示物，放逐他，从你的牌库中搜寻阿尔法狂暴，将其正面朝上放入军械库，然后洗牌。",
+      "text_zh": "当鲁库坦牌面朝下在军械库中时，在你的回合开始时，你可以将他翻为正面朝上。\n当鲁库坦正面朝上在军械库中时，每当你使用一张力量为6或更高的牌时，威吓，并在其上放置一个课业指示物。然后若鲁库坦上有2个或更多课业指示物，放逐他，从你的牌库中搜寻战首狂袭，将其正面朝上放入军械库，然后洗牌。",
       "text_en": "While Ruk'utan is face down in arsenal, at the start of your turn, you may turn him face up.\nWhile Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p}, intimidate, and put a lesson counter on him. Then if there are 2 or more lesson counters on Ruk'utan, banish him, search your deck for Alpha Rampage, put it face up in arsenal, and shuffle.",
       "source": "https://cards.fabtcg.com/card/chief_rukutan/",
       "status": "machine-draft",
@@ -1060,11 +1060,11 @@
     },
     "convulsions_from_the_bellows_of_hell": {
       "id": "convulsions_from_the_bellows_of_hell",
-      "name_zh": "地狱风箱痉挛",
+      "name_zh": "狱腑痉挛",
       "name_en": "Convulsions from the Bellows of Hell",
       "type_zh": "暗影 蛮将 行动",
       "type_en": "",
-      "text_zh": "作为使用地狱风箱痉挛的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，本回合你使用的下一张攻击行动牌获得+3力量和支配。\n再动",
+      "text_zh": "作为使用狱腑痉挛的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，本回合你使用的下一张攻击行动牌获得+3力量和支配。\n再动",
       "text_en": "As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +3{p} and dominate.\nGo again",
       "source": "https://cards.fabtcg.com/card/convulsions_from_the_bellows_of_hell/",
       "status": "machine-draft",
@@ -1094,7 +1094,7 @@
     },
     "deadwood_rumbler": {
       "id": "deadwood_rumbler",
-      "name_zh": "枯木轰隆者",
+      "name_zh": "轰碎朽木",
       "name_en": "Deadwood Rumbler",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -1128,11 +1128,11 @@
     },
     "deep_rooted_evil": {
       "id": "deep_rooted_evil",
-      "name_zh": "深植的邪恶",
+      "name_zh": "恶意深植",
       "name_en": "Deep Rooted Evil",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
-      "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，你可以从你的放逐区使用深植的邪恶。\n血债",
+      "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，你可以从你的放逐区使用恶意深植。\n血债",
       "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, you may play Deep Rooted Evil from your banished zone.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/deep_rooted_evil/",
       "status": "machine-draft",
@@ -1214,11 +1214,11 @@
     },
     "dread_screamer": {
       "id": "dread_screamer",
-      "name_zh": "恐惧尖叫者",
+      "name_zh": "惊惧狂啸",
       "name_en": "Dread Screamer",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
-      "text_zh": "作为使用恐惧尖叫者的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，恐惧尖叫者获得再动。\n血债",
+      "text_zh": "作为使用惊惧狂啸的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，惊惧狂啸获得再动。\n血债",
       "text_en": "As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard\nIf a card with 6 or more {p} is banished this way, Dread Screamer gains go again.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/dread_screamer/",
       "status": "machine-draft",
@@ -1303,7 +1303,7 @@
     },
     "expendable_limbs": {
       "id": "expendable_limbs",
-      "name_zh": "可弃的肢体",
+      "name_zh": "替命弃肢",
       "name_en": "Expendable Limbs",
       "type_zh": "暗影 蛮将 防御反应",
       "type_en": "",
@@ -1323,7 +1323,7 @@
     },
     "familiar_stench": {
       "id": "familiar_stench",
-      "name_zh": "熟悉的恶臭",
+      "name_zh": "就是这味儿",
       "name_en": "Familiar Stench",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -1363,7 +1363,7 @@
     },
     "flex_speed": {
       "id": "flex_speed",
-      "name_zh": "屈伸速度",
+      "name_zh": "筋肉迅捷",
       "name_en": "Flex Speed",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -1397,7 +1397,7 @@
     },
     "flex_strength": {
       "id": "flex_strength",
-      "name_zh": "屈伸力量",
+      "name_zh": "筋肉爆发",
       "name_en": "Flex Strength",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -1429,7 +1429,7 @@
     },
     "give_em_a_piece_of_your_mind": {
       "id": "give_em_a_piece_of_your_mind",
-      "name_zh": "教训他们一顿",
+      "name_zh": "长点记性",
       "name_en": "Give 'Em a Piece of Your Mind",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -1461,7 +1461,7 @@
     },
     "good_natured_brutality": {
       "id": "good_natured_brutality",
-      "name_zh": "善意暴行",
+      "name_zh": "好心砸场",
       "name_en": "Good Natured Brutality",
       "type_zh": "崇敬 蛮将 行动·攻击",
       "type_en": "",
@@ -1539,7 +1539,7 @@
     },
     "hexagore_the_death_hydra": {
       "id": "hexagore_the_death_hydra",
-      "name_zh": "六首死亡九头蛇·赫克萨戈尔",
+      "name_zh": "赫克萨戈尔，死亡六首蛇",
       "name_en": "Hexagore, the Death Hydra",
       "type_zh": "暗影 蛮将 武器·Flail （双手）",
       "type_en": "",
@@ -1591,7 +1591,7 @@
     },
     "high_roller": {
       "id": "high_roller",
-      "name_zh": "豪赌者",
+      "name_zh": "大赌客",
       "name_en": "High Roller",
       "type_zh": "蛮将 行动",
       "type_en": "",
@@ -1660,7 +1660,7 @@
     },
     "jaws_of_victory": {
       "id": "jaws_of_victory",
-      "name_zh": "胜利之颚",
+      "name_zh": "胜利獠牙",
       "name_en": "Jaws of Victory",
       "type_zh": "崇敬 蛮将 行动·攻击",
       "type_en": "",
@@ -1703,7 +1703,7 @@
     },
     "lay_down_the_challenge": {
       "id": "lay_down_the_challenge",
-      "name_zh": "提出挑战",
+      "name_zh": "下战书",
       "name_en": "Lay Down the Challenge",
       "type_zh": "蛮将 行动",
       "type_en": "",
@@ -1726,11 +1726,11 @@
     },
     "madcap_charger": {
       "id": "madcap_charger",
-      "name_zh": "莽撞冲锋者",
+      "name_zh": "癫狂冲锋",
       "name_en": "Madcap Charger",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
-      "text_zh": "作为使用莽撞冲锋者的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞冲锋者具有再动。",
+      "text_zh": "作为使用癫狂冲锋的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，癫狂冲锋具有再动。",
       "text_en": "As an additional cost to play Madcap Charger, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Charger has go again.",
       "source": "https://cards.fabtcg.com/card/madcap_charger/",
       "status": "machine-draft",
@@ -1760,11 +1760,11 @@
     },
     "madcap_muscle": {
       "id": "madcap_muscle",
-      "name_zh": "莽撞肌肉",
+      "name_zh": "蛮莽肌肉",
       "name_en": "Madcap Muscle",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
-      "text_zh": "作为使用莽撞肌肉的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞肌肉获得+3力量。",
+      "text_zh": "作为使用蛮莽肌肉的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，蛮莽肌肉获得+3力量。",
       "text_en": "As an additional cost to play Madcap Muscle, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.",
       "source": "https://cards.fabtcg.com/card/madcap_muscle/",
       "status": "machine-draft",
@@ -1792,7 +1792,7 @@
     },
     "mandible_claw": {
       "id": "mandible_claw",
-      "name_zh": "下颚之爪",
+      "name_zh": "颚爪",
       "name_en": "Mandible Claw",
       "type_zh": "蛮将 武器·爪 （单手）",
       "type_en": "",
@@ -1834,11 +1834,11 @@
     },
     "massacre": {
       "id": "massacre",
-      "name_zh": "大屠杀",
+      "name_zh": "屠杀",
       "name_en": "Massacre",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
-      "text_zh": "当你用大屠杀攻击时，若本回合你弃置过一张力量为6或更高的牌，大屠杀获得+2力量和威吓。\n若大屠杀被弃置以支付蛮将攻击行动牌的费用，威吓。",
+      "text_zh": "当你用屠杀攻击时，若本回合你弃置过一张力量为6或更高的牌，屠杀获得+2力量和威吓。\n若屠杀被弃置以支付蛮将攻击行动牌的费用，威吓。",
       "text_en": "When you attack with Massacre, if you have discarded a card with 6 or more {p} this turn, Massacre gains +2{p} and intimidate.\nIf Massacre is discarded to pay the cost of a Brute attack action card, intimidate.",
       "source": "https://cards.fabtcg.com/card/massacre/",
       "status": "machine-draft",
@@ -1856,7 +1856,7 @@
     },
     "mini_meataxe": {
       "id": "mini_meataxe",
-      "name_zh": "迷你肉斧",
+      "name_zh": "小肉斧",
       "name_en": "Mini Meataxe",
       "type_zh": "蛮将 武器·斧 （单手）",
       "type_en": "",
@@ -1876,7 +1876,7 @@
     },
     "no_fear": {
       "id": "no_fear",
-      "name_zh": "无所畏惧",
+      "name_zh": "无惧",
       "name_en": "No Fear",
       "type_zh": "蛮将 瞬间",
       "type_en": "",
@@ -2481,7 +2481,7 @@
     },
     "rip_off_the_top": {
       "id": "rip_off_the_top",
-      "name_zh": "撕头彻尾",
+      "name_zh": "掀顶",
       "name_en": "Rip Off the Top",
       "type_zh": "蛮将 行动",
       "type_en": "",
@@ -2671,7 +2671,7 @@
     },
     "sand_sketched_plan": {
       "id": "sand_sketched_plan",
-      "name_zh": "沙画计划",
+      "name_zh": "沙盘谋划",
       "name_en": "Sand Sketched Plan",
       "type_zh": "蛮将 行动",
       "type_en": "",
@@ -2815,7 +2815,7 @@
     },
     "shaden_death_hydra": {
       "id": "shaden_death_hydra",
-      "name_zh": "沙登·死亡九头蛇",
+      "name_zh": "影铸冥蛇",
       "name_en": "Shaden Death Hydra",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -2837,7 +2837,7 @@
     },
     "shaden_scream": {
       "id": "shaden_scream",
-      "name_zh": "沙登之啸",
+      "name_zh": "影铸狂啸",
       "name_en": "Shaden Scream",
       "type_zh": "暗影 蛮将 行动",
       "type_en": "",
@@ -2871,7 +2871,7 @@
     },
     "shaden_swing": {
       "id": "shaden_swing",
-      "name_zh": "沙登挥击",
+      "name_zh": "影铸挥斩",
       "name_en": "Shaden Swing",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -2905,7 +2905,7 @@
     },
     "shadow_of_blasmophet": {
       "id": "shadow_of_blasmophet",
-      "name_zh": "布拉兹莫菲特之影",
+      "name_zh": "渎神孽影",
       "name_en": "Shadow of Blasmophet",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -2927,7 +2927,7 @@
     },
     "shadowrealm_horror": {
       "id": "shadowrealm_horror",
-      "name_zh": "暗影界恐怖",
+      "name_zh": "影界惧像",
       "name_en": "Shadowrealm Horror",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -3012,7 +3012,7 @@
     },
     "slithering_shadowpede": {
       "id": "slithering_shadowpede",
-      "name_zh": "蜿蜒暗影虫",
+      "name_zh": "蜿蜒影虫",
       "name_en": "Slithering Shadowpede",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -3034,7 +3034,7 @@
     },
     "smash_instinct": {
       "id": "smash_instinct",
-      "name_zh": "猛砸本能",
+      "name_zh": "砸击本能",
       "name_en": "Smash Instinct",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -3068,7 +3068,7 @@
     },
     "smash_with_big_rock": {
       "id": "smash_with_big_rock",
-      "name_zh": "用大石头砸",
+      "name_zh": "石砸",
       "name_en": "Smash with Big Rock",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -3088,7 +3088,7 @@
     },
     "smash_with_big_tree": {
       "id": "smash_with_big_tree",
-      "name_zh": "用大树砸",
+      "name_zh": "树砸",
       "name_en": "Smash with Big Tree",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -3162,7 +3162,7 @@
     },
     "smashing_performance": {
       "id": "smashing_performance",
-      "name_zh": "轰碎表演",
+      "name_zh": "砸场子",
       "name_en": "Smashing Performance",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -3276,7 +3276,7 @@
     },
     "strength_rules_all": {
       "id": "strength_rules_all",
-      "name_zh": "力量主宰一切",
+      "name_zh": "力即正义",
       "name_en": "Strength Rules All",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
@@ -3348,11 +3348,11 @@
     },
     "swing_fist_think_later": {
       "id": "swing_fist_think_later",
-      "name_zh": "先挥拳后思考",
+      "name_zh": "捶了再说",
       "name_en": "Swing Fist, Think Later",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
-      "text_zh": "作为使用先挥拳后思考的额外费用，随机弃一张牌。\n再动",
+      "text_zh": "作为使用捶了再说的额外费用，随机弃一张牌。\n再动",
       "text_en": "As an additional cost to play Swing Fist, Think Later, discard a random card.\nGo again",
       "source": "https://cards.fabtcg.com/card/swing_fist_think_later/",
       "status": "machine-draft",
@@ -3444,7 +3444,7 @@
     },
     "tribute_to_demolition": {
       "id": "tribute_to_demolition",
-      "name_zh": "向拆毁致敬",
+      "name_zh": "礼赞毁灭",
       "name_en": "Tribute to Demolition",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -3478,7 +3478,7 @@
     },
     "tribute_to_the_legions_of_doom": {
       "id": "tribute_to_the_legions_of_doom",
-      "name_zh": "向厄运军团致敬",
+      "name_zh": "礼赞末日大军",
       "name_en": "Tribute to the Legions of Doom",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
@@ -3634,7 +3634,7 @@
     },
     "visit_the_boneyard": {
       "id": "visit_the_boneyard",
-      "name_zh": "拜访骸骨场",
+      "name_zh": "拜谒骨冢",
       "name_en": "Visit the Boneyard",
       "type_zh": "蛮将 瞬间",
       "type_en": "",
@@ -3775,11 +3775,11 @@
     },
     "wrecking_ball": {
       "id": "wrecking_ball",
-      "name_zh": "破坏球",
+      "name_zh": "破拆巨械",
       "name_en": "Wrecking Ball",
       "type_zh": "蛮将 行动·攻击",
       "type_en": "",
-      "text_zh": "当你用破坏球攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，威吓。",
+      "text_zh": "当你用破拆巨械攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，威吓。",
       "text_en": "When you attack with Wrecking Ball, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, intimidate.",
       "source": "https://cards.fabtcg.com/card/wrecking_ball/",
       "status": "machine-draft",
@@ -3797,11 +3797,11 @@
     },
     "writhing_beast_hulk": {
       "id": "writhing_beast_hulk",
-      "name_zh": "扭动的野兽巨躯",
+      "name_zh": "纠拧兽躯",
       "name_en": "Writhing Beast Hulk",
       "type_zh": "暗影 蛮将 行动·攻击",
       "type_en": "",
-      "text_zh": "作为使用扭动的野兽巨躯的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，扭动的野兽巨躯获得支配。\n血债",
+      "text_zh": "作为使用纠拧兽躯的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，纠拧兽躯获得支配。\n血债",
       "text_en": "As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains dominate.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/writhing_beast_hulk/",
       "status": "machine-draft",

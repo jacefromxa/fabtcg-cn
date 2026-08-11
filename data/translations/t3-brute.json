@@ -1,7 +1,7 @@
 {
   "aggressive_pounce__1": {
     "name_en": "Aggressive Pounce",
-    "name_zh": "凶悍扑击",
+    "name_zh": "悍猛扑击",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If you've intimidated an opponent this turn, this gets go again.",
     "text_zh": "若本回合你威吓过一位对手，此牌获得再动。",
@@ -14,7 +14,7 @@
   },
   "aggressive_pounce__2": {
     "name_en": "Aggressive Pounce",
-    "name_zh": "凶悍扑击",
+    "name_zh": "悍猛扑击",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If you've intimidated an opponent this turn, this gets go again.",
     "text_zh": "若本回合你威吓过一位对手，此牌获得再动。",
@@ -27,7 +27,7 @@
   },
   "aggressive_pounce__3": {
     "name_en": "Aggressive Pounce",
-    "name_zh": "凶悍扑击",
+    "name_zh": "悍猛扑击",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If you've intimidated an opponent this turn, this gets go again.",
     "text_zh": "若本回合你威吓过一位对手，此牌获得再动。",
@@ -40,7 +40,7 @@
   },
   "alpha_instinct__3": {
     "name_en": "Alpha Instinct",
-    "name_zh": "阿尔法本能",
+    "name_zh": "战首本能",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "Rhinar Specialization\nWhen this is discard to beat chest, create a Might token.",
     "text_zh": "里纳尔专精\n当此牌被弃置以捶胸时，创造一个力量衍生物。",
@@ -53,10 +53,10 @@
   },
   "alpha_rampage__1": {
     "name_en": "Alpha Rampage",
-    "name_zh": "阿尔法狂暴",
+    "name_zh": "战首狂袭",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "Rhinar Specialization\nAs an additional cost to play Alpha Rampage, discard a random card.\nWhen you attack with Alpha Rampage, intimidate.",
-    "text_zh": "里纳尔专精\n作为使用阿尔法狂暴的额外费用，随机弃一张牌。\n当你用阿尔法狂暴攻击时，威吓。",
+    "text_zh": "里纳尔专精\n作为使用战首狂袭的额外费用，随机弃一张牌。\n当你用战首狂袭攻击时，威吓。",
     "pitch": "1",
     "cost": "3",
     "power": "9",
@@ -66,7 +66,7 @@
   },
   "argh_smash__2": {
     "name_en": "Argh... Smash!",
-    "name_zh": "啊呀砸碎",
+    "name_zh": "啊……砸！",
     "type_zh": "蛮将 行动",
     "text_en": "Roll a 6 sided die. Destroy up to X items, where X is half the number rolled, rounded down.\nGo again",
     "text_zh": "掷一枚六面骰。摧毁至多X个物品，X为掷出数字的一半（向下取整）。\n再动",
@@ -92,7 +92,7 @@
   },
   "assault_and_battery__1": {
     "name_en": "Assault and Battery",
-    "name_zh": "攻击与殴击",
+    "name_zh": "强袭打砸",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "Beat Chest\nWhen this attacks, if you've beaten chest this turn, create an Agility token.",
     "text_zh": "捶胸\n当此牌攻击时，若本回合你捶胸过，创造一个敏捷衍生物。",
@@ -105,7 +105,7 @@
   },
   "assault_and_battery__2": {
     "name_en": "Assault and Battery",
-    "name_zh": "攻击与殴击",
+    "name_zh": "强袭打砸",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "Beat Chest\nWhen this attacks, if you've beaten chest this turn, create an Agility token.",
     "text_zh": "捶胸\n当此牌攻击时，若本回合你捶胸过，创造一个敏捷衍生物。",
@@ -118,7 +118,7 @@
   },
   "assault_and_battery__3": {
     "name_en": "Assault and Battery",
-    "name_zh": "攻击与殴击",
+    "name_zh": "强袭打砸",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "Beat Chest\nWhen this attacks, if you've beaten chest this turn, create an Agility token.",
     "text_zh": "捶胸\n当此牌攻击时，若本回合你捶胸过，创造一个敏捷衍生物。",
@@ -170,7 +170,7 @@
   },
   "bad_beats__1": {
     "name_en": "Bad Beats",
-    "name_zh": "坏牌",
+    "name_zh": "爆冷反杀",
     "type_zh": "蛮将 行动",
     "text_en": "Roll a 6 sided die. If the number rolled is a 4, 5, or 6, the next Brute attack action card you play this turn gains +5{p}.\nGo again",
     "text_zh": "掷一枚六面骰。若掷出4、5或6，本回合你使用的下一张蛮将攻击行动牌获得+5力量。\n再动",
@@ -183,7 +183,7 @@
   },
   "bad_beats__2": {
     "name_en": "Bad Beats",
-    "name_zh": "坏牌",
+    "name_zh": "爆冷反杀",
     "type_zh": "蛮将 行动",
     "text_en": "Roll a 6 sided die. If the number rolled is a 5 or 6, the next Brute attack action card you play this turn gains +5{p}.\nGo again",
     "text_zh": "掷一枚六面骰。若掷出4、5或6，本回合你使用的下一张蛮将攻击行动牌获得+5力量。\n再动",
@@ -196,7 +196,7 @@
   },
   "bad_beats__3": {
     "name_en": "Bad Beats",
-    "name_zh": "坏牌",
+    "name_zh": "爆冷反杀",
     "type_zh": "蛮将 行动",
     "text_en": "Roll a 6 sided die. If the number rolled is a 6, the next Brute attack action card you play this turn gains +5{p}.\nGo again",
     "text_zh": "掷一枚六面骰。若掷出4、5或6，本回合你使用的下一张蛮将攻击行动牌获得+5力量。\n再动",
@@ -222,7 +222,7 @@
   },
   "bam_bam__2": {
     "name_en": "Bam Bam",
-    "name_zh": "邦邦",
+    "name_zh": "邦邦两拳",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this hits a hero, destroy an item they control.\nInstant - Discard this: Your club attacks this turn get \"When this hits a hero, destroy an item they control.\"",
     "text_zh": "当此牌命中英雄时，摧毁其控制的一个物品。\n瞬间——弃掉此牌：本回合你的棒攻击获得“当此牌命中英雄时，摧毁其控制的一个物品。”",
@@ -326,7 +326,7 @@
   },
   "barraging_beatdown__1": {
     "name_en": "Barraging Beatdown",
-    "name_zh": "连续痛打",
+    "name_zh": "连环痛殴",
     "type_zh": "蛮将 行动",
     "text_en": "Your next Brute attack this turn gains \"While this attack is defended by less than 2 non-equipment cards, it has +4{p}.\"\nIntimidate\nGo again",
     "text_zh": "你本回合的下一次蛮将攻击获得“当此攻击被少于2张非装备牌防御时，它获得+4力量。”\n威吓\n再动",
@@ -339,7 +339,7 @@
   },
   "barraging_beatdown__2": {
     "name_en": "Barraging Beatdown",
-    "name_zh": "连续痛打",
+    "name_zh": "连环痛殴",
     "type_zh": "蛮将 行动",
     "text_en": "Your next Brute attack this turn gains \"While this attack is defended by less than 2 non-equipment cards, it has +3{p}.\"\nIntimidate\nGo again",
     "text_zh": "你本回合的下一次蛮将攻击获得“当此攻击被少于2张非装备牌防御时，它获得+4力量。”\n威吓\n再动",
@@ -352,7 +352,7 @@
   },
   "barraging_beatdown__3": {
     "name_en": "Barraging Beatdown",
-    "name_zh": "连续痛打",
+    "name_zh": "连环痛殴",
     "type_zh": "蛮将 行动",
     "text_en": "Your next Brute attack this turn gains \"While this attack is defended by less than 2 non-equipment cards, it has +2{p}.\"\nIntimidate\nGo again",
     "text_zh": "你本回合的下一次蛮将攻击获得“当此攻击被少于2张非装备牌防御时，它获得+4力量。”\n威吓\n再动",
@@ -365,10 +365,10 @@
   },
   "barraging_big_horn__1": {
     "name_en": "Barraging Big Horn",
-    "name_zh": "连续大角",
+    "name_zh": "连环角撞",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Barraging Big Horn, discard a random card.\nWhile Barraging Big Horn is defended by less than 2 non-equipment cards, it has go again.",
-    "text_zh": "作为使用连续大角的额外费用，随机弃一张牌。\n当连续大角被少于2张非装备牌防御时，它获得再动。",
+    "text_zh": "作为使用连环角撞的额外费用，随机弃一张牌。\n当连环角撞被少于2张非装备牌防御时，它获得再动。",
     "pitch": "1",
     "cost": "2",
     "power": "7",
@@ -378,10 +378,10 @@
   },
   "barraging_big_horn__2": {
     "name_en": "Barraging Big Horn",
-    "name_zh": "连续大角",
+    "name_zh": "连环角撞",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Barraging Big Horn, discard a random card.\nWhile Barraging Big Horn is defended by less than 2 non-equipment cards, it has go again.",
-    "text_zh": "作为使用连续大角的额外费用，随机弃一张牌。\n当连续大角被少于2张非装备牌防御时，它获得再动。",
+    "text_zh": "作为使用连环角撞的额外费用，随机弃一张牌。\n当连环角撞被少于2张非装备牌防御时，它获得再动。",
     "pitch": "2",
     "cost": "2",
     "power": "6",
@@ -391,10 +391,10 @@
   },
   "barraging_big_horn__3": {
     "name_en": "Barraging Big Horn",
-    "name_zh": "连续大角",
+    "name_zh": "连环角撞",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Barraging Big Horn, discard a random card.\nWhile Barraging Big Horn is defended by less than 2 non-equipment cards, it has go again.",
-    "text_zh": "作为使用连续大角的额外费用，随机弃一张牌。\n当连续大角被少于2张非装备牌防御时，它获得再动。",
+    "text_zh": "作为使用连环角撞的额外费用，随机弃一张牌。\n当连环角撞被少于2张非装备牌防御时，它获得再动。",
     "pitch": "3",
     "cost": "2",
     "power": "5",
@@ -404,7 +404,7 @@
   },
   "bash_guardian__1": {
     "name_en": "Bash Guardian",
-    "name_zh": "痛击守护者",
+    "name_zh": "痛扁守卫",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If this is defended by a Guardian card, this gets +1{p}.\nWhen this hits a Guardian hero, destroy an aura token they control.",
     "text_zh": "若此牌被守护者牌防御，此牌获得+1力量。\n当此牌命中守护者英雄时，摧毁其控制的一个光环衍生物。",
@@ -417,7 +417,7 @@
   },
   "battlefield_breaker__1": {
     "name_en": "Battlefield Breaker",
-    "name_zh": "战场破坏者",
+    "name_zh": "破阵狂袭",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "If you've banished a card with 6 or more {p} this turn, this gets +1{p}.\nBlood Debt",
     "text_zh": "若本回合你放逐过一张力量为6或更高的牌，此牌获得+1力量。\n血债",
@@ -430,7 +430,7 @@
   },
   "battlefield_breaker__2": {
     "name_en": "Battlefield Breaker",
-    "name_zh": "战场破坏者",
+    "name_zh": "破阵狂袭",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "If you've banished a card with 6 or more {p} this turn, this gets +1{p}.\nBlood Debt",
     "text_zh": "若本回合你放逐过一张力量为6或更高的牌，此牌获得+1力量。\n血债",
@@ -443,7 +443,7 @@
   },
   "battlefield_breaker__3": {
     "name_en": "Battlefield Breaker",
-    "name_zh": "战场破坏者",
+    "name_zh": "破阵狂袭",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "If you've banished a card with 6 or more {p} this turn, this gets +1{p}.\nBlood Debt",
     "text_zh": "若本回合你放逐过一张力量为6或更高的牌，此牌获得+1力量。\n血债",
@@ -534,7 +534,7 @@
   },
   "beast_within__2": {
     "name_en": "Beast Within",
-    "name_zh": "内在野兽",
+    "name_zh": "心有凶兽",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If Beast Within is put into a graveyard from anywhere other than the combat chain, banish the top card of your deck and lose 1{h}. If it has 6 or more {p}, put it into your hand, otherwise, repeat this process.",
     "text_zh": "若野兽之魂从战斗链以外的任何区域被置入坟场，放逐你牌库顶的一张牌并失去1点生命。若其力量为6或更高，将其置入你的手牌。否则，重复此过程。",
@@ -547,7 +547,7 @@
   },
   "big_bully__1": {
     "name_en": "Big Bully",
-    "name_zh": "大恶霸",
+    "name_zh": "大坏蛋",
     "type_zh": "憎恶 蛮将 行动·攻击",
     "text_en": "When this attacks a hero, if you have more {h} than them, the crowd boos you.\nIf you've been booed this turn, this card's base {p} is doubled.",
     "text_zh": "当此牌攻击英雄时，若你的生命高于该英雄，观众为你喝倒彩。\n若本回合你被喝倒彩过，此牌的基础力量翻倍。",
@@ -833,7 +833,7 @@
   },
   "challenge_the_alpha__2": {
     "name_en": "Challenge the Alpha",
-    "name_zh": "挑战阿尔法",
+    "name_zh": "挑战首领",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this attacks a Brute hero, this gets +2{p}.\nWhen this hits a Brute hero, they discard a card. If it has 6 or more {p}, you lose 2{h}.",
     "text_zh": "当此牌攻击蛮将英雄时，此牌获得+2力量。\n当此牌命中蛮将英雄时，该英雄弃一张牌。若其力量为6或更高，你失去2点生命。",
@@ -846,7 +846,7 @@
   },
   "cheaters_charm__2": {
     "name_en": "Cheater's Charm",
-    "name_zh": "作弊者护符",
+    "name_zh": "诈客护符",
     "type_zh": "憎恶 蛮将 瞬间",
     "text_en": "Choose any number;\n- Steal a Confidence or Toughness token.\n- The crowd boos you.\n- If you control an attack with 6 or more {p}, deal 2 damage to target hero unless they discard a card.",
     "text_zh": "选择任意数量；\n- 偷取一个自信或坚韧衍生物。\n- 观众为你喝倒彩。\n- 若你控制一个力量为6或更高的攻击，对目标英雄造成2点伤害，除非其弃一张牌。",
@@ -872,10 +872,10 @@
   },
   "convulsions_from_the_bellows_of_hell__1": {
     "name_en": "Convulsions from the Bellows of Hell",
-    "name_zh": "地狱风箱痉挛",
+    "name_zh": "狱腑痉挛",
     "type_zh": "暗影 蛮将 行动",
     "text_en": "As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +3{p} and dominate.\nGo again",
-    "text_zh": "作为使用地狱风箱痉挛的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，本回合你使用的下一张攻击行动牌获得+3力量和支配。\n再动",
+    "text_zh": "作为使用狱腑痉挛的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，本回合你使用的下一张攻击行动牌获得+3力量和支配。\n再动",
     "pitch": "1",
     "cost": "2",
     "power": null,
@@ -885,10 +885,10 @@
   },
   "convulsions_from_the_bellows_of_hell__2": {
     "name_en": "Convulsions from the Bellows of Hell",
-    "name_zh": "地狱风箱痉挛",
+    "name_zh": "狱腑痉挛",
     "type_zh": "暗影 蛮将 行动",
     "text_en": "As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +2{p} and dominate.\nGo again",
-    "text_zh": "作为使用地狱风箱痉挛的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，本回合你使用的下一张攻击行动牌获得+3力量和支配。\n再动",
+    "text_zh": "作为使用狱腑痉挛的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，本回合你使用的下一张攻击行动牌获得+3力量和支配。\n再动",
     "pitch": "2",
     "cost": "2",
     "power": null,
@@ -898,10 +898,10 @@
   },
   "convulsions_from_the_bellows_of_hell__3": {
     "name_en": "Convulsions from the Bellows of Hell",
-    "name_zh": "地狱风箱痉挛",
+    "name_zh": "狱腑痉挛",
     "type_zh": "暗影 蛮将 行动",
     "text_en": "As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +1{p} and dominate.\nGo again",
-    "text_zh": "作为使用地狱风箱痉挛的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，本回合你使用的下一张攻击行动牌获得+3力量和支配。\n再动",
+    "text_zh": "作为使用狱腑痉挛的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，本回合你使用的下一张攻击行动牌获得+3力量和支配。\n再动",
     "pitch": "3",
     "cost": "2",
     "power": null,
@@ -911,7 +911,7 @@
   },
   "deadwood_rumbler__1": {
     "name_en": "Deadwood Rumbler",
-    "name_zh": "枯木轰隆者",
+    "name_zh": "轰碎朽木",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.\nBlood Debt",
     "text_zh": "抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，从某个坟场中放逐一张牌。\n血债",
@@ -924,7 +924,7 @@
   },
   "deadwood_rumbler__2": {
     "name_en": "Deadwood Rumbler",
-    "name_zh": "枯木轰隆者",
+    "name_zh": "轰碎朽木",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.\nBlood Debt",
     "text_zh": "抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，从某个坟场中放逐一张牌。\n血债",
@@ -937,7 +937,7 @@
   },
   "deadwood_rumbler__3": {
     "name_en": "Deadwood Rumbler",
-    "name_zh": "枯木轰隆者",
+    "name_zh": "轰碎朽木",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.\nBlood Debt",
     "text_zh": "抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，从某个坟场中放逐一张牌。\n血债",
@@ -950,10 +950,10 @@
   },
   "deep_rooted_evil__2": {
     "name_en": "Deep Rooted Evil",
-    "name_zh": "深植的邪恶",
+    "name_zh": "恶意深植",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "If a card with 6 or more {p} has been put into your banished zone this turn, you may play Deep Rooted Evil from your banished zone.\nBlood Debt",
-    "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，你可以从你的放逐区使用深植的邪恶。\n血债",
+    "text_zh": "若本回合有一张力量为6或更高的牌被置入你的放逐区，你可以从你的放逐区使用恶意深植。\n血债",
     "pitch": "2",
     "cost": "3",
     "power": "6",
@@ -1002,10 +1002,10 @@
   },
   "dread_screamer__1": {
     "name_en": "Dread Screamer",
-    "name_zh": "恐惧尖叫者",
+    "name_zh": "惊惧狂啸",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard\nIf a card with 6 or more {p} is banished this way, Dread Screamer gains go again.\nBlood Debt",
-    "text_zh": "作为使用恐惧尖叫者的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，恐惧尖叫者获得再动。\n血债",
+    "text_zh": "作为使用惊惧狂啸的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，惊惧狂啸获得再动。\n血债",
     "pitch": "1",
     "cost": "2",
     "power": "6",
@@ -1015,10 +1015,10 @@
   },
   "dread_screamer__2": {
     "name_en": "Dread Screamer",
-    "name_zh": "恐惧尖叫者",
+    "name_zh": "惊惧狂啸",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard\nIf a card with 6 or more {p} is banished this way, Dread Screamer gains go again.\nBlood Debt",
-    "text_zh": "作为使用恐惧尖叫者的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，恐惧尖叫者获得再动。\n血债",
+    "text_zh": "作为使用惊惧狂啸的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，惊惧狂啸获得再动。\n血债",
     "pitch": "2",
     "cost": "2",
     "power": "5",
@@ -1028,10 +1028,10 @@
   },
   "dread_screamer__3": {
     "name_en": "Dread Screamer",
-    "name_zh": "恐惧尖叫者",
+    "name_zh": "惊惧狂啸",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard\nIf a card with 6 or more {p} is banished this way, Dread Screamer gains go again.\nBlood Debt",
-    "text_zh": "作为使用恐惧尖叫者的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，恐惧尖叫者获得再动。\n血债",
+    "text_zh": "作为使用惊惧狂啸的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，惊惧狂啸获得再动。\n血债",
     "pitch": "3",
     "cost": "2",
     "power": "4",
@@ -1093,7 +1093,7 @@
   },
   "expendable_limbs__3": {
     "name_en": "Expendable Limbs",
-    "name_zh": "可弃的肢体",
+    "name_zh": "替命弃肢",
     "type_zh": "暗影 蛮将 防御反应",
     "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, you may play it from your banished zone during your next action phase.",
     "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，在你的下一个行动阶段期间你可以从你的放逐区使用它。",
@@ -1106,7 +1106,7 @@
   },
   "familiar_stench__1": {
     "name_en": "Familiar Stench",
-    "name_zh": "熟悉的恶臭",
+    "name_zh": "就是这味儿",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When 1 or more Brute cards defend this, create a Vigor token.",
     "text_zh": "当1张或更多蛮将牌防御此牌时，创造一个活力衍生物。",
@@ -1132,7 +1132,7 @@
   },
   "flex_speed__1": {
     "name_en": "Flex Speed",
-    "name_zh": "屈伸速度",
+    "name_zh": "筋肉迅捷",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If this has 6 or more {p}, it gets go again.",
     "text_zh": "若此牌的力量为6或更高，它获得再动。",
@@ -1145,7 +1145,7 @@
   },
   "flex_speed__2": {
     "name_en": "Flex Speed",
-    "name_zh": "屈伸速度",
+    "name_zh": "筋肉迅捷",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If this has 6 or more {p}, it gets go again.",
     "text_zh": "若此牌的力量为6或更高，它获得再动。",
@@ -1158,7 +1158,7 @@
   },
   "flex_speed__3": {
     "name_en": "Flex Speed",
-    "name_zh": "屈伸速度",
+    "name_zh": "筋肉迅捷",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If this has 6 or more {p}, it gets go again.",
     "text_zh": "若此牌的力量为6或更高，它获得再动。",
@@ -1171,7 +1171,7 @@
   },
   "flex_strength__1": {
     "name_en": "Flex Strength",
-    "name_zh": "屈伸力量",
+    "name_zh": "筋肉爆发",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If this has 6 or more {p}, it gets +3{p}.",
     "text_zh": "若此牌的力量为6或更高，它获得+3力量。",
@@ -1184,7 +1184,7 @@
   },
   "flex_strength__2": {
     "name_en": "Flex Strength",
-    "name_zh": "屈伸力量",
+    "name_zh": "筋肉爆发",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If this has 6 or more {p}, it gets +3{p}.",
     "text_zh": "若此牌的力量为6或更高，它获得+3力量。",
@@ -1197,7 +1197,7 @@
   },
   "flex_strength__3": {
     "name_en": "Flex Strength",
-    "name_zh": "屈伸力量",
+    "name_zh": "筋肉爆发",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "If this has 6 or more {p}, it gets +3{p}.",
     "text_zh": "若此牌的力量为6或更高，它获得+3力量。",
@@ -1210,7 +1210,7 @@
   },
   "give_em_a_piece_of_your_mind__1": {
     "name_en": "Give 'Em a Piece of Your Mind",
-    "name_zh": "教训他们一顿",
+    "name_zh": "长点记性",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When the combat chain closes, if this didn't hit, the defending hero creates a Vigor token.",
     "text_zh": "当战斗链关闭时，若此牌没有命中，防御英雄创造一个活力衍生物。",
@@ -1223,7 +1223,7 @@
   },
   "give_em_a_piece_of_your_mind__2": {
     "name_en": "Give 'Em a Piece of Your Mind",
-    "name_zh": "教训他们一顿",
+    "name_zh": "长点记性",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When the combat chain closes, if this didn't hit, the defending hero creates a Vigor token.",
     "text_zh": "当战斗链关闭时，若此牌没有命中，防御英雄创造一个活力衍生物。",
@@ -1236,7 +1236,7 @@
   },
   "give_em_a_piece_of_your_mind__3": {
     "name_en": "Give 'Em a Piece of Your Mind",
-    "name_zh": "教训他们一顿",
+    "name_zh": "长点记性",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When the combat chain closes, if this didn't hit, the defending hero creates a Vigor token.",
     "text_zh": "当战斗链关闭时，若此牌没有命中，防御英雄创造一个活力衍生物。",
@@ -1249,7 +1249,7 @@
   },
   "good_natured_brutality__2": {
     "name_en": "Good Natured Brutality",
-    "name_zh": "善意暴行",
+    "name_zh": "好心砸场",
     "type_zh": "崇敬 蛮将 行动·攻击",
     "text_en": "When this defends, if you have no cards in hand, it gets +6{d} and the crowd cheers you.",
     "text_zh": "当此牌防御时，若你手牌中没有牌，它获得+6防御，且观众为你欢呼。",
@@ -1314,7 +1314,7 @@
   },
   "hexagore_the_death_hydra": {
     "name_en": "Hexagore, the Death Hydra",
-    "name_zh": "六首死亡九头蛇·赫克萨戈尔",
+    "name_zh": "赫克萨戈尔，死亡六首蛇",
     "type_zh": "暗影 蛮将 武器·Flail （双手）",
     "text_en": "Once per Turn Action - {r}{r}: Attack\nWhenever you attack with Hexagore, it deals damage to you equal to 6 minus the number of cards with blood debt in your banished zone.",
     "text_zh": "每回合一次行动——支付2点资源：攻击\n每当你用赫克萨戈尔攻击时，它对你造成6减去你放逐区中具有血债的牌数量的伤害。",
@@ -1366,7 +1366,7 @@
   },
   "high_roller__1": {
     "name_en": "High Roller",
-    "name_zh": "豪赌者",
+    "name_zh": "大赌客",
     "type_zh": "蛮将 行动",
     "text_en": "Intimidate\nIf you have rolled a 4, 5, or 6 on a die this turn, instead intimidate twice.\nGo again",
     "text_zh": "威吓\n若本回合你掷骰掷出过4、5或6，改为威吓两次。\n再动",
@@ -1379,7 +1379,7 @@
   },
   "high_roller__2": {
     "name_en": "High Roller",
-    "name_zh": "豪赌者",
+    "name_zh": "大赌客",
     "type_zh": "蛮将 行动",
     "text_en": "Intimidate\nIf you have rolled a 5 or 6 on a die this turn, instead intimidate twice.\nGo again",
     "text_zh": "威吓\n若本回合你掷骰掷出过4、5或6，改为威吓两次。\n再动",
@@ -1392,7 +1392,7 @@
   },
   "high_roller__3": {
     "name_en": "High Roller",
-    "name_zh": "豪赌者",
+    "name_zh": "大赌客",
     "type_zh": "蛮将 行动",
     "text_en": "Intimidate\nIf you have rolled a 6 on a die this turn, instead intimidate twice.\nGo again",
     "text_zh": "威吓\n若本回合你掷骰掷出过4、5或6，改为威吓两次。\n再动",
@@ -1444,7 +1444,7 @@
   },
   "jaws_of_victory__1": {
     "name_en": "Jaws of Victory",
-    "name_zh": "胜利之颚",
+    "name_zh": "胜利獠牙",
     "type_zh": "崇敬 蛮将 行动·攻击",
     "text_en": "When this attacks a hero, if you have less {h} than them, the crowd cheers you.\nIf you've been cheered this turn, this gets go again.",
     "text_zh": "当此牌攻击英雄时，若你的生命低于该英雄，观众为你欢呼。\n若本回合你被欢呼过，此牌获得再动。",
@@ -1457,7 +1457,7 @@
   },
   "lay_down_the_challenge__2": {
     "name_en": "Lay Down the Challenge",
-    "name_zh": "提出挑战",
+    "name_zh": "下战书",
     "type_zh": "蛮将 行动",
     "text_en": "Intimidate target hero, then if they have more cards in hand than you, draw a card.\nGo again",
     "text_zh": "威吓目标英雄，然后若其手牌比你多，抽一张牌。\n再动",
@@ -1470,10 +1470,10 @@
   },
   "madcap_charger__1": {
     "name_en": "Madcap Charger",
-    "name_zh": "莽撞冲锋者",
+    "name_zh": "癫狂冲锋",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Madcap Charger, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Charger has go again.",
-    "text_zh": "作为使用莽撞冲锋者的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞冲锋者具有再动。",
+    "text_zh": "作为使用癫狂冲锋的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，癫狂冲锋具有再动。",
     "pitch": "1",
     "cost": "1",
     "power": "5",
@@ -1483,10 +1483,10 @@
   },
   "madcap_charger__2": {
     "name_en": "Madcap Charger",
-    "name_zh": "莽撞冲锋者",
+    "name_zh": "癫狂冲锋",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Madcap Charger, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Charger has go again.",
-    "text_zh": "作为使用莽撞冲锋者的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞冲锋者具有再动。",
+    "text_zh": "作为使用癫狂冲锋的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，癫狂冲锋具有再动。",
     "pitch": "2",
     "cost": "1",
     "power": "4",
@@ -1496,10 +1496,10 @@
   },
   "madcap_charger__3": {
     "name_en": "Madcap Charger",
-    "name_zh": "莽撞冲锋者",
+    "name_zh": "癫狂冲锋",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Madcap Charger, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Charger has go again.",
-    "text_zh": "作为使用莽撞冲锋者的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞冲锋者具有再动。",
+    "text_zh": "作为使用癫狂冲锋的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，癫狂冲锋具有再动。",
     "pitch": "3",
     "cost": "1",
     "power": "3",
@@ -1509,10 +1509,10 @@
   },
   "madcap_muscle__1": {
     "name_en": "Madcap Muscle",
-    "name_zh": "莽撞肌肉",
+    "name_zh": "蛮莽肌肉",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Madcap Muscle, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.",
-    "text_zh": "作为使用莽撞肌肉的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞肌肉获得+3力量。",
+    "text_zh": "作为使用蛮莽肌肉的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，蛮莽肌肉获得+3力量。",
     "pitch": "1",
     "cost": "3",
     "power": "6",
@@ -1522,10 +1522,10 @@
   },
   "madcap_muscle__2": {
     "name_en": "Madcap Muscle",
-    "name_zh": "莽撞肌肉",
+    "name_zh": "蛮莽肌肉",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Madcap Muscle, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.",
-    "text_zh": "作为使用莽撞肌肉的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞肌肉获得+3力量。",
+    "text_zh": "作为使用蛮莽肌肉的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，蛮莽肌肉获得+3力量。",
     "pitch": "2",
     "cost": "3",
     "power": "5",
@@ -1535,10 +1535,10 @@
   },
   "madcap_muscle__3": {
     "name_en": "Madcap Muscle",
-    "name_zh": "莽撞肌肉",
+    "name_zh": "蛮莽肌肉",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Madcap Muscle, discard a random card.\nIf the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.",
-    "text_zh": "作为使用莽撞肌肉的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，莽撞肌肉获得+3力量。",
+    "text_zh": "作为使用蛮莽肌肉的额外费用，随机弃一张牌。\n若被弃置的牌力量为6或更高，蛮莽肌肉获得+3力量。",
     "pitch": "3",
     "cost": "3",
     "power": "4",
@@ -1548,7 +1548,7 @@
   },
   "mandible_claw": {
     "name_en": "Mandible Claw",
-    "name_zh": "下颚之爪",
+    "name_zh": "颚爪",
     "type_zh": "蛮将 武器·爪 （单手）",
     "text_en": "Once per Turn Action - {r}{r}: Attack\nIf you have discarded a card with 6 or more {p} this turn, this card's attacks go again.",
     "text_zh": "每回合一次行动——支付2点资源：攻击\n若本回合你弃置过一张力量为6或更高的牌，此牌的攻击获得再动。",
@@ -1574,10 +1574,10 @@
   },
   "massacre__1": {
     "name_en": "Massacre",
-    "name_zh": "大屠杀",
+    "name_zh": "屠杀",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When you attack with Massacre, if you have discarded a card with 6 or more {p} this turn, Massacre gains +2{p} and intimidate.\nIf Massacre is discarded to pay the cost of a Brute attack action card, intimidate.",
-    "text_zh": "当你用大屠杀攻击时，若本回合你弃置过一张力量为6或更高的牌，大屠杀获得+2力量和威吓。\n若大屠杀被弃置以支付蛮将攻击行动牌的费用，威吓。",
+    "text_zh": "当你用屠杀攻击时，若本回合你弃置过一张力量为6或更高的牌，屠杀获得+2力量和威吓。\n若屠杀被弃置以支付蛮将攻击行动牌的费用，威吓。",
     "pitch": "1",
     "cost": "3",
     "power": "6",
@@ -1587,7 +1587,7 @@
   },
   "mini_meataxe": {
     "name_en": "Mini Meataxe",
-    "name_zh": "迷你肉斧",
+    "name_zh": "小肉斧",
     "type_zh": "蛮将 武器·斧 （单手）",
     "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen this attacks, draw a card then discard a random card.",
     "text_zh": "每回合一次行动——支付2点资源：攻击\n当此牌攻击时，抽一张牌，然后随机弃一张牌。",
@@ -1600,7 +1600,7 @@
   },
   "no_fear__1": {
     "name_en": "No Fear",
-    "name_zh": "无所畏惧",
+    "name_zh": "无惧",
     "type_zh": "蛮将 瞬间",
     "text_en": "As an additional cost to play this, banish any number of cards with 6 or more {p} from your hand. At the beginning of the end phase, return them to your hand.\nThe next time you would be dealt damage this turn, prevent X of that damage, where X is 2 plus the number of cards banished to play this.",
     "text_zh": "作为使用此牌的额外费用，放逐你手牌中的任意数量力量为6或更高的牌。在结束阶段开始时，将它们移回你的手牌。\n本回合接下来你将受到伤害时，防止其中X点伤害，X为2加上为使用此牌而放逐的牌数量。",
@@ -2159,7 +2159,7 @@
   },
   "rip_off_the_top__2": {
     "name_en": "Rip Off the Top",
-    "name_zh": "撕头彻尾",
+    "name_zh": "掀顶",
     "type_zh": "蛮将 行动",
     "text_en": "Draw a card, then pitch a random card from your hand. If it has 6 or more {p}, your next attack this turn gets +3{p}.\nGo again",
     "text_zh": "抽一张牌，然后随机资源你手牌中的一张牌。若其力量为6或更高，你本回合的下一次攻击获得+3力量。\n再动",
@@ -2315,7 +2315,7 @@
   },
   "sand_sketched_plan__3": {
     "name_en": "Sand Sketched Plan",
-    "name_zh": "沙画计划",
+    "name_zh": "沙盘谋划",
     "type_zh": "蛮将 行动",
     "text_en": "Rhinar Specialization\nSearch your deck for a card, put it into your hand, discard a random card, then shuffle your deck.\nIf the discarded card has 6 or more {p}, gain 2 action points.",
     "text_zh": "里纳尔专精\n从你的牌库中搜寻一张牌，将其置入你的手牌，随机弃一张牌，然后洗牌。\n若被弃置的牌力量为6或更高，获得2个行动点。",
@@ -2445,7 +2445,7 @@
   },
   "shaden_death_hydra__2": {
     "name_en": "Shaden Death Hydra",
-    "name_zh": "沙登·死亡九头蛇",
+    "name_zh": "影铸冥蛇",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "When this attacks, it deals X damage to you, where X is 13 minus the number of cards with blood debt in your banished zone.\nBlood Debt",
     "text_zh": "当此牌攻击时，它对你造成X点伤害，X为13减去你放逐区中具有血债的牌数量。\n血债",
@@ -2458,7 +2458,7 @@
   },
   "shaden_scream__1": {
     "name_en": "Shaden Scream",
-    "name_zh": "沙登之啸",
+    "name_zh": "影铸狂啸",
     "type_zh": "暗影 蛮将 行动",
     "text_en": "As an additional cost to play this, banish a random card from hand.\nYour next Brute or Shadow attack this turn gets +5{p}.\nGo again",
     "text_zh": "作为使用此牌的额外费用，随机放逐手牌中的一张牌。\n你本回合的下一次蛮将或暗影攻击获得+5力量。\n再动",
@@ -2471,7 +2471,7 @@
   },
   "shaden_scream__2": {
     "name_en": "Shaden Scream",
-    "name_zh": "沙登之啸",
+    "name_zh": "影铸狂啸",
     "type_zh": "暗影 蛮将 行动",
     "text_en": "As an additional cost to play this, banish a random card from hand.\nYour next Brute or Shadow attack this turn gets +4{p}.\nGo again",
     "text_zh": "作为使用此牌的额外费用，随机放逐手牌中的一张牌。\n你本回合的下一次蛮将或暗影攻击获得+5力量。\n再动",
@@ -2484,7 +2484,7 @@
   },
   "shaden_scream__3": {
     "name_en": "Shaden Scream",
-    "name_zh": "沙登之啸",
+    "name_zh": "影铸狂啸",
     "type_zh": "暗影 蛮将 行动",
     "text_en": "As an additional cost to play this, banish a random card from hand.\nYour next Brute or Shadow attack this turn gets +3{p}.\nGo again",
     "text_zh": "作为使用此牌的额外费用，随机放逐手牌中的一张牌。\n你本回合的下一次蛮将或暗影攻击获得+5力量。\n再动",
@@ -2497,7 +2497,7 @@
   },
   "shaden_swing__1": {
     "name_en": "Shaden Swing",
-    "name_zh": "沙登挥击",
+    "name_zh": "影铸挥斩",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, banish a random card from your hand.\nBlood Debt",
     "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n血债",
@@ -2510,7 +2510,7 @@
   },
   "shaden_swing__2": {
     "name_en": "Shaden Swing",
-    "name_zh": "沙登挥击",
+    "name_zh": "影铸挥斩",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, banish a random card from your hand.\nBlood Debt",
     "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n血债",
@@ -2523,7 +2523,7 @@
   },
   "shaden_swing__3": {
     "name_en": "Shaden Swing",
-    "name_zh": "沙登挥击",
+    "name_zh": "影铸挥斩",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, banish a random card from your hand.\nBlood Debt",
     "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n血债",
@@ -2536,7 +2536,7 @@
   },
   "shadow_of_blasmophet__1": {
     "name_en": "Shadow of Blasmophet",
-    "name_zh": "布拉兹莫菲特之影",
+    "name_zh": "渎神孽影",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, search your deck for a card with blood debt, banish it, then shuffle your deck.\nBlood Debt",
     "text_zh": "抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，从你的牌库中搜寻一张具有血债的牌，放逐它，然后洗牌。\n血债",
@@ -2549,7 +2549,7 @@
   },
   "shadowrealm_horror__1": {
     "name_en": "Shadowrealm Horror",
-    "name_zh": "暗影界恐怖",
+    "name_zh": "影界惧像",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, banish 3 random cards in your graveyard.\nIf 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 or more, this gets go again. 3 or more, you may play a card banished this way this turn.\nBlood Debt",
     "text_zh": "作为使用此牌的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐了1张或更多力量为6或更高的牌，此牌获得+1力量。2张或更多，此牌获得再动。3张或更多，本回合你可以使用一张以此方式放逐的牌。\n血债",
@@ -2601,7 +2601,7 @@
   },
   "slithering_shadowpede__1": {
     "name_en": "Slithering Shadowpede",
-    "name_zh": "蜿蜒暗影虫",
+    "name_zh": "蜿蜒影虫",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "If this was banished from your hand this turn, you may play it from your banished zone.\nBlood Debt",
     "text_zh": "若本回合此牌从你的手牌被放逐，你可以从你的放逐区使用它。\n血债",
@@ -2614,7 +2614,7 @@
   },
   "smash_instinct__1": {
     "name_en": "Smash Instinct",
-    "name_zh": "猛砸本能",
+    "name_zh": "砸击本能",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this attacks, intimidate.",
     "text_zh": "当此牌攻击时，威吓。",
@@ -2627,7 +2627,7 @@
   },
   "smash_instinct__2": {
     "name_en": "Smash Instinct",
-    "name_zh": "猛砸本能",
+    "name_zh": "砸击本能",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this attacks, intimidate.",
     "text_zh": "当此牌攻击时，威吓。",
@@ -2640,7 +2640,7 @@
   },
   "smash_instinct__3": {
     "name_en": "Smash Instinct",
-    "name_zh": "猛砸本能",
+    "name_zh": "砸击本能",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this attacks, intimidate.",
     "text_zh": "当此牌攻击时，威吓。",
@@ -2653,7 +2653,7 @@
   },
   "smash_with_big_rock__2": {
     "name_en": "Smash with Big Rock",
-    "name_zh": "用大石头砸",
+    "name_zh": "石砸",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "Cards defending this can't gain {d}.",
     "text_zh": "防御此牌的牌不能获得防御。",
@@ -2666,7 +2666,7 @@
   },
   "smash_with_big_tree__1": {
     "name_en": "Smash with Big Tree",
-    "name_zh": "用大树砸",
+    "name_zh": "树砸",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "",
     "text_zh": "",
@@ -2679,7 +2679,7 @@
   },
   "smash_with_big_tree__2": {
     "name_en": "Smash with Big Tree",
-    "name_zh": "用大树砸",
+    "name_zh": "树砸",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "",
     "text_zh": "",
@@ -2692,7 +2692,7 @@
   },
   "smash_with_big_tree__3": {
     "name_en": "Smash with Big Tree",
-    "name_zh": "用大树砸",
+    "name_zh": "树砸",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "",
     "text_zh": "",
@@ -2731,7 +2731,7 @@
   },
   "smashing_performance__2": {
     "name_en": "Smashing Performance",
-    "name_zh": "轰碎表演",
+    "name_zh": "砸场子",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this attacks draw a card, then discard a random card. If a card with 6 or more {p} is discarded this way, destroy a random item in the arena.",
     "text_zh": "当此牌攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，摧毁竞技场中的一个随机物品。",
@@ -2809,7 +2809,7 @@
   },
   "strength_rules_all__1": {
     "name_en": "Strength Rules All",
-    "name_zh": "力量主宰一切",
+    "name_zh": "力即正义",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When this hits a hero, turn a card in their arsenal face-up, then banish an attack action card in their arsenal with {p} less than the damage dealt this way.",
     "text_zh": "当此牌命中英雄时，将其军械库中的一张牌翻为正面朝上，然后放逐其军械库中一张力量小于以此方式造成的伤害的攻击行动牌。",
@@ -2874,10 +2874,10 @@
   },
   "swing_fist_think_later__1": {
     "name_en": "Swing Fist, Think Later",
-    "name_zh": "先挥拳后思考",
+    "name_zh": "捶了再说",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Swing Fist, Think Later, discard a random card.\nGo again",
-    "text_zh": "作为使用先挥拳后思考的额外费用，随机弃一张牌。\n再动",
+    "text_zh": "作为使用捶了再说的额外费用，随机弃一张牌。\n再动",
     "pitch": "1",
     "cost": "1",
     "power": "4",
@@ -2887,10 +2887,10 @@
   },
   "swing_fist_think_later__2": {
     "name_en": "Swing Fist, Think Later",
-    "name_zh": "先挥拳后思考",
+    "name_zh": "捶了再说",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Swing Fist, Think Later, discard a random card.\nGo again",
-    "text_zh": "作为使用先挥拳后思考的额外费用，随机弃一张牌。\n再动",
+    "text_zh": "作为使用捶了再说的额外费用，随机弃一张牌。\n再动",
     "pitch": "2",
     "cost": "1",
     "power": "3",
@@ -2900,10 +2900,10 @@
   },
   "swing_fist_think_later__3": {
     "name_en": "Swing Fist, Think Later",
-    "name_zh": "先挥拳后思考",
+    "name_zh": "捶了再说",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "As an additional cost to play Swing Fist, Think Later, discard a random card.\nGo again",
-    "text_zh": "作为使用先挥拳后思考的额外费用，随机弃一张牌。\n再动",
+    "text_zh": "作为使用捶了再说的额外费用，随机弃一张牌。\n再动",
     "pitch": "3",
     "cost": "1",
     "power": "2",
@@ -2952,7 +2952,7 @@
   },
   "tribute_to_demolition__1": {
     "name_en": "Tribute to Demolition",
-    "name_zh": "向拆毁致敬",
+    "name_zh": "礼赞毁灭",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, this gets +2{p}.\nBlood Debt",
     "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，此牌获得+2力量。\n血债",
@@ -2965,7 +2965,7 @@
   },
   "tribute_to_demolition__2": {
     "name_en": "Tribute to Demolition",
-    "name_zh": "向拆毁致敬",
+    "name_zh": "礼赞毁灭",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, this gets +2{p}.\nBlood Debt",
     "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，此牌获得+2力量。\n血债",
@@ -2978,7 +2978,7 @@
   },
   "tribute_to_demolition__3": {
     "name_en": "Tribute to Demolition",
-    "name_zh": "向拆毁致敬",
+    "name_zh": "礼赞毁灭",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, this gets +2{p}.\nBlood Debt",
     "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，此牌获得+2力量。\n血债",
@@ -2991,7 +2991,7 @@
   },
   "tribute_to_the_legions_of_doom__1": {
     "name_en": "Tribute to the Legions of Doom",
-    "name_zh": "向厄运军团致敬",
+    "name_zh": "礼赞末日大军",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, this gets +2{p}.\nBlood Debt",
     "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，此牌获得+2力量。\n血债",
@@ -3004,7 +3004,7 @@
   },
   "tribute_to_the_legions_of_doom__2": {
     "name_en": "Tribute to the Legions of Doom",
-    "name_zh": "向厄运军团致敬",
+    "name_zh": "礼赞末日大军",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, this gets +2{p}.\nBlood Debt",
     "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，此牌获得+2力量。\n血债",
@@ -3017,7 +3017,7 @@
   },
   "tribute_to_the_legions_of_doom__3": {
     "name_en": "Tribute to the Legions of Doom",
-    "name_zh": "向厄运军团致敬",
+    "name_zh": "礼赞末日大军",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play this, banish a random card from your hand.\nIf a card with 6 or more {p} is banished this way, this gets +2{p}.\nBlood Debt",
     "text_zh": "作为使用此牌的额外费用，随机放逐你手牌中的一张牌。\n若以此方式放逐的是一张力量为6或更高的牌，此牌获得+2力量。\n血债",
@@ -3160,7 +3160,7 @@
   },
   "visit_the_boneyard__3": {
     "name_en": "Visit the Boneyard",
-    "name_zh": "拜访骸骨场",
+    "name_zh": "拜谒骨冢",
     "type_zh": "蛮将 瞬间",
     "text_en": "Put a card with 6 or more {p} from your graveyard on top of your deck.\nCreate a Vigor token.",
     "text_zh": "将你坟场中一张力量为6或更高的牌置于你的牌库顶。\n创造一个活力衍生物。",
@@ -3303,10 +3303,10 @@
   },
   "wrecking_ball__1": {
     "name_en": "Wrecking Ball",
-    "name_zh": "破坏球",
+    "name_zh": "破拆巨械",
     "type_zh": "蛮将 行动·攻击",
     "text_en": "When you attack with Wrecking Ball, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, intimidate.",
-    "text_zh": "当你用破坏球攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，威吓。",
+    "text_zh": "当你用破拆巨械攻击时，抽一张牌，然后随机弃一张牌。若以此方式弃置的是力量为6或更高的牌，威吓。",
     "pitch": "1",
     "cost": "3",
     "power": "6",
@@ -3316,10 +3316,10 @@
   },
   "writhing_beast_hulk__1": {
     "name_en": "Writhing Beast Hulk",
-    "name_zh": "扭动的野兽巨躯",
+    "name_zh": "纠拧兽躯",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains dominate.\nBlood Debt",
-    "text_zh": "作为使用扭动的野兽巨躯的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，扭动的野兽巨躯获得支配。\n血债",
+    "text_zh": "作为使用纠拧兽躯的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，纠拧兽躯获得支配。\n血债",
     "pitch": "1",
     "cost": "2",
     "power": "6",
@@ -3329,10 +3329,10 @@
   },
   "writhing_beast_hulk__2": {
     "name_en": "Writhing Beast Hulk",
-    "name_zh": "扭动的野兽巨躯",
+    "name_zh": "纠拧兽躯",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains dominate.\nBlood Debt",
-    "text_zh": "作为使用扭动的野兽巨躯的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，扭动的野兽巨躯获得支配。\n血债",
+    "text_zh": "作为使用纠拧兽躯的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，纠拧兽躯获得支配。\n血债",
     "pitch": "2",
     "cost": "2",
     "power": "5",
@@ -3342,10 +3342,10 @@
   },
   "writhing_beast_hulk__3": {
     "name_en": "Writhing Beast Hulk",
-    "name_zh": "扭动的野兽巨躯",
+    "name_zh": "纠拧兽躯",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.\nIf a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains dominate.\nBlood Debt",
-    "text_zh": "作为使用扭动的野兽巨躯的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，扭动的野兽巨躯获得支配。\n血债",
+    "text_zh": "作为使用纠拧兽躯的额外费用，随机放逐你坟场中的3张牌。\n若以此方式放逐的是一张力量为6或更高的牌，纠拧兽躯获得支配。\n血债",
     "pitch": "3",
     "cost": "2",
     "power": "4",
@@ -3372,7 +3372,7 @@
     "name_en": "Chief Ruk'utan",
     "type_zh": "",
     "type_en": "Brute Mentor",
-    "text_zh": "当鲁库坦牌面朝下在军械库中时，在你的回合开始时，你可以将他翻为正面朝上。\n当鲁库坦正面朝上在军械库中时，每当你使用一张力量为6或更高的牌时，威吓，并在其上放置一个课业指示物。然后若鲁库坦上有2个或更多课业指示物，放逐他，从你的牌库中搜寻阿尔法狂暴，将其正面朝上放入军械库，然后洗牌。",
+    "text_zh": "当鲁库坦牌面朝下在军械库中时，在你的回合开始时，你可以将他翻为正面朝上。\n当鲁库坦正面朝上在军械库中时，每当你使用一张力量为6或更高的牌时，威吓，并在其上放置一个课业指示物。然后若鲁库坦上有2个或更多课业指示物，放逐他，从你的牌库中搜寻战首狂袭，将其正面朝上放入军械库，然后洗牌。",
     "text_en": "While Ruk'utan is face down in arsenal, at the start of your turn, you may turn him face up.\nWhile Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p}, intimidate, and put a lesson counter on him. Then if there are 2 or more lesson counters on Ruk'utan, banish him, search your deck for Alpha Rampage, put it face up in arsenal, and shuffle.",
     "pitch": null,
     "cost": "",
@@ -3397,7 +3397,7 @@
   },
   "beckoning_hunger__1": {
     "name_en": "Beckoning Hunger",
-    "name_zh": "",
+    "name_zh": "饥渴召临",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "When this attacks, banish the top card of your deck.\nWhen this hits, create a Blasmophet, the Insatiable Hunger token.\nBlood Debt",
     "text_zh": "",
@@ -3410,7 +3410,7 @@
   },
   "beckoning_hunger__2": {
     "name_en": "Beckoning Hunger",
-    "name_zh": "",
+    "name_zh": "饥渴召临",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "When this attacks, banish the top card of your deck.\nWhen this hits, create a Blasmophet, the Insatiable Hunger token.\nBlood Debt",
     "text_zh": "",
@@ -3423,7 +3423,7 @@
   },
   "beckoning_hunger__3": {
     "name_en": "Beckoning Hunger",
-    "name_zh": "",
+    "name_zh": "饥渴召临",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "When this attacks, banish the top card of your deck.\nWhen this hits, create a Blasmophet, the Insatiable Hunger token.\nBlood Debt",
     "text_zh": "",
@@ -3436,7 +3436,7 @@
   },
   "blood_harvest": {
     "name_en": "Blood Harvest",
-    "name_zh": "",
+    "name_zh": "聚血获丰",
     "type_zh": "暗影 蛮将 行动·攻击",
     "text_en": "Instant - Banish this from your hand: Gain {r}{r}{r}\nBlood Debt",
     "text_zh": "",
