@@ -22,6 +22,7 @@ const {
   renderCardPanel,
   installProbe,
   shouldInstallProbe,
+  resolveCardKeys,
   SETTINGS_DEFAULTS,
   loadSettings,
 } = probe;
@@ -49,6 +50,14 @@ test('userscript matches Felt Table pages', () => {
 
 test('userscript matches TCGplayer content pages', () => {
   assert.match(source, /^\/\/ @match\s+https:\/\/www\.tcgplayer\.com\/content\/\*$/m);
+});
+
+test('userscript matches The Fab Cube pages', () => {
+  assert.match(source, /^\/\/ @match\s+https:\/\/www\.thefabcube\.com\/\*$/m);
+});
+
+test('userscript matches Fabrec pages', () => {
+  assert.match(source, /^\/\/ @match\s+https:\/\/fabrec\.gg\/\*$/m);
 });
 
 test('shouldInstallProbe enables only FAB content on TCGplayer', () => {
@@ -475,6 +484,75 @@ test('findCardAnchor accepts a Fablazing text card link', () => {
     parentNode: null,
   };
   assert.equal(findCardAnchor(anchor, { body: {} }, 180, 112), anchor);
+});
+
+test('findCardAnchor accepts The Fab Cube card labels and returns their image', () => {
+  const image = {
+    tagName: 'IMG',
+    src: 'https://images.fleshcube.com/large/MPW017.webp',
+    attributes: [{ name: 'src', value: 'https://images.fleshcube.com/large/MPW017.webp' }],
+    getBoundingClientRect() {
+      return { left: 100, top: 100, right: 220, bottom: 270, width: 120, height: 170 };
+    },
+  };
+  const cardPreview = {
+    tagName: 'DIV',
+    className: 'card-preview',
+    attributes: [],
+    querySelector(selector) {
+      return selector === 'img' || selector === '.card-image img' ? image : null;
+    },
+    parentElement: null,
+    parentNode: null,
+  };
+  const label = {
+    tagName: 'P',
+    className: '',
+    attributes: [],
+    closest(selector) {
+      return selector === '.card-preview' ? cardPreview : null;
+    },
+    parentElement: cardPreview,
+    parentNode: cardPreview,
+  };
+
+  assert.equal(findCardAnchor(label, {
+    body: {},
+    location: { hostname: 'www.thefabcube.com' },
+  }, 300, 300), image);
+  assert.deepEqual(Array.from(resolveCardKeys(collectCandidates(image), {
+    MPW017: { slug: 'hot_top', pitch: null },
+  }).slice(0, 1)), ['hot_top']);
+});
+
+test('findCardAnchor accepts Fabrec card container labels and returns their image', () => {
+  const image = {
+    tagName: 'IMG',
+    src: 'https://json.fabrec.gg/cardmeta/cardfaces/AGB001.jpg',
+    attributes: [{ name: 'src', value: 'https://json.fabrec.gg/cardmeta/cardfaces/AGB001.jpg' }],
+  };
+  const cardContainer = {
+    tagName: 'DIV',
+    className: 'card_cardContainer__vmPDK',
+    attributes: [{ name: 'class', value: 'card_cardContainer__vmPDK' }],
+    querySelector(selector) {
+      return selector === 'img' ? image : null;
+    },
+    parentElement: null,
+    parentNode: null,
+  };
+  const label = {
+    tagName: 'DIV',
+    className: 'card_name__HdhgM',
+    attributes: [{ name: 'class', value: 'card_name__HdhgM' }],
+    parentElement: cardContainer,
+    parentNode: cardContainer,
+  };
+
+  assert.equal(findCardAnchor(label, {
+    body: {},
+    location: { hostname: 'fabrec.gg' },
+  }, 300, 300), image);
 });
 
 test('findCardAnchor accepts a Felt Table background card', () => {

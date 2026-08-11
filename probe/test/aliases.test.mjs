@@ -109,6 +109,24 @@ test('resolveCardKeys strips the pitch color suffix into a direct base key', () 
   assert.ok(keys.includes('ice_quake'), JSON.stringify(keys));
 });
 
+test('resolveCardKeys resolves Fabrec cardface printing ids and variant suffixes', () => {
+  const aliases = {
+    AGB001: { slug: 'gravy_bones_shipwrecked_looter', pitch: null },
+    WTR116: { slug: 'braveforge_bracers', pitch: null },
+  };
+  const heroKeys = keysFor(
+    fakeElement('https://json.fabrec.gg/cardmeta/cardfaces/AGB001.jpg', 'Gravy Bones, Shipwrecked Looter'),
+    aliases,
+  );
+  const variantKeys = keysFor(
+    fakeElement('https://json.fabrec.gg/cardmeta/cardfaces/WTR116-CF.jpg', 'Braveforge Bracers'),
+    aliases,
+  );
+
+  assert.ok(heroKeys.includes('gravy_bones_shipwrecked_looter'), JSON.stringify(heroKeys));
+  assert.ok(variantKeys.includes('braveforge_bracers'), JSON.stringify(variantKeys));
+});
+
 test('normalizeStem strips color, cropped, and printing-variant suffixes', () => {
   assert.equal(normalizeStem('ice_quake_red'), 'ice_quake');
   assert.equal(normalizeStem('MPW010-T'), 'MPW010');

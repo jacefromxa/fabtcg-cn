@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name           Talishar / FaBrary / Fablazing / Felt Table / TCGplayer 简体中文卡牌浮窗
-// @name:zh-CN     Talishar / FaBrary / Fablazing / Felt Table / TCGplayer 简体中文卡牌浮窗
-// @name:en        Talishar / FaBrary / Fablazing / Felt Table / TCGplayer Simplified Chinese Card Tooltip
+// @name           Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
+// @name:zh-CN     Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
+// @name:en        Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.29
-// @description    在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer 悬停卡牌时显示简体中文卡牌信息
-// @description:zh-CN 在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer 悬停卡牌时显示简体中文卡牌信息
-// @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, Fablazing, Felt Table, and TCGplayer — card name, type, rules text, and keyword explanations.
+// @version        0.7.31
+// @description    在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
+// @description:zh-CN 在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
+// @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, Fablazing, Felt Table, TCGplayer, The Fab Cube, and Fabrec — card name, type, rules text, and keyword explanations.
 // @author         jacefromxa
 // @license        GPL-3.0
 // @match          https://talishar.net/*
@@ -14,6 +14,8 @@
 // @match          https://fablazing.com/*
 // @match          https://felttable.com/*
 // @match          https://www.tcgplayer.com/content/*
+// @match          https://www.thefabcube.com/*
+// @match          https://fabrec.gg/*
 // @run-at         document-idle
 // @updateURL      https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
 // @downloadURL    https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
@@ -764,9 +766,85 @@
     };
   }
 
+  // The Fab Cube's card preview puts the image and its name/pitch in the same
+  // .card-preview, but the text is a sibling of the image. The generic probe
+  // intentionally requires a descendant image to be under the pointer, so a
+  // label hover needs this site-specific bridge back to that card image.
+  function findFabCubeCardImage(target, doc) {
+    const hostname = String(doc && doc.location && doc.location.hostname || '').toLowerCase();
+    if (hostname !== 'www.thefabcube.com' || !target || typeof target.closest !== 'function') return null;
+
+    let cardPreview;
+    try {
+      cardPreview = target.closest('.card-preview');
+    } catch (_) {
+      return null;
+    }
+    if (!cardPreview || typeof cardPreview.querySelector !== 'function') return null;
+
+    let image;
+    try {
+      image = cardPreview.querySelector('.card-image img') || cardPreview.querySelector('img');
+    } catch (_) {
+      return null;
+    }
+    return image && collectCandidates(image).imageUrls.length ? image : null;
+  }
+
+  function isFabrecCardImage(image) {
+    return collectCandidates(image).imageUrls.some((value) => {
+      try {
+        const parsed = new URL(value, root.location?.href || 'https://fabrec.gg/');
+        return parsed.hostname === 'json.fabrec.gg' &&
+          parsed.pathname.includes('/cardmeta/cardfaces/');
+      } catch (_) {
+        return false;
+      }
+    });
+  }
+
+  function isFabrecCardContainer(element) {
+    const classes = String(element?.className || '').split(/\s+/);
+    return classes.some((className) => /^(heroGridContainer_heroButton|card_cardContainer|heroInfo_card|addToClipboard_baseCard)__/.test(className));
+  }
+
+  // Fabrec places card names and deck statistics beside the card image inside
+  // a card container. Walk only the known card-container class prefixes and
+  // accept only Fabrec's cardface image path, avoiding section-wide fallback
+  // that could resolve an unrelated first image.
+  function findFabrecCardImage(target, doc) {
+    const hostname = String(doc && doc.location && doc.location.hostname || '').toLowerCase();
+    if (hostname !== 'fabrec.gg' || !target) return null;
+
+    let current = target;
+    let depth = 0;
+    while (current && depth <= 6 && current !== doc.body) {
+      if (String(current.tagName || '').toLowerCase() === 'img' && isFabrecCardImage(current)) {
+        return current;
+      }
+      if (isFabrecCardContainer(current) && typeof current.querySelector === 'function') {
+        let image;
+        try {
+          image = current.querySelector('img');
+        } catch (_) {
+          image = null;
+        }
+        if (image && isFabrecCardImage(image)) return image;
+      }
+      current = current.parentElement || current.parentNode;
+      depth += 1;
+    }
+    return null;
+  }
+
   // --- UI helpers ---------------------------------------------------------
 
   function findCardAnchor(target, doc, clientX, clientY) {
+    const fabCubeImage = findFabCubeCardImage(target, doc);
+    if (fabCubeImage) return fabCubeImage;
+    const fabrecImage = findFabrecCardImage(target, doc);
+    if (fabrecImage) return fabrecImage;
+
     const detected = findProbeTarget(target, doc, clientX, clientY);
     if (!detected) return null;
     let anchor = detected;
