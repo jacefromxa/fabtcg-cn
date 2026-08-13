@@ -3,7 +3,7 @@
 // @name:zh-CN     Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
 // @name:en        Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.32
+// @version        0.7.33
 // @description    在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
 // @description:zh-CN 在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
 // @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, Fablazing, Felt Table, TCGplayer, The Fab Cube, and Fabrec — card name, type, rules text, and keyword explanations.
@@ -292,6 +292,25 @@
     return urls;
   }
 
+  // Felt Table card art (inline or class-applied) lives under a /fab/ path and
+  // uses a printing-id filename ("RVD002.jpg"). Board textures, playmats and
+  // menu backgrounds share the same CDN but do not look like a card, so they
+  // must not become hover candidates — otherwise any empty board space would
+  // resolve to a spurious "loading" anchor.
+  function isFabCardBackgroundUrl(value) {
+    if (typeof value !== 'string' || !value.trim()) return false;
+    let parsed;
+    try {
+      parsed = new URL(value, root.location?.href || 'https://felttable.com/');
+    } catch {
+      return false;
+    }
+    if (!/\/fab\//.test(parsed.pathname)) return false;
+    const filename = parsed.pathname.split('/').filter(Boolean).pop() || '';
+    const stem = filename.replace(/\.[^.]+$/, '');
+    return /^[A-Z]{2,4}\d{3,4}(?:_(?:red|yellow|blue|cropped|crop))?$/i.test(stem);
+  }
+
   function collectCandidates(element) {
     const result = {
       tagName: String(element?.tagName || '').toLowerCase(),
@@ -322,8 +341,21 @@
     };
 
     addImageUrl(element?.src || knownEntries.get('src'));
-    const backgroundImage = element?.style?.backgroundImage || knownEntries.get('style');
-    for (const url of extractCssImageUrls(backgroundImage)) addImageUrl(url);
+    // Felt Table card art can come from a CSS class instead of an inline style
+    // (learntoplay.felttable.com uses hashed image classes such as
+    // "cardImages_RVD002__2n8tN"), so fall back to the computed background
+    // image when the inline read is empty. Computed style is comparatively
+    // expensive, so only reach for it when there is no inline URL at all.
+    let backgroundImage = element?.style?.backgroundImage || knownEntries.get('style');
+    if (!backgroundImage && element?.className &&
+        typeof element.ownerDocument?.defaultView?.getComputedStyle === 'function') {
+      try {
+        backgroundImage = element.ownerDocument.defaultView.getComputedStyle(element).backgroundImage;
+      } catch (_) { /* keep the inline value */ }
+    }
+    for (const url of extractCssImageUrls(backgroundImage)) {
+      if (isFabCardBackgroundUrl(url)) addImageUrl(url);
+    }
     addLinkUrl(element?.href || knownEntries.get('href'));
     addTextHint(element?.alt || knownEntries.get('alt'));
     addTextHint(element?.title || knownEntries.get('title'));
@@ -2087,6 +2119,7 @@
     extractPrintingId: extractPrintingId,
     extractFablazingCardLink: extractFablazingCardLink,
     extractTcgplayerCardEmbed: extractTcgplayerCardEmbed,
+    isFabCardBackgroundUrl: isFabCardBackgroundUrl,
     normalizeStem: normalizeStem,
     slugifyCardName: slugifyCardName,
     resolveCardKeys: resolveCardKeys,

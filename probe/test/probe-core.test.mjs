@@ -131,6 +131,39 @@ test('collectCandidates reads Felt Table background card images', () => {
   ]);
 });
 
+// learntoplay.felttable.com applies card art through a hashed CSS class
+// (e.g. "cardImages_RVD002__2n8tN") with no inline style, so collectCandidates
+// must fall back to the computed background-image to recognise the card.
+test('collectCandidates reads class-applied Felt Table background card images', () => {
+  const card = {
+    tagName: 'DIV',
+    className: 'card_upper__3rk-a fabCardUpper cardImages_RVD002__2n8tN',
+    style: {},
+    attributes: [],
+    ownerDocument: {
+      defaultView: {
+        getComputedStyle: () => ({
+          backgroundImage: 'url("https://d1n2ba7uw8bkm1.cloudfront.net/fab/RVD/RVD002.jpg")',
+        }),
+      },
+    },
+  };
+  const result = collectCandidates(card);
+  assert.deepEqual(Array.from(result.imageUrls), [
+    'https://d1n2ba7uw8bkm1.cloudfront.net/fab/RVD/RVD002.jpg',
+  ]);
+});
+
+test('isFabCardBackgroundUrl rejects board textures and menu art', () => {
+  const probe = browserSandbox.FabCnProbe;
+  assert.equal(probe.isFabCardBackgroundUrl('https://learntoplay.felttable.com/static/media/felt.73af168c.png'), false);
+  assert.equal(probe.isFabCardBackgroundUrl('https://d1n2ba7uw8bkm1.cloudfront.net/fab/mats2/savage.jpg'), false);
+  assert.equal(probe.isFabCardBackgroundUrl('https://d1n2ba7uw8bkm1.cloudfront.net/fab/assets/cutout_dori.png'), false);
+  assert.equal(probe.isFabCardBackgroundUrl('https://d1n2ba7uw8bkm1.cloudfront.net/fab/assets/card_back_s.png'), false);
+  assert.equal(probe.isFabCardBackgroundUrl('https://d1n2ba7uw8bkm1.cloudfront.net/fab/RVD/RVD002.jpg'), true);
+  assert.equal(probe.isFabCardBackgroundUrl('https://d1n2ba7uw8bkm1.cloudfront.net/fab/MON_JPG6/MON243.jpg'), true);
+});
+
 function createFakeDocument() {
   const listeners = new Map();
   const body = {

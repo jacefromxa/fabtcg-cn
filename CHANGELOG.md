@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.33（2026-08-14）
+
+### 修复
+
+- **修复 Felt Table 学习教程页浮窗「一闪而消失」**：learntoplay.felttable.com 的卡图由哈希 CSS 类应用背景（如 `cardImages_RVD002__2n8tN`），而非内联 `style` 属性；`collectCandidates` 原先只读内联背景，读不到卡图信号，导致解析不出卡、浮窗刚显示「加载中…」即消失。现当内联背景为空时回退读取计算样式（`getComputedStyle`），并用 `isFabCardBackgroundUrl` 守卫只认 `/fab/` 路径 + 印刷 ID 命名的卡图——棋盘贴图（牌垫/剪影/卡背等）不会被误判成悬停目标，空棋盘悬停行为不变
+
 ## v0.7.32（2026-08-13）
 
 ### 变更
