@@ -48,6 +48,10 @@ test('userscript matches Felt Table pages', () => {
   assert.match(source, /^\/\/ @match\s+https:\/\/felttable\.com\/\*$/m);
 });
 
+test('userscript matches Felt Table learn tutorial pages', () => {
+  assert.match(source, /^\/\/ @match\s+https:\/\/learntoplay\.felttable\.com\/\*$/m);
+});
+
 test('userscript matches TCGplayer content pages', () => {
   assert.match(source, /^\/\/ @match\s+https:\/\/www\.tcgplayer\.com\/content\/\*$/m);
 });

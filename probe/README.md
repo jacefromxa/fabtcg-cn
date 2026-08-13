@@ -7,7 +7,7 @@
 - **Talishar**（对战页）：按卡图文件名 slug 匹配（如 `titans_fist.webp`）。
 - **FaBrary**（牌表/卡牌站）：按卡图 `src` 里的印刷 ID（如 `PEN313.webp`）经 `dist/data/aliases.json` 别名表解析到 slug，并用 `alt` 卡名交叉消解歧义；`alt` 文本本身也可直接兜底匹配。
 - **Fablazing**（英雄分析页）：支持卡牌统计表中的卡名链接，并按链接中的 pitch 颜色选择对应版本。
-- **Felt Table**（对战页）：支持卡图、CSS 背景卡图及可交互卡牌覆盖层。
+- **Felt Table**（对战页 / 学习教程页）：支持卡图、CSS 背景卡图及可交互卡牌覆盖层；同架构的 `learntoplay.felttable.com/fab/learn` 学习教程页一并支持。
 - **TCGplayer**（FAB 内容页）：支持正文卡图、牌组清单组件和原生卡牌链接悬停。
 - **The Fab Cube**（牌组页）：支持卡片预览中的卡图、卡名和 pitch 区域，统一按预览卡图的印刷 ID 解析。
 - **Fabrec**（英雄分析与牌组统计页）：支持 `cardfaces` 卡图及同卡片容器中的卡名、统计区域悬停。

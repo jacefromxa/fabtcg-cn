@@ -3,7 +3,7 @@
 // @name:zh-CN     Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
 // @name:en        Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.31
+// @version        0.7.32
 // @description    在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
 // @description:zh-CN 在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
 // @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, Fablazing, Felt Table, TCGplayer, The Fab Cube, and Fabrec — card name, type, rules text, and keyword explanations.
@@ -13,6 +13,7 @@
 // @match          https://fabrary.net/*
 // @match          https://fablazing.com/*
 // @match          https://felttable.com/*
+// @match          https://learntoplay.felttable.com/*
 // @match          https://www.tcgplayer.com/content/*
 // @match          https://www.thefabcube.com/*
 // @match          https://fabrec.gg/*

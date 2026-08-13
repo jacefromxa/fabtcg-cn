@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.32（2026-08-13）
+
+### 变更
+
+- **支持 Felt Table 学习教程页（`learntoplay.felttable.com/fab/learn`）**：与 `felttable.com` 完全同架构，补充域名匹配后复用现有卡牌探测路径（卡图 / CSS 背景卡图 / 交互覆盖层），无需新增站点适配代码。
+
 ## v0.7.24（2026-08-08）
 
 ### 翻译数据更新
