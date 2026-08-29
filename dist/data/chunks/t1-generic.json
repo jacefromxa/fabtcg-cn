@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "0341943ae284",
+  "version": "3ee13c182500",
   "cards": {
     "adrenaline_rush": {
       "id": "adrenaline_rush",
@@ -293,13 +293,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "获得1点生命。\n若你本回合受到过奥术伤害，改为获得3点生命。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "获得1点生命。\n若你本回合受到过奥术伤害，改为获得2点生命。"
         }
       }
     },
@@ -1083,13 +1085,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本回合接下来你将受到的2点或更少的伤害，防止它。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本回合接下来你将受到的1点或更少的伤害，防止它。"
         }
       }
     },
@@ -1325,13 +1329,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择其一；\n你本回合使用的下一张费用为1或更低的攻击行动牌获得+2力量。\n你本回合使用的下一张费用为1或更低的攻击行动牌获得再动。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择其一；\n你本回合使用的下一张费用为0或更低的攻击行动牌获得+2力量。\n你本回合使用的下一张费用为0或更低的攻击行动牌获得再动。\n再动"
         }
       }
     },
@@ -1611,13 +1617,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "你本回合使用的下一张攻击行动牌获得+2力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "你本回合使用的下一张攻击行动牌获得+1力量。\n再动"
         }
       }
     },
@@ -1759,13 +1767,15 @@
           "pitch": "2",
           "cost": "2",
           "power": "",
-          "defense": ""
+          "defense": "",
+          "text_zh": "获得X点生命，X为2加上你坟场中数算你的祝福的数量。"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": "",
-          "defense": ""
+          "defense": "",
+          "text_zh": "获得X点生命，X为1加上你坟场中数算你的祝福的数量。"
         }
       }
     },
@@ -2315,13 +2325,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "0"
+          "defense": "0",
+          "text_zh": "当此牌防御攻击时，它获得-2力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "0"
+          "defense": "0",
+          "text_zh": "当此牌防御攻击时，它获得-1力量。"
         }
       }
     },
@@ -2423,13 +2435,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "展示你牌库顶的一张牌。防止本回合接下来将对你的英雄造成的X点奥术伤害，X为5减去以此方式展示的牌的资源数值。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "展示你牌库顶的一张牌。防止本回合接下来将对你的英雄造成的X点奥术伤害，X为4减去以此方式展示的牌的资源数值。"
         }
       }
     },
@@ -2561,13 +2575,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "再动\n若你的英雄将受到伤害，改为摧毁迷人旋律并防止该来源将造成的3点伤害。\n在你的结束阶段开始时，摧毁迷人旋律，除非本回合你使用过一张“非攻击”行动牌。"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "再动\n若你的英雄将受到伤害，改为摧毁迷人旋律并防止该来源将造成的2点伤害。\n在你的结束阶段开始时，摧毁迷人旋律，除非本回合你使用过一张“非攻击”行动牌。"
         }
       }
     },
@@ -2689,13 +2705,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "仅当本回合你造成过伤害时才能使用比那还大。\n占卜2，然后展示你牌库顶的一张牌。若其力量大于你本回合已造成的伤害总量，创造一个加速衍生物并抽一张牌。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "仅当本回合你造成过伤害时才能使用比那还大。\n占卜1，然后展示你牌库顶的一张牌。若其力量大于你本回合已造成的伤害总量，创造一个加速衍生物并抽一张牌。"
         }
       }
     },
@@ -3074,14 +3092,16 @@
           "cost": null,
           "power": null,
           "defense": "1",
-          "type_zh": "通用 阻挡"
+          "type_zh": "通用 阻挡",
+          "text_zh": "当此牌从任何区域置入你的坟场时，获得2点生命。"
         },
         "3": {
           "pitch": "3",
           "cost": null,
           "power": null,
           "defense": "1",
-          "type_zh": "通用 阻挡"
+          "type_zh": "通用 阻挡",
+          "text_zh": "当此牌从任何区域置入你的坟场时，获得1点生命。"
         }
       }
     },
@@ -3233,13 +3253,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得再动。若其为黄色，它获得+1力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得再动。若其为蓝色，它获得+1力量。\n再动"
         }
       }
     },
@@ -3308,13 +3330,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张攻击行动牌获得+2力量。\n若预见之力是从军械库使用的，占卜2。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张攻击行动牌获得+1力量。\n若预见之力是从军械库使用的，占卜2。\n再动"
         }
       }
     },
@@ -3993,13 +4017,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "获得2点生命。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "获得1点生命。"
         }
       }
     },
@@ -4213,13 +4239,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你控制的攻击下一次命中时，创造4个铜币衍生物。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你控制的攻击下一次命中时，创造2个铜币衍生物。\n再动"
         }
       }
     },
@@ -4775,13 +4803,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你下一次使用费用为1或更高的行动牌时，获得1个行动点。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你下一次使用费用为2或更高的行动牌时，获得1个行动点。\n再动"
         }
       }
     },
@@ -4991,13 +5021,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "将你坟场中费用为1或更低的目标攻击行动牌置于牌库顶。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "将你坟场中费用为0或更低的目标攻击行动牌置于牌库顶。"
         }
       }
     },
@@ -5157,13 +5189,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得+2力量，以及“当此牌攻击英雄时，你可以与该英雄下注。胜者创造一个金币衍生物。”\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得+1力量，以及“当此牌攻击英雄时，你可以与该英雄下注。胜者创造一个金币衍生物。”\n再动"
         }
       }
     },
@@ -5317,13 +5351,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张费用为1或更低的攻击行动牌获得+2力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张费用为1或更低的攻击行动牌获得+1力量。\n再动"
         }
       }
     },
@@ -5511,13 +5547,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "防止本回合接下来将由你选择的一个来源对目标英雄造成的3点伤害。若该英雄的生命低于其他每位英雄，该英雄可以获得1点生命。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "防止本回合接下来将由你选择的一个来源对目标英雄造成的2点伤害。若该英雄的生命低于其他每位英雄，该英雄可以获得1点生命。"
         }
       }
     },
@@ -6012,13 +6050,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本回合接下来你将受到伤害时，防止其中3点伤害。\n创造一个沉思衍生物。"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。\n创造一个沉思衍生物。"
         }
       }
     },
@@ -6123,13 +6163,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "查看目标对手的手牌，然后说出一张牌名。\n从其手牌中随机选择一张牌并展示它。若其为被说出的牌，创造一个银币衍生物。重复此过程二次。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "查看目标对手的手牌，然后说出一张牌名。\n从其手牌中随机选择一张牌并展示它。若其为被说出的牌，创造一个银币衍生物。重复此过程一次。\n再动"
         }
       }
     },
@@ -6200,13 +6242,15 @@
           "pitch": "2",
           "cost": "0",
           "power": "",
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你控制的攻击行动牌下一次命中时，抽一张牌。\n若掠夺行动是从军械库使用的，本回合你使用的下一张攻击行动牌获得+X力量。X为2/2/1（按pitch）。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": "",
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你控制的攻击行动牌下一次命中时，抽一张牌。\n若掠夺行动是从军械库使用的，本回合你使用的下一张攻击行动牌获得+X力量。X为1/2/1（按pitch）。\n再动"
         }
       }
     },
@@ -6495,13 +6539,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张攻击行动牌获得+3力量。\n观众为每位崇敬英雄欢呼。\n观众为每位憎恶英雄喝倒彩。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张攻击行动牌获得+2力量。\n观众为每位崇敬英雄欢呼。\n观众为每位憎恶英雄喝倒彩。\n再动"
         }
       }
     },
@@ -6586,13 +6632,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "标记目标对手英雄。\n本回合你下一次攻击被标记的英雄时，该攻击获得+2力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "标记目标对手英雄。\n本回合你下一次攻击被标记的英雄时，该攻击获得+1力量。\n再动"
         }
       }
     },
@@ -6618,13 +6666,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择其一；\n- 目标棒或锤武器攻击获得+3力量。\n- 目标费用为2或更高的攻击行动牌获得+3力量，以及“当此牌命中英雄时，该英雄弃一张牌。”"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择其一；\n- 目标棒或锤武器攻击获得+2力量。\n- 目标费用为2或更高的攻击行动牌获得+2力量，以及“当此牌命中英雄时，该英雄弃一张牌。”"
         }
       }
     },
@@ -6650,13 +6700,15 @@
           "pitch": "2",
           "cost": "0",
           "power": "2",
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "当此牌攻击时，你可以支付3点资源。若如此做，此牌获得+4力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": "2",
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "当此牌攻击时，你可以支付3点资源。若如此做，此牌获得+3力量。"
         }
       }
     },
@@ -7138,13 +7190,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择其一；\n- 目标匕首或剑武器攻击获得+2力量。\n- 目标费用为1或更低的攻击行动牌获得+2力量，以及“当此牌命中时，它获得再动。”"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择其一；\n- 目标匕首或剑武器攻击获得+1力量。\n- 目标费用为1或更低的攻击行动牌获得+1力量，以及“当此牌命中时，它获得再动。”"
         }
       }
     },
@@ -7226,13 +7280,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标防御攻击行动牌获得+3防御。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标防御攻击行动牌获得+2防御。"
         }
       }
     },
@@ -7785,13 +7841,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "查看目标英雄牌库顶的一张牌。\n本回合你从军械库使用的下一张攻击行动牌获得+2力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "查看目标英雄牌库顶的一张牌。\n本回合你从军械库使用的下一张攻击行动牌获得+1力量。\n再动"
         }
       }
     },
@@ -8053,13 +8111,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "将你手牌中的至多3张牌置于牌库底，然后抽等量的牌。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "将你手牌中的至多2张牌置于牌库底，然后抽等量的牌。\n再动"
         }
       }
     },
@@ -8131,13 +8191,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "结界3\n在你的行动阶段开始时，摧毁守护印记。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "结界2\n在你的行动阶段开始时，摧毁守护印记。"
         }
       }
     },
@@ -8164,14 +8226,16 @@
           "cost": "0",
           "power": null,
           "defense": null,
-          "type_zh": "通用 瞬间"
+          "type_zh": "通用 瞬间",
+          "text_zh": "获得2点生命。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
           "defense": null,
-          "type_zh": "通用 瞬间"
+          "type_zh": "通用 瞬间",
+          "text_zh": "获得1点生命。"
         }
       }
     },
@@ -8325,13 +8389,15 @@
           "pitch": "2",
           "cost": "3",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张费用为2或更高的攻击行动牌获得+5力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "3",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张费用为2或更高的攻击行动牌获得+4力量。\n再动"
         }
       }
     },
@@ -8379,13 +8445,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合攻击行动牌下一次命中英雄时，你可以摧毁其控制的一个费用为2或更低的物品。\n若砸个痛快是从军械库使用的，本回合你使用的下一张攻击行动牌获得+2力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合攻击行动牌下一次命中英雄时，你可以摧毁其控制的一个费用为2或更低的物品。\n若砸个痛快是从军械库使用的，本回合你使用的下一张攻击行动牌获得+1力量。\n再动"
         }
       }
     },
@@ -8635,13 +8703,15 @@
           "pitch": "2",
           "cost": "1",
           "power": "2",
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "当此牌攻击时，若你手牌中没有牌，它获得+2力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": "2",
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "当此牌攻击时，若你手牌中没有牌，它获得+1力量。"
         }
       }
     },
@@ -8825,13 +8895,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "将坟场中一张费用为1或更低的行动牌置于其拥有者的牌库底。在结束阶段开始时，抽一张牌。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "将坟场中一张费用为0或更低的行动牌置于其拥有者的牌库底。在结束阶段开始时，抽一张牌。\n再动"
         }
       }
     },
@@ -8911,13 +8983,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "获得2点生命。\n若你本回合使用过一张名为月光祈愿的牌，抽一张牌且阳光之吻获得再动。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "获得1点生命。\n若你本回合使用过一张名为月光祈愿的牌，抽一张牌且阳光之吻获得再动。"
         }
       }
     },
@@ -10252,13 +10326,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张攻击行动牌获得+2力量，以及“当此牌命中时，将其置于其拥有者的牌库底。”\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张攻击行动牌获得+1力量，以及“当此牌命中时，将其置于其拥有者的牌库底。”\n再动"
         }
       }
     },
@@ -10321,13 +10397,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "占卜3\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "占卜2\n再动"
         }
       }
     },

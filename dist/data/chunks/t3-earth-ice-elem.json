@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "0341943ae284",
+  "version": "3ee13c182500",
   "cards": {
     "amulet_of_earth": {
       "id": "amulet_of_earth",
@@ -91,13 +91,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "在目标英雄的控制下创造2个霜咬衍生物。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "在目标英雄的控制下创造1个霜咬衍生物。"
         }
       }
     },
@@ -538,13 +540,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合冰或元素攻击下一次命中英雄时，在其控制下创造2个霜咬衍生物。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合冰或元素攻击下一次命中英雄时，在其控制下创造1个霜咬衍生物。\n再动"
         }
       }
     },
@@ -572,13 +576,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "目标英雄可以支付2点资源。若该英雄不支付，冻结其军械库中的一张牌或其控制的一个盟友，直到你的下一个回合开始。\n若骤寒是从军械库使用的，抽一张牌。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "目标英雄可以支付1点资源。若该英雄不支付，冻结其军械库中的一张牌或其控制的一个盟友，直到你的下一个回合开始。\n若骤寒是从军械库使用的，抽一张牌。\n再动"
         }
       }
     },
@@ -730,13 +736,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张攻击行动牌获得+4力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张攻击行动牌获得+3力量。\n再动"
         }
       }
     },
@@ -1050,13 +1058,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "获得2点生命。\n若你的放逐区有四张或更多大地牌，改为获得4点生命。"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "获得2点生命。\n若你的放逐区有四张或更多大地牌，改为获得3点生命。"
         }
       }
     },
@@ -1107,7 +1117,8 @@
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合攻击下一次将获得力量时，改为它获得等量加2的力量。\n再动"
         }
       }
     },
@@ -1264,13 +1275,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "再动\n在你的行动阶段开始时，摧毁此牌，然后获得2点生命。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "再动\n在你的行动阶段开始时，摧毁此牌，然后获得1点生命。"
         }
       }
     },
@@ -1318,13 +1331,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得+2力量。\n本回合每当攻击命中英雄时，在其控制下创造一个霜咬衍生物。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得+1力量。\n本回合每当攻击命中英雄时，在其控制下创造一个霜咬衍生物。\n再动"
         }
       }
     },
@@ -1404,13 +1419,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你融合的下一次攻击获得+3力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你融合的下一次攻击获得+2力量。\n再动"
         }
       }
     },
@@ -1438,13 +1455,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你下一次冰融合时，在目标英雄的控制下创造3个霜咬衍生物。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你下一次冰融合时，在目标英雄的控制下创造2个霜咬衍生物。\n再动"
         }
       }
     },
@@ -1627,13 +1646,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "创造2个大地化身衍生物。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "创造1个大地化身衍生物。"
         }
       }
     },
@@ -1683,13 +1704,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "目标对手英雄可以支付2点资源。若该英雄不支付，你本回合的下一次攻击获得支配。\n若极地爆发是从军械库使用的，抽一张牌。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "目标对手英雄可以支付1点资源。若该英雄不支付，你本回合的下一次攻击获得支配。\n若极地爆发是从军械库使用的，抽一张牌。\n再动"
         }
       }
     },
@@ -1740,13 +1763,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "冻结至多2个目标盟友，直到你的下一个回合开始。\n若此牌是从军械库使用的，抽一张牌。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "冻结至多1个目标盟友，直到你的下一个回合开始。\n若此牌是从军械库使用的，抽一张牌。\n再动"
         }
       }
     },
@@ -1772,13 +1797,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "获得2点生命。\n若本回合你融合过，你可以将恢复活力当作瞬间使用。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "获得1点生命。\n若本回合你融合过，你可以将恢复活力当作瞬间使用。"
         }
       }
     },
@@ -1904,13 +1931,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "将你坟场中一张费用为1或更高的目标大地或元素行动牌置于你的牌库底。放逐播种明日。\n若播种明日是从军械库使用的，抽一张牌。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "将你坟场中一张费用为2或更高的目标大地或元素行动牌置于你的牌库底。放逐播种明日。\n若播种明日是从军械库使用的，抽一张牌。\n再动"
         }
       }
     },
@@ -1938,13 +1967,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得+1力量。\n你本回合的下一次攻击获得+1力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得+1力量。\n再动"
         }
       }
     },
@@ -2026,13 +2057,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "再动\n在你的行动阶段开始时，摧毁此牌，然后你本回合的下一次攻击获得+2力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "再动\n在你的行动阶段开始时，摧毁此牌，然后你本回合的下一次攻击获得+1力量。"
         }
       }
     },
@@ -2092,13 +2125,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标防御中的大地或元素行动牌获得+3防御。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标防御中的大地或元素行动牌获得+2防御。"
         }
       }
     },
@@ -2170,13 +2205,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张大地或元素攻击行动牌获得+2力量。\n若它已融合，改为它获得+3力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张大地或元素攻击行动牌获得+1力量。\n若它已融合，改为它获得+2力量。\n再动"
         }
       }
     },
@@ -2204,13 +2241,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张冰或元素攻击行动牌获得+2力量。\n若它已融合，它获得支配。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张冰或元素攻击行动牌获得+1力量。\n若它已融合，它获得支配。\n再动"
         }
       }
     },
@@ -2238,13 +2277,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "目标英雄弃一张牌，除非其支付2点资源。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "目标英雄弃一张牌，除非其支付1点资源。\n再动"
         }
       }
     },

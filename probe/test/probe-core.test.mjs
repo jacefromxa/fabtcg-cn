@@ -513,6 +513,32 @@ test('renderCardPanel only renders the three requested card fields', () => {
   assert.equal(panel.children[1].style.color, 'var(--fab-cn-type-color)');
 });
 
+test('renderCardPanel prefixes pitch-colored card names with the matching emoji', () => {
+  const fakeDocument = createFakeDocument();
+  const panel = fakeDocument.createElement('div');
+
+  renderCardPanel(fakeDocument, panel, {
+    name_zh: '嘲讽打击',
+    pitch: '1',
+    text_zh: '获得+4力量。',
+  });
+  assert.equal(panel.children[0].textContent, '🔴 嘲讽打击');
+
+  renderCardPanel(fakeDocument, panel, {
+    name_zh: '嘲讽打击',
+    pitch: '2',
+    text_zh: '获得+3力量。',
+  });
+  assert.equal(panel.children[0].textContent, '🟡 嘲讽打击');
+
+  renderCardPanel(fakeDocument, panel, {
+    name_zh: '嘲讽打击',
+    pitch: '3',
+    text_zh: '获得+2力量。',
+  });
+  assert.equal(panel.children[0].textContent, '🔵 嘲讽打击');
+});
+
 test('renderCardPanel appends a keyword section (name：desc, numbered fallback)', () => {
   const fakeDocument = createFakeDocument();
   const panel = fakeDocument.createElement('div');

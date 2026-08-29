@@ -1,6 +1,41 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildCardArtifacts, buildKeywordLibrary, attachCardKeywords } from '../../scripts/build-card-data.mjs';
+import {
+  buildCardArtifacts,
+  buildKeywordLibrary,
+  attachCardKeywords,
+  findPitchTranslationIssues,
+  loadZhTranslations,
+} from '../../scripts/build-card-data.mjs';
+
+test('Mocking Blow keeps the correct Chinese effect for every pitch', () => {
+  const { cards, cardBatch } = loadZhTranslations();
+
+  assert.match(cards.mocking_blow__1.text_zh, /\+4力量/);
+  assert.match(cards.mocking_blow__2.text_zh, /\+3力量/);
+  assert.match(cards.mocking_blow__3.text_zh, /\+2力量/);
+
+  const artifacts = buildCardArtifacts(cards, cardBatch);
+  const card = artifacts.chunks[`chunks/${cardBatch.mocking_blow}.json`].cards.mocking_blow;
+  assert.match(card.text_zh, /\+4力量/);
+  assert.match(card.variants['2'].text_zh, /\+3力量/);
+  assert.match(card.variants['3'].text_zh, /\+2力量/);
+});
+
+test('every pitch-sensitive English difference has a pitch-sensitive Chinese translation', () => {
+  const { cards } = loadZhTranslations();
+
+  assert.deepEqual(findPitchTranslationIssues(cards), []);
+});
+
+test('pitch audit catches a copied red translation before it reaches the build', () => {
+  const issues = findPitchTranslationIssues({
+    sample__1: { text_en: 'Gain 4{h}', text_zh: '获得4点生命。' },
+    sample__2: { text_en: 'Gain 3{h}', text_zh: '获得4点生命。' },
+  });
+
+  assert.deepEqual(issues.map((issue) => issue.cardId), ['sample']);
+});
 
 test('buildCardArtifacts groups pitch variants under one card id, chunked by batch', () => {
   const result = buildCardArtifacts({

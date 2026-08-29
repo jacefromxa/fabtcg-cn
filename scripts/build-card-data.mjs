@@ -13,6 +13,48 @@ function cardIdFromKey(key) {
   return String(key).replace(/__(1|2|3)$/, '');
 }
 
+const PITCH_SENSITIVE_TOKEN_PATTERN = /(?:\{[a-z]\})+|\b(?:zero|one|two|three|four|five|six|seven|eight|nine|ten|first|second|third|once|twice|thrice|red|yellow|blue)\b|\d+(?:\.\d+)?/gi;
+
+function pitchSensitiveSignature(text) {
+  const value = String(text || '');
+  const tokens = [...value.matchAll(PITCH_SENSITIVE_TOKEN_PATTERN)]
+    .map((match) => match[0].toLowerCase());
+  return `${value.split('\n').length}:${tokens.join('|')}`;
+}
+
+// Detect source records where every pitch still carries the same Chinese
+// prose even though the English source contains a pitch-sensitive difference
+// (numbers, resource-symbol counts, colors, or line counts). This is kept at
+// build time so a future machine-draft import cannot silently regress the
+// grouped runtime data back to the red pitch.
+export function findPitchTranslationIssues(cardData) {
+  const grouped = new Map();
+  for (const [key, card] of Object.entries(cardData || {})) {
+    const match = key.match(/^(.*)__(1|2|3)$/);
+    if (!match) continue;
+    const entries = grouped.get(match[1]) || [];
+    entries.push({ key, card });
+    grouped.set(match[1], entries);
+  }
+
+  const issues = [];
+  for (const [cardId, entries] of grouped) {
+    if (entries.length < 2) continue;
+    const englishSignatures = new Set(
+      entries.map(({ card }) => pitchSensitiveSignature(card.text_en)),
+    );
+    const chineseTexts = new Set(entries.map(({ card }) => card.text_zh || ''));
+    if (englishSignatures.size > 1 && chineseTexts.size === 1) {
+      issues.push({
+        cardId,
+        keys: entries.map(({ key }) => key),
+        text_zh: entries[0].card.text_zh || '',
+      });
+    }
+  }
+  return issues;
+}
+
 function normalizeVariant(card, primary) {
   const variant = {
     pitch: nullable(card.pitch),
@@ -230,6 +272,15 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const enriched = fs.existsSync(englishSource)
     ? attachCardKeywords(cards, JSON.parse(fs.readFileSync(englishSource, 'utf8')), keywordLibrary)
     : cards;
+
+  const pitchIssues = findPitchTranslationIssues(enriched);
+  if (pitchIssues.length) {
+    const examples = pitchIssues.slice(0, 10).map((issue) => issue.cardId).join(', ');
+    throw new Error(
+      `Pitch translation audit failed for ${pitchIssues.length} card groups (${examples}). ` +
+      'Run scripts/repair-pitch-translations.mjs and review the source data.',
+    );
+  }
 
   const artifacts = writeCardArtifacts(enriched, cardBatch, outputDirectory);
 

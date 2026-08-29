@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "0341943ae284",
+  "version": "3ee13c182500",
   "cards": {
     "10_000_year_reunion": {
       "id": "10_000_year_reunion",
@@ -91,13 +91,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标名称中含有先驱者的攻击行动牌获得再动。\n你本回合的下一次天使攻击获得+2力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标名称中含有先驱者的攻击行动牌获得再动。\n你本回合的下一次天使攻击获得+1力量。"
         }
       }
     },
@@ -123,13 +125,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标名称中含有先驱者的攻击行动牌获得+3力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标名称中含有先驱者的攻击行动牌获得+2力量。"
         }
       }
     },
@@ -219,13 +223,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "在你控制的具有结界的目标光环上放置二个+1力量指示物。\n若你控制一个幻质护盾，你可以将此牌当作瞬间使用。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "在你控制的具有结界的目标光环上放置一个+1力量指示物。\n若你控制一个幻质护盾，你可以将此牌当作瞬间使用。"
         }
       }
     },
@@ -253,13 +259,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "当此牌进入竞技场时，至多1个目标具有碎片的攻击获得+1力量。若此牌带有一个全息指示物，改为该攻击获得+3力量。\n结界1"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "当此牌进入竞技场时，至多1个目标具有碎片的攻击获得+1力量。若此牌带有一个全息指示物，改为该攻击获得+2力量。\n结界1"
         }
       }
     },
@@ -342,13 +350,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "在你的回合开始时，摧毁灵魂祝福，然后创造2个幻质护盾衍生物。\n结界1"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "在你的回合开始时，摧毁灵魂祝福，然后创造1个幻质护盾衍生物。\n结界1"
         }
       }
     },
@@ -438,13 +448,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本战斗链中目标防御一张名称中含有先驱者的攻击的牌获得-2力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本战斗链中目标防御一张名称中含有先驱者的攻击的牌获得-1力量。"
         }
       }
     },
@@ -470,13 +482,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标名称中含有先驱者的攻击行动牌获得+4防御。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标名称中含有先驱者的攻击行动牌获得+3防御。"
         }
       }
     },
@@ -594,13 +608,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "当此牌离开竞技场时，对目标英雄造成1点奥术伤害。\n结界X，若此牌带有一个全息指示物，X为3。否则，X为1。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "当此牌离开竞技场时，对目标英雄造成1点奥术伤害。\n结界X，若此牌带有一个全息指示物，X为2。否则，X为1。"
         }
       }
     },
@@ -1585,13 +1601,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "当此牌离开竞技场时，创造一个幻质护盾衍生物，然后若你没有控制其他幻术师光环，在其上放置一个+1力量指示物。\n结界3"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "当此牌离开竞技场时，创造一个幻质护盾衍生物，然后若你没有控制其他幻术师光环，在其上放置一个+1力量指示物。\n结界2"
         }
       }
     },
@@ -1641,13 +1659,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "结界X，若本回合你资源过一张蓝色牌，X为3。否则，X为1。"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "结界X，若本回合你资源过一张蓝色牌，X为2。否则，X为1。"
         }
       }
     },
@@ -1935,13 +1955,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "结界X，若此牌带有一个全息指示物，X为3。否则，X为1。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "结界X，若此牌带有一个全息指示物，X为2。否则，X为1。"
         }
       }
     },
@@ -2525,13 +2547,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。若本回合你超越过，改为防止4点。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本回合接下来你将受到伤害时，防止其中3点伤害。若本回合你超越过，改为防止点。"
         }
       }
     },
@@ -2789,13 +2813,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张攻击行动牌除其原有职业类别外还视为幻术师，并获得+4力量和虚击。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张攻击行动牌除其原有职业类别外还视为幻术师，并获得+3力量和虚击。\n再动"
         }
       }
     },
@@ -2934,13 +2960,15 @@
           "pitch": "2",
           "cost": "3",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "创造2个幻质护盾衍生物。"
         },
         "3": {
           "pitch": "3",
           "cost": "3",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "创造1个幻质护盾衍生物。"
         }
       }
     },
@@ -3026,13 +3054,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "创造一个灰烬衍生物，然后将你控制的至多2个灰烬转化为以太灰翼。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "创造一个灰烬衍生物，然后将你控制的至多1个灰烬转化为以太灰翼。\n再动"
         }
       }
     },
@@ -3123,13 +3153,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标你控制的灰烬直到回合结束获得结界3。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标你控制的灰烬直到回合结束获得结界2。"
         }
       }
     },
@@ -3334,13 +3366,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "在你的回合开始时，若你控制另一个幻术师光环，摧毁此牌。\n结界3"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "在你的回合开始时，若你控制另一个幻术师光环，摧毁此牌。\n结界2"
         }
       }
     },
@@ -3368,13 +3402,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "当此牌进入竞技场时，若你没有控制其他幻术师光环，在此牌上放置二个+1力量指示物。\n结界2"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "当此牌进入竞技场时，若你没有控制其他幻术师光环，在此牌上放置一个+1力量指示物。\n结界2"
         }
       }
     },
@@ -3403,13 +3439,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "将你控制的目标灰烬转化为以太灰翼。它直到回合结束获得+2力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "将你控制的目标灰烬转化为以太灰翼。它直到回合结束获得+1力量。\n再动"
         }
       }
     },
@@ -3506,13 +3544,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "创造一个幻质护盾衍生物，然后若你没有控制其他幻术师光环，在其上放置二个+1力量指示物。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "创造一个幻质护盾衍生物，然后若你没有控制其他幻术师光环，在其上放置一个+1力量指示物。\n再动"
         }
       }
     },
@@ -3857,13 +3897,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "当宁静消逝进入竞技场时，你可以放逐对手控制的目标费用为2或更低的光环衍生物或光环永久物，直到宁静消逝离开竞技场。\n结界1"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "当宁静消逝进入竞技场时，你可以放逐对手控制的目标费用为1或更低的光环衍生物或光环永久物，直到宁静消逝离开竞技场。\n结界1"
         }
       }
     },
@@ -3891,13 +3933,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张攻击行动牌视为幻术师，具有7点基础力量，并获得虚击。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张攻击行动牌视为幻术师，具有6点基础力量，并获得虚击。\n再动"
         }
       }
     },
@@ -3947,13 +3991,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "再动\n本回合你使用的下一张攻击行动牌除其原有类别外还视为幻术师，并获得+3力量、虚击，以及“当此牌被摧毁时，抽一张牌。”"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "再动\n本回合你使用的下一张攻击行动牌除其原有类别外还视为幻术师，并获得+2力量、虚击，以及“当此牌被摧毁时，抽一张牌。”"
         }
       }
     },
@@ -3981,13 +4027,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "当此牌离开竞技场时，若你没有控制幻术师光环，本回合你可以将你的下一张费用为1或更低的光环当作瞬间使用。若如此做，它进入竞技场时带有一个+1力量指示物。\n结界1"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "当此牌离开竞技场时，若你没有控制幻术师光环，本回合你可以将你的下一张费用为0或更低的光环当作瞬间使用。若如此做，它进入竞技场时带有一个+1力量指示物。\n结界1"
         }
       }
     },
@@ -4035,13 +4083,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "当此牌离开竞技场时，若本回合你资源过一张蓝色牌，创造一个幻质护盾衍生物。\n结界2"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "当此牌离开竞技场时，若本回合你资源过一张蓝色牌，创造一个幻质护盾衍生物。\n结界1"
         }
       }
     },
@@ -4125,13 +4175,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "展示你牌库顶的一张牌。若其为黄色，创造一个幻质护盾衍生物。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "展示你牌库顶的一张牌。若其为蓝色，创造一个幻质护盾衍生物。\n再动"
         }
       }
     },
@@ -4179,13 +4231,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "若本回合你资源过一张蓝色牌，此牌进入竞技场时带有一个+1力量指示物。\n结界2"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "若本回合你资源过一张蓝色牌，此牌进入竞技场时带有一个+1力量指示物。\n结界1"
         }
       }
     },

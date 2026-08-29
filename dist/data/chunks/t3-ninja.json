@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "0341943ae284",
+  "version": "3ee13c182500",
   "cards": {
     "ancestral_empowerment": {
       "id": "ancestral_empowerment",
@@ -489,13 +489,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "在你的回合开始时，摧毁此牌，然后在你的放逐区中创造一张卧虎。它获得+2力量，且本回合你可以使用它。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "在你的回合开始时，摧毁此牌，然后在你的放逐区中创造一张卧虎。它获得+1力量，且本回合你可以使用它。"
         }
       }
     },
@@ -2585,13 +2587,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "在你的放逐区中创造2张卧虎。本回合你可以使用它们。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "在你的放逐区中创造1张卧虎。本回合你可以使用它们。\n再动"
         }
       }
     },
@@ -2671,13 +2675,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "目标费用为0的攻击行动牌获得+2力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "目标费用为0的攻击行动牌获得+1力量。"
         }
       }
     },
@@ -2851,13 +2857,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张龙裔或忍者攻击行动牌获得+2力量。\n你可以将你坟场中的一张凤凰烈焰移回你的手牌。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张龙裔或忍者攻击行动牌获得+1力量。\n你可以将你坟场中的一张凤凰烈焰移回你的手牌。\n再动"
         }
       }
     },
@@ -3179,13 +3187,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择其一；\n- 目标匕首攻击获得+2力量。\n- 目标基础力量为2或更低的攻击行动牌获得+2力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择其一；\n- 目标匕首攻击获得+1力量。\n- 目标基础力量为2或更低的攻击行动牌获得+1力量。"
         }
       }
     },
@@ -3690,13 +3700,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "本回合你使用的下一张卧虎获得+2力量。\n若本回合你资源过一张蓝色牌，在你的手牌中创造一张卧虎。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "本回合你使用的下一张卧虎获得+1力量。\n若本回合你资源过一张蓝色牌，在你的手牌中创造一张卧虎。\n再动"
         }
       }
     },
@@ -3950,13 +3962,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你可以从你的坟场中回收一把匕首。\n你本回合的下一次匕首攻击获得+3力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你可以从你的坟场中回收一把匕首。\n你本回合的下一次匕首攻击获得+2力量。\n再动"
         }
       }
     },
@@ -4158,13 +4172,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "本回合你使用的下一张卧虎获得+2力量。若本回合你超越过，改为它获得+4力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "本回合你使用的下一张卧虎获得+2力量。若本回合你超越过，改为它获得+4力量。\n再动"
         }
       }
     },

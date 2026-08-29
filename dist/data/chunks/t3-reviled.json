@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "0341943ae284",
+  "version": "3ee13c182500",
   "cards": {
     "arrogant_showboating": {
       "id": "arrogant_showboating",
@@ -47,13 +47,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "威吓目标英雄。\n本回合你控制的攻击下一次命中时，创造2个力量衍生物。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "威吓目标英雄。\n本回合你控制的攻击下一次命中时，创造1个力量衍生物。\n再动"
         }
       }
     },
@@ -552,13 +554,15 @@
           "pitch": "2",
           "cost": "0",
           "power": "1",
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "当此牌攻击英雄时，若你的生命高于该英雄，观众为你喝倒彩。\n若本回合你被喝倒彩过，此牌获得+3力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": "1",
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "当此牌攻击英雄时，若你的生命高于该英雄，观众为你喝倒彩。\n若本回合你被喝倒彩过，此牌获得+2力量。"
         }
       }
     },
@@ -822,13 +826,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得+3力量。\n观众为你喝倒彩。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得+2力量。\n观众为你喝倒彩。\n再动"
         }
       }
     }
