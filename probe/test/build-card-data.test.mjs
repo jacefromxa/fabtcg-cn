@@ -37,6 +37,29 @@ test('buildCardArtifacts groups pitch variants under one card id, chunked by bat
   assert.equal(card.variants['2'].power, 6);
 });
 
+test('buildCardArtifacts preserves display fields that differ by pitch', () => {
+  const result = buildCardArtifacts({
+    prism_bolt: {
+      name_zh: '棱彩闪电',
+      name_en: 'Prism Bolt',
+      type_zh: '幻术师行动·攻击',
+      text_zh: '红色效果',
+      pitch: 1,
+    },
+    prism_bolt__2: {
+      name_zh: '棱彩闪电',
+      name_en: 'Prism Bolt',
+      type_zh: '幻术师行动·攻击',
+      text_zh: '黄色效果',
+      pitch: 2,
+    },
+  }, { prism_bolt: 't1-generic' });
+
+  const card = result.chunks['chunks/t1-generic.json'].cards.prism_bolt;
+  assert.equal(card.text_zh, '红色效果');
+  assert.equal(card.variants['2'].text_zh, '黄色效果');
+});
+
 test('buildCardArtifacts falls back to a misc chunk when batch info is missing', () => {
   const result = buildCardArtifacts({ foo: { name_zh: 'X' } });
   assert.equal(result.index.cards.foo.chunk, 'chunks/_.json');

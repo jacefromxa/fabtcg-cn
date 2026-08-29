@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "95f79efbd501",
+  "version": "0341943ae284",
   "cards": {
     "adrenaline_rush": {
       "id": "adrenaline_rush",
@@ -3073,13 +3073,15 @@
           "pitch": "2",
           "cost": null,
           "power": null,
-          "defense": "1"
+          "defense": "1",
+          "type_zh": "通用 阻挡"
         },
         "3": {
           "pitch": "3",
           "cost": null,
           "power": null,
-          "defense": "1"
+          "defense": "1",
+          "type_zh": "通用 阻挡"
         }
       }
     },
@@ -5065,13 +5067,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张基础力量为3或更低的攻击行动牌获得+2力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合使用的下一张基础力量为3或更低的攻击行动牌获得+1力量。\n再动"
         }
       }
     },
@@ -8159,13 +8163,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "type_zh": "通用 瞬间"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "type_zh": "通用 瞬间"
         }
       }
     },
@@ -8251,13 +8257,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "type_zh": "通用 防御反应"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "type_zh": "通用 防御反应"
         }
       }
     },

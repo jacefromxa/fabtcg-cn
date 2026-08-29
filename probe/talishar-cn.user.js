@@ -3,7 +3,7 @@
 // @name:zh-CN     Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
 // @name:en        Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.33
+// @version        0.7.34
 // @description    在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
 // @description:zh-CN 在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
 // @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, Fablazing, Felt Table, TCGplayer, The Fab Cube, and Fabrec — card name, type, rules text, and keyword explanations.
@@ -131,6 +131,14 @@
     return [...new Set(values)];
   }
 
+  const PITCH_BY_COLOR = { red: '1', yellow: '2', blue: '3' };
+
+  function normalizePitch(value) {
+    if (value === null || value === undefined || value === '') return null;
+    const pitch = String(value);
+    return pitch === '1' || pitch === '2' || pitch === '3' ? pitch : null;
+  }
+
   function extractImageTokens(value) {
     if (typeof value !== 'string' || !value.trim()) return [];
 
@@ -158,6 +166,17 @@
     }
 
     return unique(tokens);
+  }
+
+  // Talishar card images append the pitch color before optional image markers,
+  // e.g. "ice_quake_yellow", "blaze_headlong_red_cropped", or
+  // "arcbane_grasp_blue_equip". Keep this separate from normalizeStem(),
+  // which intentionally removes the color to recover the base card slug.
+  function extractPitchFromStem(stem) {
+    const match = String(stem || '').match(
+      /(?:^|_)(red|yellow|blue)(?=(?:_(?:cropped|crop|equip))*$)/i,
+    );
+    return match ? PITCH_BY_COLOR[match[1].toLowerCase()] : null;
   }
 
   // Mirrors scripts/translate-helper.mjs slugifyCardName so card-name text (e.g.
@@ -511,10 +530,16 @@
   //   2. alt/title card-name text -> slug (secondary; resolves when the image
   //      has a variant or printing-id form the alias table cannot cover)
   //   3. image filename tokens (Talishar slug-style names), last resort
-  function resolveCardKeys(candidate, aliases) {
-    const keys = [];
-    const push = (key) => {
-      if (key && !keys.includes(key)) keys.push(key);
+  function resolveCardMatches(candidate, aliases, options) {
+    const matches = [];
+    const includeText = !options || options.includeText !== false;
+    const push = (slug, pitch) => {
+      const normalizedSlug = normalizeCandidate(slug);
+      const normalizedPitch = normalizePitch(pitch);
+      if (normalizedSlug && !matches.some((match) =>
+        match.slug === normalizedSlug && match.pitch === normalizedPitch)) {
+        matches.push({ slug: normalizedSlug, pitch: normalizedPitch });
+      }
     };
 
     const altSlug = candidate.textHints
@@ -526,7 +551,7 @@
     // data groups pitches below the base slug, so retain pitch in the
     // candidate while routing the lookup through that grouped key.
     for (const embeddedCard of candidate.embeddedCards || []) {
-      push(embeddedCard.slug);
+      push(embeddedCard.slug, embeddedCard.pitch);
     }
 
     // 1. Image-stem aliases. Ambiguous ids keep an array of candidates; the
@@ -536,18 +561,29 @@
     for (const url of candidate.imageUrls) {
       const stem = extractPrintingId(url);
       if (!stem) continue;
+      const imagePitch = extractPitchFromStem(stem);
       const normalized = normalizeStem(stem);
-      if (normalized && normalized !== stem) push(normalized);
+      if (normalized && normalized !== stem) push(normalized, imagePitch);
       if (!aliases) continue;
       const lookupKeys = [stem, normalized];
       for (const key of lookupKeys) {
         const alias = aliases[key];
         if (!alias) continue;
         const targets = Array.isArray(alias) ? alias : [alias];
-        const matched = altSlug
-          ? targets.filter((target) => target.slug === altSlug)
-          : targets;
-        for (const target of (matched.length ? matched : targets)) push(target.slug);
+        let matched = targets;
+        if (altSlug) {
+          const nameMatched = targets.filter((target) => target.slug === altSlug);
+          if (nameMatched.length) matched = nameMatched;
+        }
+        if (imagePitch !== null) {
+          const pitchMatched = matched.filter((target) =>
+            normalizePitch(target.pitch) === imagePitch,
+          );
+          if (pitchMatched.length) matched = pitchMatched;
+        }
+        for (const target of matched) {
+          push(target.slug, imagePitch !== null ? imagePitch : target.pitch);
+        }
       }
     }
 
@@ -556,18 +592,47 @@
     // index key; the parser retains pitch metadata for deterministic routing.
     for (const url of candidate.linkUrls || []) {
       const link = extractFablazingCardLink(url);
-      if (link) push(link.slug);
+      if (link) push(link.slug, link.pitch);
     }
 
     // 2. Card-name text (alt / title) as slug.
-    if (altSlug) push(altSlug);
+    if (includeText && altSlug) push(altSlug, null);
 
     // 3. Image filename tokens (Talishar slug-style names).
     for (const url of candidate.imageUrls) {
-      for (const token of extractImageTokens(url)) push(token);
+      const pitch = extractPitchFromStem(extractPrintingId(url));
+      for (const token of extractImageTokens(url)) push(token, pitch);
     }
 
-    return keys;
+    return matches;
+  }
+
+  // Keep the original string-only API for diagnostics and existing callers;
+  // the lookup path uses resolveCardMatches so it can retain pitch metadata.
+  function resolveCardKeys(candidate, aliases) {
+    return unique(resolveCardMatches(candidate, aliases).map((match) => match.slug));
+  }
+
+  // Published card records group all pitch versions under one card id. Merge
+  // the selected variant into a renderable record while falling back to the
+  // primary fields when a variant is an empty machine draft.
+  function selectCardVariant(card, pitch) {
+    if (!card || pitch === null || pitch === undefined || !card.variants) return card;
+    const variant = card.variants[String(pitch)];
+    if (!variant) return card;
+
+    const selected = Object.assign({}, card);
+    for (const field of ['pitch', 'cost', 'power', 'defense']) {
+      if (Object.prototype.hasOwnProperty.call(variant, field)) {
+        selected[field] = variant[field];
+      }
+    }
+    for (const field of ['name_zh', 'name_en', 'type_zh', 'type_en', 'text_zh', 'text_en']) {
+      if (variant[field] !== undefined && variant[field] !== null && variant[field] !== '') {
+        selected[field] = variant[field];
+      }
+    }
+    return selected;
   }
 
   function createCardDataLoader(browserRoot, baseUrl) {
@@ -747,16 +812,22 @@
       return keywordsPromise;
     }
 
-    async function findInIndex(keys) {
+    async function findInIndex(matches) {
       var loaded = await loadIndex();
       var index = loaded.index;
-      for (var i = 0; i < keys.length; i++) {
-        var key = keys[i];
-        var reference = index.cards && index.cards[key];
+      for (var i = 0; i < matches.length; i++) {
+        var match = matches[i];
+        var reference = index.cards && index.cards[match.slug];
         if (!reference) continue;
         var chunk = await loadChunk(reference.chunk);
         var card = chunk.cards && chunk.cards[reference.id];
-        if (card) return { key: reference.id, card: card };
+        if (card) {
+          return {
+            key: reference.id,
+            card: selectCardVariant(card, match.pitch),
+            pitch: match.pitch,
+          };
+        }
       }
       return null;
     }
@@ -771,11 +842,13 @@
           'data=', candidate.attributes);
       }
 
-      // Fast pass: image tokens + alt text (covers most Talishar cards).
-      var fastKeys = resolveCardKeys(candidate, null);
-      var match = await findInIndex(fastKeys);
+      // First resolve signals that identify the image/card component itself.
+      // This keeps a printing-id image from being shadowed by its generic alt
+      // card name before the alias table has supplied the pitch.
+      var fastMatches = resolveCardMatches(candidate, null, { includeText: false });
+      var match = await findInIndex(fastMatches);
       if (match) {
-        if (isDebugEnabled()) console.log('[Talishar CN][debug] fast keys:', fastKeys, '-> match:', match.key, match.card && match.card.name_zh);
+        if (isDebugEnabled()) console.log('[Talishar CN][debug] fast matches:', fastMatches, '-> match:', match.key, match.card && match.card.name_zh);
         return match;
       }
 
@@ -783,11 +856,17 @@
       // FaBrary printing ids and Talishar transliterated stems (special chars,
       // meld cards, ...) that the fast path cannot.
       var aliases = await loadAliases();
-      var aliasKeys = resolveCardKeys(candidate, aliases);
-      match = await findInIndex(aliasKeys);
+      var aliasMatches = resolveCardMatches(candidate, aliases, { includeText: false });
+      match = await findInIndex(aliasMatches);
       if (isDebugEnabled()) {
-        console.log('[Talishar CN][debug] alias keys:', aliasKeys, '-> match:', match ? match.key : null, match && match.card && match.card.name_zh);
+        console.log('[Talishar CN][debug] alias matches:', aliasMatches, '-> match:', match ? match.key : null, match && match.card && match.card.name_zh);
       }
+      if (match) return match;
+
+      // Last, use alt/title text as a fallback for sites or image variants
+      // whose image identifier is not present in the alias table.
+      var textMatches = resolveCardMatches(candidate, null);
+      match = await findInIndex(textMatches);
       return match;
     }
 
@@ -1054,13 +1133,20 @@
 
   function lookupCard(element, cardData) {
     const candidate = collectCandidates(element);
-    const keys = resolveCardKeys(candidate, null);
+    const matches = resolveCardMatches(candidate, null);
     const records = cardData || {};
-    for (var i = 0; i < keys.length; i++) {
-      var key = keys[i];
-      if (records[key]) return { key: key, card: records[key] };
+    for (var i = 0; i < matches.length; i++) {
+      var match = matches[i];
+      var key = match.slug;
+      if (records[key]) {
+        return { key: key, card: selectCardVariant(records[key], match.pitch), pitch: match.pitch };
+      }
 
       var variantPrefix = key + '__';
+      var exactVariantKey = match.pitch === null ? null : key + '__' + match.pitch;
+      if (exactVariantKey && records[exactVariantKey]) {
+        return { key: exactVariantKey, card: records[exactVariantKey], pitch: match.pitch };
+      }
       var variantKeys = Object.keys(records).filter(function (rk) { return rk.indexOf(variantPrefix) === 0; });
       if (variantKeys.length === 1) {
         var variantKey = variantKeys[0];
@@ -2122,7 +2208,10 @@
     isFabCardBackgroundUrl: isFabCardBackgroundUrl,
     normalizeStem: normalizeStem,
     slugifyCardName: slugifyCardName,
+    extractPitchFromStem: extractPitchFromStem,
+    resolveCardMatches: resolveCardMatches,
     resolveCardKeys: resolveCardKeys,
+    selectCardVariant: selectCardVariant,
     findCardAnchor: findCardAnchor,
     findCardPreviewImage: findCardPreviewImage,
     lookupCard: lookupCard,

@@ -140,3 +140,76 @@ test('remote loader falls back to the userscript request API when page fetch is 
   ]);
   assert.equal(cachePuts, 0, 'GM responses have no Fetch Response clone to cache');
 });
+
+test('remote loader resolves a printing-id pitch before falling back to alt text', async () => {
+  const responses = {
+    'https://data.example/manifest.json': {
+      schema_version: 1,
+      version: 'abc123',
+      index_file: 'index.json',
+    },
+    'https://data.example/index.json': {
+      schema_version: 1,
+      version: 'abc123',
+      cards: {
+        boulder_drop: { id: 'boulder_drop', chunk: 'chunks/t.json' },
+      },
+    },
+    'https://data.example/aliases.json': {
+      TCC039: { slug: 'boulder_drop', pitch: '2' },
+    },
+    'https://data.example/chunks/t.json': {
+      schema_version: 1,
+      version: 'abc123',
+      cards: {
+        boulder_drop: {
+          id: 'boulder_drop',
+          name_zh: '巨石坠击',
+          text_zh: '红色效果',
+          variants: {
+            '1': { pitch: '1', text_zh: '红色效果' },
+            '2': { pitch: '2', text_zh: '黄色效果', power: '6' },
+          },
+        },
+      },
+    },
+  };
+  const calls = [];
+  const root = {
+    fetch: async (url) => {
+      calls.push(url);
+      return {
+        ok: true,
+        async json() {
+          return responses[url];
+        },
+        clone() {
+          return this;
+        },
+      };
+    },
+    caches: {
+      async open() {
+        return {
+          async match() { return undefined; },
+          async put() {},
+        };
+      },
+    },
+  };
+  const loader = browserSandbox.FabCnProbe.createCardDataLoader(root, 'https://data.example');
+  const result = await loader.loadCardForElement({
+    tagName: 'IMG',
+    src: 'https://content.fabrary.net/cards/TCC039.webp',
+    alt: 'Boulder Drop',
+    attributes: [
+      { name: 'src', value: 'https://content.fabrary.net/cards/TCC039.webp' },
+      { name: 'alt', value: 'Boulder Drop' },
+    ],
+  });
+
+  assert.equal(result.pitch, '2');
+  assert.equal(result.card.text_zh, '黄色效果');
+  assert.equal(result.card.power, '6');
+  assert.ok(calls.includes('https://data.example/aliases.json'));
+});
