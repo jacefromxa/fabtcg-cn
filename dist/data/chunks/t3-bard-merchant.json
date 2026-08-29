@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "0341943ae284",
+  "version": "3ee13c182500",
   "cards": {
     "crowd_control": {
       "id": "crowd_control",
@@ -118,13 +118,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "选择一位英雄。本回合该英雄下一次将受到伤害时，防止其中2点伤害。若你以此方式防止另一位英雄的伤害，创造一个铜币衍生物。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "选择一位英雄。本回合该英雄下一次将受到伤害时，防止其中1点伤害。若你以此方式防止另一位英雄的伤害，创造一个铜币衍生物。"
         }
       }
     },

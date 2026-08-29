@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "0341943ae284",
+  "version": "3ee13c182500",
   "cards": {
     "a_good_clean_fight": {
       "id": "a_good_clean_fight",
@@ -392,13 +392,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得+2力量。\n观众为你欢呼。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次攻击获得+1力量。\n观众为你欢呼。\n再动"
         }
       }
     },

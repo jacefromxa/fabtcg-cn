@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "0341943ae284",
+  "version": "3ee13c182500",
   "cards": {
     "angry_bones": {
       "id": "angry_bones",
@@ -345,13 +345,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的第二次攻击获得+3力量。\n你可以将一个金币指示物放在宝藏之岛上。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的第三次攻击获得+3力量。\n你可以将一个金币指示物放在宝藏之岛上。\n再动"
         }
       }
     },
@@ -1784,13 +1786,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "将你坟场中的至多2张盟友牌翻为牌面朝下，然后创造等量的金币衍生物。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "将你坟场中的至多1张盟友牌翻为牌面朝下，然后创造等量的金币衍生物。\n再动"
         }
       }
     },

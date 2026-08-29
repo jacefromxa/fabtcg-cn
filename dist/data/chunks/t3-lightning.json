@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "0341943ae284",
+  "version": "3ee13c182500",
   "cards": {
     "amulet_of_lightning": {
       "id": "amulet_of_lightning",
@@ -249,13 +249,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "防止本回合接下来将对你造成的2点伤害。你第一次以此方式防止伤害时，创造一个闪电流转衍生物。"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "防止本回合接下来将对你造成的1点伤害。你第一次以此方式防止伤害时，创造一个闪电流转衍生物。"
         }
       }
     },
@@ -326,13 +328,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "在你的行动阶段开始时，摧毁此牌，然后本回合你使用的下一张黄色牌使用费用减少1点资源。本回合那张牌第一次将造成伤害时，改为它造成等量加1的伤害。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "在你的行动阶段开始时，摧毁此牌，然后本回合你使用的下一张蓝色牌使用费用减少1点资源。本回合那张牌第一次将造成伤害时，改为它造成等量加1的伤害。"
         }
       }
     },
@@ -358,13 +362,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本回合接下来你将受到伤害时，防止其中2点伤害。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本回合接下来你将受到伤害时，防止其中1点伤害。"
         }
       }
     },
@@ -454,13 +460,15 @@
           "pitch": "2",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合攻击行动牌下一次命中英雄时，对其造成2点伤害。\n若通电是从军械库使用的，抽一张牌。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合攻击行动牌下一次命中英雄时，对其造成1点伤害。\n若通电是从军械库使用的，抽一张牌。\n再动"
         }
       }
     },
@@ -540,13 +548,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本回合你使用的下一张费用为1或更低的攻击行动牌获得+2力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "本回合你使用的下一张费用为1或更低的攻击行动牌获得+1力量。"
         }
       }
     },
@@ -574,13 +584,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张费用为1或更高的行动牌获得再动。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张费用为2或更高的行动牌获得再动。\n再动"
         }
       }
     },
@@ -978,13 +990,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标费用为1或更低的攻击行动牌获得+2力量。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "目标费用为1或更低的攻击行动牌获得+1力量。"
         }
       }
     },
@@ -1086,13 +1100,15 @@
           "pitch": "2",
           "cost": "1",
           "power": "1",
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "若此链环中你使用过一张瞬间牌，此牌获得+2力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": "1",
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "若此链环中你使用过一张瞬间牌，此牌获得+1力量。\n再动"
         }
       }
     },
@@ -1325,7 +1341,8 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你本回合的下一次闪电或元素攻击获得+2力量。\n再动"
         }
       }
     },
@@ -1581,13 +1598,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "在你的行动阶段开始时，摧毁此牌，然后你本回合的下一次攻击获得再动。\n奥术屏障2"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "在你的行动阶段开始时，摧毁此牌，然后你本回合的下一次攻击获得再动。\n奥术屏障1"
         }
       }
     },
@@ -1667,13 +1686,15 @@
           "pitch": "2",
           "cost": "0",
           "power": "0",
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "若此链环中你使用过一张瞬间牌，此牌获得+2力量。\n当此牌命中时，创造一个闪电流转衍生物。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": "0",
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "若此链环中你使用过一张瞬间牌，此牌获得+1力量。\n当此牌命中时，创造一个闪电流转衍生物。\n再动"
         }
       }
     },
@@ -1743,13 +1764,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张闪电或元素攻击行动牌获得+2力量。若它已融合，它获得再动。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "本回合你使用的下一张闪电或元素攻击行动牌获得+1力量。若它已融合，它获得再动。\n再动"
         }
       }
     }

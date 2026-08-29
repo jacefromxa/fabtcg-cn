@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "0341943ae284",
+  "version": "3ee13c182500",
   "cards": {
     "beseech_the_demigon": {
       "id": "beseech_the_demigon",
@@ -26,13 +26,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择你放逐区中的一张攻击行动牌。它直到回合结束获得+2力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择你放逐区中的一张攻击行动牌。它直到回合结束获得+1力量。\n再动"
         }
       }
     },
@@ -123,13 +125,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "占卜2，然后放逐你牌库顶的一张牌。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": null
+          "defense": null,
+          "text_zh": "占卜1，然后放逐你牌库顶的一张牌。"
         }
       }
     },
@@ -423,13 +427,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "本回合你使用的下一张黄色行动牌获得再动。\n再动\n血债"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "本回合你使用的下一张蓝色行动牌获得再动。\n再动\n血债"
         }
       }
     },
@@ -531,13 +537,15 @@
           "pitch": "2",
           "cost": "3",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你可以从你的放逐区使用此牌。若如此做，它的使用费用减少2点资源。\n获得2点生命。\n血债"
         },
         "3": {
           "pitch": "3",
           "cost": "3",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你可以从你的放逐区使用此牌。若如此做，它的使用费用减少2点资源。\n获得1点生命。\n血债"
         }
       }
     },
@@ -588,13 +596,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你可以从你的放逐区使用来自彼方的嚎叫。\n本回合你使用的下一张攻击行动牌获得+2力量。\n再动\n血债"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你可以从你的放逐区使用来自彼方的嚎叫。\n本回合你使用的下一张攻击行动牌获得+1力量。\n再动\n血债"
         }
       }
     },
@@ -756,7 +766,7 @@
       "name_en": "Pull from Beyond",
       "type_zh": "暗影 行动",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "占卜2\n放逐你牌库顶的一张牌。若其为红色，创造一个通往伊阿拉塞尔之门衍生物。\n再动",
       "text_en": "Opt 2\nBanish the top card of your deck. If it's red, create a Gate to i'Arathael token. Go again",
       "source": "https://cards.fabtcg.com/card/pull_from_beyond/",
       "status": "machine-draft",
@@ -775,13 +785,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "占卜2\n放逐你牌库顶的一张牌。若其为黄色，创造一个通往伊阿拉塞尔之门衍生物。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "占卜2\n放逐你牌库顶的一张牌。若其为蓝色，创造一个通往伊阿拉塞尔之门衍生物。\n再动"
         }
       }
     },
@@ -1053,13 +1065,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择你放逐区中一张费用为1或更低的攻击行动牌。本回合你可以使用它。若它攻击光英雄，它获得+2力量。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择你放逐区中一张费用为0或更低的攻击行动牌。本回合你可以使用它。若它攻击光英雄，它获得+2力量。\n再动"
         }
       }
     },
@@ -1087,13 +1101,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择你放逐区中的一张黄色行动牌。它直到回合结束获得再动。\n再动"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "选择你放逐区中的一张蓝色行动牌。它直到回合结束获得再动。\n再动"
         }
       }
     },
@@ -1185,13 +1201,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "你可以从你的放逐区使用此牌。若如此做，它的使用费用减少2点资源。\n目标英雄放逐其牌库顶的一张牌。若其为黄色，该英雄失去1点生命。\n血债"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "你可以从你的放逐区使用此牌。若如此做，它的使用费用减少2点资源。\n目标英雄放逐其牌库顶的一张牌。若其为蓝色，该英雄失去1点生命。\n血债"
         }
       }
     },

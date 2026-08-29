@@ -3,7 +3,7 @@
 // @name:zh-CN     Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
 // @name:en        Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.34
+// @version        0.7.35
 // @description    在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
 // @description:zh-CN 在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
 // @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, Fablazing, Felt Table, TCGplayer, The Fab Cube, and Fabrec — card name, type, rules text, and keyword explanations.
@@ -1063,7 +1063,9 @@
     clearPanel(panel);
     const name = doc.createElement('div');
     name.className = 'fab-cn-card-name';
-    name.textContent = card.name_zh || card.name_en || '';
+    const pitchEmoji = { '1': '🔴', '2': '🟡', '3': '🔵' }[String(card.pitch || '')] || '';
+    const displayName = card.name_zh || card.name_en || '';
+    name.textContent = pitchEmoji ? pitchEmoji + ' ' + displayName : displayName;
     name.style.color = 'var(--fab-cn-name-color)';
     name.style.fontSize = 'var(--fab-cn-name-size)';
     name.style.fontWeight = '700';
