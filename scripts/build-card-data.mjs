@@ -13,13 +13,23 @@ function cardIdFromKey(key) {
   return String(key).replace(/__(1|2|3)$/, '');
 }
 
-function normalizeVariant(card) {
-  return {
+function normalizeVariant(card, primary) {
+  const variant = {
     pitch: nullable(card.pitch),
     cost: nullable(card.cost),
     power: nullable(card.power),
     defense: nullable(card.defense),
   };
+
+  // Most pitch versions share their display text. Keep only non-empty fields
+  // that differ from the primary version so the published record remains
+  // compact while still allowing the runtime to render pitch-specific text.
+  for (const field of ['name_zh', 'type_zh', 'text_zh']) {
+    if (card[field] && card[field] !== primary[field]) {
+      variant[field] = card[field];
+    }
+  }
+  return variant;
 }
 
 function normalizeCard(cardId, entries) {
@@ -34,7 +44,7 @@ function normalizeCard(cardId, entries) {
     const variantKey = entry.pitch === null || entry.pitch === undefined
       ? 'default'
       : String(entry.pitch);
-    variants[variantKey] = normalizeVariant(entry);
+    variants[variantKey] = normalizeVariant(entry, first);
   }
 
   return {

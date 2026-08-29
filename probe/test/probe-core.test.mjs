@@ -391,6 +391,81 @@ test('lookupCard falls back to the only available pitch variant', () => {
   assert.equal(result.card.name_zh, '秋之触');
 });
 
+test('lookupCard selects every matching grouped pitch variant from color images', () => {
+  const cardData = {
+    ice_quake: {
+      id: 'ice_quake',
+      name_zh: '冰震',
+      text_zh: '红色效果',
+      variants: {
+        '1': { pitch: '1', text_zh: '红色效果' },
+        '2': { pitch: '2', text_zh: '黄色效果' },
+        '3': { pitch: '3', text_zh: '蓝色效果' },
+      },
+    },
+  };
+
+  for (const [color, pitch, text] of [
+    ['red', '1', '红色效果'],
+    ['yellow', '2', '黄色效果'],
+    ['blue', '3', '蓝色效果'],
+  ]) {
+    const cardImage = {
+      tagName: 'IMG',
+      src: `https://images.talishar.net/public/cardsquares/english/ice_quake_${color}.webp`,
+      attributes: [{
+        name: 'src',
+        value: `https://images.talishar.net/public/cardsquares/english/ice_quake_${color}.webp`,
+      }],
+    };
+    const result = lookupCard(cardImage, cardData);
+
+    assert.equal(result.key, 'ice_quake');
+    assert.equal(result.card.text_zh, text);
+    assert.equal(result.card.variants[pitch].pitch, pitch);
+  }
+});
+
+test('lookupCard applies pitch hints from Fablazing and TCGplayer card links', () => {
+  const cardData = {
+    up_the_ante: {
+      name_zh: '加注',
+      text_zh: '红色效果',
+      variants: {
+        '1': { pitch: '1', text_zh: '红色效果' },
+        '2': { pitch: '2', text_zh: '黄色效果' },
+        '3': { pitch: '3', text_zh: '蓝色效果' },
+      },
+    },
+    scar_for_a_scar: {
+      name_zh: '以疤还疤',
+      text_zh: '红色效果',
+      variants: {
+        '1': { pitch: '1', text_zh: '红色效果' },
+        '2': { pitch: '2', text_zh: '黄色效果' },
+        '3': { pitch: '3', text_zh: '蓝色效果' },
+      },
+    },
+  };
+  const fablazingLink = {
+    tagName: 'A',
+    href: 'https://fablazing.com/card/up-the-ante-blue',
+    attributes: [{ name: 'href', value: '/card/up-the-ante-blue' }],
+  };
+  const tcgplayerEmbed = {
+    tagName: 'SPAN',
+    className: 'card-hover-link',
+    name: 'Scar for a Scar (Yellow)',
+    attributes: [
+      { name: 'data-embed', value: 'card-hover' },
+      { name: 'name', value: 'Scar for a Scar (Yellow)' },
+    ],
+  };
+
+  assert.equal(lookupCard(fablazingLink, cardData).card.text_zh, '蓝色效果');
+  assert.equal(lookupCard(tcgplayerEmbed, cardData).card.text_zh, '黄色效果');
+});
+
 test('calculatePanelPosition prefers the side with enough space', () => {
   const result = calculatePanelPosition(
     { left: 400, right: 500, top: 300, bottom: 400, width: 100, height: 100 },

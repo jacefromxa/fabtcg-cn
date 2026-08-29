@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "95f79efbd501",
+  "version": "0341943ae284",
   "cards": {
     "act_of_glory": {
       "id": "act_of_glory",
@@ -523,13 +523,15 @@
           "pitch": "2",
           "cost": "3",
           "power": "6",
-          "defense": "3"
+          "defense": "3",
+          "type_zh": "守护者 行动·攻击"
         },
         "3": {
           "pitch": "3",
           "cost": "3",
           "power": "5",
-          "defense": "3"
+          "defense": "3",
+          "type_zh": "守护者 行动·攻击"
         }
       }
     },
@@ -3863,13 +3865,15 @@
           "pitch": "2",
           "cost": "2",
           "power": null,
-          "defense": "6"
+          "defense": "6",
+          "type_zh": "守护者 防御反应"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
-          "defense": "5"
+          "defense": "5",
+          "type_zh": "守护者 防御反应"
         }
       }
     },

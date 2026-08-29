@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "95f79efbd501",
+  "version": "0341943ae284",
   "cards": {
     "aggressive_pounce": {
       "id": "aggressive_pounce",
@@ -3206,7 +3206,8 @@
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "3"
+          "defense": "3",
+          "text_zh": "捶胸\n若本回合你捶胸过，威吓。\n你本回合的下一次蛮将攻击获得“若本回合你威吓过两次或更多，此牌获得+2力量。”\n再动"
         }
       }
     },

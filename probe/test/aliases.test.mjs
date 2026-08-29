@@ -55,6 +55,7 @@ const {
   extractFablazingCardLink,
   extractTcgplayerCardEmbed,
   collectCandidates,
+  resolveCardMatches,
 } = browserSandbox.FabCnProbe;
 
 function fakeElement(src, alt, title) {
@@ -107,6 +108,17 @@ test('resolveCardKeys strips the pitch color suffix into a direct base key', () 
     null,
   );
   assert.ok(keys.includes('ice_quake'), JSON.stringify(keys));
+});
+
+test('resolveCardMatches keeps the pitch from a Talishar color suffix', () => {
+  const matches = resolveCardMatches(
+    collectCandidates(fakeElement(
+      'https://images.talishar.net/public/cardsquares/english/ice_quake_yellow.webp',
+      null,
+    )),
+    null,
+  );
+  assert.deepEqual({ ...matches[0] }, { slug: 'ice_quake', pitch: '2' });
 });
 
 test('resolveCardKeys resolves Fabrec cardface printing ids and variant suffixes', () => {
@@ -173,6 +185,16 @@ test('resolveCardKeys resolves a Fablazing card link to its grouped slug', () =>
   const candidate = collectCandidates(anchor);
   assert.deepEqual(Array.from(candidate.linkUrls), ['https://fablazing.com/card/up-the-ante-blue']);
   assert.ok(resolveCardKeys(candidate, null).includes('up_the_ante'));
+});
+
+test('resolveCardMatches keeps the pitch from a Fablazing card link', () => {
+  const anchor = {
+    tagName: 'A',
+    href: 'https://fablazing.com/card/up-the-ante-blue',
+    attributes: [{ name: 'href', value: '/card/up-the-ante-blue' }],
+  };
+  const matches = resolveCardMatches(collectCandidates(anchor), null);
+  assert.deepEqual({ ...matches[0] }, { slug: 'up_the_ante', pitch: '3' });
 });
 
 test('collectCandidates ignores ordinary Fablazing links', () => {
@@ -343,6 +365,14 @@ test('resolveCardKeys disambiguates a shared printing id with the alt text', () 
   assert.ok(keys.includes('construct_bank_breaker'), JSON.stringify(keys));
   assert.ok(!keys.includes('bank_breaker'),
     'alt-matched candidate should be the only one kept');
+});
+
+test('resolveCardMatches keeps the pitch from a printing-id alias', () => {
+  const matches = resolveCardMatches(
+    collectCandidates(fakeElement('https://content.fabrary.net/cards/TCC039.webp', null)),
+    FABRARY_ALIASES,
+  );
+  assert.deepEqual({ ...matches[0] }, { slug: 'boulder_drop', pitch: '2' });
 });
 
 test('resolveCardKeys keeps every candidate when the alt text is ambiguous', () => {

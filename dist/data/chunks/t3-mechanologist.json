@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "95f79efbd501",
+  "version": "0341943ae284",
   "cards": {
     "absorption_dome": {
       "id": "absorption_dome",
@@ -1942,7 +1942,8 @@
           "pitch": null,
           "cost": null,
           "power": null,
-          "defense": null
+          "defense": null,
+          "type_zh": "机械师 衍生物·物品"
         }
       }
     },
