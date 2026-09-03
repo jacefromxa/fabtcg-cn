@@ -200,10 +200,10 @@ test('remote loader resolves a printing-id pitch before falling back to alt text
   const loader = browserSandbox.FabCnProbe.createCardDataLoader(root, 'https://data.example');
   const result = await loader.loadCardForElement({
     tagName: 'IMG',
-    src: 'https://content.fabrary.net/cards/TCC039.webp',
+    src: 'https://content.fabrary.net/cards/tcc039.webp',
     alt: 'Boulder Drop',
     attributes: [
-      { name: 'src', value: 'https://content.fabrary.net/cards/TCC039.webp' },
+      { name: 'src', value: 'https://content.fabrary.net/cards/tcc039.webp' },
       { name: 'alt', value: 'Boulder Drop' },
     ],
   });
@@ -211,5 +211,7 @@ test('remote loader resolves a printing-id pitch before falling back to alt text
   assert.equal(result.pitch, '2');
   assert.equal(result.card.text_zh, '黄色效果');
   assert.equal(result.card.power, '6');
+  assert.equal(result.resolution.stage, 'alias');
+  assert.equal(result.resolution.aliasStatus, 'loaded');
   assert.ok(calls.includes('https://data.example/aliases.json'));
 });

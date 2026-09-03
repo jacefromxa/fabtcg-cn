@@ -23,6 +23,7 @@ const {
   installProbe,
   shouldInstallProbe,
   resolveCardKeys,
+  resolveCardMatches,
   resolveDataBaseUrl,
   SETTINGS_DEFAULTS,
   loadSettings,
@@ -480,6 +481,39 @@ test('lookupCard applies pitch hints from Fablazing and TCGplayer card links', (
 
   assert.equal(lookupCard(fablazingLink, cardData).card.text_zh, '蓝色效果');
   assert.equal(lookupCard(tcgplayerEmbed, cardData).card.text_zh, '黄色效果');
+});
+
+test('resolveCardMatches resolves FaBrary printing ids case-insensitively', () => {
+  const image = {
+    tagName: 'IMG',
+    src: 'https://content.fabrary.net/cards/mon070.webp',
+    alt: 'Glisten',
+    attributes: [
+      { name: 'src', value: 'https://content.fabrary.net/cards/mon070.webp' },
+      { name: 'alt', value: 'Glisten' },
+    ],
+  };
+
+  const matches = resolveCardMatches(collectCandidates(image), {
+    MON070: { slug: 'glisten', pitch: '2' },
+  }, { includeText: false });
+  assert.equal(matches[0].slug, 'glisten');
+  assert.equal(matches[0].pitch, '2');
+
+  const blade = {
+    tagName: 'IMG',
+    src: 'https://content.fabrary.net/cards/1hp150.webp',
+    alt: 'Twinning Blade',
+    attributes: [
+      { name: 'src', value: 'https://content.fabrary.net/cards/1hp150.webp' },
+      { name: 'alt', value: 'Twinning Blade' },
+    ],
+  };
+  const bladeMatches = resolveCardMatches(collectCandidates(blade), {
+    '1HP150': { slug: 'twinning_blade', pitch: '2' },
+  }, { includeText: false });
+  assert.equal(bladeMatches[0].slug, 'twinning_blade');
+  assert.equal(bladeMatches[0].pitch, '2');
 });
 
 test('calculatePanelPosition prefers the side with enough space', () => {

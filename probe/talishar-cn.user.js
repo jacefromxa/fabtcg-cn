@@ -3,7 +3,7 @@
 // @name:zh-CN     Talishar / FaBrary / Fyendal / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
 // @name:en        Talishar / FaBrary / Fyendal / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.37
+// @version        0.7.38
 // @description    在 Talishar / FaBrary / Fyendal / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
 // @description:zh-CN 在 Talishar / FaBrary / Fyendal / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
 // @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, Fyendal, Fablazing, Felt Table, TCGplayer, The Fab Cube, and Fabrec — card name, type, rules text, and keyword explanations.
@@ -232,6 +232,22 @@
     const filename = parsed && parsed.pathname.split('/').filter(Boolean).pop();
     const stem = filename ? filename.replace(/\.[^.]+$/, '') : '';
     return stem || null;
+  }
+
+  // FaBrary/Fyendal may serve the same printing image with a lower-cased
+  // filename, while aliases.json uses the canonical upper-case printing id
+  // (for example MON070). Keep the exact lookup first, then use a folded
+  // lookup so CDN URL casing cannot discard the pitch metadata.
+  function lookupPrintingAlias(aliases, key) {
+    if (!aliases || !key) return null;
+    const rawKey = String(key);
+    const lookupKeys = unique([rawKey, rawKey.toUpperCase(), rawKey.toLowerCase()]);
+    for (const lookupKey of lookupKeys) {
+      if (Object.prototype.hasOwnProperty.call(aliases, lookupKey)) {
+        return aliases[lookupKey];
+      }
+    }
+    return null;
   }
 
   function attributeEntries(element) {
@@ -569,7 +585,7 @@
       if (!aliases) continue;
       const lookupKeys = [stem, normalized];
       for (const key of lookupKeys) {
-        const alias = aliases[key];
+        const alias = lookupPrintingAlias(aliases, key);
         if (!alias) continue;
         const targets = Array.isArray(alias) ? alias : [alias];
         let matched = targets;
@@ -642,6 +658,7 @@
     const isLocal = isLocalDataUrl(normalizedBaseUrl);
     const chunkPromises = new Map();
     let aliasesPromise = null;
+    let aliasLoadStatus = 'not-requested';
     let keywordsPromise = null;
     let loaderState = null;       // { cacheName, cache, manifest }
     let loaderInitPromise = null;
@@ -800,7 +817,19 @@
     // fast token/text path fails), then cached like any other data file.
     function loadAliases() {
       if (!aliasesPromise) {
-        aliasesPromise = getJson('aliases.json').catch(function () { return null; });
+        aliasLoadStatus = 'loading';
+        aliasesPromise = getJson('aliases.json')
+          .then(function (aliases) {
+            aliasLoadStatus = aliases ? 'loaded' : 'empty';
+            return aliases;
+          })
+          .catch(function (error) {
+            aliasLoadStatus = 'failed';
+            if (isDebugEnabled() && typeof console !== 'undefined' && console.warn) {
+              console.warn('[Talishar CN][debug] aliases.json:', error);
+            }
+            return null;
+          });
       }
       return aliasesPromise;
     }
@@ -814,7 +843,7 @@
       return keywordsPromise;
     }
 
-    async function findInIndex(matches) {
+    async function findInIndex(matches, stage) {
       var loaded = await loadIndex();
       var index = loaded.index;
       for (var i = 0; i < matches.length; i++) {
@@ -828,6 +857,16 @@
             key: reference.id,
             card: selectCardVariant(card, match.pitch),
             pitch: match.pitch,
+            resolution: {
+              stage: stage || 'unknown',
+              matches: matches.map(function (candidateMatch) {
+                return {
+                  slug: candidateMatch.slug,
+                  pitch: candidateMatch.pitch,
+                };
+              }),
+              aliasStatus: aliasLoadStatus,
+            },
           };
         }
       }
@@ -848,7 +887,7 @@
       // This keeps a printing-id image from being shadowed by its generic alt
       // card name before the alias table has supplied the pitch.
       var fastMatches = resolveCardMatches(candidate, null, { includeText: false });
-      var match = await findInIndex(fastMatches);
+      var match = await findInIndex(fastMatches, 'fast');
       if (match) {
         if (isDebugEnabled()) console.log('[Talishar CN][debug] fast matches:', fastMatches, '-> match:', match.key, match.card && match.card.name_zh);
         return match;
@@ -859,7 +898,7 @@
       // meld cards, ...) that the fast path cannot.
       var aliases = await loadAliases();
       var aliasMatches = resolveCardMatches(candidate, aliases, { includeText: false });
-      match = await findInIndex(aliasMatches);
+      match = await findInIndex(aliasMatches, 'alias');
       if (isDebugEnabled()) {
         console.log('[Talishar CN][debug] alias matches:', aliasMatches, '-> match:', match ? match.key : null, match && match.card && match.card.name_zh);
       }
@@ -868,7 +907,7 @@
       // Last, use alt/title text as a fallback for sites or image variants
       // whose image identifier is not present in the alias table.
       var textMatches = resolveCardMatches(candidate, null);
-      match = await findInIndex(textMatches);
+      match = await findInIndex(textMatches, 'text');
       return match;
     }
 
@@ -1276,8 +1315,9 @@
     // when debug mode is on (menu item 调试模式).
     var debugState = {
       anchorUrls: [], anchorHints: [], anchorKey: null,
+      anchorPitch: null, anchorStage: '', anchorMatches: [], anchorAliasStatus: '',
       anchorTag: '', anchorClass: '', anchorData: {},
-      previewUrl: null, previewKey: null,
+      previewUrl: null, previewKey: null, previewPitch: null,
       previewStatus: 'searching', // 'searching' | 'none' | 'found'
     };
     var keywordsData = null;
@@ -1466,7 +1506,11 @@
       }
       var apply = function (match) {
         if (serial !== hoverSerial) return; // a new hover started meanwhile
-        if (isDebugEnabled()) debugState.previewKey = match ? match.key : null;
+        if (isDebugEnabled()) {
+          debugState.previewKey = match ? match.key : null;
+          debugState.previewPitch = match ? match.pitch : null;
+          renderDebugPanel();
+        }
         if (!match || !currentAnchor) return;
         if (currentCardKey && match.key === currentCardKey) return; // same card — keep it
         presentCard(currentAnchor, match.card, match.key);
@@ -1506,9 +1550,14 @@
         'data: ' + (dataKeys.length
           ? dataKeys.map(function (k) { return k + '=' + debugState.anchorData[k].join(','); }).join('; ')
           : '(无)'),
+        '解析: ' + (debugState.anchorStage || '(无)') +
+          ' / pitch=' + (debugState.anchorPitch || '(无)') +
+          ' / alias=' + (debugState.anchorAliasStatus || '(未请求)'),
+        '候选: ' + (debugState.anchorMatches.join(', ') || '(无)'),
         '命中: ' + (debugState.anchorKey || '(无)'),
         '预览: ' + (debugState.previewStatus === 'found'
-          ? (debugState.previewUrl || '(有图)') + ' → ' + (debugState.previewKey || '(未解析)')
+          ? (debugState.previewUrl || '(有图)') + ' → ' + (debugState.previewKey || '(未解析)') +
+            (debugState.previewPitch ? ' / pitch=' + debugState.previewPitch : '')
           : debugState.previewStatus),
       ].join('\n');
     }
@@ -2125,8 +2174,13 @@
         debugState.anchorClass = String(anchor && anchor.className || '');
         debugState.anchorData = hoverCand.attributes;
         debugState.anchorKey = null;
+        debugState.anchorPitch = null;
+        debugState.anchorStage = '';
+        debugState.anchorMatches = [];
+        debugState.anchorAliasStatus = '';
         debugState.previewUrl = null;
         debugState.previewKey = null;
+        debugState.previewPitch = null;
         debugState.previewStatus = 'searching';
       }
       if (cardData) {
@@ -2147,7 +2201,18 @@
       remoteLoader.loadCardForElement(anchor)
         .then(function (match) {
           if (serial !== hoverSerial) return;
-          if (isDebugEnabled()) debugState.anchorKey = match ? match.key : null;
+          if (isDebugEnabled()) {
+            var resolution = match && match.resolution;
+            debugState.anchorKey = match ? match.key : null;
+            debugState.anchorPitch = match ? match.pitch : null;
+            debugState.anchorStage = resolution ? resolution.stage : 'not-found';
+            debugState.anchorAliasStatus = resolution ? resolution.aliasStatus : '';
+            debugState.anchorMatches = resolution
+              ? resolution.matches.map(function (candidateMatch) {
+                return candidateMatch.slug + (candidateMatch.pitch ? '[' + candidateMatch.pitch + ']' : '');
+              })
+              : [];
+          }
           if (match) showCard(anchor, match.card, match.key);
           else hidePanel();
         })
