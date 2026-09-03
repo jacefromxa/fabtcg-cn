@@ -40,6 +40,10 @@ test('userscript entry does not depend on globalThis', () => {
   assert.doesNotMatch(source, /\bglobalThis\b/);
 });
 
+test('userscript matches Fyendal pages', () => {
+  assert.match(source, /^\/\/ @match\s+https:\/\/fyendal\.net\/\*$/m);
+});
+
 test('userscript matches Fablazing pages', () => {
   assert.match(source, /^\/\/ @match\s+https:\/\/fablazing\.com\/\*$/m);
 });

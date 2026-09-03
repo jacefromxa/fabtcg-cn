@@ -1,6 +1,6 @@
 # talishar-cn — Flesh and Blood 简体中文卡牌浮窗
 
-为 [Talishar](https://talishar.net/) 与 [FaBrary](https://fabrary.net/) 提供 Flesh and Blood
+为 [Talishar](https://talishar.net/)、[FaBrary](https://fabrary.net/) 与 [Fyendal](https://fyendal.net/) 提供 Flesh and Blood
 卡牌悬停中文翻译：鼠标悬停卡牌即显示中文卡名、类别与规则正文，并附异能关键词释义。
 
 ## 安装

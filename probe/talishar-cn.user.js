@@ -1,16 +1,17 @@
 // ==UserScript==
-// @name           Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
-// @name:zh-CN     Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
-// @name:en        Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec Simplified Chinese Card Tooltip
+// @name           Talishar / FaBrary / Fyendal / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
+// @name:zh-CN     Talishar / FaBrary / Fyendal / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 简体中文卡牌浮窗
+// @name:en        Talishar / FaBrary / Fyendal / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec Simplified Chinese Card Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.35
-// @description    在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
-// @description:zh-CN 在 Talishar / FaBrary / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
-// @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, Fablazing, Felt Table, TCGplayer, The Fab Cube, and Fabrec — card name, type, rules text, and keyword explanations.
+// @version        0.7.36
+// @description    在 Talishar / FaBrary / Fyendal / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
+// @description:zh-CN 在 Talishar / FaBrary / Fyendal / Fablazing / Felt Table / TCGplayer / The Fab Cube / Fabrec 悬停卡牌时显示简体中文卡牌信息
+// @description:en Show Simplified Chinese card info on hover for Talishar, FaBrary, Fyendal, Fablazing, Felt Table, TCGplayer, The Fab Cube, and Fabrec — card name, type, rules text, and keyword explanations.
 // @author         jacefromxa
 // @license        GPL-3.0
 // @match          https://talishar.net/*
 // @match          https://fabrary.net/*
+// @match          https://fyendal.net/*
 // @match          https://fablazing.com/*
 // @match          https://felttable.com/*
 // @match          https://learntoplay.felttable.com/*

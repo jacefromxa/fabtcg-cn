@@ -1,11 +1,12 @@
-# Talishar / FaBrary 等站点简体中文卡牌浮窗
+# Talishar / FaBrary / Fyendal 等站点简体中文卡牌浮窗
 
-这是 Talishar / FaBrary 等站点的简体中文卡牌浮窗项目。用户脚本只负责识别悬停的卡牌、加载需要的数据并显示浮窗；中文卡库独立构建、分片和缓存，适合扩充到完整卡池。浮窗会跟随原生卡图，自动选择卡图左侧或右侧的可用空间。
+这是 Talishar / FaBrary / Fyendal 等站点的简体中文卡牌浮窗项目。用户脚本只负责识别悬停的卡牌、加载需要的数据并显示浮窗；中文卡库独立构建、分片和缓存，适合扩充到完整卡池。浮窗会跟随原生卡图，自动选择卡图左侧或右侧的可用空间。
 
 **支持的站点：**
 
 - **Talishar**（对战页）：按卡图文件名 slug 匹配（如 `titans_fist.webp`）。
 - **FaBrary**（牌表/卡牌站）：按卡图 `src` 里的印刷 ID（如 `PEN313.webp`）经 `dist/data/aliases.json` 别名表解析到 slug，并用 `alt` 卡名交叉消解歧义；`alt` 文本本身也可直接兜底匹配。
+- **Fyendal**（对战页）：按与 FaBrary 相同的 `content.fabrary.net/cards/<印刷ID>.webp` 卡图和 `alt` 卡名识别，复用 FaBrary 印刷 ID 别名解析。
 - **Fablazing**（英雄分析页）：支持卡牌统计表中的卡名链接，并按链接中的 pitch 颜色选择对应版本。
 - **Felt Table**（对战页 / 学习教程页）：支持卡图、CSS 背景卡图及可交互卡牌覆盖层；同架构的 `learntoplay.felttable.com/fab/learn` 学习教程页一并支持。
 - **TCGplayer**（FAB 内容页）：支持正文卡图、牌组清单组件和原生卡牌链接悬停。
