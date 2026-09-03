@@ -23,6 +23,7 @@ const {
   installProbe,
   shouldInstallProbe,
   resolveCardKeys,
+  resolveDataBaseUrl,
   SETTINGS_DEFAULTS,
   loadSettings,
 } = probe;
@@ -42,6 +43,17 @@ test('userscript entry does not depend on globalThis', () => {
 
 test('userscript matches Fyendal pages', () => {
   assert.match(source, /^\/\/ @match\s+https:\/\/fyendal\.net\/\*$/m);
+});
+
+test('production card data uses the CORS-capable CDN mirror', () => {
+  assert.equal(
+    resolveDataBaseUrl(),
+    'https://cdn.jsdelivr.net/gh/jacefromxa/talishar-cn@main/dist/data',
+  );
+});
+
+test('userscript grants the CDN mirror cross-origin access', () => {
+  assert.match(source, /^\/\/ @connect\s+cdn\.jsdelivr\.net$/m);
 });
 
 test('userscript matches Fablazing pages', () => {

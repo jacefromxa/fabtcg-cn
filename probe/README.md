@@ -104,7 +104,7 @@ node /Users/Zhuanz/CCDeep/talishar-cn/scripts/import-fab-cards.mjs
 用户脚本默认从以下地址读取静态卡库：
 
 ```text
-https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/dist/data
+https://cdn.jsdelivr.net/gh/jacefromxa/talishar-cn@main/dist/data
 ```
 
 `dist/data/` 随源码仓库提交推送即完成发布，无需独立数据仓库。发布后，用户只需安装 `talishar-cn.user.js`，不需要把卡牌 JSON 手工复制进用户脚本。
