@@ -29,7 +29,7 @@
     "name_en": "Bellona, Archangel of War",
     "name_zh": "战争大天使·贝洛娜",
     "type_zh": "光·Angel Ally",
-    "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen Bellona attacks, you may banish a card from your hero's soul. If you do, put a +1{p} counter on each Angel you control.\nWard 4",
+    "text_en": "Once per Turn Action - {r}{r}: Attack\nWhen Bellona attacks, you may banish a card from your hero's soul. If you do, put a +1{p} counter on each angel you control.\nWard 4",
     "text_zh": "每回合一次行动——支付2点资源：攻击\n当贝洛娜攻击时，你可以放逐你的英雄的灵魂中的一张牌。若如此做，在你控制的每个天使上放置一个+1力量指示物。\n结界4",
     "pitch": null,
     "cost": null,
@@ -895,6 +895,32 @@
     "power": "",
     "defense": "",
     "source": "https://cards.fabtcg.com/card/tome_of_divinity/",
+    "status": "machine-draft"
+  },
+  "blessing_of_suraya__2": {
+    "name_en": "Blessing of Suraya",
+    "name_zh": "苏拉雅的祝福",
+    "type_zh": "光 行动·光环",
+    "text_en": "Go again\nWhenever a card is put into your soul, create a Ponder token. At the start of your turn, put this into your soul.",
+    "text_zh": "再动\n每当一张牌被置入你的灵魂时，创造一个沉思衍生物。在你的回合开始时，将此牌置入你的灵魂。",
+    "pitch": "2",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/blessing_of_suraya/",
+    "status": "machine-draft"
+  },
+  "chains_of_consecration__2": {
+    "name_en": "Chains of Consecration",
+    "name_zh": "圣化锁链",
+    "type_zh": "光 瞬间",
+    "text_en": "Prevent all damage target ally would deal this turn. If damage is prevented from a Shadow ally this way, banish it face-down.",
+    "text_zh": "防止目标盟友本回合将造成的所有伤害。若以此方式防止了来自一个暗影盟友的伤害，将该盟友牌面朝下放逐。",
+    "pitch": "2",
+    "cost": "0",
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/chains_of_consecration/",
     "status": "machine-draft"
   }
 }

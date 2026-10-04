@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "10_000_year_reunion": {
       "id": "10_000_year_reunion",
@@ -30,9 +30,25 @@
       "id": "absorption_dome",
       "chunk": "chunks/t3-mechanologist.json"
     },
+    "abyssal_bite": {
+      "id": "abyssal_bite",
+      "chunk": "chunks/t3-shadow.json"
+    },
+    "abyssal_force": {
+      "id": "abyssal_force",
+      "chunk": "chunks/t3-shadow.json"
+    },
+    "abyssal_rush": {
+      "id": "abyssal_rush",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "achilles_accelerator": {
       "id": "achilles_accelerator",
       "chunk": "chunks/t2-equipment.json"
+    },
+    "acrid_stench": {
+      "id": "acrid_stench",
+      "chunk": "chunks/t3-pirate.json"
     },
     "act_of_glory": {
       "id": "act_of_glory",
@@ -254,6 +270,10 @@
       "id": "ancestral_harmony",
       "chunk": "chunks/t3-ninja.json"
     },
+    "ancient_earth_oak": {
+      "id": "ancient_earth_oak",
+      "chunk": "chunks/t3-earth-ice-elem.json"
+    },
     "and_again": {
       "id": "and_again",
       "chunk": "chunks/t3-warrior.json"
@@ -317,6 +337,10 @@
     "apex_bonebreaker": {
       "id": "apex_bonebreaker",
       "chunk": "chunks/t2-equipment.json"
+    },
+    "apex_buster": {
+      "id": "apex_buster",
+      "chunk": "chunks/t3-brute.json"
     },
     "aphrodias": {
       "id": "aphrodias",
@@ -474,6 +498,10 @@
       "id": "arknight_ascendancy",
       "chunk": "chunks/t3-runeblade.json"
     },
+    "arknight_descendancy": {
+      "id": "arknight_descendancy",
+      "chunk": "chunks/t3-runeblade.json"
+    },
     "arknight_shard": {
       "id": "arknight_shard",
       "chunk": "chunks/t3-runeblade.json"
@@ -549,6 +577,10 @@
     "assembly_module": {
       "id": "assembly_module",
       "chunk": "chunks/t3-mechanologist.json"
+    },
+    "astral_ambience": {
+      "id": "astral_ambience",
+      "chunk": "chunks/t3-illusionist.json"
     },
     "astral_assault": {
       "id": "astral_assault",
@@ -742,6 +774,10 @@
       "id": "banneret_of_salvation",
       "chunk": "chunks/t3-warrior.json"
     },
+    "banneret_of_swordsmanship": {
+      "id": "banneret_of_swordsmanship",
+      "chunk": "chunks/t3-warrior.json"
+    },
     "banneret_of_vigor": {
       "id": "banneret_of_vigor",
       "chunk": "chunks/t3-warrior.json"
@@ -845,6 +881,14 @@
     "battering_bolt": {
       "id": "battering_bolt",
       "chunk": "chunks/t3-ranger.json"
+    },
+    "battle_clearing_bellow": {
+      "id": "battle_clearing_bellow",
+      "chunk": "chunks/t3-brute.json"
+    },
+    "battle_prep": {
+      "id": "battle_prep",
+      "chunk": "chunks/t1-generic.json"
     },
     "battlefield_beacon": {
       "id": "battlefield_beacon",
@@ -1142,6 +1186,10 @@
       "id": "blasmophet_the_soul_harvester",
       "chunk": "chunks/t3-shadow.json"
     },
+    "blasmophets_boon": {
+      "id": "blasmophets_boon",
+      "chunk": "chunks/t3-brute.json"
+    },
     "blast_rig": {
       "id": "blast_rig",
       "chunk": "chunks/t3-mechanologist.json"
@@ -1225,6 +1273,10 @@
     "blessing_of_steel": {
       "id": "blessing_of_steel",
       "chunk": "chunks/t3-warrior.json"
+    },
+    "blessing_of_suraya": {
+      "id": "blessing_of_suraya",
+      "chunk": "chunks/t3-light.json"
     },
     "blessing_of_themis": {
       "id": "blessing_of_themis",
@@ -1322,6 +1374,10 @@
       "id": "blood_tribute",
       "chunk": "chunks/t3-shadow.json"
     },
+    "bloodfrenzy_gloomblade": {
+      "id": "bloodfrenzy_gloomblade",
+      "chunk": "chunks/t3-runeblade.json"
+    },
     "bloodied_boots": {
       "id": "bloodied_boots",
       "chunk": "chunks/t2-equipment.json"
@@ -1361,6 +1417,10 @@
     "bloodsheath_skeleta": {
       "id": "bloodsheath_skeleta",
       "chunk": "chunks/t2-equipment.json"
+    },
+    "bloodsong_gloomblade": {
+      "id": "bloodsong_gloomblade",
+      "chunk": "chunks/t3-runeblade.json"
     },
     "bloodspill_invocation": {
       "id": "bloodspill_invocation",
@@ -1446,6 +1506,10 @@
       "id": "boltyn",
       "chunk": "chunks/heroes.json"
     },
+    "bonded_burial": {
+      "id": "bonded_burial",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "bonds_of_agony": {
       "id": "bonds_of_agony",
       "chunk": "chunks/t3-assassin.json"
@@ -1462,6 +1526,10 @@
       "id": "bonds_of_memory",
       "chunk": "chunks/t3-assassin.json"
     },
+    "bone_barrier": {
+      "id": "bone_barrier",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "bone_basher": {
       "id": "bone_basher",
       "chunk": "chunks/t3-brute.json"
@@ -1469,6 +1537,10 @@
     "bone_head_barrier": {
       "id": "bone_head_barrier",
       "chunk": "chunks/t3-brute.json"
+    },
+    "bone_mass": {
+      "id": "bone_mass",
+      "chunk": "chunks/t3-pirate.json"
     },
     "bone_puppetry": {
       "id": "bone_puppetry",
@@ -1481,6 +1553,10 @@
     "bonebreaker_bellow": {
       "id": "bonebreaker_bellow",
       "chunk": "chunks/t3-brute.json"
+    },
+    "boneseer_skullcap": {
+      "id": "boneseer_skullcap",
+      "chunk": "chunks/t2-equipment.json"
     },
     "boneyard_marauder": {
       "id": "boneyard_marauder",
@@ -1558,6 +1634,10 @@
       "id": "braveforge_bracers",
       "chunk": "chunks/t2-equipment.json"
     },
+    "bravery_of_the_blade": {
+      "id": "bravery_of_the_blade",
+      "chunk": "chunks/t3-warrior.json"
+    },
     "bravo": {
       "id": "bravo",
       "chunk": "chunks/heroes.json"
@@ -1573,6 +1653,10 @@
     "bravo_star_of_the_show": {
       "id": "bravo_star_of_the_show",
       "chunk": "chunks/heroes.json"
+    },
+    "breach_flesh": {
+      "id": "breach_flesh",
+      "chunk": "chunks/t3-shadow.json"
     },
     "break_ground": {
       "id": "break_ground",
@@ -1866,6 +1950,10 @@
       "id": "catch_of_the_day",
       "chunk": "chunks/t3-ranger.json"
     },
+    "celebrant_broadsword": {
+      "id": "celebrant_broadsword",
+      "chunk": "chunks/t3-warrior.json"
+    },
     "celestial_cataclysm": {
       "id": "celestial_cataclysm",
       "chunk": "chunks/t3-light.json"
@@ -1901,6 +1989,10 @@
     "chain_reaction": {
       "id": "chain_reaction",
       "chunk": "chunks/t3-ranger.json"
+    },
+    "chains_of_consecration": {
+      "id": "chains_of_consecration",
+      "chunk": "chunks/t3-light.json"
     },
     "chains_of_eminence": {
       "id": "chains_of_eminence",
@@ -1945,6 +2037,10 @@
     "channel_mount_isen": {
       "id": "channel_mount_isen",
       "chunk": "chunks/t3-earth-ice-elem.json"
+    },
+    "channel_stormgarden": {
+      "id": "channel_stormgarden",
+      "chunk": "chunks/t3-lightning.json"
     },
     "channel_the_bleak_expanse": {
       "id": "channel_the_bleak_expanse",
@@ -2174,6 +2270,10 @@
       "id": "cleave",
       "chunk": "chunks/t3-warrior.json"
     },
+    "cleave_the_heavens": {
+      "id": "cleave_the_heavens",
+      "chunk": "chunks/t3-brute.json"
+    },
     "clench_the_upper_hand": {
       "id": "clench_the_upper_hand",
       "chunk": "chunks/t3-reviled.json"
@@ -2270,6 +2370,10 @@
       "id": "cogwerx_dovetail",
       "chunk": "chunks/t3-mechanologist.json"
     },
+    "cogwerx_prong_bot": {
+      "id": "cogwerx_prong_bot",
+      "chunk": "chunks/t3-mechanologist.json"
+    },
     "cogwerx_tinker_rings": {
       "id": "cogwerx_tinker_rings",
       "chunk": "chunks/t2-equipment.json"
@@ -2341,6 +2445,10 @@
     "commanding_performance": {
       "id": "commanding_performance",
       "chunk": "chunks/t3-warrior.json"
+    },
+    "commit_to_corruption": {
+      "id": "commit_to_corruption",
+      "chunk": "chunks/t3-pirate.json"
     },
     "companion_of_the_claw": {
       "id": "companion_of_the_claw",
@@ -2446,6 +2554,22 @@
       "id": "consuming_aftermath",
       "chunk": "chunks/t3-shadow.json"
     },
+    "consuming_appetite": {
+      "id": "consuming_appetite",
+      "chunk": "chunks/t3-brute.json"
+    },
+    "consuming_command": {
+      "id": "consuming_command",
+      "chunk": "chunks/t3-brute.json"
+    },
+    "consuming_lash": {
+      "id": "consuming_lash",
+      "chunk": "chunks/t3-brute.json"
+    },
+    "consuming_strength": {
+      "id": "consuming_strength",
+      "chunk": "chunks/t3-brute.json"
+    },
     "consuming_volition": {
       "id": "consuming_volition",
       "chunk": "chunks/t3-runeblade.json"
@@ -2478,6 +2602,14 @@
       "id": "coronet_peak",
       "chunk": "chunks/t2-equipment.json"
     },
+    "corporeal_chasm": {
+      "id": "corporeal_chasm",
+      "chunk": "chunks/t3-shadow.json"
+    },
+    "corpse_cover": {
+      "id": "corpse_cover",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "corrosive_space_dust": {
       "id": "corrosive_space_dust",
       "chunk": "chunks/t3-illusionist.json"
@@ -2489,6 +2621,10 @@
     "corrupted_corpse": {
       "id": "corrupted_corpse",
       "chunk": "chunks/t3-pirate.json"
+    },
+    "corrupted_crown": {
+      "id": "corrupted_crown",
+      "chunk": "chunks/t2-equipment.json"
     },
     "cosmic_awakening": {
       "id": "cosmic_awakening",
@@ -2513,6 +2649,10 @@
     "count_your_blessings": {
       "id": "count_your_blessings",
       "chunk": "chunks/t1-generic.json"
+    },
+    "countdown_to_extinction": {
+      "id": "countdown_to_extinction",
+      "chunk": "chunks/t3-shadow.json"
     },
     "courage": {
       "id": "courage",
@@ -2686,6 +2826,10 @@
       "id": "crush_the_weak",
       "chunk": "chunks/t3-guardian.json"
     },
+    "crushing_headache": {
+      "id": "crushing_headache",
+      "chunk": "chunks/t3-guardian.json"
+    },
     "crushing_impact": {
       "id": "crushing_impact",
       "chunk": "chunks/t4-remaining.json"
@@ -2696,6 +2840,10 @@
     },
     "cull": {
       "id": "cull",
+      "chunk": "chunks/t3-runeblade.json"
+    },
+    "cullingsong_gloomblade": {
+      "id": "cullingsong_gloomblade",
       "chunk": "chunks/t3-runeblade.json"
     },
     "current_funnel": {
@@ -2746,6 +2894,10 @@
       "id": "cut_to_the_chase",
       "chunk": "chunks/t3-assassin.json"
     },
+    "cutpurse_rapier": {
+      "id": "cutpurse_rapier",
+      "chunk": "chunks/t3-warrior.json"
+    },
     "cutting_couriers": {
       "id": "cutting_couriers",
       "chunk": "chunks/t2-equipment.json"
@@ -2770,6 +2922,10 @@
       "id": "daily_grind",
       "chunk": "chunks/t3-guardian.json"
     },
+    "dam_the_shadowake": {
+      "id": "dam_the_shadowake",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "dampen": {
       "id": "dampen",
       "chunk": "chunks/t3-wizard.json"
@@ -2781,6 +2937,30 @@
     "danger_digits": {
       "id": "danger_digits",
       "chunk": "chunks/t2-equipment.json"
+    },
+    "danse_macabre": {
+      "id": "danse_macabre",
+      "chunk": "chunks/t2-equipment.json"
+    },
+    "dark_arcanite_boots": {
+      "id": "dark_arcanite_boots",
+      "chunk": "chunks/t1-generic.json"
+    },
+    "dark_arcanite_gloves": {
+      "id": "dark_arcanite_gloves",
+      "chunk": "chunks/t1-generic.json"
+    },
+    "dark_arcanite_helm": {
+      "id": "dark_arcanite_helm",
+      "chunk": "chunks/t1-generic.json"
+    },
+    "dark_arcanite_plating": {
+      "id": "dark_arcanite_plating",
+      "chunk": "chunks/t1-generic.json"
+    },
+    "darkest_hour": {
+      "id": "darkest_hour",
+      "chunk": "chunks/t3-shadow.json"
     },
     "darling_of_the_crowd": {
       "id": "darling_of_the_crowd",
@@ -2845,6 +3025,10 @@
     "deadly_duo": {
       "id": "deadly_duo",
       "chunk": "chunks/t3-ninja.json"
+    },
+    "deadly_spinneret": {
+      "id": "deadly_spinneret",
+      "chunk": "chunks/t3-assassin.json"
     },
     "deadwood_dirge": {
       "id": "deadwood_dirge",
@@ -2978,6 +3162,10 @@
       "id": "devotion_never_dies",
       "chunk": "chunks/t3-ninja.json"
     },
+    "devouring_doomwake": {
+      "id": "devouring_doomwake",
+      "chunk": "chunks/t3-brute.json"
+    },
     "diabolic_offering": {
       "id": "diabolic_offering",
       "chunk": "chunks/t3-brute.json"
@@ -3014,6 +3202,10 @@
       "id": "didnt_see_that_coming",
       "chunk": "chunks/t4-remaining.json"
     },
+    "dig_for_souls": {
+      "id": "dig_for_souls",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "dig_in": {
       "id": "dig_in",
       "chunk": "chunks/t3-revered.json"
@@ -3025,6 +3217,10 @@
     "dimenxxional_crossroads": {
       "id": "dimenxxional_crossroads",
       "chunk": "chunks/t3-runeblade.json"
+    },
+    "dimenxxional_ferryman": {
+      "id": "dimenxxional_ferryman",
+      "chunk": "chunks/t3-shadow.json"
     },
     "dimenxxional_gateway": {
       "id": "dimenxxional_gateway",
@@ -3177,6 +3373,14 @@
     "downswing": {
       "id": "downswing",
       "chunk": "chunks/t3-warrior.json"
+    },
+    "dr_mortimer": {
+      "id": "dr_mortimer",
+      "chunk": "chunks/heroes.json"
+    },
+    "dr_mortimer_blight_of_the_pits": {
+      "id": "dr_mortimer_blight_of_the_pits",
+      "chunk": "chunks/heroes.json"
     },
     "draco_fire": {
       "id": "draco_fire",
@@ -3422,6 +3626,10 @@
       "id": "echoflash",
       "chunk": "chunks/t3-wizard.json"
     },
+    "echoing_trap": {
+      "id": "echoing_trap",
+      "chunk": "chunks/t3-ranger.json"
+    },
     "eclectic_magnetism": {
       "id": "eclectic_magnetism",
       "chunk": "chunks/t3-lightning.json"
@@ -3533,6 +3741,14 @@
     "embrace_adversity": {
       "id": "embrace_adversity",
       "chunk": "chunks/t1-generic.json"
+    },
+    "embrace_sin": {
+      "id": "embrace_sin",
+      "chunk": "chunks/t3-runeblade.json"
+    },
+    "embrace_ursur": {
+      "id": "embrace_ursur",
+      "chunk": "chunks/t3-runeblade.json"
     },
     "embraforged_gauntlet": {
       "id": "embraforged_gauntlet",
@@ -3681,6 +3897,10 @@
     "enlightened_strike": {
       "id": "enlightened_strike",
       "chunk": "chunks/t1-generic.json"
+    },
+    "enshrine_sin": {
+      "id": "enshrine_sin",
+      "chunk": "chunks/t3-runeblade.json"
     },
     "entangle": {
       "id": "entangle",
@@ -3922,6 +4142,10 @@
       "id": "excessive_bloodloss",
       "chunk": "chunks/t3-assassin.json"
     },
+    "exorcism": {
+      "id": "exorcism",
+      "chunk": "chunks/t1-generic.json"
+    },
     "expedite": {
       "id": "expedite",
       "chunk": "chunks/t3-mechanologist.json"
@@ -4030,6 +4254,10 @@
       "id": "falcon_wing",
       "chunk": "chunks/t3-ranger.json"
     },
+    "fallen_herald": {
+      "id": "fallen_herald",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "familiar_stench": {
       "id": "familiar_stench",
       "chunk": "chunks/t3-brute.json"
@@ -4078,6 +4306,10 @@
       "id": "fault_line",
       "chunk": "chunks/t3-guardian.json"
     },
+    "favorable_winds": {
+      "id": "favorable_winds",
+      "chunk": "chunks/t3-ranger.json"
+    },
     "fealty": {
       "id": "fealty",
       "chunk": "chunks/t3-draconic.json"
@@ -4085,6 +4317,14 @@
     "fearless_confrontation": {
       "id": "fearless_confrontation",
       "chunk": "chunks/t1-generic.json"
+    },
+    "feasting_shadowbeast": {
+      "id": "feasting_shadowbeast",
+      "chunk": "chunks/t3-brute.json"
+    },
+    "feeding_frenzy": {
+      "id": "feeding_frenzy",
+      "chunk": "chunks/t3-brute.json"
     },
     "feign_death": {
       "id": "feign_death",
@@ -4454,6 +4694,10 @@
       "id": "for_the_realm",
       "chunk": "chunks/t3-draconic.json"
     },
+    "forbidden_harvest": {
+      "id": "forbidden_harvest",
+      "chunk": "chunks/t3-runeblade.json"
+    },
     "force_of_nature": {
       "id": "force_of_nature",
       "chunk": "chunks/t3-runeblade.json"
@@ -4473,6 +4717,10 @@
     "forked_lightning": {
       "id": "forked_lightning",
       "chunk": "chunks/t3-wizard.json"
+    },
+    "forsaken_strike": {
+      "id": "forsaken_strike",
+      "chunk": "chunks/t3-pirate.json"
     },
     "fortitude_of_anvilheim": {
       "id": "fortitude_of_anvilheim",
@@ -4525,6 +4773,10 @@
     "freezing_point": {
       "id": "freezing_point",
       "chunk": "chunks/t3-wizard.json"
+    },
+    "fresh_from_the_forge": {
+      "id": "fresh_from_the_forge",
+      "chunk": "chunks/t3-warrior.json"
     },
     "frightmare": {
       "id": "frightmare",
@@ -4958,9 +5210,17 @@
       "id": "gore_belching",
       "chunk": "chunks/t1-generic.json"
     },
+    "goremass_summoning": {
+      "id": "goremass_summoning",
+      "chunk": "chunks/t3-brute.json"
+    },
     "gorganian_tome": {
       "id": "gorganian_tome",
       "chunk": "chunks/t1-generic.json"
+    },
+    "gorging_shadowbeast": {
+      "id": "gorging_shadowbeast",
+      "chunk": "chunks/t3-brute.json"
     },
     "gorgons_gaze": {
       "id": "gorgons_gaze",
@@ -5150,6 +5410,10 @@
       "id": "hand_of_vengeance",
       "chunk": "chunks/t2-equipment.json"
     },
+    "harbinger_of_destruction": {
+      "id": "harbinger_of_destruction",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "hard_knuckle": {
       "id": "hard_knuckle",
       "chunk": "chunks/t1-generic.json"
@@ -5202,6 +5466,10 @@
       "id": "haze_shelter",
       "chunk": "chunks/t3-illusionist.json"
     },
+    "head_banging_chorus": {
+      "id": "head_banging_chorus",
+      "chunk": "chunks/t3-guardian.json"
+    },
     "head_jab": {
       "id": "head_jab",
       "chunk": "chunks/t3-ninja.json"
@@ -5229,6 +5497,10 @@
     "heads_up": {
       "id": "heads_up",
       "chunk": "chunks/t3-warrior.json"
+    },
+    "headstrong_stampede": {
+      "id": "headstrong_stampede",
+      "chunk": "chunks/t3-brute.json"
     },
     "healing_balm": {
       "id": "healing_balm",
@@ -5340,6 +5612,10 @@
     },
     "hell_hammer": {
       "id": "hell_hammer",
+      "chunk": "chunks/t3-brute.json"
+    },
+    "hellbound_assault": {
+      "id": "hellbound_assault",
       "chunk": "chunks/t3-brute.json"
     },
     "helm_of_astral_sanctuary": {
@@ -5574,6 +5850,10 @@
       "id": "hood_of_second_thoughts",
       "chunk": "chunks/t1-generic.json"
     },
+    "hoodwink": {
+      "id": "hoodwink",
+      "chunk": "chunks/t3-reviled.json"
+    },
     "hook": {
       "id": "hook",
       "chunk": "chunks/t3-ranger.json"
@@ -5633,6 +5913,10 @@
     "hummingbird_call_of_adventure": {
       "id": "hummingbird_call_of_adventure",
       "chunk": "chunks/t3-bard-merchant.json"
+    },
+    "humour_plunge": {
+      "id": "humour_plunge",
+      "chunk": "chunks/t3-assassin.json"
     },
     "hundred_winds": {
       "id": "hundred_winds",
@@ -5708,6 +5992,10 @@
     },
     "hypothermia": {
       "id": "hypothermia",
+      "chunk": "chunks/t3-earth-ice-elem.json"
+    },
+    "ice_aged_oak": {
+      "id": "ice_aged_oak",
       "chunk": "chunks/t3-earth-ice-elem.json"
     },
     "ice_bolt": {
@@ -5845,6 +6133,10 @@
     "infuse_titanium": {
       "id": "infuse_titanium",
       "chunk": "chunks/t3-mechanologist.json"
+    },
+    "ingest_the_unknown": {
+      "id": "ingest_the_unknown",
+      "chunk": "chunks/t3-brute.json"
     },
     "ink_lined_cloak": {
       "id": "ink_lined_cloak",
@@ -6173,6 +6465,10 @@
     "kick_the_hornets_nest": {
       "id": "kick_the_hornets_nest",
       "chunk": "chunks/t1-generic.json"
+    },
+    "killjoy_the_crooked_blade": {
+      "id": "killjoy_the_crooked_blade",
+      "chunk": "chunks/heroes.json"
     },
     "kimono_of_layered_lessons": {
       "id": "kimono_of_layered_lessons",
@@ -6698,6 +6994,10 @@
       "id": "malign",
       "chunk": "chunks/t3-assassin.json"
     },
+    "malignant_migration": {
+      "id": "malignant_migration",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "man_overboard": {
       "id": "man_overboard",
       "chunk": "chunks/t3-pirate.json"
@@ -6726,6 +7026,14 @@
       "id": "mark_of_lightning",
       "chunk": "chunks/t2-equipment.json"
     },
+    "mark_of_neverest": {
+      "id": "mark_of_neverest",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "mark_of_pathstone": {
+      "id": "mark_of_pathstone",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "mark_of_the_beast": {
       "id": "mark_of_the_beast",
       "chunk": "chunks/t3-brute.json"
@@ -6741,6 +7049,10 @@
     "mark_of_the_huntsman": {
       "id": "mark_of_the_huntsman",
       "chunk": "chunks/t3-assassin.json"
+    },
+    "mark_of_ushering": {
+      "id": "mark_of_ushering",
+      "chunk": "chunks/t3-pirate.json"
     },
     "mark_the_prey": {
       "id": "mark_the_prey",
@@ -7102,6 +7414,14 @@
       "id": "murky_water",
       "chunk": "chunks/t3-ranger.json"
     },
+    "murmur_of_iarathael": {
+      "id": "murmur_of_iarathael",
+      "chunk": "chunks/t1-generic.json"
+    },
+    "murmuring_gloomblade": {
+      "id": "murmuring_gloomblade",
+      "chunk": "chunks/t3-runeblade.json"
+    },
     "muscle_mutt": {
       "id": "muscle_mutt",
       "chunk": "chunks/t1-generic.json"
@@ -7121,6 +7441,14 @@
     "mutiny_on_the_swiftwater": {
       "id": "mutiny_on_the_swiftwater",
       "chunk": "chunks/t3-pirate.json"
+    },
+    "mutual_sacrifice": {
+      "id": "mutual_sacrifice",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "mutually_assured_destruction": {
+      "id": "mutually_assured_destruction",
+      "chunk": "chunks/t3-assassin.json"
     },
     "myrkhellir_helm": {
       "id": "myrkhellir_helm",
@@ -7422,6 +7750,10 @@
       "id": "ominous_respite",
       "chunk": "chunks/t1-generic.json"
     },
+    "ominous_toll": {
+      "id": "ominous_toll",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "on_a_knife_edge": {
       "id": "on_a_knife_edge",
       "chunk": "chunks/t1-generic.json"
@@ -7489,6 +7821,10 @@
     "oscilio_scion_of_the_third_age": {
       "id": "oscilio_scion_of_the_third_age",
       "chunk": "chunks/heroes.json"
+    },
+    "otherworldly_sins": {
+      "id": "otherworldly_sins",
+      "chunk": "chunks/t3-runeblade.json"
     },
     "out_for_blood": {
       "id": "out_for_blood",
@@ -7686,6 +8022,10 @@
       "id": "peaceful_sanctuary",
       "chunk": "chunks/t1-generic.json"
     },
+    "peak_power": {
+      "id": "peak_power",
+      "chunk": "chunks/t3-brute.json"
+    },
     "pearl_amulet": {
       "id": "pearl_amulet",
       "chunk": "chunks/t1-generic.json"
@@ -7729,6 +8069,10 @@
     "perk_up": {
       "id": "perk_up",
       "chunk": "chunks/t3-mechanologist.json"
+    },
+    "permanent_interment": {
+      "id": "permanent_interment",
+      "chunk": "chunks/t3-shadow.json"
     },
     "persuasive_prognosis": {
       "id": "persuasive_prognosis",
@@ -7854,6 +8198,10 @@
       "id": "plan_for_the_worst",
       "chunk": "chunks/t3-ranger.json"
     },
+    "planar_chaos": {
+      "id": "planar_chaos",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "plasma_barrel_shot": {
       "id": "plasma_barrel_shot",
       "chunk": "chunks/t3-mechanologist.json"
@@ -7909,6 +8257,10 @@
     "plunder_the_poor": {
       "id": "plunder_the_poor",
       "chunk": "chunks/t3-assassin.json"
+    },
+    "plundersong_gloomblade": {
+      "id": "plundersong_gloomblade",
+      "chunk": "chunks/t3-runeblade.json"
     },
     "plunge": {
       "id": "plunge",
@@ -8090,6 +8442,10 @@
       "id": "preserve_tradition",
       "chunk": "chunks/t3-mystic.json"
     },
+    "prey_on_insecurity": {
+      "id": "prey_on_insecurity",
+      "chunk": "chunks/t3-assassin.json"
+    },
     "prey_spotters": {
       "id": "prey_spotters",
       "chunk": "chunks/t2-equipment.json"
@@ -8181,6 +8537,10 @@
     "promise_of_plenty": {
       "id": "promise_of_plenty",
       "chunk": "chunks/t1-generic.json"
+    },
+    "promise_of_power": {
+      "id": "promise_of_power",
+      "chunk": "chunks/t3-runeblade.json"
     },
     "promising_terrain": {
       "id": "promising_terrain",
@@ -8474,6 +8834,10 @@
       "id": "rally_the_rearguard",
       "chunk": "chunks/t1-generic.json"
     },
+    "rally_the_shadow_horde": {
+      "id": "rally_the_shadow_horde",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "rally_the_underdog": {
       "id": "rally_the_underdog",
       "chunk": "chunks/t4-remaining.json"
@@ -8564,6 +8928,10 @@
     },
     "reach_beyond_the_grave": {
       "id": "reach_beyond_the_grave",
+      "chunk": "chunks/t2-equipment.json"
+    },
+    "reach_of_the_abyss": {
+      "id": "reach_of_the_abyss",
       "chunk": "chunks/t2-equipment.json"
     },
     "read_the_glide_path": {
@@ -8726,6 +9094,10 @@
       "id": "relentless_pursuit",
       "chunk": "chunks/t1-generic.json"
     },
+    "remember_the_mists": {
+      "id": "remember_the_mists",
+      "chunk": "chunks/t3-assassin.json"
+    },
     "remembrance": {
       "id": "remembrance",
       "chunk": "chunks/t1-generic.json"
@@ -8762,12 +9134,52 @@
       "id": "restless_bones",
       "chunk": "chunks/t3-pirate.json"
     },
+    "restless_cleric": {
+      "id": "restless_cleric",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "restless_coalescence": {
       "id": "restless_coalescence",
       "chunk": "chunks/t3-illusionist.json"
     },
+    "restless_commander": {
+      "id": "restless_commander",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "restless_corporal": {
+      "id": "restless_corporal",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "restless_looter": {
+      "id": "restless_looter",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "restless_magister": {
       "id": "restless_magister",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "restless_outlaw": {
+      "id": "restless_outlaw",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "restless_plowman": {
+      "id": "restless_plowman",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "restless_quartermaster": {
+      "id": "restless_quartermaster",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "restless_shieldmaiden": {
+      "id": "restless_shieldmaiden",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "restless_steed": {
+      "id": "restless_steed",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "restless_templar": {
+      "id": "restless_templar",
       "chunk": "chunks/t3-pirate.json"
     },
     "restvine_elixir": {
@@ -8918,6 +9330,10 @@
       "id": "rise_from_the_ashes",
       "chunk": "chunks/t3-ninja.json"
     },
+    "rise_to_the_challenge": {
+      "id": "rise_to_the_challenge",
+      "chunk": "chunks/t3-brute.json"
+    },
     "rise_up": {
       "id": "rise_up",
       "chunk": "chunks/t3-draconic.json"
@@ -8962,6 +9378,10 @@
       "id": "rites_of_lightning",
       "chunk": "chunks/t3-runeblade.json"
     },
+    "rites_of_nightfall": {
+      "id": "rites_of_nightfall",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "rites_of_replenishment": {
       "id": "rites_of_replenishment",
       "chunk": "chunks/t3-runeblade.json"
@@ -9001,6 +9421,10 @@
     "rockslide_trap": {
       "id": "rockslide_trap",
       "chunk": "chunks/t3-ranger.json"
+    },
+    "rocktop_bellow": {
+      "id": "rocktop_bellow",
+      "chunk": "chunks/t3-brute.json"
     },
     "rockyard_rodeo": {
       "id": "rockyard_rodeo",
@@ -9090,6 +9514,14 @@
       "id": "rumble_grunting",
       "chunk": "chunks/t3-brute.json"
     },
+    "rumbling_hunger": {
+      "id": "rumbling_hunger",
+      "chunk": "chunks/t3-brute.json"
+    },
+    "rumbling_of_iarathael": {
+      "id": "rumbling_of_iarathael",
+      "chunk": "chunks/t1-generic.json"
+    },
     "run_into_trouble": {
       "id": "run_into_trouble",
       "chunk": "chunks/t3-warrior.json"
@@ -9166,12 +9598,20 @@
       "id": "runerager_swarm",
       "chunk": "chunks/t3-runeblade.json"
     },
+    "runic_disposition": {
+      "id": "runic_disposition",
+      "chunk": "chunks/t3-runeblade.json"
+    },
     "runic_fellingsong": {
       "id": "runic_fellingsong",
       "chunk": "chunks/t3-runeblade.json"
     },
     "runic_reaping": {
       "id": "runic_reaping",
+      "chunk": "chunks/t3-runeblade.json"
+    },
+    "runic_reaving": {
+      "id": "runic_reaving",
       "chunk": "chunks/t3-runeblade.json"
     },
     "runic_reckoning": {
@@ -9185,6 +9625,10 @@
     "runner_runner": {
       "id": "runner_runner",
       "chunk": "chunks/t3-warrior.json"
+    },
+    "rush_of_knowledge": {
+      "id": "rush_of_knowledge",
+      "chunk": "chunks/t3-illusionist.json"
     },
     "rush_of_power": {
       "id": "rush_of_power",
@@ -9273,6 +9717,10 @@
     "sash_of_sandikai": {
       "id": "sash_of_sandikai",
       "chunk": "chunks/t2-equipment.json"
+    },
+    "satiate_bloodthirst": {
+      "id": "satiate_bloodthirst",
+      "chunk": "chunks/t3-brute.json"
     },
     "savage_beatdown": {
       "id": "savage_beatdown",
@@ -9622,6 +10070,14 @@
       "id": "shadow_puppetry",
       "chunk": "chunks/t3-shadow.json"
     },
+    "shadowake_gloomblade": {
+      "id": "shadowake_gloomblade",
+      "chunk": "chunks/t3-runeblade.json"
+    },
+    "shadowrealm_bloodhound": {
+      "id": "shadowrealm_bloodhound",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "shadowrealm_harrower": {
       "id": "shadowrealm_harrower",
       "chunk": "chunks/t3-shadow.json"
@@ -9636,6 +10092,26 @@
     },
     "shadowrealm_reaper": {
       "id": "shadowrealm_reaper",
+      "chunk": "chunks/t3-shadow.json"
+    },
+    "shadowrealm_ripper": {
+      "id": "shadowrealm_ripper",
+      "chunk": "chunks/t3-shadow.json"
+    },
+    "shadowrealm_solace": {
+      "id": "shadowrealm_solace",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "shadowrealm_strength": {
+      "id": "shadowrealm_strength",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "shadowrealm_swiftness": {
+      "id": "shadowrealm_swiftness",
+      "chunk": "chunks/t3-pirate.json"
+    },
+    "shadowrealm_walker": {
+      "id": "shadowrealm_walker",
       "chunk": "chunks/t3-shadow.json"
     },
     "shake_down": {
@@ -9938,6 +10414,10 @@
       "id": "sigil_of_the_arknight",
       "chunk": "chunks/t3-runeblade.json"
     },
+    "sigil_of_the_muse": {
+      "id": "sigil_of_the_muse",
+      "chunk": "chunks/t3-wizard.json"
+    },
     "sigil_of_voltaris": {
       "id": "sigil_of_voltaris",
       "chunk": "chunks/t3-runeblade.json"
@@ -10065,6 +10545,10 @@
     "sizzling_steel": {
       "id": "sizzling_steel",
       "chunk": "chunks/t3-warrior.json"
+    },
+    "skeletal_puppetry": {
+      "id": "skeletal_puppetry",
+      "chunk": "chunks/t3-pirate.json"
     },
     "skera_strapping": {
       "id": "skera_strapping",
@@ -10306,6 +10790,10 @@
       "id": "sonata_arcanix",
       "chunk": "chunks/t3-runeblade.json"
     },
+    "sonata_dystopia": {
+      "id": "sonata_dystopia",
+      "chunk": "chunks/t3-runeblade.json"
+    },
     "sonata_fantasmia": {
       "id": "sonata_fantasmia",
       "chunk": "chunks/t3-runeblade.json"
@@ -10370,8 +10858,8 @@
       "id": "soul_harvest",
       "chunk": "chunks/t3-shadow.json"
     },
-    "soul_of_existence__4": {
-      "id": "soul_of_existence__4",
+    "soul_of_existence": {
+      "id": "soul_of_existence",
       "chunk": "chunks/t3-shadow.json"
     },
     "soul_reaping": {
@@ -10790,6 +11278,10 @@
       "id": "step_between",
       "chunk": "chunks/t1-generic.json"
     },
+    "step_through_realms": {
+      "id": "step_through_realms",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "sticky_fingers": {
       "id": "sticky_fingers",
       "chunk": "chunks/t4-remaining.json"
@@ -10817,6 +11309,10 @@
     "stoke_the_flames": {
       "id": "stoke_the_flames",
       "chunk": "chunks/t3-draconic.json"
+    },
+    "stoke_vengeance": {
+      "id": "stoke_vengeance",
+      "chunk": "chunks/t3-ninja.json"
     },
     "stone_rain": {
       "id": "stone_rain",
@@ -11686,6 +12182,10 @@
       "id": "tome_of_imperial_flame",
       "chunk": "chunks/t3-draconic.json"
     },
+    "tome_of_necrosis": {
+      "id": "tome_of_necrosis",
+      "chunk": "chunks/t3-pirate.json"
+    },
     "tome_of_pandemonium": {
       "id": "tome_of_pandemonium",
       "chunk": "chunks/t3-chaos.json"
@@ -11842,6 +12342,10 @@
       "id": "tribute_to_demolition",
       "chunk": "chunks/t3-brute.json"
     },
+    "tribute_to_greater_power": {
+      "id": "tribute_to_greater_power",
+      "chunk": "chunks/t3-shadow.json"
+    },
     "tribute_to_the_legions_of_doom": {
       "id": "tribute_to_the_legions_of_doom",
       "chunk": "chunks/t3-brute.json"
@@ -11962,6 +12466,10 @@
       "id": "unbound_by_shadow",
       "chunk": "chunks/t3-shadow.json"
     },
+    "undead_grasp": {
+      "id": "undead_grasp",
+      "chunk": "chunks/t2-equipment.json"
+    },
     "under_loop": {
       "id": "under_loop",
       "chunk": "chunks/t3-mechanologist.json"
@@ -12074,6 +12582,10 @@
       "id": "ursur_the_soul_reaper",
       "chunk": "chunks/t3-shadow.json"
     },
+    "usurp_the_shadow_throne": {
+      "id": "usurp_the_shadow_throne",
+      "chunk": "chunks/t3-runeblade.json"
+    },
     "uzuri": {
       "id": "uzuri",
       "chunk": "chunks/heroes.json"
@@ -12178,6 +12690,10 @@
       "id": "vestige_of_sol",
       "chunk": "chunks/t2-equipment.json"
     },
+    "vexing_gloomblade": {
+      "id": "vexing_gloomblade",
+      "chunk": "chunks/t3-runeblade.json"
+    },
     "vexing_malice": {
       "id": "vexing_malice",
       "chunk": "chunks/t3-runeblade.json"
@@ -12242,9 +12758,17 @@
       "id": "villainous_pose",
       "chunk": "chunks/t3-reviled.json"
     },
+    "violent_gusto": {
+      "id": "violent_gusto",
+      "chunk": "chunks/t1-generic.json"
+    },
     "vipox": {
       "id": "vipox",
       "chunk": "chunks/t1-generic.json"
+    },
+    "viral_diffusion": {
+      "id": "viral_diffusion",
+      "chunk": "chunks/t3-assassin.json"
     },
     "virtuoso_bodice": {
       "id": "virtuoso_bodice",
@@ -12566,6 +13090,10 @@
       "id": "whispering_mist",
       "chunk": "chunks/t3-mystic.json"
     },
+    "whispers_within": {
+      "id": "whispers_within",
+      "chunk": "chunks/t1-generic.json"
+    },
     "whittle_from_bone": {
       "id": "whittle_from_bone",
       "chunk": "chunks/t3-assassin.json"
@@ -12633,6 +13161,10 @@
     "wind_cutter": {
       "id": "wind_cutter",
       "chunk": "chunks/t2-equipment.json"
+    },
+    "wind_slicer": {
+      "id": "wind_slicer",
+      "chunk": "chunks/t3-ninja.json"
     },
     "wind_up_the_crowd": {
       "id": "wind_up_the_crowd",
@@ -12720,6 +13252,10 @@
     },
     "yorick_weaver_of_tales": {
       "id": "yorick_weaver_of_tales",
+      "chunk": "chunks/heroes.json"
+    },
+    "zane_broadly_beloved": {
+      "id": "zane_broadly_beloved",
       "chunk": "chunks/heroes.json"
     },
     "zap": {

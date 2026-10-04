@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { runInNewContext } from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
-const sourcePath = fileURLToPath(new URL('../talishar-cn.user.js', import.meta.url));
+const sourcePath = fileURLToPath(new URL('../fabtcg-cn.user.js', import.meta.url));
 const source = readFileSync(sourcePath, 'utf8');
 const browserSandbox = { URL };
 browserSandbox.window = browserSandbox;
@@ -49,7 +49,7 @@ test('userscript matches Fyendal pages', () => {
 test('production card data uses the CORS-capable CDN mirror', () => {
   assert.equal(
     resolveDataBaseUrl(),
-    'https://cdn.jsdelivr.net/gh/jacefromxa/talishar-cn@main/dist/data',
+    'https://cdn.jsdelivr.net/gh/jacefromxa/fabtcg-cn@main/dist/data',
   );
 });
 
@@ -223,6 +223,10 @@ function createFakeDocument() {
           this.children.push(child);
           child.parentNode = this;
         },
+        removeChild(child) {
+          this.children = this.children.filter((candidate) => candidate !== child);
+          child.parentNode = null;
+        },
         remove() {
           if (this.parentNode) this.parentNode.removeChild(this);
         },
@@ -262,6 +266,65 @@ test('installProbe registers a listener and cleans up its panel', () => {
 
   assert.equal(fakeDocument.listeners.has('pointerover'), false);
   assert.equal(fakeDocument.body.children.length, 0);
+});
+
+test('installProbe mounts the tooltip inside Talishar root when it exists', () => {
+  const fakeDocument = createFakeDocument();
+  const talisharRoot = fakeDocument.createElement('div');
+  talisharRoot.id = 'root';
+  fakeDocument.getElementById = (id) => id === 'root' ? talisharRoot : null;
+
+  const instance = installProbe(fakeDocument);
+
+  assert.equal(fakeDocument.body.children.length, 0);
+  assert.equal(talisharRoot.children.length, 1);
+  assert.equal(talisharRoot.children[0].id, 'fab-cn-probe-panel');
+
+  instance.destroy();
+
+  assert.equal(talisharRoot.children.length, 0);
+});
+
+test('follow mode keeps repositioning when requestAnimationFrame is stalled', async () => {
+  const followSandbox = {
+    URL,
+    setTimeout,
+    clearTimeout,
+    requestAnimationFrame() { return 1; },
+    cancelAnimationFrame() {},
+  };
+  followSandbox.window = followSandbox;
+  runInNewContext(source, followSandbox, { filename: sourcePath });
+
+  const fakeDocument = createFakeDocument();
+  let cardRect = { left: 100, right: 148, top: 100, bottom: 148, width: 48, height: 48 };
+  const cardImage = {
+    tagName: 'IMG',
+    src: 'https://images.talishar.net/public/cardsquares/english/titans_fist.webp',
+    attributes: [{ name: 'src', value: 'https://images.talishar.net/public/cardsquares/english/titans_fist.webp' }],
+    getBoundingClientRect() { return cardRect; },
+  };
+  const instance = followSandbox.FabCnProbe.installProbe(fakeDocument, {
+    titans_fist: { name_zh: '泰坦之拳', type_zh: '武器', text_zh: '测试' },
+  });
+
+  fakeDocument.listeners.get('pointerover')({
+    target: cardImage,
+    clientX: 110,
+    clientY: 110,
+  });
+  const panel = fakeDocument.body.children[0];
+  const firstLeft = panel.style.left;
+
+  try {
+    cardRect = { left: 400, right: 448, top: 100, bottom: 148, width: 48, height: 48 };
+    await new Promise((resolve) => setTimeout(resolve, 90));
+
+    assert.notEqual(panel.style.left, firstLeft);
+    assert.equal(panel.style.left, '460px');
+  } finally {
+    instance.destroy();
+  }
 });
 
 test('userscript keeps listening when TCGplayer FAB content mounts after document-idle', () => {
@@ -868,8 +931,23 @@ test('findCardAnchor ignores a signal-bearing ancestor whose card image is elsew
 });
 
 test('findCardPreviewImage returns a large image inside a fixed container', () => {
+  const adImg = {
+    tagName: 'IMG',
+    src: 'https://talishar.net/assets/squareMemberCTA.webp',
+    getBoundingClientRect() {
+      return { height: 500 };
+    },
+    parentElement: null,
+  };
+  const adContainer = {
+    tagName: 'DIV',
+    parentElement: null,
+    contains() { return true; },
+  };
+  adImg.parentElement = adContainer;
   const previewImg = {
     tagName: 'IMG',
+    src: 'https://images.talishar.net/public/cardimages/english/titans_fist.webp',
     getBoundingClientRect() {
       return { height: 400 };
     },
@@ -883,10 +961,11 @@ test('findCardPreviewImage returns a large image inside a fixed container', () =
   previewImg.parentElement = fixedContainer;
 
   const fakeDoc = {
+    location: { hostname: 'talishar.net' },
     body: {
       querySelectorAll(selector) {
         assert.equal(selector, 'img');
-        return [previewImg];
+        return [adImg, previewImg];
       },
       contains() { return true; },
     },
@@ -894,7 +973,7 @@ test('findCardPreviewImage returns a large image inside a fixed container', () =
   const fakeRoot = {
     innerHeight: 800,
     getComputedStyle(el) {
-      assert.equal(el, fixedContainer);
+      assert.ok(el === adContainer || el === fixedContainer);
       return { position: 'fixed' };
     },
   };

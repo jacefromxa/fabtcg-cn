@@ -1,6 +1,6 @@
-# Talishar / FaBrary / Fyendal 等站点简体中文卡牌浮窗
+# FABTCG中文悬浮窗
 
-这是 Talishar / FaBrary / Fyendal 等站点的简体中文卡牌浮窗项目。用户脚本只负责识别悬停的卡牌、加载需要的数据并显示浮窗；中文卡库独立构建、分片和缓存，适合扩充到完整卡池。浮窗会跟随原生卡图，自动选择卡图左侧或右侧的可用空间。
+这是支持 Talishar / FaBrary / Fyendal 等市面主流 FABTCG 平台的简体中文卡牌浮窗项目，持续更新中。用户脚本只负责识别悬停的卡牌、加载需要的数据并显示浮窗；中文卡库独立构建、分片和缓存，适合扩充到完整卡池。浮窗会跟随原生卡图，自动选择卡图左侧或右侧的可用空间。
 
 **支持的站点：**
 
@@ -20,7 +20,7 @@
 牌组清单位于：
 
 ```text
-/Users/Zhuanz/CCDeep/talishar-cn/data/decks/jarl-vetreidi-calling-edinburgh-5th.json
+/Users/Zhuanz/CCDeep/fabtcg-cn/data/decks/jarl-vetreidi-calling-edinburgh-5th.json
 ```
 
 ## 运行测试
@@ -28,7 +28,7 @@
 在项目目录运行：
 
 ```bash
-cd /Users/Zhuanz/CCDeep/talishar-cn/probe
+cd /Users/Zhuanz/CCDeep/fabtcg-cn/probe
 npm test
 ```
 
@@ -37,7 +37,7 @@ npm test
 启动一个只监听本机的校对页面：
 
 ```bash
-cd /Users/Zhuanz/CCDeep/talishar-cn/probe
+cd /Users/Zhuanz/CCDeep/fabtcg-cn/probe
 npm run review
 ```
 
@@ -58,7 +58,7 @@ npm test
 中文翻译源按批次存放在：
 
 ```text
-/Users/Zhuanz/CCDeep/talishar-cn/data/translations/
+/Users/Zhuanz/CCDeep/fabtcg-cn/data/translations/
   human-reviewed.json    ← 人工审核原稿（受保护）
   t1-generic.json        ← 通用牌
   t2-equipment.json      ← 装备/武器
@@ -74,12 +74,12 @@ npm run build
 该命令构建远程数据文件：
 
 ```text
-/Users/Zhuanz/CCDeep/talishar-cn/dist/data/manifest.json
-/Users/Zhuanz/CCDeep/talishar-cn/dist/data/index.json
-/Users/Zhuanz/CCDeep/talishar-cn/dist/data/chunks/
+/Users/Zhuanz/CCDeep/fabtcg-cn/dist/data/manifest.json
+/Users/Zhuanz/CCDeep/fabtcg-cn/dist/data/index.json
+/Users/Zhuanz/CCDeep/fabtcg-cn/dist/data/chunks/
 ```
 
-用户脚本本身直接编辑 `probe/talishar-cn.user.js`，不会嵌入完整中文卡库。首次悬停卡牌时，它读取 manifest 和索引，再按需加载对应分片，并使用浏览器缓存保存已加载的数据。
+用户脚本本身直接编辑 `probe/fabtcg-cn.user.js`，不会嵌入完整中文卡库。首次悬停卡牌时，它读取 manifest 和索引，再按需加载对应分片，并使用浏览器缓存保存已加载的数据。
 
 这份用户脚本可以直接安装到 Violentmonkey 或 Tampermonkey。当前建议使用 Violentmonkey，因为它已经在实际 Talishar 页面上验证可执行。
 
@@ -88,13 +88,13 @@ npm run build
 完整英文源文件位于：
 
 ```text
-/Users/Zhuanz/CCDeep/talishar-cn/data/source/english/card.json
+/Users/Zhuanz/CCDeep/fabtcg-cn/data/source/english/card.json
 ```
 
 如需重新生成精简英文索引，运行：
 
 ```bash
-node /Users/Zhuanz/CCDeep/talishar-cn/scripts/import-fab-cards.mjs
+node /Users/Zhuanz/CCDeep/fabtcg-cn/scripts/import-fab-cards.mjs
 ```
 
 输出文件为 `data/cards.en.json`。它目前用于建立英文卡牌字段和 Talishar 图片标识的参考，尚未自动把英文卡面翻译成中文。
@@ -104,17 +104,17 @@ node /Users/Zhuanz/CCDeep/talishar-cn/scripts/import-fab-cards.mjs
 用户脚本默认从以下地址读取静态卡库：
 
 ```text
-https://cdn.jsdelivr.net/gh/jacefromxa/talishar-cn@main/dist/data
+https://cdn.jsdelivr.net/gh/jacefromxa/fabtcg-cn@main/dist/data
 ```
 
-`dist/data/` 随源码仓库提交推送即完成发布，无需独立数据仓库。发布后，用户只需安装 `talishar-cn.user.js`，不需要把卡牌 JSON 手工复制进用户脚本。
+`dist/data/` 随源码仓库提交推送即完成发布，无需独立数据仓库。发布后，用户只需安装 `fabtcg-cn.user.js`，不需要把卡牌 JSON 手工复制进用户脚本。
 
-如果以后更换静态地址，修改 `probe/talishar-cn.user.js` 顶部的数据地址常量，然后重新运行 `npm run build`。
+如果以后更换静态地址，修改 `probe/fabtcg-cn.user.js` 顶部的数据地址常量，然后重新运行 `npm run build`。
 
 ## 安装和验证
 
 1. 在 Violentmonkey 中新建用户脚本。
-2. 将 `talishar-cn.user.js` 的完整内容复制进去并保存。
+2. 将 `fabtcg-cn.user.js` 的完整内容复制进去并保存。
 3. 打开 [Talishar](https://talishar.net/)，进入对战或观战页面，将鼠标移动到可见卡牌上；或打开 [FaBrary](https://fabrary.net/decks)，进入任意牌表页悬停卡图。
 4. 浮窗应跟随卡图显示中文卡名、卡类别和正文。
 

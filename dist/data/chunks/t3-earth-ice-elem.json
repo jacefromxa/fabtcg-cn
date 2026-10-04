@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "amulet_of_earth": {
       "id": "amulet_of_earth",
@@ -43,6 +43,28 @@
           "cost": "0",
           "power": null,
           "defense": null
+        }
+      }
+    },
+    "ancient_earth_oak": {
+      "id": "ancient_earth_oak",
+      "name_zh": "古土橡树",
+      "name_en": "Ancient Earth Oak",
+      "type_zh": "冰 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌命中英雄时，在其控制下创造一个霜咬衍生物。\n大地羁绊——若你为使用此牌而投入过一张大地牌，此牌获得+2{p}和“当此牌命中英雄时，将此牌置于其拥有者的牌库底。”",
+      "text_en": "When this hits a hero, create a Frostbite token under their control.\nEarth Bond - If an Earth card was pitched to play this, this gets +2{p} and \"When this hits a hero, put this on the bottom of its owner's deck.\"",
+      "source": "https://cards.fabtcg.com/card/ancient_earth_oak/",
+      "status": "machine-draft",
+      "keywords": [
+        "Earth Bond"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
         }
       }
     },
@@ -999,7 +1021,7 @@
       "type_zh": "元素 瞬间",
       "type_en": "",
       "text_zh": "大地和/或冰融合\n若暴露于元素以一张大地牌融合，在目标装备上放置一个-1防御指示物。\n若暴露于元素以一张冰牌融合，摧毁目标英雄控制的防御为0的一件装备，除非其支付2点资源。",
-      "text_en": "Earth and/or Ice Fusion\nIf Exposed to the Elements was fused with an Earth card, put a -1{d} counter on target equipment.\nIf Exposed to the Elements was fused with an Ice card, destroy an equipment with 0{d} controlled by target hero unless they pay {r}{r}.",
+      "text_en": "Earth and/or Ice Fusion\nIf this was fused with an Earth card, put a -1{d} counter on target equipment.\nIf this was fused with an Ice card, destroy an equipment with 0{d} controlled by target hero unless they pay {r}{r}.",
       "source": "https://cards.fabtcg.com/card/exposed_to_the_elements/",
       "status": "machine-draft",
       "keywords": [
@@ -1307,6 +1329,29 @@
         }
       }
     },
+    "ice_aged_oak": {
+      "id": "ice_aged_oak",
+      "name_zh": "冰龄橡树",
+      "name_en": "Ice Aged Oak",
+      "type_zh": "大地 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌命中英雄时，创造一个大地化身衍生物。\n冰霜羁绊——若你为使用此牌而投入过一张冰牌，此牌获得支配和“当此牌命中英雄时，在其每个暴露的头部、胸部、手臂和腿部区各创造一个霜咬衍生物。”",
+      "text_en": "When this hits a hero, create an Embodiment of Earth token.\nIce Bond - If an Ice card was pitched to play this, this gets dominate and \"When this hits a hero, create a Frostbite token in each of their exposed head, chest, arms, and legs zones.\"",
+      "source": "https://cards.fabtcg.com/card/ice_aged_oak/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ice Bond",
+        "Dominate"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
     "ice_quake": {
       "id": "ice_quake",
       "name_zh": "冰震",
@@ -1473,8 +1518,8 @@
       "name_en": "Korshem, Crossroad of Elements",
       "type_zh": "元素 行动·地标",
       "type_en": "",
-      "text_zh": "传奇\n再动\n每当一位英雄展示1张或更多牌时，该英雄选择其一；获得1点资源，或获得1点生命，或本回合其下一次攻击获得+1力量，或本回合其用于防御的下一张行动牌获得+1防御。\n在结束阶段开始时，若没有英雄因牌效果获得过资源或生命，且没有英雄控制的牌或衍生物本回合获得过力量或防御加成，摧毁元素十字路口·科尔谢姆。",
-      "text_en": "Legendary\nGo again\nWhenever a hero reveals 1 or more cards, they choose 1; Gain {r}, or gain 1{h}, or their next attack this turn gains +1{p}, or the next action card they defend with this turn gains +1{d}.\nAt the beginning of the end phase, if no hero has gained {r} or {h} from a card effect and no card or token controlled by a hero has had {p} or {d} increased this turn, destroy Korshem, Crossroads of the Elements.",
+      "text_zh": "传奇\n再动\n每当一位英雄展示1张或更多牌时，该英雄选择其一；获得1点资源，或获得1点生命，或本回合其下一次攻击获得+1力量，或本回合其用于防御的下一张行动牌获得+1防御。\n在结束阶段开始时，若没有英雄因效应获得过资源或生命，且没有英雄控制的牌本回合获得过力量或防御加成，摧毁元素十字路口·科尔谢姆。",
+      "text_en": "Legendary\nGo again\nWhenever a hero reveals 1 or more cards, they gain {r}, or gain 1{h}, or their next attack this turn gets +1{p}, or the next action card they defend with this turn gets +1{d}.\nAt the beginning of the end phase, if no hero has gained {r} or {h} from an effect and no card controlled by a hero has had {p} or {d} increased this turn, destroy this.",
       "source": "https://cards.fabtcg.com/card/korshem_crossroad_of_elements/",
       "status": "machine-draft",
       "keywords": [
@@ -1782,7 +1827,7 @@
       "type_zh": "元素 行动",
       "type_en": "",
       "text_zh": "获得3点生命。\n若本回合你融合过，你可以将恢复活力当作瞬间使用。",
-      "text_en": "Gain 3{h}\nIf you've fused this turn, you may play Rejuvenate as though it were an instant.",
+      "text_en": "Gain 3{h}\nIf you've fused this turn, you may play this as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/rejuvenate/",
       "status": "machine-draft",
       "keywords": [],
@@ -2166,7 +2211,7 @@
       "type_zh": "大地 行动",
       "type_en": "",
       "text_zh": "作为使用丰收之书的额外费用，将你军械库中的一张牌置于你的牌库底。\n抽3张牌。\n再动",
-      "text_en": "As an additional cost to play Tome of Harvests, put a card from your arsenal on the bottom of your deck.\nDraw 3 cards.\nGo again",
+      "text_en": "As an additional cost to play this, put a card from your arsenal on the bottom of your deck.\nDraw 3 cards.\nGo again",
       "source": "https://cards.fabtcg.com/card/tome_of_harvests/",
       "status": "machine-draft",
       "keywords": [

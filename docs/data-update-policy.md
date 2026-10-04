@@ -31,7 +31,7 @@ data/source/english/card-reference.json
 
 ~~~
 data/cards.en.json
-data/talishar-card-aliases.json
+data/fabtcg-card-aliases.json
 dist/data/
 ~~~
 
@@ -52,7 +52,7 @@ git status --short
 git remote -v
 ~~~
 
-如果 data/source/english/、data/cards.en.json、data/talishar-card-aliases.json 或 dist/data/ 有未提交改动，先停止并报告，不能覆盖。其他不相关的用户改动必须保留。
+如果 data/source/english/、data/cards.en.json、data/fabtcg-card-aliases.json 或 dist/data/ 有未提交改动，先停止并报告，不能覆盖。其他不相关的用户改动必须保留。
 
 ### 步骤二：获取上游快照
 
@@ -171,15 +171,17 @@ card-reference.json：<before hash> -> <after hash>
 
 ## 3. 当前基线核对结果
 
-截至 2026-08-10：
+截至 2026-10-02：
 
-- 当前上游基线：`usurp-the-shadow-throne` @ `91e597aaaf2d743e981a42ac5df1ffc3f3dd8589`；这是纳入翻译计划的 spoiler 快照；
-- `data/source/english/card.json`：旧源 4,941 条 -> 新源 4,976 条；按 `unique_id` 新增 35、删除 0、字段变化 20；
-- 当前 `card.json` hash：`a4c0542d7838c2ecfff3efa087c077c85f8152fe485a0f1081d76869369419f4`；
-- 当前 `card-reference.json` hash：`1fae050d5e6b8e28e9b2eba53eb83ea830f67f0bd6d0058b188d05b7ca4788bc`；
-- 新增 spoiler 已按既有批次补入 35 个翻译条目（含 hero），只补缺失 key；已有翻译未被重写；
-- 20 张已有卡的英文正文、名称或 printing 变化仅进入英文源，未自动覆盖中文正文，待后续人工翻译批次核对；
-- FaBrary 和 Armory Deck 页面仍只作交叉核对；只要上游 spoiler 分支已有数据，就通过该分支进入本项目，不直接从页面抄写。
+- 当前上游基线：`usurp-the-shadow-throne` @ `01fc9344a612a41e5dc451ccc1422050a25a2667`；仍为项目已采用的 spoiler 分支。
+- 英文源：4,976 → 5,196 条；按 `unique_id` 新增 220、删除 0、已有字段变化 4,857。
+- 当前 `card.json` SHA-256：`06efd3ec22a15fee54c1640d036bb76160391d5d0ba313bb38627d9dbdf75136`。
+- 当前 `card-reference.json` SHA-256：`02733684c0e80f69d2020bd558239face42a1409e9411968af40a4889eaa3bf9`。
+- 新增 220 条中文机器稿（含 4 个英雄），补全 3 条直接相关的旧空白机器稿；均待人工确认。
+- 已应用 5 张卡／9 个版本的内部译名校对，修正 11 条元数据和 23 条已有正文。其他已有译文未批量改写。
+- 已重建 3,328 张合并卡牌，manifest `d0bd860c2a5e`；规则变化和待复核项见 [本次更新报告](data-updates/2026-10-02.md) 与 [逐条复核数据](data-updates/2026-10-02-review.json)。
+- 同日跟进核对 60 条优先项并补全 38 条旧空白机器稿；另同步 233 条严格等价措辞的英文存档，修正 16 条触发／范围正文。145 条人工确认记录不变，剩余 1,462 条英文差异见[跟进报告](data-updates/2026-10-02-followup.md)。
+- FaBrary 和预览页面仍只作交叉核对，不替代上游 JSON。
 
 ## 4. 给 Agent 的执行指令
 

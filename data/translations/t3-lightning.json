@@ -1640,5 +1640,18 @@
     "defense": "",
     "source": "https://cards.fabtcg.com/card/channel_lightning_valley/",
     "status": "machine-draft"
+  },
+  "channel_stormgarden__2": {
+    "name_en": "Channel Stormgarden",
+    "name_zh": "引导风暴花园",
+    "type_zh": "闪电 瞬间·光环",
+    "text_en": "When this enters the arena, create a Lightning Flow token.\nThe first time you destroy a Lightning Flow each turn, amp 1.\nChannel Lightning - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put a Lightning card from your pitch zone on the bottom of your deck for each flow counter on it.",
+    "text_zh": "当此牌进入竞技场时，创造一个闪电流转衍生物。\n每回合第一次你摧毁一个闪电流转时，增幅1。\n闪电引导——在你的结束阶段开始时，在此牌上放置一个流动指示物，然后摧毁此牌，除非你为其上的每个流动指示物各将一张闪电牌从你的资源区置于你的牌库底。",
+    "pitch": "2",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/channel_stormgarden/",
+    "status": "machine-draft"
   }
 }

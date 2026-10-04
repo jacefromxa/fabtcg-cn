@@ -1,5 +1,5 @@
 {
-  "name": "talishar-cn-tooltip-probe",
+  "name": "fabtcg-cn-tooltip-probe",
   "private": true,
   "scripts": {
     "test": "node --test",

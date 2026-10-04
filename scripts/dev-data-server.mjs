@@ -54,7 +54,7 @@ const server = http.createServer((req, res) => {
 
   if (!relative) {
     res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
-    res.end('Talishar CN Data Server OK');
+    res.end('FABTCG CN Data Server OK');
     return;
   }
 
@@ -101,7 +101,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, '127.0.0.1', () => {
-  console.log(`Talishar CN data server running at http://127.0.0.1:${port}/`);
+  console.log(`FABTCG CN data server running at http://127.0.0.1:${port}/`);
   console.log(`Serving: ${dataDir}`);
   console.log(`Try:   http://127.0.0.1:${port}/manifest.json`);
 });

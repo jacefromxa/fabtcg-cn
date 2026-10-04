@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "absorption_dome": {
       "id": "absorption_dome",
@@ -8,8 +8,8 @@
       "name_en": "Absorption Dome",
       "type_zh": "机械师 行动·物品",
       "type_en": "",
-      "text_zh": "吸收穹顶进入竞技场时带有与你本回合推进次数等量的蒸汽指示物。\n若你的英雄将受到伤害，改为从吸收穹顶上移除等量的蒸汽指示物，然后防止与此方式移除的蒸汽指示物数量相等的伤害。\n当吸收穹顶上的蒸汽指示物用完时，摧毁它。",
-      "text_en": "Absorption Dome enters the arena with steam counters on it equal to the number of times you have boosted this turn.\nIf your hero would be dealt damage, remove that many steam counters from Absorption Dome instead, then prevent damage equal to the number of steam counters removed this way.\nWhen Absorption Dome has no steam counters on it, destroy it.",
+      "text_zh": "此牌进入竞技场时带有等同于你本回合推进次数的蒸汽指示物。\n若你将受到伤害，改为从此牌上移除等量的蒸汽指示物，并防止该来源将造成的伤害，数额等同于以此方式移除的蒸汽指示物数量。\n当此牌上没有蒸汽指示物时，摧毁它。",
+      "text_en": "This enters the arena with steam counters on it equal to the number of times you've boosted this turn.\nIf you would be dealt damage, instead remove that many steam counters from this and prevent damage that source would deal equal to the number of steam counters removed this way.\nWhen this has no steam counters on it, destroy it.",
       "source": "https://cards.fabtcg.com/card/absorption_dome/",
       "status": "machine-draft",
       "keywords": [],
@@ -362,7 +362,7 @@
       "type_zh": "机械师 行动·光环",
       "type_en": "",
       "text_zh": "在你的回合开始时，摧毁巧思祝福，然后将你坟场和/或放逐区中的至多3张超频驱动器放入竞技场。",
-      "text_en": "At the start of your turn, destroy Blessing of Ingenuity then put up to 3 Hyper Drivers from your graveyard and/or banished zone into the arena.",
+      "text_en": "At the start of your turn, destroy this then put up to 3 Hyper Drivers from your graveyard and/or banished zone into the arena.",
       "source": "https://cards.fabtcg.com/card/blessing_of_ingenuity/",
       "status": "machine-draft",
       "keywords": [],
@@ -706,6 +706,26 @@
         }
       }
     },
+    "cogwerx_prong_bot": {
+      "id": "cogwerx_prong_bot",
+      "name_zh": "齿轮工坊叉齿机",
+      "name_en": "Cogwerx Prong Bot",
+      "type_zh": "机械师 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌命中英雄时，你可以在一个你控制的、具有上弦的物品上放置一个蒸汽指示物。\n瞬间——{r}，弃置此牌：创造一个金齿轮衍生物。",
+      "text_en": "When this hits a hero, you may put a steam counter on an item you control with crank.\nInstant - {r}, discard this: Create a Golden Cog token.",
+      "source": "https://cards.fabtcg.com/card/cogwerx_prong_bot/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
     "cogwerx_workshop": {
       "id": "cogwerx_workshop",
       "name_zh": "齿轮工坊车间",
@@ -946,7 +966,7 @@
       "type_zh": "机械师 行动·攻击",
       "type_en": "",
       "text_zh": "推进\n当此牌命中时，占卜1。",
-      "text_en": "Boost\nWhen this hits, opt 1.",
+      "text_en": "Boost\nWhen this hits, opt 1",
       "source": "https://cards.fabtcg.com/card/data_link/",
       "status": "machine-draft",
       "keywords": [
@@ -1079,7 +1099,7 @@
       "type_zh": "机械师 行动·攻击",
       "type_en": "",
       "text_zh": "推进\n当此牌命中时，占卜1。",
-      "text_en": "Boost\nWhen this hits, opt 1.",
+      "text_en": "Boost\nWhen this hits, opt 1",
       "source": "https://cards.fabtcg.com/card/dive_through_data/",
       "status": "machine-draft",
       "keywords": [
@@ -1169,8 +1189,8 @@
       "name_en": "Expedite",
       "type_zh": "机械师 行动·攻击",
       "type_en": "",
-      "text_zh": "推进\n当此牌命中时，你可以将你手牌中一张费用为0或1的物品放入竞技场。",
-      "text_en": "Boost\nWhen this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+      "text_zh": "推进\n当此牌命中时，你可以将你手牌中一张费用为1或更低的物品放入竞技场。",
+      "text_en": "Boost\nWhen this hits, you may put an item with cost 1 or less from your hand into the arena.",
       "source": "https://cards.fabtcg.com/card/expedite/",
       "status": "machine-draft",
       "keywords": [
@@ -1246,7 +1266,7 @@
       "type_zh": "机械师 行动·攻击",
       "type_en": "",
       "text_zh": "推进\n此牌获得+X力量，X为防御它的装备数量。",
-      "text_en": "Boost\nThis gets +X{p}, where X is the number of equipment defending it.",
+      "text_en": "Boost\nThis gets +1{p} for each equipment defending it.",
       "source": "https://cards.fabtcg.com/card/fender_bender/",
       "status": "machine-draft",
       "keywords": [
@@ -1795,8 +1815,8 @@
       "name_en": "Heist",
       "type_zh": "机械师 行动·攻击",
       "type_en": "",
-      "text_zh": "推进\n当此牌命中英雄时，你可以将任意放逐区中一张费用为0或1的物品放入你控制下的竞技场。",
-      "text_en": "Boost\nWhen this hits a hero, you may put an item with cost 0 or 1 from any banished zone into the arena under your control.",
+      "text_zh": "推进\n当此牌命中英雄时，你可以将任意放逐区中一张费用为1或更低的物品放入你控制下的竞技场。",
+      "text_en": "Boost\nWhen this hits a hero, you may put an item with cost 1 or less from any banished zone into the arena under your control.",
       "source": "https://cards.fabtcg.com/card/heist/",
       "status": "machine-draft",
       "keywords": [
@@ -1974,7 +1994,7 @@
       "source": "https://cards.fabtcg.com/card/hyper_scrapper/",
       "status": "machine-draft",
       "keywords": [
-        "Go Again"
+        "Go again"
       ],
       "variants": {
         "3": {
@@ -2318,7 +2338,7 @@
       "type_zh": "机械师 行动·攻击",
       "type_en": "",
       "text_zh": "仅当本回合你推进过三次或更多时才能使用此牌。",
-      "text_en": "Play this only if you've boosted 3 or more times this turn.",
+      "text_en": "Play this only If you've boosted 3 or more times this turn.",
       "source": "https://cards.fabtcg.com/card/maximum_velocity/",
       "status": "machine-draft",
       "keywords": [],
@@ -2338,7 +2358,7 @@
       "type_zh": "机械师 行动·攻击",
       "type_en": "",
       "text_zh": "进化升级——此牌获得+X力量，X为你已装备的进化装备数量。",
-      "text_en": "Evo Upgrade - This gets +X{p}, where X is the number of Evos you have equipped.",
+      "text_en": "Evo Upgrade - This gets +1{p} for each Evo you have equipped.",
       "source": "https://cards.fabtcg.com/card/mechanical_strength/",
       "status": "machine-draft",
       "keywords": [
@@ -2396,7 +2416,7 @@
       "source": "https://cards.fabtcg.com/card/meganetic_lockwave/",
       "status": "machine-draft",
       "keywords": [
-        "Go Again"
+        "Go again"
       ],
       "variants": {
         "3": {
@@ -2455,8 +2475,8 @@
       "name_en": "MetEx",
       "type_zh": "机械师 行动·攻击",
       "type_en": "",
-      "text_zh": "推进\n当此牌命中时，你可以将你手牌中一张费用为0或1的物品放入竞技场。",
-      "text_en": "Boost\nWhen this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+      "text_zh": "推进\n当此牌命中时，你可以将你手牌中一张费用为1或更低的物品放入竞技场。",
+      "text_en": "Boost\nWhen this hits, you may put an item with cost 1 or less from your hand into the arena.",
       "source": "https://cards.fabtcg.com/card/metex/",
       "status": "machine-draft",
       "keywords": [
@@ -2701,7 +2721,7 @@
       "type_zh": "机械师 行动·攻击",
       "type_en": "",
       "text_zh": "过爆获得+X力量，X为本战斗链中你推进的次数。",
-      "text_en": "Overblast gains +X{p}, where X is the number of times you have boosted this combat chain.",
+      "text_en": "This gets +1{p} for each time you've boosted this combat chain.",
       "source": "https://cards.fabtcg.com/card/overblast/",
       "status": "machine-draft",
       "keywords": [],
@@ -2940,8 +2960,8 @@
       "name_en": "Plasma Barrel Shot",
       "type_zh": "机械师 武器·Gun （双手）",
       "type_en": "",
-      "text_zh": "每回合一次行动——从等离子炮膛射击上移除一个蒸汽指示物：攻击\n行动——支付2点资源：若等离子炮膛射击上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动\nX为1加上本战斗链中你推进的次数。",
-      "text_en": "Once per Turn Action - Remove a steam counter from Plasma Barrel Shot: Attack\nAction - {r}{r}: If there are no steam counters on Plasma Barrel Shot, put a steam counter on it. Go again\nX is equal to 1 plus the number of times you have boosted this combat chain.",
+      "text_zh": "每回合一次行动——从等离子炮膛射击上移除一个蒸汽指示物：攻击\n行动——支付2点资源：若等离子炮膛射击上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动\n此牌的力量等于1加上本战斗链中你推进的次数。",
+      "text_en": "Once per Turn Action - Remove a steam counter from this: Attack\nAction - {r}{r}: If this has no steam counters, put a steam counter on it. Go again\nThis card's {p} is equal to 1 plus the number of times you've boosted this combat chain.",
       "source": "https://cards.fabtcg.com/card/plasma_barrel_shot/",
       "status": "machine-draft",
       "keywords": [],
@@ -3023,7 +3043,7 @@
       "type_zh": "机械师 行动",
       "type_en": "",
       "text_zh": "将你手牌中一张费用为2或更低的机械师物品放入竞技场。\n若本回合你推进过，在其上放置一个蒸汽指示物。\n再动",
-      "text_en": "Put a Mechanologist item with cost 2 or less from your hand into the arena.\nIf you have boosted this turn, put a steam counter on it.\nGo again",
+      "text_en": "Put a Mechanologist item with cost 2 or less from your hand into the arena.\nIf you've boosted this turn, put a steam counter on it.\nGo again",
       "source": "https://cards.fabtcg.com/card/pour_the_mold/",
       "status": "machine-draft",
       "keywords": [
@@ -3059,7 +3079,7 @@
       "type_zh": "机械师 行动·物品",
       "type_en": "",
       "text_zh": "每当你控制的机械师枪命中时，你可以摧毁火药桶和一件防御装备。",
-      "text_en": "Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.",
+      "text_en": "Whenever a Mechanologist gun you control hits, you may destroy this and a defending equipment.",
       "source": "https://cards.fabtcg.com/card/powder_keg/",
       "status": "machine-draft",
       "keywords": [],
@@ -3144,8 +3164,8 @@
       "name_en": "Quantum Processor",
       "type_zh": "机械师 行动·物品",
       "type_en": "",
-      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n每回合一次瞬间——费用0：将你手牌中一张费用为0或1的机械师物品放入竞技场。",
-      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nOnce per Turn Instant - 0: Put a Mechanologist item with cost 0 or 1 from your hand into the arena.",
+      "text_zh": "上弦\n此牌进入竞技场时带有一个蒸汽指示物。在你的回合开始时，除非你从此牌上移除一个蒸汽指示物，否则摧毁它。\n每回合一次瞬间——费用0：将你手牌中一张费用为1或更低的机械师物品放入竞技场。",
+      "text_en": "Crank\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\nOnce per Turn Instant - 0: Put a Mechanologist item with cost 1 or less from your hand into the arena.",
       "source": "https://cards.fabtcg.com/card/quantum_processor/",
       "status": "machine-draft",
       "keywords": [
@@ -3935,7 +3955,7 @@
       "type_zh": "机械师 行动·攻击",
       "type_en": "",
       "text_zh": "推进\n若本回合你控制的一个物品被摧毁过，此牌获得+2力量。\n激励——当此牌防御时，你可以摧毁你控制的一个物品。若如此做，此牌获得+2防御。",
-      "text_en": "Boost\nIf an item you control has been destroyed this turn, this gets +2{p}.\nGalvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d).",
+      "text_en": "Boost\nIf an item you control has been destroyed this turn, this gets +2{p}.\nGalvanize - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
       "source": "https://cards.fabtcg.com/card/steel_street_hoons/",
       "status": "machine-draft",
       "keywords": [
@@ -4017,8 +4037,8 @@
       "name_en": "System Reset",
       "type_zh": "机械师 行动",
       "type_en": "",
-      "text_zh": "放逐你控制的费用为0或1的X个机械师物品，然后将其在其拥有者的控制下移回竞技场。",
-      "text_en": "Banish X Mechanologist items you control with cost 0 or 1, then return them to the arena under their owners' control.",
+      "text_zh": "放逐你控制的费用为1或更低的X个机械师物品，然后将其在其拥有者的控制下移回竞技场。",
+      "text_en": "Banish X Mechanologist items you control with cost 1 or less, then return them to the arena under their owners' control.",
       "source": "https://cards.fabtcg.com/card/system_reset/",
       "status": "machine-draft",
       "keywords": [],
@@ -4260,7 +4280,7 @@
       "type_zh": "机械师 行动",
       "type_en": "",
       "text_zh": "占卜X，X为本回合你推进的次数。\n展示你牌库顶的一张牌。若其为费用为2或更低的机械师物品牌，将其放入竞技场。",
-      "text_en": "Opt X, where X is the number of times you have boosted this turn.\nReveal the top card of your deck. If it's a Mechanologist item card with cost 2 or less, put it into the arena.",
+      "text_en": "Opt X, where X is the number of times you've boosted this turn.\nReveal the top card of your deck. If it's a Mechanologist item card with cost 2 or less, put it into the arena.",
       "source": "https://cards.fabtcg.com/card/teklovossens_workshop/",
       "status": "machine-draft",
       "keywords": [

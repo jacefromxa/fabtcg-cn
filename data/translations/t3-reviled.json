@@ -588,7 +588,7 @@
     "name_en": "The Old Switcheroo",
     "name_zh": "偷梁换柱",
     "type_zh": "憎恶 行动·攻击",
-    "text_en": "Instant - Discard this: the next time you would clash with target hero this turn, instead you reveal the top card of their deck and they reveal the top card of your deck. If you win the clash, they discard a card.",
+    "text_en": "Instant - Discard this: The next time you would clash with target hero this turn, instead you reveal the top card of their deck and they reveal the top card of your deck. If you win the clash, they discard a card.",
     "text_zh": "瞬间——弃掉此牌：本回合你下一次将与目标英雄交锋时，改为你展示其牌库顶的一张牌，该英雄展示你牌库顶的一张牌。若你赢得该交锋，该英雄弃一张牌。",
     "pitch": "3",
     "cost": "0",
@@ -673,6 +673,19 @@
     "power": null,
     "defense": "2",
     "source": "https://cards.fabtcg.com/card/villainous_pose/",
+    "status": "machine-draft"
+  },
+  "hoodwink__3": {
+    "name_en": "Hoodwink",
+    "name_zh": "蒙骗",
+    "type_zh": "憎恶 行动·攻击",
+    "text_en": "Instant - Discard this and any number of other cards: Prevent the next X arcane damage that would be dealt to you this turn, where X is the total base {d} of cards discarded this way.",
+    "text_zh": "瞬间——弃置此牌和任意数量的其他牌：防止本回合接下来将对你造成的X点秘法伤害，X为以此方式弃置的牌的基础{d}总和。",
+    "pitch": "3",
+    "cost": "0",
+    "power": "1",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/hoodwink/",
     "status": "machine-draft"
   }
 }

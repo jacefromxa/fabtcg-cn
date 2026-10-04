@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "ancestral_empowerment": {
       "id": "ancestral_empowerment",
@@ -440,7 +440,7 @@
       "type_zh": "刺客·忍者 行动·攻击",
       "type_en": "",
       "text_zh": "此牌的使用费用减少X点资源，X为本战斗链中你用匕首造成的伤害总量。\n再动",
-      "text_en": "Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.\nGo again",
+      "text_en": "This costs {x} less to play, where X is the total damage you've dealt with daggers this combat chain.\nGo again",
       "source": "https://cards.fabtcg.com/card/bleed_out/",
       "status": "machine-draft",
       "keywords": [
@@ -1261,7 +1261,7 @@
       "type_zh": "龙裔 忍者 行动·攻击",
       "type_en": "",
       "text_zh": "当吞噬火焰浪命中时，展示你牌库顶的一张牌。若其为费用小于你控制的龙裔链环数量的攻击行动牌，放逐它。本回合你可以使用它。\n再动",
-      "text_en": "When Engulfing Flamewave hits, reveal the top card of your deck. If it's an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.\nGo again",
+      "text_en": "When this hits, reveal the top card of your deck. If it's an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/engulfing_flamewave/",
       "status": "machine-draft",
       "keywords": [
@@ -1339,7 +1339,7 @@
       "type_zh": "忍者 行动·攻击",
       "type_en": "",
       "text_zh": "连击——若鹤舞是本战斗链的最后一次攻击，寻真中心不能被费用少于你控制的链环数量的牌防御，并获得“若此牌命中，创造一个禅定衍生物。”",
-      "text_en": "Combo - If Crane Dance was the last attack this combat chain, Find Center can't be defended by cards with {r} cost less than the number of chain links you control, and it gains \"If this hits, create a Zen State token.\"",
+      "text_en": "Combo - If Crane Dance was the last attack this combat chain, this can't be defended by cards with cost less than the number of chain links you control and it gets \"When this hits, create a Zen State token.\"",
       "source": "https://cards.fabtcg.com/card/find_center/",
       "status": "machine-draft",
       "keywords": [
@@ -2112,7 +2112,7 @@
       "type_zh": "忍者 行动·攻击",
       "type_en": "",
       "text_zh": "卡兹专精\n连击——若无限之师：解放是本战斗链的最后一次攻击，作为使用风之领主的额外费用，你可以支付任意数量的资源。若如此做，将你坟场中相应数量的名为激涌打击、汹涌阵风波和/或无限之师：解放的目标牌洗入你的牌库，然后风之领主获得等量力量。",
-      "text_en": "Katsu Specialization\nCombo - If Mugenshi: RELEASE was the last attack this combat chain, as an additional cost to play Lord of Wind, you may pay any amount of {r}. If you do, shuffle that many target cards named Surging Strike, Whelming Gustwave and/or Mugenshi: RELEASE from your graveyard into your deck, then Lord of Wind gains that much {p}.",
+      "text_en": "Katsu Specialization\nCombo - If Mugenshi: RELEASE was the last attack this combat chain, as an additional cost to play this, you may pay {x}.\nWhen the additional cost is paid, shuffle X target cards named Surging Strike, Whelming Gustwave, and/or Mugenshi: RELEASE from your graveyard into your deck, then this gets +X{p}.",
       "source": "https://cards.fabtcg.com/card/lord_of_wind/",
       "status": "machine-draft",
       "keywords": [
@@ -2911,7 +2911,7 @@
       "type_zh": "龙裔 忍者 行动·攻击",
       "type_en": "",
       "text_zh": "当攀升的怨恨命中时，你可以放逐你手牌中一张费用小于你控制的龙裔链环数量的攻击行动牌。若如此做，它的使用费用减少1点资源，且本回合你可以使用它。\n再动",
-      "text_en": "When Rising Resentment hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it costs {r} less to play and you may play it this turn.\nGo again",
+      "text_en": "When this hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it costs {r} less to play and you may play it this turn.\nGo again",
       "source": "https://cards.fabtcg.com/card/rising_resentment/",
       "status": "machine-draft",
       "keywords": [
@@ -3383,7 +3383,7 @@
       "type_zh": "忍者 行动·攻击",
       "type_en": "",
       "text_zh": "本吉专精\n当春日喜讯命中时，你控制的战斗链上每有一张另一张基础力量为2或更低的攻击行动牌，抽一张牌。\n再动",
-      "text_en": "Benji Specialization\nWhen Spring Tidings hits, draw a card for each other attack action card with 2 or less base {p} you control on the combat chain.\nGo again",
+      "text_en": "Benji Specialization\nWhen this hits, draw a card for each other attack action card with 2 or less base {p} you control on the combat chain.\nGo again",
       "source": "https://cards.fabtcg.com/card/spring_tidings/",
       "status": "machine-draft",
       "keywords": [
@@ -3414,6 +3414,29 @@
           "pitch": "3",
           "cost": "0",
           "power": "2",
+          "defense": "3"
+        }
+      }
+    },
+    "stoke_vengeance": {
+      "id": "stoke_vengeance",
+      "name_zh": "煽动复仇",
+      "name_en": "Stoke Vengeance",
+      "type_zh": "忍者 行动·攻击",
+      "type_en": "",
+      "text_zh": "连击——若秋之刃是此战斗链中的上一次攻击，此牌获得再动和“当此牌命中时，你在此战斗链中的下一次攻击获得+2{p}。”",
+      "text_en": "Combo - If Edge of Autumn was the last attack this combat chain, this gets go again and \"When this hits, your next attack this combat chain gets +2{p}.\"",
+      "source": "https://cards.fabtcg.com/card/stoke_vengeance/",
+      "status": "machine-draft",
+      "keywords": [
+        "Combo",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
           "defense": "3"
         }
       }
@@ -3538,7 +3561,7 @@
       "type_zh": "忍者 行动·攻击",
       "type_en": "",
       "text_zh": "当掌握节奏命中时，若本战斗链中你命中过3次或更多，放逐你牌库顶的一张牌。若其为攻击行动牌，直到你的下一个回合结束你可以使用它。",
-      "text_en": "When Take the Tempo hits, if you've hit 3 or more times this combat chain, banish the top card of your deck. If it's an attack action card, you may play it until the end of your next turn.",
+      "text_en": "When this hits, if you've hit 3 or more times this combat chain, banish the top card of your deck. If it's an attack action card, you may play it until the end of your next turn.",
       "source": "https://cards.fabtcg.com/card/take_the_tempo/",
       "status": "machine-draft",
       "keywords": [],
@@ -4180,7 +4203,29 @@
           "cost": "0",
           "power": null,
           "defense": "3",
-          "text_zh": "本回合你使用的下一张卧虎获得+2力量。若本回合你超越过，改为它获得+4力量。\n再动"
+          "text_zh": "本回合你使用的下一张卧虎获得+1力量。若本回合你超越过，改为它获得+3力量。\n再动"
+        }
+      }
+    },
+    "wind_slicer": {
+      "id": "wind_slicer",
+      "name_zh": "切风镖",
+      "name_en": "Wind Slicer",
+      "type_zh": "忍者 瞬间·Shuriken 物品",
+      "type_en": "",
+      "text_zh": "传奇\n行动——{r}，{t}，在战斗链关闭时摧毁此牌：攻击。再动\n当此牌命中英雄时，该英雄在其下个行动阶段中失去所有英雄牌异能。",
+      "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nWhen this hits a hero, they lose all hero card abilities during their next action phase",
+      "source": "https://cards.fabtcg.com/card/wind_slicer/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
         }
       }
     },

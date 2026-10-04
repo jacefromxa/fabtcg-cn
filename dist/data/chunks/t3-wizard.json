@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "absorb_in_aether": {
       "id": "absorb_in_aether",
@@ -183,7 +183,7 @@
       "type_zh": "元素 法师 行动",
       "type_en": "",
       "text_zh": "冰融合\n对任意目标造成5点奥术伤害。若以太冰脉已融合并对英雄造成伤害，该英雄弃一张牌，除非其支付2点资源。",
-      "text_en": "Ice Fusion\nDeal 5 arcane damage to any target. If Aether Icevein was fused and deals damage to a hero, they discard a card unless they pay {r}{r}.",
+      "text_en": "Ice Fusion\nDeal 5 arcane damage to any target. If this was fused and deals damage to a hero, they discard a card unless they pay {r}{r}.",
       "source": "https://cards.fabtcg.com/card/aether_icevein/",
       "status": "machine-draft",
       "keywords": [
@@ -256,7 +256,7 @@
       "type_zh": "法师 行动",
       "type_en": "",
       "text_zh": "对目标对手英雄造成4点奥术伤害。\n占卜X，X为以太纺锤造成的伤害。",
-      "text_en": "Deal 4 arcane damage to target opposing hero.\nOpt X, where X is the damage dealt by Aether Spindle.",
+      "text_en": "Deal 4 arcane damage to target opposing hero.\nOpt X, where X is the damage dealt by this.",
       "source": "https://cards.fabtcg.com/card/aether_spindle/",
       "status": "machine-draft",
       "keywords": [
@@ -312,7 +312,7 @@
       "type_zh": "法师 瞬间",
       "type_en": "",
       "text_zh": "无效目标费用为1点资源或更低的瞬间牌。",
-      "text_en": "Negate target instant card with cost {r} or less.",
+      "text_en": "Negate target instant card with cost 1 or less.",
       "source": "https://cards.fabtcg.com/card/aetherize/",
       "status": "machine-draft",
       "keywords": [
@@ -469,7 +469,7 @@
       "type_zh": "法师 行动·光环",
       "type_en": "",
       "text_zh": "在你的回合开始时，摧毁以太祝福，然后若本回合你使用的下一张牌具有奥术伤害效果，改为它造成等量加3的奥术伤害。",
-      "text_en": "At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.",
+      "text_en": "At the start of your turn, destroy this then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.",
       "source": "https://cards.fabtcg.com/card/blessing_of_aether/",
       "status": "machine-draft",
       "keywords": [],
@@ -503,7 +503,7 @@
       "type_zh": "元素 法师 行动",
       "type_en": "",
       "text_zh": "冰融合\n目标对手展示其手牌。若脑冻结已融合，将其手牌中一张费用为2或更低的行动牌置于其牌库顶。",
-      "text_en": "Ice Fusion\nTarget opponent reveals their hand. If Brain Freeze was fused, put an action card with cost 2 or less from their hand on top of their deck.",
+      "text_en": "Ice Fusion\nTarget opponent reveals their hand. If this was fused, put an action card with cost 2 or less from their hand on top of their deck.",
       "source": "https://cards.fabtcg.com/card/brain_freeze/",
       "status": "machine-draft",
       "keywords": [
@@ -1466,14 +1466,14 @@
           "cost": "1",
           "power": null,
           "defense": "3",
-          "text_zh": "对目标英雄造成X+2点奥术伤害，X为你控制的名称中含有印记的光环永久物数量。\n激涌——若此牌造成超过3点伤害，获得1点生命，然后将你控制的名称中含有印记的所有光环永久物洗入其拥有者的牌库。"
+          "text_zh": "对目标英雄造成X+2点奥术伤害，X为你控制的名称中含有印记的光环永久物数量。\n激涌——若此牌造成超过2点伤害，获得1点生命，然后将你控制的名称中含有印记的所有光环永久物洗入其拥有者的牌库。"
         },
         "3": {
           "pitch": "3",
           "cost": "1",
           "power": null,
           "defense": "3",
-          "text_zh": "对目标英雄造成X+1点奥术伤害，X为你控制的名称中含有印记的光环永久物数量。\n激涌——若此牌造成超过3点伤害，获得1点生命，然后将你控制的名称中含有印记的所有光环永久物洗入其拥有者的牌库。"
+          "text_zh": "对目标英雄造成X+1点奥术伤害，X为你控制的名称中含有印记的光环永久物数量。\n激涌——若此牌造成超过1点伤害，获得1点生命，然后将你控制的名称中含有印记的所有光环永久物洗入其拥有者的牌库。"
         }
       }
     },
@@ -1616,7 +1616,7 @@
       "type_zh": "元素 法师 行动",
       "type_en": "",
       "text_zh": "冰融合\n对任意目标造成3点奥术伤害。若冰缚已融合并对英雄造成伤害，冻结其军械库中的一张牌，直到你的下一个回合开始。",
-      "text_en": "Ice Fusion\nDeal 3 arcane damage to any target. If Icebind was fused and deals damage to a hero, freeze a card in their arsenal until the start of your next turn.",
+      "text_en": "Ice Fusion\nDeal 3 arcane damage to any target. If this was fused and deals damage to a hero, freeze a card in their arsenal until the start of your next turn.",
       "source": "https://cards.fabtcg.com/card/icebind/",
       "status": "machine-draft",
       "keywords": [
@@ -1728,7 +1728,7 @@
       "type_zh": "法师 行动",
       "type_en": "",
       "text_zh": "卡诺专精\n对目标对手英雄造成3点奥术伤害。\n若熔岩之课造成伤害，你可以从你的牌库中搜寻一张费用小于或等于熔岩之课造成的伤害的法师牌，展示它，然后洗牌并将其置于你的牌库顶。",
-      "text_en": "Kano Specialization\nDeal 3 arcane damage to target opposing hero.\nIf Lesson in Lava deals damage, you may search your deck for a Wizard card with {r} cost equal to or less than the damage dealt by Lesson in Lava, reveal it, then shuffle your deck and put it on top of your deck.",
+      "text_en": "Kano Specialization\nDeal 3 arcane damage to target opposing hero.\nIf this deals damage, you may search your deck for a Wizard card with cost less than or equal to the damage dealt by this, reveal it, then shuffle and put it on top.",
       "source": "https://cards.fabtcg.com/card/lesson_in_lava/",
       "status": "machine-draft",
       "keywords": [],
@@ -2135,7 +2135,7 @@
       "type_zh": "元素 法师 行动",
       "type_en": "",
       "text_zh": "冰融合\n对任意目标造成4点奥术伤害。若极冠已融合并对英雄造成伤害，在其控制下创造一个霜咬衍生物。",
-      "text_en": "Ice Fusion\nDeal 4 arcane damage to any target. If Polar Cap was fused and deals damage to a hero, create a Frostbite token under their control.",
+      "text_en": "Ice Fusion\nDeal 4 arcane damage to any target. If this was fused and deals damage to a hero, create a Frostbite token under their control.",
       "source": "https://cards.fabtcg.com/card/polar_cap/",
       "status": "machine-draft",
       "keywords": [
@@ -2170,8 +2170,8 @@
       "name_en": "Pop the Bubble",
       "type_zh": "法师 行动",
       "type_en": "",
-      "text_zh": "对任意目标造成3点奥术伤害。\n激涌——若此牌对英雄造成超过3点伤害，摧毁其控制的一个光环永久物。",
-      "text_en": "Deal 3 arcane damage to any target.\nSurge - If this deals more than 3 damage to a hero, destroy an aura permanent they control.",
+      "text_zh": "对目标英雄造成3点奥术伤害。\n激涌——若此牌对英雄造成超过3点伤害，摧毁其控制的一个光环永久物。",
+      "text_en": "Deal 3 arcane damage to target hero.\nSurge - If this deals more than 3 damage to a hero, destroy an aura permanent they control.",
       "source": "https://cards.fabtcg.com/card/pop_the_bubble/",
       "status": "machine-draft",
       "keywords": [
@@ -2189,14 +2189,14 @@
           "cost": "0",
           "power": null,
           "defense": "3",
-          "text_zh": "对任意目标造成2点奥术伤害。\n激涌——若此牌对英雄造成超过3点伤害，摧毁其控制的一个光环永久物。"
+          "text_zh": "对目标英雄造成2点奥术伤害。\n激涌——若此牌对英雄造成超过2点伤害，摧毁其控制的一个光环永久物。"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
           "defense": "3",
-          "text_zh": "对任意目标造成1点奥术伤害。\n激涌——若此牌对英雄造成超过3点伤害，摧毁其控制的一个光环永久物。"
+          "text_zh": "对目标英雄造成1点奥术伤害。\n激涌——若此牌对英雄造成超过1点伤害，摧毁其控制的一个光环永久物。"
         }
       }
     },
@@ -2357,7 +2357,7 @@
       "type_zh": "法师 行动·光环",
       "type_en": "",
       "text_zh": "在你的结束阶段开始时，摧毁解读涟漪，然后占卜1、占卜1、占卜1，并抽一张牌。",
-      "text_en": "At the beginning of your end phase, destroy Read the Ripples then opt 1, opt 1, opt 1, and draw a card.",
+      "text_en": "At the beginning of your end phase, destroy this then opt 1, opt 1, opt 1, and draw a card.",
       "source": "https://cards.fabtcg.com/card/read_the_ripples/",
       "status": "machine-draft",
       "keywords": [
@@ -2393,7 +2393,7 @@
       "type_zh": "法师 行动",
       "type_en": "",
       "text_zh": "对目标对手英雄造成3点奥术伤害。\n若回响造成伤害，你可以放逐你手牌中一张费用小于或等于回响造成的伤害的法师“非攻击”行动牌。若如此做，本回合你可以将它当作瞬间使用。",
-      "text_en": "Deal 3 arcane damage to target opposing hero.\nIf Reverberate deals damage, you may banish a Wizard 'non-attack' action card from your hand with {r} cost less than or equal to the damage dealt by Reverberate. If you do, you may play it this turn as though it were an instant.",
+      "text_en": "Deal 3 arcane damage to target opposing hero.\nIf this deals damage, you may banish a Wizard non-attack action card from your hand with cost less than or equal to the damage dealt by this. If you do, you may play it this turn as though it were an instant.",
       "source": "https://cards.fabtcg.com/card/reverberate/",
       "status": "machine-draft",
       "keywords": [],
@@ -2753,7 +2753,7 @@
       "type_zh": "元素 法师 防御反应",
       "type_en": "",
       "text_zh": "冰融合\n若永久冻土印记已融合，本回合你下一次对英雄造成奥术伤害时，在其控制下创造等量的霜咬衍生物。",
-      "text_en": "Ice Fusion\nIf Sigil of Permafrost was fused, the next time you deal arcane damage to a hero this turn, create that many Frostbite tokens under their control.",
+      "text_en": "Ice Fusion\nIf this was fused, the next time you deal arcane damage to a hero this turn, create that many Frostbite tokens under their control.",
       "source": "https://cards.fabtcg.com/card/sigil_of_permafrost/",
       "status": "machine-draft",
       "keywords": [
@@ -2797,6 +2797,26 @@
           "cost": "0",
           "power": null,
           "defense": null
+        }
+      }
+    },
+    "sigil_of_the_muse": {
+      "id": "sigil_of_the_muse",
+      "name_zh": "缪斯印记",
+      "name_en": "Sigil of the Muse",
+      "type_zh": "法师 行动·光环",
+      "type_en": "",
+      "text_zh": "若英雄将在行动阶段抽1张或更多牌，改为由其创造等量的沉思衍生物。\n在你的行动阶段开始时，摧毁此牌并创造一个沉思衍生物。",
+      "text_en": "If a hero would draw 1 or more cards during an action phase, instead they create that many Ponder tokens.\nAt the beginning of your action phase, destroy this and create a Ponder token.",
+      "source": "https://cards.fabtcg.com/card/sigil_of_the_muse/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
         }
       }
     },
@@ -2875,7 +2895,7 @@
       "type_zh": "法师 行动",
       "type_en": "",
       "text_zh": "对目标对手英雄造成3点奥术伤害。\n若音爆造成伤害，查看你牌库顶的一张牌。若其为法师“非攻击”行动牌，你可以放逐它。若如此做，本回合你可以将它当作瞬间使用，且其使用费用减少X点资源，X为音爆造成的伤害。",
-      "text_en": "Deal 3 arcane damage to target opposing hero.\nIf Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 'non-attack' action card, you may banish it. If you do, you may play it this turn as though it were an instant and it costs X resource points less to play, where X is the damage dealt by Sonic Boom.",
+      "text_en": "Deal 3 arcane damage to target opposing hero.\nIf this deals damage, look at the top card of your deck. If it's a Wizard non-attack action card, you may banish it. If you do, you may play it this turn as though it were an instant and it costs {x} less to play, where X is the damage dealt by this.",
       "source": "https://cards.fabtcg.com/card/sonic_boom/",
       "status": "machine-draft",
       "keywords": [],
@@ -3027,7 +3047,7 @@
       "type_zh": "法师 武器·法杖 （双手）",
       "type_en": "",
       "text_zh": "每回合一次行动——支付2点资源：对一位对手英雄造成1点奥术伤害。再动\n你每回合使用的第一张具有奥术伤害效果的牌改为造成等量加X的奥术伤害，X为本回合澎湃以太潮造成的伤害。",
-      "text_en": "Once per Turn Action - {r}{r}: Deal 1 arcane damage to an opposing hero. Go again\nThe first card you play each turn with an arcane damage effect, instead deals that much arcane damage plus X, where X is the damage dealt by Surgent Aethertide this turn.",
+      "text_en": "Once per Turn Action - {r}{r}: Deal 1 arcane damage to an opposing hero. Go again\nThe first card you play each turn with an arcane damage effect, instead deals that much arcane damage plus X, where X is the damage dealt by this card this turn.",
       "source": "https://cards.fabtcg.com/card/surgent_aethertide/",
       "status": "machine-draft",
       "keywords": [],

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "act_of_glory": {
       "id": "act_of_glory",
@@ -337,7 +337,7 @@
       "type_zh": "元素 守护者 防御反应",
       "type_en": "",
       "text_zh": "冰融合\n若刺骨寒风已融合，攻击英雄弃一张牌，除非其支付2点资源。",
-      "text_en": "Ice Fusion\nIf Biting Gale was fused, the attacking hero discards a card unless they pay {r}{r}.",
+      "text_en": "Ice Fusion\nIf this was fused, the attacking hero discards a card unless they pay {r}{r}.",
       "source": "https://cards.fabtcg.com/card/biting_gale/",
       "status": "machine-draft",
       "keywords": [
@@ -1036,7 +1036,7 @@
       "type_zh": "守护者 行动·攻击",
       "type_en": "",
       "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄在其下一个行动阶段期间不能抽牌。",
-      "text_en": "Crush - When this deals 4 or more damage to a hero, they can't draw cards during their next action phase",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, they can't draw cards during their next action phase.",
       "source": "https://cards.fabtcg.com/card/cranial_crush/",
       "status": "machine-draft",
       "keywords": [
@@ -1218,6 +1218,28 @@
           "pitch": "3",
           "cost": "3",
           "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "crushing_headache": {
+      "id": "crushing_headache",
+      "name_zh": "剧烈头痛",
+      "name_en": "Crushing Headache",
+      "type_zh": "守护者 行动·攻击",
+      "type_en": "",
+      "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄展示其军械库和手牌。摧毁其军械库中的所有非攻击行动牌，该英雄弃置以此方式展示的手牌中的所有非攻击行动牌。",
+      "text_en": "Crush - When this deals 4 or more damage to a hero, they reveal their arsenal and hand. Destroy all non-attack action cards in their arsenal, and they discard all non-attack action cards in their hand revealed this way.",
+      "source": "https://cards.fabtcg.com/card/crushing_headache/",
+      "status": "machine-draft",
+      "keywords": [
+        "Crush"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "6",
+          "power": "10",
           "defense": "3"
         }
       }
@@ -2091,6 +2113,28 @@
           "cost": null,
           "power": "3",
           "defense": null
+        }
+      }
+    },
+    "head_banging_chorus": {
+      "id": "head_banging_chorus",
+      "name_zh": "摇头合唱",
+      "name_en": "Head Banging Chorus",
+      "type_zh": "崇敬 守护者 瞬间·光环",
+      "type_en": "",
+      "text_zh": "悬念\n每回合你使用的第一张守护者或崇敬攻击行动牌获得“当此牌命中英雄时，若你没有手牌，抽一张牌。”",
+      "text_en": "Suspense\nThe first Guardian or Revered attack action card you play each turn gets \"When this hits a hero, if you have no cards in hand, draw a card.\"",
+      "source": "https://cards.fabtcg.com/card/head_banging_chorus/",
+      "status": "machine-draft",
+      "keywords": [
+        "Suspense"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
         }
       }
     },
@@ -3232,7 +3276,7 @@
       "type_zh": "元素 守护者 行动",
       "type_en": "",
       "text_zh": "创造3个力量衍生物。\n大地羁绊——若你为使用此牌资源过一张大地牌，改为创造4个力量衍生物。",
-      "text_en": "Create 3 Might tokens.\nEarth Bond - If an Earth card was pitched to play this, instead create 4 Might tokens",
+      "text_en": "Create 3 Might tokens.\nEarth Bond - If an Earth card was pitched to play this, instead create 4 Might tokens.",
       "source": "https://cards.fabtcg.com/card/seeds_of_strength/",
       "status": "machine-draft",
       "keywords": [
@@ -3913,14 +3957,16 @@
           "cost": "2",
           "power": null,
           "defense": "6",
-          "type_zh": "守护者 防御反应"
+          "type_zh": "守护者 防御反应",
+          "text_zh": "作为使用此牌的额外费用，你可以支付{r}{r}{r}{r}。\n若支付了此额外费用，此牌获得+3{d}。"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
           "defense": "5",
-          "type_zh": "守护者 防御反应"
+          "type_zh": "守护者 防御反应",
+          "text_zh": "作为使用此牌的额外费用，你可以支付{r}{r}{r}{r}。\n若支付了此额外费用，此牌获得+3{d}。"
         }
       }
     },
@@ -4399,7 +4445,7 @@
       "type_zh": "守护者 行动·攻击",
       "type_en": "",
       "text_zh": "当重击的力量大于其基础力量时，它获得支配，以及“若此牌命中英雄，该英雄弃一张牌。”",
-      "text_en": "While Thump's {p} is greater than its base {p}, it gains dominate and \"If this hits a hero, they discard a card.\"",
+      "text_en": "If this card's {p} is greater than its base, it gets dominate and \"When this hits a hero, they discard a card.\"",
       "source": "https://cards.fabtcg.com/card/thump/",
       "status": "machine-draft",
       "keywords": [

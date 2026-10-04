@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "arakni": {
       "id": "arakni",
@@ -372,8 +372,8 @@
       "name_en": "Boltyn",
       "type_zh": "",
       "type_en": "Light Warrior Hero - Young",
-      "text_zh": "若本回合你充能过，当你的攻击被攻击行动牌防御时，它们获得+1力量。\n攻击反应——放逐博尔廷灵魂中的一张牌：目标力量大于其基础力量的攻击获得再动。",
-      "text_en": "If you've charged this turn, your attacks get +1{p} while defended by an attack action card.\nAttack Reaction - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains go again.",
+      "text_zh": "若本回合你冲锋过，当你的攻击被攻击行动牌防御时，它们获得+1力量。\n攻击反应——放逐你灵魂中的一张牌：目标力量大于其基础力量的攻击获得再动。",
+      "text_en": "If you've charged this turn, your attacks get +1{p} while defended by an attack action card.\nAttack Reaction - Banish a card from your soul: Target attack with {p} greater than its base gets go again.",
       "source": "https://cards.fabtcg.com/card/boltyn/",
       "status": "machine-draft",
       "keywords": [],
@@ -496,8 +496,8 @@
       "name_en": "Briar",
       "type_zh": "",
       "type_en": "Elemental Runeblade Hero - Young",
-      "text_zh": "大地与闪电精华\n你控制的攻击行动牌第一次对对手英雄造成伤害时，创造一个大地化身衍生物。\n每回合当你使用第二张\"非攻击\"行动牌时，创造一个闪电化身衍生物。",
-      "text_en": "Essence of Earth and Lightning\nThe first time an attack action card you control deals damage to an opposing hero, create an Embodiment of Earth token.\nWhenever you play your second 'non-attack' action card each turn, create an Embodiment of Lightning token.",
+      "text_zh": "大地与闪电精华\n每回合第一次你控制的攻击行动牌对对手英雄造成伤害时，创造一个大地化身衍生物。\n每回合第二次你使用非攻击行动牌时，创造一个闪电化身衍生物。",
+      "text_en": "Essence of Earth and Lightning\nThe first time an attack action card you control deals damage to an opposing hero each turn, create an Embodiment of Earth token.\nThe second time you play a non-attack action card each turn, create an Embodiment of Lightning token.",
       "source": "https://cards.fabtcg.com/card/briar/",
       "status": "machine-draft",
       "keywords": [
@@ -518,8 +518,8 @@
       "name_en": "Briar, Warden of Thorns",
       "type_zh": "",
       "type_en": "Elemental Runeblade Hero",
-      "text_zh": "大地与闪电精华\n你控制的攻击行动牌第一次对对手英雄造成伤害时，创造一个大地化身衍生物。\n每回合当你使用第二张“非攻击”行动牌时，创造一个闪电化身衍生物。",
-      "text_en": "Essence of Earth and Lightning\nThe first time an attack action card you control deals damage to an opposing hero, create an Embodiment of Earth token.\nWhenever you play your second 'non-attack' action card each turn, create an Embodiment of Lightning token.",
+      "text_zh": "大地与闪电精华\n每回合第一次你控制的攻击行动牌对对手英雄造成伤害时，创造一个大地化身衍生物。\n每回合第二次你使用非攻击行动牌时，创造一个闪电化身衍生物。",
+      "text_en": "Essence of Earth and Lightning\nThe first time an attack action card you control deals damage to an opposing hero each turn, create an Embodiment of Earth token.\nThe second time you play a non-attack action card each turn, create an Embodiment of Lightning token.",
       "source": "https://cards.fabtcg.com/card/briar_warden_of_thorns/",
       "status": "machine-draft",
       "keywords": [
@@ -660,8 +660,8 @@
       "name_en": "Dash, Database",
       "type_zh": "",
       "type_en": "Mechanologist Hero - Young",
-      "text_zh": "你随时可以查看你牌库顶的一张牌。\n每回合一次，你可以将你牌库顶的一张费用为0或1的机械师物品当作瞬间使用。它的使用费用额外增加1点资源。",
-      "text_en": "You may look at the top card of your deck at any time.\nOnce per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",
+      "text_zh": "你随时可以查看你牌库顶的一张牌。\n每回合一次，你可以将你牌库顶的一张费用为1或更低的机械师物品当作瞬间使用。它的使用费用额外增加1点资源。",
+      "text_en": "You may look at the top card of your deck at any time.\nOnce per turn, you may play a Mechanologist item with cost 1 or less from the top of your deck as though it were an instant. It costs an additional {r} to play.",
       "source": "https://cards.fabtcg.com/card/dash_database/",
       "status": "machine-draft",
       "keywords": [],
@@ -680,8 +680,8 @@
       "name_en": "Dash I/O",
       "type_zh": "",
       "type_en": "Mechanologist Hero",
-      "text_zh": "你随时可以查看你牌库顶的一张牌。\n每回合一次，你可以将你牌库顶的一张费用为0或1的机械师物品当作瞬间使用。它的使用费用额外增加1点资源。",
-      "text_en": "You may look at the top card of your deck at any time.\nOnce per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",
+      "text_zh": "你随时可以查看你牌库顶的一张牌。\n每回合一次，你可以将你牌库顶的一张费用为1或更低的机械师物品当作瞬间使用。它的使用费用额外增加1点资源。",
+      "text_en": "You may look at the top card of your deck at any time.\nOnce per turn, you may play a Mechanologist item with cost 1 or less from the top of your deck as though it were an instant. It costs an additional {r} to play.",
       "source": "https://cards.fabtcg.com/card/dash_i_o/",
       "status": "machine-draft",
       "keywords": [],
@@ -740,8 +740,8 @@
       "name_en": "Dorinthea",
       "type_zh": "",
       "type_en": "Warrior Hero - Young",
-      "text_zh": "每回合一次效果——当你控制的武器命中时，本回合你可以用该武器额外攻击一次。",
-      "text_en": "Once per turn Effect - When a weapon you control hits, you may attack an additional time with that weapon this turn.",
+      "text_zh": "每回合第一次你的武器攻击命中时，本回合你可以用该武器额外攻击一次。",
+      "text_en": "The first time your weapon attack hits each turn, you may attack an additional time with that weapon this turn.",
       "source": "https://cards.fabtcg.com/card/dorinthea/",
       "status": "machine-draft",
       "keywords": [],
@@ -760,8 +760,8 @@
       "name_en": "Dorinthea Ironsong",
       "type_zh": "",
       "type_en": "Warrior Hero",
-      "text_zh": "每回合一次效果——当你控制的武器命中时，本回合你可以用该武器额外攻击一次。",
-      "text_en": "Once per turn Effect - When a weapon you control hits, you may attack an additional time with that weapon this turn.",
+      "text_zh": "每回合第一次你的武器攻击命中时，本回合你可以用该武器额外攻击一次。",
+      "text_en": "The first time your weapon attack hits each turn, you may attack an additional time with that weapon this turn.",
       "source": "https://cards.fabtcg.com/card/dorinthea_ironsong/",
       "status": "machine-draft",
       "keywords": [],
@@ -791,6 +791,46 @@
           "cost": "",
           "power": "",
           "defense": ""
+        }
+      }
+    },
+    "dr_mortimer": {
+      "id": "dr_mortimer",
+      "name_zh": "莫蒂默博士",
+      "name_en": "Dr. Mortimer",
+      "type_zh": "",
+      "type_en": "Assassin Hero - Young",
+      "text_zh": "瞬间——{t}：治愈一个由对手控制的疾病。若如此做，创造一个银币衍生物。\n攻击反应——{t}，摧毁2个你控制的银币：目标刺客攻击获得再动。",
+      "text_en": "Instant - {t}: Cure a disease an opponent controls. If you do, create a Silver token.\nAttack Reaction - {t}, destroy 2 Silver you control: Target Assassin attack gets go again.",
+      "source": "https://cards.fabtcg.com/card/dr_mortimer/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "dr_mortimer_blight_of_the_pits": {
+      "id": "dr_mortimer_blight_of_the_pits",
+      "name_zh": "莫蒂默博士·深坑灾疫",
+      "name_en": "Dr. Mortimer, Blight of the Pits",
+      "type_zh": "",
+      "type_en": "Assassin Hero",
+      "text_zh": "瞬间——{t}：治愈一个由对手控制的疾病。若如此做，创造一个银币衍生物。\n攻击反应——{t}，摧毁2个你控制的银币：目标刺客攻击获得再动。",
+      "text_en": "Instant - {t}: Cure a disease an opponent controls. If you do, create a Silver token.\nAttack Reaction - {t}, destroy 2 Silver you control: Target Assassin attack gets go again.",
+      "source": "https://cards.fabtcg.com/card/dr_mortimer_blight_of_the_pits/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
         }
       }
     },
@@ -1566,6 +1606,28 @@
         }
       }
     },
+    "killjoy_the_crooked_blade": {
+      "id": "killjoy_the_crooked_blade",
+      "name_zh": "扫兴鬼·诡刃",
+      "name_en": "Killjoy, the Crooked Blade",
+      "type_zh": "",
+      "type_en": "Reviled Warrior Thief Hero - Young",
+      "text_zh": "你可以攻击任意对手英雄。\n每当你偷取一个金币时，观众对你发出嘘声。\n每回合第一次观众对你发出嘘声时，每位{h}比你多的英雄失去1{h}。",
+      "text_en": "You may attack any opposing hero.\nWhenever you steal a Gold, the crowd boos you.\nThe first time the crowd boos you each turn, each hero with more {h} than you loses 1{h}.",
+      "source": "https://cards.fabtcg.com/card/killjoy_the_crooked_blade/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Boos"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
     "levia": {
       "id": "levia",
       "name_zh": "莱维娅",
@@ -1696,7 +1758,7 @@
       "name_en": "Malice",
       "type_zh": "",
       "type_en": "Shadow Necromancer Hero - Young",
-      "text_zh": "",
+      "text_zh": "行动——{r}，{t}：直到回合结束，你可以从你的坟场使用目标僵尸牌。再动\n每当一个你控制的僵尸死亡时，将其牌面朝下放逐，并在你的放逐区创造一张腐化尸骸。",
       "text_en": "Action - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. Go again\nWhenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished Zone.",
       "source": "https://cards.fabtcg.com/card/malice/",
       "status": "machine-draft",
@@ -1716,7 +1778,7 @@
       "name_en": "Malice, Domina of the Dead",
       "type_zh": "",
       "type_en": "Shadow Necromancer Hero",
-      "text_zh": "",
+      "text_zh": "行动——{r}，{t}：直到回合结束，你可以从你的坟场使用目标僵尸牌。再动\n每当一个你控制的僵尸死亡时，将其牌面朝下放逐，并在你的放逐区创造一张腐化尸骸。",
       "text_en": "Action - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. Go again\nWhenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished Zone.",
       "source": "https://cards.fabtcg.com/card/malice_domina_of_the_dead/",
       "status": "machine-draft",
@@ -2370,8 +2432,8 @@
       "name_en": "Ser Boltyn, Breaker of Dawn",
       "type_zh": "",
       "type_en": "Light Warrior Hero",
-      "text_zh": "若本回合你充能过，当你的攻击被攻击行动牌防御时，它们获得+1力量。\n攻击反应——放逐博尔廷灵魂中的一张牌：目标力量大于其基础力量的攻击获得再动。",
-      "text_en": "If you've charged this turn, your attacks get +1{p} while defended by an attack action card.\nAttack Reaction - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains go again.",
+      "text_zh": "若本回合你冲锋过，当你的攻击被攻击行动牌防御时，它们获得+1力量。\n攻击反应——放逐你灵魂中的一张牌：目标力量大于其基础力量的攻击获得再动。",
+      "text_en": "If you've charged this turn, your attacks get +1{p} while defended by an attack action card.\nAttack Reaction - Banish a card from your soul: Target attack with {p} greater than its base gets go again.",
       "source": "https://cards.fabtcg.com/card/ser_boltyn_breaker_of_dawn/",
       "status": "machine-draft",
       "keywords": [],
@@ -2655,7 +2717,7 @@
       "type_zh": "",
       "type_en": "Guardian Hero - Young",
       "text_zh": "每当行动阶段期间对手抽牌时，每有一张以此方式抽的牌，创造一个地震涌动衍生物。\n在你的回合开始时，若你控制3个或更多地震涌动衍生物，本回合你拥有的具有粉碎的牌获得支配。",
-      "text_en": "Whenever an opponent draws a card during an action phase, create a Seismic Surge token for each card drawn this way.\nAt the start of your turn, if you control 3 or more Seismic Surge tokens, cards you own with crush gain dominate this turn.",
+      "text_en": "Whenever an opponent draws 1 or more cards during an action phase, create that many Seismic Surge tokens.\nAt the start of your turn, if you control 3 or more Seismic Surge tokens, cards you own with crush get dominate this turn.",
       "source": "https://cards.fabtcg.com/card/valda_brightaxe/",
       "status": "machine-draft",
       "keywords": [],
@@ -2822,7 +2884,7 @@
       "name_en": "Viserai, Between Worlds",
       "type_zh": "",
       "type_en": "Shadow Runeblade Hero - Young",
-      "text_zh": "",
+      "text_zh": "每当你创造1个或更多符文吟唱时，放逐你的牌库顶牌。然后，若你本回合创造过3个或更多符文吟唱，穿界。",
       "text_en": "Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, traverse.",
       "source": "https://cards.fabtcg.com/card/viserai_between_worlds/",
       "status": "machine-draft",
@@ -2862,7 +2924,7 @@
       "name_en": "Viserai, the Forsaken",
       "type_zh": "",
       "type_en": "Shadow Runeblade Hero",
-      "text_zh": "",
+      "text_zh": "每当你创造1个或更多符文吟唱时，放逐你的牌库顶牌。然后，若你本回合创造过3个或更多符文吟唱，穿界。",
       "text_en": "Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, traverse.",
       "source": "https://cards.fabtcg.com/card/viserai_the_forsaken/",
       "status": "machine-draft",
@@ -2882,7 +2944,7 @@
       "name_en": "Viserai, Usurper",
       "type_zh": "",
       "type_en": "Shadow Runeblade Hero - Demon",
-      "text_zh": "",
+      "text_zh": "每回合你使用的第一张具有血债的攻击行动牌获得再动。\n在每个结束阶段开始时，若你本回合创造或启动过通往伊阿拉塞尔之门，你可以穿界。",
       "text_en": "The first attack action card with blood debt you play each turn gets go again.\nAt the beginning of each end phase, if you've created or activated a Gate to i'Arathael this turn, you may traverse.",
       "source": "https://cards.fabtcg.com/card/viserai_usurper/",
       "status": "machine-draft",
@@ -2973,6 +3035,28 @@
           "cost": "",
           "power": "",
           "defense": ""
+        }
+      }
+    },
+    "zane_broadly_beloved": {
+      "id": "zane_broadly_beloved",
+      "name_zh": "赞恩·广受爱戴",
+      "name_en": "Zane, Broadly Beloved",
+      "type_zh": "",
+      "type_en": "Revered Warrior Hero - Young",
+      "text_zh": "你可以将双手剑视为单手剑来装备。\n每当你赢得一次赌注时，观众对你发出欢呼。\n每回合第一次观众对你发出欢呼时，每位英雄抽一张牌。",
+      "text_en": "You may equip 2H swords as though they were 1H.\nWhenever you win a wager, the crowd cheers you.\nThe first time the crowd cheers you each turn, each hero draws a card.",
+      "source": "https://cards.fabtcg.com/card/zane_broadly_beloved/",
+      "status": "machine-draft",
+      "keywords": [
+        "The Crowd Cheers"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
         }
       }
     },

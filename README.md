@@ -1,4 +1,4 @@
-# talishar-cn — Flesh and Blood 简体中文卡牌浮窗
+# fabtcg-cn — FABTCG中文悬浮窗
 
 为 [Talishar](https://talishar.net/)、[FaBrary](https://fabrary.net/) 与 [Fyendal](https://fyendal.net/) 提供 Flesh and Blood
 卡牌悬停中文翻译：鼠标悬停卡牌即显示中文卡名、类别与规则正文，并附异能关键词释义。
@@ -9,7 +9,7 @@
 2. 从 URL 安装用户脚本：
 
    ```
-   https://raw.githubusercontent.com/jacefromxa/talishar-cn/main/probe/talishar-cn.user.js
+   https://raw.githubusercontent.com/jacefromxa/fabtcg-cn/main/probe/fabtcg-cn.user.js
    ```
 
 3. 打开 Talishar 或 FaBrary，悬停卡牌即可看到中文浮窗

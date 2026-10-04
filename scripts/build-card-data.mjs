@@ -286,10 +286,10 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
 
   // Ship the printing-id alias table so the userscript can resolve FaBrary's
   // printing-id image filenames (e.g. "PEN313.webp") to our slug keys.
-  const aliasesSource = path.join(projectRoot, 'data/talishar-card-aliases.json');
+  const aliasesSource = path.join(projectRoot, 'data/fabtcg-card-aliases.json');
   if (fs.existsSync(aliasesSource)) {
     fs.copyFileSync(aliasesSource, path.join(outputDirectory, 'aliases.json'));
-    console.log('Copied talishar-card-aliases.json to dist/data/aliases.json');
+    console.log('Copied fabtcg-card-aliases.json to dist/data/aliases.json');
   }
 
   // Ship the keyword explanation library for the tooltip keyword section.

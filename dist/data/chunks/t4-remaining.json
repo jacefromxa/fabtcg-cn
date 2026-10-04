@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "air_of_a_comeback": {
       "id": "air_of_a_comeback",
@@ -437,7 +437,7 @@
       "type_zh": "",
       "type_en": "",
       "text_zh": "你处于被标记状态，直到一位对手命中你。",
-      "text_en": "You are marked until an opponent hits you",
+      "text_en": "You are marked until an opponent hits you.",
       "source": "https://cards.fabtcg.com/card/marked/",
       "status": "machine-draft",
       "keywords": [

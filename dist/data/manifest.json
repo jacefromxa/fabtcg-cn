@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "index_file": "index.json",
   "chunk_files": [
     "chunks/heroes.json",
@@ -29,5 +29,5 @@
     "chunks/t3-wizard.json",
     "chunks/t4-remaining.json"
   ],
-  "card_count": 3194
+  "card_count": 3328
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "10_000_year_reunion": {
       "id": "10_000_year_reunion",
@@ -9,7 +9,7 @@
       "type_zh": "幻术师 行动·光环",
       "type_en": "",
       "text_zh": "你可以从你控制的光环中移除三个+1力量指示物，而非支付万年重聚的费用。\n结界10",
-      "text_en": "You may remove three +1{p} counters from among auras you control rather than pay 10,000 Year Reunion's {r} cost.\nWard 10",
+      "text_en": "You may remove three +1{p} counters from among auras you control rather than pay this card's {r} cost.\nWard 10",
       "source": "https://cards.fabtcg.com/card/10_000_year_reunion/",
       "status": "machine-draft",
       "keywords": [
@@ -110,7 +110,7 @@
       "type_zh": "光 幻术师 瞬间",
       "type_en": "",
       "text_zh": "目标名称中含有先驱者的攻击行动牌获得+4力量。",
-      "text_en": "Target attack action card with Herald in its name gets +4{p}",
+      "text_en": "Target attack action card with Herald in its name gets +4{p}.",
       "source": "https://cards.fabtcg.com/card/angelic_wrath/",
       "status": "machine-draft",
       "keywords": [],
@@ -198,6 +198,29 @@
           "cost": null,
           "power": null,
           "defense": null
+        }
+      }
+    },
+    "astral_ambience": {
+      "id": "astral_ambience",
+      "name_zh": "星界氛围",
+      "name_en": "Astral Ambience",
+      "type_zh": "幻术师 行动·攻击",
+      "type_en": "",
+      "text_zh": "每当此牌碎裂时，创造一个幻质护盾衍生物。\n瞬间——{t}一个你控制的幻质护盾：此牌获得再动。\n碎片",
+      "text_en": "Whenever this fragments, create a Spectral Shield token.\nInstant - {t} a Spectral Shield you control: This gets go again.\nFragment",
+      "source": "https://cards.fabtcg.com/card/astral_ambience/",
+      "status": "machine-draft",
+      "keywords": [
+        "Fragment",
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
         }
       }
     },
@@ -333,7 +356,7 @@
       "type_zh": "幻术师 行动·光环",
       "type_en": "",
       "text_zh": "在你的回合开始时，摧毁灵魂祝福，然后创造3个幻质护盾衍生物。\n结界1",
-      "text_en": "At the start of your turn, destroy Blessing of Spirits then create 3 Spectral Shield tokens.\nWard 1",
+      "text_en": "At the start of your turn, destroy this then create 3 Spectral Shield tokens.\nWard 1",
       "source": "https://cards.fabtcg.com/card/blessing_of_spirits/",
       "status": "machine-draft",
       "keywords": [
@@ -785,7 +808,7 @@
       "type_zh": "龙裔 幻术师 行动·攻击",
       "type_en": "",
       "text_zh": "虚击\n当破沙之蜃被摧毁时，创造一个灰烬衍生物。\n再动",
-      "text_en": "Phantasm\nWhen Dunebreaker Cenipai is destroyed, create an Ash token.\nGo again",
+      "text_en": "Phantasm\nWhen this is destroyed, create an Ash token.\nGo again",
       "source": "https://cards.fabtcg.com/card/dunebreaker_cenipai/",
       "status": "machine-draft",
       "keywords": [
@@ -952,7 +975,7 @@
       "type_zh": "龙裔 幻术师 行动·攻击",
       "type_en": "",
       "text_zh": "当尘土飞扬命中时，创造一个灰烬衍生物，然后将你控制的至多1个灰烬转化为以太灰翼。",
-      "text_en": "When Dustup hits, create an Ash token, then transform up to 1 ash you control into an Aether Ashwing.",
+      "text_en": "When this hits, create an Ash token, then transform up to 1 ash you control into an Aether Ashwing.",
       "source": "https://cards.fabtcg.com/card/dustup/",
       "status": "machine-draft",
       "keywords": [
@@ -1043,7 +1066,7 @@
       "type_zh": "龙裔 幻术师 行动·攻击",
       "type_en": "",
       "text_zh": "虚击\n当烬口之蜃被摧毁时，创造一个灰烬衍生物。",
-      "text_en": "Phantasm\nWhen Embermaw Cenipai is destroyed, create an Ash token.",
+      "text_en": "Phantasm\nWhen this is destroyed, create an Ash token.",
       "source": "https://cards.fabtcg.com/card/embermaw_cenipai/",
       "status": "machine-draft",
       "keywords": [
@@ -1518,7 +1541,7 @@
       "type_zh": "幻术师 行动·攻击",
       "type_en": "",
       "text_zh": "仅当本回合你控制的幻术师攻击行动牌被虚击摧毁过时才能使用恐惧梦魇。\n虚击",
-      "text_en": "Play Frightmare only if an Illusionist attack action card you control has been destroyed by phantasm this turn.\nPhantasm",
+      "text_en": "Play this only if an Illusionist attack action card you control has been destroyed by phantasm this turn.\nPhantasm",
       "source": "https://cards.fabtcg.com/card/frightmare/",
       "status": "machine-draft",
       "keywords": [
@@ -2740,7 +2763,7 @@
       "type_zh": "幻术师 行动·攻击",
       "type_en": "",
       "text_zh": "虚击\n当虚击雾霭被摧毁时，创造一个幻质护盾衍生物。",
-      "text_en": "Phantasm\nWhen Phantasmal Haze is destroyed, create a Spectral Shield token.",
+      "text_en": "Phantasm\nWhen this is destroyed, create a Spectral Shield token.",
       "source": "https://cards.fabtcg.com/card/phantasmal_haze/",
       "status": "machine-draft",
       "keywords": [
@@ -3073,7 +3096,7 @@
       "type_zh": "幻术师 武器·Orb （双手）",
       "type_en": "",
       "text_zh": "你控制的幻术师光环为武器，具有5点基础力量和“每回合一次行动——支付2点资源：攻击”。",
-      "text_en": "Illusionist auras you control are weapons with 5 base {p} and \"Once per Turn Action - {r]{r}: Attack\"",
+      "text_en": "Illusionist auras you control are weapons with 5 base {p} and \"Once per Turn Action - {r}{r}: Attack\"",
       "source": "https://cards.fabtcg.com/card/reality_refractor/",
       "status": "machine-draft",
       "keywords": [],
@@ -3105,6 +3128,28 @@
           "cost": "0",
           "power": null,
           "defense": null
+        }
+      }
+    },
+    "rush_of_knowledge": {
+      "id": "rush_of_knowledge",
+      "name_zh": "知识洪流",
+      "name_en": "Rush of Knowledge",
+      "type_zh": "幻术师·法师 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌攻击时，你可以摧毁一个你控制的沉思衍生物。若如此做，抽一张牌并获得1点行动点。\n虚击",
+      "text_en": "When this attacks, you may destroy a Ponder token you control. If you do, draw a card and gain 1 action point.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/rush_of_knowledge/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "4",
+          "defense": "2"
         }
       }
     },
@@ -3248,7 +3293,7 @@
       "type_zh": "闪电 幻术师 行动·攻击",
       "type_en": "",
       "text_zh": "每当此牌碎片化时，增幅1。\n当此牌命中英雄时，你可以放逐你控制的一个没有全息指示物的闪电光环永久物，然后将其带有一个全息指示物地移回竞技场。\n碎片",
-      "text_en": "Whenever this fragments, amp 1.\nWhen this hits a hero, you may banish a lightning aura permanent you control with no holo counters, then return it to the arena with a holo counter.\nFragment",
+      "text_en": "Whenever this fragments, amp 1.\nWhen this hits a hero, you may banish a Lightning aura permanent you control with no holo counters, then return it to the arena with a holo counter.\nFragment",
       "source": "https://cards.fabtcg.com/card/shattering_stardust/",
       "status": "machine-draft",
       "keywords": [
@@ -3457,8 +3502,8 @@
       "name_en": "Solitary Companion",
       "type_zh": "幻术师 行动·光环",
       "type_en": "",
-      "text_zh": "当此牌进入竞技场时，若你没有控制其他幻术师光环，创造一个幻质护盾衍生物。\n结界1",
-      "text_en": "When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.\nWard 1",
+      "text_zh": "当此牌进入竞技场时，若你没有控制其他幻术师光环，创造一个幻质护盾衍生物。\n结界3",
+      "text_en": "When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.\nWard 3",
       "source": "https://cards.fabtcg.com/card/solitary_companion/",
       "status": "machine-draft",
       "keywords": [
@@ -3475,13 +3520,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "当此牌进入竞技场时，若你没有控制其他幻术师光环，创造一个幻质护盾衍生物。\n结界2"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "当此牌进入竞技场时，若你没有控制其他幻术师光环，创造一个幻质护盾衍生物。\n结界1"
         }
       }
     },
@@ -3563,7 +3610,7 @@
       "type_zh": "幻术师 行动·攻击",
       "type_en": "",
       "text_zh": "幻质队列的力量等于你控制的幻质护盾数量。\n虚击",
-      "text_en": "Spectral Procession's {p} is equal to the number of Spectral Shields you control.\nPhantasm",
+      "text_en": "This card's {p} is equal to the number of Spectral Shields you control.\nPhantasm",
       "source": "https://cards.fabtcg.com/card/spectral_procession/",
       "status": "machine-draft",
       "keywords": [
@@ -3719,8 +3766,8 @@
       "name_en": "Suraya, Archangel of Knowledge",
       "type_zh": "光 幻术师·Angel Ally",
       "type_en": "",
-      "text_zh": "每回合一次行动——支付力量：攻击。每当苏拉娅攻击时，你可以放逐你的英雄的灵魂中的一张光牌。若如此做，苏拉娅对任意目标造成1点奥术伤害。\n每当苏拉娅造成伤害时，你获得等量生命。\n结界4",
-      "text_en": "Once per Turn Action - {p}{p}: Attack. Whenever Suraya attacks, you may banish a Light card from your hero's soul. If you do, Suraya deals 1 arcane damage to any target.\nWhenever Suraya deals damage, you gain that much {h}.\nWard 4",
+      "text_zh": "每回合一次行动——支付2点资源：攻击。每当苏拉娅攻击时，你可以放逐你的英雄的灵魂中的一张光牌。若如此做，苏拉娅对任意目标造成1点奥术伤害。\n每当苏拉娅造成伤害时，你获得等量生命。\n结界4",
+      "text_en": "Once per Turn Action - {r}{r}: Attack. Whenever Suraya attacks, you may banish a Light card from your hero's soul. If you do, Suraya deals 1 arcane damage to any target.\nWhenever Suraya deals damage, you gain that much {h}.\nWard 4",
       "source": "https://cards.fabtcg.com/card/suraya_archangel_of_knowledge/",
       "status": "machine-draft",
       "keywords": [
@@ -3838,7 +3885,7 @@
       "type_zh": "幻术师 行动·光环",
       "type_en": "",
       "text_zh": "在你的行动阶段开始时，摧毁埃欧之书，然后抽一张牌。\n结界1",
-      "text_en": "At the beginning of your action phase, destroy Tome of Aeo then draw a card.\nWard 1",
+      "text_en": "At the beginning of your action phase, destroy this then draw a card.\nWard 1",
       "source": "https://cards.fabtcg.com/card/tome_of_aeo/",
       "status": "machine-draft",
       "keywords": [
@@ -3880,7 +3927,7 @@
       "type_zh": "幻术师 行动·光环",
       "type_en": "",
       "text_zh": "当宁静消逝进入竞技场时，你可以放逐对手控制的目标费用为3或更低的光环衍生物或光环永久物，直到宁静消逝离开竞技场。\n结界1",
-      "text_en": "When Tranquil Passing enters the arena, you may banish target aura token or aura permanent with cost 3 or less controlled by an opponent until Tranquil Passing leaves the arena.\nWard 1",
+      "text_en": "When this enters the arena, you may banish target aura token or aura permanent with cost 3 or less controlled by an opponent until this leaves the arena.\nWard 1",
       "source": "https://cards.fabtcg.com/card/tranquil_passing/",
       "status": "machine-draft",
       "keywords": [

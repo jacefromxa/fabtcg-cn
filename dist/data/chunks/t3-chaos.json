@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "concoct_disorder": {
       "id": "concoct_disorder",
-      "name_zh": "制造混乱",
+      "name_zh": "炮制无序",
       "name_en": "Concoct Disorder",
       "type_zh": "混沌 行动·攻击",
       "type_en": "",
@@ -58,7 +58,7 @@
     },
     "hyper_inflation": {
       "id": "hyper_inflation",
-      "name_zh": "恶性通货膨胀",
+      "name_zh": "恶性通胀",
       "name_en": "Hyper Inflation",
       "type_zh": "混沌 行动·攻击",
       "type_en": "",
@@ -79,13 +79,13 @@
         "2": {
           "pitch": "2",
           "cost": "0",
-          "power": "4",
+          "power": "3",
           "defense": "3"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
-          "power": "4",
+          "power": "2",
           "defense": "3"
         }
       }
@@ -112,7 +112,7 @@
     },
     "riddle_with_regret": {
       "id": "riddle_with_regret",
-      "name_zh": "以悔恨困扰",
+      "name_zh": "悔恨不息",
       "name_en": "Riddle with Regret",
       "type_zh": "混沌 行动·光环",
       "type_en": "",
@@ -134,7 +134,7 @@
     },
     "schism_of_chaos": {
       "id": "schism_of_chaos",
-      "name_zh": "混沌分裂",
+      "name_zh": "混沌决裂",
       "name_en": "Schism of Chaos",
       "type_zh": "混沌 资源·宝石",
       "type_en": "",
@@ -178,7 +178,7 @@
     },
     "tome_of_pandemonium": {
       "id": "tome_of_pandemonium",
-      "name_zh": "群魔乱舞之书",
+      "name_zh": "狂魔书卷",
       "name_en": "Tome of Pandemonium",
       "type_zh": "混沌 行动",
       "type_en": "",

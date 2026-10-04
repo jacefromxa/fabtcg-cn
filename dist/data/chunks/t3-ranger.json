@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "amplifying_arrow": {
       "id": "amplifying_arrow",
@@ -266,7 +266,7 @@
       "type_zh": "游侠 行动·箭矢 攻击",
       "type_en": "",
       "text_zh": "若螺栓射击的力量大于其基础力量，它获得再动，以及“若此牌命中，装填。”",
-      "text_en": "If Bolt'n' Shot's {p} is greater than its base {p}, it has go again and \"If this hits, reload.\"",
+      "text_en": "If this card's {p} is greater than its base, it gets go again and \"When this hits, reload.\"",
       "source": "https://cards.fabtcg.com/card/boltn_shot/",
       "status": "machine-draft",
       "keywords": [
@@ -733,6 +733,28 @@
         }
       }
     },
+    "echoing_trap": {
+      "id": "echoing_trap",
+      "name_zh": "回响陷阱",
+      "name_en": "Echoing Trap",
+      "type_zh": "游侠 阻挡·陷阱",
+      "type_en": "",
+      "text_zh": "伏击\n当此牌防御一张与本回合使用过的另一张牌同名的攻击行动牌时，攻击英雄弃一张牌。",
+      "text_en": "Ambush\nWhen this defends an attack action card with the same name as another card played this turn, the attacking hero discards a card.",
+      "source": "https://cards.fabtcg.com/card/echoing_trap/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ambush"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
     "endless_arrow": {
       "id": "endless_arrow",
       "name_zh": "无尽箭矢",
@@ -834,7 +856,7 @@
       "type_zh": "游侠 行动·箭矢 攻击",
       "type_en": "",
       "text_zh": "当疲乏箭命中英雄时，该英雄在其下一个回合期间使用的第一张攻击行动牌的基础力量减半（向上取整）。",
-      "text_en": "When Fatigue Shot hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up.",
+      "text_en": "When this hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up.",
       "source": "https://cards.fabtcg.com/card/fatigue_shot/",
       "status": "machine-draft",
       "keywords": [],
@@ -856,6 +878,28 @@
           "cost": "1",
           "power": "3",
           "defense": "3"
+        }
+      }
+    },
+    "favorable_winds": {
+      "id": "favorable_winds",
+      "name_zh": "顺风",
+      "name_en": "Favorable Winds",
+      "type_zh": "海盗 游侠 行动",
+      "type_en": "",
+      "text_zh": "作为使用此牌的额外费用，弃置一张金翅鱼叉。\n抽2张牌。\n再动",
+      "text_en": "As an additional cost to play this, discard a Goldfin Harpoon.\nDraw 2 cards.\nGo again",
+      "source": "https://cards.fabtcg.com/card/favorable_winds/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": null,
+          "defense": "2"
         }
       }
     },
@@ -1030,8 +1074,8 @@
       "name_en": "Frazzle",
       "type_zh": "元素 游侠 行动·箭矢 攻击",
       "type_en": "",
-      "text_zh": "闪电融合\n若焦灼已融合，本回合每当攻击将造成伤害时，改为它造成等量加1的伤害。",
-      "text_en": "Lightning Fusion\nIf Frazzle was fused, whenever an attack would deal damage this turn, instead it deals that much damage plus 1.",
+      "text_zh": "闪电融合\n当此牌攻击时，若其已融合，直到回合结束，若一次攻击将造成伤害，改为其造成等量加1的伤害。",
+      "text_en": "Lightning Fusion\nWhen this attacks, if this was fused, until end of turn if an attack would deal damage, instead it deals that much damage plus 1.",
       "source": "https://cards.fabtcg.com/card/frazzle/",
       "status": "machine-draft",
       "keywords": [
@@ -1064,8 +1108,8 @@
       "name_en": "Frost Lock",
       "type_zh": "元素 游侠 行动·箭矢 攻击",
       "type_en": "",
-      "text_zh": "本回合牌和启动式异能对对手英雄而言额外消耗1点资源。\n若霜锁已融合，它获得+1力量，以及“若此牌命中英雄，直到其下一个回合结束，该英雄不能资源或使用基础费用为0的牌。”",
-      "text_en": "Ice Fusion\nCards and activated abilities cost opposing heroes an additional {r} this turn.\nIf Frost Lock was fused, it gains +1{p} and \"If this hits a hero, until the end of their next turn they can't pitch or play cards with base cost 0.\"",
+      "text_zh": "冰融合\n当此牌攻击时，本回合对手使用牌和启动异能的费用额外增加1点资源。\n当此牌攻击时，若其已融合，其获得+1力量和“当此牌命中英雄时，直到其下个回合结束，该英雄不能将基础费用为0的牌投入资源或使用。”",
+      "text_en": "Ice Fusion\nWhen this attacks, cards and abilities cost opponents an additional {r} to play or activate this turn.\nWhen this attacks, if this was fused, it gets +1{p} and \"When this hits a hero, until the end of their next turn, they can't pitch or play cards with base cost 0.\"",
       "source": "https://cards.fabtcg.com/card/frost_lock/",
       "status": "machine-draft",
       "keywords": [
@@ -1549,8 +1593,8 @@
       "name_en": "Light it Up",
       "type_zh": "元素 游侠 行动·箭矢 攻击",
       "type_en": "",
-      "text_zh": "莱克西专精\n闪电融合\n若点亮已融合，它获得“若此牌命中英雄，对其控制的每件装备各造成1点伤害。”\n若点亮对英雄造成的伤害等于或大于其控制的装备数量，该英雄控制的装备直到其下一个回合结束失去且不能获得启动式异能。",
-      "text_en": "Lexi Specialization\nLightning Fusion\nIf Light it Up was fused, it gains \"If this hits a hero, deal 1 damage to them for each equipment they control.\"\nIf Light it Up deals damage to a hero equal to or greater than the number of equipment they control, equipment they control lose and can't gain activated abilities until the end of their next turn.",
+      "text_zh": "莱克西专精\n闪电融合\n若点亮已融合，它获得“当此牌命中英雄时，对该英雄造成等同于其控制的装备数量的伤害。”\n每当点亮对英雄造成的伤害等于或大于其控制的装备数量，该英雄控制的装备直到其下一个回合结束失去且不能获得启动式异能。",
+      "text_en": "Lexi Specialization\nLightning Fusion\nIf this was fused, it gets \"When this hits a hero, deal damage to them equal to the number of equipment they control.\"\nWhenever this deals damage to a hero equal to or greater than the number of equipment they control, equipment they control lose and can't gain activated abilities until the end of their next turn.",
       "source": "https://cards.fabtcg.com/card/light_it_up/",
       "status": "machine-draft",
       "keywords": [
@@ -1898,7 +1942,7 @@
       "type_zh": "游侠 防御反应·陷阱",
       "type_en": "",
       "text_zh": "仅能从军械库使用陷阱。\n当此牌防御时，对攻击英雄造成2点伤害，除非其支付1点资源。",
-      "text_en": "Pitfall Trap can only be played from arsenal.\nWhen this defends, deal 2 damage to the attacking hero unless they pay {r}.",
+      "text_en": "This can only be played from arsenal.\nWhen this defends, deal 2 damage to the attacking hero unless they pay {r}.",
       "source": "https://cards.fabtcg.com/card/pitfall_trap/",
       "status": "machine-draft",
       "keywords": [],
@@ -3113,7 +3157,7 @@
       "type_zh": "游侠 行动·箭矢 攻击",
       "type_en": "",
       "text_zh": "当胆怯之点命中英雄时，该英雄控制的攻击在其下一个回合期间失去且不能获得支配。",
-      "text_en": "When Timidity Point hits a hero, attacks they control lose and can't gain dominate during their next turn.",
+      "text_en": "When this hits a hero, attacks they control lose and can't gain dominate during their next turn.",
       "source": "https://cards.fabtcg.com/card/timidity_point/",
       "status": "machine-draft",
       "keywords": [],

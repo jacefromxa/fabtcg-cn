@@ -5,7 +5,7 @@ import { slugifyCardName } from './translate-helper.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const sourcePath = path.join(projectRoot, 'data/source/english/card.json');
-const defaultOutput = path.join(projectRoot, 'data/talishar-card-aliases.json');
+const defaultOutput = path.join(projectRoot, 'data/fabtcg-card-aliases.json');
 
 // Talishar card images are named by a transliterated slug of the card name
 // (e.g. "jarl_vetreidi.webp" for "Jarl Vetreiði", "twelve_petal_kasaya.webp"

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "achilles_accelerator": {
       "id": "achilles_accelerator",
@@ -270,11 +270,11 @@
     },
     "appalling_bearers": {
       "id": "appalling_bearers",
-      "name_zh": "",
+      "name_zh": "骇人承托",
       "name_en": "Appalling Bearers",
-      "type_zh": "暗影 Necromancer 装备·手臂",
+      "type_zh": "暗影 死灵法师 装备·手臂",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "瞬间——弃置一张僵尸牌，摧毁此牌：防止本回合接下来将对你造成的2点伤害。",
       "text_en": "Instant - Discard a zombie, destroy this: Prevent the next 2 damage that would be dealt to you this turn.",
       "source": "https://cards.fabtcg.com/card/appalling_bearers/",
       "status": "machine-draft",
@@ -990,7 +990,7 @@
       "type_zh": "蛮将 装备·头部",
       "type_en": "",
       "text_zh": "当骸骨维齐尔被摧毁时，展示你牌库顶的一张牌。若其力量为6或更高，将其置于你的牌库顶。否则，将其置于牌库底。\n刃碎",
-      "text_en": "When Bone Vizier is destroyed, reveal the top card of your deck. If it has 6 or more {p}, put it on top of your deck. Otherwise, put it on the bottom.\nBlade Break",
+      "text_en": "When this is destroyed, reveal the top card of your deck. If it has 6 or more {p}, put it on top of your deck. Otherwise, put it on the bottom.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/bone_vizier/",
       "status": "machine-draft",
       "keywords": [
@@ -1002,6 +1002,28 @@
           "cost": null,
           "power": null,
           "defense": "1"
+        }
+      }
+    },
+    "boneseer_skullcap": {
+      "id": "boneseer_skullcap",
+      "name_zh": "骨卜者颅帽",
+      "name_en": "Boneseer Skullcap",
+      "type_zh": "蛮将 装备·头部",
+      "type_en": "",
+      "text_zh": "当此牌防御时，展示你的牌库顶牌。若其基础{p}为6或更高，将其置于牌库顶。否则，将其置于牌库底。\n淬炼",
+      "text_en": "When this defends, reveal the top card of your deck. If it has 6 or more base {p}, put it on top. Otherwise, put it on the bottom.\nTemper",
+      "source": "https://cards.fabtcg.com/card/boneseer_skullcap/",
+      "status": "machine-draft",
+      "keywords": [
+        "Temper"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
         }
       }
     },
@@ -1341,7 +1363,7 @@
       "type_zh": "幻术师 装备·胸部",
       "type_en": "",
       "text_zh": "每回合一次，当天界和服或你控制的具有结界的非衍生物永久物被摧毁时，获得1点资源。\n结界1",
-      "text_en": "Once per turn, when Celestial Kimono or a non-token permanent you control with ward is destroyed, gain {r}.\nWard 1",
+      "text_en": "Once per turn, when this or a non-token permanent you control with ward is destroyed, gain {r}.\nWard 1",
       "source": "https://cards.fabtcg.com/card/celestial_kimono/",
       "status": "machine-draft",
       "keywords": [
@@ -1493,7 +1515,7 @@
       "type_zh": "冰 装备·胸部",
       "type_en": "",
       "text_zh": "行动——摧毁冰霜外套：在目标英雄的控制下创造一个霜咬衍生物。再动",
-      "text_en": "Action - Destroy Coat of Frost: Create a Frostbite token under target hero's control. Go again",
+      "text_en": "Action - Destroy this: Create a Frostbite token under target hero's control. Go again",
       "source": "https://cards.fabtcg.com/card/coat_of_frost/",
       "status": "machine-draft",
       "keywords": [],
@@ -1800,6 +1822,28 @@
         }
       }
     },
+    "corrupted_crown": {
+      "id": "corrupted_crown",
+      "name_zh": "腐化王冠",
+      "name_en": "Corrupted Crown",
+      "type_zh": "暗影 装备·头部",
+      "type_en": "",
+      "text_zh": "当此牌防御时，你可以从你的手牌放逐一张牌。若如此做，此牌获得+1{d}。\n刃碎",
+      "text_en": "When this defends, you may banish a card from your hand. If you do, this gets +1{d}.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/corrupted_crown/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "courage_of_bladehold": {
       "id": "courage_of_bladehold",
       "name_zh": "刀锋之勇",
@@ -2057,6 +2101,28 @@
         }
       }
     },
+    "danse_macabre": {
+      "id": "danse_macabre",
+      "name_zh": "骷髅之舞",
+      "name_en": "Danse Macabre",
+      "type_zh": "死灵法师 装备·腿部",
+      "type_en": "",
+      "text_zh": "每当一个你控制的盟友进入竞技场时，你可以支付{r}{r}并{t}此牌。若如此做，该盟友本回合的第一次攻击获得再动，并在结束阶段开始时摧毁该盟友。\n刃碎",
+      "text_en": "Whenever an ally you control enters the arena, you may pay {r}{r} and {t} this. If you do, that ally's first attack this turn gets go again and destroy that ally at the beginning of the end phase.\nBlade Break",
+      "source": "https://cards.fabtcg.com/card/danse_macabre/",
+      "status": "machine-draft",
+      "keywords": [
+        "Blade Break"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "dead_threads": {
       "id": "dead_threads",
       "name_zh": "索魂丝线",
@@ -2218,7 +2284,7 @@
       "type_zh": "游侠 装备·Quiver",
       "type_en": "",
       "text_zh": "瑞普泰德专精\n瞬间——摧毁浮木箭袋：将你军械库中的一张牌置于你的牌库底。",
-      "text_en": "Riptide Specialization\nInstant - Destroy Driftwood Quiver: Put a card from your arsenal on the bottom of your deck.",
+      "text_en": "Riptide Specialization\nInstant - Destroy this: Put a card from your arsenal on the bottom of your deck.",
       "source": "https://cards.fabtcg.com/card/driftwood_quiver/",
       "status": "machine-draft",
       "keywords": [],
@@ -2371,7 +2437,7 @@
       "type_zh": "暗影 装备·头部",
       "type_en": "",
       "text_zh": "瞬间——支付1点资源，摧毁乌檀折扇：放逐你手牌中的一张牌。若其为暗影牌，抽一张牌。\n法力虚空2",
-      "text_en": "Instant - {r}, destroy Ebon Fold: Banish a card from your hand. If it's a Shadow card, draw a card.\nSpellvoid 2",
+      "text_en": "Instant - {r}, destroy this: Banish a card from your hand. If it's a Shadow card, draw a card.\nSpellvoid 2",
       "source": "https://cards.fabtcg.com/card/ebon_fold/",
       "status": "machine-draft",
       "keywords": [
@@ -2725,8 +2791,8 @@
       "name_en": "Evo Cogspitter",
       "type_zh": "机械师 行动 装备·Evo 手臂",
       "type_en": "",
-      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n每回合一次瞬间——摧毁此牌之下的一张牌：将你手牌中一张费用为0或1的物品放入竞技场。\n刃碎",
-      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Put an item with cost 0 or 1 from your hand into the arena.\nBlade Break",
+      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n每回合一次瞬间——摧毁此牌之下的一张牌：将你手牌中一张费用为1或更低的物品放入竞技场。\n刃碎",
+      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nOnce per Turn Instant - Destroy a card under this: Put an item with cost 1 or less from your hand into the arena.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/evo_cogspitter/",
       "status": "machine-draft",
       "keywords": [
@@ -2906,8 +2972,8 @@
       "name_en": "Evo Magneto",
       "type_zh": "机械师 行动 装备·Evo 手臂",
       "type_en": "",
-      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n当此牌防御时，你可以摧毁其下的一张牌。若如此做，获得攻击英雄控制的费用为0或1的目标物品的控制权。\n淬炼",
-      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nWhen this defends, you may destroy a card under it. If you do, gain control of target item with cost 0 or 1 controlled by the attacking hero.\nTemper",
+      "text_zh": "若你装备了一件基础手臂装备，将其转化为此牌，然后装备此牌。\n当此牌防御时，你可以摧毁其下的一张牌。若如此做，获得攻击英雄控制的费用为1或更低的目标物品的控制权。\n淬炼",
+      "text_en": "If you have a base arms equipped, transform it into this, then equip this.\nWhen this defends, you may destroy a card under it. If you do, gain control of target item with cost 1 or less controlled by the attacking hero.\nTemper",
       "source": "https://cards.fabtcg.com/card/evo_magneto/",
       "status": "machine-draft",
       "keywords": [
@@ -4169,11 +4235,11 @@
     },
     "grasp_of_the_darknight": {
       "id": "grasp_of_the_darknight",
-      "name_zh": "",
+      "name_zh": "暗夜之握",
       "name_en": "Grasp of the Darknight",
       "type_zh": "暗影 符文剑士 装备·手臂",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "行动——{r}，摧毁此牌：占卜1，然后创造一个符文吟唱衍生物。再动",
       "text_en": "Action - {r}, destroy this: Opt 1, then create a Runechant token. Go again",
       "source": "https://cards.fabtcg.com/card/grasp_of_the_darknight/",
       "status": "machine-draft",
@@ -4321,11 +4387,11 @@
     },
     "grille_of_repentance": {
       "id": "grille_of_repentance",
-      "name_zh": "",
+      "name_zh": "忏悔面罩",
       "name_en": "Grille of Repentance",
       "type_zh": "暗影 装备·头部",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "瞬间——摧毁此牌：将你放逐区中一张具有血债的牌翻为牌面朝下。",
       "text_en": "Instant - Destroy this: Turn a card with blood debt in your banished zone face-down.",
       "source": "https://cards.fabtcg.com/card/grille_of_repentance/",
       "status": "machine-draft",
@@ -4941,11 +5007,11 @@
     },
     "hex_gauntlet": {
       "id": "hex_gauntlet",
-      "name_zh": "",
+      "name_zh": "咒厄护手",
       "name_en": "Hex Gauntlet",
       "type_zh": "暗影 蛮将 装备·手臂",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "瞬间——放逐此牌：将你放逐区中一张具有血债的牌翻为牌面朝下。\n血债",
       "text_en": "Instant - Banish this: Turn a card with blood debt in your banished zone face-down.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/hex_gauntlet/",
       "status": "machine-draft",
@@ -5033,8 +5099,8 @@
       "name_en": "Hold Firm",
       "type_zh": "崇敬 装备·手臂",
       "type_en": "",
-      "text_zh": "行动——支付2点资源，摧毁此牌：创造3个坚韧衍生物。仅当你的生命低于其他每位英雄时才能启动此异能。再动\n刃碎",
-      "text_en": "Action - {r}{r}, destroy this: Create 3 Toughness tokens. Activate this only if you have less {h} than each other hero. Go again\nBlade Break",
+      "text_zh": "行动——支付3点资源，摧毁此牌：创造3个坚韧衍生物。仅当你的生命低于其他每位英雄时才能启动此异能。再动\n刃碎",
+      "text_en": "Action - {r}{r}{r}, destroy this: Create 3 Toughness tokens. Activate this only if you have less {h} than each other hero. Go again\nBlade Break",
       "source": "https://cards.fabtcg.com/card/hold_firm/",
       "status": "machine-draft",
       "keywords": [
@@ -5708,7 +5774,7 @@
       "type_zh": "闪电 装备·手臂",
       "type_en": "",
       "text_zh": "每当你控制的闪电或元素攻击被一张来自手牌的牌防御时，你可以摧毁闪电印记。若如此做，该攻击对防御英雄造成1点伤害。",
-      "text_en": "Whenever a Lightning or Elemental attack you control is defended by a card from hand, you may destroy Mark of Lightning. If you do, the attack deals 1 damage to the defending hero.",
+      "text_en": "Whenever a Lightning or Elemental attack you control is defended by a card from hand, you may destroy this. If you do, the attack deals 1 damage to the defending hero.",
       "source": "https://cards.fabtcg.com/card/mark_of_lightning/",
       "status": "machine-draft",
       "keywords": [],
@@ -5750,7 +5816,7 @@
       "type_zh": "刺客·游侠 装备·头部",
       "type_en": "",
       "text_zh": "行动——支付1点资源，将你手牌或军械库中的一张牌置于你的牌库底，摧毁恶意化身面具：从你的牌库顶展示牌，直到你展示一张攻击行动牌。将其置入你的手牌，然后洗牌。再动\n刃碎",
-      "text_en": "Action - {r}, put a card from your hand or arsenal on the bottom of your deck, destroy Mask of Malicious Manifestations: Reveal cards from the top of your deck until you reveal an attack action card. Put it into your hand, then shuffle. Go again\nBlade break",
+      "text_en": "Action - {r}, put a card from your hand or arsenal on the bottom of your deck, destroy this: Reveal cards from the top of your deck until you reveal an attack action card. Put it into your hand, then shuffle. Go again\nBlade Break",
       "source": "https://cards.fabtcg.com/card/mask_of_malicious_manifestations/",
       "status": "machine-draft",
       "keywords": [
@@ -5772,7 +5838,7 @@
       "type_zh": "忍者 装备·头部",
       "type_en": "",
       "text_zh": "瞬间——支付1点资源，摧毁千面影具：说出一张牌名。本回合你使用的下一张攻击行动牌获得该名称。\n刃碎",
-      "text_en": "Instant - {r}, destroy Mask of Many Faces: Name a card. The next attack action card you play this turn gains that name.\nBlade Break",
+      "text_en": "Instant - {r}, destroy this: Name a card. The next attack action card you play this turn gains that name.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/mask_of_many_faces/",
       "status": "machine-draft",
       "keywords": [
@@ -5882,7 +5948,7 @@
       "type_zh": "忍者 装备·头部",
       "type_en": "",
       "text_zh": "当你控制的攻击行动牌命中时，你可以摧毁猛扑山猫面具。若如此做，从你的牌库中搜寻一张力量为2或更低的攻击行动牌，放逐它，然后洗牌。本回合你可以使用它。\n刃碎",
-      "text_en": "When an attack action card you control hits, you may destroy Mask of the Pouncing Lynx. If you do, search your deck for an attack action card with 2 or less {p}, banish it, then shuffle. You may play it this turn.\nBlade Break",
+      "text_en": "When an attack action card you control hits, you may destroy this. If you do, search your deck for an attack action card with 2 or less {p}, banish it, then shuffle. You may play it this turn.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/mask_of_the_pouncing_lynx/",
       "status": "machine-draft",
       "keywords": [
@@ -6379,11 +6445,11 @@
     },
     "path_of_repentance": {
       "id": "path_of_repentance",
-      "name_zh": "",
+      "name_zh": "忏悔之途",
       "name_en": "Path of Repentance",
       "type_zh": "暗影 装备·腿部",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "瞬间——摧毁此牌：将你放逐区中一张具有血债的牌翻为牌面朝下。",
       "text_en": "Instant - Destroy this: Turn a card with blood debt in your banished zone face-down.",
       "source": "https://cards.fabtcg.com/card/path_of_repentance/",
       "status": "machine-draft",
@@ -6426,7 +6492,7 @@
       "type_zh": "海盗 装备·腿部",
       "type_en": "",
       "text_zh": "行动——支付3点资源，摧毁此牌：你本回合的下一次攻击获得再动。再动。\n刃碎",
-      "text_en": "Action - {r}{r}{r}, destroy this: Your next attack this turn gets go again. Go again.\nBlade Break",
+      "text_en": "Action - {r}{r}{r}, destroy this: Your next attack this turn gets go again. Go again\nBlade Break",
       "source": "https://cards.fabtcg.com/card/peg_leg/",
       "status": "machine-draft",
       "keywords": [
@@ -6469,8 +6535,8 @@
       "name_en": "Phantasmal Footsteps",
       "type_zh": "幻术师 装备·腿部",
       "type_en": "",
-      "text_zh": "每回合一次，当你控制的幻术师攻击行动牌被摧毁时，你可以支付1点资源。若如此做，获得1个行动点。\n每当此牌防御时，你可以支付1点资源。若如此做，直到回合结束它的防御变为1。\n当幻象脚步防御力量为6或更高的非幻术师攻击时，当战斗链关闭时摧毁它。",
-      "text_en": "Once per turn, when an Illusionist attack action card you control is destroyed, you may pay {r}. If you do, gain 1 action point.\nWhenever this defends, you may pay {r}. If you do, its {d} becomes 1 until end of turn.\nWhen Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {p}, destroy it when the combat chain closes.",
+      "text_zh": "每回合第一次你控制的幻术师攻击行动牌被摧毁时，你可以支付1点资源。若如此做，获得1个行动点。\n每当此牌防御时，你可以支付1点资源。若如此做，直到回合结束它的防御变为1。\n当幻象脚步防御力量为6或更高的非幻术师攻击时，当战斗链关闭时摧毁它。",
+      "text_en": "The first time an Illusionist attack action card you control is destroyed each turn, you may pay {r}. If you do, gain 1 action point.\nWhen this defends, you may pay {r}. If you do, its {d} becomes 1 until end of turn.\nWhen this is defending a non-Illusionist attack with 6 or more {p}, destroy it when the combat chain closes",
       "source": "https://cards.fabtcg.com/card/phantasmal_footsteps/",
       "status": "machine-draft",
       "keywords": [],
@@ -6690,7 +6756,8 @@
       "source": "https://cards.fabtcg.com/card/prized_galea/",
       "status": "machine-draft",
       "keywords": [
-        "Temper"
+        "Temper",
+        "Wager"
       ],
       "variants": {
         "default": {
@@ -6813,8 +6880,8 @@
       "name_en": "Proclamation of Production",
       "type_zh": "",
       "type_en": "Adjudicator Equipment - Off-Hand",
-      "text_zh": "行动——摧毁此牌：每位英雄可以从其牌库中搜寻一张费用为0或1的物品，将其放入竞技场，然后洗牌。每位没有以此方式将物品放入竞技场的英雄弃一张牌。",
-      "text_en": "Action - Destroy this: Each hero may search their deck for an item with cost 0 or 1, put it into the arena, then shuffle. Each hero who doesn't put an item into the arena this way discards a card.",
+      "text_zh": "行动——摧毁此牌：每位英雄可以从其牌库中搜寻一张费用为1或更低的物品，将其放入竞技场，然后洗牌。每位没有以此方式将物品放入竞技场的英雄弃一张牌。",
+      "text_en": "Action - Destroy this: Each hero may search their deck for an item with cost 1 or less, put it into the arena, then shuffle. Each hero who doesn't put an item into the arena this way discards a card.",
       "source": "https://cards.fabtcg.com/card/proclamation_of_production/",
       "status": "machine-draft",
       "keywords": [],
@@ -7175,6 +7242,26 @@
         }
       }
     },
+    "reach_of_the_abyss": {
+      "id": "reach_of_the_abyss",
+      "name_zh": "深渊之触",
+      "name_en": "Reach of the Abyss",
+      "type_zh": "暗影 装备·手臂",
+      "type_en": "",
+      "text_zh": "当战斗链关闭时，若此牌防御过，放逐所有防御牌。",
+      "text_en": "When the combat chain closes, if this defended, banish all defending cards.",
+      "source": "https://cards.fabtcg.com/card/reach_of_the_abyss/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
     "red_alert_boots": {
       "id": "red_alert_boots",
       "name_zh": "红色警戒",
@@ -7270,7 +7357,7 @@
       "type_zh": "刺客 装备·胸部",
       "type_en": "",
       "text_zh": "当红背裹布在你坟场中时，在你的回合开始时，你可以摧毁你控制的2个银币。若如此做，装备红背裹布。\n攻击反应——摧毁红背裹布：本回合你使用的下一张攻击反应牌费用减少1点资源。\n战痕",
-      "text_en": "While Redback Shroud is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip Redback Shroud.\nAttack Reaction - Destroy Redback Shroud: The next attack reaction card you play this turn costs {r} less to play.\nBattleworn",
+      "text_en": "While this is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip this.\nAttack Reaction - Destroy this: The next attack reaction card you play this turn costs {r} less to play.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/redback_shroud/",
       "status": "machine-draft",
       "keywords": [
@@ -7404,7 +7491,7 @@
       "type_zh": "法师 装备·胸部",
       "type_en": "",
       "text_zh": "行动——摧毁狂喜长袍：获得3点资源。\n奥术屏障1",
-      "text_en": "Action - Destroy Robe of Rapture: Gain {r}{r}{r}.\nArcane Barrier 1",
+      "text_en": "Action - Destroy this: Gain {r}{r}{r}\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/robe_of_rapture/",
       "status": "machine-draft",
       "keywords": [
@@ -7421,11 +7508,11 @@
     },
     "robe_of_repentance": {
       "id": "robe_of_repentance",
-      "name_zh": "",
+      "name_zh": "忏悔长袍",
       "name_en": "Robe of Repentance",
       "type_zh": "暗影 装备·胸部",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "瞬间——摧毁此牌：将你放逐区中一张具有血债的牌翻为牌面朝下。",
       "text_en": "Instant - Destroy this: Turn a card with blood debt in your banished zone face-down.",
       "source": "https://cards.fabtcg.com/card/robe_of_repentance/",
       "status": "machine-draft",
@@ -7618,7 +7705,7 @@
       "type_zh": "蛮将 装备·腿部",
       "type_en": "",
       "text_zh": "每回合一次行动——费用0：掷一枚六面骰。获得等于掷出数字一半（向下取整）的行动点。\n战痕",
-      "text_en": "Once per turn Action - 0: Roll a 6 sided die. Gain action points equal to half the number rolled, rounded down.\nBattleworn",
+      "text_en": "Once per Turn Action - 0: Roll a 6 sided die. Gain action points equal to half the number rolled, rounded down.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/scabskin_leathers/",
       "status": "machine-draft",
       "keywords": [
@@ -7685,7 +7772,7 @@
       "type_zh": "游侠 装备·腿部",
       "type_en": "",
       "text_zh": "瞬间——横置此牌，将你军械库中的一张蓝色箭矢翻为正面朝上：本回合它获得再动。\n刃碎",
-      "text_en": "Instant - {t}, turn a blue arrow in your arsenal face-up: it gets go again this turn.\nBlade Break",
+      "text_en": "Instant - {t}, turn a blue arrow in your arsenal face-up: It gets go again this turn.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/sealace_sarong/",
       "status": "machine-draft",
       "keywords": [
@@ -7905,7 +7992,7 @@
       "type_zh": "幻术师 装备·腿部",
       "type_en": "",
       "text_zh": "每当你控制的攻击中的盟友死亡，或你控制的攻击行动牌被虚击摧毁时，你可以支付3点资源。若如此做，摧毁无声细高跟鞋并获得1个行动点。\n奥术屏障1",
-      "text_en": "Whenever an attacking ally you control dies or an attack action card you control is destroyed by phantasm, you may pay {r}{r}{r}. If you do, destroy Silent Stilettos and gain 1 action point.\nArcane Barrier 1",
+      "text_en": "Whenever an attacking ally you control dies or an attack action card you control is destroyed by phantasm, you may pay {r}{r}{r}. If you do, destroy this and gain 1 action point.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/silent_stilettos/",
       "status": "machine-draft",
       "keywords": [
@@ -7927,7 +8014,7 @@
       "type_zh": "龙裔 幻术师 装备·手臂",
       "type_en": "",
       "text_zh": "瞬间——摧毁丝绸形态：将你控制的目标灰烬转化为以太灰翼。\n镇压1",
-      "text_en": "Instant - Destroy Silken Form: Transform target ash you control into an Aether Ashwing.\nQuell 1",
+      "text_en": "Instant - Destroy this: Transform target ash you control into an Aether Ashwing.\nQuell 1",
       "source": "https://cards.fabtcg.com/card/silken_form/",
       "status": "machine-draft",
       "keywords": [
@@ -8148,7 +8235,7 @@
       "type_zh": "蛮将 装备·头部",
       "type_en": "",
       "text_zh": "行动——摧毁战颅号角：抽一张牌，然后随机弃一张牌。再动\n奥术屏障2",
-      "text_en": "Action - Destroy Skullhorn: Draw a card then discard a random card. Go again\nArcane Barrier 2",
+      "text_en": "Action - Destroy this: Draw a card then discard a random card. Go again\nArcane Barrier 2",
       "source": "https://cards.fabtcg.com/card/skullhorn/",
       "status": "machine-draft",
       "keywords": [
@@ -8497,7 +8584,7 @@
       "type_zh": "刺客 装备·腿部",
       "type_en": "",
       "text_zh": "攻击反应——摧毁此牌：目标具有隐匿的攻击获得再动。\n奥术屏障1",
-      "text_en": "Attack Reaction - Destroy this: Target attack with stealth gets go again\nArcane Barrier 1",
+      "text_en": "Attack Reaction - Destroy this: Target attack with stealth gets go again.\nArcane Barrier 1",
       "source": "https://cards.fabtcg.com/card/stalkers_steps/",
       "status": "machine-draft",
       "keywords": [
@@ -9613,6 +9700,28 @@
       "text_zh": "瞬间——摧毁此牌：创造一个敏捷衍生物。仅当本战斗链中你命中两次或更多时才能启动此异能。\n战痕",
       "text_en": "Instant - Destroy this: Create an Agility token. Activate this only if you've hit 2 or more times this combat chain.\nBattleworn",
       "source": "https://cards.fabtcg.com/card/two_steps_forward/",
+      "status": "machine-draft",
+      "keywords": [
+        "Battleworn"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
+    "undead_grasp": {
+      "id": "undead_grasp",
+      "name_zh": "亡灵之握",
+      "name_en": "Undead Grasp",
+      "type_zh": "暗影 死灵法师 装备·手臂",
+      "type_en": "",
+      "text_zh": "行动——{r}，弃置一张僵尸牌，摧毁此牌：本回合你的下一次僵尸攻击获得+3{p}和“当此攻击命中时，摧毁此僵尸。”再动\n战痕",
+      "text_en": "Action - {r}, discard a zombie, destroy this: Your next zombie attack this turn gets +3{p} and \"When this hits, destroy this zombie.\" Go again\nBattleworn",
+      "source": "https://cards.fabtcg.com/card/undead_grasp/",
       "status": "machine-draft",
       "keywords": [
         "Battleworn"

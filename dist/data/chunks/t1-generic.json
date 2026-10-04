@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
     "adrenaline_rush": {
       "id": "adrenaline_rush",
@@ -191,8 +191,8 @@
       "name_en": "Amulet of Intervention",
       "type_zh": "通用 行动·物品",
       "type_en": "",
-      "text_zh": "再动\n瞬间——摧毁干预护符：防止本回合接下来将对你的英雄造成的1点伤害。仅当你的英雄是某个将对你的英雄造成等于或大于其生命值伤害的来源的目标时，才能启动此异能。",
-      "text_en": "Go again\nInstant - Destroy Amulet of Intervention: Prevent the next 1 damage that would be dealt to your hero this turn. Activate this ability only while your hero is the target of a source that would deal damage equal to or greater than your hero's {h}.",
+      "text_zh": "再动\n瞬间——摧毁干预护符：防止本回合接下来将对你的英雄造成的1点伤害。仅当你的英雄是某个将造成致命伤害的来源的目标时，才能启动此异能。",
+      "text_en": "Go again\nInstant - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this only while your hero is the target of a source that would deal lethal damage.",
       "source": "https://cards.fabtcg.com/card/amulet_of_intervention/",
       "status": "machine-draft",
       "keywords": [
@@ -521,6 +521,43 @@
         }
       }
     },
+    "battle_prep": {
+      "id": "battle_prep",
+      "name_zh": "备战",
+      "name_en": "Battle Prep",
+      "type_zh": "通用 行动",
+      "type_en": "",
+      "text_zh": "占卜2\n若此牌是从军械库使用的，本回合你的下一次攻击获得+3{p}。\n再动",
+      "text_en": "Opt 2\nIf this was played from arsenal, your next attack this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/battle_prep/",
+      "status": "machine-draft",
+      "keywords": [
+        "Opt 1",
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3",
+          "text_zh": "占卜2\n若此牌是从军械库使用的，本回合你的下一次攻击获得+2{p}。\n再动"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3",
+          "text_zh": "占卜2\n若此牌是从军械库使用的，本回合你的下一次攻击获得+1{p}。\n再动"
+        }
+      }
+    },
     "battlefront_bastion": {
       "id": "battlefront_bastion",
       "name_zh": "前线堡垒",
@@ -581,8 +618,8 @@
       "name_en": "Belittle",
       "type_zh": "",
       "type_en": "Generic Action - Attack",
-      "text_zh": "作为使用轻视的额外费用，你可以展示你手牌中一张基础力量为3或更低的攻击行动牌。若如此做，此牌获得+3力量。",
-      "text_en": "As an additional cost to play Belittle, you may reveal an attack action card with 3 or less base {p} from your hand. If you do, search your deck for a card named Minnowism, reveal it, put it into your hand, then shuffle your deck.\nGo again",
+      "text_zh": "作为使用此牌的额外费用，你可以展示你手牌中一张基础力量为3或更低的牌。\n当支付了此额外费用时，从你的牌库中搜寻一张杂鱼之道，展示它，将其置入你的手牌，然后洗牌。\n再动",
+      "text_en": "As an additional cost to play this, you may reveal a card with 3 or less base {p} from your hand.\nWhen the additional cost is paid, search your deck for a Minnowism, reveal it, put it into your hand, then shuffle.\nGo again",
       "source": "https://cards.fabtcg.com/card/belittle/",
       "status": "machine-draft",
       "keywords": [
@@ -817,10 +854,10 @@
       "id": "bloodrot_pox",
       "name_zh": "血腐疫病",
       "name_en": "Bloodrot Pox",
-      "type_zh": "通用 衍生物·光环",
-      "type_en": "",
+      "type_zh": "通用 衍生物·疾病 光环",
+      "type_en": "Generic Token - Disease Aura",
       "text_zh": "在你的结束阶段开始时，摧毁血腐疫病，然后它对你造成2点伤害，除非你支付3点资源。",
-      "text_en": "At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}.",
+      "text_en": "At the beginning of your end phase, destroy this, then it deals 2 damage to you unless you pay {r}{r}{r}.",
       "source": "https://cards.fabtcg.com/card/bloodrot_pox/",
       "status": "machine-draft",
       "keywords": [],
@@ -1368,7 +1405,7 @@
       "type_zh": "",
       "type_en": "Generic Action",
       "text_zh": "你可以摧毁你控制的4个铜币、2个银币或1个金币，而非支付兑现的费用。\n抽2张牌。\n再动",
-      "text_en": "You may destroy 4 Coppers, 2 Silvers, or 1 Gold you control rather than pay Cash In's {r} cost.\nDraw 2 cards.\nGo again",
+      "text_en": "You may destroy 4 Coppers, 2 Silvers, or 1 Gold you control rather than pay this card's {r} cost.\nDraw 2 cards.\nGo again",
       "source": "https://cards.fabtcg.com/card/cash_in/",
       "status": "machine-draft",
       "keywords": [
@@ -1390,7 +1427,7 @@
       "type_zh": "通用 行动",
       "type_en": "",
       "text_zh": "作为使用兑现的额外费用，你可以摧毁你控制的任意数量的武器、装备和/或非衍生物物品。\n为每个以此方式摧毁的永久物创造一个银币衍生物。\n再动",
-      "text_en": "As an additional cost to play Cash Out, you may destroy any number of weapons, equipment and/or non-token items you control.\nCreate a Silver token for each permanent destroyed this way.\nGo again",
+      "text_en": "As an additional cost to play this, you may destroy any number of weapons, equipment and/or non-token items you control.\nCreate a Silver token for each permanent destroyed this way.\nGo again",
       "source": "https://cards.fabtcg.com/card/cash_out/",
       "status": "machine-draft",
       "keywords": [
@@ -1469,11 +1506,11 @@
     },
     "circlet_of_eternal_end": {
       "id": "circlet_of_eternal_end",
-      "name_zh": "",
+      "name_zh": "永终头环",
       "name_en": "Circlet of Eternal End",
       "type_zh": "通用 装备·头部",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "当此牌防御时，将攻击英雄放逐区中的一张牌翻为牌面朝下。\n刃碎",
       "text_en": "When this defends, turn a card in the attacking hero's banished zone face-down.\nBlade Break",
       "source": "https://cards.fabtcg.com/card/circlet_of_eternal_end/",
       "status": "machine-draft",
@@ -1518,7 +1555,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "瞬间——摧毁清晰药剂：占卜2",
-      "text_en": "Instant - Destroy Clarity Potion: Opt 2",
+      "text_en": "Instant - Destroy this: Opt 2.",
       "source": "https://cards.fabtcg.com/card/clarity_potion/",
       "status": "machine-draft",
       "keywords": [],
@@ -2057,6 +2094,86 @@
         }
       }
     },
+    "dark_arcanite_boots": {
+      "id": "dark_arcanite_boots",
+      "name_zh": "暗黑秘晶战靴",
+      "name_en": "Dark Arcanite Boots",
+      "type_zh": "通用 装备·腿部",
+      "type_en": "",
+      "text_zh": "暗影抗性1",
+      "text_en": "Shadow Resist 1",
+      "source": "https://cards.fabtcg.com/card/dark_arcanite_boots/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "dark_arcanite_gloves": {
+      "id": "dark_arcanite_gloves",
+      "name_zh": "暗黑秘晶手套",
+      "name_en": "Dark Arcanite Gloves",
+      "type_zh": "通用 装备·手臂",
+      "type_en": "",
+      "text_zh": "暗影抗性1",
+      "text_en": "Shadow Resist 1",
+      "source": "https://cards.fabtcg.com/card/dark_arcanite_gloves/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "dark_arcanite_helm": {
+      "id": "dark_arcanite_helm",
+      "name_zh": "暗黑秘晶头盔",
+      "name_en": "Dark Arcanite Helm",
+      "type_zh": "通用 装备·头部",
+      "type_en": "",
+      "text_zh": "暗影抗性1",
+      "text_en": "Shadow Resist 1",
+      "source": "https://cards.fabtcg.com/card/dark_arcanite_helm/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
+    "dark_arcanite_plating": {
+      "id": "dark_arcanite_plating",
+      "name_zh": "暗黑秘晶甲胄",
+      "name_en": "Dark Arcanite Plating",
+      "type_zh": "通用 装备·胸部",
+      "type_en": "",
+      "text_zh": "暗影抗性1",
+      "text_en": "Shadow Resist 1",
+      "source": "https://cards.fabtcg.com/card/dark_arcanite_plating/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": "0"
+        }
+      }
+    },
     "deathmatch_arena": {
       "id": "deathmatch_arena",
       "name_zh": "生死竞技场",
@@ -2193,7 +2310,7 @@
       "type_zh": "通用 衍生物·物品",
       "type_en": "",
       "text_zh": "行动——摧毁钻石：抽一张牌。再动",
-      "text_en": "Action - Destroy Diamond: Draw a card. Go again",
+      "text_en": "Action - Destroy this: Draw a card. Go again",
       "source": "https://cards.fabtcg.com/card/diamond/",
       "status": "machine-draft",
       "keywords": [],
@@ -2213,7 +2330,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "瞬间——摧毁此牌：获得1个行动点。\n水葬传说",
-      "text_en": "Instant - Destroy this: gain 1 action point.\nLegend of the Watery Grave",
+      "text_en": "Instant - Destroy this: Gain 1 action point.\nLegend of the Watery Grave",
       "source": "https://cards.fabtcg.com/card/diamond_amulet/",
       "status": "machine-draft",
       "keywords": [
@@ -2256,7 +2373,7 @@
       "type_zh": "通用 行动·攻击",
       "type_en": "",
       "text_zh": "当下三滥在你的军械库中时，你可以用它防御。",
-      "text_en": "While Down and Dirty is in your arsenal, you may defend with it.",
+      "text_en": "While this is in your arsenal, you may defend with it.",
       "source": "https://cards.fabtcg.com/card/down_and_dirty/",
       "status": "machine-draft",
       "keywords": [],
@@ -2366,7 +2483,7 @@
       "type_zh": "",
       "type_en": "Generic Action - Attack",
       "text_zh": "若暴行嗡鸣将从任何区域置入你的坟场，改为将其置于你的牌库底。",
-      "text_en": "If Drone of Brutality would be put into your graveyard from anywhere, instead put it on the bottom of your deck.",
+      "text_en": "If this would be put into your graveyard from anywhere, instead put it on the bottom of your deck.",
       "source": "https://cards.fabtcg.com/card/drone_of_brutality/",
       "status": "machine-draft",
       "keywords": [],
@@ -2557,8 +2674,8 @@
       "name_en": "Enchanting Melody",
       "type_zh": "通用 行动·光环",
       "type_en": "",
-      "text_zh": "再动\n若你的英雄将受到伤害，改为摧毁迷人旋律并防止该来源将造成的4点伤害。\n在你的结束阶段开始时，摧毁迷人旋律，除非本回合你使用过一张“非攻击”行动牌。",
-      "text_en": "Go again\nIf your hero would be dealt damage, instead destroy Enchanting Melody and prevent 4 damage that source would deal.\nAt the beginning of your end phase, destroy Enchanting Melody unless you have played a 'non-attack' action card this turn.",
+      "text_zh": "再动\n若你将受到伤害，摧毁此牌以防止该伤害中的4点伤害。\n在你的结束阶段开始时，摧毁此牌，除非你本回合使用过非攻击行动牌。",
+      "text_en": "Go again\nIf you would be dealt damage, destroy this to prevent 4 of that damage.\nAt the beginning of your end phase, destroy this unless you have played a non-attack action card this turn.",
       "source": "https://cards.fabtcg.com/card/enchanting_melody/",
       "status": "machine-draft",
       "keywords": [
@@ -2576,14 +2693,14 @@
           "cost": "2",
           "power": null,
           "defense": "2",
-          "text_zh": "再动\n若你的英雄将受到伤害，改为摧毁迷人旋律并防止该来源将造成的3点伤害。\n在你的结束阶段开始时，摧毁迷人旋律，除非本回合你使用过一张“非攻击”行动牌。"
+          "text_zh": "再动\n若你将受到伤害，摧毁此牌以防止该伤害中的3点伤害。\n在你的结束阶段开始时，摧毁此牌，除非你本回合使用过非攻击行动牌。"
         },
         "3": {
           "pitch": "3",
           "cost": "2",
           "power": null,
           "defense": "2",
-          "text_zh": "再动\n若你的英雄将受到伤害，改为摧毁迷人旋律并防止该来源将造成的2点伤害。\n在你的结束阶段开始时，摧毁迷人旋律，除非本回合你使用过一张“非攻击”行动牌。"
+          "text_zh": "再动\n若你将受到伤害，摧毁此牌以防止该伤害中的2点伤害。\n在你的结束阶段开始时，摧毁此牌，除非你本回合使用过非攻击行动牌。"
         }
       }
     },
@@ -2717,6 +2834,28 @@
         }
       }
     },
+    "exorcism": {
+      "id": "exorcism",
+      "name_zh": "驱邪",
+      "name_en": "Exorcism",
+      "type_zh": "通用 行动",
+      "type_en": "",
+      "text_zh": "本回合你的下一次攻击获得+3{p}和“当此攻击命中英雄时，将其放逐区中的所有牌翻为牌面朝下。”\n再动",
+      "text_en": "Your next attack this turn gets +3{p} and \"When this hits a hero, turn all cards in their banished zone face-down.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/exorcism/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
     "exposed": {
       "id": "exposed",
       "name_zh": "暴露",
@@ -2745,8 +2884,8 @@
       "name_en": "Exude Confidence",
       "type_zh": "通用 行动·攻击",
       "type_en": "",
-      "text_zh": "当散发自信没有被力量等于或高于它的牌防御时，本战斗链中防御英雄不能使用或启动瞬间和防御反应。\n瞬间——支付3点资源：散发自信获得+2力量。仅当散发自信正在攻击时才能启动此异能。",
-      "text_en": "While Exude Confidence isn't defended by a card with equal or greater {p}, the defending hero can't play or activate instants or defense reactions this combat chain.\nInstant - {r}{r}{r}: Exude Confidence gains +2{p}. Activate this ability only while Exude Confidence is attacking.",
+      "text_zh": "若此牌没有被力量等于或高于它的牌防御，防御英雄不能使用或启动瞬间和防御反应。\n瞬间——支付3点资源：此牌获得+2力量。",
+      "text_en": "If this isn't defended by a card with equal or greater {p}, the defending hero can't play or activate instants and defense reactions.\nInstant - {r}{r}{r}: This gets +2{p}.",
       "source": "https://cards.fabtcg.com/card/exude_confidence/",
       "status": "machine-draft",
       "keywords": [],
@@ -3366,8 +3505,8 @@
       "id": "frailty",
       "name_zh": "虚弱",
       "name_en": "Frailty",
-      "type_zh": "通用 衍生物·光环",
-      "type_en": "",
+      "type_zh": "通用 衍生物·疾病 光环",
+      "type_en": "Generic Token - Disease Aura",
       "text_zh": "你从军械库使用的攻击行动牌和武器攻击获得-1力量。\n在你的结束阶段开始时，摧毁虚弱。",
       "text_en": "Your attack action cards played from arsenal and weapon attacks have -1{p}.\nAt the beginning of your end phase destroy Frailty.",
       "source": "https://cards.fabtcg.com/card/frailty/",
@@ -3596,8 +3735,8 @@
       "name_en": "Gambler's Gloves",
       "type_zh": "通用 装备·手臂",
       "type_en": "",
-      "text_zh": "若一位英雄将掷一枚或更多六面骰，在掷骰后你可以改为摧毁赌徒手套。若如此做，该英雄重新掷所有以此方式掷出的六面骰。",
-      "text_en": "If a hero would roll one or more 6 sided dice, instead after the roll you may destroy Gambler's Gloves. If you do, that hero rerolls all 6 sided dice rolled this way.",
+      "text_zh": "若一个包含掷六面骰的效应将结算，你可以改为摧毁此牌。若如此做，该效应的操控者重新掷所有以此方式掷出的六面骰。",
+      "text_en": "If an effect would resolve that includes rolling a 6 sided die, instead you may destroy this. If you do, the controller of the effect rerolls all 6 sided dice rolled this way.",
       "source": "https://cards.fabtcg.com/card/gamblers_gloves/",
       "status": "machine-draft",
       "keywords": [],
@@ -4036,7 +4175,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "行动——摧毁此牌：获得2点生命。再动",
-      "text_en": "Action - Destroy this: Gain 2{h}. Go again",
+      "text_en": "Action - Destroy this: Gain 2{h} Go again",
       "source": "https://cards.fabtcg.com/card/healing_potion/",
       "status": "machine-draft",
       "keywords": [],
@@ -4350,7 +4489,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "传奇\n行动——摧毁帝国敕令：说出一张牌名。直到你的下一个回合开始，被说出的牌不能被使用。若你为皇族，改为每位对手展示其手牌，然后你说出一张牌名。再动",
-      "text_en": "Legendary\nAction - Destroy Imperial Edict: Name a card. The named card can't be played until the start of your next turn. If you are Royal, instead each opponent reveals their hand, then name a card. Go again",
+      "text_en": "Legendary\nAction - Destroy this: Name a card. The named card can't be played until the start of your next turn. If you are Royal, instead each opponent reveals their hand, then name a card. Go again",
       "source": "https://cards.fabtcg.com/card/imperial_edict/",
       "status": "machine-draft",
       "keywords": [
@@ -4372,7 +4511,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "传奇\n行动——将帝国账本洗入其拥有者的牌库：创造一个铜币衍生物。若你为皇族，改为创造一个金币衍生物。",
-      "text_en": "Legendary\nAction - Shuffle Imperial Ledger into its owner's deck: Create a Copper token. If you are Royal, instead create a Gold token.",
+      "text_en": "Legendary\nAction - Shuffle this into its owner's deck: Create a Copper token. If you are Royal, instead create a Gold token.",
       "source": "https://cards.fabtcg.com/card/imperial_ledger/",
       "status": "machine-draft",
       "keywords": [
@@ -4416,7 +4555,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "传奇\n行动——支付1点资源，摧毁帝国战号角：选择任意数量的英雄。每位英雄选择一个其控制的盟友、光环、物品或地标永久物。摧毁每个以此方式选择的永久物。若你为皇族，改为由你选择这些永久物。",
-      "text_en": "Legendary\nAction - {r}, destroy Imperial Warhorn: Choose any number of heroes. Each of them chooses an ally, aura, item, or landmark permanent they control. Destroy each permanent chosen this way. If you are Royal, instead you choose the permanents.",
+      "text_en": "Legendary\nAction - {r}, destroy this: Choose any number of heroes. Each of them chooses an ally, aura, item, or landmark permanent they control. Destroy each permanent chosen this way. If you are Royal, instead you choose the permanents.",
       "source": "https://cards.fabtcg.com/card/imperial_warhorn/",
       "status": "machine-draft",
       "keywords": [
@@ -4435,10 +4574,10 @@
       "id": "inertia",
       "name_zh": "惰性",
       "name_en": "Inertia",
-      "type_zh": "通用 衍生物·光环",
-      "type_en": "",
+      "type_zh": "通用 衍生物·疾病 光环",
+      "type_en": "Generic Token - Disease Aura",
       "text_zh": "在你的结束阶段开始时，摧毁惰性，然后将你手牌和军械库中的所有牌置于你的牌库底。",
-      "text_en": "At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.",
+      "text_en": "At the beginning of your end phase, destroy this, then put all cards from your hand and arsenal on the bottom of your deck.",
       "source": "https://cards.fabtcg.com/card/inertia/",
       "status": "machine-draft",
       "keywords": [],
@@ -4724,7 +4863,7 @@
       "type_zh": "通用 行动",
       "type_en": "",
       "text_zh": "作为使用小玩意的额外费用，你可以摧毁你控制的任意数量的铜币、银币和/或金币。\n从你的牌库中搜寻一张名称中含有护符、药剂或护身符的牌，将其放入竞技场，然后洗牌。每以此方式摧毁4个铜币、2个银币和/或1个金币，重复此过程。",
-      "text_en": "As an additional cost to play Knick Knack Bric-a-brac, you may destroy any number of Copper, Silver, and/or Gold you control.\nSearch your deck for a card with Amulet, Potion, or Talisman in its name, put it into the arena, then shuffle. For each 4 Copper, 2 Silver, and/or 1 Gold destroyed this way, repeat this process.",
+      "text_en": "As an additional cost to play this, you may destroy any number of Copper, Silver, and/or Gold you control.\nSearch your deck for a card with Amulet, Potion, or Talisman in its name, put it into the arena, then shuffle. For each 4 Copper, 2 Silver, and/or 1 Gold destroyed this way, repeat this process.",
       "source": "https://cards.fabtcg.com/card/knick_knack_bric_a_brac/",
       "status": "machine-draft",
       "keywords": [],
@@ -4822,7 +4961,7 @@
       "type_zh": "通用 行动·攻击",
       "type_en": "",
       "text_zh": "当此牌被使用时，若你的生命低于一位对手英雄，它获得再动。\n当此牌命中时，获得1点生命。",
-      "text_en": "When this is played, if you have less {h} than an opposing hero, it gets go again.\nWhen this hits, gain 1{h}.",
+      "text_en": "When this hits, gain 1{h}.\nWhen this is played, if you have less {h} than an opposing hero, it gets go again.",
       "source": "https://cards.fabtcg.com/card/life_for_a_life/",
       "status": "machine-draft",
       "keywords": [
@@ -5233,6 +5372,28 @@
         }
       }
     },
+    "murmur_of_iarathael": {
+      "id": "murmur_of_iarathael",
+      "name_zh": "伊阿拉塞尔的低语",
+      "name_en": "Murmur of i'Arathael",
+      "type_zh": "通用 行动·攻击",
+      "type_en": "",
+      "text_zh": "若本回合有牌被置入你的放逐区，此牌获得再动。",
+      "text_en": "If a card has been put into your banished zone this turn, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/murmur_of_iarathael/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        }
+      }
+    },
     "muscle_mutt": {
       "id": "muscle_mutt",
       "name_zh": "肌肉犬",
@@ -5532,7 +5693,7 @@
       "type_zh": "通用 瞬间",
       "type_en": "",
       "text_zh": "防止本回合接下来将由你选择的一个来源对目标英雄造成的4点伤害。若该英雄的生命低于其他每位英雄，该英雄可以获得1点生命。",
-      "text_en": "Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{h}.",
+      "text_en": "Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less {h} than each other hero, they may gain 1{h}.",
       "source": "https://cards.fabtcg.com/card/oasis_respite/",
       "status": "machine-draft",
       "keywords": [],
@@ -5836,7 +5997,7 @@
       "type_zh": "通用 装备·副手",
       "type_en": "",
       "text_zh": "瞬间——支付1点资源，摧毁华丽铁扇：将你手牌中的一张牌置于牌库底。若如此做，抽一张牌。",
-      "text_en": "Instant - {r}, destroy Ornate Tessen: Put a card from your hand on the bottom of your deck. If you do, draw a card.",
+      "text_en": "Instant - {r}, destroy this: Put a card from your hand on the bottom of your deck. If you do, draw a card.",
       "source": "https://cards.fabtcg.com/card/ornate_tessen/",
       "status": "machine-draft",
       "keywords": [],
@@ -6112,7 +6273,7 @@
       "type_zh": "通用 行动·攻击",
       "type_en": "",
       "text_zh": "当此牌命中时，创造一个金币衍生物。\n若此牌是从军械库使用的，它获得再动。",
-      "text_en": "When this hits, create a Gold token.\nIf this was played from arsenal, it gets Go again.",
+      "text_en": "When this hits, create a Gold token.\nIf this was played from arsenal, it gets go again.",
       "source": "https://cards.fabtcg.com/card/performance_bonus/",
       "status": "machine-draft",
       "keywords": [
@@ -6281,7 +6442,7 @@
       "type_zh": "通用 衍生物·光环",
       "type_en": "",
       "text_zh": "在你的结束阶段开始时，摧毁沉思并抽一张牌。",
-      "text_en": "At the beginning of your end phase, destroy Ponder and draw a card.",
+      "text_en": "At the beginning of your end phase, destroy this and draw a card.",
       "source": "https://cards.fabtcg.com/card/ponder/",
       "status": "machine-draft",
       "keywords": [],
@@ -6321,7 +6482,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "瞬间——摧毁似曾相识药水：将你资源区中的所有牌以任意顺序置于牌库顶。",
-      "text_en": "Instant - Destroy Potion of Déjà Vu: Put all cards from your pitch zone on top of your deck in any order.",
+      "text_en": "Instant - Destroy this: Put all cards from your pitch zone on top of your deck in any order.",
       "source": "https://cards.fabtcg.com/card/potion_of_de_ja_vu/",
       "status": "machine-draft",
       "keywords": [],
@@ -6341,7 +6502,7 @@
       "type_zh": "",
       "type_en": "Generic Action - Item",
       "text_zh": "瞬间——摧毁似曾相识药水：将你资源区中的所有牌以任意顺序置于你的牌库顶。",
-      "text_en": "Instant - Destroy Potion of Déjà Vu: Put all cards from your pitch zone on top of your deck in any order.",
+      "text_en": "Instant - Destroy this: Put all cards from your pitch zone on top of your deck in any order.",
       "source": "https://cards.fabtcg.com/card/potion_of_deja_vu/",
       "status": "machine-draft",
       "keywords": [],
@@ -6381,7 +6542,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "瞬间——摧毁幸运药水：将你的手牌和军械库洗入你的牌库，然后抽等量的牌。",
-      "text_en": "Instant - Destroy Potion of Luck: Shuffle your hand and arsenal into your deck then draw that many cards.",
+      "text_en": "Instant - Destroy this: Shuffle your hand and arsenal into your deck then draw that many cards.",
       "source": "https://cards.fabtcg.com/card/potion_of_luck/",
       "status": "machine-draft",
       "keywords": [],
@@ -6401,7 +6562,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "瞬间——摧毁透视药水：查看目标英雄的手牌。",
-      "text_en": "Instant - Destroy Potion of Seeing: Look at target hero's hand.",
+      "text_en": "Instant - Destroy this: Look at target hero's hand.",
       "source": "https://cards.fabtcg.com/card/potion_of_seeing/",
       "status": "machine-draft",
       "keywords": [],
@@ -7322,7 +7483,7 @@
       "type_zh": "",
       "type_en": "Generic Instant",
       "text_zh": "将你坟场中的至多3张行动牌洗入你的牌库。\n放逐追忆。",
-      "text_en": "Shuffle up to 3 action cards from your graveyard into your deck.\nBanish Remembrance.",
+      "text_en": "Shuffle up to 3 action cards from your graveyard into your deck.\nBanish this.",
       "source": "https://cards.fabtcg.com/card/remembrance/",
       "status": "machine-draft",
       "keywords": [],
@@ -7490,7 +7651,7 @@
       "type_zh": "通用 防御反应",
       "type_en": "",
       "text_zh": "你可以将手牌中的一张牌置于牌库顶，而非支付超越的费用。",
-      "text_en": "You may put a card from your hand on top of your deck rather than pay Rise Above's {r} cost.",
+      "text_en": "You may put a card from your hand on top of your deck rather than pay this card's {r} cost.",
       "source": "https://cards.fabtcg.com/card/rise_above/",
       "status": "machine-draft",
       "keywords": [],
@@ -7637,6 +7798,28 @@
           "cost": "0",
           "power": null,
           "defense": null
+        }
+      }
+    },
+    "rumbling_of_iarathael": {
+      "id": "rumbling_of_iarathael",
+      "name_zh": "伊阿拉塞尔的轰鸣",
+      "name_en": "Rumbling of i'Arathael",
+      "type_zh": "通用 行动·攻击",
+      "type_en": "",
+      "text_zh": "若本回合有牌被置入你的放逐区，此牌获得压制。",
+      "text_en": "If a card has been put into your banished zone this turn, this gets overpower.",
+      "source": "https://cards.fabtcg.com/card/rumbling_of_iarathael/",
+      "status": "machine-draft",
+      "keywords": [
+        "Overpower"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "2"
         }
       }
     },
@@ -8054,7 +8237,7 @@
       "type_zh": "通用 装备·头部",
       "type_en": "",
       "text_zh": "瞬间——支付3点资源，摧毁此牌：本回合接下来你将受到伤害时，防止其中2点伤害。",
-      "text_en": "Instant - {r}{r}{r}, destroy this: The next time you would be dealt damage this turn, prevent 2 of that damage",
+      "text_en": "Instant - {r}{r}{r}, destroy this: The next time you would be dealt damage this turn, prevent 2 of that damage.",
       "source": "https://cards.fabtcg.com/card/sheltered_cove/",
       "status": "machine-draft",
       "keywords": [],
@@ -8174,7 +8357,7 @@
       "type_zh": "通用 行动·光环",
       "type_en": "",
       "text_zh": "结界4\n在你的行动阶段开始时，摧毁守护印记。",
-      "text_en": "Ward 4\nAt the beginning of your action phase, destroy Sigil of Protection.",
+      "text_en": "Ward 4\nAt the beginning of your action phase, destroy this.",
       "source": "https://cards.fabtcg.com/card/sigil_of_protection/",
       "status": "machine-draft",
       "keywords": [
@@ -8266,7 +8449,7 @@
       "type_zh": "通用 衍生物·物品",
       "type_en": "",
       "text_zh": "行动——支付3点资源，摧毁银币：抽一张牌。再动",
-      "text_en": "Action - {r}{r}{r}, destroy Silver: Draw a card. Go again",
+      "text_en": "Action - {r}{r}{r}, destroy this: Draw a card. Go again",
       "source": "https://cards.fabtcg.com/card/silver/",
       "status": "machine-draft",
       "keywords": [],
@@ -8946,7 +9129,7 @@
       "type_zh": "",
       "type_en": "Generic Equipment - Arms",
       "text_zh": "行动——摧毁短粗锤手：本回合攻击时基础力量为3或更低的攻击行动牌获得+1力量。再动",
-      "text_en": "Action - Destroy Stubby Hammerers: Attack action cards with 3 or less base power gain +1{p} while attacking this turn. Go again",
+      "text_en": "Action - Destroy this: Attack action cards with 3 or less base {p} get +1{p} while attacking this turn. Go again",
       "source": "https://cards.fabtcg.com/card/stubby_hammerers/",
       "status": "machine-draft",
       "keywords": [],
@@ -9251,7 +9434,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "再动\n每当你资源一张牌时，若你将获得恰好1点资源，改为摧毁回报护身符并获得3点资源。",
-      "text_en": "Go again\nWhenever you pitch a card, if you would gain exactly one {r}, instead destroy Talisman of Recompense and gain {r}{r}{r}.",
+      "text_en": "Go again\nIf you would gain exactly {r} from pitching a card, instead destroy this and gain {r}{r}{r}.",
       "source": "https://cards.fabtcg.com/card/talisman_of_recompense/",
       "status": "machine-draft",
       "keywords": [
@@ -9273,7 +9456,7 @@
       "type_zh": "通用 行动·物品",
       "type_en": "",
       "text_zh": "再动\n若在你的行动阶段期间一位对手将抽1张或更多牌，改为摧毁什一税护身符，该对手抽数量减1的牌。",
-      "text_en": "Go again\nIf an opponent would draw 1 or more cards during your action phase, instead destroy Talisman of Tithes and they draw that many cards minus 1.",
+      "text_en": "Go again\nIf an opponent would draw 1 or more cards during your action phase, instead destroy this and they draw that many cards minus 1.",
       "source": "https://cards.fabtcg.com/card/talisman_of_tithes/",
       "status": "machine-draft",
       "keywords": [
@@ -9317,7 +9500,7 @@
       "type_zh": "通用 装备·头部",
       "type_en": "",
       "text_zh": "瞬间——摧毁护符镜片：占卜2",
-      "text_en": "Instant - Destroy Talismanic Lens: Opt 2",
+      "text_en": "Instant - Destroy this: Opt 2",
       "source": "https://cards.fabtcg.com/card/talismanic_lens/",
       "status": "machine-draft",
       "keywords": [],
@@ -10086,7 +10269,7 @@
       "type_zh": "通用 装备·胸部",
       "type_en": "",
       "text_zh": "当你控制的攻击行动牌命中时，你可以摧毁第一拳背心。若如此做，获得2点资源。",
-      "text_en": "When an attack action card you control hits, you may destroy Vest of the First Fist. If you do, gain {r}{r}.",
+      "text_en": "When an attack action card you control hits, you may destroy this. If you do, gain {r}{r}.",
       "source": "https://cards.fabtcg.com/card/vest_of_the_first_fist/",
       "status": "machine-draft",
       "keywords": [],
@@ -10173,6 +10356,26 @@
         }
       }
     },
+    "violent_gusto": {
+      "id": "violent_gusto",
+      "name_zh": "暴烈兴致",
+      "name_en": "Violent Gusto",
+      "type_zh": "通用 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌攻击英雄时，你可以说出一个由其控制的光环永久物的名称，并将该永久物移回其拥有者的手牌。\n当此牌命中英雄时，将其控制的所有具有该名称的光环永久物移回各自拥有者的手牌。",
+      "text_en": "When this attacks a hero, you may name an aura permanent they control and return it to its owner's hand.\nWhen this hits a hero, return all aura permanents they control with that name to their owner's hand.",
+      "source": "https://cards.fabtcg.com/card/violent_gusto/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": "6",
+          "defense": "3"
+        }
+      }
+    },
     "vipox": {
       "id": "vipox",
       "name_zh": "毒痘",
@@ -10180,7 +10383,7 @@
       "type_zh": "通用 行动·攻击",
       "type_en": "",
       "text_zh": "当毒痘命中英雄时，该英雄失去与其手牌数量等量的生命。",
-      "text_en": "When Vipox hits a hero, they lose {h} equal to the number of cards in their hand.",
+      "text_en": "When this hits a hero, they lose {h} equal to the number of cards in their hand.",
       "source": "https://cards.fabtcg.com/card/vipox/",
       "status": "machine-draft",
       "keywords": [],
@@ -10406,6 +10609,40 @@
           "power": null,
           "defense": "3",
           "text_zh": "占卜2\n再动"
+        }
+      }
+    },
+    "whispers_within": {
+      "id": "whispers_within",
+      "name_zh": "内心低语",
+      "name_en": "Whispers Within",
+      "type_zh": "通用 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌防御时，占卜1。",
+      "text_en": "When this defends, opt 1.",
+      "source": "https://cards.fabtcg.com/card/whispers_within/",
+      "status": "machine-draft",
+      "keywords": [
+        "Opt 1"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "7",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "6",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "5",
+          "defense": "2"
         }
       }
     },

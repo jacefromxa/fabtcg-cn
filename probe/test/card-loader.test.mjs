@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { runInNewContext } from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
-const sourcePath = fileURLToPath(new URL('../talishar-cn.user.js', import.meta.url));
+const sourcePath = fileURLToPath(new URL('../fabtcg-cn.user.js', import.meta.url));
 const source = readFileSync(sourcePath, 'utf8');
 const browserSandbox = { URL };
 browserSandbox.window = browserSandbox;

@@ -1,7 +1,41 @@
 {
   "schema_version": 2,
-  "version": "3ee13c182500",
+  "version": "d0bd860c2a5e",
   "cards": {
+    "acrid_stench": {
+      "id": "acrid_stench",
+      "name_zh": "刺鼻恶臭",
+      "name_en": "Acrid Stench",
+      "type_zh": "暗影 死灵法师 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌攻击时，你可以弃置一张僵尸牌。若如此做，在你的放逐区创造一张腐化尸骸。\n再动",
+      "text_en": "When this attacks, you may discard a zombie. If you do, create a Corrupted Corpse in your banished zone.\nGo again",
+      "source": "https://cards.fabtcg.com/card/acrid_stench/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
     "angry_bones": {
       "id": "angry_bones",
       "name_zh": "愤怒骸骨",
@@ -198,6 +232,92 @@
         }
       }
     },
+    "bonded_burial": {
+      "id": "bonded_burial",
+      "name_zh": "连带埋葬",
+      "name_en": "Bonded Burial",
+      "type_zh": "死灵法师 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌命中英雄时，你可以摧毁一个你控制的盟友或弃置一张盟友牌。若如此做，该英雄弃一张牌。",
+      "text_en": "When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they discard a card.",
+      "source": "https://cards.fabtcg.com/card/bonded_burial/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
+    "bone_barrier": {
+      "id": "bone_barrier",
+      "name_zh": "骸骨屏障",
+      "name_en": "Bone Barrier",
+      "type_zh": "死灵法师 Defence Re行动",
+      "type_en": "",
+      "text_zh": "当此牌防御时，你可以摧毁一个你控制的盟友或弃置一张盟友牌。若如此做，此牌获得+2{d}。",
+      "text_en": "When this defends, you may destroy an ally you control or discard an ally. If you do, this gets +2{d}.",
+      "source": "https://cards.fabtcg.com/card/bone_barrier/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "2"
+        }
+      }
+    },
+    "bone_mass": {
+      "id": "bone_mass",
+      "name_zh": "骸骨堆积",
+      "name_en": "Bone Mass",
+      "type_zh": "暗影 死灵法师 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌攻击时，你可以弃置一张僵尸牌。若如此做，本回合你的下一次攻击获得+1{p}。\n再动",
+      "text_en": "When this attacks, you may discard a zombie. If you do, your next attack this turn gets +1{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/bone_mass/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
     "boo_resident_spook": {
       "id": "boo_resident_spook",
       "name_zh": "嘘·常驻幽灵",
@@ -217,7 +337,7 @@
           "pitch": "2",
           "cost": "1",
           "power": "2",
-          "defense": "2"
+          "defense": null
         }
       }
     },
@@ -245,11 +365,11 @@
     },
     "bridge_of_damnation": {
       "id": "bridge_of_damnation",
-      "name_zh": "",
+      "name_zh": "诅咒之桥",
       "name_en": "Bridge of Damnation",
-      "type_zh": "暗影 Necromancer 行动·光环",
+      "type_zh": "暗影 死灵法师 行动·光环",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "再动\n在每个回合开始时，摧毁此牌，除非你将一张僵尸牌从你的放逐区置入你的坟场。",
       "text_en": "Go again\nAt the start of each turn, destroy this unless you put a zombie from your banished zone into your graveyard.",
       "source": "https://cards.fabtcg.com/card/bridge_of_damnation/",
       "status": "machine-draft",
@@ -283,7 +403,7 @@
           "pitch": "2",
           "cost": "3",
           "power": "1",
-          "defense": "5"
+          "defense": null
         }
       }
     },
@@ -445,6 +565,42 @@
         }
       }
     },
+    "commit_to_corruption": {
+      "id": "commit_to_corruption",
+      "name_zh": "投身腐化",
+      "name_en": "Commit to Corruption",
+      "type_zh": "暗影 死灵法师 行动",
+      "type_en": "",
+      "text_zh": "本回合你的下一次攻击获得+3{p}和“当此攻击命中时，在你的放逐区创造一张腐化尸骸。”\n再动",
+      "text_en": "Your next attack this turn gets +3{p} and \"When this hits, create a Corrupted Corpse in your banished zone.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/commit_to_corruption/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3",
+          "text_zh": "本回合你的下一次攻击获得+2{p}和“当此攻击命中时，在你的放逐区创造一张腐化尸骸。”\n再动"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3",
+          "text_zh": "本回合你的下一次攻击获得+1{p}和“当此攻击命中时，在你的放逐区创造一张腐化尸骸。”\n再动"
+        }
+      }
+    },
     "conqueror_of_the_high_seas": {
       "id": "conqueror_of_the_high_seas",
       "name_zh": "公海征服者",
@@ -468,13 +624,45 @@
         }
       }
     },
+    "corpse_cover": {
+      "id": "corpse_cover",
+      "name_zh": "尸骸掩护",
+      "name_en": "Corpse Cover",
+      "type_zh": "死灵法师 阻挡",
+      "type_en": "",
+      "text_zh": "每回合一次瞬间——摧毁一个你控制的盟友或弃置一张盟友牌：防止本回合接下来将对你造成的2点伤害。只能在此牌防御期间启动。",
+      "text_en": "Once per Turn Instant - Destroy an ally you control or discard an ally: Prevent the next 2 damage that would be dealt to you this turn. Activate this only while this card is defending.",
+      "source": "https://cards.fabtcg.com/card/corpse_cover/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": null,
+          "power": null,
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": null,
+          "power": null,
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": null,
+          "power": null,
+          "defense": "1"
+        }
+      }
+    },
     "corrupted_corpse": {
       "id": "corrupted_corpse",
-      "name_zh": "",
+      "name_zh": "腐化尸骸",
       "name_en": "Corrupted Corpse",
-      "type_zh": "暗影 Necromancer 行动·Zombie Ally",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "化身\n此牌的攻击获得再动。\n血债",
       "text_en": "Incarnate\nThis card's attacks get go again.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/corrupted_corpse/",
       "status": "machine-draft",
@@ -510,6 +698,28 @@
           "cost": "1",
           "power": "3",
           "defense": null
+        }
+      }
+    },
+    "dig_for_souls": {
+      "id": "dig_for_souls",
+      "name_zh": "掘寻灵魂",
+      "name_en": "Dig for Souls",
+      "type_zh": "暗影 死灵法师 行动",
+      "type_en": "",
+      "text_zh": "查看你的牌库顶X张牌。你可以将其中一张僵尸牌置入你的坟场，然后将其余牌以任意顺序置于你的牌库底。\n本回合你的下一次僵尸攻击获得+4{p}和“当此攻击命中时，摧毁此僵尸。”\n再动",
+      "text_en": "Look at the top X cards of your deck. You may put a zombie from among them into your graveyard, then put the rest on the bottom of your deck in any order.\nYour next zombie attack this turn gets +4{p} and \"When this hits, destroy this zombie.\"\nGo again",
+      "source": "https://cards.fabtcg.com/card/dig_for_souls/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "X",
+          "power": null,
+          "defense": "3"
         }
       }
     },
@@ -610,6 +820,28 @@
           "cost": "3",
           "power": "7",
           "defense": "2"
+        }
+      }
+    },
+    "forsaken_strike": {
+      "id": "forsaken_strike",
+      "name_zh": "弃绝打击",
+      "name_en": "Forsaken Strike",
+      "type_zh": "暗影 死灵法师 行动·攻击",
+      "type_en": "",
+      "text_zh": "作为使用此牌的额外费用，你可以摧毁至多3个你控制的僵尸和／或弃置至多3张僵尸牌。每以此方式摧毁或弃置一个僵尸，选择一项；\n- 创造一个通往伊阿拉塞尔之门衍生物。\n- 此牌获得+2{p}。\n- 此牌获得再动。",
+      "text_en": "As an additional cost to play this, you may destroy up to 3 zombies you control and/or discard up to 3 zombies. Choose a mode for each zombie destroyed or discarded this way;\n- Create a Gate to i'Arathael token.\n- This gets +2{p}.\n- This gets go again.",
+      "source": "https://cards.fabtcg.com/card/forsaken_strike/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
         }
       }
     },
@@ -1093,6 +1325,40 @@
         }
       }
     },
+    "malignant_migration": {
+      "id": "malignant_migration",
+      "name_zh": "恶性迁移",
+      "name_en": "Malignant Migration",
+      "type_zh": "暗影 死灵法师 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌攻击时，你可以弃置一张僵尸牌。若如此做，将一张牌从你的放逐区置入你的坟场。\n再动",
+      "text_en": "When this attacks, you may discard a zombie. If you do, put a card from your banished zone into your graveyard.\nGo again",
+      "source": "https://cards.fabtcg.com/card/malignant_migration/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
+        }
+      }
+    },
     "man_overboard": {
       "id": "man_overboard",
       "name_zh": "落水者",
@@ -1124,6 +1390,66 @@
           "cost": "0",
           "power": "1",
           "defense": "3"
+        }
+      }
+    },
+    "mark_of_neverest": {
+      "id": "mark_of_neverest",
+      "name_zh": "永不安息印记",
+      "name_en": "Mark of Neverest",
+      "type_zh": "暗影 死灵法师 瞬间·光环",
+      "type_en": "",
+      "text_zh": "绑定于一个你控制的盟友永久物。\n被绑定的盟友获得+1{p}和“每当此盟友命中英雄或死亡时，你可以将你放逐区中的一张牌翻为牌面朝下。若如此做，在你的放逐区创造一张腐化尸骸。”",
+      "text_en": "Binds to an ally permanent you control.\nThe bound ally gets +1{p} and \"Whenever this hits a hero or dies, you may turn a card in your banished zone face-down. If you do, create a Corrupted Corpse in your banished zone.\"",
+      "source": "https://cards.fabtcg.com/card/mark_of_neverest/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mark_of_pathstone": {
+      "id": "mark_of_pathstone",
+      "name_zh": "路石印记",
+      "name_en": "Mark of Pathstone",
+      "type_zh": "暗影 死灵法师 瞬间·光环",
+      "type_en": "",
+      "text_zh": "绑定于一个你控制的盟友永久物。\n被绑定的盟友获得+1{p}和“每当此盟友命中英雄或死亡时，获得1{h}。”",
+      "text_en": "Binds to an ally permanent you control.\nThe bound ally gets +1{p} and \"Whenever this hits a hero or dies, gain 1{h}.\"",
+      "source": "https://cards.fabtcg.com/card/mark_of_pathstone/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mark_of_ushering": {
+      "id": "mark_of_ushering",
+      "name_zh": "引渡印记",
+      "name_en": "Mark of Ushering",
+      "type_zh": "暗影 死灵法师 瞬间·光环",
+      "type_en": "",
+      "text_zh": "绑定于一个你控制的盟友永久物。\n被绑定的盟友获得+1{p}和“每当此盟友命中英雄或死亡时，创造一个通往伊阿拉塞尔之门衍生物。”",
+      "text_en": "Binds to an ally permanent you control.\nThe bound ally gets +1{p} and \"Whenever this hits a hero or dies, create a Gate to i'Arathael token.\"",
+      "source": "https://cards.fabtcg.com/card/mark_of_ushering/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": null
         }
       }
     },
@@ -1240,6 +1566,38 @@
         }
       }
     },
+    "mutual_sacrifice": {
+      "id": "mutual_sacrifice",
+      "name_zh": "彼此献祭",
+      "name_en": "Mutual Sacrifice",
+      "type_zh": "死灵法师 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌命中英雄时，你可以摧毁一个你控制的盟友或弃置一张盟友牌。若如此做，该英雄失去2{h}。",
+      "text_en": "When this hits a hero, you may destroy an ally you control or discard an ally. If you do, they lose 2{h}.",
+      "source": "https://cards.fabtcg.com/card/mutual_sacrifice/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "4",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "3",
+          "defense": "2"
+        }
+      }
+    },
     "not_so_fast": {
       "id": "not_so_fast",
       "name_zh": "没那么快",
@@ -1279,6 +1637,40 @@
           "cost": "3",
           "power": "",
           "defense": "3"
+        }
+      }
+    },
+    "ominous_toll": {
+      "id": "ominous_toll",
+      "name_zh": "不祥钟声",
+      "name_en": "Ominous Toll",
+      "type_zh": "暗影 死灵法师 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌攻击时，你可以弃置一张僵尸牌。若如此做，创造一个通往伊阿拉塞尔之门衍生物。\n再动",
+      "text_en": "When this attacks, you may discard a zombie. If you do, create a Gate to i'Arathael token.\nGo again",
+      "source": "https://cards.fabtcg.com/card/ominous_toll/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "2"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "2"
         }
       }
     },
@@ -1414,15 +1806,217 @@
         }
       }
     },
+    "restless_cleric": {
+      "id": "restless_cleric",
+      "name_zh": "不息牧师",
+      "name_en": "Restless Cleric",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
+      "type_en": "",
+      "text_zh": "行动——{t}：获得1{h}。再动\n腐朽",
+      "text_en": "Action - {t}: Gain 1{h}. Go again\nDecay",
+      "source": "https://cards.fabtcg.com/card/restless_cleric/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "restless_commander": {
+      "id": "restless_commander",
+      "name_zh": "不息指挥官",
+      "name_en": "Restless Commander",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
+      "type_en": "",
+      "text_zh": "你控制的僵尸获得+1{p}。\n腐朽",
+      "text_en": "Zombies you control get +1{p}.\nDecay",
+      "source": "https://cards.fabtcg.com/card/restless_commander/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "restless_corporal": {
+      "id": "restless_corporal",
+      "name_zh": "不息下士",
+      "name_en": "Restless Corporal",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
+      "type_en": "",
+      "text_zh": "行动——{t}：将一张牌从你的放逐区置入你的坟场。再动\n腐朽",
+      "text_en": "Action - {t}: Put a card from your banished zone into your graveyard. Go again\nDecay",
+      "source": "https://cards.fabtcg.com/card/restless_corporal/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "restless_looter": {
+      "id": "restless_looter",
+      "name_zh": "不息掠夺者",
+      "name_en": "Restless Looter",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
+      "type_en": "",
+      "text_zh": "瞬间——{t}，弃一张牌。若如此做，抽一张牌。\n腐朽",
+      "text_en": "Instant - {t}, Discard a card. If you do, draw a card.\nDecay",
+      "source": "https://cards.fabtcg.com/card/restless_looter/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
     "restless_magister": {
       "id": "restless_magister",
-      "name_zh": "",
+      "name_zh": "不息法官",
       "name_en": "Restless Magister",
-      "type_zh": "暗影 Necromancer 行动·Zombie Ally",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
       "type_en": "",
-      "text_zh": "",
+      "text_zh": "当此牌命中英雄时，该英雄从手牌中放逐一张牌。\n腐朽",
       "text_en": "When this hits a hero, they banish a card from their hand.\nDecay",
       "source": "https://cards.fabtcg.com/card/restless_magister/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "restless_outlaw": {
+      "id": "restless_outlaw",
+      "name_zh": "不息亡命徒",
+      "name_en": "Restless Outlaw",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
+      "type_en": "",
+      "text_zh": "当此牌死亡时，在你的放逐区创造一张腐化尸骸。\n腐朽",
+      "text_en": "When this dies, create a Corrupted Corpse in your banished zone.\nDecay",
+      "source": "https://cards.fabtcg.com/card/restless_outlaw/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "restless_plowman": {
+      "id": "restless_plowman",
+      "name_zh": "不息农夫",
+      "name_en": "Restless Plowman",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
+      "type_en": "",
+      "text_zh": "行动——{t}：获得{r}。再动\n腐朽",
+      "text_en": "Action - {t}: Gain {r}. Go again\nDecay",
+      "source": "https://cards.fabtcg.com/card/restless_plowman/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "restless_quartermaster": {
+      "id": "restless_quartermaster",
+      "name_zh": "不息军需官",
+      "name_en": "Restless Quartermaster",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
+      "type_en": "",
+      "text_zh": "当此牌命中英雄时，该英雄放逐其军械库中的一张牌。\n腐朽",
+      "text_en": "When this hits a hero, they banish a card in their arsenal.\nDecay",
+      "source": "https://cards.fabtcg.com/card/restless_quartermaster/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "restless_shieldmaiden": {
+      "id": "restless_shieldmaiden",
+      "name_zh": "不息盾女",
+      "name_en": "Restless Shieldmaiden",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
+      "type_en": "",
+      "text_zh": "暗影抗性1\n腐朽",
+      "text_en": "Shadow Resist 1\nDecay",
+      "source": "https://cards.fabtcg.com/card/restless_shieldmaiden/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "restless_steed": {
+      "id": "restless_steed",
+      "name_zh": "不息战马",
+      "name_en": "Restless Steed",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
+      "type_en": "",
+      "text_zh": "当此牌命中时，该攻击获得再动。\n腐朽",
+      "text_en": "When this hits, the attack gets go again.\nDecay",
+      "source": "https://cards.fabtcg.com/card/restless_steed/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": null
+        }
+      }
+    },
+    "restless_templar": {
+      "id": "restless_templar",
+      "name_zh": "不息圣殿骑士",
+      "name_en": "Restless Templar",
+      "type_zh": "暗影 死灵法师 行动·僵尸盟友",
+      "type_en": "",
+      "text_zh": "每当一个你控制的、具有腐朽的僵尸死亡时，创造一个通往伊阿拉塞尔之门衍生物。\n腐朽",
+      "text_en": "Whenever a zombie you control with decay dies, create a Gate to i'Arathael token.\nDecay",
+      "source": "https://cards.fabtcg.com/card/restless_templar/",
       "status": "machine-draft",
       "keywords": [],
       "variants": {
@@ -1578,6 +2172,72 @@
         }
       }
     },
+    "shadowrealm_solace": {
+      "id": "shadowrealm_solace",
+      "name_zh": "影界慰藉",
+      "name_en": "Shadowrealm Solace",
+      "type_zh": "暗影 死灵法师 行动",
+      "type_en": "",
+      "text_zh": "你可以将一张牌从你的放逐区置入你的坟场。若其为僵尸牌，获得1{h}。\n再动",
+      "text_en": "You may put a card from your banished zone into your graveyard. If it's a zombie, gain 1{h}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/shadowrealm_solace/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "shadowrealm_strength": {
+      "id": "shadowrealm_strength",
+      "name_zh": "影界之力",
+      "name_en": "Shadowrealm Strength",
+      "type_zh": "暗影 死灵法师 行动",
+      "type_en": "",
+      "text_zh": "你可以将一张牌从你的放逐区置入你的坟场。若其为僵尸牌，本回合你的下一次攻击获得+3{p}。\n再动",
+      "text_en": "You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets +3{p}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/shadowrealm_strength/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
+    "shadowrealm_swiftness": {
+      "id": "shadowrealm_swiftness",
+      "name_zh": "影界迅捷",
+      "name_en": "Shadowrealm Swiftness",
+      "type_zh": "暗影 死灵法师 行动",
+      "type_en": "",
+      "text_zh": "你可以将一张牌从你的放逐区置入你的坟场。若其为僵尸牌，本回合你的下一次攻击获得再动。\n再动",
+      "text_en": "You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/shadowrealm_swiftness/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
     "shelly_hardened_traveler": {
       "id": "shelly_hardened_traveler",
       "name_zh": "雪莉·历练旅者",
@@ -1619,6 +2279,42 @@
           "cost": "0",
           "power": null,
           "defense": "3"
+        }
+      }
+    },
+    "skeletal_puppetry": {
+      "id": "skeletal_puppetry",
+      "name_zh": "骸骨傀儡术",
+      "name_en": "Skeletal Puppetry",
+      "type_zh": "死灵法师 行动",
+      "type_en": "",
+      "text_zh": "你可以弃置一张盟友牌，而非支付此牌的{r}费用。\n本回合你的下一次盟友攻击获得+3{p}和再动。\n再动",
+      "text_en": "You may discard an ally rather than pay this card's {r} cost.\nYour next ally attack this turn gets +3{p} and go again.\nGo again",
+      "source": "https://cards.fabtcg.com/card/skeletal_puppetry/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "2",
+          "power": null,
+          "defense": "2"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "2",
+          "power": null,
+          "defense": "2",
+          "text_zh": "你可以弃置一张盟友牌，而非支付此牌的{r}费用。\n本回合你的下一次盟友攻击获得+2{p}和再动。\n再动"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": null,
+          "defense": "2",
+          "text_zh": "你可以弃置一张盟友牌，而非支付此牌的{r}费用。\n本回合你的下一次盟友攻击获得+1{p}和再动。\n再动"
         }
       }
     },
@@ -1860,14 +2556,36 @@
         }
       }
     },
+    "tome_of_necrosis": {
+      "id": "tome_of_necrosis",
+      "name_zh": "坏死书卷",
+      "name_en": "Tome of Necrosis",
+      "type_zh": "死灵法师 行动",
+      "type_en": "",
+      "text_zh": "作为使用此牌的额外费用，摧毁一个你控制的盟友或弃置一张盟友牌。\n抽一张牌并{u}你的英雄。\n再动",
+      "text_en": "As an additional cost to play this, destroy an ally you control or discard an ally.\nDraw a card and {u} your hero.\nGo again",
+      "source": "https://cards.fabtcg.com/card/tome_of_necrosis/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
     "vox_necropolis": {
       "id": "vox_necropolis",
-      "name_zh": "",
+      "name_zh": "亡城之声",
       "name_en": "Vox Necropolis",
-      "type_zh": "暗影 Necromancer 武器·法杖 （双手）",
+      "type_zh": "暗影 死灵法师 武器·法杖 （双手）",
       "type_en": "",
-      "text_zh": "",
-      "text_en": "During your action phase, zombies you've played from a graveyard or banished zone enter the arena tapped and get \"When this enteres the arena, attack with it.\"\nZombies you control get \"Action - {r}, {t}: Attack\"",
+      "text_zh": "在你的行动阶段，你从坟场或放逐区使用的僵尸横置进入竞技场，并获得“当此僵尸进入竞技场时，用它攻击。”\n你控制的僵尸获得“行动——{r}，{t}：攻击”。",
+      "text_en": "During your action phase, zombies you've played from a graveyard or banished zone enter the arena tapped and get \"When this enters the arena, attack with it.\"\nZombies you control get \"Action - {r}, {t}: Attack\"",
       "source": "https://cards.fabtcg.com/card/vox_necropolis/",
       "status": "machine-draft",
       "keywords": [],

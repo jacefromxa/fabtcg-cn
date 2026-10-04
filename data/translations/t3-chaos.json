@@ -1,7 +1,7 @@
 {
   "concoct_disorder__1": {
     "name_en": "Concoct Disorder",
-    "name_zh": "制造混乱",
+    "name_zh": "炮制无序",
     "type_zh": "混沌 行动·攻击",
     "text_en": "When this attacks, each hero puts the top card of their deck face-down into their arsenal. If 2 or more cards are put into arsenals this way, this gets go again.",
     "text_zh": "当此牌攻击时，每位英雄将其牌库顶的一张牌牌面朝下放入其军械库。若以此方式有2张或更多牌被放入军械库，此牌获得再动。",
@@ -14,7 +14,7 @@
   },
   "concoct_disorder__2": {
     "name_en": "Concoct Disorder",
-    "name_zh": "制造混乱",
+    "name_zh": "炮制无序",
     "type_zh": "混沌 行动·攻击",
     "text_en": "When this attacks, each hero puts the top card of their deck face-down into their arsenal. If 2 or more cards are put into arsenals this way, this gets go again.",
     "text_zh": "当此牌攻击时，每位英雄将其牌库顶的一张牌牌面朝下放入其军械库。若以此方式有2张或更多牌被放入军械库，此牌获得再动。",
@@ -27,7 +27,7 @@
   },
   "concoct_disorder__3": {
     "name_en": "Concoct Disorder",
-    "name_zh": "制造混乱",
+    "name_zh": "炮制无序",
     "type_zh": "混沌 行动·攻击",
     "text_en": "When this attacks, each hero puts the top card of their deck face-down into their arsenal. If 2 or more cards are put into arsenals this way, this gets go again.",
     "text_zh": "当此牌攻击时，每位英雄将其牌库顶的一张牌牌面朝下放入其军械库。若以此方式有2张或更多牌被放入军械库，此牌获得再动。",
@@ -53,7 +53,7 @@
   },
   "hyper_inflation__1": {
     "name_en": "Hyper Inflation",
-    "name_zh": "恶性通货膨胀",
+    "name_zh": "恶性通胀",
     "type_zh": "混沌 行动·攻击",
     "text_en": "When this attacks, cards cost {r} more to play this turn.\nGo again",
     "text_zh": "当此牌攻击时，本回合牌的使用费用增加1点资源。\n再动",
@@ -66,26 +66,26 @@
   },
   "hyper_inflation__2": {
     "name_en": "Hyper Inflation",
-    "name_zh": "恶性通货膨胀",
+    "name_zh": "恶性通胀",
     "type_zh": "混沌 行动·攻击",
     "text_en": "When this attacks, cards cost {r} more to play this turn.\nGo again",
     "text_zh": "当此牌攻击时，本回合牌的使用费用增加1点资源。\n再动",
     "pitch": "2",
     "cost": "0",
-    "power": "4",
+    "power": "3",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/hyper_inflation/",
     "status": "machine-draft"
   },
   "hyper_inflation__3": {
     "name_en": "Hyper Inflation",
-    "name_zh": "恶性通货膨胀",
+    "name_zh": "恶性通胀",
     "type_zh": "混沌 行动·攻击",
     "text_en": "When this attacks, cards cost {r} more to play this turn.\nGo again",
     "text_zh": "当此牌攻击时，本回合牌的使用费用增加1点资源。\n再动",
     "pitch": "3",
     "cost": "0",
-    "power": "4",
+    "power": "2",
     "defense": "3",
     "source": "https://cards.fabtcg.com/card/hyper_inflation/",
     "status": "machine-draft"
@@ -105,7 +105,7 @@
   },
   "riddle_with_regret__1": {
     "name_en": "Riddle with Regret",
-    "name_zh": "以悔恨困扰",
+    "name_zh": "悔恨不息",
     "type_zh": "混沌 行动·光环",
     "text_en": "Go again\nAt the beginning of each hero's end phase, they lose X{h}, where X is the number of auras they controlled when this triggered. If X is 3 or more, destroy this.",
     "text_zh": "再动\n在每位英雄的结束阶段开始时，该英雄失去X点生命，X为此效果触发时其控制的光环数量。若X为3或更高，摧毁此牌。",
@@ -118,7 +118,7 @@
   },
   "schism_of_chaos__3": {
     "name_en": "Schism of Chaos",
-    "name_zh": "混沌分裂",
+    "name_zh": "混沌决裂",
     "type_zh": "混沌 资源·宝石",
     "text_en": "Legendary\nWhen this is pitched, each hero shuffles, then puts the top card of their deck facedown into their arsenal.",
     "text_zh": "传奇\n当此牌被资源时，每位英雄洗牌，然后将其牌库顶的一张牌牌面朝下放入其军械库。",
@@ -144,7 +144,7 @@
   },
   "tome_of_pandemonium__2": {
     "name_en": "Tome of Pandemonium",
-    "name_zh": "群魔乱舞之书",
+    "name_zh": "狂魔书卷",
     "type_zh": "混沌 行动",
     "text_en": "Banish the top card of each hero's deck. You may play them this turn.\nGo again",
     "text_zh": "放逐每位英雄牌库顶的一张牌。本回合你可以使用它们。\n再动",
