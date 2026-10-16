@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "d0bd860c2a5e",
+  "version": "9ce3719cf385",
   "cards": {
     "adrenaline_rush": {
       "id": "adrenaline_rush",
@@ -2022,6 +2022,28 @@
         }
       }
     },
+    "cure_all_elixir": {
+      "id": "cure_all_elixir",
+      "name_zh": "万灵药剂",
+      "name_en": "Cure-All Elixir",
+      "type_zh": "通用 行动",
+      "type_en": "",
+      "text_zh": "你本回合的下一次攻击获得+3力量。\n你可以治愈一个你控制的疾病。若如此做，获得1点生命。\n再动",
+      "text_en": "Your next attack this turn gets +3{p}.\nYou may cure a disease you control. If you do, gain 1{h}.\nGo again",
+      "source": "https://cards.fabtcg.com/card/cure_all_elixir/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": "1",
+          "power": null,
+          "defense": "3"
+        }
+      }
+    },
     "cut_down_to_size": {
       "id": "cut_down_to_size",
       "name_zh": "削减威风",
@@ -2831,6 +2853,26 @@
           "power": null,
           "defense": null,
           "text_zh": "仅当本回合你造成过伤害时才能使用比那还大。\n占卜1，然后展示你牌库顶的一张牌。若其力量大于你本回合已造成的伤害总量，创造一个加速衍生物并抽一张牌。"
+        }
+      }
+    },
+    "exertion": {
+      "id": "exertion",
+      "name_zh": "力竭",
+      "name_en": "Exertion",
+      "type_zh": "通用 衍生物·疾病 光环",
+      "type_en": "",
+      "text_zh": "每当你从手牌使用一张牌时，失去1点生命。\n在你的结束阶段开始时，摧毁此牌。",
+      "text_en": "Whenever you play a card from hand, lose 1{h}.\nAt the beginning of your end phase, destroy this.",
+      "source": "https://cards.fabtcg.com/card/exertion/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
         }
       }
     },

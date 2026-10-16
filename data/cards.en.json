@@ -1,4 +1,1034 @@
 {
+  "unstable_plasma_pistol": {
+    "source_unique_id": "NMwWqNFbRdFC9hj79nknm",
+    "name_en": "Unstable Plasma Pistol",
+    "pitch": null,
+    "cost": null,
+    "power": "2",
+    "defense": null,
+    "types": [
+      "Chaos",
+      "Mechanologist",
+      "Weapon",
+      "Pistol",
+      "2H"
+    ],
+    "text_en": "Action - {r}{r}: Attack\nIf you've banished a card an opponent owns from boosting this turn, this gets +2{p}.",
+    "type_en": "Chaos Mechanologist Weapon - Pistol (2H)",
+    "printings": [
+      {
+        "id": "AMG002",
+        "set_id": "AMG",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMG002-RF.webp"
+      }
+    ]
+  },
+  "madness_spiral": {
+    "source_unique_id": "JzkpPjgLfhPC8nqkwLFch",
+    "name_en": "Madness Spiral",
+    "pitch": "3",
+    "cost": "2",
+    "power": "4",
+    "defense": "3",
+    "types": [
+      "Chaos",
+      "Mechanologist",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "Boost\nIf you would banish this from boosting, instead banish it and the top card of each other hero's deck to boost.",
+    "type_en": "Chaos Mechanologist Action - Attack",
+    "printings": [
+      {
+        "id": "AMG023",
+        "set_id": "AMG",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMG023.webp"
+      }
+    ]
+  },
+  "revere_the_copper_idol": {
+    "source_unique_id": "Q9mzkqzqwF8J9pR6FfnLf",
+    "name_en": "Revere the Copper Idol",
+    "pitch": "3",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Mechanologist",
+      "Instant"
+    ],
+    "text_en": "Legendary\nWhen this is banished from boosting, shuffle this into its owner's deck.\nShuffle up to 3 Mechanologist action cards with different names from your banished zone into your deck.",
+    "type_en": "Mechanologist Instant",
+    "printings": [
+      {
+        "id": "AMG027",
+        "set_id": "AMG",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMG027.webp"
+      }
+    ]
+  },
+  "exertion": {
+    "source_unique_id": "zGqKCptTKgPgqtgWBJGDw",
+    "name_en": "Exertion",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Generic",
+      "Token",
+      "Disease",
+      "Aura"
+    ],
+    "text_en": "Whenever you play a card from hand, lose 1{h}.\nAt the beginning of your end phase, destroy this.",
+    "type_en": "Generic Token - Disease Aura",
+    "printings": [
+      {
+        "id": "SLV035",
+        "set_id": "SLV",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLV035.webp"
+      }
+    ]
+  },
+  "mortimers_lab": {
+    "source_unique_id": "jDkMK8ncQnwRBGbRqw7tB",
+    "name_en": "Mortimer's Lab",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Outbreak",
+      "Macro"
+    ],
+    "text_en": "The first time you hit an opposing hero each turn, they reveal the top card of their deck. If it's;\n- Red, create a Bloodrot Pox token under their control.\n- Yellow, create an Exertion token under their control.\n- Blue, create an Inertia token under their control.",
+    "type_en": "Outbreak Macro",
+    "printings": [
+      {
+        "id": "OBK000",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK000.webp"
+      }
+    ]
+  },
+  "mortimer_living_virus": {
+    "source_unique_id": "gHj77G8cGHTfkD779c9jK",
+    "name_en": "Mortimer, Living Virus",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Chaos",
+      "Assassin",
+      "Hero",
+      "Young"
+    ],
+    "text_en": "Instant - {r}, {t}: Create a token copy of a disease token you control under each opponent's control. Activate this only during your turn.",
+    "type_en": "Chaos Assassin Hero - Young",
+    "printings": [
+      {
+        "id": "OBK001",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK001.webp"
+      },
+      {
+        "id": "OBK001",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK001-MV.webp"
+      },
+      {
+        "id": "OBK001",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK001-MV_BACK.webp"
+      },
+      {
+        "id": "SLV001",
+        "set_id": "SLV",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLV001.webp"
+      }
+    ]
+  },
+  "min_genius": {
+    "source_unique_id": "8HF69TPRhGhp9GCkjrqJz",
+    "name_en": "Min, Genius",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Chaos",
+      "Mechanologist",
+      "Hero"
+    ],
+    "text_en": "Cards you own are Mechanologist.\nAt the beginning of your end phase, flip this.",
+    "type_en": "Chaos Mechanologist Hero",
+    "printings": [
+      {
+        "id": "AMG001",
+        "set_id": "AMG",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMG001-RF.webp"
+      },
+      {
+        "id": "OBK006",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK006-MV.webp"
+      }
+    ]
+  },
+  "min_mad": {
+    "source_unique_id": "9TcBHhhCRpnM8z8p67PBM",
+    "name_en": "Min, Mad",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Chaos",
+      "Mechanologist",
+      "Hero"
+    ],
+    "text_en": "Cards you own lose and can't gain class and talent types.\nAt the beginning of your end phase, flip this.",
+    "type_en": "Chaos Mechanologist Hero",
+    "printings": [
+      {
+        "id": "AMG001",
+        "set_id": "AMG",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMG001-RF_BACK.webp"
+      },
+      {
+        "id": "OBK006",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK006-MV_BACK.webp"
+      }
+    ]
+  },
+  "min_half_genius": {
+    "source_unique_id": "6fdbbRdJnpTdgbHqmdtJm",
+    "name_en": "Min, Half-Genius",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Chaos",
+      "Mechanologist",
+      "Hero",
+      "Young"
+    ],
+    "text_en": "Cards you own are Mechanologist.\nAt the beginning of your end phase, flip this.",
+    "type_en": "Chaos Mechanologist Hero - Young",
+    "printings": [
+      {
+        "id": "OBK007",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK007.webp"
+      },
+      {
+        "id": "OBK007",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK007-MV.webp"
+      }
+    ]
+  },
+  "min_half_mad": {
+    "source_unique_id": "dB7CprqC9mgQTBqnQtjz8",
+    "name_en": "Min, Half-Mad",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Chaos",
+      "Mechanologist",
+      "Hero",
+      "Young"
+    ],
+    "text_en": "Cards you own lose and can't gain class and talent types.\nAt the beginning of your end phase, flip this.",
+    "type_en": "Chaos Mechanologist Hero - Young",
+    "printings": [
+      {
+        "id": "OBK007",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK007_BACK.webp"
+      },
+      {
+        "id": "OBK007",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK007-MV_BACK.webp"
+      }
+    ]
+  },
+  "vyle_catalyst_of_collapse": {
+    "source_unique_id": "kjK7Hm7RRHLbJ9PWBHKf9",
+    "name_en": "Vyle, Catalyst of Collapse",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Chaos",
+      "Ranger",
+      "Hero"
+    ],
+    "text_en": "Instant - {r}{r}, {t}: Each hero puts the top card of their deck face-up into their arsenal. Activate this only during your turn.\nIf an opponent has a face-up card in their arsenal, your arrow attacks get +1{p}.",
+    "type_en": "Chaos Ranger Hero",
+    "printings": [
+      {
+        "id": "OBK012",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK012.webp"
+      },
+      {
+        "id": "OBK012",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK012-MV.webp"
+      },
+      {
+        "id": "OBK012",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK012-MV_BACK.webp"
+      }
+    ]
+  },
+  "vyle": {
+    "source_unique_id": "K7JKp6wbHJBBffP9nnJFB",
+    "name_en": "Vyle",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Chaos",
+      "Ranger",
+      "Hero",
+      "Young"
+    ],
+    "text_en": "Instant - {r}{r}, {t}: Each hero puts the top card of their deck face-up into their arsenal. Activate this only during your turn.\nIf an opponent has a face-up card in their arsenal, your arrow attacks get +1{p}.",
+    "type_en": "Chaos Ranger Hero - Young",
+    "printings": [
+      {
+        "id": "OBK013",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK013.webp"
+      },
+      {
+        "id": "OBK013",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK013-MV.webp"
+      },
+      {
+        "id": "OBK013",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK013-MV_BACK.webp"
+      }
+    ]
+  },
+  "curative_ceremony": {
+    "source_unique_id": "FpnmfwjL9jhPPfdQGm8w9",
+    "name_en": "Curative Ceremony",
+    "pitch": "1",
+    "cost": "0",
+    "power": "4",
+    "defense": "3",
+    "types": [
+      "Chaos",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "As an additional cost to play this, each hero cures a disease they control if able. Choose a mode for each disease cured this way;\n\nThis gets +2{p}.\nThis gets go again.\nThis gets veil.",
+    "type_en": "Chaos Action - Attack",
+    "printings": [
+      {
+        "id": "OBK023",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK023.webp"
+      },
+      {
+        "id": "OBK023",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK023.webp"
+      }
+    ]
+  },
+  "extinction_level_event": {
+    "source_unique_id": "DBtMkQRNHHpqDPdkCnkMf",
+    "name_en": "Extinction Level Event",
+    "pitch": "1",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Chaos",
+      "Action",
+      "Aura"
+    ],
+    "text_en": "When this enters the arena, name a disease token. Disease tokens with the chosen name lose and can't gain abilities while this is in the arena.\nAt the start of your turn, if there are 33 or more disease tokens in the arena, you win the game.",
+    "type_en": "Chaos Action - Aura",
+    "printings": [
+      {
+        "id": "OBK027",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK027.webp"
+      },
+      {
+        "id": "OBK027",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK027.webp"
+      }
+    ]
+  },
+  "swap_spit": {
+    "source_unique_id": "CjRhCdD7DWFkK9mKB89PN",
+    "name_en": "Swap Spit",
+    "pitch": "1",
+    "cost": "0",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Chaos",
+      "Defense Reaction"
+    ],
+    "text_en": "When this defends, choose a disease token you control at random. Target opponent chooses a disease token they control at random. Give them to each other.",
+    "type_en": "Chaos Defense Reaction",
+    "printings": [
+      {
+        "id": "OBK034",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK034.webp"
+      },
+      {
+        "id": "OBK034",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK034.webp"
+      }
+    ]
+  },
+  "swap_spit__2": {
+    "source_unique_id": "TDFTtctpWr79RJkHtRd8F",
+    "name_en": "Swap Spit",
+    "pitch": "2",
+    "cost": "0",
+    "power": null,
+    "defense": "2",
+    "types": [
+      "Chaos",
+      "Defense Reaction"
+    ],
+    "text_en": "When this defends, choose a disease token you control at random. Target opponent chooses a disease token they control at random. Give them to each other.",
+    "type_en": "Chaos Defense Reaction",
+    "printings": [
+      {
+        "id": "OBK035",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK035.webp"
+      },
+      {
+        "id": "OBK035",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK035.webp"
+      }
+    ]
+  },
+  "swap_spit__3": {
+    "source_unique_id": "nwCTgWjgJRmmBN6Nkjph6",
+    "name_en": "Swap Spit",
+    "pitch": "3",
+    "cost": "0",
+    "power": null,
+    "defense": "1",
+    "types": [
+      "Chaos",
+      "Defense Reaction"
+    ],
+    "text_en": "When this defends, choose a disease token you control at random. Target opponent chooses a disease token they control at random. Give them to each other.",
+    "type_en": "Chaos Defense Reaction",
+    "printings": [
+      {
+        "id": "OBK036",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK036.webp"
+      },
+      {
+        "id": "OBK036",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK036.webp"
+      }
+    ]
+  },
+  "incite_aggression": {
+    "source_unique_id": "7RQbHjJQFCDprbhb8Wpjn",
+    "name_en": "Incite Aggression",
+    "pitch": "1",
+    "cost": "1",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Chaos",
+      "Action"
+    ],
+    "text_en": "Each hero puts the top card of their deck face-up into their arsenal. If a red card is put face-up into an arsenal this way, your next attack this turn gets go again.\nGo again",
+    "type_en": "Chaos Action",
+    "printings": [
+      {
+        "id": "OBK037",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK037.webp"
+      },
+      {
+        "id": "OBK037",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK037.webp"
+      }
+    ]
+  },
+  "incite_resolve": {
+    "source_unique_id": "GcGgCD8wK8FHJ7cPCPwBP",
+    "name_en": "Incite Resolve",
+    "pitch": "3",
+    "cost": "1",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Chaos",
+      "Action"
+    ],
+    "text_en": "Each hero puts the top card of their deck face-up into their arsenal. If a blue card is put face-up into an arsenal this way, your next attack this turn gets +2{p}.\nGo again",
+    "type_en": "Chaos Action",
+    "printings": [
+      {
+        "id": "OBK039",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK039.webp"
+      },
+      {
+        "id": "OBK039",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK039.webp"
+      }
+    ]
+  },
+  "exertion_bloom": {
+    "source_unique_id": "FHDbh8LrjpQFGqFFCbTpf",
+    "name_en": "Exertion Bloom",
+    "pitch": "2",
+    "cost": "3",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Chaos",
+      "Instant"
+    ],
+    "text_en": "This costs {r}{r}{r} less to play during your turn.\nCreate an Exertion token under each hero's control.",
+    "type_en": "Chaos Instant",
+    "printings": [
+      {
+        "id": "OBK066",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK066.webp"
+      },
+      {
+        "id": "OBK066",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK066.webp"
+      }
+    ]
+  },
+  "raging_streets": {
+    "source_unique_id": "KWPBmChF7BjFcMHh9wwpp",
+    "name_en": "Raging Streets",
+    "pitch": "2",
+    "cost": "0",
+    "power": null,
+    "defense": null,
+    "types": [
+      "Chaos",
+      "Instant"
+    ],
+    "text_en": "Choose a random non-equipment card on the active chain link. It gets +3{p} +3{d} this chain link.",
+    "type_en": "Chaos Instant",
+    "printings": [
+      {
+        "id": "OBK069",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK069.webp"
+      },
+      {
+        "id": "OBK069",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK069.webp"
+      }
+    ]
+  },
+  "quiet_streets": {
+    "source_unique_id": "JNMBTkhMTzGLRWFDR6WJ6",
+    "name_en": "Quiet Streets",
+    "pitch": "2",
+    "cost": "0",
+    "power": null,
+    "defense": null,
+    "types": [
+      "Chaos",
+      "Instant"
+    ],
+    "text_en": "Choose a random non-equipment card on the active chain link. It gets -3{p} -3{d} this chain link.",
+    "type_en": "Chaos Instant",
+    "printings": [
+      {
+        "id": "OBK070",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK070.webp"
+      },
+      {
+        "id": "OBK070",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK070.webp"
+      }
+    ]
+  },
+  "huxley_racketeer": {
+    "source_unique_id": "jFqkWjJM7JfJmKjRRHTcn",
+    "name_en": "Huxley, Racketeer",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Assassin",
+      "Mechanologist",
+      "Hero"
+    ],
+    "text_en": "Whenever you banish an action card with stealth from boosting, you may {t} this. If you do, you may play the banished card as though it were an instant this turn.",
+    "type_en": "Assassin Mechanologist Hero",
+    "printings": [
+      {
+        "id": "OBK071",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK071.webp"
+      },
+      {
+        "id": "OBK071",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK071.webp"
+      },
+      {
+        "id": "OBK071",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK071.webp"
+      }
+    ]
+  },
+  "huxley": {
+    "source_unique_id": "Pz6BNBRPcdNHCwKtTWfjG",
+    "name_en": "Huxley",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Assassin",
+      "Mechanologist",
+      "Hero",
+      "Young"
+    ],
+    "text_en": "Whenever you banish an action card with stealth from boosting, you may {t} this. If you do, you may play the banished card as though it were an instant this turn.",
+    "type_en": "Assassin Mechanologist Hero - Young",
+    "printings": [
+      {
+        "id": "OBK072",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK072.webp"
+      },
+      {
+        "id": "OBK072",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK072-MV.webp"
+      },
+      {
+        "id": "OBK072",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK072-MV_BACK.webp"
+      }
+    ]
+  },
+  "azalea_ace_of_spades": {
+    "source_unique_id": "Nw6hwpnJfGtBnM798jPGh",
+    "name_en": "Azalea, Ace of Spades",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Assassin",
+      "Ranger",
+      "Hero"
+    ],
+    "text_en": "Instant - {t}, put a card from your arsenal on the bottom of your deck: Put the top card of your deck face-up into your arsenal. If it has stealth, it gets +1{p} and go again this turn. If its an arrow, it gets veil this turn.",
+    "type_en": "Assassin Ranger Hero",
+    "printings": [
+      {
+        "id": "OBK080",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK080.webp"
+      },
+      {
+        "id": "OBK080",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK080-MV.webp"
+      },
+      {
+        "id": "OBK080",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK080-MV_BACK.webp"
+      }
+    ]
+  },
+  "azalea_lone_vigilante": {
+    "source_unique_id": "HgLFRQrGzgLbTC6MBR8Dk",
+    "name_en": "Azalea, Lone Vigilante",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Assassin",
+      "Ranger",
+      "Hero",
+      "Young"
+    ],
+    "text_en": "Instant - {t}, put a card from your arsenal on the bottom of your deck: Put the top card of your deck face-up into your arsenal. If it has stealth, it gets +1{p} and go again this turn. If its an arrow, it gets veil this turn.",
+    "type_en": "Assassin Ranger Hero - Young",
+    "printings": [
+      {
+        "id": "OBK081",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK081.webp"
+      },
+      {
+        "id": "OBK081",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK081-MV.webp"
+      },
+      {
+        "id": "OBK081",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK081-MV_BACK.webp"
+      }
+    ]
+  },
+  "01_first_cogwarden": {
+    "source_unique_id": "LKgRPgjPC6jCczFRw7jCB",
+    "name_en": "α-01, First Cogwarden",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Mechanologist",
+      "Ranger",
+      "Hero",
+      "Young"
+    ],
+    "text_en": "Instant - {r}, {t}: Put an arrow you've banished from boosting this turn face-up into your arsenal. If you do, put two +1{p} counters on it.\nInstant - {r}, {t}: The next arrow with a +1{p} counter you play this turn gets go again.",
+    "type_en": "Mechanologist Ranger Hero - Young",
+    "printings": [
+      {
+        "id": "OBK089",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK089.webp"
+      },
+      {
+        "id": "SFC001",
+        "set_id": "SFC",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFC001.webp"
+      }
+    ]
+  },
+  "paupers_knife": {
+    "source_unique_id": "hmcmdFzjHFTmTwNtDTGTh",
+    "name_en": "Pauper's Knife",
+    "pitch": null,
+    "cost": null,
+    "power": "1",
+    "defense": null,
+    "types": [
+      "Assassin",
+      "Weapon",
+      "Dagger",
+      "1H"
+    ],
+    "text_en": "Action - {r}{r}, {t}: Attack. Go again",
+    "type_en": "Assassin Weapon - Dagger (1H)",
+    "printings": [
+      {
+        "id": "OBK097",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK097.webp"
+      }
+    ]
+  },
+  "patient_zero": {
+    "source_unique_id": "W89FbdcbpPPtcRb7r8bcW",
+    "name_en": "Patient Zero",
+    "pitch": "1",
+    "cost": "0",
+    "power": "3",
+    "defense": "3",
+    "types": [
+      "Assassin",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "Stealth\nWhen this hits a hero, give them a disease token you control.",
+    "type_en": "Assassin Action - Attack",
+    "printings": [
+      {
+        "id": "OBK126",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK126.webp"
+      },
+      {
+        "id": "OBK126",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK126.webp"
+      }
+    ]
+  },
+  "patient_zero__2": {
+    "source_unique_id": "tf86PwPg7qpG6fFkLqDPB",
+    "name_en": "Patient Zero",
+    "pitch": "2",
+    "cost": "0",
+    "power": "2",
+    "defense": "3",
+    "types": [
+      "Assassin",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "Stealth\nWhen this hits a hero, give them a disease token you control.",
+    "type_en": "Assassin Action - Attack",
+    "printings": [
+      {
+        "id": "OBK127",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK127.webp"
+      },
+      {
+        "id": "OBK127",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK127.webp"
+      }
+    ]
+  },
+  "patient_zero__3": {
+    "source_unique_id": "fmQhbRpzhgJCBgpCrpncC",
+    "name_en": "Patient Zero",
+    "pitch": "3",
+    "cost": "0",
+    "power": "1",
+    "defense": "3",
+    "types": [
+      "Assassin",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "Stealth\nWhen this hits a hero, give them a disease token you control.",
+    "type_en": "Assassin Action - Attack",
+    "printings": [
+      {
+        "id": "OBK128",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK128.webp"
+      },
+      {
+        "id": "OBK128",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK128.webp"
+      }
+    ]
+  },
+  "cogwerx_dueling_pistol": {
+    "source_unique_id": "9BBbJhRkJLwkPHPHQwTcK",
+    "name_en": "Cogwerx Dueling Pistol",
+    "pitch": null,
+    "cost": null,
+    "power": "2",
+    "defense": null,
+    "types": [
+      "Mechanologist",
+      "Weapon",
+      "Pistol",
+      "1H"
+    ],
+    "text_en": "Action - {t}, remove a steam counter from this: Attack\nAction - {r}, {t}: If this has no steam counters, put a steam counter on it. Go again",
+    "type_en": "Mechanologist Weapon - Pistol (1H)",
+    "printings": [
+      {
+        "id": "OBK136",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK136.webp"
+      }
+    ]
+  },
+  "bootlegger_bust_up": {
+    "source_unique_id": "BFHCGgGGPN8bLDBzhBWMB",
+    "name_en": "Bootlegger Bust-Up",
+    "pitch": "1",
+    "cost": "3",
+    "power": "6",
+    "defense": "3",
+    "types": [
+      "Mechanologist",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "Boost\nThis gets +2{p} for each non-Mechanologist card banished from boosting this.",
+    "type_en": "Mechanologist Action - Attack",
+    "printings": [
+      {
+        "id": "OBK150",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK150.webp"
+      },
+      {
+        "id": "OBK150",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK150.webp"
+      }
+    ]
+  },
+  "bootlegger_bust_up__2": {
+    "source_unique_id": "bfgQWP97NK6FQDGWCdHz9",
+    "name_en": "Bootlegger Bust-Up",
+    "pitch": "2",
+    "cost": "3",
+    "power": "5",
+    "defense": "3",
+    "types": [
+      "Mechanologist",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "Boost\nThis gets +2{p} for each non-Mechanologist card banished from boosting this.",
+    "type_en": "Mechanologist Action - Attack",
+    "printings": [
+      {
+        "id": "OBK151",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK151.webp"
+      },
+      {
+        "id": "OBK151",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK151.webp"
+      }
+    ]
+  },
+  "bootlegger_bust_up__3": {
+    "source_unique_id": "NHJC7zwG6mFrrGtndNgFp",
+    "name_en": "Bootlegger Bust-Up",
+    "pitch": "3",
+    "cost": "3",
+    "power": "4",
+    "defense": "3",
+    "types": [
+      "Mechanologist",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "Boost\nThis gets +2{p} for each non-Mechanologist card banished from boosting this.",
+    "type_en": "Mechanologist Action - Attack",
+    "printings": [
+      {
+        "id": "OBK152",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK152.webp"
+      },
+      {
+        "id": "OBK152",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK152.webp"
+      }
+    ]
+  },
+  "one_click_pinpointer": {
+    "source_unique_id": "DGNGRqjMqnjM8cRHF9wKM",
+    "name_en": "One-Click Pinpointer",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "types": [
+      "Ranger",
+      "Weapon",
+      "Bow",
+      "1H"
+    ],
+    "text_en": "Action - {t}: Put all cards from your arsenal on the bottom of your deck. Put an arrow from your hand face-up into your arsenal. If you control a tapped bow, this costs {r} more to activate. Go again",
+    "type_en": "Ranger Weapon - Bow (1H)",
+    "printings": [
+      {
+        "id": "OBK175",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK175.webp"
+      }
+    ]
+  },
+  "max_tension_shot": {
+    "source_unique_id": "7kB6HrHRkBLGN8qDmptHJ",
+    "name_en": "Max-Tension Shot",
+    "pitch": "1",
+    "cost": "1",
+    "power": "5",
+    "defense": "3",
+    "types": [
+      "Ranger",
+      "Action",
+      "Arrow",
+      "Attack"
+    ],
+    "text_en": "When this attacks, reveal the top card of your deck. If it's red, this gets go again.",
+    "type_en": "Ranger Action - Arrow Attack",
+    "printings": [
+      {
+        "id": "OBK207",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK207.webp"
+      },
+      {
+        "id": "OBK207",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK207.webp"
+      }
+    ]
+  },
+  "cure_all_elixir": {
+    "source_unique_id": "WcRzC9HDdLLRqjHggtqH8",
+    "name_en": "Cure-All Elixir",
+    "pitch": null,
+    "cost": "1",
+    "power": null,
+    "defense": "3",
+    "types": [
+      "Generic",
+      "Action"
+    ],
+    "text_en": "Your next attack this turn gets +3{p}.\nYou may cure a disease you control. If you do, gain 1{h}.\nGo again",
+    "type_en": "Generic Action",
+    "printings": [
+      {
+        "id": "OBK256",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK256.webp"
+      },
+      {
+        "id": "OBK256",
+        "set_id": "OBK",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OBK256.webp"
+      }
+    ]
+  },
   "10_000_year_reunion": {
     "source_unique_id": "FM9T9Dg8bj9h9MW7k9HCQ",
     "name_en": "10,000 Year Reunion",
@@ -3648,6 +4678,11 @@
         "id": "LGS163",
         "set_id": "LGS",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS163-RF.webp"
+      },
+      {
+        "id": "SAT032",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT032.webp"
       }
     ]
   },
@@ -5274,6 +6309,11 @@
         "id": "SBA030",
         "set_id": "SBA",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA030.webp"
+      },
+      {
+        "id": "SBW023",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW023.webp"
       },
       {
         "id": "SBZ020",
@@ -14369,6 +15409,11 @@
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR008.webp"
       },
       {
+        "id": "SAT009",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT009.webp"
+      },
+      {
         "id": "SBA009",
         "set_id": "SBA",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA009.webp"
@@ -17646,6 +18691,11 @@
         "id": "IAR123",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR123.webp"
+      },
+      {
+        "id": "SBW010",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW010.webp"
       }
     ]
   },
@@ -17702,6 +18752,11 @@
         "id": "IAR125",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR125.webp"
+      },
+      {
+        "id": "SBW028",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW028.webp"
       }
     ]
   },
@@ -17907,6 +18962,11 @@
         "id": "SAZ034",
         "set_id": "SAZ",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ034.webp"
+      },
+      {
+        "id": "SLV034",
+        "set_id": "SLV",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLV034.webp"
       },
       {
         "id": "UZU028",
@@ -18308,6 +19368,11 @@
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR005.webp"
       },
       {
+        "id": "SAT005",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT005.webp"
+      },
+      {
         "id": "SAZ006",
         "set_id": "SAZ",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ006.webp"
@@ -18316,6 +19381,11 @@
         "id": "SBA006",
         "set_id": "SBA",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA006.webp"
+      },
+      {
+        "id": "SBW006",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW006.webp"
       },
       {
         "id": "SDA007",
@@ -33749,6 +34819,11 @@
         "id": "AMA003",
         "set_id": "AMA",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA003-RF.webp"
+      },
+      {
+        "id": "SBW004",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW004.webp"
       }
     ]
   },
@@ -35994,6 +37069,11 @@
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA005.webp"
       },
       {
+        "id": "SBW005",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW005.webp"
+      },
+      {
         "id": "SVI004",
         "set_id": "SVI",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI004.webp"
@@ -36737,6 +37817,11 @@
         "id": "IAR115",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR115.webp"
+      },
+      {
+        "id": "SBW011",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW011.webp"
       }
     ]
   },
@@ -37978,6 +39063,60 @@
       }
     ]
   },
+  "dark_arcanite_boots": {
+    "source_unique_id": "KLHKTQbWrzWNBrLkGJt8Q",
+    "name_en": "Dark Arcanite Boots",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "types": [
+      "Generic",
+      "Equipment",
+      "Legs"
+    ],
+    "text_en": "Shadow Resist 1",
+    "type_en": "Generic Equipment - Legs",
+    "printings": [
+      {
+        "id": "IAR227",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR227.webp"
+      },
+      {
+        "id": "IAR227",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR227.webp"
+      }
+    ]
+  },
+  "dark_arcanite_gloves": {
+    "source_unique_id": "qz9pmhmhpBqHBMG7b9J9m",
+    "name_en": "Dark Arcanite Gloves",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": "0",
+    "types": [
+      "Generic",
+      "Equipment",
+      "Arms"
+    ],
+    "text_en": "Shadow Resist 1",
+    "type_en": "Generic Equipment - Arms",
+    "printings": [
+      {
+        "id": "IAR226",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR226.webp"
+      },
+      {
+        "id": "IAR226",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR226.webp"
+      }
+    ]
+  },
   "dark_arcanite_helm": {
     "source_unique_id": "jgNGqKtKpgWftFtLpkQmz",
     "name_en": "Dark Arcanite Helm",
@@ -38029,60 +39168,6 @@
         "id": "IAR225",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR225.webp"
-      }
-    ]
-  },
-  "dark_arcanite_gloves": {
-    "source_unique_id": "qz9pmhmhpBqHBMG7b9J9m",
-    "name_en": "Dark Arcanite Gloves",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": "0",
-    "types": [
-      "Generic",
-      "Equipment",
-      "Arms"
-    ],
-    "text_en": "Shadow Resist 1",
-    "type_en": "Generic Equipment - Arms",
-    "printings": [
-      {
-        "id": "IAR226",
-        "set_id": "IAR",
-        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR226.webp"
-      },
-      {
-        "id": "IAR226",
-        "set_id": "IAR",
-        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR226.webp"
-      }
-    ]
-  },
-  "dark_arcanite_boots": {
-    "source_unique_id": "KLHKTQbWrzWNBrLkGJt8Q",
-    "name_en": "Dark Arcanite Boots",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": "0",
-    "types": [
-      "Generic",
-      "Equipment",
-      "Legs"
-    ],
-    "text_en": "Shadow Resist 1",
-    "type_en": "Generic Equipment - Legs",
-    "printings": [
-      {
-        "id": "IAR227",
-        "set_id": "IAR",
-        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR227.webp"
-      },
-      {
-        "id": "IAR227",
-        "set_id": "IAR",
-        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR227.webp"
       }
     ]
   },
@@ -40469,6 +41554,11 @@
         "id": "IAR126",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR126.webp"
+      },
+      {
+        "id": "SBW012",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW012.webp"
       }
     ]
   },
@@ -40525,6 +41615,11 @@
         "id": "IAR128",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR128.webp"
+      },
+      {
+        "id": "SBW029",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW029.webp"
       }
     ]
   },
@@ -44564,6 +45659,11 @@
         "id": "PSM006",
         "set_id": "PSM",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM006.webp"
+      },
+      {
+        "id": "SAT006",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT006.webp"
       }
     ]
   },
@@ -48732,6 +49832,11 @@
         "id": "IAR129",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR129.webp"
+      },
+      {
+        "id": "SBW013",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW013.webp"
       }
     ]
   },
@@ -48760,6 +49865,11 @@
         "id": "IAR130",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR130.webp"
+      },
+      {
+        "id": "SBW024",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW024.webp"
       }
     ]
   },
@@ -48788,6 +49898,11 @@
         "id": "IAR131",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR131.webp"
+      },
+      {
+        "id": "SBW030",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW030.webp"
       }
     ]
   },
@@ -56945,6 +58060,29 @@
       }
     ]
   },
+  "figment_of_hope": {
+    "source_unique_id": "8GKgwfTFGfL7rPznmPKDB",
+    "name_en": "Figment of Hope",
+    "pitch": "2",
+    "cost": "4",
+    "power": null,
+    "defense": null,
+    "types": [
+      "Light",
+      "Illusionist",
+      "Instant",
+      "Figment"
+    ],
+    "text_en": "Unlimited",
+    "type_en": "Light Illusionist Instant - Figment",
+    "printings": [
+      {
+        "id": "SAT023",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT023.webp"
+      }
+    ]
+  },
   "figment_of_judgment": {
     "source_unique_id": "gKQKG87JCtBgqDDrcBmcF",
     "name_en": "Figment of Judgment",
@@ -63260,6 +64398,11 @@
         "id": "MON155",
         "set_id": "MON",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON155.webp"
+      },
+      {
+        "id": "SBW002",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW002.webp"
       }
     ]
   },
@@ -63684,6 +64827,11 @@
         "id": "IAR222",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR222-MV_BACK.webp"
+      },
+      {
+        "id": "SBW034",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW034.webp"
       }
     ]
   },
@@ -68846,6 +69994,11 @@
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM004.webp"
       },
       {
+        "id": "SAT004",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT004.webp"
+      },
+      {
         "id": "SBL003",
         "set_id": "SBL",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL003.webp"
@@ -72409,6 +73562,75 @@
       }
     ]
   },
+  "herald_of_hope": {
+    "source_unique_id": "LjPzKPjCFcWm6trTQzmjQ",
+    "name_en": "Herald of Hope",
+    "pitch": "1",
+    "cost": "1",
+    "power": "6",
+    "defense": "3",
+    "types": [
+      "Light",
+      "Illusionist",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "When this hits, put it into your soul and gain 1{h}.\nPhantasm",
+    "type_en": "Light Illusionist Action - Attack",
+    "printings": [
+      {
+        "id": "SAT011",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT011.webp"
+      }
+    ]
+  },
+  "herald_of_hope__2": {
+    "source_unique_id": "rQNBWcLW78DgmTKpqDLGz",
+    "name_en": "Herald of Hope",
+    "pitch": "2",
+    "cost": "1",
+    "power": "5",
+    "defense": "3",
+    "types": [
+      "Light",
+      "Illusionist",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "When this hits, put it into your soul and gain 1{h}.\nPhantasm",
+    "type_en": "Light Illusionist Action - Attack",
+    "printings": [
+      {
+        "id": "SAT017",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT017.webp"
+      }
+    ]
+  },
+  "herald_of_hope__3": {
+    "source_unique_id": "DrpcPQdkGMh8KddGwwzzF",
+    "name_en": "Herald of Hope",
+    "pitch": "3",
+    "cost": "1",
+    "power": "4",
+    "defense": "3",
+    "types": [
+      "Light",
+      "Illusionist",
+      "Action",
+      "Attack"
+    ],
+    "text_en": "When this hits, put it into your soul and gain 1{h}.\nPhantasm",
+    "type_en": "Light Illusionist Action - Attack",
+    "printings": [
+      {
+        "id": "SAT024",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT024.webp"
+      }
+    ]
+  },
   "herald_of_judgment": {
     "source_unique_id": "z7fKMTdrJ6jGBFWTMTbnF",
     "name_en": "Herald of Judgment",
@@ -72459,6 +73681,11 @@
         "id": "PSM008",
         "set_id": "PSM",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM008.webp"
+      },
+      {
+        "id": "SAT018",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT018.webp"
       }
     ]
   },
@@ -72517,6 +73744,11 @@
         "id": "PSM009",
         "set_id": "PSM",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM009.webp"
+      },
+      {
+        "id": "SAT012",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT012.webp"
       }
     ]
   },
@@ -72570,6 +73802,11 @@
         "id": "MON015",
         "set_id": "MON",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON015-RF.webp"
+      },
+      {
+        "id": "SAT019",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT019.webp"
       }
     ]
   },
@@ -72628,6 +73865,11 @@
         "id": "PSM016",
         "set_id": "PSM",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM016.webp"
+      },
+      {
+        "id": "SAT025",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT025.webp"
       }
     ]
   },
@@ -72681,6 +73923,11 @@
         "id": "PSM010",
         "set_id": "PSM",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM010.webp"
+      },
+      {
+        "id": "SAT013",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT013.webp"
       }
     ]
   },
@@ -72782,6 +74029,11 @@
         "id": "PSM017",
         "set_id": "PSM",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM017.webp"
+      },
+      {
+        "id": "SAT026",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT026.webp"
       }
     ]
   },
@@ -73171,6 +74423,11 @@
         "id": "MON008",
         "set_id": "MON",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON008-RF.webp"
+      },
+      {
+        "id": "SAT014",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT014.webp"
       }
     ]
   },
@@ -73277,6 +74534,11 @@
         "id": "MON010",
         "set_id": "MON",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON010-RF.webp"
+      },
+      {
+        "id": "SAT027",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT027.webp"
       }
     ]
   },
@@ -73305,6 +74567,11 @@
         "id": "PEN177",
         "set_id": "PEN",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN177-RF.webp"
+      },
+      {
+        "id": "SAT020",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT020.webp"
       }
     ]
   },
@@ -78777,6 +80044,11 @@
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ036.webp"
       },
       {
+        "id": "SLV036",
+        "set_id": "SLV",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLV036.webp"
+      },
+      {
         "id": "UZU030",
         "set_id": "UZU",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/UZU030.webp"
@@ -81119,6 +82391,11 @@
         "id": "PSM003",
         "set_id": "PSM",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM003.webp"
+      },
+      {
+        "id": "SAT002",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT002.webp"
       }
     ]
   },
@@ -81225,6 +82502,11 @@
         "id": "RVD005",
         "set_id": "RVD",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RVD005-RF.webp"
+      },
+      {
+        "id": "SAT007",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT007.webp"
       }
     ]
   },
@@ -84877,6 +86159,11 @@
         "id": "HNT236",
         "set_id": "HNT",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HNT236-RF.webp"
+      },
+      {
+        "id": "SAT022",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT022.webp"
       }
     ]
   },
@@ -88388,6 +89675,11 @@
         "id": "OUT195",
         "set_id": "OUT",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT195-RF.webp"
+      },
+      {
+        "id": "SBW014",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW014.webp"
       }
     ]
   },
@@ -88967,6 +90259,11 @@
         "id": "LGS160",
         "set_id": "LGS",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS160-CF.webp"
+      },
+      {
+        "id": "SAT003",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT003.webp"
       }
     ]
   },
@@ -89810,6 +91107,11 @@
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS130-RF.webp"
       },
       {
+        "id": "SBW020",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW020.webp"
+      },
+      {
         "id": "SVI021",
         "set_id": "SVI",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI021.webp"
@@ -89845,6 +91147,11 @@
         "id": "ROS131",
         "set_id": "ROS",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS131-RF.webp"
+      },
+      {
+        "id": "SBW025",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW025.webp"
       },
       {
         "id": "SVI025",
@@ -95228,6 +96535,11 @@
         "id": "IAR132",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR132.webp"
+      },
+      {
+        "id": "SBW015",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW015.webp"
       }
     ]
   },
@@ -95284,6 +96596,11 @@
         "id": "IAR134",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR134.webp"
+      },
+      {
+        "id": "SBW031",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW031.webp"
       }
     ]
   },
@@ -97287,6 +98604,11 @@
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR011.webp"
       },
       {
+        "id": "SBW008",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW008.webp"
+      },
+      {
         "id": "SVI010",
         "set_id": "SVI",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI010.webp"
@@ -98506,6 +99828,11 @@
         "id": "MPW143",
         "set_id": "MPW",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW143-CF.webp"
+      },
+      {
+        "id": "SBW009",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW009.webp"
       }
     ]
   },
@@ -99935,6 +101262,11 @@
         "id": "IAR141",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR141.webp"
+      },
+      {
+        "id": "SBW021",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW021.webp"
       }
     ]
   },
@@ -102447,6 +103779,11 @@
         "id": "LGS094",
         "set_id": "LGS",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS094-CF.webp"
+      },
+      {
+        "id": "SAT030",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT030.webp"
       }
     ]
   },
@@ -103922,6 +105259,11 @@
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR149-RF.webp"
       },
       {
+        "id": "SAT028",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT028.webp"
+      },
+      {
         "id": "SEN024",
         "set_id": "SEN",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN024.webp"
@@ -104795,6 +106137,11 @@
         "id": "LGS095",
         "set_id": "LGS",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS095-CF.webp"
+      },
+      {
+        "id": "SAT031",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT031.webp"
       }
     ]
   },
@@ -106086,6 +107433,11 @@
         "id": "IAR116",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR116.webp"
+      },
+      {
+        "id": "SBW016",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW016.webp"
       }
     ]
   },
@@ -109061,6 +110413,11 @@
         "id": "HER084",
         "set_id": "HER",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER084-CF.webp"
+      },
+      {
+        "id": "SAT001",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT001.webp"
       }
     ]
   },
@@ -110472,6 +111829,11 @@
         "id": "IAR212",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR212.webp"
+      },
+      {
+        "id": "SBW022",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW022.webp"
       }
     ]
   },
@@ -110524,6 +111886,11 @@
         "id": "IAR214",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR214.webp"
+      },
+      {
+        "id": "SBW033",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW033.webp"
       }
     ]
   },
@@ -124212,6 +125579,11 @@
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA036.webp"
       },
       {
+        "id": "SBW035",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW035.webp"
+      },
+      {
         "id": "SVI034",
         "set_id": "SVI",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI034.webp"
@@ -124343,6 +125715,11 @@
         "id": "IAR154",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR154-MV.webp"
+      },
+      {
+        "id": "SBW026",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW026.webp"
       }
     ]
   },
@@ -124407,6 +125784,11 @@
         "id": "IAR156",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR156-MV.webp"
+      },
+      {
+        "id": "SBW027",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW027.webp"
       }
     ]
   },
@@ -124481,6 +125863,11 @@
         "id": "ROS116",
         "set_id": "ROS",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS116-CF.webp"
+      },
+      {
+        "id": "SBW007",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW007.webp"
       }
     ]
   },
@@ -124624,6 +126011,11 @@
         "id": "IAR146",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR146.webp"
+      },
+      {
+        "id": "SBW017",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW017.webp"
       }
     ]
   },
@@ -131074,6 +132466,11 @@
         "id": "IAR108",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR108.webp"
+      },
+      {
+        "id": "SBW003",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW003.webp"
       }
     ]
   },
@@ -135733,6 +137130,11 @@
     "text_en": "Whenever an attacking ally you control dies or an attack action card you control is destroyed by phantasm, you may pay {r}{r}{r}. If you do, destroy this and gain 1 action point.\nArcane Barrier 1",
     "type_en": "Illusionist Equipment - Legs",
     "printings": [
+      {
+        "id": "SAT010",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT010.webp"
+      },
       {
         "id": "SEN009",
         "set_id": "SEN",
@@ -142274,6 +143676,11 @@
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MST152-RF.webp"
       },
       {
+        "id": "SAT016",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT016.webp"
+      },
+      {
         "id": "SEN014",
         "set_id": "SEN",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN014.webp"
@@ -142620,6 +144027,11 @@
         "id": "PSM030",
         "set_id": "PSM",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM030.webp"
+      },
+      {
+        "id": "SAT033",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT033.webp"
       },
       {
         "id": "SEN037",
@@ -149831,6 +151243,28 @@
         "id": "LGS439",
         "set_id": "LGS",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS439-CF.webp"
+      }
+    ]
+  },
+  "suraya_archangel_of_endless_hope": {
+    "source_unique_id": "BPBGnPJNMhNq77TfLcr6d",
+    "name_en": "Suraya, Archangel of Endless Hope",
+    "pitch": null,
+    "cost": null,
+    "power": "4",
+    "defense": null,
+    "types": [
+      "Light",
+      "Angel",
+      "Ally"
+    ],
+    "text_en": "When this is awakened, gain 1{h}.\nOnce per Turn Action - {r}{r}: Attack\nWard 4",
+    "type_en": "Light Illusionist Instant - Figment",
+    "printings": [
+      {
+        "id": "SAT023",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT023_BACK.webp"
       }
     ]
   },
@@ -164511,6 +165945,11 @@
         "id": "IAR117",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR117.webp"
+      },
+      {
+        "id": "SBW018",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW018.webp"
       }
     ]
   },
@@ -164698,6 +166137,11 @@
         "id": "MON234",
         "set_id": "MON",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON234-RF.webp"
+      },
+      {
+        "id": "SBW032",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW032.webp"
       },
       {
         "id": "SVI028",
@@ -165862,6 +167306,11 @@
         "id": "IAR107",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR107-MV.webp"
+      },
+      {
+        "id": "SBW001",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW001.webp"
       }
     ]
   },
@@ -165966,6 +167415,11 @@
         "id": "IAR107",
         "set_id": "IAR",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR107-MV_BACK.webp"
+      },
+      {
+        "id": "SBW001",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW001_BACK.webp"
       }
     ]
   },
@@ -168672,6 +170126,11 @@
         "id": "PSM013",
         "set_id": "PSM",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM013.webp"
+      },
+      {
+        "id": "SAT015",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT015.webp"
       }
     ]
   },
@@ -168725,6 +170184,11 @@
         "id": "MON027",
         "set_id": "MON",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON027-RF.webp"
+      },
+      {
+        "id": "SAT021",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT021.webp"
       }
     ]
   },
@@ -168783,6 +170247,11 @@
         "id": "PSM020",
         "set_id": "PSM",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM020.webp"
+      },
+      {
+        "id": "SAT029",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT029.webp"
       }
     ]
   },
@@ -169048,6 +170517,11 @@
         "id": "FAB259",
         "set_id": "FAB",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB259-GF.webp"
+      },
+      {
+        "id": "SAT008",
+        "set_id": "SAT",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT008.webp"
       }
     ]
   },
@@ -169779,6 +171253,11 @@
         "id": "PEN103",
         "set_id": "PEN",
         "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PEN103-RF.webp"
+      },
+      {
+        "id": "SBW019",
+        "set_id": "SBW",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBW019.webp"
       }
     ]
   },

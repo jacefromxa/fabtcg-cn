@@ -3549,5 +3549,57 @@
     "defense": "2",
     "source": "https://cards.fabtcg.com/card/rush_of_knowledge/",
     "status": "machine-draft"
+  },
+  "figment_of_hope__2": {
+    "name_en": "Figment of Hope",
+    "name_zh": "希望幻象",
+    "type_zh": "光 幻术师 瞬间·Figment",
+    "text_en": "Unlimited",
+    "text_zh": "无限",
+    "pitch": "2",
+    "cost": "4",
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/figment_of_hope/",
+    "status": "machine-draft"
+  },
+  "herald_of_hope__1": {
+    "name_en": "Herald of Hope",
+    "name_zh": "希望先驱",
+    "type_zh": "光 幻术师 行动·攻击",
+    "text_en": "When this hits, put it into your soul and gain 1{h}.\nPhantasm",
+    "text_zh": "当此牌命中时，将其置入你的灵魂并获得1点生命。\n虚击",
+    "pitch": "1",
+    "cost": "1",
+    "power": "6",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/herald_of_hope/",
+    "status": "machine-draft"
+  },
+  "herald_of_hope__2": {
+    "name_en": "Herald of Hope",
+    "name_zh": "希望先驱",
+    "type_zh": "光 幻术师 行动·攻击",
+    "text_en": "When this hits, put it into your soul and gain 1{h}.\nPhantasm",
+    "text_zh": "当此牌命中时，将其置入你的灵魂并获得1点生命。\n虚击",
+    "pitch": "2",
+    "cost": "1",
+    "power": "5",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/herald_of_hope/",
+    "status": "machine-draft"
+  },
+  "herald_of_hope__3": {
+    "name_en": "Herald of Hope",
+    "name_zh": "希望先驱",
+    "type_zh": "光 幻术师 行动·攻击",
+    "text_en": "When this hits, put it into your soul and gain 1{h}.\nPhantasm",
+    "text_zh": "当此牌命中时，将其置入你的灵魂并获得1点生命。\n虚击",
+    "pitch": "3",
+    "cost": "1",
+    "power": "4",
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/herald_of_hope/",
+    "status": "machine-draft"
   }
 }

@@ -1,7 +1,11 @@
 {
   "schema_version": 2,
-  "version": "d0bd860c2a5e",
+  "version": "9ce3719cf385",
   "cards": {
+    "01_first_cogwarden": {
+      "id": "01_first_cogwarden",
+      "chunk": "chunks/heroes.json"
+    },
     "10_000_year_reunion": {
       "id": "10_000_year_reunion",
       "chunk": "chunks/t3-illusionist.json"
@@ -668,6 +672,14 @@
     },
     "azalea_ace_in_the_hole": {
       "id": "azalea_ace_in_the_hole",
+      "chunk": "chunks/heroes.json"
+    },
+    "azalea_ace_of_spades": {
+      "id": "azalea_ace_of_spades",
+      "chunk": "chunks/heroes.json"
+    },
+    "azalea_lone_vigilante": {
+      "id": "azalea_lone_vigilante",
       "chunk": "chunks/heroes.json"
     },
     "azvolai": {
@@ -1570,6 +1582,10 @@
       "id": "boom_grenade",
       "chunk": "chunks/t3-mechanologist.json"
     },
+    "bootlegger_bust_up": {
+      "id": "bootlegger_bust_up",
+      "chunk": "chunks/t3-mechanologist.json"
+    },
     "boots_of_astral_sanctuary": {
       "id": "boots_of_astral_sanctuary",
       "chunk": "chunks/t1-generic.json"
@@ -2370,6 +2386,10 @@
       "id": "cogwerx_dovetail",
       "chunk": "chunks/t3-mechanologist.json"
     },
+    "cogwerx_dueling_pistol": {
+      "id": "cogwerx_dueling_pistol",
+      "chunk": "chunks/t3-mechanologist.json"
+    },
     "cogwerx_prong_bot": {
       "id": "cogwerx_prong_bot",
       "chunk": "chunks/t3-mechanologist.json"
@@ -2845,6 +2865,14 @@
     "cullingsong_gloomblade": {
       "id": "cullingsong_gloomblade",
       "chunk": "chunks/t3-runeblade.json"
+    },
+    "curative_ceremony": {
+      "id": "curative_ceremony",
+      "chunk": "chunks/t3-chaos.json"
+    },
+    "cure_all_elixir": {
+      "id": "cure_all_elixir",
+      "chunk": "chunks/t1-generic.json"
     },
     "current_funnel": {
       "id": "current_funnel",
@@ -4142,6 +4170,14 @@
       "id": "excessive_bloodloss",
       "chunk": "chunks/t3-assassin.json"
     },
+    "exertion": {
+      "id": "exertion",
+      "chunk": "chunks/t1-generic.json"
+    },
+    "exertion_bloom": {
+      "id": "exertion_bloom",
+      "chunk": "chunks/t3-chaos.json"
+    },
     "exorcism": {
       "id": "exorcism",
       "chunk": "chunks/t1-generic.json"
@@ -4189,6 +4225,10 @@
     "express_lightning": {
       "id": "express_lightning",
       "chunk": "chunks/t3-warrior.json"
+    },
+    "extinction_level_event": {
+      "id": "extinction_level_event",
+      "chunk": "chunks/t3-chaos.json"
     },
     "extinguish_the_flames": {
       "id": "extinguish_the_flames",
@@ -4392,6 +4432,10 @@
     },
     "figment_of_erudition": {
       "id": "figment_of_erudition",
+      "chunk": "chunks/t3-illusionist.json"
+    },
+    "figment_of_hope": {
+      "id": "figment_of_hope",
       "chunk": "chunks/t3-illusionist.json"
     },
     "figment_of_judgment": {
@@ -5674,6 +5718,10 @@
       "id": "herald_of_erudition",
       "chunk": "chunks/t3-illusionist.json"
     },
+    "herald_of_hope": {
+      "id": "herald_of_hope",
+      "chunk": "chunks/t3-illusionist.json"
+    },
     "herald_of_judgment": {
       "id": "herald_of_judgment",
       "chunk": "chunks/t3-illusionist.json"
@@ -5970,6 +6018,14 @@
       "id": "hurricane_technique",
       "chunk": "chunks/t3-ninja.json"
     },
+    "huxley": {
+      "id": "huxley",
+      "chunk": "chunks/heroes.json"
+    },
+    "huxley_racketeer": {
+      "id": "huxley_racketeer",
+      "chunk": "chunks/heroes.json"
+    },
     "hydraulic_press": {
       "id": "hydraulic_press",
       "chunk": "chunks/t3-mechanologist.json"
@@ -6077,6 +6133,14 @@
     "incision": {
       "id": "incision",
       "chunk": "chunks/t3-warrior.json"
+    },
+    "incite_aggression": {
+      "id": "incite_aggression",
+      "chunk": "chunks/t3-chaos.json"
+    },
+    "incite_resolve": {
+      "id": "incite_resolve",
+      "chunk": "chunks/t3-chaos.json"
     },
     "increase_the_tension": {
       "id": "increase_the_tension",
@@ -6962,6 +7026,10 @@
       "id": "madcap_muscle",
       "chunk": "chunks/t3-brute.json"
     },
+    "madness_spiral": {
+      "id": "madness_spiral",
+      "chunk": "chunks/t3-mechanologist.json"
+    },
     "mage_hunter_arrow": {
       "id": "mage_hunter_arrow",
       "chunk": "chunks/t3-ranger.json"
@@ -7138,6 +7206,10 @@
       "id": "mauvrion_skies",
       "chunk": "chunks/t3-runeblade.json"
     },
+    "max_tension_shot": {
+      "id": "max_tension_shot",
+      "chunk": "chunks/t3-ranger.json"
+    },
     "maximum_velocity": {
       "id": "maximum_velocity",
       "chunk": "chunks/t3-mechanologist.json"
@@ -7274,6 +7346,22 @@
       "id": "millers_grindstone",
       "chunk": "chunks/t3-guardian.json"
     },
+    "min_genius": {
+      "id": "min_genius",
+      "chunk": "chunks/heroes.json"
+    },
+    "min_half_genius": {
+      "id": "min_half_genius",
+      "chunk": "chunks/heroes.json"
+    },
+    "min_half_mad": {
+      "id": "min_half_mad",
+      "chunk": "chunks/heroes.json"
+    },
+    "min_mad": {
+      "id": "min_mad",
+      "chunk": "chunks/heroes.json"
+    },
     "mind_meets_might": {
       "id": "mind_meets_might",
       "chunk": "chunks/t3-illusionist.json"
@@ -7385,6 +7473,14 @@
     "morlock_hill": {
       "id": "morlock_hill",
       "chunk": "chunks/t3-warrior.json"
+    },
+    "mortimer_living_virus": {
+      "id": "mortimer_living_virus",
+      "chunk": "chunks/heroes.json"
+    },
+    "mortimers_lab": {
+      "id": "mortimers_lab",
+      "chunk": "chunks/t4-remaining.json"
     },
     "mounting_anger": {
       "id": "mounting_anger",
@@ -7762,6 +7858,10 @@
       "id": "on_the_horizon",
       "chunk": "chunks/t1-generic.json"
     },
+    "one_click_pinpointer": {
+      "id": "one_click_pinpointer",
+      "chunk": "chunks/t3-ranger.json"
+    },
     "one_two_punch": {
       "id": "one_two_punch",
       "chunk": "chunks/t3-ninja.json"
@@ -8001,6 +8101,14 @@
     "pathing_helix": {
       "id": "pathing_helix",
       "chunk": "chunks/t3-ranger.json"
+    },
+    "patient_zero": {
+      "id": "patient_zero",
+      "chunk": "chunks/t3-assassin.json"
+    },
+    "paupers_knife": {
+      "id": "paupers_knife",
+      "chunk": "chunks/t3-assassin.json"
     },
     "pay_day": {
       "id": "pay_day",
@@ -8754,6 +8862,10 @@
       "id": "quickstep",
       "chunk": "chunks/t2-equipment.json"
     },
+    "quiet_streets": {
+      "id": "quiet_streets",
+      "chunk": "chunks/t3-chaos.json"
+    },
     "quiver_of_abyssal_depths": {
       "id": "quiver_of_abyssal_depths",
       "chunk": "chunks/t2-equipment.json"
@@ -8797,6 +8909,10 @@
     "raging_onslaught": {
       "id": "raging_onslaught",
       "chunk": "chunks/t1-generic.json"
+    },
+    "raging_streets": {
+      "id": "raging_streets",
+      "chunk": "chunks/t3-chaos.json"
     },
     "rain_razors": {
       "id": "rain_razors",
@@ -9205,6 +9321,10 @@
     "reverberate": {
       "id": "reverberate",
       "chunk": "chunks/t3-wizard.json"
+    },
+    "revere_the_copper_idol": {
+      "id": "revere_the_copper_idol",
+      "chunk": "chunks/t3-mechanologist.json"
     },
     "reverent_rerebrace": {
       "id": "reverent_rerebrace",
@@ -11482,6 +11602,10 @@
       "id": "superstar",
       "chunk": "chunks/t3-guardian.json"
     },
+    "suraya_archangel_of_endless_hope": {
+      "id": "suraya_archangel_of_endless_hope",
+      "chunk": "chunks/t3-light.json"
+    },
     "suraya_archangel_of_erudition": {
       "id": "suraya_archangel_of_erudition",
       "chunk": "chunks/t3-light.json"
@@ -11521,6 +11645,10 @@
     "swabbie": {
       "id": "swabbie",
       "chunk": "chunks/t3-pirate.json"
+    },
+    "swap_spit": {
+      "id": "swap_spit",
+      "chunk": "chunks/t3-chaos.json"
     },
     "swarming_gloomveil": {
       "id": "swarming_gloomveil",
@@ -12530,6 +12658,10 @@
       "id": "unsheathed",
       "chunk": "chunks/t3-warrior.json"
     },
+    "unstable_plasma_pistol": {
+      "id": "unstable_plasma_pistol",
+      "chunk": "chunks/t3-mechanologist.json"
+    },
     "untamed": {
       "id": "untamed",
       "chunk": "chunks/t3-ninja.json"
@@ -12901,6 +13033,14 @@
     "vox_necropolis": {
       "id": "vox_necropolis",
       "chunk": "chunks/t3-pirate.json"
+    },
+    "vyle": {
+      "id": "vyle",
+      "chunk": "chunks/heroes.json"
+    },
+    "vyle_catalyst_of_collapse": {
+      "id": "vyle_catalyst_of_collapse",
+      "chunk": "chunks/heroes.json"
     },
     "vynnset": {
       "id": "vynnset",

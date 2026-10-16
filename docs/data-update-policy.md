@@ -171,16 +171,14 @@ card-reference.json：<before hash> -> <after hash>
 
 ## 3. 当前基线核对结果
 
-截至 2026-10-02：
+截至 2026-10-16：
 
-- 当前上游基线：`usurp-the-shadow-throne` @ `01fc9344a612a41e5dc451ccc1422050a25a2667`；仍为项目已采用的 spoiler 分支。
-- 英文源：4,976 → 5,196 条；按 `unique_id` 新增 220、删除 0、已有字段变化 4,857。
-- 当前 `card.json` SHA-256：`06efd3ec22a15fee54c1640d036bb76160391d5d0ba313bb38627d9dbdf75136`。
-- 当前 `card-reference.json` SHA-256：`02733684c0e80f69d2020bd558239face42a1409e9411968af40a4889eaa3bf9`。
-- 新增 220 条中文机器稿（含 4 个英雄），补全 3 条直接相关的旧空白机器稿；均待人工确认。
-- 已应用 5 张卡／9 个版本的内部译名校对，修正 11 条元数据和 23 条已有正文。其他已有译文未批量改写。
-- 已重建 3,328 张合并卡牌，manifest `d0bd860c2a5e`；规则变化和待复核项见 [本次更新报告](data-updates/2026-10-02.md) 与 [逐条复核数据](data-updates/2026-10-02-review.json)。
-- 同日跟进核对 60 条优先项并补全 38 条旧空白机器稿；另同步 233 条严格等价措辞的英文存档，修正 16 条触发／范围正文。145 条人工确认记录不变，剩余 1,462 条英文差异见[跟进报告](data-updates/2026-10-02-followup.md)。
+- 当前上游基线：`outbreak` @ `a76673c45e0321fba74455d934c686dc1f1be02f`（已合并 `usurp-the-shadow-throne` @ `4c54285`）；按用户指令纳入已公开的 Outbreak（OBK）及 SAT/SBW 扩展数据。
+- 英文源：5,196 → 5,239 条；净增 43 张卡牌版本。
+- 当前 `card.json` SHA-256：`b43dda99f9cea99e53224aa5b11669226e31a2cbe8ebcb10b85c921d33e7c181`。
+- 当前 `card-reference.json` SHA-256：`2c895c2b98977404e08b8d703a510f06de8b4b4ca7df98b0e1a86ce2a894715d`。
+- 新增 43 条中文草稿（含 12 位新英雄），均已注入中文牌名与正文。
+- 已重建 3,363 张合并卡牌，manifest `9ce3719cf385`；别名表增至 9,789 条；更新详情见 [本次更新报告](data-updates/2026-10-16.md)。
 - FaBrary 和预览页面仍只作交叉核对，不替代上游 JSON。
 
 ## 4. 给 Agent 的执行指令

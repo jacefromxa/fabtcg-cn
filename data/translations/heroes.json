@@ -1,4 +1,18 @@
 {
+  "01_first_cogwarden": {
+    "name_zh": "α-01·初号齿轮守卫",
+    "name_en": "α-01, First Cogwarden",
+    "type_zh": "",
+    "type_en": "Mechanologist Ranger Hero - Young",
+    "text_zh": "瞬间——支付1点资源，{t}：将一张你本回合因推进而放逐的箭矢牌面朝上置入你的军械库。若如此做，在其上放置两个+1力量指示物。\n瞬间——支付1点资源，{t}：你本回合使用的下一张带有+1力量指示物的箭矢获得再动。",
+    "text_en": "Instant - {r}, {t}: Put an arrow you've banished from boosting this turn face-up into your arsenal. If you do, put two +1{p} counters on it.\nInstant - {r}, {t}: The next arrow with a +1{p} counter you play this turn gets go again.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/01_first_cogwarden/",
+    "status": "machine-draft"
+  },
   "arakni": {
     "name_zh": "阿拉克尼",
     "name_en": "Arakni",
@@ -165,6 +179,34 @@
     "power": null,
     "defense": null,
     "source": "https://cards.fabtcg.com/card/azalea_ace_in_the_hole/",
+    "status": "machine-draft"
+  },
+  "azalea_ace_of_spades": {
+    "name_zh": "阿扎莉亚·黑桃A",
+    "name_en": "Azalea, Ace of Spades",
+    "type_zh": "",
+    "type_en": "Assassin Ranger Hero",
+    "text_zh": "瞬间——{t}，将你军械库中的一张牌置于你的牌库底：将你牌库顶的一张牌牌面朝上置入你的军械库。若其具有潜行，它本回合获得+1力量与再动。若其为箭矢，它本回合获得隐匿。",
+    "text_en": "Instant - {t}, put a card from your arsenal on the bottom of your deck: Put the top card of your deck face-up into your arsenal. If it has stealth, it gets +1{p} and go again this turn. If its an arrow, it gets veil this turn.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/azalea_ace_of_spades/",
+    "status": "machine-draft"
+  },
+  "azalea_lone_vigilante": {
+    "name_zh": "阿扎莉亚·独行义警",
+    "name_en": "Azalea, Lone Vigilante",
+    "type_zh": "",
+    "type_en": "Assassin Ranger Hero - Young",
+    "text_zh": "瞬间——{t}，将你军械库中的一张牌置于你的牌库底：将你牌库顶的一张牌牌面朝上置入你的军械库。若其具有潜行，它本回合获得+1力量与再动。若其为箭矢，它本回合获得隐匿。",
+    "text_en": "Instant - {t}, put a card from your arsenal on the bottom of your deck: Put the top card of your deck face-up into your arsenal. If it has stealth, it gets +1{p} and go again this turn. If its an arrow, it gets veil this turn.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/azalea_lone_vigilante/",
     "status": "machine-draft"
   },
   "baalghor_omen_of_the_end": {
@@ -545,6 +587,34 @@
     "source": "https://cards.fabtcg.com/card/dorinthea_quicksilver_prodigy/",
     "status": "machine-draft"
   },
+  "dr_mortimer": {
+    "name_en": "Dr. Mortimer",
+    "name_zh": "莫蒂默博士",
+    "type_zh": "",
+    "text_en": "Instant - {t}: Cure a disease an opponent controls. If you do, create a Silver token.\nAttack Reaction - {t}, destroy 2 Silver you control: Target Assassin attack gets go again.",
+    "text_zh": "瞬间——{t}：治愈一个由对手控制的疾病。若如此做，创造一个银币衍生物。\n攻击反应——{t}，摧毁2个你控制的银币：目标刺客攻击获得再动。",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/dr_mortimer/",
+    "status": "machine-draft",
+    "type_en": "Assassin Hero - Young"
+  },
+  "dr_mortimer_blight_of_the_pits": {
+    "name_en": "Dr. Mortimer, Blight of the Pits",
+    "name_zh": "莫蒂默博士·深坑灾疫",
+    "type_zh": "",
+    "text_en": "Instant - {t}: Cure a disease an opponent controls. If you do, create a Silver token.\nAttack Reaction - {t}, destroy 2 Silver you control: Target Assassin attack gets go again.",
+    "text_zh": "瞬间——{t}：治愈一个由对手控制的疾病。若如此做，创造一个银币衍生物。\n攻击反应——{t}，摧毁2个你控制的银币：目标刺客攻击获得再动。",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/dr_mortimer_blight_of_the_pits/",
+    "status": "machine-draft",
+    "type_en": "Assassin Hero"
+  },
   "dromai": {
     "name_zh": "卓魅",
     "name_en": "Dromai",
@@ -825,6 +895,34 @@
     "source": "https://cards.fabtcg.com/card/hala_bladesaint_of_the_vow/",
     "status": "machine-draft"
   },
+  "huxley": {
+    "name_zh": "赫胥黎",
+    "name_en": "Huxley",
+    "type_zh": "",
+    "type_en": "Assassin Mechanologist Hero - Young",
+    "text_zh": "每当你因推进而放逐一张具有潜行的行动牌时，你可以{t}此牌。若如此做，本回合你可以将该放逐的牌当作瞬间使用。",
+    "text_en": "Whenever you banish an action card with stealth from boosting, you may {t} this. If you do, you may play the banished card as though it were an instant this turn.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/huxley/",
+    "status": "machine-draft"
+  },
+  "huxley_racketeer": {
+    "name_zh": "赫胥黎·敲诈者",
+    "name_en": "Huxley, Racketeer",
+    "type_zh": "",
+    "type_en": "Assassin Mechanologist Hero",
+    "text_zh": "每当你因推进而放逐一张具有潜行的行动牌时，你可以{t}此牌。若如此做，本回合你可以将该放逐的牌当作瞬间使用。",
+    "text_en": "Whenever you banish an action card with stealth from boosting, you may {t} this. If you do, you may play the banished card as though it were an instant this turn.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/huxley_racketeer/",
+    "status": "machine-draft"
+  },
   "ira_crimson_haze": {
     "name_zh": "伊拉·血雾迷踪",
     "name_en": "Ira, Crimson Haze",
@@ -1077,6 +1175,20 @@
     "source": "https://cards.fabtcg.com/card/kayo_underhanded_cheat/",
     "status": "machine-draft"
   },
+  "killjoy_the_crooked_blade": {
+    "name_en": "Killjoy, the Crooked Blade",
+    "name_zh": "扫兴鬼·诡刃",
+    "type_zh": "",
+    "text_en": "You may attack any opposing hero.\nWhenever you steal a Gold, the crowd boos you.\nThe first time the crowd boos you each turn, each hero with more {h} than you loses 1{h}.",
+    "text_zh": "你可以攻击任意对手英雄。\n每当你偷取一个金币时，观众对你发出嘘声。\n每回合第一次观众对你发出嘘声时，每位{h}比你多的英雄失去1{h}。",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/killjoy_the_crooked_blade/",
+    "status": "machine-draft",
+    "type_en": "Reviled Warrior Thief Hero - Young"
+  },
   "levia": {
     "name_zh": "莱维娅",
     "name_en": "Levia",
@@ -1257,6 +1369,76 @@
     "power": "",
     "defense": "",
     "source": "https://cards.fabtcg.com/card/melody_sing_along/",
+    "status": "machine-draft"
+  },
+  "min_genius": {
+    "name_zh": "敏·天才",
+    "name_en": "Min, Genius",
+    "type_zh": "",
+    "type_en": "Chaos Mechanologist Hero",
+    "text_zh": "由你拥有的牌均具有机械行者类别。\n在你的结束阶段开始时，翻转此牌。",
+    "text_en": "Cards you own are Mechanologist.\nAt the beginning of your end phase, flip this.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/min_genius/",
+    "status": "machine-draft"
+  },
+  "min_half_genius": {
+    "name_zh": "敏·半天才",
+    "name_en": "Min, Half-Genius",
+    "type_zh": "",
+    "type_en": "Chaos Mechanologist Hero - Young",
+    "text_zh": "由你拥有的牌均具有机械行者类别。\n在你的结束阶段开始时，翻转此牌。",
+    "text_en": "Cards you own are Mechanologist.\nAt the beginning of your end phase, flip this.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/min_half_genius/",
+    "status": "machine-draft"
+  },
+  "min_half_mad": {
+    "name_zh": "敏·半癫狂",
+    "name_en": "Min, Half-Mad",
+    "type_zh": "",
+    "type_en": "Chaos Mechanologist Hero - Young",
+    "text_zh": "由你拥有的牌失去且不能获得职业和天赋类别。\n在你的结束阶段开始时，翻转此牌。",
+    "text_en": "Cards you own lose and can't gain class and talent types.\nAt the beginning of your end phase, flip this.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/min_half_mad/",
+    "status": "machine-draft"
+  },
+  "min_mad": {
+    "name_zh": "敏·狂徒",
+    "name_en": "Min, Mad",
+    "type_zh": "",
+    "type_en": "Chaos Mechanologist Hero",
+    "text_zh": "由你拥有的牌失去且不能获得职业和天赋类别。\n在你的结束阶段开始时，翻转此牌。",
+    "text_en": "Cards you own lose and can't gain class and talent types.\nAt the beginning of your end phase, flip this.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/min_mad/",
+    "status": "machine-draft"
+  },
+  "mortimer_living_virus": {
+    "name_zh": "莫蒂默·活体病毒",
+    "name_en": "Mortimer, Living Virus",
+    "type_zh": "",
+    "type_en": "Chaos Assassin Hero - Young",
+    "text_zh": "瞬间——支付1点资源，{t}：由每位对手各创造一个你控制的疾病衍生物的衍生物复制品。仅在你的回合中才能启动此异能。",
+    "text_en": "Instant - {r}, {t}: Create a token copy of a disease token you control under each opponent's control. Activate this only during your turn.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/mortimer_living_virus/",
     "status": "machine-draft"
   },
   "nuu": {
@@ -1987,6 +2169,34 @@
     "source": "https://cards.fabtcg.com/card/viserai_usurper/",
     "status": "machine-draft"
   },
+  "vyle": {
+    "name_zh": "瓦尔",
+    "name_en": "Vyle",
+    "type_zh": "",
+    "type_en": "Chaos Ranger Hero - Young",
+    "text_zh": "瞬间——支付2点资源，{t}：每位英雄将其牌库顶的一张牌牌面朝上置入其军械库。仅在你的回合中才能启动此异能。\n若一位对手的军械库中有牌面朝上的牌，你的箭矢攻击获得+1力量。",
+    "text_en": "Instant - {r}{r}, {t}: Each hero puts the top card of their deck face-up into their arsenal. Activate this only during your turn.\nIf an opponent has a face-up card in their arsenal, your arrow attacks get +1{p}.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/vyle/",
+    "status": "machine-draft"
+  },
+  "vyle_catalyst_of_collapse": {
+    "name_zh": "瓦尔·崩解催化剂",
+    "name_en": "Vyle, Catalyst of Collapse",
+    "type_zh": "",
+    "type_en": "Chaos Ranger Hero",
+    "text_zh": "瞬间——支付2点资源，{t}：每位英雄将其牌库顶的一张牌牌面朝上置入其军械库。仅在你的回合中才能启动此异能。\n若一位对手的军械库中有牌面朝上的牌，你的箭矢攻击获得+1力量。",
+    "text_en": "Instant - {r}{r}, {t}: Each hero puts the top card of their deck face-up into their arsenal. Activate this only during your turn.\nIf an opponent has a face-up card in their arsenal, your arrow attacks get +1{p}.",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/vyle_catalyst_of_collapse/",
+    "status": "machine-draft"
+  },
   "vynnset": {
     "name_zh": "温塞特",
     "name_en": "Vynnset",
@@ -2043,6 +2253,20 @@
     "source": "https://cards.fabtcg.com/card/yorick_weaver_of_tales/",
     "status": "machine-draft"
   },
+  "zane_broadly_beloved": {
+    "name_en": "Zane, Broadly Beloved",
+    "name_zh": "赞恩·广受爱戴",
+    "type_zh": "",
+    "text_en": "You may equip 2H swords as though they were 1H.\nWhenever you win a wager, the crowd cheers you.\nThe first time the crowd cheers you each turn, each hero draws a card.",
+    "text_zh": "你可以将双手剑视为单手剑来装备。\n每当你赢得一次赌注时，观众对你发出欢呼。\n每回合第一次观众对你发出欢呼时，每位英雄抽一张牌。",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/zane_broadly_beloved/",
+    "status": "machine-draft",
+    "type_en": "Revered Warrior Hero - Young"
+  },
   "zen": {
     "name_zh": "禅",
     "name_en": "Zen",
@@ -2098,61 +2322,5 @@
     "defense": null,
     "source": "https://cards.fabtcg.com/card/zyggy_starlight/",
     "status": "machine-draft"
-  },
-  "dr_mortimer": {
-    "name_en": "Dr. Mortimer",
-    "name_zh": "莫蒂默博士",
-    "type_zh": "",
-    "text_en": "Instant - {t}: Cure a disease an opponent controls. If you do, create a Silver token.\nAttack Reaction - {t}, destroy 2 Silver you control: Target Assassin attack gets go again.",
-    "text_zh": "瞬间——{t}：治愈一个由对手控制的疾病。若如此做，创造一个银币衍生物。\n攻击反应——{t}，摧毁2个你控制的银币：目标刺客攻击获得再动。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/dr_mortimer/",
-    "status": "machine-draft",
-    "type_en": "Assassin Hero - Young"
-  },
-  "dr_mortimer_blight_of_the_pits": {
-    "name_en": "Dr. Mortimer, Blight of the Pits",
-    "name_zh": "莫蒂默博士·深坑灾疫",
-    "type_zh": "",
-    "text_en": "Instant - {t}: Cure a disease an opponent controls. If you do, create a Silver token.\nAttack Reaction - {t}, destroy 2 Silver you control: Target Assassin attack gets go again.",
-    "text_zh": "瞬间——{t}：治愈一个由对手控制的疾病。若如此做，创造一个银币衍生物。\n攻击反应——{t}，摧毁2个你控制的银币：目标刺客攻击获得再动。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/dr_mortimer_blight_of_the_pits/",
-    "status": "machine-draft",
-    "type_en": "Assassin Hero"
-  },
-  "killjoy_the_crooked_blade": {
-    "name_en": "Killjoy, the Crooked Blade",
-    "name_zh": "扫兴鬼·诡刃",
-    "type_zh": "",
-    "text_en": "You may attack any opposing hero.\nWhenever you steal a Gold, the crowd boos you.\nThe first time the crowd boos you each turn, each hero with more {h} than you loses 1{h}.",
-    "text_zh": "你可以攻击任意对手英雄。\n每当你偷取一个金币时，观众对你发出嘘声。\n每回合第一次观众对你发出嘘声时，每位{h}比你多的英雄失去1{h}。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/killjoy_the_crooked_blade/",
-    "status": "machine-draft",
-    "type_en": "Reviled Warrior Thief Hero - Young"
-  },
-  "zane_broadly_beloved": {
-    "name_en": "Zane, Broadly Beloved",
-    "name_zh": "赞恩·广受爱戴",
-    "type_zh": "",
-    "text_en": "You may equip 2H swords as though they were 1H.\nWhenever you win a wager, the crowd cheers you.\nThe first time the crowd cheers you each turn, each hero draws a card.",
-    "text_zh": "你可以将双手剑视为单手剑来装备。\n每当你赢得一次赌注时，观众对你发出欢呼。\n每回合第一次观众对你发出欢呼时，每位英雄抽一张牌。",
-    "pitch": null,
-    "cost": null,
-    "power": null,
-    "defense": null,
-    "source": "https://cards.fabtcg.com/card/zane_broadly_beloved/",
-    "status": "machine-draft",
-    "type_en": "Revered Warrior Hero - Young"
   }
 }

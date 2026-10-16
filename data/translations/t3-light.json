@@ -922,5 +922,18 @@
     "defense": null,
     "source": "https://cards.fabtcg.com/card/chains_of_consecration/",
     "status": "machine-draft"
+  },
+  "suraya_archangel_of_endless_hope": {
+    "name_en": "Suraya, Archangel of Endless Hope",
+    "name_zh": "无尽希望大天使·苏拉娅",
+    "type_zh": "光·Angel Ally",
+    "text_en": "When this is awakened, gain 1{h}.\nOnce per Turn Action - {r}{r}: Attack\nWard 4",
+    "text_zh": "当此牌被唤醒时，获得1点生命。\n每回合一次行动——支付2点资源：攻击\n结界4",
+    "pitch": null,
+    "cost": null,
+    "power": "4",
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/suraya_archangel_of_endless_hope/",
+    "status": "machine-draft"
   }
 }

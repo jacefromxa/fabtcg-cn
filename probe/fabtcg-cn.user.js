@@ -3,7 +3,7 @@
 // @name:zh-CN     FABTCG中文悬浮窗
 // @name:en        FABTCG Chinese Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.44
+// @version        0.7.45
 // @description    支持市面主流 FABTCG 平台的简体中文卡牌悬浮窗，持续更新中。
 // @description:zh-CN 支持市面主流 FABTCG 平台的简体中文卡牌悬浮窗，持续更新中。
 // @description:en Show Simplified Chinese card info on mainstream FABTCG platforms — continuously updated.

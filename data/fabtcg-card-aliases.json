@@ -1,4 +1,212 @@
 {
+  "AMG002": {
+    "slug": "unstable_plasma_pistol",
+    "pitch": null
+  },
+  "AMG023": {
+    "slug": "madness_spiral",
+    "pitch": "3"
+  },
+  "AMG027": {
+    "slug": "revere_the_copper_idol",
+    "pitch": "3"
+  },
+  "SLV035": {
+    "slug": "exertion",
+    "pitch": null
+  },
+  "OBK000": {
+    "slug": "mortimers_lab",
+    "pitch": null
+  },
+  "OBK001": {
+    "slug": "mortimer_living_virus",
+    "pitch": null
+  },
+  "SLV001": {
+    "slug": "mortimer_living_virus",
+    "pitch": null
+  },
+  "AMG001": [
+    {
+      "slug": "min_genius",
+      "pitch": null
+    },
+    {
+      "slug": "min_mad",
+      "pitch": null
+    }
+  ],
+  "OBK006": [
+    {
+      "slug": "min_genius",
+      "pitch": null
+    },
+    {
+      "slug": "min_mad",
+      "pitch": null
+    }
+  ],
+  "OBK007": [
+    {
+      "slug": "min_half_genius",
+      "pitch": null
+    },
+    {
+      "slug": "min_half_mad",
+      "pitch": null
+    }
+  ],
+  "min_halfgenius": {
+    "slug": "min_half_genius",
+    "pitch": null
+  },
+  "min_halfmad": {
+    "slug": "min_half_mad",
+    "pitch": null
+  },
+  "OBK012": {
+    "slug": "vyle_catalyst_of_collapse",
+    "pitch": null
+  },
+  "OBK013": {
+    "slug": "vyle",
+    "pitch": null
+  },
+  "OBK023": {
+    "slug": "curative_ceremony",
+    "pitch": "1"
+  },
+  "OBK027": {
+    "slug": "extinction_level_event",
+    "pitch": "1"
+  },
+  "OBK034": {
+    "slug": "swap_spit",
+    "pitch": "1"
+  },
+  "OBK035": {
+    "slug": "swap_spit",
+    "pitch": "2"
+  },
+  "OBK036": {
+    "slug": "swap_spit",
+    "pitch": "3"
+  },
+  "OBK037": {
+    "slug": "incite_aggression",
+    "pitch": "1"
+  },
+  "OBK039": {
+    "slug": "incite_resolve",
+    "pitch": "3"
+  },
+  "OBK066": {
+    "slug": "exertion_bloom",
+    "pitch": "2"
+  },
+  "OBK069": {
+    "slug": "raging_streets",
+    "pitch": "2"
+  },
+  "OBK070": {
+    "slug": "quiet_streets",
+    "pitch": "2"
+  },
+  "OBK071": {
+    "slug": "huxley_racketeer",
+    "pitch": null
+  },
+  "OBK072": {
+    "slug": "huxley",
+    "pitch": null
+  },
+  "OBK080": {
+    "slug": "azalea_ace_of_spades",
+    "pitch": null
+  },
+  "OBK081": {
+    "slug": "azalea_lone_vigilante",
+    "pitch": null
+  },
+  "OBK089": {
+    "slug": "01_first_cogwarden",
+    "pitch": null
+  },
+  "SFC001": {
+    "slug": "01_first_cogwarden",
+    "pitch": null
+  },
+  "OBK097": {
+    "slug": "paupers_knife",
+    "pitch": null
+  },
+  "OBK126": {
+    "slug": "patient_zero",
+    "pitch": "1"
+  },
+  "OBK127": {
+    "slug": "patient_zero",
+    "pitch": "2"
+  },
+  "OBK128": {
+    "slug": "patient_zero",
+    "pitch": "3"
+  },
+  "OBK136": {
+    "slug": "cogwerx_dueling_pistol",
+    "pitch": null
+  },
+  "OBK150": {
+    "slug": "bootlegger_bust_up",
+    "pitch": "1"
+  },
+  "bootlegger_bustup": [
+    {
+      "slug": "bootlegger_bust_up",
+      "pitch": "1"
+    },
+    {
+      "slug": "bootlegger_bust_up",
+      "pitch": "2"
+    },
+    {
+      "slug": "bootlegger_bust_up",
+      "pitch": "3"
+    }
+  ],
+  "OBK151": {
+    "slug": "bootlegger_bust_up",
+    "pitch": "2"
+  },
+  "OBK152": {
+    "slug": "bootlegger_bust_up",
+    "pitch": "3"
+  },
+  "OBK175": {
+    "slug": "one_click_pinpointer",
+    "pitch": null
+  },
+  "oneclick_pinpointer": {
+    "slug": "one_click_pinpointer",
+    "pitch": null
+  },
+  "OBK207": {
+    "slug": "max_tension_shot",
+    "pitch": "1"
+  },
+  "maxtension_shot": {
+    "slug": "max_tension_shot",
+    "pitch": "1"
+  },
+  "OBK256": {
+    "slug": "cure_all_elixir",
+    "pitch": null
+  },
+  "cureall_elixir": {
+    "slug": "cure_all_elixir",
+    "pitch": null
+  },
   "MST131": {
     "slug": "10_000_year_reunion",
     "pitch": "1"
@@ -855,6 +1063,10 @@
     "slug": "angelic_wrath",
     "pitch": "3"
   },
+  "SAT032": {
+    "slug": "angelic_wrath",
+    "pitch": "3"
+  },
   "SEA062": {
     "slug": "angry_bones",
     "pitch": "1"
@@ -1304,6 +1516,10 @@
     "pitch": "1"
   },
   "SBA030": {
+    "slug": "arcane_polarity",
+    "pitch": "1"
+  },
+  "SBW023": {
     "slug": "arcane_polarity",
     "pitch": "1"
   },
@@ -3365,6 +3581,10 @@
     "slug": "blade_beckoner_boots",
     "pitch": null
   },
+  "SAT009": {
+    "slug": "blade_beckoner_boots",
+    "pitch": null
+  },
   "SBA009": {
     "slug": "blade_beckoner_boots",
     "pitch": null
@@ -4067,11 +4287,19 @@
     "slug": "bloodfrenzy_gloomblade",
     "pitch": "1"
   },
+  "SBW010": {
+    "slug": "bloodfrenzy_gloomblade",
+    "pitch": "1"
+  },
   "IAR124": {
     "slug": "bloodfrenzy_gloomblade",
     "pitch": "2"
   },
   "IAR125": {
+    "slug": "bloodfrenzy_gloomblade",
+    "pitch": "3"
+  },
+  "SBW028": {
     "slug": "bloodfrenzy_gloomblade",
     "pitch": "3"
   },
@@ -4136,6 +4364,10 @@
     "pitch": null
   },
   "SAZ034": {
+    "slug": "bloodrot_pox",
+    "pitch": null
+  },
+  "SLV034": {
     "slug": "bloodrot_pox",
     "pitch": null
   },
@@ -4269,11 +4501,19 @@
     "slug": "blossom_of_spring",
     "pitch": null
   },
+  "SAT005": {
+    "slug": "blossom_of_spring",
+    "pitch": null
+  },
   "SAZ006": {
     "slug": "blossom_of_spring",
     "pitch": null
   },
   "SBA006": {
+    "slug": "blossom_of_spring",
+    "pitch": null
+  },
+  "SBW006": {
     "slug": "blossom_of_spring",
     "pitch": null
   },
@@ -7635,6 +7875,10 @@
     "slug": "corrupted_crown",
     "pitch": null
   },
+  "SBW004": {
+    "slug": "corrupted_crown",
+    "pitch": null
+  },
   "FAB230": {
     "slug": "cosmic_awakening",
     "pitch": "3"
@@ -8193,6 +8437,10 @@
     "slug": "crown_of_dichotomy",
     "pitch": null
   },
+  "SBW005": {
+    "slug": "crown_of_dichotomy",
+    "pitch": null
+  },
   "SVI004": {
     "slug": "crown_of_dichotomy",
     "pitch": null
@@ -8384,6 +8632,10 @@
     "pitch": "1"
   },
   "IAR115": {
+    "slug": "cullingsong_gloomblade",
+    "pitch": "1"
+  },
+  "SBW011": {
     "slug": "cullingsong_gloomblade",
     "pitch": "1"
   },
@@ -8647,20 +8899,20 @@
     "slug": "danse_macabre",
     "pitch": null
   },
-  "IAR224": {
-    "slug": "dark_arcanite_helm",
-    "pitch": null
-  },
-  "IAR225": {
-    "slug": "dark_arcanite_plating",
+  "IAR227": {
+    "slug": "dark_arcanite_boots",
     "pitch": null
   },
   "IAR226": {
     "slug": "dark_arcanite_gloves",
     "pitch": null
   },
-  "IAR227": {
-    "slug": "dark_arcanite_boots",
+  "IAR224": {
+    "slug": "dark_arcanite_helm",
+    "pitch": null
+  },
+  "IAR225": {
+    "slug": "dark_arcanite_plating",
     "pitch": null
   },
   "IAR209": {
@@ -9215,11 +9467,19 @@
     "slug": "demonbound_gloomblade",
     "pitch": "1"
   },
+  "SBW012": {
+    "slug": "demonbound_gloomblade",
+    "pitch": "1"
+  },
   "IAR127": {
     "slug": "demonbound_gloomblade",
     "pitch": "2"
   },
   "IAR128": {
+    "slug": "demonbound_gloomblade",
+    "pitch": "3"
+  },
+  "SBW029": {
     "slug": "demonbound_gloomblade",
     "pitch": "3"
   },
@@ -10056,6 +10316,10 @@
     "pitch": null
   },
   "PSM006": {
+    "slug": "dream_weavers",
+    "pitch": null
+  },
+  "SAT006": {
     "slug": "dream_weavers",
     "pitch": null
   },
@@ -11041,11 +11305,23 @@
     "slug": "embrace_ursur",
     "pitch": "1"
   },
+  "SBW013": {
+    "slug": "embrace_ursur",
+    "pitch": "1"
+  },
   "IAR130": {
     "slug": "embrace_ursur",
     "pitch": "2"
   },
+  "SBW024": {
+    "slug": "embrace_ursur",
+    "pitch": "2"
+  },
   "IAR131": {
+    "slug": "embrace_ursur",
+    "pitch": "3"
+  },
+  "SBW030": {
     "slug": "embrace_ursur",
     "pitch": "3"
   },
@@ -12747,6 +13023,16 @@
       "pitch": null
     }
   ],
+  "SAT023": [
+    {
+      "slug": "figment_of_hope",
+      "pitch": "2"
+    },
+    {
+      "slug": "suraya_archangel_of_endless_hope",
+      "pitch": null
+    }
+  ],
   "DTD006": [
     {
       "slug": "figment_of_judgment",
@@ -14167,6 +14453,10 @@
     "slug": "galaxxi_black",
     "pitch": null
   },
+  "SBW002": {
+    "slug": "galaxxi_black",
+    "pitch": null
+  },
   "BOL007": {
     "slug": "gallantry_gold",
     "pitch": null
@@ -14266,6 +14556,10 @@
     }
   ],
   "IAR222": {
+    "slug": "gate_to_iarathael",
+    "pitch": null
+  },
+  "SBW034": {
     "slug": "gate_to_iarathael",
     "pitch": null
   },
@@ -15373,6 +15667,10 @@
     "slug": "halo_of_illumination",
     "pitch": null
   },
+  "SAT004": {
+    "slug": "halo_of_illumination",
+    "pitch": null
+  },
   "SBL003": {
     "slug": "halo_of_illumination",
     "pitch": null
@@ -16253,6 +16551,18 @@
     "slug": "herald_of_erudition",
     "pitch": "2"
   },
+  "SAT011": {
+    "slug": "herald_of_hope",
+    "pitch": "1"
+  },
+  "SAT017": {
+    "slug": "herald_of_hope",
+    "pitch": "2"
+  },
+  "SAT024": {
+    "slug": "herald_of_hope",
+    "pitch": "3"
+  },
   "DTD013": {
     "slug": "herald_of_judgment",
     "pitch": "2"
@@ -16266,6 +16576,10 @@
     "pitch": "2"
   },
   "PSM008": {
+    "slug": "herald_of_judgment",
+    "pitch": "2"
+  },
+  "SAT018": {
     "slug": "herald_of_judgment",
     "pitch": "2"
   },
@@ -16289,6 +16603,10 @@
     "slug": "herald_of_protection",
     "pitch": "1"
   },
+  "SAT012": {
+    "slug": "herald_of_protection",
+    "pitch": "1"
+  },
   "APR012": {
     "slug": "herald_of_protection",
     "pitch": "2"
@@ -16302,6 +16620,10 @@
     "pitch": "2"
   },
   "MON015": {
+    "slug": "herald_of_protection",
+    "pitch": "2"
+  },
+  "SAT019": {
     "slug": "herald_of_protection",
     "pitch": "2"
   },
@@ -16325,6 +16647,10 @@
     "slug": "herald_of_protection",
     "pitch": "3"
   },
+  "SAT025": {
+    "slug": "herald_of_protection",
+    "pitch": "3"
+  },
   "DTD017": {
     "slug": "herald_of_ravages",
     "pitch": "1"
@@ -16338,6 +16664,10 @@
     "pitch": "1"
   },
   "PSM010": {
+    "slug": "herald_of_ravages",
+    "pitch": "1"
+  },
+  "SAT013": {
     "slug": "herald_of_ravages",
     "pitch": "1"
   },
@@ -16366,6 +16696,10 @@
     "pitch": "3"
   },
   "PSM017": {
+    "slug": "herald_of_ravages",
+    "pitch": "3"
+  },
+  "SAT026": {
     "slug": "herald_of_ravages",
     "pitch": "3"
   },
@@ -16477,6 +16811,10 @@
     "slug": "herald_of_triumph",
     "pitch": "1"
   },
+  "SAT014": {
+    "slug": "herald_of_triumph",
+    "pitch": "1"
+  },
   "APR013": {
     "slug": "herald_of_triumph",
     "pitch": "2"
@@ -16509,7 +16847,15 @@
     "slug": "herald_of_triumph",
     "pitch": "3"
   },
+  "SAT027": {
+    "slug": "herald_of_triumph",
+    "pitch": "3"
+  },
   "PEN177": {
+    "slug": "herald_of_victoria",
+    "pitch": "2"
+  },
+  "SAT020": {
     "slug": "herald_of_victoria",
     "pitch": "2"
   },
@@ -17681,6 +18027,10 @@
     "slug": "inertia",
     "pitch": null
   },
+  "SLV036": {
+    "slug": "inertia",
+    "pitch": null
+  },
   "UZU030": {
     "slug": "inertia",
     "pitch": null
@@ -18459,6 +18809,10 @@
     "slug": "iris_of_reality",
     "pitch": null
   },
+  "SAT002": {
+    "slug": "iris_of_reality",
+    "pitch": null
+  },
   "ASR003": {
     "slug": "iris_of_the_blossom",
     "pitch": null
@@ -18484,6 +18838,10 @@
     "pitch": null
   },
   "RVD005": {
+    "slug": "ironhide_gauntlet",
+    "pitch": null
+  },
+  "SAT007": {
     "slug": "ironhide_gauntlet",
     "pitch": null
   },
@@ -19551,6 +19909,10 @@
     "slug": "lay_low",
     "pitch": "2"
   },
+  "SAT022": {
+    "slug": "lay_low",
+    "pitch": "2"
+  },
   "EVO207": {
     "slug": "lay_waste",
     "pitch": "1"
@@ -20345,6 +20707,10 @@
     "slug": "looking_for_a_scrap",
     "pitch": "1"
   },
+  "SBW014": {
+    "slug": "looking_for_a_scrap",
+    "pitch": "1"
+  },
   "OUT196": {
     "slug": "looking_for_a_scrap",
     "pitch": "2"
@@ -20466,6 +20832,10 @@
     "pitch": null
   },
   "LGS160": {
+    "slug": "luminaris_celestial_fury",
+    "pitch": null
+  },
+  "SAT003": {
     "slug": "luminaris_celestial_fury",
     "pitch": null
   },
@@ -20681,6 +21051,10 @@
     "slug": "malefic_incantation",
     "pitch": "1"
   },
+  "SBW020": {
+    "slug": "malefic_incantation",
+    "pitch": "1"
+  },
   "SVI021": {
     "slug": "malefic_incantation",
     "pitch": "1"
@@ -20690,6 +21064,10 @@
     "pitch": "2"
   },
   "ROS131": {
+    "slug": "malefic_incantation",
+    "pitch": "2"
+  },
+  "SBW025": {
     "slug": "malefic_incantation",
     "pitch": "2"
   },
@@ -21975,11 +22353,19 @@
     "slug": "murmuring_gloomblade",
     "pitch": "1"
   },
+  "SBW015": {
+    "slug": "murmuring_gloomblade",
+    "pitch": "1"
+  },
   "IAR133": {
     "slug": "murmuring_gloomblade",
     "pitch": "2"
   },
   "IAR134": {
+    "slug": "murmuring_gloomblade",
+    "pitch": "3"
+  },
+  "SBW031": {
     "slug": "murmuring_gloomblade",
     "pitch": "3"
   },
@@ -22411,6 +22797,10 @@
     "slug": "nullrune_boots",
     "pitch": null
   },
+  "SBW008": {
+    "slug": "nullrune_boots",
+    "pitch": null
+  },
   "SVI010": {
     "slug": "nullrune_boots",
     "pitch": null
@@ -22791,6 +23181,10 @@
     "slug": "olde_leather_boots",
     "pitch": null
   },
+  "SBW009": {
+    "slug": "olde_leather_boots",
+    "pitch": null
+  },
   "MPW142": {
     "slug": "olde_leather_gloves",
     "pitch": null
@@ -23120,6 +23514,10 @@
     "pitch": null
   },
   "IAR141": {
+    "slug": "otherworldly_sins",
+    "pitch": "1"
+  },
+  "SBW021": {
     "slug": "otherworldly_sins",
     "pitch": "1"
   },
@@ -23627,6 +24025,10 @@
     "slug": "passing_mirage",
     "pitch": "3"
   },
+  "SAT030": {
+    "slug": "passing_mirage",
+    "pitch": "3"
+  },
   "SEA096": {
     "slug": "patch_the_hole",
     "pitch": null
@@ -23887,6 +24289,10 @@
     "slug": "phantasmal_haze",
     "pitch": "3"
   },
+  "SAT028": {
+    "slug": "phantasmal_haze",
+    "pitch": "3"
+  },
   "SEN024": {
     "slug": "phantasmal_haze",
     "pitch": "3"
@@ -24084,6 +24490,10 @@
     "pitch": "3"
   },
   "LGS095": {
+    "slug": "pierce_reality",
+    "pitch": "3"
+  },
+  "SAT031": {
     "slug": "pierce_reality",
     "pitch": "3"
   },
@@ -24336,6 +24746,10 @@
     "pitch": "3"
   },
   "IAR116": {
+    "slug": "plundersong_gloomblade",
+    "pitch": "1"
+  },
+  "SBW016": {
     "slug": "plundersong_gloomblade",
     "pitch": "1"
   },
@@ -24967,6 +25381,10 @@
     "slug": "prism_advent_of_thrones",
     "pitch": null
   },
+  "SAT001": {
+    "slug": "prism_advent_of_thrones",
+    "pitch": null
+  },
   "DTD001": {
     "slug": "prism_awakener_of_sol",
     "pitch": null
@@ -25295,11 +25713,19 @@
     "slug": "pull_from_beyond",
     "pitch": "1"
   },
+  "SBW022": {
+    "slug": "pull_from_beyond",
+    "pitch": "1"
+  },
   "IAR213": {
     "slug": "pull_from_beyond",
     "pitch": "2"
   },
   "IAR214": {
+    "slug": "pull_from_beyond",
+    "pitch": "3"
+  },
+  "SBW033": {
     "slug": "pull_from_beyond",
     "pitch": "3"
   },
@@ -28285,6 +28711,10 @@
     "slug": "runechant",
     "pitch": null
   },
+  "SBW035": {
+    "slug": "runechant",
+    "pitch": null
+  },
   "SVI034": {
     "slug": "runechant",
     "pitch": null
@@ -28321,6 +28751,10 @@
     "slug": "runechant_of_lust",
     "pitch": "2"
   },
+  "SBW026": {
+    "slug": "runechant_of_lust",
+    "pitch": "2"
+  },
   "GEM181": {
     "slug": "runechant_of_pride",
     "pitch": "2"
@@ -28334,6 +28768,10 @@
     "pitch": "2"
   },
   "IAR156": {
+    "slug": "runechant_of_sloth",
+    "pitch": "2"
+  },
+  "SBW027": {
     "slug": "runechant_of_sloth",
     "pitch": "2"
   },
@@ -28358,6 +28796,10 @@
     "pitch": null
   },
   "ROS116": {
+    "slug": "runehold_release",
+    "pitch": null
+  },
+  "SBW007": {
     "slug": "runehold_release",
     "pitch": null
   },
@@ -28402,6 +28844,10 @@
     "pitch": "3"
   },
   "IAR146": {
+    "slug": "runic_disposition",
+    "pitch": "1"
+  },
+  "SBW017": {
     "slug": "runic_disposition",
     "pitch": "1"
   },
@@ -29831,6 +30277,10 @@
     "slug": "seven_sin_nebula",
     "pitch": null
   },
+  "SBW003": {
+    "slug": "seven_sin_nebula",
+    "pitch": null
+  },
   "DTD108": {
     "slug": "shaden_death_hydra",
     "pitch": "2"
@@ -30810,6 +31260,10 @@
   "EVR071": {
     "slug": "signal_jammer",
     "pitch": "3"
+  },
+  "SAT010": {
+    "slug": "silent_stilettos",
+    "pitch": null
   },
   "SEN009": {
     "slug": "silent_stilettos",
@@ -32197,6 +32651,10 @@
     "slug": "spectral_manifestations",
     "pitch": "1"
   },
+  "SAT016": {
+    "slug": "spectral_manifestations",
+    "pitch": "1"
+  },
   "SEN014": {
     "slug": "spectral_manifestations",
     "pitch": "1"
@@ -32286,6 +32744,10 @@
     "pitch": null
   },
   "PSM030": {
+    "slug": "spectral_shield",
+    "pitch": null
+  },
+  "SAT033": {
     "slug": "spectral_shield",
     "pitch": null
   },
@@ -37033,6 +37495,10 @@
     "slug": "vexing_gloomblade",
     "pitch": "1"
   },
+  "SBW018": {
+    "slug": "vexing_gloomblade",
+    "pitch": "1"
+  },
   "IAR118": {
     "slug": "vexing_gloomblade",
     "pitch": "2"
@@ -37066,6 +37532,10 @@
     "pitch": "3"
   },
   "MON234": {
+    "slug": "vexing_malice",
+    "pitch": "3"
+  },
+  "SBW032": {
     "slug": "vexing_malice",
     "pitch": "3"
   },
@@ -37338,6 +37808,16 @@
     "pitch": null
   },
   "IAR107": [
+    {
+      "slug": "viserai_between_worlds",
+      "pitch": null
+    },
+    {
+      "slug": "viserai_usurper",
+      "pitch": null
+    }
+  ],
+  "SBW001": [
     {
       "slug": "viserai_between_worlds",
       "pitch": null
@@ -37997,6 +38477,10 @@
     "slug": "wartune_herald",
     "pitch": "1"
   },
+  "SAT015": {
+    "slug": "wartune_herald",
+    "pitch": "1"
+  },
   "APR014": {
     "slug": "wartune_herald",
     "pitch": "2"
@@ -38010,6 +38494,10 @@
     "pitch": "2"
   },
   "MON027": {
+    "slug": "wartune_herald",
+    "pitch": "2"
+  },
+  "SAT021": {
     "slug": "wartune_herald",
     "pitch": "2"
   },
@@ -38030,6 +38518,10 @@
     "pitch": "3"
   },
   "PSM020": {
+    "slug": "wartune_herald",
+    "pitch": "3"
+  },
+  "SAT029": {
     "slug": "wartune_herald",
     "pitch": "3"
   },
@@ -38082,6 +38574,10 @@
     "pitch": null
   },
   "FAB259": {
+    "slug": "wave_of_reality",
+    "pitch": null
+  },
+  "SAT008": {
     "slug": "wave_of_reality",
     "pitch": null
   },
@@ -38226,6 +38722,10 @@
     "pitch": "1"
   },
   "PEN103": {
+    "slug": "weeping_battleground",
+    "pitch": "1"
+  },
+  "SBW019": {
     "slug": "weeping_battleground",
     "pitch": "1"
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "d0bd860c2a5e",
+  "version": "9ce3719cf385",
   "cards": {
     "aegis_archangel_of_protection": {
       "id": "aegis_archangel_of_protection",
@@ -914,6 +914,28 @@
           "cost": "2",
           "power": null,
           "defense": "6"
+        }
+      }
+    },
+    "suraya_archangel_of_endless_hope": {
+      "id": "suraya_archangel_of_endless_hope",
+      "name_zh": "无尽希望大天使·苏拉娅",
+      "name_en": "Suraya, Archangel of Endless Hope",
+      "type_zh": "光·Angel Ally",
+      "type_en": "",
+      "text_zh": "当此牌被唤醒时，获得1点生命。\n每回合一次行动——支付2点资源：攻击\n结界4",
+      "text_en": "When this is awakened, gain 1{h}.\nOnce per Turn Action - {r}{r}: Attack\nWard 4",
+      "source": "https://cards.fabtcg.com/card/suraya_archangel_of_endless_hope/",
+      "status": "machine-draft",
+      "keywords": [
+        "Ward 4"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "4",
+          "defense": null
         }
       }
     },

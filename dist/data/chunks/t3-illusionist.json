@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "d0bd860c2a5e",
+  "version": "9ce3719cf385",
   "cards": {
     "10_000_year_reunion": {
       "id": "10_000_year_reunion",
@@ -1250,6 +1250,28 @@
         }
       }
     },
+    "figment_of_hope": {
+      "id": "figment_of_hope",
+      "name_zh": "希望幻象",
+      "name_en": "Figment of Hope",
+      "type_zh": "光 幻术师 瞬间·Figment",
+      "type_en": "",
+      "text_zh": "无限",
+      "text_en": "Unlimited",
+      "source": "https://cards.fabtcg.com/card/figment_of_hope/",
+      "status": "machine-draft",
+      "keywords": [
+        "Unlimited"
+      ],
+      "variants": {
+        "2": {
+          "pitch": "2",
+          "cost": "4",
+          "power": null,
+          "defense": null
+        }
+      }
+    },
     "figment_of_judgment": {
       "id": "figment_of_judgment",
       "name_zh": "审判幻象",
@@ -1713,6 +1735,40 @@
           "pitch": "2",
           "cost": "2",
           "power": "5",
+          "defense": "3"
+        }
+      }
+    },
+    "herald_of_hope": {
+      "id": "herald_of_hope",
+      "name_zh": "希望先驱",
+      "name_en": "Herald of Hope",
+      "type_zh": "光 幻术师 行动·攻击",
+      "type_en": "",
+      "text_zh": "当此牌命中时，将其置入你的灵魂并获得1点生命。\n虚击",
+      "text_en": "When this hits, put it into your soul and gain 1{h}.\nPhantasm",
+      "source": "https://cards.fabtcg.com/card/herald_of_hope/",
+      "status": "machine-draft",
+      "keywords": [
+        "Phantasm"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "1",
+          "power": "4",
           "defense": "3"
         }
       }

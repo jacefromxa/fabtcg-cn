@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "d0bd860c2a5e",
+  "version": "9ce3719cf385",
   "cards": {
     "absorption_dome": {
       "id": "absorption_dome",
@@ -425,6 +425,40 @@
         }
       }
     },
+    "bootlegger_bust_up": {
+      "id": "bootlegger_bust_up",
+      "name_zh": "痛击走私犯",
+      "name_en": "Bootlegger Bust-Up",
+      "type_zh": "机械行者 行动·攻击",
+      "type_en": "",
+      "text_zh": "推进\n因推进此牌而放逐的每张非机械行者牌使此牌获得+2力量。",
+      "text_en": "Boost\nThis gets +2{p} for each non-Mechanologist card banished from boosting this.",
+      "source": "https://cards.fabtcg.com/card/bootlegger_bust_up/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "3",
+          "power": "6",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "3",
+          "power": "5",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "3",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
     "bull_bar": {
       "id": "bull_bar",
       "name_zh": "防撞杠",
@@ -703,6 +737,26 @@
           "cost": "1",
           "power": "5",
           "defense": "3"
+        }
+      }
+    },
+    "cogwerx_dueling_pistol": {
+      "id": "cogwerx_dueling_pistol",
+      "name_zh": "齿轮工坊决斗手枪",
+      "name_en": "Cogwerx Dueling Pistol",
+      "type_zh": "机械行者 武器·手枪 (单手)",
+      "type_en": "",
+      "text_zh": "行动——{t}，从此牌上移除一个蒸汽指示物：攻击\n行动——支付1点资源，{t}：若此牌上没有蒸汽指示物，在其上放置一个蒸汽指示物。再动",
+      "text_en": "Action - {t}, remove a steam counter from this: Attack\nAction - {r}, {t}: If this has no steam counters, put a steam counter on it. Go again",
+      "source": "https://cards.fabtcg.com/card/cogwerx_dueling_pistol/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
         }
       }
     },
@@ -2309,6 +2363,28 @@
         }
       }
     },
+    "madness_spiral": {
+      "id": "madness_spiral",
+      "name_zh": "狂乱螺旋",
+      "name_en": "Madness Spiral",
+      "type_zh": "混乱 机械行者 行动·攻击",
+      "type_en": "",
+      "text_zh": "推进\n若你将因推进而放逐此牌，改为放逐此牌以及其他每位英雄的牌库顶牌来进行推进。",
+      "text_en": "Boost\nIf you would banish this from boosting, instead banish it and the top card of each other hero's deck to boost.",
+      "source": "https://cards.fabtcg.com/card/madness_spiral/",
+      "status": "machine-draft",
+      "keywords": [
+        "Boost"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "2",
+          "power": "4",
+          "defense": "3"
+        }
+      }
+    },
     "master_cog": {
       "id": "master_cog",
       "name_zh": "大师齿轮",
@@ -3350,6 +3426,28 @@
           "pitch": "3",
           "cost": "3",
           "power": "4",
+          "defense": "3"
+        }
+      }
+    },
+    "revere_the_copper_idol": {
+      "id": "revere_the_copper_idol",
+      "name_zh": "尊崇铜像",
+      "name_en": "Revere the Copper Idol",
+      "type_zh": "机械行者 瞬间",
+      "type_en": "",
+      "text_zh": "传奇\n当此牌因推进而被放逐时，将其洗入其拥有者的牌库。\n将你放逐区中至多3张不同名称的机械行者行动牌洗入你的牌库。",
+      "text_en": "Legendary\nWhen this is banished from boosting, shuffle this into its owner's deck.\nShuffle up to 3 Mechanologist action cards with different names from your banished zone into your deck.",
+      "source": "https://cards.fabtcg.com/card/revere_the_copper_idol/",
+      "status": "machine-draft",
+      "keywords": [
+        "Legendary"
+      ],
+      "variants": {
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": null,
           "defense": "3"
         }
       }
@@ -4553,6 +4651,26 @@
           "cost": "1",
           "power": "2",
           "defense": "3"
+        }
+      }
+    },
+    "unstable_plasma_pistol": {
+      "id": "unstable_plasma_pistol",
+      "name_zh": "不稳定等离子手枪",
+      "name_en": "Unstable Plasma Pistol",
+      "type_zh": "混乱 机械行者 武器·手枪 (双手)",
+      "type_en": "",
+      "text_zh": "行动——支付2点资源：攻击\n若你本回合因推进而放逐过一张由对手拥有的牌，此武器获得+2力量。",
+      "text_en": "Action - {r}{r}: Attack\nIf you've banished a card an opponent owns from boosting this turn, this gets +2{p}.",
+      "source": "https://cards.fabtcg.com/card/unstable_plasma_pistol/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "2",
+          "defense": null
         }
       }
     },

@@ -474,5 +474,18 @@
     "defense": "",
     "source": "https://cards.fabtcg.com/card/visit_the_winner_takes_all/",
     "status": "machine-draft"
+  },
+  "mortimers_lab": {
+    "name_en": "Mortimer's Lab",
+    "name_zh": "莫蒂默的实验室",
+    "type_zh": "Outbreak 宏观",
+    "text_en": "The first time you hit an opposing hero each turn, they reveal the top card of their deck. If it's;\n- Red, create a Bloodrot Pox token under their control.\n- Yellow, create an Exertion token under their control.\n- Blue, create an Inertia token under their control.",
+    "text_zh": "每回合你第一次命中一位对手英雄时，其展示其牌库顶的一张牌。若其为：\n·红色，由其创造一个血腐疫病衍生物。\n·黄色，由其创造一个力竭衍生物。\n·蓝色，由其创造一个惰性衍生物。",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/mortimers_lab/",
+    "status": "machine-draft"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "d0bd860c2a5e",
+  "version": "9ce3719cf385",
   "cards": {
     "amplifying_arrow": {
       "id": "amplifying_arrow",
@@ -1705,6 +1705,28 @@
         }
       }
     },
+    "max_tension_shot": {
+      "id": "max_tension_shot",
+      "name_zh": "满弦一击",
+      "name_en": "Max-Tension Shot",
+      "type_zh": "游侠 行动·箭矢 攻击",
+      "type_en": "",
+      "text_zh": "当此牌攻击时，展示你牌库顶的一张牌。若其为红色，此牌获得再动。",
+      "text_en": "When this attacks, reveal the top card of your deck. If it's red, this gets go again.",
+      "source": "https://cards.fabtcg.com/card/max_tension_shot/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "1",
+          "power": "5",
+          "defense": "3"
+        }
+      }
+    },
     "melting_point": {
       "id": "melting_point",
       "name_zh": "熔点",
@@ -1843,6 +1865,26 @@
           "cost": "0",
           "power": null,
           "defense": "3"
+        }
+      }
+    },
+    "one_click_pinpointer": {
+      "id": "one_click_pinpointer",
+      "name_zh": "一键标定弓",
+      "name_en": "One-Click Pinpointer",
+      "type_zh": "游侠 武器·弓 (单手)",
+      "type_en": "",
+      "text_zh": "行动——{t}：将你军械库中的所有牌置于你的牌库底。将你手牌中的一张箭矢牌面朝上置入你的军械库。若你控制一张已横置的弓，此异能启动费用增加1点资源。再动",
+      "text_en": "Action - {t}: Put all cards from your arsenal on the bottom of your deck. Put an arrow from your hand face-up into your arsenal. If you control a tapped bow, this costs {r} more to activate. Go again",
+      "source": "https://cards.fabtcg.com/card/one_click_pinpointer/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
         }
       }
     },

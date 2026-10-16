@@ -8860,5 +8860,31 @@
     "defense": "2",
     "source": "https://cards.fabtcg.com/card/whispers_within/",
     "status": "machine-draft"
+  },
+  "exertion": {
+    "name_en": "Exertion",
+    "name_zh": "力竭",
+    "type_zh": "通用 衍生物·疾病 光环",
+    "text_en": "Whenever you play a card from hand, lose 1{h}.\nAt the beginning of your end phase, destroy this.",
+    "text_zh": "每当你从手牌使用一张牌时，失去1点生命。\n在你的结束阶段开始时，摧毁此牌。",
+    "pitch": null,
+    "cost": null,
+    "power": null,
+    "defense": null,
+    "source": "https://cards.fabtcg.com/card/exertion/",
+    "status": "machine-draft"
+  },
+  "cure_all_elixir": {
+    "name_en": "Cure-All Elixir",
+    "name_zh": "万灵药剂",
+    "type_zh": "通用 行动",
+    "text_en": "Your next attack this turn gets +3{p}.\nYou may cure a disease you control. If you do, gain 1{h}.\nGo again",
+    "text_zh": "你本回合的下一次攻击获得+3力量。\n你可以治愈一个你控制的疾病。若如此做，获得1点生命。\n再动",
+    "pitch": null,
+    "cost": "1",
+    "power": null,
+    "defense": "3",
+    "source": "https://cards.fabtcg.com/card/cure_all_elixir/",
+    "status": "machine-draft"
   }
 }

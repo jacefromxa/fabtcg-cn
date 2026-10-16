@@ -1,7 +1,27 @@
 {
   "schema_version": 2,
-  "version": "d0bd860c2a5e",
+  "version": "9ce3719cf385",
   "cards": {
+    "01_first_cogwarden": {
+      "id": "01_first_cogwarden",
+      "name_zh": "α-01·初号齿轮守卫",
+      "name_en": "α-01, First Cogwarden",
+      "type_zh": "",
+      "type_en": "Mechanologist Ranger Hero - Young",
+      "text_zh": "瞬间——支付1点资源，{t}：将一张你本回合因推进而放逐的箭矢牌面朝上置入你的军械库。若如此做，在其上放置两个+1力量指示物。\n瞬间——支付1点资源，{t}：你本回合使用的下一张带有+1力量指示物的箭矢获得再动。",
+      "text_en": "Instant - {r}, {t}: Put an arrow you've banished from boosting this turn face-up into your arsenal. If you do, put two +1{p} counters on it.\nInstant - {r}, {t}: The next arrow with a +1{p} counter you play this turn gets go again.",
+      "source": "https://cards.fabtcg.com/card/01_first_cogwarden/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
     "arakni": {
       "id": "arakni",
       "name_zh": "阿拉克尼",
@@ -235,6 +255,46 @@
       "text_zh": "每回合一次行动——费用0：将你军械库中的一张牌置于你的牌库底。若如此做，将你牌库顶的一张牌正面朝上放入你的军械库。若其为箭矢牌，它直到回合结束获得支配。再动",
       "text_en": "Once per Turn Action - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it's an arrow card, it gains dominate until end of turn. Go again",
       "source": "https://cards.fabtcg.com/card/azalea_ace_in_the_hole/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "azalea_ace_of_spades": {
+      "id": "azalea_ace_of_spades",
+      "name_zh": "阿扎莉亚·黑桃A",
+      "name_en": "Azalea, Ace of Spades",
+      "type_zh": "",
+      "type_en": "Assassin Ranger Hero",
+      "text_zh": "瞬间——{t}，将你军械库中的一张牌置于你的牌库底：将你牌库顶的一张牌牌面朝上置入你的军械库。若其具有潜行，它本回合获得+1力量与再动。若其为箭矢，它本回合获得隐匿。",
+      "text_en": "Instant - {t}, put a card from your arsenal on the bottom of your deck: Put the top card of your deck face-up into your arsenal. If it has stealth, it gets +1{p} and go again this turn. If its an arrow, it gets veil this turn.",
+      "source": "https://cards.fabtcg.com/card/azalea_ace_of_spades/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "azalea_lone_vigilante": {
+      "id": "azalea_lone_vigilante",
+      "name_zh": "阿扎莉亚·独行义警",
+      "name_en": "Azalea, Lone Vigilante",
+      "type_zh": "",
+      "type_en": "Assassin Ranger Hero - Young",
+      "text_zh": "瞬间——{t}，将你军械库中的一张牌置于你的牌库底：将你牌库顶的一张牌牌面朝上置入你的军械库。若其具有潜行，它本回合获得+1力量与再动。若其为箭矢，它本回合获得隐匿。",
+      "text_en": "Instant - {t}, put a card from your arsenal on the bottom of your deck: Put the top card of your deck face-up into your arsenal. If it has stealth, it gets +1{p} and go again this turn. If its an arrow, it gets veil this turn.",
+      "source": "https://cards.fabtcg.com/card/azalea_lone_vigilante/",
       "status": "machine-draft",
       "keywords": [],
       "variants": {
@@ -1240,6 +1300,46 @@
         }
       }
     },
+    "huxley": {
+      "id": "huxley",
+      "name_zh": "赫胥黎",
+      "name_en": "Huxley",
+      "type_zh": "",
+      "type_en": "Assassin Mechanologist Hero - Young",
+      "text_zh": "每当你因推进而放逐一张具有潜行的行动牌时，你可以{t}此牌。若如此做，本回合你可以将该放逐的牌当作瞬间使用。",
+      "text_en": "Whenever you banish an action card with stealth from boosting, you may {t} this. If you do, you may play the banished card as though it were an instant this turn.",
+      "source": "https://cards.fabtcg.com/card/huxley/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "huxley_racketeer": {
+      "id": "huxley_racketeer",
+      "name_zh": "赫胥黎·敲诈者",
+      "name_en": "Huxley, Racketeer",
+      "type_zh": "",
+      "type_en": "Assassin Mechanologist Hero",
+      "text_zh": "每当你因推进而放逐一张具有潜行的行动牌时，你可以{t}此牌。若如此做，本回合你可以将该放逐的牌当作瞬间使用。",
+      "text_en": "Whenever you banish an action card with stealth from boosting, you may {t} this. If you do, you may play the banished card as though it were an instant this turn.",
+      "source": "https://cards.fabtcg.com/card/huxley_racketeer/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
     "ira_crimson_haze": {
       "id": "ira_crimson_haze",
       "name_zh": "伊拉·血雾迷踪",
@@ -1889,6 +1989,106 @@
           "cost": "",
           "power": "",
           "defense": ""
+        }
+      }
+    },
+    "min_genius": {
+      "id": "min_genius",
+      "name_zh": "敏·天才",
+      "name_en": "Min, Genius",
+      "type_zh": "",
+      "type_en": "Chaos Mechanologist Hero",
+      "text_zh": "由你拥有的牌均具有机械行者类别。\n在你的结束阶段开始时，翻转此牌。",
+      "text_en": "Cards you own are Mechanologist.\nAt the beginning of your end phase, flip this.",
+      "source": "https://cards.fabtcg.com/card/min_genius/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "min_half_genius": {
+      "id": "min_half_genius",
+      "name_zh": "敏·半天才",
+      "name_en": "Min, Half-Genius",
+      "type_zh": "",
+      "type_en": "Chaos Mechanologist Hero - Young",
+      "text_zh": "由你拥有的牌均具有机械行者类别。\n在你的结束阶段开始时，翻转此牌。",
+      "text_en": "Cards you own are Mechanologist.\nAt the beginning of your end phase, flip this.",
+      "source": "https://cards.fabtcg.com/card/min_half_genius/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "min_half_mad": {
+      "id": "min_half_mad",
+      "name_zh": "敏·半癫狂",
+      "name_en": "Min, Half-Mad",
+      "type_zh": "",
+      "type_en": "Chaos Mechanologist Hero - Young",
+      "text_zh": "由你拥有的牌失去且不能获得职业和天赋类别。\n在你的结束阶段开始时，翻转此牌。",
+      "text_en": "Cards you own lose and can't gain class and talent types.\nAt the beginning of your end phase, flip this.",
+      "source": "https://cards.fabtcg.com/card/min_half_mad/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "min_mad": {
+      "id": "min_mad",
+      "name_zh": "敏·狂徒",
+      "name_en": "Min, Mad",
+      "type_zh": "",
+      "type_en": "Chaos Mechanologist Hero",
+      "text_zh": "由你拥有的牌失去且不能获得职业和天赋类别。\n在你的结束阶段开始时，翻转此牌。",
+      "text_en": "Cards you own lose and can't gain class and talent types.\nAt the beginning of your end phase, flip this.",
+      "source": "https://cards.fabtcg.com/card/min_mad/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "mortimer_living_virus": {
+      "id": "mortimer_living_virus",
+      "name_zh": "莫蒂默·活体病毒",
+      "name_en": "Mortimer, Living Virus",
+      "type_zh": "",
+      "type_en": "Chaos Assassin Hero - Young",
+      "text_zh": "瞬间——支付1点资源，{t}：由每位对手各创造一个你控制的疾病衍生物的衍生物复制品。仅在你的回合中才能启动此异能。",
+      "text_en": "Instant - {r}, {t}: Create a token copy of a disease token you control under each opponent's control. Activate this only during your turn.",
+      "source": "https://cards.fabtcg.com/card/mortimer_living_virus/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
         }
       }
     },
@@ -2947,6 +3147,46 @@
       "text_zh": "每回合你使用的第一张具有血债的攻击行动牌获得再动。\n在每个结束阶段开始时，若你本回合创造或启动过通往伊阿拉塞尔之门，你可以穿界。",
       "text_en": "The first attack action card with blood debt you play each turn gets go again.\nAt the beginning of each end phase, if you've created or activated a Gate to i'Arathael this turn, you may traverse.",
       "source": "https://cards.fabtcg.com/card/viserai_usurper/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "vyle": {
+      "id": "vyle",
+      "name_zh": "瓦尔",
+      "name_en": "Vyle",
+      "type_zh": "",
+      "type_en": "Chaos Ranger Hero - Young",
+      "text_zh": "瞬间——支付2点资源，{t}：每位英雄将其牌库顶的一张牌牌面朝上置入其军械库。仅在你的回合中才能启动此异能。\n若一位对手的军械库中有牌面朝上的牌，你的箭矢攻击获得+1力量。",
+      "text_en": "Instant - {r}{r}, {t}: Each hero puts the top card of their deck face-up into their arsenal. Activate this only during your turn.\nIf an opponent has a face-up card in their arsenal, your arrow attacks get +1{p}.",
+      "source": "https://cards.fabtcg.com/card/vyle/",
+      "status": "machine-draft",
+      "keywords": [],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": null,
+          "defense": null
+        }
+      }
+    },
+    "vyle_catalyst_of_collapse": {
+      "id": "vyle_catalyst_of_collapse",
+      "name_zh": "瓦尔·崩解催化剂",
+      "name_en": "Vyle, Catalyst of Collapse",
+      "type_zh": "",
+      "type_en": "Chaos Ranger Hero",
+      "text_zh": "瞬间——支付2点资源，{t}：每位英雄将其牌库顶的一张牌牌面朝上置入其军械库。仅在你的回合中才能启动此异能。\n若一位对手的军械库中有牌面朝上的牌，你的箭矢攻击获得+1力量。",
+      "text_en": "Instant - {r}{r}, {t}: Each hero puts the top card of their deck face-up into their arsenal. Activate this only during your turn.\nIf an opponent has a face-up card in their arsenal, your arrow attacks get +1{p}.",
+      "source": "https://cards.fabtcg.com/card/vyle_catalyst_of_collapse/",
       "status": "machine-draft",
       "keywords": [],
       "variants": {

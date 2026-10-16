@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "d0bd860c2a5e",
+  "version": "9ce3719cf385",
   "cards": {
     "already_dead": {
       "id": "already_dead",
@@ -1795,6 +1795,62 @@
       "status": "machine-draft",
       "keywords": [
         "Piercing 1"
+      ],
+      "variants": {
+        "default": {
+          "pitch": null,
+          "cost": null,
+          "power": "1",
+          "defense": null
+        }
+      }
+    },
+    "patient_zero": {
+      "id": "patient_zero",
+      "name_zh": "零号病人",
+      "name_en": "Patient Zero",
+      "type_zh": "刺客 行动·攻击",
+      "type_en": "",
+      "text_zh": "潜行\n当此牌命中英雄时，将一个你控制的疾病衍生物交给该英雄。",
+      "text_en": "Stealth\nWhen this hits a hero, give them a disease token you control.",
+      "source": "https://cards.fabtcg.com/card/patient_zero/",
+      "status": "machine-draft",
+      "keywords": [
+        "Stealth"
+      ],
+      "variants": {
+        "1": {
+          "pitch": "1",
+          "cost": "0",
+          "power": "3",
+          "defense": "3"
+        },
+        "2": {
+          "pitch": "2",
+          "cost": "0",
+          "power": "2",
+          "defense": "3"
+        },
+        "3": {
+          "pitch": "3",
+          "cost": "0",
+          "power": "1",
+          "defense": "3"
+        }
+      }
+    },
+    "paupers_knife": {
+      "id": "paupers_knife",
+      "name_zh": "贫民之刃",
+      "name_en": "Pauper's Knife",
+      "type_zh": "刺客 武器·匕首 (单手)",
+      "type_en": "",
+      "text_zh": "行动——支付2点资源，{t}：攻击。再动",
+      "text_en": "Action - {r}{r}, {t}: Attack. Go again",
+      "source": "https://cards.fabtcg.com/card/paupers_knife/",
+      "status": "machine-draft",
+      "keywords": [
+        "Go again"
       ],
       "variants": {
         "default": {
