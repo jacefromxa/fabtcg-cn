@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.7.46（2026-10-16）
+
+### 修复与优化
+
+- **修复 FaBrary 浮窗不显示的问题**：
+  - 修正 DOM 挂载逻辑：`#root` 容器挂载限定仅在 Talishar 生效（解决其定期隐藏 body 直系子节点的问题）；FaBrary 等 React SPA 平台改回直接挂载至 `document.body`，避免被 React 虚拟 DOM 水合与重渲染卸载或层级隔离。
+  - 补全 FaBrary 匹配规则：新增 `@match https://*.fabrary.net/*` 与 `@match https://www.fabrary.net/*`。
+  - 新增 FaBrary 结构化卡牌链接解析：支持 `/cards/<slug>` 路径，卡表与文字行即使未渲染小缩略图也能直接解析并展示中文浮窗。
+  - 优化卡牌锚点识别：悬停卡牌按钮或列表行但指针未严格落在小图片矩形内时，保留容器作为有效锚点，避免边缘判定落空。
+  - 限制原生预览定位：Talishar fixed 原生预览大图判定仅在 Talishar 域名下启用，不误触 FaBrary 固定定位元素。
+  - 优化版本清单拉取：`manifest.json` 请求附加 `cache: 'no-cache'`，防止浏览器 7 天本地磁盘缓存导致读取陈旧卡库。
+  - 恢复旧文件名兼容：提供 `probe/talishar-cn.user.js` 兼容垫片，确保重命名之前安装的用户也能顺利收到自动更新。
+
 ## v0.7.45（2026-10-16）
 
 ### 数据更新

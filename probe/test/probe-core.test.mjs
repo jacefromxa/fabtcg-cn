@@ -27,6 +27,8 @@ const {
   resolveDataBaseUrl,
   SETTINGS_DEFAULTS,
   loadSettings,
+  extractFabraryCardLink,
+  getProbeMount,
 } = probe;
 
 test('userscript is browser-only and has no lint global declaration', () => {
@@ -79,6 +81,29 @@ test('userscript matches The Fab Cube pages', () => {
 
 test('userscript matches Fabrec pages', () => {
   assert.match(source, /^\/\/ @match\s+https:\/\/fabrec\.gg\/\*$/m);
+});
+
+test('userscript matches all FaBrary subdomains', () => {
+  assert.match(source, /^\/\/ @match\s+https:\/\/fabrary\.net\/\*$/m);
+  assert.match(source, /^\/\/ @match\s+https:\/\/\*\.fabrary\.net\/\*$/m);
+  assert.match(source, /^\/\/ @match\s+https:\/\/www\.fabrary\.net\/\*$/m);
+});
+
+test('extractFabraryCardLink extracts card slug from canonical FaBrary link', () => {
+  assert.deepEqual({ ...extractFabraryCardLink('https://fabrary.net/cards/command-and-conquer') }, {
+    slug: 'command_and_conquer',
+    pitch: null,
+  });
+  assert.deepEqual({ ...extractFabraryCardLink('/cards/sink-below-red') }, {
+    slug: 'sink_below_red',
+    pitch: null,
+  });
+  assert.deepEqual({ ...extractFabraryCardLink('https://www.fabrary.net/cards/titans-fist/') }, {
+    slug: 'titans_fist',
+    pitch: null,
+  });
+  assert.equal(extractFabraryCardLink('https://fabrary.net/decks/xyz'), null);
+  assert.equal(extractFabraryCardLink('https://example.com/cards/command-and-conquer'), null);
 });
 
 test('shouldInstallProbe enables only FAB content on TCGplayer', () => {
@@ -283,6 +308,24 @@ test('installProbe mounts the tooltip inside Talishar root when it exists', () =
   instance.destroy();
 
   assert.equal(talisharRoot.children.length, 0);
+});
+
+test('installProbe mounts the tooltip inside document.body on FaBrary even if #root exists', () => {
+  const fakeDocument = createFakeDocument();
+  fakeDocument.location = { hostname: 'fabrary.net' };
+  const reactRoot = fakeDocument.createElement('div');
+  reactRoot.id = 'root';
+  fakeDocument.getElementById = (id) => id === 'root' ? reactRoot : null;
+
+  const instance = installProbe(fakeDocument);
+
+  assert.equal(fakeDocument.body.children.length, 1);
+  assert.equal(fakeDocument.body.children[0].id, 'fab-cn-probe-panel');
+  assert.equal(reactRoot.children.length, 0);
+
+  instance.destroy();
+
+  assert.equal(fakeDocument.body.children.length, 0);
 });
 
 test('follow mode keeps repositioning when requestAnimationFrame is stalled', async () => {
@@ -1016,6 +1059,70 @@ test('findCardPreviewImage ignores small or unfixed images', () => {
   };
 
   assert.equal(findCardPreviewImage(fakeDoc, fakeRoot), null);
+});
+
+test('findCardPreviewImage returns null on non-Talishar sites even if fixed image exists', () => {
+  const fixedImg = {
+    tagName: 'IMG',
+    src: 'https://fabrary.net/cards/sample.webp',
+    getBoundingClientRect() { return { height: 400 }; },
+    parentElement: {
+      tagName: 'DIV',
+      parentElement: null,
+      contains() { return true; },
+    },
+  };
+  const fakeDoc = {
+    location: { hostname: 'fabrary.net' },
+    body: {
+      querySelectorAll() { return [fixedImg]; },
+      contains() { return true; },
+    },
+  };
+  const fakeRoot = {
+    innerHeight: 800,
+    getComputedStyle() { return { position: 'fixed' }; },
+  };
+
+  assert.equal(findCardPreviewImage(fakeDoc, fakeRoot), null);
+});
+
+test('findCardAnchor preserves container anchor when pointer is inside container but outside child image', () => {
+  let childImg;
+  const container = {
+    tagName: 'BUTTON',
+    className: 'card-item',
+    title: 'Command and Conquer',
+    getBoundingClientRect() {
+      return { left: 0, top: 0, right: 300, bottom: 80, width: 300, height: 80 };
+    },
+    closest(selector) {
+      if (selector.includes('card-item') || selector.includes('button')) return this;
+      return null;
+    },
+    matches() { return false; },
+    querySelector(selector) {
+      if (selector === 'img') return childImg;
+      return null;
+    },
+    parentElement: null,
+    parentNode: null,
+  };
+  childImg = {
+    tagName: 'IMG',
+    getBoundingClientRect() {
+      // Child image occupies left portion: [0, 60]
+      return { left: 0, top: 0, right: 60, bottom: 80, width: 60, height: 80 };
+    },
+    parentElement: container,
+  };
+
+  const fakeDocument = { body: {} };
+
+  // Pointer at (150, 40) is inside container [0, 300] but outside image [0, 60]
+  assert.equal(findCardAnchor(container, fakeDocument, 150, 40), container);
+  // Pointer at (30, 40) is inside both container and image -> image becomes anchor
+  assert.equal(findCardAnchor(container, fakeDocument, 30, 40), childImg);
 });
 
 test('installProbe injects a style tag with default CSS variables', () => {

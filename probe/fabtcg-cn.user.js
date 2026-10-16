@@ -3,7 +3,7 @@
 // @name:zh-CN     FABTCG中文悬浮窗
 // @name:en        FABTCG Chinese Tooltip
 // @namespace      https://talishar.net/
-// @version        0.7.45
+// @version        0.7.46
 // @description    支持市面主流 FABTCG 平台的简体中文卡牌悬浮窗，持续更新中。
 // @description:zh-CN 支持市面主流 FABTCG 平台的简体中文卡牌悬浮窗，持续更新中。
 // @description:en Show Simplified Chinese card info on mainstream FABTCG platforms — continuously updated.
@@ -11,6 +11,8 @@
 // @license        GPL-3.0
 // @match          https://talishar.net/*
 // @match          https://fabrary.net/*
+// @match          https://*.fabrary.net/*
+// @match          https://www.fabrary.net/*
 // @match          https://fyendal.net/*
 // @match          https://fablazing.com/*
 // @match          https://felttable.com/*
@@ -219,6 +221,30 @@
     return slug ? { slug: slug, pitch: pitch } : null;
   }
 
+  // FaBrary card and deck pages link to card pages such as "/cards/command-and-conquer".
+  function extractFabraryCardLink(value) {
+    if (typeof value !== 'string' || !value.trim()) return null;
+    let parsed;
+    try {
+      parsed = new URL(value, root.location?.href || 'https://fabrary.net/');
+    } catch {
+      return null;
+    }
+    const hostname = parsed.hostname.toLowerCase();
+    if (hostname !== 'fabrary.net' && !hostname.endsWith('.fabrary.net')) return null;
+    if (!parsed.pathname.startsWith('/cards/')) return null;
+    const rawSlug = parsed.pathname.slice('/cards/'.length).replace(/\/$/, '');
+    if (!rawSlug || rawSlug.includes('/')) return null;
+    let cardName;
+    try {
+      cardName = decodeURIComponent(rawSlug.replace(/-/g, ' '));
+    } catch {
+      return null;
+    }
+    const slug = slugifyCardName(cardName);
+    return slug ? { slug: slug, pitch: null } : null;
+  }
+
   // FaBrary card images use printing ids as filenames (e.g. "PEN313.webp").
   // The exact stem (PEN313) is the key into the printing-id alias table.
   function extractPrintingId(value) {
@@ -367,7 +393,7 @@
     };
     const addLinkUrl = (value) => {
       if (typeof value !== 'string' || !value.trim()) return;
-      if (!extractFablazingCardLink(value)) return;
+      if (!extractFablazingCardLink(value) && !extractFabraryCardLink(value)) return;
       if (!result.linkUrls.includes(value)) result.linkUrls.push(value);
     };
     const addTextHint = (value) => {
@@ -605,11 +631,11 @@
       }
     }
 
-    // Fablazing card table links carry a canonical card slug and pitch color
+    // Fablazing & FaBrary card links carry a canonical card slug
     // even when no card image is present. The grouped slug is the published
     // index key; the parser retains pitch metadata for deterministic routing.
     for (const url of candidate.linkUrls || []) {
-      const link = extractFablazingCardLink(url);
+      const link = extractFablazingCardLink(url) || extractFabraryCardLink(url);
       if (link) push(link.slug, link.pitch);
     }
 
@@ -700,11 +726,12 @@
       });
     }
 
-    async function requestJson(url) {
+    async function requestJson(url, options) {
       let fetchError = null;
       if (typeof browserRoot.fetch === 'function') {
         try {
-          const response = await browserRoot.fetch(url);
+          const fetchOptions = options || {};
+          const response = await browserRoot.fetch(url, fetchOptions);
           if (!response || response.ok === false) throw new Error('卡库请求失败：' + url);
           return { data: await response.json(), response: response };
         } catch (error) {
@@ -734,8 +761,8 @@
       if (loaderState) return loaderState;
 
       const manifestUrl = joinDataUrl(normalizedBaseUrl, 'manifest.json');
-      // Manifest is always fetched network-first so we detect version bumps.
-      const manifestResult = await requestJson(manifestUrl);
+      // Manifest is always fetched network-first without disk cache so we detect version bumps.
+      const manifestResult = await requestJson(manifestUrl, { cache: 'no-cache' });
       const manifest = manifestResult.data;
       const manifestResponse = manifestResult.response;
 
@@ -1004,9 +1031,11 @@
     if (String(detected.tagName || '').toLowerCase() !== 'img' &&
         typeof detected.querySelector === 'function') {
       const image = detected.querySelector('img');
-      if (image) anchor = image;
+      if (image && imageUnderPointer(image, clientX, clientY)) {
+        anchor = image;
+      }
     }
-    // Whatever element the pointer probe settled on, the card image it maps to
+    // Whatever element the pointer probe settled on, the card anchor it maps to
     // must actually be under the pointer. Without this last check, a signal
     // carried by an ancestor — a card-list wrapper or row with its own title /
     // data-* attributes — turns any empty space inside it into "the first card
@@ -1029,6 +1058,7 @@
       doc.location?.hostname || browserRoot.location?.hostname || root.location?.hostname || '',
     ).toLowerCase();
     const isTalisharPage = hostname === 'talishar.net' || hostname.endsWith('.talishar.net');
+    if (!isTalisharPage) return null;
     let images;
     try {
       images = doc.body.querySelectorAll('img');
@@ -1273,6 +1303,18 @@
 
   function getProbeMount(doc) {
     if (!doc || !doc.body) return null;
+
+    const hostname = String(
+      doc?.location?.hostname || root?.location?.hostname || '',
+    ).toLowerCase();
+    // Only Talishar actively sweeps and hides direct children of document.body.
+    // On other platforms (e.g. FaBrary, Felttable), mounting inside #root disrupts
+    // the host React/Vue application tree and causes hydration/reconciliation issues.
+    // If hostname is empty (e.g. legacy unit test mock), we also allow #root if present.
+    const isTalishar = !hostname || hostname === 'talishar.net' || hostname.endsWith('.talishar.net');
+    if (!isTalishar) {
+      return doc.body;
+    }
 
     var talisharRoot = null;
     if (typeof doc.getElementById === 'function') {
@@ -2321,6 +2363,7 @@
     extractImageTokens: extractImageTokens,
     extractPrintingId: extractPrintingId,
     extractFablazingCardLink: extractFablazingCardLink,
+    extractFabraryCardLink: extractFabraryCardLink,
     extractTcgplayerCardEmbed: extractTcgplayerCardEmbed,
     isFabCardBackgroundUrl: isFabCardBackgroundUrl,
     normalizeStem: normalizeStem,
@@ -2335,6 +2378,7 @@
     normalizeCandidate: normalizeCandidate,
     renderCardPanel: renderCardPanel,
     shouldInstallProbe: shouldInstallProbe,
+    getProbeMount: getProbeMount,
     installProbe: installProbe,
   };
 
