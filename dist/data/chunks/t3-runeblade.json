@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "9ce3719cf385",
+  "version": "0c77b8be2613",
   "cards": {
     "aether_slash": {
       "id": "aether_slash",
@@ -1577,13 +1577,15 @@
           "pitch": "2",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你可以从你的放逐区使用此牌。若如此做，使用它需要额外支付{r}{r}。\n占卜1，然后创造一个符文吟唱衍生物。再动\n血债"
         },
         "3": {
           "pitch": "3",
           "cost": "0",
           "power": null,
-          "defense": "2"
+          "defense": "2",
+          "text_zh": "你可以从你的放逐区使用此牌。若如此做，使用它需要额外支付{r}{r}{r}。\n占卜1，然后创造一个符文吟唱衍生物。再动\n血债"
         }
       }
     },

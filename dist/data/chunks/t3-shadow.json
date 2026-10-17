@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "9ce3719cf385",
+  "version": "0c77b8be2613",
   "cards": {
     "abyssal_bite": {
       "id": "abyssal_bite",
@@ -213,7 +213,7 @@
       "type_zh": "暗影 行动·攻击",
       "type_en": "",
       "text_zh": "当此牌命中时，创造一个通往伊阿拉塞尔之门衍生物。\n血债",
-      "text_en": "When this hits, create a Gate to i'Arathael token\nBlood Debt\"",
+      "text_en": "When this hits, create a Gate to i'Arathael token.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/breach_flesh/",
       "status": "machine-draft",
       "keywords": [
@@ -303,7 +303,7 @@
       "type_zh": "暗影 行动·攻击",
       "type_en": "",
       "text_zh": "当此牌命中时，创造一个通往伊阿拉塞尔之门衍生物。\n血债",
-      "text_en": "When this hits, create a Gate to i'Arathael token\nBlood Debt\"",
+      "text_en": "When this hits, create a Gate to i'Arathael token.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/corporeal_chasm/",
       "status": "machine-draft",
       "keywords": [
@@ -337,7 +337,7 @@
       "type_zh": "暗影 行动·攻击",
       "type_en": "",
       "text_zh": "若此牌是从你的放逐区使用的，其获得“此链环中不能使用防御反应牌。”\n当此牌命中英雄时，放逐其军械库中的所有牌。\n血债",
-      "text_en": "If this was played from your banished zone, it gets \"Defense reaction cards can't be played this chain link.\nWhen this hits a hero, banish all cards in their arsenal.\nBlood Debt",
+      "text_en": "If this was played from your banished zone, it gets \"Defense reaction cards can't be played this chain link.\"\nWhen this hits a hero, banish all cards in their arsenal.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/corrupt_and_conquer/",
       "status": "machine-draft",
       "keywords": [
@@ -473,7 +473,7 @@
           "cost": "2",
           "power": null,
           "defense": "3",
-          "text_zh": "你可以将一张手牌置于你的牌库顶，而非支付此牌的{r}费用。\n本回合你的下一次暗影攻击获得+1{p}。再动\n血债"
+          "text_zh": "你可以将一张手牌置于你的牌库顶，而非支付此牌的{r}费用。\n本回合你的下一次暗影攻击获得+2{p}。再动\n血债"
         }
       }
     },
@@ -1380,8 +1380,8 @@
       "name_en": "Shadowrealm Walker",
       "type_zh": "暗影 行动·攻击",
       "type_en": "",
-      "text_zh": "当此牌攻击时，你可以从你的手牌放逐一张牌。若其为暗影牌，此牌获得+2{p}。\n血债",
-      "text_en": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.\nBlood Debt",
+      "text_zh": "当此牌攻击时，你可以从你的手牌放逐一张牌。若其为暗影牌，创造一个通往伊阿拉塞尔之门衍生物。\n血债",
+      "text_en": "When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.\nBlood Debt",
       "source": "https://cards.fabtcg.com/card/shadowrealm_walker/",
       "status": "machine-draft",
       "keywords": [

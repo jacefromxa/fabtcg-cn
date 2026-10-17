@@ -4345,7 +4345,7 @@
     "name_en": "Crushing Headache",
     "name_zh": "剧烈头痛",
     "type_zh": "守护者 行动·攻击",
-    "text_en": "Crush - When this deals 4 or more damage to a hero, they reveal their arsenal and hand. Destroy all non-attack action cards in their arsenal, and they discard all non-attack action cards in their hand revealed this way.",
+    "text_en": "Crush - When this deals 4 or more damage to a hero, they reveal their arsenal and hand. Destroy all non-attack action cards in their arsenal and they discard all non-attack action cards in their hand revealed this way.",
     "text_zh": "粉碎——当此牌对英雄造成4点或更多伤害时，该英雄展示其军械库和手牌。摧毁其军械库中的所有非攻击行动牌，该英雄弃置以此方式展示的手牌中的所有非攻击行动牌。",
     "pitch": "1",
     "cost": "6",

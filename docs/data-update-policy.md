@@ -171,14 +171,15 @@ card-reference.json：<before hash> -> <after hash>
 
 ## 3. 当前基线核对结果
 
-截至 2026-10-16：
+截至 2026-10-17：
 
-- 当前上游基线：`outbreak` @ `a76673c45e0321fba74455d934c686dc1f1be02f`（已合并 `usurp-the-shadow-throne` @ `4c54285`）；按用户指令纳入已公开的 Outbreak（OBK）及 SAT/SBW 扩展数据。
-- 英文源：5,196 → 5,239 条；净增 43 张卡牌版本。
-- 当前 `card.json` SHA-256：`b43dda99f9cea99e53224aa5b11669226e31a2cbe8ebcb10b85c921d33e7c181`。
-- 当前 `card-reference.json` SHA-256：`2c895c2b98977404e08b8d703a510f06de8b4b4ca7df98b0e1a86ce2a894715d`。
-- 新增 43 条中文草稿（含 12 位新英雄），均已注入中文牌名与正文。
-- 已重建 3,363 张合并卡牌，manifest `9ce3719cf385`；别名表增至 9,789 条；更新详情见 [本次更新报告](data-updates/2026-10-16.md)。
+- 当前上游基线：`outbreak` @ `b68cbd290ce44c672272f48d93f2d20318994575`（已合并 `usurp-the-shadow-throne` @ `debce79`）；按用户指令纳入已公开的 Outbreak（OBK）及 SAT/SBW 扩展数据。
+- 前次基线：`outbreak` @ `a76673c45e0321fba74455d934c686dc1f1be02f`（5,196 → 5,239 条）。
+- 英文源：5,239 → 5,239 条；新增 0、删除 0、变化 24（上游勘误/排版修正）。
+- 当前 `card.json` SHA-256：`3fa23ee207d8165078b7c0006ca83db013f6bd88b5390080bc10b77bf4a697de`。
+- 当前 `card-reference.json` SHA-256：`2c895c2b98977404e08b8d703a510f06de8b4b4ca7df98b0e1a86ce2a894715d`（未变）。
+- 24 张变化卡已同步英文快照；其中 8 张（11 个 pitch）规则实质变化已同步中文正文。
+- 已重建 3,363 张合并卡牌，manifest `0c77b8be2613`；别名表增至 9,792 条；更新详情见 [本次更新报告](data-updates/2026-10-17.md)。
 - FaBrary 和预览页面仍只作交叉核对，不替代上游 JSON。
 
 ## 4. 给 Agent 的执行指令
@@ -186,7 +187,7 @@ card-reference.json：<before hash> -> <after hash>
 当用户说“更新英文卡牌数据库”时，Agent 按本规范执行一次人工核对：
 
 ~~~
-只使用 the-fab-cube/flesh-and-blood-cards 的指定基线分支；当前默认是已采用的 `usurp-the-shadow-throne` spoiler 分支。
+只使用 the-fab-cube/flesh-and-blood-cards 的指定基线分支；当前默认是已采用的 `outbreak` spoiler 分支（§3 记录实际 commit）。
 先在临时目录拉取并比较 card.json 与 card-reference.json，记录 branch、commit、hash 和差异数量。
 不使用其他未经采用的 feature/spoiler branch，不使用 FaBrary 页面补写英文源，不删除本地卡。
 确认有差异后才同步英文源；同步后重新生成 cards.en.json 和 alias，再处理中文翻译，最后 npm run build 和 npm test。

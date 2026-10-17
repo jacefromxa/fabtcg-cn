@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "9ce3719cf385",
+  "version": "0c77b8be2613",
   "cards": {
     "a_bit_off_the_side": {
       "id": "a_bit_off_the_side",
@@ -1115,8 +1115,8 @@
       "name_en": "Celebrant Broadsword",
       "type_zh": "崇敬 战士 武器·剑 （双手）",
       "type_en": "",
-      "text_zh": "每回合一次行动——{r}：攻击\n若你本回合获得过欢呼，此牌的攻击获得再动。",
-      "text_en": "Once per Turn Action - {r}: Attack\nIf you've been cheered this turn, this card's attacks get go again.",
+      "text_zh": "每回合一次行动——{r}{r}：攻击\n若你本回合获得过欢呼，此牌的攻击获得再动。",
+      "text_en": "Once per Turn Action - {r}{r}: Attack\nIf you've been cheered this turn, this card's attacks get go again.",
       "source": "https://cards.fabtcg.com/card/celebrant_broadsword/",
       "status": "machine-draft",
       "keywords": [

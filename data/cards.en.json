@@ -22491,7 +22491,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "When this hits, create a Gate to i'Arathael token\nBlood Debt\"",
+    "text_en": "When this hits, create a Gate to i'Arathael token.\nBlood Debt",
     "type_en": "Shadow Action - Attack",
     "printings": [
       {
@@ -22518,7 +22518,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "When this hits, create a Gate to i'Arathael token\nBlood Debt\"",
+    "text_en": "When this hits, create a Gate to i'Arathael token.\nBlood Debt",
     "type_en": "Shadow Action - Attack",
     "printings": [
       {
@@ -22545,7 +22545,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "When this hits, create a Gate to i'Arathael token\nBlood Debt\"",
+    "text_en": "When this hits, create a Gate to i'Arathael token.\nBlood Debt",
     "type_en": "Shadow Action - Attack",
     "printings": [
       {
@@ -26354,7 +26354,7 @@
       "Sword",
       "2H"
     ],
-    "text_en": "Once per Turn Action - {r}: Attack\nIf you've been cheered this turn, this card's attacks get go again.",
+    "text_en": "Once per Turn Action - {r}{r}: Attack\nIf you've been cheered this turn, this card's attacks get go again.",
     "type_en": "Revered Warrior Weapon - Sword (2H)",
     "printings": [
       {
@@ -34508,7 +34508,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "When this hits, create a Gate to i'Arathael token\nBlood Debt\"",
+    "text_en": "When this hits, create a Gate to i'Arathael token.\nBlood Debt",
     "type_en": "Shadow Action - Attack",
     "printings": [
       {
@@ -34535,7 +34535,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "When this hits, create a Gate to i'Arathael token\nBlood Debt\"",
+    "text_en": "When this hits, create a Gate to i'Arathael token.\nBlood Debt",
     "type_en": "Shadow Action - Attack",
     "printings": [
       {
@@ -34562,7 +34562,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "When this hits, create a Gate to i'Arathael token\nBlood Debt\"",
+    "text_en": "When this hits, create a Gate to i'Arathael token.\nBlood Debt",
     "type_en": "Shadow Action - Attack",
     "printings": [
       {
@@ -34756,7 +34756,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "If this was played from your banished zone, it gets \"Defense reaction cards can't be played this chain link.\nWhen this hits a hero, banish all cards in their arsenal.\nBlood Debt",
+    "text_en": "If this was played from your banished zone, it gets \"Defense reaction cards can't be played this chain link.\"\nWhen this hits a hero, banish all cards in their arsenal.\nBlood Debt",
     "type_en": "Shadow Action - Attack",
     "printings": [
       {
@@ -37703,7 +37703,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "Crush - When this deals 4 or more damage to a hero, they reveal their arsenal and hand. Destroy all non-attack action cards in their arsenal, and they discard all non-attack action cards in their hand revealed this way.",
+    "text_en": "Crush - When this deals 4 or more damage to a hero, they reveal their arsenal and hand. Destroy all non-attack action cards in their arsenal and they discard all non-attack action cards in their hand revealed this way.",
     "type_en": "Guardian Action - Attack",
     "printings": [
       {
@@ -39234,7 +39234,7 @@
       "Shadow",
       "Action"
     ],
-    "text_en": "You may put a card from your hand on top of your deck rather than pay this card's {r} cost.\nYour next Shadow attack this turn gets +1{p}. Go again\nBlood Debt",
+    "text_en": "You may put a card from your hand on top of your deck rather than pay this card's {r} cost.\nYour next Shadow attack this turn gets +2{p}. Go again\nBlood Debt",
     "type_en": "Shadow Action",
     "printings": [
       {
@@ -52242,7 +52242,7 @@
       "Runeblade",
       "Action"
     ],
-    "text_en": "You may play this from your banished zone. If you do, it costs an additional {r} to play.\nOpt 1, then create a Runechant token. Go again\nBlood Debt",
+    "text_en": "You may play this from your banished zone. If you do, it costs an additional {r}{r} to play.\nOpt 1, then create a Runechant token. Go again\nBlood Debt",
     "type_en": "Shadow Runeblade Action",
     "printings": [
       {
@@ -52269,7 +52269,7 @@
       "Runeblade",
       "Action"
     ],
-    "text_en": "You may play this from your banished zone. If you do, it costs an additional {r} to play.\nOpt 1, then create a Runechant token. Go again\nBlood Debt",
+    "text_en": "You may play this from your banished zone. If you do, it costs an additional {r}{r}{r} to play.\nOpt 1, then create a Runechant token. Go again\nBlood Debt",
     "type_en": "Shadow Runeblade Action",
     "printings": [
       {
@@ -55596,7 +55596,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "Stealth\nContract - You are contracted to hit a marked hero named Cindi. Whenever you complete this contract, draw a card.",
+    "text_en": "Stealth\nContract - You are contracted to hit a marked hero named Cindra. Whenever you complete this contract, draw a card.",
     "type_en": "Assassin Action - Attack",
     "printings": [
       {
@@ -88850,7 +88850,7 @@
       "Equipment",
       "Arms"
     ],
-    "text_en": "If you have the same {h} as a hero, it also counts as you having more {h} than them, and them having less {h} than you.\nBlade Break",
+    "text_en": "If you have the same {h} as another hero, it also counts as you having more {h} than them, and them having less {h} than you.\nBlade Break",
     "type_en": "Reviled Equipment - Arms",
     "printings": [
       {
@@ -91200,7 +91200,7 @@
       "Hero",
       "Young"
     ],
-    "text_en": "Action - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. Go again\nWhenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished Zone.",
+    "text_en": "Action - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. Go again\nWhenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished zone.",
     "type_en": "Shadow Necromancer Hero - Young",
     "printings": [
       {
@@ -91232,7 +91232,7 @@
       "Necromancer",
       "Hero"
     ],
-    "text_en": "Action - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. Go again\nWhenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished Zone.",
+    "text_en": "Action - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. Go again\nWhenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished zone.",
     "type_en": "Shadow Necromancer Hero",
     "printings": [
       {
@@ -119553,7 +119553,7 @@
       "Zombie",
       "Ally"
     ],
-    "text_en": "Instant - {t}, Discard a card. If you do, draw a card.\nDecay",
+    "text_en": "Instant - {t}: Discard a card. If you do, draw a card.\nDecay",
     "type_en": "Shadow Necromancer Action - Zombie Ally",
     "printings": [
       {
@@ -122076,7 +122076,18 @@
     ],
     "text_en": "When this defends, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets +2{d}. Otherwise, put the revealed card on the bottom.\nInstant - Discard this: Your next attack this turn gets +2{p}.",
     "type_en": "Brute Block",
-    "printings": []
+    "printings": [
+      {
+        "id": "IAR050",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR050.webp"
+      },
+      {
+        "id": "IAR050",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR050.webp"
+      }
+    ]
   },
   "rise_to_the_challenge__2": {
     "source_unique_id": "rqqhfk6QgmJCNkQNGhqNg",
@@ -122091,7 +122102,18 @@
     ],
     "text_en": "When this defends, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets +2{d}. Otherwise, put the revealed card on the bottom.\nInstant - Discard this: Your next attack this turn gets +2{p}.",
     "type_en": "Brute Block",
-    "printings": []
+    "printings": [
+      {
+        "id": "IAR051",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR051.webp"
+      },
+      {
+        "id": "IAR051",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR051.webp"
+      }
+    ]
   },
   "rise_to_the_challenge__3": {
     "source_unique_id": "wQNrNhFfjBdkDnQ8QkJqq",
@@ -122106,7 +122128,18 @@
     ],
     "text_en": "When this defends, reveal the top card of your deck. If the revealed card has 6 or more base {p}, this gets +2{d}. Otherwise, put the revealed card on the bottom.\nInstant - Discard this: Your next attack this turn gets +2{p}.",
     "type_en": "Brute Block",
-    "printings": []
+    "printings": [
+      {
+        "id": "IAR052",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR052.webp"
+      },
+      {
+        "id": "IAR052",
+        "set_id": "IAR",
+        "image_url": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR052.webp"
+      }
+    ]
   },
   "rising_energy": {
     "source_unique_id": "99mLLCjqp78PFD7mcGktB",
@@ -133232,7 +133265,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.\nBlood Debt",
+    "text_en": "When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.\nBlood Debt",
     "type_en": "Shadow Action - Attack",
     "printings": [
       {
@@ -133259,7 +133292,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.\nBlood Debt",
+    "text_en": "When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.\nBlood Debt",
     "type_en": "Shadow Action - Attack",
     "printings": [
       {
@@ -133286,7 +133319,7 @@
       "Action",
       "Attack"
     ],
-    "text_en": "When this attacks, you may banish a card from your hand. If it's Shadow, this gets +2{p}.\nBlood Debt",
+    "text_en": "When this attacks, you may banish a card from your hand. If it's Shadow, create a Gate to i'Arathael token.\nBlood Debt",
     "type_en": "Shadow Action - Attack",
     "printings": [
       {
@@ -172721,7 +172754,7 @@
       "Shuriken",
       "Item"
     ],
-    "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nWhen this hits a hero, they lose all hero card abilities during their next action phase",
+    "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nWhen this hits a hero, they lose all hero card abilities during their next action phase.",
     "type_en": "Ninja Instant - Shuriken Item",
     "printings": [
       {

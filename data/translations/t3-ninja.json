@@ -3869,7 +3869,7 @@
     "name_en": "Wind Slicer",
     "name_zh": "切风镖",
     "type_zh": "忍者 瞬间·Shuriken 物品",
-    "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nWhen this hits a hero, they lose all hero card abilities during their next action phase",
+    "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nWhen this hits a hero, they lose all hero card abilities during their next action phase.",
     "text_zh": "传奇\n行动——{r}，{t}，在战斗链关闭时摧毁此牌：攻击。再动\n当此牌命中英雄时，该英雄在其下个行动阶段中失去所有英雄牌异能。",
     "pitch": "3",
     "cost": "0",

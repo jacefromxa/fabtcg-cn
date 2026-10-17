@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "9ce3719cf385",
+  "version": "0c77b8be2613",
   "cards": {
     "ancestral_empowerment": {
       "id": "ancestral_empowerment",
@@ -4214,7 +4214,7 @@
       "type_zh": "忍者 瞬间·Shuriken 物品",
       "type_en": "",
       "text_zh": "传奇\n行动——{r}，{t}，在战斗链关闭时摧毁此牌：攻击。再动\n当此牌命中英雄时，该英雄在其下个行动阶段中失去所有英雄牌异能。",
-      "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nWhen this hits a hero, they lose all hero card abilities during their next action phase",
+      "text_en": "Legendary\nAction - {r}, {t}, destroy this when the combat chain closes: Attack. Go again\nWhen this hits a hero, they lose all hero card abilities during their next action phase.",
       "source": "https://cards.fabtcg.com/card/wind_slicer/",
       "status": "machine-draft",
       "keywords": [

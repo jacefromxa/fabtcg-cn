@@ -1851,7 +1851,7 @@
     "name_en": "Restless Looter",
     "name_zh": "不息掠夺者",
     "type_zh": "暗影 死灵法师 行动·僵尸盟友",
-    "text_en": "Instant - {t}, Discard a card. If you do, draw a card.\nDecay",
+    "text_en": "Instant - {t}: Discard a card. If you do, draw a card.\nDecay",
     "text_zh": "瞬间——{t}，弃一张牌。若如此做，抽一张牌。\n腐朽",
     "pitch": "1",
     "cost": "0",
